@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - кол: # Noun 122 'eng home/fin koti' - full paradigm
+#
+     кол+N+Sg+Nom: кол
+     кол+N+Sg+Nom+PxSg1: колум
+     кол+N+Sg+Nom+PxSg2: колын
+     кол+N+Sg+Nom+PxSg3: колэ
+     кол+N+Sg+Nom+PxDu1: колме̄н
+     кол+N+Sg+Nom+PxDu2: колын
+     кол+N+Sg+Nom+PxDu3: колэ̄н
+     кол+N+Sg+Nom+PxPl1: колув
+     кол+N+Sg+Nom+PxPl2: колы̄н
+     кол+N+Sg+Nom+PxPl3: коланыл
+     кол+N+Sg+Loc: колт
+     кол+N+Sg+Loc+PxSg1: колумт
+     кол+N+Sg+Loc+PxSg2: колынт
+     кол+N+Sg+Loc+PxSg3: колэт
+     кол+N+Sg+Loc+PxDu1: колме̄нт
+     кол+N+Sg+Loc+PxDu2: колынт
+     кол+N+Sg+Loc+PxDu3: колэ̄нт
+     кол+N+Sg+Loc+PxPl1: колувт
+     кол+N+Sg+Loc+PxPl2: колы̄нт
+     кол+N+Sg+Loc+PxPl3: коланылт
+     кол+N+Du+Nom: колыг
+     кол+N+Du+Loc: колыгт
+     кол+N+Pl+Nom: колыт
+     кол+N+Pl+Loc: колытт

@@ -108,14 +108,19 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
  {aä} {oö} {uü}
+%{АЯØ%}	!!= __@CODE@__ 
 %{ЫИØ%}	!!= __@CODE@__ 
+%{ЫØ%}	!!= __@CODE@__ +Loc
 %{УЮØ%}	!!= __@CODE@__ 
 %{ТØ%}	!!= __@CODE@__ 
-%{ЭЕ%}	!!= __@CODE@__ 
+%{ЭЕ%}	!!= __@CODE@__ PxSg3
 
 
 !! And following triggers to control variation
  {front} {back}
+%^PxDu2	!!= __@CODE@__ 
+%^PxDu3	!!= __@CODE@__ 
+%^PxPl2	!!= __@CODE@__ 
 
 
 !! We have manually optimised the structure of our lexicon using following
@@ -123,7 +128,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 @P.NeedNoun.ON@  @D.NeedNoun.ON@  @C.NeedNoun@
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in the MANSI language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    Nouns   ;
    Verbs   ;
