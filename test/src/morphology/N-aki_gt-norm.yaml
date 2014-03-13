@@ -1,0 +1,38 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - аки: # Noun 122 'eng paternal uncle/est kahju/fin setä' - full paradigm
+     аки+N+Sg+Nom: аки
+     аки+N+Sg+Nom+PxSg1: аким
+     аки+N+Sg+Nom+PxSg2: акин
+     аки+N+Sg+Nom+PxSg3: акитэ
+     аки+N+Sg+Nom+PxDu1: акиме̄н
+     аки+N+Sg+Nom+PxDu2: акӣн
+     аки+N+Sg+Nom+PxDu3: акитэ̄н
+     аки+N+Sg+Nom+PxPl1: акиюв
+     аки+N+Sg+Nom+PxPl2: акин
+     аки+N+Sg+Nom+PxPl3: акияныл
+     аки+N+Du+Nom: акийыг
+     аки+N+Pl+Nom: акит
+#
+     а̄ны+N+Sg+Nom: а̄ны
+     а̄ны+N+Sg+Nom+PxSg1: а̄ным
+     а̄ны+N+Sg+Nom+PxSg2: а̄нын
+     а̄ны+N+Sg+Nom+PxSg3: а̄нытэ
+     а̄ны+N+Du+Nom: а̄ныйыг
+     а̄ны+N+Pl+Nom: а̄ныт

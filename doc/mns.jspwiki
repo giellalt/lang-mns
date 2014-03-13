@@ -61,18 +61,24 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
+ __%{АЯØ%}	__ 
  __%{ЫИØ%}	__ 
+ __%{ЫØ%}	__ +Loc
  __%{УЮØ%}	__ 
  __%{ТØ%}	__ 
- __%{ЭЕ%}	__ 
+ __%{ЭЕ%}	__ PxSg3
 
 
 And following triggers to control variation
+ __%^PxDu2	__ 
+ __%^PxDu3	__ 
+ __%^PxPl2	__ 
 
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
-The word forms in UNDEFINED language start from the lexeme roots of basic
+The word forms in the MANSI language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
+
 

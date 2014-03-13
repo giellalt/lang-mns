@@ -4,12 +4,15 @@
 
 LEXICON Nouns
 noun    Cases   ;
-о̄йка:о̄йка N_КОЛ "old man" ;
+о̄йка:о̄йка N_РУМА "old man" ;
+рума:рума N_РУМА "friend" ;
 
-а̄ны:а̄ны N_КОЛ "cup" ;
+а̄ны:а̄ны N_АКИ "cup" ;
+аки:аки N_АКИ "paternal uncle" ;
 
 кол:кол N_КОЛ "house" ;
 
-ха̄ль:ха̄ль N_КОЛ "birch" ;
+паль:паль N_ПАЛЬ "ear" ;
+ха̄ль:ха̄ль N_ПАЛЬ "birch" ;
 
 ! vim: set ft=xfst-lexc:
