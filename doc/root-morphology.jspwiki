@@ -1,24 +1,26 @@
 
-Morphology
-----------
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF UNDEFINED LANGUAGE.
+           !!!Mansi morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
 
 
-Analysis symbols
+ !!!Multichar_Symbols definitions
+
+!!Letters in alphabet
+Vowels with a macron 
+
+
+
+!!Analysis symbols
 ----------------
-The morphological analyses of wordforms of NORTHERN KHANTY language are presented
+The morphological analyses of wordforms of UNDEFINED language are presented
 in this system in terms of following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
-
-These letters are hopefully are not a problem
 
 The parts-of-speech are:
 
 The parts of speech are further split up into:
 
 The Usage extents are marked using following tags:
-
-The dialect variants are expressed using the following tags:
 
 The nominals are inflected in the following Case and Number
 
@@ -27,10 +29,6 @@ The comparative forms are:
 Numerals are classified under:
 Verb moods are:
 Verb personal forms are:
-Subject conjugation
-Object conjugation
-
-
 Other verb forms are
 
 Special symbols are classified with:
@@ -52,16 +50,18 @@ Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
-* @NO CODE@ ! used in possessor indices
-* @NO CODE@ ! used in possessor indices
+ __%{ЫИØ%}	__ 
+ __%{УЮØ%}	__ 
+ __%{ТØ%}	__ 
+ __%{ЭЕ%}	__ 
 
 
 And following triggers to control variation
+
 
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics:
 
 The word forms in UNDEFINED language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
-
 

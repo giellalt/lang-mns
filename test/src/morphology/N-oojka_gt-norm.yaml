@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - о̄йка: # Noun 122 'eng old man/est kahju/fin' - full paradigm
+     о̄йка+N+Sg+Nom: о̄йка
+     о̄йка+N+Sg+Nom+PxSg1: о̄йкам
+     о̄йка+N+Sg+Nom+PxSg2: о̄йкан
+     о̄йка+N+Sg+Nom+PxSg3: о̄йкатэ
+     о̄йка+N+Du+Nom: о̄йкаг
+     о̄йка+N+Pl+Nom: о̄йкат
+#
+     а̄ны+N+Sg+Nom: а̄ны
+     а̄ны+N+Sg+Nom+PxSg1: а̄ным
+     а̄ны+N+Sg+Nom+PxSg2: а̄нын
+     а̄ны+N+Sg+Nom+PxSg3: а̄нытэ
+     а̄ны+N+Du+Nom: а̄ныйыг
+     а̄ны+N+Pl+Nom: а̄ныт
+#
+     кол+N+Sg+Nom: кол
+     кол+N+Sg+Nom+PxSg1: колум
+     кол+N+Sg+Nom+PxSg2: колын
+     кол+N+Sg+Nom+PxSg3: колэ
+     кол+N+Du+Nom: колыг
+     кол+N+Pl+Nom: колыт
+#
+     ха̄ль+N+Sg+Nom: ха̄ль
+     ха̄ль+N+Sg+Nom+PxSg1: ха̄люм
+     ха̄ль+N+Sg+Nom+PxSg2: ха̄лин
+     ха̄ль+N+Sg+Nom+PxSg3: ха̄ле
+     ха̄ль+N+Du+Nom: ха̄лиг
+     ха̄ль+N+Pl+Nom: ха̄лит
+#
