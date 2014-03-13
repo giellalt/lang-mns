@@ -1,0 +1,15 @@
+!! Nouns
+!! -----
+!! Nouns in UNDEFINED language are things.
+
+LEXICON Nouns
+noun    Cases   ;
+о̄йка:о̄йка N_КОЛ "old man" ;
+
+а̄ны:а̄ны N_КОЛ "cup" ;
+
+кол:кол N_КОЛ "house" ;
+
+ха̄ль:ха̄ль N_КОЛ "birch" ;
+
+! vim: set ft=xfst-lexc:
