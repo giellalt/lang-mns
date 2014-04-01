@@ -16,3 +16,123 @@ noun    Cases   ;
 ха̄ль:ха̄ль N_ПАЛЬ "birch" ;
 
 ! vim: set ft=xfst-lexc:
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+!!! 0   Abbreviations   ;
+!!! 0   Acronyms    ;
+!!! 0   Adjectives  ;
+!!! 0   Adpositions ;
+!!! 0   Adverbs ;
+!!! 0   Conjunctions    ;
+!!! 0   DeverbalNouns   ;
+!!! 0   Interjections   ;
+0   Nouns-StemC    ;
+!!! 0   Nouns-StemCC    ;
+0   Nouns-StemV   ;
+!!! 0   Numerals    ;
+!!! 0   Particles   ;
+!!! 0   Prefixes    ;
+!!! 0   Pronouns    ;
+!!! 0   Symbols ;
+0   Verbs   ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Nouns-StemC
+
+Ngrandson:апыг      NounNumber-StemC ;
+Ngaff:ва̅ӈкрип       NounNumber-StemC ;
+Nbear:вōртōлнут     NounNumber-StemC ;
+Nsaddle:инар        NounNumber-StemC ;
+Ntree:йи̅в           NounNumber-StemC ;
+Ntrap:каскан        NounNumber-StemC ;
+Nhand:ка̅т           NounNumber-StemC ;
+Nrope:ква̅лыг        NounNumber-StemC ;
+Nword:ла̅тыӈ         NounNumber-StemC ;
+Nmushroom:ла̅хыс     NounNumber-StemC ;
+Nbay:лōх            NounNumber-StemC ;
+Nhorse:лув          NounNumber-StemC ;
+Nboard:па̅рт         NounNumber-StemC ;
+Nboat:ха̅п           NounNumber-StemC ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounNumber-StemC
+
+%<sg%>:0        NounCase-StemC ;
+%<du%>:ыг       NounCase-StemC ;
+%<pl%>:ыт       NounCase-StemC ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounCase-StemC
+
+%<nom%>:0        # ;
+%<lat%>:ын       # ;
+%<loc%>:э̅т       # ;
+%<abl%>:ныл      # ;
+%<instr%>:ыл     # ;
+%<tran%>:ыг      # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Nouns-StemV
+
+Ndoor:а̅ви           NounNumber-StemV ;
+Nski:ёса            NounNumber-StemV ;
+Nrazorbill:лӯлы     NounNumber-StemV ; 
+Nleaf:лӯпта         NounNumber-StemV ;
+Nsting:ōвта         NounNumber-StemV ;
+Nman:ōйка           NounNumber-StemV ;
+Nreindeer:са̅лы      NounNumber-StemV ;
+Nseagull:сира       NounNumber-StemV ;
+Nperch(fish):сымри  NounNumber-StemV ;
+Nmedicine:тэ̅рпи     NounNumber-StemV ;
+Nstreet:ӯсхулы      NounNumber-StemV ;
+Nwarehouse:ӯра      NounNumber-StemV ;
+Ntrough:хура        NounNumber-StemV ;
+Nimage:хури         NounNumber-StemV ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounNumber-StemV
+
+%<sg%>:0        NounCase-StemV ;
+%<du%>:йыг      NounCase-StemC ;
+%<pl%>:т        NounCase-StemC ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounCase-StemV
+
+%<nom%>:0       # ;
+%<lat%>:н       # ;
+%<loc%>:т       # ;
+%<abl%>:ныл     # ;
+%<instr%>:л     # ;
+%<tran%>:йыг    # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Lexicon Verbs
+
+Vgo:мин        VerbTensePers ;
+Vread:ловиньт  VerbTensePers ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Lexicon VerbTensePers
+
+%<pres%>%<sg%>%<1per%>:егым # ;
+%<pres%>%<sg%>%<2per%>:егын # ;
+%<pres%>%<sg%>%<3per%>:и # ;
+
+%<pres%>%<du%>%<1per%>:имен # ;
+%<pres%>%<du%>%<2per%>:егын # ;
+%<pres%>%<du%>%<3per%>:ег # ;
+
+%<pres%>%<pl%>%<1per%>:ев # ; 
+%<pres%>%<pl%>%<2per%>:егын # ;
+%<pres%>%<pl%>%<3per%>:егыт # ;
