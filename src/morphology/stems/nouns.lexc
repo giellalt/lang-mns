@@ -53,10 +53,10 @@ Ntree:йи̅в           NounNumber-StemC ;
 Ntrap:каскан        NounNumber-StemC ;
 Nhand:ка̅т           NounNumber-StemC ;
 Nrope:ква̅лыг        NounNumber-StemC ;
-Nword:ла̅тыӈ         NounNumber-StemC ;
-Nmushroom:ла̅хыс     NounNumber-StemC ;
+Nword:ла̅тыӈ         NounNumber-StemC ; !! syncopating
+Nmushroom:ла̅хыс     NounNumber-StemC ; !! syncopating
 Nbay:лōх            NounNumber-StemC ;
-Nhorse:лув          NounNumber-StemC ;
+Nhorse:лув          NounNumber-StemC ; 
 Nboard:па̅рт         NounNumber-StemC ;
 Nboat:ха̅п           NounNumber-StemC ;
 
