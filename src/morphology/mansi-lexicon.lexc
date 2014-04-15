@@ -1,0 +1,284 @@
+! To COMPILE this file with HFST using: in the SHELL buffer
+
+! hfst-compile.sh: combines the following three commands:
+!   hfst-lexc -v -f foma mansi-lexicon.lexc -o mansi-lexicon.inverted.hfst
+!   hfst-invert -v mansi-lexicon.inverted.hfst -o mansi-lexicon.debug.hfst
+!   hfst-fst2fst -v mansi-lexicon.debug.hfst -f olw -o mansi-lexicon.hfst
+
+! To RUN:
+!   hfst-lookup mansi-lexicon.hfst
+
+!!! ! Compile this file with xfst using:
+!!! ! lexc
+!!! ! compile-source
+!!! ! source-to-result
+!!! ! save-result finntreebank.xfst
+!!! ! Compile this file with foma using:
+!!! ! foma
+!!! ! read lexc finntreebank.lexc
+!!! ! save stack finntreebank.foma
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Multichar_Symbols
+
+%+
+
+!!! use this for macron over VOWELS: (772  ̄ #\COMBINING_MACRON)
+!!! not this one, it is too big: (773 ̅ #\COMBINING_OVERLINE)
+
+!!! (256 Ā #\LATIN_CAPITAL_LETTER_A_WITH_MACRON)
+!!! (257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON)
+!!! 
+!!! (274 Ē #\LATIN_CAPITAL_LETTER_E_WITH_MACRON)
+!!! (275 ē #\LATIN_SMALL_LETTER_E_WITH_MACRON)
+!!! 
+!!! (332 Ō #\LATIN_CAPITAL_LETTER_O_WITH_MACRON)
+!!! (333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
+!!! 
+!!! !! NB: we don't want to use these two, since we have better cyrillic codes:
+!!! (562 Ȳ #\LATIN_CAPITAL_LETTER_Y_WITH_MACRON)
+!!! (563 ȳ #\LATIN_SMALL_LETTER_Y_WITH_MACRON)
+!!! 
+!!! (1250 Ӣ #\CYRILLIC_CAPITAL_LETTER_I_WITH_MACRON)
+!!! (1251 ӣ #\CYRILLIC_SMALL_LETTER_I_WITH_MACRON)
+!!! 
+!!! (1262 Ӯ #\CYRILLIC_CAPITAL_LETTER_U_WITH_MACRON)
+!!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+!!! 
+!!! don't ask me why, but of all the cyrillic characters, there are only two
+!!! with macron...
+!!! 
+!!! the only other non-standard cyrillic character used in Mansi is:
+!!! 
+!!! (1223 Ӈ #\CYRILLIC_CAPITAL_LETTER_EN_WITH_HOOK)
+!!! (1224 ӈ #\CYRILLIC_SMALL_LETTER_EN_WITH_HOOK)
+
+! Finug  !!! L-S !!! Notes:
+ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON 
+ē        !!! 
+ё̄        !!! 
+ӣ        !!! йӣквыт
+ō        !!!    !!! (333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
+ӯ        !!! ӯ  !!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+ы̄        !!! ??? http://www.nba.fi/hanti/mn/intro1.php
+э̄        !!! 
+ю̄        !!! 
+я̄        !!! 
+      
+Ы        !!! syncopating vowel symbol
+
+
+!!! 
+!!! ! Use bracketed multichars like <X%> to get output " X" in hfst-proc --cg!!!
+!!! 
+!!! %<A%>
+%<N%>
+%<V%>
+!!! %<Adp%> %<Prep%> %<Postp%>
+!!! %<Adv%>
+!!! %<Abbr%> %<Interj%>
+!!! %<Pron%>
+!!! %<CC%> %<CS%>
+!!! %<Punct%> %<Char%>
+!!! 
+!!! %<dem%> %<indef%>
+!!! 
+%<sg%> %<pl%>
+%<nom%> %<gen%> %<par%> %<acc%>
+!!! %<ine%> %<ela%> %<ill%>
+%<ade%> %<abl%> %<all%>
+!!! %<abe%> %<ins%> %<ess%> %<cmt%> %<tra%>
+!!! 
+!!! %<pxsg1%> %<pxsg2%> %<pxsg3%>
+!!! %<pxpl1%> %<pxpl2%> %<pxpl3%>
+!!! 
+!!! %<sg1%> %<sg2%> %<sg3%>
+!!! %<pl1%> %<pl2%> %<pl3%>
+!!! %<pe4%>
+!!! %<act%> %<pss%>
+!!! %<indv%> %<cond%> %<impv%> %<potn%>
+!!! %<pres%> %<past%>
+!!! %<a%> %<e%> %<ma%> 
+!!! %<pcpnut%> %<pcpma%> %<pcpva%>
+!!! %<neg%> %<conneg%>
+!!! %<sup%> %<cmp%>
+!!! %<han%> %<ko%> %<pa%> %<s%> %<kaan%> %<ka%> %<kin%>
+!!! %<sent%>
+!!! %<dash%> %<bracket%-open%> %<bracket%-close%>
+!!! %<%?%>
+
+
+LEXICON Root
+!!! 0   Abbreviations   ;
+!!! 0   Acronyms    ;
+!!! 0   Adjectives  ;
+!!! 0   Adpositions ;
+!!! 0   Adverbs ;
+!!! 0   Conjunctions    ;
+!!! 0   DeverbalNouns   ;
+!!! 0   Interjections   ;
+0   Nouns-StemC    ;
+0   Nouns-StemCC    ;
+0   Nouns-StemV1   ;
+0   Nouns-StemV2   ; 
+!!! 0   Numerals    ;
+!!! 0   Particles   ;
+!!! 0   Prefixes    ;
+!!! 0   Pronouns    ;
+!!! 0   Symbols ;
+0   Verbs   ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Nouns-StemC
+
+!-  Ngrandson:апыг      NounNumber-StemC ;
+!-  Ngaff:вāӈкрип       NounNumber-StemC ;
+!-  Nbear:вōртōлнут     NounNumber-StemC ;
+!-  Nsaddle:инар        NounNumber-StemC ;
+!-  Ntree:йӣв           NounNumber-StemC ;
+!-  Ntrap:каскан        NounNumber-StemC ;
+!-  Nhand:кāт           NounNumber-StemC ;
+!-  Nrope:квāлыг        NounNumber-StemC ;
+!-  Nword:лāтЫӈ         NounNumber-StemC ;  !!syncopating!
+!-  Nmushroom:лāхЫс     NounNumber-StemC ;  !!syncopating!
+!-  Nbay:лōх            NounNumber-StemC ;
+!-  Nhorse:лув          NounNumber-StemC ;
+!-  Nboat:хāп           NounNumber-StemC ;
+
+апыг:апыг             NounNumber-StemC	"grandson" ;
+вāӈкрип:вāӈкрип       NounNumber-StemC	"gaff" ;
+вōртōлнут:вōртōлнут   NounNumber-StemC	"bear" ;
+инар:инар             NounNumber-StemC	"saddle" ;
+йӣв:йӣв               NounNumber-StemC	"tree" ;
+каскан:каскан         NounNumber-StemC	"trap" ;
+кāт:кāт               NounNumber-StemC	"hand" ;
+квāлыг:квāлыг         NounNumber-StemC	"rope" ;
+лāтЫӈ:лāтЫӈ           NounNumber-StemC	"word" ;  !!syncopating!
+лāхЫс:лāхЫс           NounNumber-StemC	"mushroom" ;  !!syncopating!
+лōх:лōх               NounNumber-StemC	"bay" ;
+лув:лув               NounNumber-StemC	"horse" ;
+хāп:хāп               NounNumber-StemC	"boat" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounNumber-StemC
+
+%<N%>%<sg%>:0        NounCase-StemC ;
+%<N%>%<du%>:ыг       NounCase-StemC ;
+%<N%>%<pl%>:ыт       NounCase-StemC ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounCase-StemC
+
+%<nom%>:0        # ;
+%<lat%>:н        # ;
+%<loc%>:т        # ;
+%<abl%>:ныл      # ;
+%<instr%>:ыл     # ;
+%<tran%>:ыг      # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Nouns-StemCC
+
+пāрт:пāрт          NounNumber-StemCC	"board" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounNumber-StemCC
+
+%<N%>%<sg%>:0        NounCase-StemCC ;
+%<N%>%<du%>:ыг       NounCase-StemC  ;
+%<N%>%<pl%>:ыт       NounCase-StemC  ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounCase-StemCC
+
+%<nom%>:0        # ;
+%<lat%>:ын       # ;
+%<loc%>:ыт       # ;
+%<abl%>:ныл      # ;
+%<instr%>:ыл     # ;
+%<tran%>:ыг      # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Nouns-StemV1
+
+ёса:ёса           NounNumber-StemV1	"ski" ;
+лӯпта:лӯпта       NounNumber-StemV1	"leaf" ;
+ōвта:ōвта         NounNumber-StemV1	"sting" ;
+ōйка:ōйка         NounNumber-StemV1	"man" ;
+сира:сира         NounNumber-StemV1	"seagull" ;
+ӯра:ӯра           NounNumber-StemV1	"warehouse" ;
+хура:хура         NounNumber-StemV1	"trough" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounNumber-StemV1
+
+%<N%>%<sg%>:0        NounCase-StemV1 ;
+%<N%>%<du%>:г        NounCase-StemC  ;
+%<N%>%<pl%>:т        NounCase-StemC  ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounCase-StemV1
+
+%<nom%>:0       # ;
+%<lat%>:н       # ;
+%<loc%>:т       # ;
+%<abl%>:ныл     # ;
+%<instr%>:л     # ;
+%<tran%>:г      # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Nouns-StemV2
+
+āви:āви            NounNumber-StemV2	"door" ;
+лӯлы:лӯлы          NounNumber-StemV2	"razorbill" ;
+сāлы:сāлы          NounNumber-StemV2	"reindeer" ;
+сымри:сымри        NounNumber-StemV2	"perch(fish)" ;
+тэ̄рпи:тэ̄рпи        NounNumber-StemV2	"medicine" ;
+ӯсхулы:ӯсхулы      NounNumber-StemV2	"street" ;
+хури:хури          NounNumber-StemV2	"image" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounNumber-StemV2
+
+%<N%>%<sg%>:0        NounCase-StemV2 ;
+%<N%>%<du%>:йыг      NounCase-StemC  ;
+%<N%>%<pl%>:т        NounCase-StemC  ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON NounCase-StemV2
+
+%<nom%>:0       # ;
+%<lat%>:н       # ;
+%<loc%>:т       # ;
+%<abl%>:ныл     # ;
+%<instr%>:л     # ;
+%<tran%>:йыг    # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON Verbs
+
+мин:мин           VerbTensePers	"go" ;
+ловиньт:ловиньт   VerbTensePers	"read" ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+LEXICON VerbTensePers
+
+%<V%>%<pres%>%<sg%>%<1per%>:егым # ;
+%<V%>%<pres%>%<sg%>%<2per%>:егын # ;
+%<V%>%<pres%>%<sg%>%<3per%>:и # ;
+
+%<V%>%<pres%>%<du%>%<1per%>:имен # ;
+%<V%>%<pres%>%<du%>%<2per%>:егын # ;
+%<V%>%<pres%>%<du%>%<3per%>:ег # ;
+
+%<V%>%<pres%>%<pl%>%<1per%>:ев # ; 
+%<V%>%<pres%>%<pl%>%<2per%>:егын # ;
+%<V%>%<pres%>%<pl%>%<3per%>:егыт # ;

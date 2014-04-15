@@ -1,0 +1,63 @@
+! Compile this RULE file with HFST using:
+
+! hfst-twolc --input mansi-gradation-rules.twol --output mansi-gradation-rules.hfst --resolve
+! hfst-compose-intersect -1 mansi-lexicon.hfst -2 mansi-gradation-rules.hfst
+
+!!! ! Compile this file with xfst using:
+!!! ! lexc
+!!! ! compile-source
+!!! ! source-to-result
+!!! ! save-result finntreebank.xfst
+!!! ! Compile this file with foma using:
+!!! ! foma
+!!! ! read lexc finntreebank.lexc
+!!! ! save stack finntreebank.foma
+
+!!! Our own Mansi grammar
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Alphabet
+
+    %+:0   ! morpheme boundary
+    а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+    ā ē ё̄ ӣ ō ӯ ы̄ э̄ ю̄ я̄
+    ӈ
+    Ы:ы
+    Ы:0
+    %+:0
+    ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Sets
+
+Letter = а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+         ӈ
+         ā ē ё̄ ӣ ō ӯ ы̄ э̄ ю̄ я̄
+         %+
+         ;
+
+Vowel = а е ё и о у ы э ю я 
+        ā ē ё̄ ӣ ō ӯ ы̄ э̄ ю̄ я̄
+        ;
+
+SVowel = а е ё и о у ы э ю я ;
+LVowel = ā ē ё̄ ӣ ō ӯ ы̄ э̄ ю̄ я̄ ;
+
+Cons  = б в г д ж з й к л м н п р с т ф х ц ч ш щ
+      ӈ
+      ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Definitions
+
+! PostSyncStem  =  :Cons  %+:0 ;
+PostSyncStem  =  :Cons   ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Rules
+
+"Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
+Ы:0   <=>   _  PostSyncStem   :Vowel ;
