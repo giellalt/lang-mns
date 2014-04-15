@@ -3,136 +3,53 @@
 !! Nouns in UNDEFINED language are things.
 
 LEXICON Nouns
-noun    Cases   ;
-о̄йка:о̄йка N_РУМА "old man" ;
-рума:рума N_РУМА "friend" ;
 
-а̄ны:а̄ны N_АКИ "cup" ;
-аки:аки N_АКИ "paternal uncle" ;
-
-кол:кол N_КОЛ "house" ;
-
-паль:паль N_ПАЛЬ "ear" ;
-ха̄ль:ха̄ль N_ПАЛЬ "birch" ;
-
-! vim: set ft=xfst-lexc:
+! 0   Nouns-StemC    ;
+! 0   Nouns-StemCC    ;
+! 0   Nouns-StemV1   ;
+! 0   Nouns-StemV2   ; 
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON Root
-!!! 0   Abbreviations   ;
-!!! 0   Acronyms    ;
-!!! 0   Adjectives  ;
-!!! 0   Adpositions ;
-!!! 0   Adverbs ;
-!!! 0   Conjunctions    ;
-!!! 0   DeverbalNouns   ;
-!!! 0   Interjections   ;
-0   Nouns-StemC    ;
-!!! 0   Nouns-StemCC    ;
-0   Nouns-StemV   ;
-!!! 0   Numerals    ;
-!!! 0   Particles   ;
-!!! 0   Prefixes    ;
-!!! 0   Pronouns    ;
-!!! 0   Symbols ;
-0   Verbs   ;
+!LEXICON Nouns-StemC
+
+апыг:апыг             NounNumber-StemC	"grandson" ;
+вāӈкрип:вāӈкрип       NounNumber-StemC	"gaff" ;
+вōртōлнут:вōртōлнут   NounNumber-StemC	"bear" ;
+инар:инар             NounNumber-StemC	"saddle" ;
+йӣв:йӣв               NounNumber-StemC	"tree" ;
+каскан:каскан         NounNumber-StemC	"trap" ;
+кāт:кāт               NounNumber-StemC	"hand" ;
+квāлыг:квāлыг         NounNumber-StemC	"rope" ;
+лāтЫӈ:лāтЫӈ           NounNumber-StemC	"word" ;  !!syncopating!
+лāхЫс:лāхЫс           NounNumber-StemC	"mushroom" ;  !!syncopating!
+лōх:лōх               NounNumber-StemC	"bay" ;
+лув:лув               NounNumber-StemC	"horse" ;
+хāп:хāп               NounNumber-StemC	"boat" ;
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON Nouns-StemC
+!LEXICON Nouns-StemCC
 
-Ngrandson:апыг      NounNumber-StemC ;
-Ngaff:ва̅ӈкрип       NounNumber-StemC ;
-Nbear:вōртōлнут     NounNumber-StemC ;
-Nsaddle:инар        NounNumber-StemC ;
-Ntree:йи̅в           NounNumber-StemC ;
-Ntrap:каскан        NounNumber-StemC ;
-Nhand:ка̅т           NounNumber-StemC ;
-Nrope:ква̅лыг        NounNumber-StemC ;
-Nword:ла̅тыӈ         NounNumber-StemC ; !! syncopating
-Nmushroom:ла̅хыс     NounNumber-StemC ; !! syncopating
-Nbay:лōх            NounNumber-StemC ;
-Nhorse:лув          NounNumber-StemC ; 
-Nboard:па̅рт         NounNumber-StemC ;
-Nboat:ха̅п           NounNumber-StemC ;
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON NounNumber-StemC
-
-%<sg%>:0        NounCase-StemC ;
-%<du%>:ыг       NounCase-StemC ;
-%<pl%>:ыт       NounCase-StemC ;
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON NounCase-StemC
-
-%<nom%>:0        # ;
-%<lat%>:ын       # ;
-%<loc%>:э̅т       # ;
-%<abl%>:ныл      # ;
-%<instr%>:ыл     # ;
-%<tran%>:ыг      # ;
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON Nouns-StemV
-
-Ndoor:а̅ви           NounNumber-StemV ;
-Nski:ёса            NounNumber-StemV ;
-Nrazorbill:лӯлы     NounNumber-StemV ; 
-Nleaf:лӯпта         NounNumber-StemV ;
-Nsting:ōвта         NounNumber-StemV ;
-Nman:ōйка           NounNumber-StemV ;
-Nreindeer:са̅лы      NounNumber-StemV ;
-Nseagull:сира       NounNumber-StemV ;
-Nperch(fish):сымри  NounNumber-StemV ;
-Nmedicine:тэ̅рпи     NounNumber-StemV ;
-Nstreet:ӯсхулы      NounNumber-StemV ;
-Nwarehouse:ӯра      NounNumber-StemV ;
-Ntrough:хура        NounNumber-StemV ;
-Nimage:хури         NounNumber-StemV ;
+пāрт:пāрт          NounNumber-StemCC	"board" ;
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON NounNumber-StemV
+!LEXICON Nouns-StemV1
 
-%<sg%>:0        NounCase-StemV ;
-%<du%>:йыг      NounCase-StemC ;
-%<pl%>:т        NounCase-StemC ;
+ёса:ёса           NounNumber-StemV1	"ski" ;
+лӯпта:лӯпта       NounNumber-StemV1	"leaf" ;
+ōвта:ōвта         NounNumber-StemV1	"sting" ;
+ōйка:ōйка         NounNumber-StemV1	"man" ;
+сира:сира         NounNumber-StemV1	"seagull" ;
+ӯра:ӯра           NounNumber-StemV1	"warehouse" ;
+хура:хура         NounNumber-StemV1	"trough" ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-LEXICON NounCase-StemV
 
-%<nom%>:0       # ;
-%<lat%>:н       # ;
-%<loc%>:т       # ;
-%<abl%>:ныл     # ;
-%<instr%>:л     # ;
-%<tran%>:йыг    # ;
+!LEXICON Nouns-StemV2
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Lexicon Verbs
-
-Vgo:мин        VerbTensePers ;
-Vread:ловиньт  VerbTensePers ;
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-Lexicon VerbTensePers
-
-%<pres%>%<sg%>%<1per%>:егым # ;
-%<pres%>%<sg%>%<2per%>:егын # ;
-%<pres%>%<sg%>%<3per%>:и # ;
-
-%<pres%>%<du%>%<1per%>:имен # ;
-%<pres%>%<du%>%<2per%>:егын # ;
-%<pres%>%<du%>%<3per%>:ег # ;
-
-%<pres%>%<pl%>%<1per%>:ев # ; 
-%<pres%>%<pl%>%<2per%>:егын # ;
-%<pres%>%<pl%>%<3per%>:егыт # ;
+āви:āви            NounNumber-StemV2	"door" ;
+лӯлы:лӯлы          NounNumber-StemV2	"razorbill" ;
+сāлы:сāлы          NounNumber-StemV2	"reindeer" ;
+сымри:сымри        NounNumber-StemV2	"perch(fish)" ;
+тэ̄рпи:тэ̄рпи        NounNumber-StemV2	"medicine" ;
+ӯсхулы:ӯсхулы      NounNumber-StemV2	"street" ;
+хури:хури          NounNumber-StemV2	"image" ;

@@ -25,7 +25,25 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
 А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄
 
+%+
 
+
+! This section copied from mansi-lexicon.lexc, looks spurious:
+! We don't want latin letters
+! Finug  !!! L-S !!! Notes:
+ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON 
+ē        !!! 
+ё̄        !!! 
+ӣ        !!! йӣквыт
+ō        !!!    !!! (333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
+ӯ        !!! ӯ  !!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+ы̄        !!! ??? http://www.nba.fi/hanti/mn/intro1.php
+э̄        !!! 
+ю̄        !!! 
+я̄        !!! 
+      
+Ы        !!! syncopating vowel symbol
+! end of spurious section.
 
 !! !!Analysis symbols
 !! ----------------
@@ -46,7 +64,12 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Nom +Gen +Par +Acc 
+ +Ill +Loc +Com +Com/Sh !!= * @CODE@ are these needed?
+ +Ade + Abl +All
+ 
+
+
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
@@ -135,6 +158,6 @@ LEXICON Root
    Adjectives  ;
    Pronouns    ;
    Numerals    ;
-
+   Conjunctions ;
 
 ! vim: set ft=xfst-lexc:

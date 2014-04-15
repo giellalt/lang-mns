@@ -48,21 +48,30 @@ Sets
 
  Vow = а е и о у ы э ю я
        А Е И О У Ы Э Ю Я
-а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
-А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄
-;
+       а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
+       А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ ;
+       
+SVow = а е ё и о у ы э ю я ;
 
- VowNoI = а е о у э ю я
-           А Е О У Э Ю Я
-а̄ е̄ о̄ ӯ  э̄ ю̄ я̄
-А̄ Е̄ О̄ Ӯ Э̄ Ю̄ Я̄
-;
+LVow = ā ē ё̄ ӣ ō ӯ ы̄ э̄ ю̄ я̄ ;
 
- Cns = б в г д ж з к л м н п р с т ф х ц ч ш щ 
-       Б В Г Д Ж З К Л М Н П Р С Т Ф Х Ц Ч Ш Щ 
-;
+ Cns = б в г д ж з к л м н п р с т ф х ц ч ш щ ӈ
+       Б В Г Д Ж З К Л М Н П Р С Т Ф Х Ц Ч Ш Щ   ;
+
+
+Definitions
+
+! PostSyncStem  =  :Cns  %+:0 ;
+PostSyncStem  =  :Cns   ;
+
  
 Rules
+
+
+
+"Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
+Ы:0   <=>   _  PostSyncStem   :Vow ;
+
 
 !€grís%>s
 !€grís00

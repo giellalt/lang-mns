@@ -4,12 +4,12 @@
 !! nouns, but with a colon (':') as separator.
 
 LEXICON ProperNounCases
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
-+N+Prop:%:   Cases  ;
++N+Prop:%:   NounCase-StemC  ;
++N+Prop:%:   NounCase-StemC  ;
++N+Prop:%:   NounCase-StemC  ;
++N+Prop:%:   NounCase-StemC  ;
++N+Prop:%:   NounCase-StemC  ;
++N+Prop:%:   NounCase-StemC  ;
         -    Nouns  ;
 
 ! vim: set ft=xfst-lexc:
