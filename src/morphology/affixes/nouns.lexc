@@ -1,6 +1,11 @@
-!! Noun inflection
-!! ---------------
-!! The MANSI language nouns inflect in cases.
+!! Noun inflection for Mansi
+! ---------------
+
+!! Stems are divided in four groups:
+!! # StemC	 = ending in C
+!! # stemCC = ending in CC
+!! # StemV1 = ending in -a
+!! # StemV2 = ending in other vowels
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
