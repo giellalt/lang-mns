@@ -1,10 +1,11 @@
 !! !!!Northern Mansi verbs
 
+!! Only two verbs so far.
 
 LEXICON Verbs
 
-мин:мин           VerbTensePers	"go" ;
-ловиньт:ловиньт   VerbTensePers	"read" ;
+минуӈкве:мин           VerbTensePers_u "go" ;
+ловиньтаӈкве:ловиньт   VerbTensePers_a "read" ;
 
 
 ! vim: set ft=xfst-lexc:
