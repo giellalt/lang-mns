@@ -10,6 +10,20 @@ Vowels with a macron
 
 
 
+Notes:
+257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON 
+
+
+йӣквыт
+(333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
+(1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+??? http://www.nba.fi/hanti/mn/intro1.php
+
+
+
+
+syncopating vowel symbol
+
 !!Analysis symbols
 ----------------
 The morphological analyses of wordforms of UNDEFINED language are presented
@@ -23,6 +37,10 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
+ *  +Ill +Loc +Com +Com/Sh  are these needed?
+
+
+
 
 The possession is marked as such:
 The comparative forms are:
@@ -69,5 +87,4 @@ flag diacritics to restrict morhpological combinatorics:
 
 The word forms in the MANSI language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
-
 
