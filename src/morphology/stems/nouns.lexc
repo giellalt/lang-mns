@@ -1,17 +1,17 @@
-!! Nouns
-!! -----
-!! Nouns in UNDEFINED language are things.
+!! Nouns in Northern Mansi
+! -----
+
+
+
+!! Stems are divided in four groups:
+!! # StemC	 = ending in C
+!! # stemCC = ending in CC
+!! # StemV1 = ending in -a
+!! # StemV2 = ending in other vowels
+
 
 LEXICON Nouns
 
-! 0   Nouns-StemC    ;
-! 0   Nouns-StemCC    ;
-! 0   Nouns-StemV1   ;
-! 0   Nouns-StemV2   ; 
-
-
-
-!LEXICON Nouns-StemC
 
 апыг:апыг             NounNumber-StemC	"grandson" ;
 вāӈкрип:вāӈкрип       NounNumber-StemC	"gaff" ;
@@ -27,13 +27,7 @@ LEXICON Nouns
 лув:лув               NounNumber-StemC	"horse" ;
 хāп:хāп               NounNumber-StemC	"boat" ;
 
-
-!LEXICON Nouns-StemCC
-
 пāрт:пāрт          NounNumber-StemCC	"board" ;
-
-
-!LEXICON Nouns-StemV1
 
 ёса:ёса           NounNumber-StemV1	"ski" ;
 лӯпта:лӯпта       NounNumber-StemV1	"leaf" ;
@@ -42,9 +36,6 @@ LEXICON Nouns
 сира:сира         NounNumber-StemV1	"seagull" ;
 ӯра:ӯра           NounNumber-StemV1	"warehouse" ;
 хура:хура         NounNumber-StemV1	"trough" ;
-
-
-!LEXICON Nouns-StemV2
 
 āви:āви            NounNumber-StemV2	"door" ;
 лӯлы:лӯлы          NounNumber-StemV2	"razorbill" ;

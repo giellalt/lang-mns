@@ -1,16 +1,13 @@
-!! Proper noun inflection
-!! ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
-!! nouns, but with a colon (':') as separator.
+!! Proper noun inflection for Northern Mansi
+! ----------------------
+
+!! So far no work on Northern Mansi proper nouns.
+!! It will contain two parts: A general Russian name base
+!! and Mansi-specific names.
+
 
 LEXICON ProperNounCases
-+N+Prop:%:   NounCase-StemC  ;
-+N+Prop:%:   NounCase-StemC  ;
-+N+Prop:%:   NounCase-StemC  ;
-+N+Prop:%:   NounCase-StemC  ;
-+N+Prop:%:   NounCase-StemC  ;
-+N+Prop:%:   NounCase-StemC  ;
-        -    Nouns  ;
++N+Prop:   NounCase-StemC  ;
 
 ! vim: set ft=xfst-lexc:
 

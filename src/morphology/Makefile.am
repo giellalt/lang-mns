@@ -22,7 +22,6 @@ GT_LEXC_ROOT=root.lexc
 GT_LEXC_SRCS=\
 			 affixes/adjectives.lexc \
 			 affixes/nouns.lexc \
-			 affixes/propernouns.lexc \
 			 affixes/verbs.lexc \
 			 stems/adjectives.lexc \
 			 stems/conjunctions.lexc \
@@ -30,7 +29,7 @@ GT_LEXC_SRCS=\
 			 stems/numerals.lexc \
 			 stems/pronouns.lexc \
 			 stems/verbs.lexc
-
+#			 affixes/propernouns.lexc \
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=
 
