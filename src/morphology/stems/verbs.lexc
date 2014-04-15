@@ -1,8 +1,10 @@
-!! Verbs
-!! -----
-!! Verbs in UNDEFINED language are actions.
+!! !!!Northern Mansi verbs
+
 
 LEXICON Verbs
-verb    Persons   ;
+
+мин:мин           VerbTensePers	"go" ;
+ловиньт:ловиньт   VerbTensePers	"read" ;
+
 
 ! vim: set ft=xfst-lexc:
