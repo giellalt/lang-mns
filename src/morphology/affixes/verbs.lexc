@@ -1,8 +1,12 @@
 !! !!!Verb inflection
 
 
-LEXICON VerbTensePers
-+V+Inf: # ;  ! assuming inf = stem
+LEXICON VerbTensePers_u
++V+Inf:уӈкве # ;  ! assuming inf = stem
++V+Prs: Present ;
+
+LEXICON VerbTensePers_a
++V+Inf:аӈкве # ;  ! assuming inf = stem
 +V+Prs: Present ;
 
 
