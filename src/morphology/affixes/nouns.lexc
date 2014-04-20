@@ -52,7 +52,7 @@ LEXICON NounNumber-StemV1
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON NounCase-StemV1
 
-+Nom:0       # ;
++Nom:0       VPХ ;
 +Lat:н       # ;
 +Loc:т       # ;
 +Abl:ныл     # ;
@@ -75,6 +75,26 @@ LEXICON NounCase-StemV2
 +Abl:ныл     # ;
 +Ins:л     # ;
 +tra:йыг    # ;
+
+
+
+!! !!Possessive suffixes
+
+LEXICON VPХ
+ # ; ! Absolute declension.
++PxSg1:м # ;
++PxSg2:н # ;
++PxSg3:тэ # ;
++PxDu1:ме̄н # ;
++PxDu2:н # ;
++PxDu3:те̄н # ;
++PxPl1:в # ;
++PxPl2:н # ;
++PxPl3:ныл # ;
+
+
+
+
 
 
 ! 
