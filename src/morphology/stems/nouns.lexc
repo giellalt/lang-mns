@@ -14,32 +14,34 @@ LEXICON Nouns
 
 
 апыг:апыг             NounNumber-StemC	"grandson" ;
-вāӈкрип:вāӈкрип       NounNumber-StemC	"gaff" ;
-вōртōлнут:вōртōлнут   NounNumber-StemC	"bear" ;
+ва̄ӈкрип:ва̄ӈкрип       NounNumber-StemC	"gaff" ;
+во̄рто̄лнут:во̄рто̄лнут   NounNumber-StemC	"bear" ;
 инар:инар             NounNumber-StemC	"saddle" ;
 йӣв:йӣв               NounNumber-StemC	"tree" ;
 каскан:каскан         NounNumber-StemC	"trap" ;
-кāт:кāт               NounNumber-StemC	"hand" ;
-квāлыг:квāлыг         NounNumber-StemC	"rope" ;
-лāтЫӈ:лāтЫӈ           NounNumber-StemC	"word" ;  !!syncopating!
-лāхЫс:лāхЫс           NounNumber-StemC	"mushroom" ;  !!syncopating!
-лōх:лōх               NounNumber-StemC	"bay" ;
+ка̄т:ка̄т               NounNumber-StemC	"hand" ;
+ква̄лыг:ква̄лыг         NounNumber-StemC	"rope" ;
+ла̄тЫӈ:ла̄тЫӈ           NounNumber-StemC	"word" ;  !syncopating
+ла̄хЫс:ла̄хЫс           NounNumber-StemC	"mushroom" ;  !syncopating
+ло̄х:ло̄х               NounNumber-StemC	"bay" ;
 лув:лув               NounNumber-StemC	"horse" ;
-хāп:хāп               NounNumber-StemC	"boat" ;
+ха̄п:ха̄п               NounNumber-StemC	"boat" ;
+сыпаль                NounNumber-StemC	"ножны" ;  !ending in ь
 
-пāрт:пāрт          NounNumber-StemCC	"board" ;
+па̄рт:па̄рт          NounNumber-StemCC	"board" ;
 
 ёса:ёса           NounNumber-StemV1	"ski" ;
 лӯпта:лӯпта       NounNumber-StemV1	"leaf" ;
-ōвта:ōвта         NounNumber-StemV1	"sting" ;
-ōйка:ōйка         NounNumber-StemV1	"man" ;
+о̄вта:о̄вта         NounNumber-StemV1	"sting" ;
+о̄йка:о̄йка         NounNumber-StemV1	"man" ;
 сира:сира         NounNumber-StemV1	"seagull" ;
 ӯра:ӯра           NounNumber-StemV1	"warehouse" ;
 хура:хура         NounNumber-StemV1	"trough" ;
+а̄па               NounNumber-StemV1	"люлька" ;
 
-āви:āви            NounNumber-StemV2	"door" ;
+а̄ви:а̄ви            NounNumber-StemV2	"door" ;
 лӯлы:лӯлы          NounNumber-StemV2	"razorbill" ;
-сāлы:сāлы          NounNumber-StemV2	"reindeer" ;
+са̄лы:са̄лы          NounNumber-StemV2	"reindeer" ;
 сымри:сымри        NounNumber-StemV2	"perch(fish)" ;
 тэ̄рпи:тэ̄рпи        NounNumber-StemV2	"medicine" ;
 ӯсхулы:ӯсхулы      NounNumber-StemV2	"street" ;
