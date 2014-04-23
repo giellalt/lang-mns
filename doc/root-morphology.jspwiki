@@ -75,6 +75,7 @@ symbols (archiphones) in the lexicon files:
  __%{УЮØ%}	__ 
  __%{ТØ%}	__ 
  __%{ЭЕ%}	__ PxSg3
+ __%{ЭЕLong%}	__ PxDu3
 
 
 And following triggers to control variation

@@ -138,6 +138,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 %{УЮØ%}	!!= __@CODE@__ 
 %{ТØ%}	!!= __@CODE@__ 
 %{ЭЕ%}	!!= __@CODE@__ PxSg3
+%{ЭЕLong%}	!!= __@CODE@__ PxDu3
 
 
 !! And following triggers to control variation
