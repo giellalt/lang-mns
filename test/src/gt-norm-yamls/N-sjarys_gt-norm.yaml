@@ -16,33 +16,33 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Noun - ся̄рысь: # Noun 122 'eng ear/fin korva' - full paradigm
-     ся̄рысь+N+Sg+Nom: ся̄рысь
-     ся̄рысь+N+Sg+Nom+PxSg1: ся̄рысюм
-     ся̄рысь+N+Sg+Nom+PxSg2: ся̄рысин
-     ся̄рысь+N+Sg+Nom+PxSg3: ся̄рысе
-     ся̄рысь+N+Sg+Nom+PxDu1: ся̄рысьме̄н
-     ся̄рысь+N+Sg+Nom+PxDu2: ся̄рысӣн
-     ся̄рысь+N+Sg+Nom+PxDu3: ся̄рысе̄н
-     ся̄рысь+N+Sg+Nom+PxPl1: ся̄рысюв
-     ся̄рысь+N+Sg+Nom+PxPl2: ся̄рысӣн
-     ся̄рысь+N+Sg+Nom+PxPl3: ся̄рысяныл
+  Noun - ща̄рыщ: # Noun 122 'eng ear/fin korva' - full paradigm
+     ща̄рыщ+N+Sg+Nom: ща̄рыщ
+     ща̄рыщ+N+Sg+Nom+PxSg1: ща̄рыщюм
+     ща̄рыщ+N+Sg+Nom+PxSg2: ща̄рыщин
+     ща̄рыщ+N+Sg+Nom+PxSg3: ща̄рыще
+     ща̄рыщ+N+Sg+Nom+PxDu1: ща̄рыщме̄н
+     ща̄рыщ+N+Sg+Nom+PxDu2: ща̄рыщӣн
+     ща̄рыщ+N+Sg+Nom+PxDu3: ща̄рыще̄н
+     ща̄рыщ+N+Sg+Nom+PxPl1: ща̄рыщюв
+     ща̄рыщ+N+Sg+Nom+PxPl2: ща̄рыщӣн
+     ща̄рыщ+N+Sg+Nom+PxPl3: ща̄рыщяныл
      
-     ся̄рысь+N+Sg+Loc: ся̄рысьт
-     ся̄рысь+N+Sg+Loc+PxSg1: ся̄рысюмт
-     ся̄рысь+N+Sg+Loc+PxSg2: ся̄рысинт
-     ся̄рысь+N+Sg+Loc+PxSg3: ся̄рысет
-     ся̄рысь+N+Sg+Loc+PxDu1: ся̄рысьме̄нт
-     ся̄рысь+N+Sg+Loc+PxDu2: ся̄рысӣнт
-     ся̄рысь+N+Sg+Loc+PxDu3: ся̄рысе̄нт
-     ся̄рысь+N+Sg+Loc+PxPl1: ся̄рысювт
-     ся̄рысь+N+Sg+Loc+PxPl2: ся̄рысӣнт
-     ся̄рысь+N+Sg+Loc+PxPl3: ся̄рысянылт
+     ща̄рыщ+N+Sg+Loc: ща̄рыщт
+     ща̄рыщ+N+Sg+Loc+PxSg1: ща̄рыщюмт
+     ща̄рыщ+N+Sg+Loc+PxSg2: ща̄рыщинт
+     ща̄рыщ+N+Sg+Loc+PxSg3: ща̄рыщет
+     ща̄рыщ+N+Sg+Loc+PxDu1: ща̄рыщме̄нт
+     ща̄рыщ+N+Sg+Loc+PxDu2: ща̄рыщӣнт
+     ща̄рыщ+N+Sg+Loc+PxDu3: ща̄рыще̄нт
+     ща̄рыщ+N+Sg+Loc+PxPl1: ща̄рыщювт
+     ща̄рыщ+N+Sg+Loc+PxPl2: ща̄рыщӣнт
+     ща̄рыщ+N+Sg+Loc+PxPl3: ща̄рыщянылт
      
-     ся̄рысь+N+Sg+All: ся̄рысьн
-     ся̄рысь+N+Sg+Abl: ся̄рысьныл
-     ся̄рысь+N+Sg+Ins: ся̄рсил
-     ся̄рысь+N+Sg+Tra: ся̄рысиг
+     ща̄рыщ+N+Sg+All: ща̄рыщн
+     ща̄рыщ+N+Sg+Abl: ща̄рыщныл
+     ща̄рыщ+N+Sg+Ins: ся̄рсил
+     ща̄рыщ+N+Sg+Tra: ща̄рыщиг
      
-     ся̄рысь+N+Du+Nom: ся̄рысиг
-     ся̄рысь+N+Pl+Nom: ся̄рысит
+     ща̄рыщ+N+Du+Nom: ща̄рыщиг
+     ща̄рыщ+N+Pl+Nom: ща̄рыщит

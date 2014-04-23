@@ -130,7 +130,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! Morphophonology
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
-!! symbols in the lexicon files:
+!! symbols (archiphones) in the lexicon files:
  {aä} {oö} {uü}
 %{АЯØ%}	!!= __@CODE@__ 
 %{ЫИØ%}	!!= __@CODE@__ 
