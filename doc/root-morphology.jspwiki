@@ -24,6 +24,7 @@ Notes:
 
 syncopating vowel symbol
 
+
 !!Analysis symbols
 ----------------
 The morphological analyses of wordforms of UNDEFINED language are presented
@@ -67,7 +68,7 @@ source and target part-of-speech.
 Morphophonology
 ---------------
 To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
+symbols (archiphones) in the lexicon files:
  __%{АЯØ%}	__ 
  __%{ЫИØ%}	__ 
  __%{ЫØ%}	__ +Loc
