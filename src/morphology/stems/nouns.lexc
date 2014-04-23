@@ -28,6 +28,8 @@ LEXICON Nouns
 ха̄п:ха̄п               NounNumber-StemC	"boat" ;
 сыпаль                NounNumber-StemC	"ножны" ;  !ending in ь
 
+ся̄рысь:ся̄рЫсь         NounNumber-StemC	"ocean" ;
+
 па̄рт:па̄рт          NounNumber-StemCC	"board" ;
 
 ёса:ёса           NounNumber-StemV1	"ski" ;
