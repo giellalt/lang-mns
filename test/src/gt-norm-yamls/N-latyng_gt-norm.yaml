@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ла̄тыӈ: # Noun 122 'word' - full paradigm, FIXME!
+     ла̄тыӈ+N+Sg+Nom: ла̄тыӈ
+     ла̄тыӈ+N+Sg+Nom+PxSg1: ла̄тыӈум
+     ла̄тыӈ+N+Sg+Nom+PxSg2: ла̄тыӈын
+     ла̄тыӈ+N+Sg+Nom+PxSg3: ла̄тыӈе
+     ла̄тыӈ+N+Sg+Nom+PxDu1: ла̄тыӈме̄н
+     ла̄тыӈ+N+Sg+Nom+PxDu2: ла̄тыӈӣн
+     ла̄тыӈ+N+Sg+Nom+PxDu3: ла̄тыӈе̄н
+     ла̄тыӈ+N+Sg+Nom+PxPl1: ла̄тыӈюв
+     ла̄тыӈ+N+Sg+Nom+PxPl2: ла̄тыӈӣн
+     ла̄тыӈ+N+Sg+Nom+PxPl3: ла̄тыӈяныл
+     
+     ла̄тыӈ+N+Sg+Loc: ла̄тыӈт
+     ла̄тыӈ+N+Sg+Loc+PxSg1: ла̄тыӈюмт
+     ла̄тыӈ+N+Sg+Loc+PxSg2: ла̄тыӈинт
+     ла̄тыӈ+N+Sg+Loc+PxSg3: ла̄тыӈет
+     ла̄тыӈ+N+Sg+Loc+PxDu1: ла̄тыӈме̄нт
+     ла̄тыӈ+N+Sg+Loc+PxDu2: ла̄тыӈӣнт
+     ла̄тыӈ+N+Sg+Loc+PxDu3: ла̄тыӈе̄нт
+     ла̄тыӈ+N+Sg+Loc+PxPl1: ла̄тыӈювт
+     ла̄тыӈ+N+Sg+Loc+PxPl2: ла̄тыӈӣнт
+     ла̄тыӈ+N+Sg+Loc+PxPl3: ла̄тыӈянылт
+     
+     ла̄тыӈ+N+Sg+All: ла̄тыӈн
+     ла̄тыӈ+N+Sg+Abl: ла̄тыӈныл
+     ла̄тыӈ+N+Sg+Ins: ла̄тӈил
+     ла̄тыӈ+N+Sg+Tra: ла̄тыӈиг
+     
+     ла̄тыӈ+N+Du+Nom: ла̄тыӈиг
+     ла̄тыӈ+N+Pl+Nom: ла̄тыӈит
