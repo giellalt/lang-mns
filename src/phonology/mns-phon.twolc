@@ -72,7 +72,7 @@ Rules
 
 
 "Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
-ы2:0   <=>   _  PostSyncStem   :Vow ;
+ы2:0   <=>   _  PostSyncStem (ь:)  :Vow ;
 
 
 !€grís%>s
