@@ -21,12 +21,15 @@ LEXICON Nouns
 каскан:каскан         NounNumber-StemC	"trap" ;
 ка̄т:ка̄т               NounNumber-StemC	"hand" ;
 ква̄лыг:ква̄лыг         NounNumber-StemC	"rope" ;
-ла̄ыӈ:ла̄тЫӈ           NounNumber-StemC	"word" ;  !syncopating
-ла̄ыс:ла̄хЫс           NounNumber-StemC	"mushroom" ;  !syncopating
+ла̄тыӈ:ла̄тЫӈ           NounNumber-StemC	"word" ;  !syncopating
+ла̄хыс:ла̄хЫс           NounNumber-StemC	"mushroom" ;  !syncopating
 ло̄х:ло̄х               NounNumber-StemC	"bay" ;
 лув:лув               NounNumber-StemC	"horse" ;
 ха̄п:ха̄п               NounNumber-StemC	"boat" ;
 сыпаль                NounNumber-StemC	"ножны" ;  !ending in ь
+паль               NounNumber-StemC	"?" ;  !ending in ь
+ха̄ль               NounNumber-StemC	"?" ;  !ending in ь
+кол             NounNumber-StemC	"?" ;  
 
 ся̄рысь:ся̄рЫсь         NounNumber-StemC	"ocean" ;
 
@@ -40,8 +43,11 @@ LEXICON Nouns
 ӯра:ӯра           NounNumber-StemV1	"warehouse" ;
 хура:хура         NounNumber-StemV1	"trough" ;
 а̄па               NounNumber-StemV1	"люлька" ;
+рума              NounNumber-StemV1	"?" ;
 
 а̄ви:а̄ви            NounNumber-StemV2	"door" ;
+аки       NounNumber-StemV2	"paternal uncle" ;
+а̄ны       NounNumber-StemV2	"?" ;
 лӯлы:лӯлы          NounNumber-StemV2	"razorbill" ;
 са̄лы:са̄лы          NounNumber-StemV2	"reindeer" ;
 сымри:сымри        NounNumber-StemV2	"perch(fish)" ;
