@@ -36,3 +36,35 @@ Tests:
      а̄ны+N+Sg+Nom+PxSg3: а̄нытэ
      а̄ны+N+Du+Nom: а̄ныйыг
      а̄ны+N+Pl+Nom: а̄ныт
+
+
+# (Скрибник & Афанасьева 2007: 78) 
+     а̄ны+N+Sg+Nom+PxSg1: а̄ным
+     а̄ны+N+Sg+Nom+PxSg2: а̄нын
+     а̄ны+N+Sg+Nom+PxSg3: а̄нытэ
+     а̄ны+N+Sg+Nom+PxDu1: а̄ныме̄н
+     а̄ны+N+Sg+Nom+PxDu2: а̄ныйин
+     а̄ны+N+Sg+Nom+PxDu3: а̄нытэ̄н
+     а̄ны+N+Sg+Nom+PxPl1: а̄ныюв
+     а̄ны+N+Sg+Nom+PxPl2: а̄нын
+     а̄ны+N+Sg+Nom+PxPl3: а̄ныяныл
+
+     а̄ны+N+Du+Nom+PxSg1: а̄ныягум
+     а̄ны+N+Du+Nom+PxSg2: а̄ныягын
+     а̄ны+N+Du+Nom+PxSg3: а̄ныяге
+     а̄ны+N+Du+Nom+PxDu1: а̄ныягме̄н
+     а̄ны+N+Du+Nom+PxDu2: а̄ныягы̄н
+     а̄ны+N+Du+Nom+PxDu3: а̄ныяге̄н
+     а̄ны+N+Du+Nom+PxPl1: а̄ныягув
+     а̄ны+N+Du+Nom+PxPl2: а̄ныягы̄н
+     а̄ны+N+Du+Nom+PxPl3: а̄ныяганыл
+
+     а̄ны+N+Pl+Nom+PxSg1: а̄ныянум
+     а̄ны+N+Pl+Nom+PxSg2: а̄ныянын
+     а̄ны+N+Pl+Nom+PxSg3: а̄ныянэ
+     а̄ны+N+Pl+Nom+PxDu1: а̄ныянме̄н
+     а̄ны+N+Pl+Nom+PxDu2: а̄ныяны̄н
+     а̄ны+N+Pl+Nom+PxDu3: а̄ныянэ̄н
+     а̄ны+N+Pl+Nom+PxPl1: а̄ныянув
+     а̄ны+N+Pl+Nom+PxPl2: а̄ныяны̄н
+     а̄ны+N+Pl+Nom+PxPl3: а̄ныянаныл

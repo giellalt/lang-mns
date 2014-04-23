@@ -37,8 +37,27 @@ Tests:
      паль+N+Sg+Loc+PxPl1: палювт
      паль+N+Sg+Loc+PxPl2: палӣнт
      паль+N+Sg+Loc+PxPl3: палянылт
+# (Скрибник & Афанасьева 2007: 78)
      паль+N+Du+Nom: палиг
+     паль+N+Du+Nom+PxSg1: палягум
+     паль+N+Du+Nom+PxSg2: палягын
+     паль+N+Du+Nom+PxSg3: паляге
+     паль+N+Du+Nom+PxDu1: палягме̄н
+     паль+N+Du+Nom+PxDu2: палягы̄н
+     паль+N+Du+Nom+PxDu3: паляге̄н
+     паль+N+Du+Nom+PxPl1: палягув
+     паль+N+Du+Nom+PxPl2: палягы̄н
+     паль+N+Du+Nom+PxPl3: паляганыл
      паль+N+Pl+Nom: палит
+     паль+N+Pl+Nom+PxSg1: палянум
+     паль+N+Pl+Nom+PxSg2: палянын
+     паль+N+Pl+Nom+PxSg3: палянэ
+     паль+N+Pl+Nom+PxDu1: палянме̄н
+     паль+N+Pl+Nom+PxDu2: паляны̄н
+     паль+N+Pl+Nom+PxDu3: палянэ̄н
+     паль+N+Pl+Nom+PxPl1: палянув
+     паль+N+Pl+Nom+PxPl2: паляны̄н
+     паль+N+Pl+Nom+PxPl3: палянаныл
 #
      ха̄ль+N+Sg+Nom: ха̄ль
      ха̄ль+N+Sg+Nom+PxSg1: ха̄люм

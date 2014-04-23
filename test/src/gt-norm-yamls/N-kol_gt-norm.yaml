@@ -38,7 +38,26 @@ Tests:
      кол+N+Sg+Loc+PxPl1: колувт
      кол+N+Sg+Loc+PxPl2: колы̄нт
      кол+N+Sg+Loc+PxPl3: коланылт
-     кол+N+Du+Nom: колыг
      кол+N+Du+Loc: колыгт
-     кол+N+Pl+Nom: колыт
      кол+N+Pl+Loc: колытт
+# (Скрибник & Афанасьева 2007: 78) analogue
+     кол+N+Du+Nom: колыг
+     кол+N+Du+Nom+PxSg1: колагум
+     кол+N+Du+Nom+PxSg2: колагын
+     кол+N+Du+Nom+PxSg3: колаге
+     кол+N+Du+Nom+PxDu1: колагме̄н
+     кол+N+Du+Nom+PxDu2: колагы̄н
+     кол+N+Du+Nom+PxDu3: колаге̄н
+     кол+N+Du+Nom+PxPl1: колагув
+     кол+N+Du+Nom+PxPl2: колагы̄н
+     кол+N+Du+Nom+PxPl3: колаганыл
+     кол+N+Pl+Nom: колыт
+     кол+N+Pl+Nom+PxSg1: коланум
+     кол+N+Pl+Nom+PxSg2: коланын
+     кол+N+Pl+Nom+PxSg3: коланэ
+     кол+N+Pl+Nom+PxDu1: коланме̄н
+     кол+N+Pl+Nom+PxDu2: коланы̄н
+     кол+N+Pl+Nom+PxDu3: коланэ̄н
+     кол+N+Pl+Nom+PxPl1: коланув
+     кол+N+Pl+Nom+PxPl2: коланы̄н
+     кол+N+Pl+Nom+PxPl3: колананыл
