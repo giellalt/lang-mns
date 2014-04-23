@@ -21,8 +21,8 @@ LEXICON Nouns
 каскан:каскан         NounNumber-StemC	"trap" ;
 ка̄т:ка̄т               NounNumber-StemC	"hand" ;
 ква̄лыг:ква̄лыг         NounNumber-StemC	"rope" ;
-ла̄тыӈ:ла̄тЫӈ           NounNumber-StemC	"word" ;  !syncopating
-ла̄хыс:ла̄хЫс           NounNumber-StemC	"mushroom" ;  !syncopating
+ла̄тыӈ:ла̄ты2ӈ           NounNumber-StemC	"word" ;  !syncopating
+ла̄хыс:ла̄хы2с           NounNumber-StemC	"mushroom" ;  !syncopating
 ло̄х:ло̄х               NounNumber-StemC	"bay" ;
 лув:лув               NounNumber-StemC	"horse" ;
 ха̄п:ха̄п               NounNumber-StemC	"boat" ;
@@ -31,7 +31,7 @@ LEXICON Nouns
 ха̄ль               NounNumber-StemC	"?" ;  !ending in ь
 кол             NounNumber-StemC	"?" ;  
 
-ся̄рысь:ся̄рЫсь         NounNumber-StemC	"ocean" ;
+ся̄рысь:ся̄ры2сь         NounNumber-StemC	"ocean" ;
 
 па̄рт:па̄рт          NounNumber-StemCC	"board" ;
 
