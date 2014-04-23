@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ся̄рысь: # Noun 122 'eng ear/fin korva' - full paradigm
+     ся̄рысь+N+Sg+Nom: ся̄рысь
+     ся̄рысь+N+Sg+Nom+PxSg1: ся̄рысюм
+     ся̄рысь+N+Sg+Nom+PxSg2: ся̄рысин
+     ся̄рысь+N+Sg+Nom+PxSg3: ся̄рысе
+     ся̄рысь+N+Sg+Nom+PxDu1: ся̄рысьме̄н
+     ся̄рысь+N+Sg+Nom+PxDu2: ся̄рысӣн
+     ся̄рысь+N+Sg+Nom+PxDu3: ся̄рысе̄н
+     ся̄рысь+N+Sg+Nom+PxPl1: ся̄рысюв
+     ся̄рысь+N+Sg+Nom+PxPl2: ся̄рысӣн
+     ся̄рысь+N+Sg+Nom+PxPl3: ся̄рысяныл
+     
+     ся̄рысь+N+Sg+Loc: ся̄рысьт
+     ся̄рысь+N+Sg+Loc+PxSg1: ся̄рысюмт
+     ся̄рысь+N+Sg+Loc+PxSg2: ся̄рысинт
+     ся̄рысь+N+Sg+Loc+PxSg3: ся̄рысет
+     ся̄рысь+N+Sg+Loc+PxDu1: ся̄рысьме̄нт
+     ся̄рысь+N+Sg+Loc+PxDu2: ся̄рысӣнт
+     ся̄рысь+N+Sg+Loc+PxDu3: ся̄рысе̄нт
+     ся̄рысь+N+Sg+Loc+PxPl1: ся̄рысювт
+     ся̄рысь+N+Sg+Loc+PxPl2: ся̄рысӣнт
+     ся̄рысь+N+Sg+Loc+PxPl3: ся̄рысянылт
+     
+     ся̄рысь+N+Sg+All: ся̄рысьн
+     ся̄рысь+N+Sg+Abl: ся̄рысьныл
+     ся̄рысь+N+Sg+Ins: ся̄рсил
+     ся̄рысь+N+Sg+Tra: ся̄рысиг
+     
+     ся̄рысь+N+Du+Nom: ся̄рысиг
+     ся̄рысь+N+Pl+Nom: ся̄рысит
