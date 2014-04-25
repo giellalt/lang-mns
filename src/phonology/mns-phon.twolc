@@ -144,6 +144,7 @@ Vx:Vy <=> ь: _ ;
 !! __@RULENAME@__
  %{ЫИØ%}:ы <=> [ и | ы ] %> 0: _ г  ;
                Cns %> _  [ г | н | т ] ;
+!(2007: 30) short elsewhere long??               Cns %> _ %^PxDu2: н  ;
 !               Cns %> _ (%^PxDu2: ) [ г | н | т ] ;
 
 "%{ЫИØ%}:и"
@@ -187,7 +188,9 @@ Vx:Vy <=> ь: _ ;
 ! !!VOWEL LENGTHENING
 "%{ЫИØ%}:ы̄"
 !! __@RULENAME@__
- %{ЫИØ%}:ы̄ <=>  [ CnsAlv | CnsNonAlv ]  %>  _ [ %^PxPl2: | %^PxDu2: ] ;
+ %{ЫИØ%}:ы̄ <=>   [ CnsAlv | CnsNonAlv ]  %>  _ [ %^PxPl2: | %^PxDu2: ] ;
+!(2007: 30 ) short  [ CnsAlv | CnsNonAlv ]  %>  _  %^PxPl2: ;
+
 
 "%{ЫИØ%}:ӣ"
 !! __@RULENAME@__

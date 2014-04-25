@@ -38,8 +38,13 @@ The parts of speech are further split up into:
 The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
- *  +Ill +Loc +Com +Com/Sh  are these needed?
 
+ *  +Dat  Ын
+ *  +Ins  тыл
+ *  +Abl   ныл
+ *  +Loc   Ыт
+
+ *  +Ill +Com +Com/Sh  are these needed?
 
 
 

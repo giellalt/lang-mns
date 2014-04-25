@@ -1,0 +1,32 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (2007: 47)
+
+  Verb - минуӈкве: # Verb 'eng carry/fin kantaa' - full paradigm
+#
+     минуӈкве+V+Ind+Prt+ScSg1: минасум
+     минуӈкве+V+Ind+Prt+ScSg2: минасын
+     минуӈкве+V+Ind+Prt+ScSg3: минас
+
+     минуӈкве+V+Ind+Prt+ScDu1: минасаме̄н
+     минуӈкве+V+Ind+Prt+ScDu2: минасы̄н
+     минуӈкве+V+Ind+Prt+ScDu3: минасы̄г
+
+     минуӈкве+V+Ind+Prt+ScPl1: минасув
+     минуӈкве+V+Ind+Prt+ScPl2: минасы̄н
+     минуӈкве+V+Ind+Prt+ScPl3: минасыт
+
