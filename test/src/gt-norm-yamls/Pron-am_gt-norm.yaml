@@ -1,0 +1,25 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (2007: 64-65)
+
+  Pronoun - ам: # Noun 122 'eng I/fin minä' - full paradigm
+#
+     ам+Pron+Pers+Sg1+Nom: ам
+     ам+Pron+Pers+Sg1+Acc: а̄нум
+     ам+Pron+Pers+Sg1+Dat: а̄нумн
+     ам+Pron+Pers+Sg1+Abl: а̄нумныл
+     ам+Pron+Pers+Sg1+Ins: а̄нумтыл
