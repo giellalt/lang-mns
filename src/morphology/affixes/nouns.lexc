@@ -112,12 +112,16 @@ LEXICON VPХ
 ! 
 !! JACK TESTING 
 LEXICON N_
++N: SG-DAT ;
 +N: SG-LOC ;
 +N: SG-NOM ;
 +N: DU-LOC ;
 +N: DU-NOM ;
 +N: PL-LOC ;
 +N: PL-NOM ;
+
+LEXICON SG-DAT
++Sg+Dat:%>%{ЫИØ%}н K ;
 
 LEXICON SG-LOC
 +Sg+Loc:%>%{ЫØ%}т K ;
