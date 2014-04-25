@@ -66,9 +66,14 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
  +Nom +Gen +Par +Acc 
- +Ill +Loc +Com +Com/Sh !!= * @CODE@ are these needed?
- +Ade + Abl +All
- 
+
+ +Dat !!= * @CODE@ Ын
+ +Ins !!= * @CODE@ тыл
+ +Abl !!= * @CODE@  ныл
+ +Loc !!= * @CODE@  Ыт
+
+ +Ill +Com +Com/Sh !!= * @CODE@ are these needed?
+ +Ade +All
 
 
 
