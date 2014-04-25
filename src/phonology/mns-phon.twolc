@@ -44,7 +44,7 @@ Sets
           А Е   О У Э Ю Я
           а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄
           А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄ ;
-;
+
 
 SVow = а е ё и о у ы э ю я ;
 
@@ -82,14 +82,14 @@ Rules
 !$grís%>s
 !$grís0s
 
-"Palatalization of suffix vowels"
-Vx:Vy <=> ь: _ ;
-	where Vx in ( ы )
-	      Vy in ( и )
-	      matched ;
+! "Palatalization of suffix vowels"
+! Vx:Vy <=> ь: _ ;
+! 	where Vx in ( ы )
+! 	      Vy in ( и )
+! 	      matched ;
 
-"Delete Palatalisation Mark"
-ь:0 <=> _ Vow: ;
+! "Delete Palatalisation Mark"
+! ь:0 <=> _ Vow: ;
 
 !! !!VOWEL DELETION
 "%{ЫИØ%}:0"
