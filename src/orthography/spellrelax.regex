@@ -1,43 +1,66 @@
 # Northern Mansi spellrelax
 
-ӯ (->) ӯ, # Cyrillic у + U+0304 (->) precomposed 04EF (Luuima Seeripos)
-Ӯ (->) Ӯ, # Cyrillic У + U+0304 (->) precomposed 04EE (Luuima Seeripos)
-ӣ (->) ӣ, # Cyrillic и + U+0304 (->) precomposed 04E3 (Luuima Seeripos)
-Ӣ (->) Ӣ, # Cyrillic И + U+0304 (->) precomposed 04E2 (Luuima Seeripos)
-ӯ (->) у, # Cyrillic у + U+0304 (->) basic
-ӣ (->) и, # Cyrillic и + U+0304 (->) basic
-          # We use composing letters, may get precomposed input
-          # (No other long Cyrillic vowels precomposed)
-а̄ (->) , # Luuima Seeripos F50F
-А̄ (->) , # Luuima Seeripos F50E
-е̄ (->) , # Luuima Seeripos F511
-Е̄ (->) , # Luuima Seeripos F510
-о̄ (->) , # Luuima Seeripos F519
-О̄ (->) , # Luuima Seeripos F518
-э̄ (->) , # Luuima Seeripos F523
-Э̄ (->) , # Luuima Seeripos F522
-ы̄ (->) , # Luuima Seeripos F521
-Ы̄ (->) , # Luuima Seeripos F520
-ю̄ (->) , # Luuima Seeripos F52D
-Ю̄ (->) , # Luuima Seeripos F52C# upper-case letters are mainly analogous
-я̄ (->) , # Luuima Seeripos F529
-Я̄ (->) , # Luuima Seeripos F528
-ё̄ (->) , # Luuima Seeripos F513
-Ё̄ (->) , # Luuima Seeripos F512
-#
-а̄ (->) а, # Cyrillic for sjd
-е̄ (->) е, # Cyrillic for sjd
-о̄ (->) о, # Cyrillic for sjd
-ӯ (->) у, # Cyrillic for sjd
-ы̄ (->) ы, # Cyrillic for sjd
-ю̄ (->) ю, # Cyrillic for sjd
-я̄ (->) я, # Cyrillic for sjd
-ӣ (->) и, # Cyrillic for sjd
-ё (->) е  # Russian long vowel, accept je pro jo
-;
-
 # Explanation:
 # lexical side (->) input 
+
+# RY: the remaining vowels we use symbols COMPOSED with macron:
+
+          # We use composing letters, may get precomposed input
+          # (No other long Cyrillic vowels precomposed)
+
+# RY: NB: we do *NOT* use latin pre-composed symbols for these (as per JR)
+А̄ (->) , # Luuimaa Seeripos F50E
+а̄ (->) , # Luuimaa Seeripos F50F
+Е̄ (->) , # Luuimaa Seeripos F510
+е̄ (->) , # Luuimaa Seeripos F511
+О̄ (->) , # Luuimaa Seeripos F518
+о̄ (->) , # Luuimaa Seeripos F519
+
+Ё̄ (->) , # Luuimaa Seeripos F512
+ё̄ (->) , # Luuimaa Seeripos F513
+Ы̄ (->) , # Luuimaa Seeripos F520
+ы̄ (->) , # Luuimaa Seeripos F521
+Э̄ (->) , # Luuimaa Seeripos F522
+э̄ (->) , # Luuimaa Seeripos F523
+Ю̄ (->) , # Luuimaa Seeripos F52C # upper-case letters are mainly analogous
+ю̄ (->) , # Luuimaa Seeripos F52D
+Я̄ (->) , # Luuimaa Seeripos F528
+я̄ (->) , # Luuimaa Seeripos F529
+
+# The remaining mappings are for LAZY writers:
+
+# RY: i and u: we use Luuimaa-Seeripos original pre-composed symbols -- we keep these:
+
+Ӣ (->) И, # Cyrillic И + U+0304 (->) precomposed 04E2 (Luuimaa Seeripos)
+ӣ (->) и, # Cyrillic и + U+0304 (->) basic
+Ӯ (->) У, # Cyrillic у + U+0304 (->) basic
+ӯ (->) у, # Cyrillic у + U+0304 (->) basic
+
+# lazy (missing) length:
+А̄ (->) А, # 
+а̄ (->) а, # 
+Е̄ (->) Е, # 
+е̄ (->) е, # 
+Ё̄ (->) Ё,  # 
+ё̄ (->) ё,  # 
+О̄ (->) О, # 
+о̄ (->) о, # 
+Ӯ (->) У, # Ӯӯ
+ӯ (->) у, # 
+Ы̄ (->) Ы, # 
+ы̄ (->) ы, # 
+Э̄ (->) Э, # 
+э̄ (->) э, # 
+Ю̄ (->) Ю, # 
+ю̄ (->) ю, # 
+Я̄ (->) Я, # 
+я̄ (->) я, # 
+
+# missing diaereses:
+Ё (->) Е,  # 
+ё (->) е  # 
+;
+
 
 # Future thought:
 # A posible change is to split this file into lg-specific files.
