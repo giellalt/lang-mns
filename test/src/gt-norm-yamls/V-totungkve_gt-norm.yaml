@@ -16,17 +16,31 @@ Tests:
 # Then: run analyser, then correct.
 # (2007: 47)
 
-  Verb - минуӈкве: # Verb 'eng carry/fin kantaa' - full paradigm
+  Verb - тотуӈкве: # Verb 'translate_me' - full paradigm
 #
-     минуӈкве+V+Ind+Prt+ScSg1: минасум
-     минуӈкве+V+Ind+Prt+ScSg2: минасын
-     минуӈкве+V+Ind+Prt+ScSg3: минас
+     тотуӈкве+V+Inf: тотуӈкве
 
-     минуӈкве+V+Ind+Prt+ScDu1: минасаме̄н
-     минуӈкве+V+Ind+Prt+ScDu2: минасы̄н
-     минуӈкве+V+Ind+Prt+ScDu3: минасы̄г
+     тотуӈкве+V+Ind+Prs+ScSg1: тотегым
+     тотуӈкве+V+Ind+Prs+ScSg2: тотегын
+     тотуӈкве+V+Ind+Prs+ScSg3: тоти
 
-     минуӈкве+V+Ind+Prt+ScPl1: минасув
-     минуӈкве+V+Ind+Prt+ScPl2: минасы̄н
-     минуӈкве+V+Ind+Prt+ScPl3: минасыт
+     тотуӈкве+V+Ind+Prs+ScDu1: тотимен
+     тотуӈкве+V+Ind+Prs+ScDu2: тотегы̄н
+     тотуӈкве+V+Ind+Prs+ScDu3: тотег
+
+     тотуӈкве+V+Ind+Prs+ScPl1: тотев
+     тотуӈкве+V+Ind+Prs+ScPl2: тотегы̄н
+     тотуӈкве+V+Ind+Prs+ScPl3: тотегыт
+     
+     тотуӈкве+V+Ind+Prt+ScSg1: тотасум
+     тотуӈкве+V+Ind+Prt+ScSg2: тотасын
+     тотуӈкве+V+Ind+Prt+ScSg3: тотас
+
+     тотуӈкве+V+Ind+Prt+ScDu1: тотасаме̄н
+     тотуӈкве+V+Ind+Prt+ScDu2: тотасы̄н
+     тотуӈкве+V+Ind+Prt+ScDu3: тотасы̄г
+
+     тотуӈкве+V+Ind+Prt+ScPl1: тотасув
+     тотуӈкве+V+Ind+Prt+ScPl2: тотасы̄н
+     тотуӈкве+V+Ind+Prt+ScPl3: тотасыт
 

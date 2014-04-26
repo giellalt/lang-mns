@@ -18,6 +18,20 @@ Tests:
 
   Verb - минуӈкве: # Verb 'eng go/fin mennä' - full paradigm
 #
+     минуӈкве+V+Inf: минуӈкве
+
+     минуӈкве+V+Ind+Prs+ScSg1: минегым
+     минуӈкве+V+Ind+Prs+ScSg2: минегын
+     минуӈкве+V+Ind+Prs+ScSg3: мини
+
+     минуӈкве+V+Ind+Prs+ScDu1: минимен
+     минуӈкве+V+Ind+Prs+ScDu2: минегы̄н
+     минуӈкве+V+Ind+Prs+ScDu3: минег
+
+     минуӈкве+V+Ind+Prs+ScPl1: минев
+     минуӈкве+V+Ind+Prs+ScPl2: минегы̄н
+     минуӈкве+V+Ind+Prs+ScPl3: минегыт
+     
      минуӈкве+V+Ind+Prt+ScSg1: минасум
      минуӈкве+V+Ind+Prt+ScSg2: минасын
      минуӈкве+V+Ind+Prt+ScSg3: минас
