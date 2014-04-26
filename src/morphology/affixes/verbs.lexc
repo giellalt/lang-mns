@@ -3,24 +3,37 @@
 
 LEXICON VerbTensePers_u
 +V+Inf:%>уӈкве # ;  ! assuming inf = stem
-+V+Prs: Present ;
++V+Ind+Prs: Present ;
++V+Ind+Prt:у Preterite ;
 
 LEXICON VerbTensePers_a
 +V+Inf:%>аӈкве # ;  ! assuming inf = stem
-+V+Prs: Present ;
++V+Ind+Prs: Present ;
++V+Ind+Prt:а Preterite ;
 
 
 LEXICON Present
 
-+Sg1:%>егым # ;
-+Sg2:%>егын # ;
-+Sg3:%>и # ;
-+Du1:%>имен # ;
-+Du2:%>егын # ;
-+Du3:%>ег # ;
-+Pl1:%>ев # ; 
-+Pl2:%>егын # ;
-+Pl3:%>егыт # ;
++ScSg1:%>егым # ;
++ScSg2:%>егын # ;
++ScSg3:%>и # ;
++ScDu1:%>имен # ;
++ScDu2:%>егы̄н # ; ! Short? Both?
++ScDu3:%>ег # ;
++ScPl1:%>ев # ; 
++ScPl2:%>егы̄н # ; ! Short? Both?
++ScPl3:%>егыт # ;
 
+
+LEXICON Preterite
++ScSg1:%>сум # ;
++ScSg2:%>сын # ;
++ScSg3:%>с # ;
++ScDu1:%>сме̄н # ;
++ScDu2:%>сы̄н # ;
++ScDu3:%>сы̄г # ;
++ScPl1:%>сув # ; 
++ScPl2:%>сы̄н # ;
++ScPl3:%>сыт # ;
 
 
