@@ -6,6 +6,6 @@ LEXICON Verbs
 
 минуӈкве:мин           VerbTensePers_u "go" ;
 ловиньтаӈкве:ловиньт   VerbTensePers_a "read" ;
-
+тотуӈкве:тот           VerbTensePers_u "perhaps wrong length? xxx correct" ;
 
 ! vim: set ft=xfst-lexc:
