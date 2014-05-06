@@ -10,8 +10,11 @@ Alphabet
 
 а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄     !!= @CODE@ long vowels
 
-ы2:ы ! floating vowel
-
+ы2:ы ! fleeting/syncopating vowel
+! question: are all cases where CыC syncopating ???
+! EXCEPTION = апыг, квāлыг, ...
+! ... possibly not syncopating before г ...
+! PROPOSAL: leave this question for later.
 
 !! Archiphones
 %{АЯØ%}:0	!!= __@CODE@__ 
@@ -48,7 +51,7 @@ Sets
 
 SVow = а е ё и о у ы э ю я ;
 
-LVow = а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄ ;
+LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ;
 
  CnsSoft = щ
            Щ  ;
@@ -94,8 +97,8 @@ Rules
 !! !!VOWEL DELETION
 "%{ЫИØ%}:0"
 !! __@RULENAME@__
- %{ЫИØ%}:0 <=>  VowNoI:  %> _ ( %^PxDu2: | %^PxPl2: ) [ г | н | т ] ;
-               [ и: | ы: ] %> _ ( %^PxDu2: | %^PxPl2: ) [ н | т ]  ;
+ %{ЫИØ%}:0 <=>  VowNoI:    %> _ ( %^PxDu2: | %^PxPl2: ) [ г | н | т ] ;
+               [ и: | ы: ] %> _ ( %^PxDu2: | %^PxPl2: ) [     н | т ] ;
 !! JACK
 !?  VowNoI:  %> _ ( %^PxDu2: | %^PxPl2: ) %> [ г | н | т ] ;
 !€# рума%>%{ЫИØ%}н%>%{ЫØ%}т
@@ -144,10 +147,12 @@ Rules
 !! VOWEL FROM ARCHIVOWEL
 "%{ЫИØ%}:ы"
 !! __@RULENAME@__
- %{ЫИØ%}:ы <=> [ и | ы ] %> 0: _ г  ;
-               Cns %> _  [ г | н | т ] ;
+ %{ЫИØ%}:ы <=> [ и | ы ] %> 0: _   г  ;
+               Cns       %>    _ [ г | н | т ] ;
 !(2007: 30) short elsewhere long??               Cns %> _ %^PxDu2: н  ;
 !               Cns %> _ (%^PxDu2: ) [ г | н | т ] ;
+!€# кол%>%{ЫИØ%}н%>%{ЫØ%}т
+!€0 кол0ын00т
 
 "%{ЫИØ%}:и"
 !! __@RULENAME@__
