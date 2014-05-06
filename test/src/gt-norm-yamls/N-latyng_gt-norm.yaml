@@ -18,35 +18,35 @@ Tests:
 
   Noun - ла̄тыӈ: # Noun 122 'word' - full paradigm, FIXME!
      ла̄тыӈ+N+Sg+Nom: ла̄тыӈ
-     ла̄тыӈ+N+Sg+Nom+PxSg1: ла̄тыӈум
-     ла̄тыӈ+N+Sg+Nom+PxSg2: ла̄тыӈын
-     ла̄тыӈ+N+Sg+Nom+PxSg3: ла̄тыӈе
+     ла̄тыӈ+N+Sg+Nom+PxSg1: ла̄тӈум
+     ла̄тыӈ+N+Sg+Nom+PxSg2: ла̄тӈын
+     ла̄тыӈ+N+Sg+Nom+PxSg3: ла̄тӈе
      ла̄тыӈ+N+Sg+Nom+PxDu1: ла̄тыӈме̄н
 # (2007: 30) short
-     ла̄тыӈ+N+Sg+Nom+PxDu2: ла̄тыӈы̄н
-     ла̄тыӈ+N+Sg+Nom+PxDu3: ла̄тыӈе̄н
-     ла̄тыӈ+N+Sg+Nom+PxPl1: ла̄тыӈув
-     ла̄тыӈ+N+Sg+Nom+PxPl2: ла̄тыӈы̄н
-     ла̄тыӈ+N+Sg+Nom+PxPl3: ла̄тыӈаныл
+     ла̄тыӈ+N+Sg+Nom+PxDu2: ла̄тӈы̄н
+     ла̄тыӈ+N+Sg+Nom+PxDu3: ла̄тӈе̄н
+     ла̄тыӈ+N+Sg+Nom+PxPl1: ла̄тӈув
+     ла̄тыӈ+N+Sg+Nom+PxPl2: ла̄тӈы̄н
+     ла̄тыӈ+N+Sg+Nom+PxPl3: ла̄тӈаныл
      
      ла̄тыӈ+N+Sg+Loc: ла̄тыӈт
-     ла̄тыӈ+N+Sg+Loc+PxSg1: ла̄тыӈумт
-     ла̄тыӈ+N+Sg+Loc+PxSg2: ла̄тыӈынт
-     ла̄тыӈ+N+Sg+Loc+PxSg3: ла̄тыӈет
+     ла̄тыӈ+N+Sg+Loc+PxSg1: ла̄тӈумт
+     ла̄тыӈ+N+Sg+Loc+PxSg2: ла̄тӈынт
+     ла̄тыӈ+N+Sg+Loc+PxSg3: ла̄тӈет
      ла̄тыӈ+N+Sg+Loc+PxDu1: ла̄тыӈме̄нт
-     ла̄тыӈ+N+Sg+Loc+PxDu2: ла̄тыӈы̄нт
-     ла̄тыӈ+N+Sg+Loc+PxDu3: ла̄тыӈе̄нт
-     ла̄тыӈ+N+Sg+Loc+PxPl1: ла̄тыӈувт
-     ла̄тыӈ+N+Sg+Loc+PxPl2: ла̄тыӈы̄нт
-     ла̄тыӈ+N+Sg+Loc+PxPl3: ла̄тыӈанылт
+     ла̄тыӈ+N+Sg+Loc+PxDu2: ла̄тӈы̄нт
+     ла̄тыӈ+N+Sg+Loc+PxDu3: ла̄тӈе̄нт
+     ла̄тыӈ+N+Sg+Loc+PxPl1: ла̄тӈувт
+     ла̄тыӈ+N+Sg+Loc+PxPl2: ла̄тӈы̄нт
+     ла̄тыӈ+N+Sg+Loc+PxPl3: ла̄тӈанылт
 
-#    (2007: 43)    explicitely not this +Dat??
-     ла̄тыӈ+N+Sg+Dat: ла̄тӈын
+# (2007: 43) +Lat
+     ла̄тыӈ+N+Sg+Lat: ла̄тыӈн
      ла̄тыӈ+N+Sg+Abl: ла̄тыӈныл
      ла̄тыӈ+N+Sg+Ins: ла̄тӈыл
-     ла̄тыӈ+N+Sg+Tra: ла̄тыӈыг
+     ла̄тыӈ+N+Sg+Tra: ла̄тӈыг
      
-     ла̄тыӈ+N+Du+Nom: ла̄тыӈыг
+     ла̄тыӈ+N+Du+Nom: ла̄тӈыг
      ла̄тыӈ+N+Pl+Nom: ла̄тӈыт
 
 # 2-syllable words (2007:19)
