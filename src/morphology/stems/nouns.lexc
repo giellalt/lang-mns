@@ -57,32 +57,32 @@ LEXICON Nouns
 
 
 !! JACK TESTING 
-аки      N_ "paternal uncle" ;
+аки      N_	"paternal uncle" ;
 апыг     N_	"grandson" ;
 а̄ви      N_	"door" ;
-а̄ны      N_ "cup" ;
+а̄ны      N_	"cup" ;
 а̄па      N_	"люлька" ;
 ва̄ӈкрип  N_	"gaff" ;
 во̄рто̄лн  N_	"bear" ;
 ёса      N_	"ski" ;
 инар     N_	"saddle" ;
-йӣв       N_	"tree" ;
+йӣв      N_	"tree" ;
 каскан   N_	"trap" ;
 ка̄т      N_	"hand" ;
 ква̄лыг   N_	"rope" ;
-кол      N_ "home" ;
-ла̄тыӈ    N_ "word" ;  !syncopating
+кол      N_	"home" ;
+ла̄тыӈ    N_	"word" ;  !syncopating
 ла̄хыс    N_	"mushroom" ;  !syncopating
 ло̄х      N_	"bay" ;
 лув      N_	"horse" ;
-лӯлы      N_	"razorbill" ;
-лӯпта     N_	"leaf" ;
+лӯлы     N_	"razorbill" ;
+лӯпта    N_	"leaf" ;
 о̄вта     N_	"sting" ;
-о̄йка     N_ "old man" ;
-паль     N_ "ear" ;
+о̄йка     N_	"old man" ;
+паль     N_	"ear" ;
 па̄рт     N_	"board" ;
-павыл    N_  "village" ;
-рума     N_ "friend" ;
+павыл    N_ 	"village" ;
+рума     N_	"friend" ;
 са̄лы     N_	"reindeer" ;
 сира     N_	"seagull" ;
 сымри    N_	"perch(fish)" ;
@@ -91,9 +91,9 @@ LEXICON Nouns
 ӯра      N_	"warehouse" ;
 ӯсхулы   N_	"street" ;
 хура     N_	"trough" ;
-ха̄ль     N_ "birch" ;
+ха̄ль     N_	"birch" ;
 ха̄п      N_	"boat" ;
 хури     N_	"image" ;
-ща̄рыщ    N_ "sea" ; !syncopating
+ща̄рыщ    N_	"sea" ; !syncopating
 
 
