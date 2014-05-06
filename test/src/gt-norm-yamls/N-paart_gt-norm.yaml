@@ -16,9 +16,10 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Noun - кол: # Noun 122 'eng home/fin koti' - full paradigm
+  Noun - пāрт: # Noun 122 'eng board /rus доска' - full paradigm
 #
-     кол+N+Sg+Nom: кол
+     пāрт+N+Sg+Nom: пāрт
+
      кол+N+Sg+PxSg1+Nom: колум
      кол+N+Sg+PxSg2+Nom: колын
      кол+N+Sg+PxSg3+Nom: колэ

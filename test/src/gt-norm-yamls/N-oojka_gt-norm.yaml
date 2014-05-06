@@ -18,33 +18,33 @@ Tests:
 
   Noun - о̄йка: # Noun 122 'eng old man/est kahju/fin' - full paradigm
      о̄йка+N+Sg+Nom: о̄йка
-     о̄йка+N+Sg+Nom+PxSg1: о̄йкам
-     о̄йка+N+Sg+Nom+PxSg2: о̄йкан
-     о̄йка+N+Sg+Nom+PxSg3: о̄йкатэ
+     о̄йка+N+Sg+PxSg1+Nom: о̄йкам
+     о̄йка+N+Sg+PxSg2+Nom: о̄йкан
+     о̄йка+N+Sg+PxSg3+Nom: о̄йкатэ
      о̄йка+N+Du+Nom: о̄йкаг
      о̄йка+N+Pl+Nom: о̄йкат
 #
      рума+N+Sg+Nom: рума
-     рума+N+Sg+Nom+PxSg1: румам
-     рума+N+Sg+Nom+PxSg2: руман
-     рума+N+Sg+Nom+PxSg3: руматэ
-     рума+N+Sg+Nom+PxDu1: румаме̄н
-     рума+N+Sg+Nom+PxDu2: руман
-     рума+N+Sg+Nom+PxDu3: руматэ̄н
-     рума+N+Sg+Nom+PxPl1: румав
-     рума+N+Sg+Nom+PxPl2: рума̄н
-     рума+N+Sg+Nom+PxPl3: руманыл
+     рума+N+Sg+PxSg1+Nom: румам
+     рума+N+Sg+PxSg2+Nom: руман
+     рума+N+Sg+PxSg3+Nom: руматэ
+     рума+N+Sg+PxDu1+Nom: румаме̄н
+     рума+N+Sg+PxDu2+Nom: руман
+     рума+N+Sg+PxDu3+Nom: руматэ̄н
+     рума+N+Sg+PxPl1+Nom: румав
+     рума+N+Sg+PxPl2+Nom: рума̄н
+     рума+N+Sg+PxPl3+Nom: руманыл
 
      рума+N+Sg+Loc: румат
-     рума+N+Sg+Loc+PxSg1: румамт
-     рума+N+Sg+Loc+PxSg2: румант
-     рума+N+Sg+Loc+PxSg3: руматэт
-     рума+N+Sg+Loc+PxDu1: румаме̄нт
-     рума+N+Sg+Loc+PxDu2: румант
-     рума+N+Sg+Loc+PxDu3: руматэ̄нт
-     рума+N+Sg+Loc+PxPl1: румавт
-     рума+N+Sg+Loc+PxPl2: рума̄нт
-     рума+N+Sg+Loc+PxPl3: руманылт
+     рума+N+Sg+PxSg1+Loc: румамт
+     рума+N+Sg+PxSg2+Loc: румант
+     рума+N+Sg+PxSg3+Loc: руматэт
+     рума+N+Sg+PxDu1+Loc: румаме̄нт
+     рума+N+Sg+PxDu2+Loc: румант
+     рума+N+Sg+PxDu3+Loc: руматэ̄нт
+     рума+N+Sg+PxPl1+Loc: румавт
+     рума+N+Sg+PxPl2+Loc: рума̄нт
+     рума+N+Sg+PxPl3+Loc: руманылт
      рума+N+Du+Loc: румаг
      рума+N+Du+Loc: румагт
      рума+N+Pl+Nom: румат

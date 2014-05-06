@@ -18,53 +18,53 @@ Tests:
 
   Noun - аки: # Noun 122 'eng paternal uncle/est kahju/fin setä' - full paradigm
      аки+N+Sg+Nom: аки
-     аки+N+Sg+Nom+PxSg1: аким
-     аки+N+Sg+Nom+PxSg2: акин
-     аки+N+Sg+Nom+PxSg3: акитэ
-     аки+N+Sg+Nom+PxDu1: акиме̄н
-     аки+N+Sg+Nom+PxDu2: акӣн
-     аки+N+Sg+Nom+PxDu3: акитэ̄н
-     аки+N+Sg+Nom+PxPl1: акиюв
-     аки+N+Sg+Nom+PxPl2: акин
-     аки+N+Sg+Nom+PxPl3: акияныл
+     аки+N+Sg+PxSg1+Nom: аким
+     аки+N+Sg+PxSg2+Nom: акин
+     аки+N+Sg+PxSg3+Nom: акитэ
+     аки+N+Sg+PxDu1+Nom: акиме̄н
+     аки+N+Sg+PxDu2+Nom: акӣн
+     аки+N+Sg+PxDu3+Nom: акитэ̄н
+     аки+N+Sg+PxPl1+Nom: акиюв
+     аки+N+Sg+PxPl2+Nom: акин
+     аки+N+Sg+PxPl3+Nom: акияныл
      аки+N+Du+Nom: акийыг
      аки+N+Pl+Nom: акит
 #
      а̄ны+N+Sg+Nom: а̄ны
-     а̄ны+N+Sg+Nom+PxSg1: а̄ным
-     а̄ны+N+Sg+Nom+PxSg2: а̄нын
-     а̄ны+N+Sg+Nom+PxSg3: а̄нытэ
+     а̄ны+N+Sg+PxSg1+Nom: а̄ным
+     а̄ны+N+Sg+PxSg2+Nom: а̄нын
+     а̄ны+N+Sg+PxSg3+Nom: а̄нытэ
      а̄ны+N+Du+Nom: а̄ныйыг
      а̄ны+N+Pl+Nom: а̄ныт
 
 
 # (Скрибник & Афанасьева 2007: 78) 
-     а̄ны+N+Sg+Nom+PxSg1: а̄ным
-     а̄ны+N+Sg+Nom+PxSg2: а̄нын
-     а̄ны+N+Sg+Nom+PxSg3: а̄нытэ
-     а̄ны+N+Sg+Nom+PxDu1: а̄ныме̄н
-     а̄ны+N+Sg+Nom+PxDu2: а̄ныйин
-     а̄ны+N+Sg+Nom+PxDu3: а̄нытэ̄н
-     а̄ны+N+Sg+Nom+PxPl1: а̄ныюв
-     а̄ны+N+Sg+Nom+PxPl2: а̄нын
-     а̄ны+N+Sg+Nom+PxPl3: а̄ныяныл
+     а̄ны+N+Sg+PxSg1+Nom: а̄ным
+     а̄ны+N+Sg+PxSg2+Nom: а̄нын
+     а̄ны+N+Sg+PxSg3+Nom: а̄нытэ
+     а̄ны+N+Sg+PxDu1+Nom: а̄ныме̄н
+     а̄ны+N+Sg+PxDu2+Nom: а̄ныйин
+     а̄ны+N+Sg+PxDu3+Nom: а̄нытэ̄н
+     а̄ны+N+Sg+PxPl1+Nom: а̄ныюв
+     а̄ны+N+Sg+PxPl2+Nom: а̄нын
+     а̄ны+N+Sg+PxPl3+Nom: а̄ныяныл
 
-     а̄ны+N+Du+Nom+PxSg1: а̄ныягум
-     а̄ны+N+Du+Nom+PxSg2: а̄ныягын
-     а̄ны+N+Du+Nom+PxSg3: а̄ныяге
-     а̄ны+N+Du+Nom+PxDu1: а̄ныягме̄н
-     а̄ны+N+Du+Nom+PxDu2: а̄ныягы̄н
-     а̄ны+N+Du+Nom+PxDu3: а̄ныяге̄н
-     а̄ны+N+Du+Nom+PxPl1: а̄ныягув
-     а̄ны+N+Du+Nom+PxPl2: а̄ныягы̄н
-     а̄ны+N+Du+Nom+PxPl3: а̄ныяганыл
+     а̄ны+N+Du+PxSg1+Nom: а̄ныягум
+     а̄ны+N+Du+PxSg2+Nom: а̄ныягын
+     а̄ны+N+Du+PxSg3+Nom: а̄ныяге
+     а̄ны+N+Du+PxDu1+Nom: а̄ныягме̄н
+     а̄ны+N+Du+PxDu2+Nom: а̄ныягы̄н
+     а̄ны+N+Du+PxDu3+Nom: а̄ныяге̄н
+     а̄ны+N+Du+PxPl1+Nom: а̄ныягув
+     а̄ны+N+Du+PxPl2+Nom: а̄ныягы̄н
+     а̄ны+N+Du+PxPl3+Nom: а̄ныяганыл
 
-     а̄ны+N+Pl+Nom+PxSg1: а̄ныянум
-     а̄ны+N+Pl+Nom+PxSg2: а̄ныянын
-     а̄ны+N+Pl+Nom+PxSg3: а̄ныянэ
-     а̄ны+N+Pl+Nom+PxDu1: а̄ныянме̄н
-     а̄ны+N+Pl+Nom+PxDu2: а̄ныяны̄н
-     а̄ны+N+Pl+Nom+PxDu3: а̄ныянэ̄н
-     а̄ны+N+Pl+Nom+PxPl1: а̄ныянув
-     а̄ны+N+Pl+Nom+PxPl2: а̄ныяны̄н
-     а̄ны+N+Pl+Nom+PxPl3: а̄ныянаныл
+     а̄ны+N+Pl+PxSg1+Nom: а̄ныянум
+     а̄ны+N+Pl+PxSg2+Nom: а̄ныянын
+     а̄ны+N+Pl+PxSg3+Nom: а̄ныянэ
+     а̄ны+N+Pl+PxDu1+Nom: а̄ныянме̄н
+     а̄ны+N+Pl+PxDu2+Nom: а̄ныяны̄н
+     а̄ны+N+Pl+PxDu3+Nom: а̄ныянэ̄н
+     а̄ны+N+Pl+PxPl1+Nom: а̄ныянув
+     а̄ны+N+Pl+PxPl2+Nom: а̄ныяны̄н
+     а̄ны+N+Pl+PxPl3+Nom: а̄ныянаныл
