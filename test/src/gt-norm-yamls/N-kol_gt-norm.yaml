@@ -19,6 +19,11 @@ Tests:
   Noun - кол: # Noun 122 'eng home/fin koti' - full paradigm
 #
      кол+N+Sg+Nom: кол
+     кол+N+Sg+Lat: колн
+     кол+N+Sg+Abl: колныл
+     кол+N+Sg+Ins: колыл
+     кол+N+Sg+Tra: колыг
+
      кол+N+Sg+PxSg1+Nom: колум
      кол+N+Sg+PxSg2+Nom: колын
      кол+N+Sg+PxSg3+Nom: колэ

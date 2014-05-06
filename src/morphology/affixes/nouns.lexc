@@ -18,12 +18,12 @@ LEXICON NounNumber-StemC
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON NounCase-StemC
 
-+Nom:        # ;
++Nom:         # ;
 +Lat:н        # ;
 +Loc:т        # ;
 +Abl:ныл      # ;
-+Ins:ыл     # ;
-+tra:ыг      # ;
++Ins:ыл       # ;
++Tra:ыг       # ;
 
 
 
@@ -39,8 +39,8 @@ LEXICON NounCase-StemCC
 +Lat:ын       # ;
 +Loc:ыт       # ;
 +Abl:ныл      # ;
-+Ins:ыл     # ;
-+Tra:ыг      # ;
++Ins:ыл       # ;
++Tra:ыг       # ;
 
 
 LEXICON NounNumber-StemV1
@@ -56,8 +56,8 @@ LEXICON NounCase-StemV1
 +Lat:н       # ;
 +Loc:т       # ;
 +Abl:ныл     # ;
-+Ins:л     # ;
-+Tra:г      # ;
++Ins:л       # ;
++Tra:г       # ;
 
 
 LEXICON NounNumber-StemV2
@@ -73,8 +73,8 @@ LEXICON NounCase-StemV2
 +Lat:н       # ;
 +Loc:т       # ;
 +Abl:ныл     # ;
-+Ins:л     # ;
-+Tra:йыг    # ;
++Ins:л       # ;
++Tra:йыг     # ;
 
 
 
