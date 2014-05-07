@@ -22,8 +22,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! !!Letters in alphabet
 !! Vowels with a macron 
-а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
-А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄
+а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
+А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄
 
 %+
 
@@ -33,7 +33,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! Finug  !!! L-S !!! Notes:
 ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON 
 ē        !!! 
-ё̄        !!! 
+!ё̄        !!! 
 ӣ        !!! йӣквыт
 ō        !!!    !!! (333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
 ӯ        !!! ӯ  !!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
@@ -67,10 +67,11 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Sg +Du +Pl
  +Nom +Gen +Par +Acc 
 
- +Dat !!= * @CODE@ Ын
- +Ins !!= * @CODE@ тыл
  +Abl !!= * @CODE@  ныл
+ +Ins !!= * @CODE@ тыл
+ +Lat !!= * @CODE@ Ын (2007: Дательный падеж)
  +Loc !!= * @CODE@  Ыт
+ +Tra !!= * @CODE@  Ыг
 
  +Ill +Com +Com/Sh !!= * @CODE@ are these needed?
  +Ade +All

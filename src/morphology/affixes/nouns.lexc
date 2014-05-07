@@ -10,28 +10,28 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON NounNumber-StemC
-
-+N+Sg:        NounCase-StemC ;
-+N+Du:ыг       NounCase-StemC ;
-+N+Pl:ыт       NounCase-StemC ;
+ N_ ;
+!+N+Sg:        NounCase-StemC ;
+!+N+Du:ыг       NounCase-StemC ;
+!+N+Pl:ыт       NounCase-StemC ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON NounCase-StemC
-
-+Nom:         # ;
-+Lat:н        # ;
-+Loc:т        # ;
-+Abl:ныл      # ;
-+Ins:ыл       # ;
-+Tra:ыг       # ;
+ N_ ;
+!+Nom:         # ;
+!+Lat:н        # ;
+!+Loc:т        # ;
+!+Abl:ныл      # ;
+!+Ins:ыл       # ;
+!+Tra:ыг       # ;
 
 
 
 LEXICON NounNumber-StemCC
-
-+N+Sg:0        NounCase-StemCC ;
-+N+Du:ыг       NounCase-StemC  ;
-+N+Pl:ыт       NounCase-StemC  ;
+ N_ ;
+!+N+Sg:0        NounCase-StemCC ;
+!+N+Du:ыг       NounCase-StemC  ;
+!+N+Pl:ыт       NounCase-StemC  ;
 
 LEXICON NounCase-StemCC
 
@@ -44,10 +44,10 @@ LEXICON NounCase-StemCC
 
 
 LEXICON NounNumber-StemV1
-
-+N+Sg:0        NounCase-StemV1 ;
-+N+Du:г        NounCase-StemC  ;
-+N+Pl:т        NounCase-StemC  ;
+ N_ ;
+!+N+Sg:0        NounCase-StemV1 ;
+!+N+Du:г        NounCase-StemC  ;
+!+N+Pl:т        NounCase-StemC  ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON NounCase-StemV1
@@ -61,10 +61,10 @@ LEXICON NounCase-StemV1
 
 
 LEXICON NounNumber-StemV2
-
-+N+Sg:0        NounCase-StemV2 ;
-+N+Du:йыг      NounCase-StemC  ;
-+N+Pl:т        NounCase-StemC  ;
+ N_ ;
+!+N+Sg:0        NounCase-StemV2 ;
+!+N+Du:йыг      NounCase-StemC  ;
+!+N+Pl:т        NounCase-StemC  ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 LEXICON NounCase-StemV2
@@ -112,19 +112,35 @@ LEXICON VPХ
 ! 
 !! JACK TESTING 
 LEXICON N_
-+N: SG-DAT ;
++N: SG-ABL ;
++N: SG-INS ;
++N: SG-LAT ;
 +N: SG-LOC ;
 +N: SG-NOM ;
++N: SG-TRA ;
+
++N: DU-ABL ;
++N: DU-INS ;
++N: DU-LAT ;
 +N: DU-LOC ;
 +N: DU-NOM ;
+
++N: PL-ABL ;
++N: PL-INS ;
++N: PL-LAT ;
 +N: PL-LOC ;
 +N: PL-NOM ;
 
-LEXICON SG-DAT
-+Sg+Dat:%>%{ЫИØ%}н K ;
-
+LEXICON SG-ABL
++Sg+Abl:ныл K ;
 !!! NB: we list POSSESSIVE suffixes before CASE MARKERS -- 
 !!! as they appear in surface forms in all UGRIC LANGUAGES
+
+LEXICON SG-INS
++Sg+Ins:%>%{ТØ%}ыл K ;
+
+LEXICON SG-LAT
++Sg+Lat:%>%{ЫØ%}н K ;
 
 LEXICON SG-LOC
 +Sg+Loc:%>%{ЫØ%}т K ;
@@ -151,6 +167,18 @@ LEXICON SG-NOM
 +Sg+PxPl2+Nom:%>%{ЫИØ%}%^PxPl2н K ;
 +Sg+PxPl3+Nom:%>%{АЯØ%}ныл K ;
 
+LEXICON SG-TRA
++Sg+Tra:%>%{ЫИØ%}г K ;
+
+
+LEXICON DU-ABL
++Du+Abl:%>%{ЫИØ%}г%>ныл K ;
+
+LEXICON DU-INS
++Du+Ins:%>%{ЫИØ%}г%>тыл K ;
+
+LEXICON DU-LAT
++Du+Lat:%>%{ЫИØ%}г%>%{ЫØ%}н K ;
 
 LEXICON DU-LOC
 +Du+Loc:%>%{ЫИØ%}г%>%{ЫØ%}т K ;
@@ -167,8 +195,19 @@ LEXICON DU-NOM
 +Du+PxPl2+Nom:%>%{АЯØ%}г%>%{ЫИØ%}%^PxPl2н K ;
 +Du+PxPl3+Nom:%>%{АЯØ%}г%>%{АЯØ%}ныл K ;
 
+LEXICON PL-ABL
++Pl+Abl:%>%{ЫИØ%}т%>ныл K ;
+
+LEXICON PL-INS
++Pl+Ins:%>%{ЫИØ%}т%>%{ТØ%}ыл K ;
++Pl+Ins:%>%{ЫИØ%}т%>л K ;
+
+LEXICON PL-LAT
++Pl+Lat:%>%{ЫИØ%}т%>%{ЫØ%}н K ;
+
 LEXICON PL-LOC
 +Pl+Loc:%>%{ЫИØ%}т%>%{ЫØ%}т K ;
++Pl+Loc:%>%{ЫИØ%}т%>ыт K ;
 
 LEXICON PL-NOM
 +Pl+Nom:%>%{ЫИØ%}т K ;
