@@ -10,7 +10,6 @@ Config:
 Tests:
 
 
-
 # todo:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct.
@@ -34,6 +33,7 @@ Tests:
      пāрт+N+Pl+Loc: пāртытт      
      пāрт+N+Pl+Abl: пāртытныл
      пāрт+N+Pl+Ins: пāртытыл      
+
      пāрт+N+Sg+PxSg1+Nom: пāртум
      пāрт+N+Sg+PxSg2+Nom: пāртын
      пāрт+N+Sg+PxSg3+Nom: пāртэ
