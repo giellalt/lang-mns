@@ -22,7 +22,7 @@ Tests:
      ла̄тыӈ+N+Sg+PxSg1+Nom: ла̄тӈум
      ла̄тыӈ+N+Sg+PxSg2+Nom: ла̄тӈын
      ла̄тыӈ+N+Sg+PxSg3+Nom: ла̄тӈе
-     ла̄тыӈ+N+Sg+PxDu1+Nom: ла̄тыӈме̄н
+     ла̄тыӈ+N+Sg+PxDu1+Nom: ла̄тыӈме̄н  # Or should it be ла̄тӈуме̄н
 # (2007: 30) short
      ла̄тыӈ+N+Sg+PxDu2+Nom: ла̄тӈы̄н
      ла̄тыӈ+N+Sg+PxDu3+Nom: ла̄тӈе̄н
@@ -34,7 +34,7 @@ Tests:
      ла̄тыӈ+N+Sg+PxSg1+Loc: ла̄тӈумт
      ла̄тыӈ+N+Sg+PxSg2+Loc: ла̄тӈынт
      ла̄тыӈ+N+Sg+PxSg3+Loc: ла̄тӈет
-     ла̄тыӈ+N+Sg+PxDu1+Loc: ла̄тыӈме̄нт
+     ла̄тыӈ+N+Sg+PxDu1+Loc: ла̄тыӈме̄нт # Or should it be ла̄тӈуме̄нт
      ла̄тыӈ+N+Sg+PxDu2+Loc: ла̄тӈы̄нт
      ла̄тыӈ+N+Sg+PxDu3+Loc: ла̄тӈе̄нт
      ла̄тыӈ+N+Sg+PxPl1+Loc: ла̄тӈувт
@@ -57,4 +57,4 @@ Tests:
      па̄выл+N+Pl+Nom: па̄влыт
      па̄выл+N+Sg+Loc: па̄вылт
 #    (2007: 43)
-     па̄выл+N+Sg+Dat: па̄влын
+     па̄выл+N+Sg+Lat: па̄влын
