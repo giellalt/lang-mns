@@ -1,0 +1,89 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# Based on LS 2014
+
+  Noun - потыр: # Noun 122 'word' - full paradigm, FIXME!
+     потыр+N+Sg+Nom: потыр
+     потыр+N+Sg+PxSg1+Nom: потрум
+     потыр+N+Sg+PxSg2+Nom: потырын #
+     потыр+N+Sg+PxSg3+Nom: потре
+     потыр+N+Sg+PxDu1+Nom: потруме̄н
+# (2007: 30) short
+     потыр+N+Sg+PxDu2+Nom: потры̄н #
+     потыр+N+Sg+PxDu3+Nom: потре̄н #
+     потыр+N+Sg+PxPl1+Nom: потрув
+     потыр+N+Sg+PxPl2+Nom: потры̄н #
+     потыр+N+Sg+PxPl3+Nom: потраныл
+     
+     потыр+N+Sg+Loc: потрыт
+     потыр+N+Sg+PxSg1+Loc: потрумт #
+     потыр+N+Sg+PxSg2+Loc: потрынт #
+     потыр+N+Sg+PxSg3+Loc: потре̄т 
+     потыр+N+Sg+PxDu1+Loc: потырме̄нт #
+     потыр+N+Sg+PxDu2+Loc: потры̄нт #
+     потыр+N+Sg+PxDu3+Loc: потре̄нт #
+     потыр+N+Sg+PxPl1+Loc: потрувт 
+     потыр+N+Sg+PxPl2+Loc: потры̄нт #
+     потыр+N+Sg+PxPl3+Loc: потранылт #
+
+#    (2007: 43)    explicitely not this +Dat??
+     потыр+N+Sg+Lat: потрын 
+     потыр+N+Sg+Abl: потырныл #
+     потыр+N+Sg+Ins: потрыл #
+     потыр+N+Sg+Tra: потрыг  
+     
+     потыр+N+Du+Nom: потырыг #
+     потыр+N+Du+PxSg1+Nom: потрагум #
+     потыр+N+Du+PxSg2+Nom: потрагын #
+     потыр+N+Du+PxSg3+Nom: потраге #
+     потыр+N+Du+PxDu1+Nom: потрагме̄н #
+     потыр+N+Du+PxDu2+Nom: потрагы̄н #
+     потыр+N+Du+PxDu3+Nom: потраге̄н #
+     потыр+N+Du+PxPl1+Nom: потрагув #
+     потыр+N+Du+PxPl2+Nom: потрагы̄н #
+     потыр+N+Du+PxPl3+Nom: потраганыл #
+
+     потыр+N+Pl+Nom: потрыт
+     потыр+N+Pl+Abl: потрытныл
+     потыр+N+Pl+Ins: [потрытыл, потрытл]
+     потыр+N+Pl+Loc: [потрытыт, потрытт]
+     потыр+N+Pl+PxSg1+Nom: потранум 
+     потыр+N+Pl+PxSg2+Nom: потранын #
+     потыр+N+Pl+PxSg3+Nom: потранэ 
+     потыр+N+Pl+PxDu1+Nom: потранме̄н #
+     потыр+N+Pl+PxDu2+Nom: потраны̄н #
+     потыр+N+Pl+PxDu3+Nom: потранэ̄н 
+     потыр+N+Pl+PxPl1+Nom: потранув #
+     потыр+N+Pl+PxPl2+Nom: потраны̄н #
+     потыр+N+Pl+PxPl3+Nom: потрананыл #
+
+# потраме̄гыт
+# потрамасум
+# потраныл
+# потранылт
+# потрамасме̄н
+# потармасӯв
+# потраме̄в
+# потраме̄гыт
+# потранэтув
+# потранэ̄тыл
+# потрамасыт
+# потрамас
+# потрамаӈкв
+# потыртас
+# потыртасыт
+
