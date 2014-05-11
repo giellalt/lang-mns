@@ -1,6 +1,33 @@
 !! =================================== !
 !! !!!The Mansi morphophonological/twolc rule file 
 !! =================================== !
+!! One of the Grammars used for this description is:
+!! Скрибник Е.К. & К.В. Афанасьева 2007:
+!! Практически курс манийского языка, Часть 1. Ханты-Мансийск. Полиграфист.
+!! The nouns stem types should be divided into 4 separate types:
+!! (1) stems ending in vowels other than и/ы "о̄йка" 'old man';
+!! (2) stems ending in и/ы "а̄ны" 'cup', "са̄лы" 'reindeer'; 
+!! (3) stems ending in non-palatal consonant "а̄мп" 'dog',
+!! (4) stems ending in palatalized consonant "ха̄ль" 'birch'.
+!! There are also additional comments including a fifth type
+!! (5) "потыр" 'speech, story' featuring syncope .(2007: 19)
+!! In the Lexc categorizations set up by Kirill Reshetnikov
+!! and Roman Yangarber, however, attention is also drawn to a distinction
+!! between stems ending VC and ones in VCC.
+!! Reshetnikov and Yangarber have offered an entirely lexc solution to this
+!! problem with distinctions between stem-final contexts.
+!! Twolc, however, has been written to express these very same stem-final
+!! contexts in a way to minimize excess work in input.
+!! By expressing all context variation in twolc, the input in nouns can
+!! be reduced to (1) one unit expressing both lemma and stem;
+!! (2) a simple N_ continuation lexicon;
+!! (3) a translation gloss,
+!! (4) lexc line-final ";" semicolon.
+!! (1)  (2)    (3)                                   (4)
+!! а̄мп  N_   "(eng) dog/(hun) kutya|eb/(rus) собака" ;
+!! It is important that yaml tests are written with as extensive paradigms
+!! as possible. These tests are also the basis of the morphological analyzer.
+!! There should be tests written for other parts of speech as well.
 
 Alphabet
 а б в г д е ё ж з и й к л м н о п р с т 
