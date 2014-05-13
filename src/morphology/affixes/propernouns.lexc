@@ -6,8 +6,8 @@
 !! and Mansi-specific names.
 
 
-LEXICON ProperNounCases
-+N+Prop:   NounCase-StemC  ;
+LEXICON PROP_
++N+Prop:   N_  ;
 
 ! vim: set ft=xfst-lexc:
 

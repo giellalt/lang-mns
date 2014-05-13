@@ -163,8 +163,17 @@ LEXICON Root
    Nouns   ;
    Verbs   ;
    Adjectives  ;
+   Adverbs  ;
    Pronouns    ;
    Numerals    ;
    Conjunctions ;
+
+!! NEWWORDS FILES
+ A_NEWWORDS ;	  !!= __@CODE@__ adjectives
+ ADV_NEWWORDS ;	  !!= __@CODE@__ adverbs
+ N_NEWWORDS ; 	  !!= __@CODE@__ nouns
+ NUM_NEWWORDS ;   !!= __@CODE@__ numerals
+ PROP_NEWWORDS ;  !!= __@CODE@__ proper nouns
+ V_NEWWORDS ;  	  !!= __@CODE@__ verbs
 
 ! vim: set ft=xfst-lexc:

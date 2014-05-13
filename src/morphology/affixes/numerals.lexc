@@ -1,0 +1,12 @@
+!! !!!Numerals for Northern Mansi
+! --------------------
+
+!! No work on numerals yet.
+
+LEXICON NUM_
++Num:        #   ;
+
+
+
+! vim: set ft=xfst-lexc:
+

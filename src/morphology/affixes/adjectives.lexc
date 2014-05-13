@@ -8,5 +8,8 @@ LEXICON Comparisons
 +A+Cmp:er       #   ;
 +A+Sup:est      #   ;
 
+LEXICON A_
++A:   # ;
+
 ! vim: set ft=xfst-lexc:
 

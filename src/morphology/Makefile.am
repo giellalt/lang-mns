@@ -21,9 +21,20 @@ GT_LEXC_ROOT=root.lexc
 # Set this to the names of all other source lexc files
 GT_LEXC_SRCS=\
 			 affixes/adjectives.lexc \
+			 affixes/adverbs.lexc \
 			 affixes/nouns.lexc \
+			 affixes/numerals.lexc \
+			 affixes/pronouns.lexc \
+			 affixes/propernouns.lexc \
 			 affixes/verbs.lexc \
+			 stems/adjectives_newwords.lexc \
+			 stems/adverbs_newwords.lexc \
+			 stems/nouns_newwords.lexc \
+			 stems/numerals_newwords.lexc \
+			 stems/propernouns_newwords.lexc \
+			 stems/verbs_newwords.lexc \
 			 stems/adjectives.lexc \
+			 stems/adverbs.lexc \
 			 stems/conjunctions.lexc \
 			 stems/nouns.lexc \
 			 stems/numerals.lexc \

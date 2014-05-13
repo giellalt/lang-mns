@@ -3,6 +3,6 @@
 !! Adjectives in UNDEFINED language describe things.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
+adjective    A_   ;
 
 ! vim: set ft=xfst-lexc:
