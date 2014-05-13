@@ -1,0 +1,7 @@
+!! This is where new words are added as lexc entries before they are 
+!! added to the xml source files.
+!! паль PROP_ "(eng) ear/(hun) fül/(rus) ухо" ;
+!! ADD PROPER NOUNS HERE
+
+
+
