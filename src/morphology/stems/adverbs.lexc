@@ -1,0 +1,10 @@
+!! Adverbs
+!! ----------
+!! Adverbs in the Northern Mansi language describe things.
+
+LEXICON Adverbs
+adverb    ADV_   ;
+
+
+
+! vim: set ft=xfst-lexc:

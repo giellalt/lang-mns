@@ -2,11 +2,15 @@
 
 
 LEXICON VerbTensePers_u
+ V_u ;
+LEXICON V_u
 +V+Inf:%>уӈкве # ;  ! assuming inf = stem
 +V+Ind+Prs: Present ;
 +V+Ind+Prt:у Preterite ;
 
 LEXICON VerbTensePers_a
+ V_a ;
+LEXICON V_a
 +V+Inf:%>аӈкве # ;  ! assuming inf = stem
 +V+Ind+Prs: Present ;
 +V+Ind+Prt:а Preterite ;

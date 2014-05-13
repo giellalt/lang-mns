@@ -3,5 +3,9 @@
 !! нёлолов NUM_ "(eng) eight/(hun) nyolc/(rus) восемь" ;
 !! ADD NUMERALS HERE
 
+LEXICON NUM_NEWWORDS
+нёлолов NUM_ "(eng) eight/(hun) nyolc/(rus) восемь" ;
+
+
 
 
