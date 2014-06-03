@@ -1,0 +1,221 @@
+# Author: Csilla HORVATH (Szeged Team)
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Then: run analyser, then correct.
+
+
+  Noun - хӯрыг: # "(eng) sack/(hun) zsák/(rus) мешок" - full paradigm
+
+     хӯрыг+N+Sg+Nom: хӯрыг
+     хӯрыг+N+Sg+Loc: хӯрыгт
+     хӯрыг+N+Sg+Lat: хӯрыгн
+     хӯрыг+N+Sg+Abl: хӯрыгныл
+     хӯрыг+N+Sg+Instr: хӯргыл
+     хӯрыг+N+Sg+Trans: хӯргиг
+
+     хӯрыг+N+Du+Nom: хӯргыг
+     хӯрыг+N+Du+Loc: хӯргыгт
+     хӯрыг+N+Du+Lat: хӯргыгн
+     хӯрыг+N+Du+Abl: хӯргыгныл
+     хӯрыг+N+Du+Instr: хӯргыгтыл
+
+     хӯрыг+N+Pl+Nom: хӯргыт
+     хӯрыг+N+Pl+Loc: хӯргытт
+     хӯрыг+N+Pl+Lat: хӯргытн
+     хӯрыг+N+Pl+Abl: хӯргытныл
+     хӯрыг+N+Pl+Instr: хӯргытыл
+
+     хӯрыг+N+Sg+PxSg1+Nom: хӯргум
+     хӯрыг+N+Sg+PxSg1+Loc: хӯргумт
+     хӯрыг+N+Sg+PxSg1+Lat: хӯргумн
+     хӯрыг+N+Sg+PxSg1+Abl: хӯргумныл
+     хӯрыг+N+Sg+PxSg1+Instr: хӯргумтыл
+
+     хӯрыг+N+Du+PxSg1+Nom: хӯргагум
+     хӯрыг+N+Du+PxSg1+Loc: хӯргагумт
+     хӯрыг+N+Du+PxSg1+Lat: хӯргагумн
+     хӯрыг+N+Du+PxSg1+Abl: хӯргагумныл
+     хӯрыг+N+Du+PxSg1+Instr: хӯргагумтыл
+
+     хӯрыг+N+Pl+PxSg1+Nom: хӯрганум
+     хӯрыг+N+Pl+PxSg1+Loc: хӯрганумт
+     хӯрыг+N+Pl+PxSg1+Lat: хӯрганумн
+     хӯрыг+N+Pl+PxSg1+Abl: хӯрганумныл
+     хӯрыг+N+Pl+PxSg1+Instr: хӯрганумтыл
+
+     хӯрыг+N+Sg+PxSg2+Nom: хӯргын
+     хӯрыг+N+Sg+PxSg2+Loc: хӯргынт
+     хӯрыг+N+Sg+PxSg2+Lat: хӯргынн
+     хӯрыг+N+Sg+PxSg2+Abl: хӯргынныл
+     хӯрыг+N+Sg+PxSg2+Instr: хӯргынтыл
+
+     хӯрыг+N+Du+PxSg2+Nom: хӯргагын
+     хӯрыг+N+Du+PxSg2+Loc: хӯргагынт
+     хӯрыг+N+Du+PxSg2+Lat: хӯргагынн
+     хӯрыг+N+Du+PxSg2+Abl: хӯргагынныл
+     хӯрыг+N+Du+PxSg2+Instr: хӯргагынтыл
+
+#     хӯрыг+N+Pl+PxSg2+Nom: хӯрган(ын)
+#     хӯрыг+N+Pl+PxSg2+Loc: хӯрган(ын)т
+#     хӯрыг+N+Pl+PxSg2+Lat: хӯрган(ын)н
+#     хӯрыг+N+Pl+PxSg2+Abl: хӯрган(ын)ныл
+#     хӯрыг+N+Pl+PxSg2+Instr: хӯрган(ын)тыл
+     хӯрыг+N+Pl+PxSg2+Nom: хӯрган
+     хӯрыг+N+Pl+PxSg2+Loc: хӯргант
+     хӯрыг+N+Pl+PxSg2+Lat: хӯрганн
+     хӯрыг+N+Pl+PxSg2+Abl: хӯрганныл
+     хӯрыг+N+Pl+PxSg2+Instr: хӯргантыл
+     хӯрыг+N+Pl+PxSg2+Nom: хӯрганын
+     хӯрыг+N+Pl+PxSg2+Loc: хӯрганынт
+     хӯрыг+N+Pl+PxSg2+Lat: хӯрганынн
+     хӯрыг+N+Pl+PxSg2+Abl: хӯрганынныл
+     хӯрыг+N+Pl+PxSg2+Instr: хӯрганынтыл
+
+     хӯрыг+N+Sg+PxSg3+Nom: хӯрге
+     хӯрыг+N+Sg+PxSg3+Loc: хӯргет
+     хӯрыг+N+Sg+PxSg3+Lat: хӯрген
+     хӯрыг+N+Sg+PxSg3+Abl: хӯргеныл
+     хӯрыг+N+Sg+PxSg3+Instr: хӯргетыл
+
+     хӯрыг+N+Du+PxSg3+Nom: хӯргаге
+     хӯрыг+N+Du+PxSg3+Loc: хӯргагет
+     хӯрыг+N+Du+PxSg3+Lat: хӯргаген
+     хӯрыг+N+Du+PxSg3+Abl: хӯргагеныл
+     хӯрыг+N+Du+PxSg3+Instr: хӯргагетыл
+
+     хӯрыг+N+Pl+PxSg3+Nom: хӯрганэ
+     хӯрыг+N+Pl+PxSg3+Loc: хӯрганэт
+     хӯрыг+N+Pl+PxSg3+Lat: хӯрганэн
+     хӯрыг+N+Pl+PxSg3+Abl: хӯрганэныл
+     хӯрыг+N+Pl+PxSg3+Instr: хӯрганэтыл
+
+     хӯрыг+N+Sg+PxDu1+Nom: хӯрыгмен
+     хӯрыг+N+Sg+PxDu1+Loc: хӯрыгмент
+     хӯрыг+N+Sg+PxDu1+Lat: хӯрыгменн
+     хӯрыг+N+Sg+PxDu1+Abl: хӯрыгменныл
+     хӯрыг+N+Sg+PxDu1+Instr: хӯрыгментыл
+
+     хӯрыг+N+Du+PxDu1+Nom: хӯргагамен
+     хӯрыг+N+Du+PxDu1+Loc: хӯргагамент
+     хӯрыг+N+Du+PxDu1+Lat: хӯргагаменн
+     хӯрыг+N+Du+PxDu1+Abl: хӯргагаменныл
+     хӯрыг+N+Du+PxDu1+Instr: хӯргагаментыл
+
+     хӯрыг+N+Pl+PxDu1+Nom: хӯрганамен
+     хӯрыг+N+Pl+PxDu1+Loc: хӯрганамент
+     хӯрыг+N+Pl+PxDu1+Lat: хӯрганаменн
+     хӯрыг+N+Pl+PxDu1+Abl: хӯрганаменныл
+     хӯрыг+N+Pl+PxDu1+Instr: хӯрганаментыл
+
+     хӯрыг+N+Sg+PxDu2+Nom: хӯргын
+     хӯрыг+N+Sg+PxDu2+Loc: хӯргынт
+     хӯрыг+N+Sg+PxDu2+Lat: хӯргынн
+     хӯрыг+N+Sg+PxDu2+Abl: хӯргынныл
+     хӯрыг+N+Sg+PxDu2+Instr: хӯргынтыл
+
+     хӯрыг+N+Du+PxDu2+Nom: хӯргаген
+     хӯрыг+N+Du+PxDu2+Loc: хӯргагент
+     хӯрыг+N+Du+PxDu2+Lat: хӯргагенн
+     хӯрыг+N+Du+PxDu2+Abl: хӯргагенныл
+     хӯрыг+N+Du+PxDu2+Instr: хӯргагентыл
+
+     хӯрыг+N+Pl+PxDu2+Nom: хӯрганэн
+     хӯрыг+N+Pl+PxDu2+Loc: хӯрганэнт
+     хӯрыг+N+Pl+PxDu2+Lat: хӯрганэнн
+     хӯрыг+N+Pl+PxDu2+Abl: хӯрганэнныл
+     хӯрыг+N+Pl+PxDu2+Instr: хӯрганэнтыл
+
+     хӯрыг+N+Sg+PxDu3+Nom: хӯрген
+     хӯрыг+N+Sg+PxDu3+Loc: хӯргент
+     хӯрыг+N+Sg+PxDu3+Lat: хӯргенн
+     хӯрыг+N+Sg+PxDu3+Abl: хӯргенныл
+     хӯрыг+N+Sg+PxDu3+Instr: хӯргентыл
+
+     хӯрыг+N+Du+PxDu3+Nom: хӯргаген
+     хӯрыг+N+Du+PxDu3+Loc: хӯргагент
+     хӯрыг+N+Du+PxDu3+Lat: хӯргагенн
+     хӯрыг+N+Du+PxDu3+Abl: хӯргагенныл
+     хӯрыг+N+Du+PxDu3+Instr: хӯргагентыл
+
+     хӯрыг+N+Pl+PxDu3+Nom: хӯрганэн
+     хӯрыг+N+Pl+PxDu3+Loc: хӯрганэнт
+     хӯрыг+N+Pl+PxDu3+Lat: хӯрганэнн
+     хӯрыг+N+Pl+PxDu3+Abl: хӯрганэнныл
+     хӯрыг+N+Pl+PxDu3+Instr: хӯрганэнтыл
+
+     хӯрыг+N+Sg+PxPl1+Nom: хӯргув
+     хӯрыг+N+Sg+PxPl1+Loc: хӯргувт
+     хӯрыг+N+Sg+PxPl1+Lat: хӯргувн
+     хӯрыг+N+Sg+PxPl1+Abl: хӯргувныл
+     хӯрыг+N+Sg+PxPl1+Instr: хӯргувтыл
+
+     хӯрыг+N+Du+PxPl1+Nom: хӯргагув
+     хӯрыг+N+Du+PxPl1+Loc: хӯргагувт
+     хӯрыг+N+Du+PxPl1+Lat: хӯргагувн
+     хӯрыг+N+Du+PxPl1+Abl: хӯргагувныл
+     хӯрыг+N+Du+PxPl1+Instr: хӯргагувтыл
+
+     хӯрыг+N+Pl+PxPl1+Nom: хӯрганув
+     хӯрыг+N+Pl+PxPl1+Loc: хӯрганувт
+     хӯрыг+N+Pl+PxPl1+Lat: хӯрганувн
+     хӯрыг+N+Pl+PxPl1+Abl: хӯрганувныл
+     хӯрыг+N+Pl+PxPl1+Instr: хӯрганувтыл
+
+     хӯрыг+N+Sg+PxPl2+Nom: хӯргын
+     хӯрыг+N+Sg+PxPl2+Loc: хӯргынт
+     хӯрыг+N+Sg+PxPl2+Lat: хӯргынн
+     хӯрыг+N+Sg+PxPl2+Abl: хӯргынныл
+     хӯрыг+N+Sg+PxPl2+Instr: хӯргынтыл
+
+     хӯрыг+N+Du+PxPl2+Nom: хӯргаген
+     хӯрыг+N+Du+PxPl2+Loc: хӯргагент
+     хӯрыг+N+Du+PxPl2+Lat: хӯргагенн
+     хӯрыг+N+Du+PxPl2+Abl: хӯргагенныл
+     хӯрыг+N+Du+PxPl2+Instr: хӯргагентыл
+
+     хӯрыг+N+Pl+PxPl2+Nom: хӯрганэн
+     хӯрыг+N+Pl+PxPl2+Loc: хӯрганэнт
+     хӯрыг+N+Pl+PxPl2+Lat: хӯрганэнн
+     хӯрыг+N+Pl+PxPl2+Abl: хӯрганэнныл
+     хӯрыг+N+Pl+PxPl2+Instr: хӯрганэнтыл
+
+     хӯрыг+N+Sg+PxPl3+Nom: хӯрганыл
+     хӯрыг+N+Sg+PxPl3+Loc: хӯрганылт
+     хӯрыг+N+Sg+PxPl3+Lat: хӯрганылн
+     хӯрыг+N+Sg+PxPl3+Abl: хӯрганылныл
+     хӯрыг+N+Sg+PxPl3+Instr: хӯрганылтыл
+
+     хӯрыг+N+Du+PxPl3+Nom: хӯргаганыл
+     хӯрыг+N+Du+PxPl3+Loc: хӯргаганылт
+     хӯрыг+N+Du+PxPl3+Lat: хӯргаганылн
+     хӯрыг+N+Du+PxPl3+Abl: хӯргаганылныл
+     хӯрыг+N+Du+PxPl3+Instr: хӯргаганылтыл
+
+#     хӯрыг+N+Pl+PxPl3+Nom: хӯрган(ан)ыл
+#     хӯрыг+N+Pl+PxPl3+Loc: хӯрган(ан)ылт
+#     хӯрыг+N+Pl+PxPl3+Lat: хӯрган(ан)ылн
+#     хӯрыг+N+Pl+PxPl3+Abl: хӯрган(ан)ылныл
+#     хӯрыг+N+Pl+PxPl3+Instr: хӯрган(ан)ылтыл
+     хӯрыг+N+Pl+PxPl3+Nom: хӯрганыл
+     хӯрыг+N+Pl+PxPl3+Loc: хӯрганылт
+     хӯрыг+N+Pl+PxPl3+Lat: хӯрганылн
+     хӯрыг+N+Pl+PxPl3+Abl: хӯрганылныл
+     хӯрыг+N+Pl+PxPl3+Instr: хӯрганылтыл
+     хӯрыг+N+Pl+PxPl3+Nom: хӯргананыл
+     хӯрыг+N+Pl+PxPl3+Loc: хӯргананылт
+     хӯрыг+N+Pl+PxPl3+Lat: хӯргананылн
+     хӯрыг+N+Pl+PxPl3+Abl: хӯргананылныл
+     хӯрыг+N+Pl+PxPl3+Instr: хӯргананылтыл

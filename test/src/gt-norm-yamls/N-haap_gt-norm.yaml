@@ -1,0 +1,221 @@
+# Author: Csilla HORVATH (Szeged Team)
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Then: run analyser, then correct.
+
+  Noun - хāп: # "(eng) boat/(hun) csónak/(rus) лодка"  - full paradigm
+
+     хāп+N+Sg+Nom: хāп
+     хāп+N+Sg+Loc: хāпт
+     хāп+N+Sg+Lat: хāпн
+     хāп+N+Sg+Abl: хāпныл
+     хāп+N+Sg+Instr: хāпыл
+     хāп+N+Sg+Trans: хāпыг
+
+     хāп+N+Du+Nom: хāпыг
+     хāп+N+Du+Loc: хāпыгт
+     хāп+N+Du+Lat: хāпыгн
+     хāп+N+Du+Abl: хāпыгныл
+     хāп+N+Du+Instr: хāпыгтыл
+
+     хāп+N+Pl+Nom: хāпыт
+     хāп+N+Pl+Loc: хāпытт
+     хāп+N+Pl+Lat: хāпытн
+     хāп+N+Pl+Abl: хāпытныл
+     хāп+N+Pl+Instr: хāпытыл
+
+     хāп+N+Sg+PxSg1+Nom: хāпум
+     хāп+N+Sg+PxSg1+Loc: хāпумт
+     хāп+N+Sg+PxSg1+Lat: хāпумн
+     хāп+N+Sg+PxSg1+Abl: хāпумныл
+     хāп+N+Sg+PxSg1+Instr: хāпумтыл
+
+     хāп+N+Du+PxSg1+Nom: хāпагум
+     хāп+N+Du+PxSg1+Loc: хāпагумт
+     хāп+N+Du+PxSg1+Lat: хāпагумн
+     хāп+N+Du+PxSg1+Abl: хāпагумныл
+     хāп+N+Du+PxSg1+Instr: хāпагумтыл
+
+     хāп+N+Pl+PxSg1+Nom: хāпанум
+     хāп+N+Pl+PxSg1+Loc: хāпанумт
+     хāп+N+Pl+PxSg1+Lat: хāпанумн
+     хāп+N+Pl+PxSg1+Abl: хāпанумныл
+     хāп+N+Pl+PxSg1+Instr: хāпанумтыл
+
+     хāп+N+Sg+PxSg2+Nom: хāпын
+     хāп+N+Sg+PxSg2+Loc: хāпынт
+     хāп+N+Sg+PxSg2+Lat: хāпынн
+     хāп+N+Sg+PxSg2+Abl: хāпынныл
+     хāп+N+Sg+PxSg2+Instr: хāпынтыл
+
+     хāп+N+Du+PxSg2+Nom: хāпагын
+     хāп+N+Du+PxSg2+Loc: хāпагынт
+     хāп+N+Du+PxSg2+Lat: хāпагынн
+     хāп+N+Du+PxSg2+Abl: хāпагынныл
+     хāп+N+Du+PxSg2+Instr: хāпагынтыл
+
+#     хāп+N+Pl+PxSg2+Nom: хāпан(ын)
+#     хāп+N+Pl+PxSg2+Loc: хāпан(ын)т
+#     хāп+N+Pl+PxSg2+Lat: хāпан(ын)н
+#     хāп+N+Pl+PxSg2+Abl: хāпан(ын)ныл
+#     хāп+N+Pl+PxSg2+Instr: хāпан(ын)тыл
+     хāп+N+Pl+PxSg2+Nom: хāпан
+     хāп+N+Pl+PxSg2+Loc: хāпант
+     хāп+N+Pl+PxSg2+Lat: хāпанн
+     хāп+N+Pl+PxSg2+Abl: хāпанныл
+     хāп+N+Pl+PxSg2+Instr: хāпантыл
+     хāп+N+Pl+PxSg2+Nom: хāпанын
+     хāп+N+Pl+PxSg2+Loc: хāпанынт
+     хāп+N+Pl+PxSg2+Lat: хāпанынн
+     хāп+N+Pl+PxSg2+Abl: хāпанынныл
+     хāп+N+Pl+PxSg2+Instr: хāпанынтыл
+
+     хāп+N+Sg+PxSg3+Nom: хāпе
+     хāп+N+Sg+PxSg3+Loc: хāпет
+     хāп+N+Sg+PxSg3+Lat: хāпен
+     хāп+N+Sg+PxSg3+Abl: хāпеныл
+     хāп+N+Sg+PxSg3+Instr: хāпетыл
+
+     хāп+N+Du+PxSg3+Nom: хāпаге
+     хāп+N+Du+PxSg3+Loc: хāпагет
+     хāп+N+Du+PxSg3+Lat: хāпаген
+     хāп+N+Du+PxSg3+Abl: хāпагеныл
+     хāп+N+Du+PxSg3+Instr: хāпагетыл
+
+     хāп+N+Pl+PxSg3+Nom: хāпанэ
+     хāп+N+Pl+PxSg3+Loc: хāпанэт
+     хāп+N+Pl+PxSg3+Lat: хāпанэн
+     хāп+N+Pl+PxSg3+Abl: хāпанэныл
+     хāп+N+Pl+PxSg3+Instr: хāпанэтыл
+
+     хāп+N+Sg+PxDu1+Nom: хāпмен
+     хāп+N+Sg+PxDu1+Loc: хāпмент
+     хāп+N+Sg+PxDu1+Lat: хāпменн
+     хāп+N+Sg+PxDu1+Abl: хāпменныл
+     хāп+N+Sg+PxDu1+Instr: хāпментыл
+
+     хāп+N+Du+PxDu1+Nom: хāпагамен
+     хāп+N+Du+PxDu1+Loc: хāпагамент
+     хāп+N+Du+PxDu1+Lat: хāпагаменн
+     хāп+N+Du+PxDu1+Abl: хāпагаменныл
+     хāп+N+Du+PxDu1+Instr: хāпагаментыл
+
+     хāп+N+Pl+PxDu1+Nom: хāпанамен
+     хāп+N+Pl+PxDu1+Loc: хāпанамент
+     хāп+N+Pl+PxDu1+Lat: хāпанаменн
+     хāп+N+Pl+PxDu1+Abl: хāпанаменныл
+     хāп+N+Pl+PxDu1+Instr: хāпанаментыл
+
+     хāп+N+Sg+PxDu2+Nom: хāпын
+     хāп+N+Sg+PxDu2+Loc: хāпынт
+     хāп+N+Sg+PxDu2+Lat: хāпынн
+     хāп+N+Sg+PxDu2+Abl: хāпынныл
+     хāп+N+Sg+PxDu2+Instr: хāпынтыл
+
+     хāп+N+Du+PxDu2+Nom: хāпаген
+     хāп+N+Du+PxDu2+Loc: хāпагент
+     хāп+N+Du+PxDu2+Lat: хāпагенн
+     хāп+N+Du+PxDu2+Abl: хāпагенныл
+     хāп+N+Du+PxDu2+Instr: хāпагентыл
+
+     хāп+N+Pl+PxDu2+Nom: хāпанен
+     хāп+N+Pl+PxDu2+Loc: хāпанент
+     хāп+N+Pl+PxDu2+Lat: хāпаненн
+     хāп+N+Pl+PxDu2+Abl: хāпаненныл
+     хāп+N+Pl+PxDu2+Instr: хāпанентыл
+
+     хāп+N+Sg+PxDu3+Nom: хāпен
+     хāп+N+Sg+PxDu3+Loc: хāпент
+     хāп+N+Sg+PxDu3+Lat: хāпенн
+     хāп+N+Sg+PxDu3+Abl: хāпенныл
+     хāп+N+Sg+PxDu3+Instr: хāпентыл
+
+     хāп+N+Du+PxDu3+Nom: хāпаген
+     хāп+N+Du+PxDu3+Loc: хāпагент
+     хāп+N+Du+PxDu3+Lat: хāпагенн
+     хāп+N+Du+PxDu3+Abl: хāпагенныл
+     хāп+N+Du+PxDu3+Instr: хāпагентыл
+
+     хāп+N+Pl+PxDu3+Nom: хāпанэн
+     хāп+N+Pl+PxDu3+Loc: хāпанэнт
+     хāп+N+Pl+PxDu3+Lat: хāпанэнн
+     хāп+N+Pl+PxDu3+Abl: хāпанэнныл
+     хāп+N+Pl+PxDu3+Instr: хāпанэнтыл
+
+     хāп+N+Sg+PxPl1+Nom: хāпув
+     хāп+N+Sg+PxPl1+Loc: хāпувт
+     хāп+N+Sg+PxPl1+Lat: хāпувн
+     хāп+N+Sg+PxPl1+Abl: хāпувныл
+     хāп+N+Sg+PxPl1+Instr: хāпувтыл
+
+     хāп+N+Du+PxPl1+Nom: хāпагув
+     хāп+N+Du+PxPl1+Loc: хāпагувт
+     хāп+N+Du+PxPl1+Lat: хāпагувн
+     хāп+N+Du+PxPl1+Abl: хāпагувныл
+     хāп+N+Du+PxPl1+Instr: хāпагувтыл
+
+     хāп+N+Pl+PxPl1+Nom: хāпанув
+     хāп+N+Pl+PxPl1+Loc: хāпанувт
+     хāп+N+Pl+PxPl1+Lat: хāпанувн
+     хāп+N+Pl+PxPl1+Abl: хāпанувныл
+     хāп+N+Pl+PxPl1+Instr: хāпанувтыл
+
+     хāп+N+Sg+PxPl2+Nom: хāпын
+     хāп+N+Sg+PxPl2+Loc: хāпынт
+     хāп+N+Sg+PxPl2+Lat: хāпынн
+     хāп+N+Sg+PxPl2+Abl: хāпынныл
+     хāп+N+Sg+PxPl2+Instr: хāпынтыл
+
+     хāп+N+Du+PxPl2+Nom: хāпаген
+     хāп+N+Du+PxPl2+Loc: хāпагент
+     хāп+N+Du+PxPl2+Lat: хāпагенн
+     хāп+N+Du+PxPl2+Abl: хāпагенныл
+     хāп+N+Du+PxPl2+Instr: хāпагентыл
+
+     хāп+N+Pl+PxPl2+Nom: хāпанен
+     хāп+N+Pl+PxPl2+Loc: хāпанент
+     хāп+N+Pl+PxPl2+Lat: хāпаненн
+     хāп+N+Pl+PxPl2+Abl: хāпаненныл
+     хāп+N+Pl+PxPl2+Instr: хāпанентыл
+
+     хāп+N+Sg+PxPl3+Nom: хāпаныл
+     хāп+N+Sg+PxPl3+Loc: хāпанылт
+     хāп+N+Sg+PxPl3+Lat: хāпанылн
+     хāп+N+Sg+PxPl3+Abl: хāпанылныл
+     хāп+N+Sg+PxPl3+Instr: хāпанылтыл
+
+     хāп+N+Du+PxPl3+Nom: хāпаганыл
+     хāп+N+Du+PxPl3+Loc: хāпаганылт
+     хāп+N+Du+PxPl3+Lat: хāпаганылн
+     хāп+N+Du+PxPl3+Abl: хāпаганылныл
+     хāп+N+Du+PxPl3+Instr: хāпаганылтыл
+
+#     хāп+N+Pl+PxPl3+Nom: хāпан(ан)ыл
+#     хāп+N+Pl+PxPl3+Loc: хāпан(ан)ылт
+#     хāп+N+Pl+PxPl3+Lat: хāпан(ан)ылн
+#     хāп+N+Pl+PxPl3+Abl: хāпан(ан)ылныл
+#     хāп+N+Pl+PxPl3+Instr: хāпан(ан)ылтыл
+     хāп+N+Pl+PxPl3+Nom: хāпаныл
+     хāп+N+Pl+PxPl3+Loc: хāпанылт
+     хāп+N+Pl+PxPl3+Lat: хāпанылн
+     хāп+N+Pl+PxPl3+Abl: хāпанылныл
+     хāп+N+Pl+PxPl3+Instr: хāпанылтыл
+     хāп+N+Pl+PxPl3+Nom: хāпананыл
+     хāп+N+Pl+PxPl3+Loc: хāпананылт
+     хāп+N+Pl+PxPl3+Lat: хāпананылн
+     хāп+N+Pl+PxPl3+Abl: хāпананылныл
+     хāп+N+Pl+PxPl3+Instr: хāпананылтыл
+
