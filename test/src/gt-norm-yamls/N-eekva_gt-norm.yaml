@@ -23,199 +23,199 @@ Tests:
      э̄ква+N+Sg+Loc: э̄кват
      э̄ква+N+Sg+Lat: э̄кван
      э̄ква+N+Sg+Abl: э̄кваныл
-     э̄ква+N+Sg+Instr: э̄квал
-     э̄ква+N+Sg+Trans: э̄кваг
+     э̄ква+N+Sg+Ins: э̄квал
+     э̄ква+N+Sg+Tra: э̄кваг
 
      э̄ква+N+Du+Nom: э̄кваг
      э̄ква+N+Du+Loc: э̄квагт
      э̄ква+N+Du+Lat: э̄квагн
      э̄ква+N+Du+Abl: э̄квагныл
-     э̄ква+N+Du+Instr: э̄квагтыл
+     э̄ква+N+Du+Ins: э̄квагтыл
 
      э̄ква+N+Pl+Nom: э̄кват
      э̄ква+N+Pl+Loc: э̄кватт
      э̄ква+N+Pl+Lat: э̄кватн
      э̄ква+N+Pl+Abl: э̄кватныл
-     э̄ква+N+Pl+Instr: э̄кватыл
+     э̄ква+N+Pl+Ins: э̄кватыл
 
      э̄ква+N+Sg+PxSg1+Nom: э̄квам
      э̄ква+N+Sg+PxSg1+Loc: э̄квамт
      э̄ква+N+Sg+PxSg1+Lat: э̄квамн
      э̄ква+N+Sg+PxSg1+Abl: э̄квамныл
-     э̄ква+N+Sg+PxSg1+Instr: э̄квамтыл
+     э̄ква+N+Sg+PxSg1+Ins: э̄квамтыл
 
      э̄ква+N+Du+PxSg1+Nom: э̄квагум
      э̄ква+N+Du+PxSg1+Loc: э̄квагумт
      э̄ква+N+Du+PxSg1+Lat: э̄квагумн
      э̄ква+N+Du+PxSg1+Abl: э̄квагумныл
-     э̄ква+N+Du+PxSg1+Instr: э̄квагумтыл
+     э̄ква+N+Du+PxSg1+Ins: э̄квагумтыл
 
      э̄ква+N+Pl+PxSg1+Nom: э̄кванум
      э̄ква+N+Pl+PxSg1+Loc: э̄кванумт
      э̄ква+N+Pl+PxSg1+Lat: э̄кванумн
      э̄ква+N+Pl+PxSg1+Abl: э̄кванумныл
-     э̄ква+N+Pl+PxSg1+Instr: э̄кванумтыл
+     э̄ква+N+Pl+PxSg1+Ins: э̄кванумтыл
 
      э̄ква+N+Sg+PxSg2+Nom: э̄кван
      э̄ква+N+Sg+PxSg2+Loc: э̄квант
      э̄ква+N+Sg+PxSg2+Lat: э̄кванн
      э̄ква+N+Sg+PxSg2+Abl: э̄кванныл
-     э̄ква+N+Sg+PxSg2+Instr: э̄квантыл
+     э̄ква+N+Sg+PxSg2+Ins: э̄квантыл
 
      э̄ква+N+Du+PxSg2+Nom: э̄квагын
      э̄ква+N+Du+PxSg2+Loc: э̄квагынт
      э̄ква+N+Du+PxSg2+Lat: э̄квагынн
      э̄ква+N+Du+PxSg2+Abl: э̄квагынныл
-     э̄ква+N+Du+PxSg2+Instr: э̄квагынтыл
+     э̄ква+N+Du+PxSg2+Ins: э̄квагынтыл
 
 #     э̄ква+N+Pl+PxSg2+Nom: э̄кван(ын)
 #     э̄ква+N+Pl+PxSg2+Loc: э̄кван(ын)т
 #     э̄ква+N+Pl+PxSg2+Lat: э̄кван(ын)н
 #     э̄ква+N+Pl+PxSg2+Abl: э̄кван(ын)ныл
-#     э̄ква+N+Pl+PxSg2+Instr: э̄кван(ын)тыл
+#     э̄ква+N+Pl+PxSg2+Ins: э̄кван(ын)тыл
      э̄ква+N+Pl+PxSg2+Nom: э̄кван
      э̄ква+N+Pl+PxSg2+Loc: э̄квант
      э̄ква+N+Pl+PxSg2+Lat: э̄кванн
      э̄ква+N+Pl+PxSg2+Abl: э̄кванныл
-     э̄ква+N+Pl+PxSg2+Instr: э̄квантыл
+     э̄ква+N+Pl+PxSg2+Ins: э̄квантыл
      э̄ква+N+Pl+PxSg2+Nom: э̄кванын
      э̄ква+N+Pl+PxSg2+Loc: э̄кванынт
      э̄ква+N+Pl+PxSg2+Lat: э̄кванынн
      э̄ква+N+Pl+PxSg2+Abl: э̄кванынныл
-     э̄ква+N+Pl+PxSg2+Instr: э̄кванынтыл
+     э̄ква+N+Pl+PxSg2+Ins: э̄кванынтыл
      э̄ква+N+Sg+PxSg3+Nom: э̄кватэ
      э̄ква+N+Sg+PxSg3+Loc: э̄кватэт
      э̄ква+N+Sg+PxSg3+Lat: э̄кватэн
      э̄ква+N+Sg+PxSg3+Abl: э̄кватэныл
-     э̄ква+N+Sg+PxSg3+Instr: э̄кватэтыл
+     э̄ква+N+Sg+PxSg3+Ins: э̄кватэтыл
 
      э̄ква+N+Du+PxSg3+Nom: э̄кваге
      э̄ква+N+Du+PxSg3+Loc: э̄квагет
      э̄ква+N+Du+PxSg3+Lat: э̄кваген
      э̄ква+N+Du+PxSg3+Abl: э̄квагеныл
-     э̄ква+N+Du+PxSg3+Instr: э̄квагетыл
+     э̄ква+N+Du+PxSg3+Ins: э̄квагетыл
 
      э̄ква+N+Pl+PxSg3+Nom: э̄кванэ
      э̄ква+N+Pl+PxSg3+Loc: э̄кванэт
      э̄ква+N+Pl+PxSg3+Lat: э̄кванэн
      э̄ква+N+Pl+PxSg3+Abl: э̄кванэныл
-     э̄ква+N+Pl+PxSg3+Instr: э̄кванэтыл
+     э̄ква+N+Pl+PxSg3+Ins: э̄кванэтыл
 
      э̄ква+N+Sg+PxDu1+Nom: э̄квамен
      э̄ква+N+Sg+PxDu1+Loc: э̄квамент
      э̄ква+N+Sg+PxDu1+Lat: э̄кваменн
      э̄ква+N+Sg+PxDu1+Abl: э̄кваменныл
-     э̄ква+N+Sg+PxDu1+Instr: э̄кваментыл
+     э̄ква+N+Sg+PxDu1+Ins: э̄кваментыл
 
      э̄ква+N+Du+PxDu1+Nom: э̄квагамен
      э̄ква+N+Du+PxDu1+Loc: э̄квагамент
      э̄ква+N+Du+PxDu1+Lat: э̄квагаменн
      э̄ква+N+Du+PxDu1+Abl: э̄квагаменныл
-     э̄ква+N+Du+PxDu1+Instr: э̄квагаментыл
+     э̄ква+N+Du+PxDu1+Ins: э̄квагаментыл
 
      э̄ква+N+Pl+PxDu1+Nom: э̄кванамен
      э̄ква+N+Pl+PxDu1+Loc: э̄кванамент
      э̄ква+N+Pl+PxDu1+Lat: э̄кванаменн
      э̄ква+N+Pl+PxDu1+Abl: э̄кванаменныл
-     э̄ква+N+Pl+PxDu1+Instr: э̄кванаментыл
+     э̄ква+N+Pl+PxDu1+Ins: э̄кванаментыл
 
      э̄ква+N+Sg+PxDu2+Nom: э̄кван
      э̄ква+N+Sg+PxDu2+Loc: э̄квант
      э̄ква+N+Sg+PxDu2+Lat: э̄кванн
      э̄ква+N+Sg+PxDu2+Abl: э̄кванныл
-     э̄ква+N+Sg+PxDu2+Instr: э̄квантыл
+     э̄ква+N+Sg+PxDu2+Ins: э̄квантыл
 
      э̄ква+N+Du+PxDu2+Nom: э̄кваген
      э̄ква+N+Du+PxDu2+Loc: э̄квагент
      э̄ква+N+Du+PxDu2+Lat: э̄квагенн
      э̄ква+N+Du+PxDu2+Abl: э̄квагенныл
-     э̄ква+N+Du+PxDu2+Instr: э̄квагентыл
+     э̄ква+N+Du+PxDu2+Ins: э̄квагентыл
 
      э̄ква+N+Pl+PxDu2+Nom: э̄кванэн
      э̄ква+N+Pl+PxDu2+Loc: э̄кванэнт
      э̄ква+N+Pl+PxDu2+Lat: э̄кванэнн
      э̄ква+N+Pl+PxDu2+Abl: э̄кванэнныл
-     э̄ква+N+Pl+PxDu2+Instr: э̄кванэнтыл
+     э̄ква+N+Pl+PxDu2+Ins: э̄кванэнтыл
 
      э̄ква+N+Sg+PxDu3+Nom: э̄кватэн
      э̄ква+N+Sg+PxDu3+Loc: э̄кватэнт
      э̄ква+N+Sg+PxDu3+Lat: э̄кватэнн
      э̄ква+N+Sg+PxDu3+Abl: э̄кватэнныл
-     э̄ква+N+Sg+PxDu3+Instr: э̄кватэнтыл
+     э̄ква+N+Sg+PxDu3+Ins: э̄кватэнтыл
 
      э̄ква+N+Du+PxDu3+Nom: э̄кваген
      э̄ква+N+Du+PxDu3+Loc: э̄квагент
      э̄ква+N+Du+PxDu3+Lat: э̄квагенн
      э̄ква+N+Du+PxDu3+Abl: э̄квагенныл
-     э̄ква+N+Du+PxDu3+Instr: э̄квагентыл
+     э̄ква+N+Du+PxDu3+Ins: э̄квагентыл
 
      э̄ква+N+Pl+PxDu3+Nom: э̄кванэн
      э̄ква+N+Pl+PxDu3+Loc: э̄кванэнт
      э̄ква+N+Pl+PxDu3+Lat: э̄кванэнн
      э̄ква+N+Pl+PxDu3+Abl: э̄кванэнныл
-     э̄ква+N+Pl+PxDu3+Instr: э̄кванэнтыл
+     э̄ква+N+Pl+PxDu3+Ins: э̄кванэнтыл
 
      э̄ква+N+Sg+PxPl1+Nom: э̄квав
      э̄ква+N+Sg+PxPl1+Loc: э̄квавт
      э̄ква+N+Sg+PxPl1+Lat: э̄квавн
      э̄ква+N+Sg+PxPl1+Abl: э̄квавныл
-     э̄ква+N+Sg+PxPl1+Instr: э̄квавтыл
+     э̄ква+N+Sg+PxPl1+Ins: э̄квавтыл
 
      э̄ква+N+Du+PxPl1+Nom: э̄квагув
      э̄ква+N+Du+PxPl1+Loc: э̄квагувт
      э̄ква+N+Du+PxPl1+Lat: э̄квагувн
      э̄ква+N+Du+PxPl1+Abl: э̄квагувныл
-     э̄ква+N+Du+PxPl1+Instr: э̄квагувтыл
+     э̄ква+N+Du+PxPl1+Ins: э̄квагувтыл
 
      э̄ква+N+Pl+PxPl1+Nom: э̄кванув
      э̄ква+N+Pl+PxPl1+Loc: э̄кванувт
      э̄ква+N+Pl+PxPl1+Lat: э̄кванувн
      э̄ква+N+Pl+PxPl1+Abl: э̄кванувныл
-     э̄ква+N+Pl+PxPl1+Instr: э̄кванувтыл
+     э̄ква+N+Pl+PxPl1+Ins: э̄кванувтыл
 
      э̄ква+N+Sg+PxPl2+Nom: э̄кван
      э̄ква+N+Sg+PxPl2+Loc: э̄квант
      э̄ква+N+Sg+PxPl2+Lat: э̄кванн
      э̄ква+N+Sg+PxPl2+Abl: э̄кванныл
-     э̄ква+N+Sg+PxPl2+Instr: э̄квантыл
+     э̄ква+N+Sg+PxPl2+Ins: э̄квантыл
 
      э̄ква+N+Du+PxPl2+Nom: э̄кваген
      э̄ква+N+Du+PxPl2+Loc: э̄квагент
      э̄ква+N+Du+PxPl2+Lat: э̄квагенн
      э̄ква+N+Du+PxPl2+Abl: э̄квагенныл
-     э̄ква+N+Du+PxPl2+Instr: э̄квагентыл
+     э̄ква+N+Du+PxPl2+Ins: э̄квагентыл
 
      э̄ква+N+Pl+PxPl2+Nom: э̄кванэн
      э̄ква+N+Pl+PxPl2+Loc: э̄кванэнт
      э̄ква+N+Pl+PxPl2+Lat: э̄кванэнн
      э̄ква+N+Pl+PxPl2+Abl: э̄кванэнныл
-     э̄ква+N+Pl+PxPl2+Instr: э̄кванэнтыл
+     э̄ква+N+Pl+PxPl2+Ins: э̄кванэнтыл
 
      э̄ква+N+Sg+PxPl3+Nom: э̄кваныл
      э̄ква+N+Sg+PxPl3+Loc: э̄кванылт
      э̄ква+N+Sg+PxPl3+Lat: э̄кванылн
      э̄ква+N+Sg+PxPl3+Abl: э̄кванылныл
-     э̄ква+N+Sg+PxPl3+Instr: э̄кванылтыл
+     э̄ква+N+Sg+PxPl3+Ins: э̄кванылтыл
 
      э̄ква+N+Du+PxPl3+Nom: э̄кваганыл
      э̄ква+N+Du+PxPl3+Loc: э̄кваганылт
      э̄ква+N+Du+PxPl3+Lat: э̄кваганылн
      э̄ква+N+Du+PxPl3+Abl: э̄кваганылныл
-     э̄ква+N+Du+PxPl3+Instr: э̄кваганылтыл
+     э̄ква+N+Du+PxPl3+Ins: э̄кваганылтыл
 
 #     э̄ква+N+Pl+PxPl3+Nom: э̄кван(ан)ыл
 #     э̄ква+N+Pl+PxPl3+Loc: э̄кван(ан)ылт
 #     э̄ква+N+Pl+PxPl3+Lat: э̄кван(ан)ылн
 #     э̄ква+N+Pl+PxPl3+Abl: э̄кван(ан)ылныл
-#     э̄ква+N+Pl+PxPl3+Instr: э̄кван(ан)ылтыл
+#     э̄ква+N+Pl+PxPl3+Ins: э̄кван(ан)ылтыл
      э̄ква+N+Pl+PxPl3+Nom: э̄кваныл
      э̄ква+N+Pl+PxPl3+Loc: э̄кванылт
      э̄ква+N+Pl+PxPl3+Lat: э̄кванылн
      э̄ква+N+Pl+PxPl3+Abl: э̄кванылныл
-     э̄ква+N+Pl+PxPl3+Instr: э̄кванылтыл
+     э̄ква+N+Pl+PxPl3+Ins: э̄кванылтыл
      э̄ква+N+Pl+PxPl3+Nom: э̄квананыл
      э̄ква+N+Pl+PxPl3+Loc: э̄квананылт
      э̄ква+N+Pl+PxPl3+Lat: э̄квананылн
      э̄ква+N+Pl+PxPl3+Abl: э̄квананылныл
-     э̄ква+N+Pl+PxPl3+Instr: э̄квананылтыл
+     э̄ква+N+Pl+PxPl3+Ins: э̄квананылтыл
 
