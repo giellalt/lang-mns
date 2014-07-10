@@ -16,12 +16,12 @@
 ! !!            !!!Mansi morphological analyser                      !
 ! ========================================================================== !
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
- 
+
 
 Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! !!Letters in alphabet
-!! Vowels with a macron 
+!! Vowels with a macron
 а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
 А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄
 
@@ -31,7 +31,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! This section copied from mansi-lexicon.lexc, looks spurious:
 ! We don't want latin letters
 ! Finug  !!! L-S !!! Notes:
-ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON 
+ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON
 ē        !!! 
 !ё̄        !!! 
 ӣ        !!! йӣквыт
@@ -41,7 +41,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 э̄        !!! 
 ю̄        !!! 
 я̄        !!! 
-      
+
 ы2        !!! syncopating vowel symbol
 
 ! end of spurious section.
@@ -60,12 +60,12 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
 
 !! The Usage extents are marked using following tags:
- +Err/Sub   
- +Use/-Spell 
+ +Err/Sub
+ +Use/-Spell
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Nom +Gen +Par +Acc 
+ +Nom +Gen +Par +Acc
 
  +Abl !!= * @CODE@  ныл
  +Ins !!= * @CODE@ тыл
@@ -84,7 +84,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Comp +Superl
 !! Numerals are classified under:
  +Attr +Card
- +Ord 
+ +Ord
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt
 !! Verb personal forms are:
@@ -93,7 +93,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
 ! Abbreviated words are classified with:
- +ABBR +ACR 
+ +ABBR +ACR
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -108,20 +108,20 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 
 !! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
+ +Mal +Fem +Sur
+ +Plc
  +Org
  +Obj
  +Ani
  +Hum
  +Plant
  +Group
- +Time 
+ +Time
  +Txt
  +Route
- +Measr 
+ +Measr
  +Wthr
- +Build 
+ +Build
  +Edu
  +Veh
  +Clth
@@ -137,20 +137,20 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols (archiphones) in the lexicon files:
-%{АЯØ%}	!!= __@CODE@__ 
-%{ЫИØ%}	!!= __@CODE@__ 
+%{АЯØ%}	!!= __@CODE@__
+%{ЫИØ%}	!!= __@CODE@__
 %{ЫØ%}	!!= __@CODE@__ +Loc
-%{УЮØ%}	!!= __@CODE@__ 
-%{ТØ%}	!!= __@CODE@__ 
+%{УЮØ%}	!!= __@CODE@__
+%{ТØ%}	!!= __@CODE@__
 %{ЭЕ%}	!!= __@CODE@__ PxSg3
 %{ЭЕLong%}	!!= __@CODE@__ PxDu3
 
 
 !! And following triggers to control variation
  {front} {back}
-%^PxDu2	!!= __@CODE@__ 
-%^PxDu3	!!= __@CODE@__ 
-%^PxPl2	!!= __@CODE@__ 
+%^PxDu2	!!= __@CODE@__
+%^PxDu3	!!= __@CODE@__
+%^PxPl2	!!= __@CODE@__
 
 
 !! We have manually optimised the structure of our lexicon using following
