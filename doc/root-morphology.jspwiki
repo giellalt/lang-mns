@@ -1,1 +1,106 @@
 
+           !!!Mansi morphological analyser                      !
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
+
+
+ !!!Multichar_Symbols definitions
+
+!!Letters in alphabet
+Vowels with a macron
+
+
+
+Notes:
+257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON
+
+
+йӣквыт
+(333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
+(1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+??? http://www.nba.fi/hanti/mn/intro1.php
+
+
+
+
+syncopating vowel symbol
+
+
+!!Analysis symbols
+----------------
+The morphological analyses of wordforms of UNDEFINED language are presented
+in this system in terms of following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+
+The parts of speech are further split up into:
+
+The Usage extents are marked using following tags:
+
+The nominals are inflected in the following Case and Number
+
+ *  +Abl   ныл
+ *  +Ins  тыл
+ *  +Lat  Ын (2007: Дательный падеж)
+ *  +Loc   Ыт
+ *  +Tra   Ыг
+
+ *  +Ill +Com +Com/Sh  are these needed?
+
+
+
+The possession is marked as such:
+The comparative forms are:
+Numerals are classified under:
+Verb moods are:
+Verb personal forms are:
+Other verb forms are
+
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+
+
+Semantics are classified with
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+
+Morphophonology
+---------------
+To represent phonologic variations in word forms we use the following
+symbols (archiphones) in the lexicon files:
+ __%{АЯØ%}	__
+ __%{ЫИØ%}	__
+ __%{ЫØ%}	__ +Loc
+ __%{УЮØ%}	__
+ __%{ТØ%}	__
+ __%{ЭЕ%}	__ PxSg3
+ __%{ЭЕLong%}	__ PxDu3
+
+
+And following triggers to control variation
+ __%^PxDu2	__
+ __%^PxDu3	__
+ __%^PxPl2	__
+
+
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics:
+
+The word forms in the MANSI language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
+NEWWORDS FILES
+ __ A_NEWWORDS ;	  __ adjectives
+ __ ADV_NEWWORDS ;	  __ adverbs
+ __ N_NEWWORDS ; 	  __ nouns
+ __ NUM_NEWWORDS ;   __ numerals
+ __ PROP_NEWWORDS ;  __ proper nouns
+ __ V_NEWWORDS ;  	  __ verbs
+
