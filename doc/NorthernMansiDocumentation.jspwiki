@@ -9,8 +9,8 @@
   / [syntax|https://victorio.uit.no/langtech/trunk/langs/mns/src/syntax] 
   / [twolc|https://victorio.uit.no/langtech/trunk/langs/mns/src/phonology/mns-phon.twolc]   
   / [yaml|https://victorio.uit.no/langtech/trunk/langs/mns/test/src/gt-norm-yamls/]
-* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-mns.fin.html]
-  / [text|http://giellatekno.uit.no/cgi/d-mns.fin.html]
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-mns.fi.html]
+  / [text|http://giellatekno.uit.no/cgi/d-mns.fi.html]
 
 !!! Grammatical issues
 
