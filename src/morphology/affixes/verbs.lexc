@@ -1,22 +1,25 @@
 !! !!!Verb inflection
 
+!! List of lexica
 
-LEXICON VerbTensePers_u
+LEXICON VerbTensePers_u !! * __@CODE@__ 
  V_u ;
-LEXICON V_u
+ 
+LEXICON V_u !! * __@CODE@__
 +V+Inf:%>уӈкве # ;  ! assuming inf = stem
 +V+Ind+Prs: Present ;
 +V+Ind+Prt:у Preterite ;
 
-LEXICON VerbTensePers_a
+LEXICON VerbTensePers_a !! * __@CODE@__ 
  V_a ;
-LEXICON V_a
+
+LEXICON V_a !! * __@CODE@__ 
 +V+Inf:%>аӈкве # ;  ! assuming inf = stem
 +V+Ind+Prs: Present ;
 +V+Ind+Prt:а Preterite ;
 
 
-LEXICON Present
+LEXICON Present !! * __@CODE@__ 
 
 +ScSg1:%>егым # ;
 +ScSg2:%>егын # ;
@@ -29,7 +32,7 @@ LEXICON Present
 +ScPl3:%>егыт # ;
 
 
-LEXICON Preterite
+LEXICON Preterite !! * __@CODE@__ 
 +ScSg1:%>сум # ;
 +ScSg2:%>сын # ;
 +ScSg3:%>с # ;
