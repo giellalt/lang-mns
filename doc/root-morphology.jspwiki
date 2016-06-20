@@ -26,7 +26,6 @@ syncopating vowel symbol
 
 
 !!Analysis symbols
-----------------
 The morphological analyses of wordforms for the Mansi
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -72,7 +71,6 @@ source and target part-of-speech.
 
 
 Morphophonology
----------------
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
  __%{АЯØ%}	__
