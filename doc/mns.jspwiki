@@ -1,6 +1,6 @@
-!!!Free and Open source Finnish analyser gtsvn-fi
+!!!Free and Open source Mansi analyser gtsvn-fi
 
-;Authors: Divvun and Giellatekno teams, Aajege, community members
+;Authors: Divvun and Giellatekno teams
 ;Software version: 2012
 ;Documentation license: GNU GFDL
 ;SVN Revision: $Revision: 68217 $
@@ -8,7 +8,7 @@
 
 !!!GTSVN-sma
 
-This is free and open source South Sámi morphology.
+This is free and open source Mansi morphology.
 
            !!!Mansi morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
