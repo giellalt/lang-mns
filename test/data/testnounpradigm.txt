@@ -1,0 +1,16 @@
++N+Sg+Nom
++N+Sg+Loc
++N+Sg+Lat 
++N+Sg+Abl 
++N+Sg+Instr 
++N+Sg+Trans
++N+Du+Nom
++N+Du+Loc
++N+Du+Lat
++N+Du+Abl
++N+Du+Instr
++N+Pl+Nom
++N+Pl+Loc
++N+Pl+Lat
++N+Pl+Abl
++N+Pl+Instr
