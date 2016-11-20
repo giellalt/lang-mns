@@ -1,0 +1,112 @@
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+%                                                                              %
+%    List of morphological and syntactic tags used in the Mansi corpus    %
+%                                                                              %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %
+
+%     Table of contents
+%  0. A short explanation
+%  1. Structure of the different POS (the details of sect. 1 are just the sme ones)
+%  2. List of the tags, and their internal distribution in Mansi
+
+
+
+% This is a list over the different morphosyntactic categories.
+
+% The tags are in complementary distribution within each tag column.
+
+% (incomplete) morphotactic survey
+% TODO: Update this list:
+% ROOT + DER + POS + SUBPOS + ATTR + GRADE + NUM + CASE + PX + CLT  % noun
+% ROOT + DER + POL + VN + MOOD + TNS + PN + CLT               % finite verb
+% ROOT + DER + POL + VN + CASE + PX + CLT                     % infinite verb
+
+% List of the tags, and their internal distribution
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+N	Noun
+A	Adjective
+V	Verb
+Adv	Adverb
+Pron	Pronoun
+CS	Subjunction
+CC	Conjunction
+Po	Postposition
+Pr	Preposition
+Interj	Interjection
+Pcle	Particle
+Num	Numeral
+#Wordclass
+
+Prop	Propernoun
+Actio	Actio
+Actor	Actor
+Pers	Personal
+Dem	Demonstrative
+Interr	Interrogative
+Refl	Reflexive
+Recipr	Reciprocal
+Rel	Relative
+Indef	Indefinite
+Card	Cardinal
+Ord	Ordinal
+#Subclass
+
+Sg	Singular
+Pl	Plural
+Du	Dual
+#Number
+
+Nom	Nominative
+Loc Locative
+Lat	Lative
+Abl	Ablative
+Instr	Instrumental
+Tran	Translative
+#Case
+
+
+
+PxSg1	Possessive Singular 1st Person
+PxSg2	Possessive Singular 2nd Person
+PxSg3	Possessive Singular 3rd Person
+PxDu1	Possessive Dual 1st Person
+PxDu2	Possessive Dual 2nd Person
+PxDu3	Possessive Dual 3rd Person
+PxPl1	Possessive Plural 1st Person
+PxPl2	Possessive Plural 2nd Person
+PxPl3	Possessive Plural 3rd Person
+#Possessive
+
+Prs	Present Tense
+Prt	Preterite Tense
+#Tense
+
+Cond	Conditional
+Imprt	Imperative
+Ind	Indicative
+Pot	Potential
+#Mood
+
+ScSg1	1. Person Singular
+ScSg2	2. Person Singular
+ScSg3	3. Person Singular
+ScDu1	1. Person Dual
+ScDu2	2. Person Dual
+ScDu3	3. Person Dual
+ScPl1	1. Person Plural
+ScPl2	2. Person Plural
+ScPl3	3. Person Plural
+#Person-Number
+
+TV	Transitive verb
+IV	Intransitive verb
+#Transitivity
+
+Neg	Negative verb
+#Polarity
+
+Inf	Infinitive
+#Infinite
+
