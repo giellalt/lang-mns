@@ -823,8 +823,10 @@ LEXICON N_CVH_luw__n
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON N_VO_maa__n
-  N_VO_maa__n ;
- 
++N:  N_VO_maa__n_cx_px ;
+
+LEXICON N_VO_maa__n_cx_px
+
  ! non possessive forms
 
      +Sg+Nom: K ;
