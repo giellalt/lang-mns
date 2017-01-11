@@ -199,4 +199,7 @@ LEXICON Root
  PROP_NEWWORDS ;  !!= __@CODE@__ proper nouns
  V_NEWWORDS ;  	  !!= __@CODE@__ verbs
 
+LEXICON K !!= * @CODE@ for evt. clitic
+# ;
+
 ! vim: set ft=xfst-lexc:

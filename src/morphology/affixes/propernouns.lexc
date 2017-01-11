@@ -6,8 +6,8 @@
 !! and Mansi-specific names.
 
 
-LEXICON PROP_
-+N+Prop:   N_  ;
+LEXICON PROP_ !! The only lexicon is {{PROP_}}, it goes to K.
++N+Prop:   K  ;
 
 ! vim: set ft=xfst-lexc:
 
