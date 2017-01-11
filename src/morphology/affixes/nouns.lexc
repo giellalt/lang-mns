@@ -1,18 +1,20 @@
-!! Noun inflection for Mansi
+!! !!!Noun inflection for Mansi
 ! ---------------
 
 !! Stems are divided in four groups:
+
 !! # StemC	 = ending in C
 !! # stemCC = ending in CC
 !! # StemV1 = ending in -a
 !! # StemV2 = ending in other vowels
 
-LEXICON N_ 
- K ;
+!LEXICON N_  !! LEXICON {{N_}} goes to K only (ob
+! K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON N_CVS_masnut__n
   N_CVS_masnut__n ;
+
 !+N+Sg:        NounCase-StemC ;
 !+N+Du:ыг       NounCase-StemC ;
 !+N+Pl:ыт       NounCase-StemC ;
