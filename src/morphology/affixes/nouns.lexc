@@ -1710,9 +1710,6 @@ N_IRREGULAR_hum__n ;
 
 
 
-LEXICON K 
-#;
-
 
 
 ! vim: set ft=xfst-lexc:
