@@ -4,6 +4,12 @@
 !! No work on pronouns so far.
 
 LEXICON Pronouns
+personal ;
 pronoun    #   ;
+
+LEXICON personal
+ам+Pron+Pers+Sg1+Nom:ам # ;
+наӈ+Pron+Pers+Sg2+Nom:наӈ # ;
+тав+Pron+Pers+Sg3+Nom:тав # ;
 
 ! vim: set ft=xfst-lexc:
