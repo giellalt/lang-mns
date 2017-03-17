@@ -76,7 +76,7 @@ testtotalsfile=testtotals.tmp.txt
 # Use autotools mechanisms to only run the configured fst types in the tests:
 fsttype=
 fsttype="$fsttype hfst"
-fsttype="$fsttype xfst"
+#fsttype="$fsttype xfst"
 #fsttype="$fsttype foma"
 
 # Exit if all fst types have been shut off:
