@@ -35,9 +35,15 @@ Alphabet
 А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т 
 У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ
 
-а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄     !!= @CODE@ long vowels
+!! Holding with Giellatekno Practice in Kildin Sami
+!! Precomposed letters are used when available within
+!! language range, i.e. Cyrillic letters vs Latin letters
+ӣ ӯ !!= @CODE@ precomposed long vowels
+Ӣ Ӯ 
 
-ы2:ы ! fleeting/syncopating vowel
+а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ ¯Э Ю̄ Я̄     !!= @CODE@ non-precomposed long vowels
+
+! This is old 2017-03-19 ы2:ы ! fleeting/syncopating vowel
 ! question: are all cases where CыC syncopating ???
 ! EXCEPTION = апыг, квāлыг, ...
 ! ... possibly not syncopating before г ...
@@ -47,6 +53,7 @@ Alphabet
 %{АЯØ%}:0	!!= __@CODE@__ 
 %{ЫИØ%}:0	!!= __@CODE@__ 
 %{ЫØ%}:0	!!= __@CODE@__ +Loc
+%{УØ%}:0	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
 %{УЮØ%}:0	!!= __@CODE@__ 
 %{ТØ%}:0	!!= __@CODE@__ 
 %{ЭЕ%}:0	!!= __@CODE@__ PxSg3
@@ -58,6 +65,8 @@ Alphabet
 %^PxDu2:0	!!= __@CODE@__ 
 %^PxDu3:0	!!= __@CODE@__ 
 %^PxPl2:0	!!= __@CODE@__ 
+%^RmVow:0	!!= __@CODE@__ Word-final vowel removal
+%^Syncope:0	!!= __@CODE@__ This triggers syncope with no reason to place special letters in the stem.
 
 !! BOUNDARIES
  %> # 
@@ -103,16 +112,23 @@ Rules
 
 
 "Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
-ы2:0   <=>   _  Cns (ь:) %> ( %{ТØ%}: ) :Vow  ;
+ ы:0   <=>   _  Cns (ь:) %^Syncope: ; 
+
+! _ Cns %^Syncope: %> [ %{ЫИØ%}: | %{ЫØ%}: ] [ т | н ]  ;
+!ы2:0   <=>   _  Cns (ь:) %> ( %{ТØ%}: ) :Vow  ;
 !   _  PostSyncStem (ь:) :Vow ;
-!!€ поты2р%>%{УЮØ%}м
-!!€ пот0р%>ум
-!!€ поты2р%>%{ТØ%}%{ЭЕ%}
-!!€ пот0р%>0е
-!!€ потыр%>%{ЫИØ%}т
-!!€ пот0р%>ыт
-!!€ потыр%>0ме̄н
-!!€ пот0р%>уме̄н
+!!€ потыр%^Syncope%>%{УЮØ%}м
+!!€ пот0р0%>ум
+!!€ потыр%^Syncope%>%{ТØ%}%{ЭЕ%}
+!!€ пот0р0%>0е
+!!€ потыр%^Syncope%>%{ЫИØ%}т
+!!€ пот0р0%>ыт
+!!€ потыр%^Syncope%>0ме̄н
+!!€ пот0р0%>уме̄н
+    VowNoI %> %{ТØ%}: _ л ;
+!!€ э̄ква%>%{ТØ%}ыл
+!!€ э̄ква%>00л
+    _ %^RmVow: ;
 
 !!€grís%>s
 !!€grís00
@@ -145,10 +161,12 @@ Rules
 !! JACK
 !!€ рума%>%{ЫИØ%}н%>%{ЫØ%}т
 !!€ рума%>0н%>0т
-     %> :Vow (Cns) %> _ н ;
+     :Vow (Cns) %> _ н ;
 !     :Vow (Cns) %> _ н ;
 !!€ па̄рт%>%{ЫИØ%}г%>%{ЫØ%}н
 !!€ па̄рт%>ыг%>0н
+!!€ ха̄п%>%{ЫØ%}н
+!!€ ха̄п%>0н
 
 "%{УЮØ%}:0"
 !! __@RULENAME@__
@@ -159,14 +177,6 @@ Rules
 !! __@RULENAME@__
  %{АЯØ%}:0 <=> VowNoI %> _  ;
 
-"ы:0"
-!! __@RULENAME@__
- ы:0 <=> # Cns* Vow Cns _ Cns %> [ %{ЫИØ%}: | %{ЫØ%}: ] [ т | н ]  ;
-!!€ потыр%>%{ЫИØ%}т
-!!€ пот0р%>ыт
-    VowNoI %> %{ТØ%}: _ л ;
-!!€ э̄ква%>%{ТØ%}ыл
-!!€ э̄ква%>00л
 
 "и:0"
 !! __@RULENAME@__
@@ -174,19 +184,19 @@ Rules
 
 "ь:0"
 !! __@RULENAME@__
- ь:0 <=> _ %> [ %{ЫИØ%}: | %{УЮØ%}: | %{АЯØ%}: | %{ТØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ] ]  ;
+ ь:0 <=> _ (%^Syncope:) %> [ %{ЫИØ%}: | %{УЮØ%}: | %{АЯØ%}: | %{ТØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ] ]  ;
 !!€ ха̄ль%>%{ТØ%}%{ЭЕ%}
 !!€ ха̄л0%>0е
 
 "%{ТØ%}:0"
 !! __@RULENAME@__
- %{ТØ%}:0 <=> Cns (ь: ) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы л ]  ;
+ %{ТØ%}:0 <=> Cns (ь: ) (%^Syncope:) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы л ]  ;
 ! # Cns* (Vow Cns) Vow Cns (ь: ) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
 !!€ ха̄ль%>%{ТØ%}%{ЭЕ%}
 !!€ ха̄л0%>0е
 !!€ кол%>%{ТØ%}ыл
 !!€ кол%>0ыл
-!!€ поты2р%>%{ТØ%}%{ЭЕ%}
+!!€ потыр%^Syncope%>%{ТØ%}%{ЭЕ%}
 !!€ пот0р%>0е
       VowNoI %>  _ ы: л ;
 !!€ э̄ква%>%{ТØ%}ыл
@@ -211,11 +221,11 @@ Rules
 !! __@RULENAME@__
  %{ЫØ%}:ы <=> Cns (ы:0|и:0) [ CnsAlv | CnsNonAlv ] %> _ т  ;
 !€# 
-         Vow Cns+ (ы2:) Cns %> _ н ;
+         Vow Cns+ (ы:0) Cns (%^Syncope:) %> _ н ;
 !!€ па̄рт%>%{ЫØ%}н
 !!€ па̄рт%>ын
-!!€ поты2р%>%{ЫØ%}н
-!!€ пот0р%>ын
+!!€ потыр%^Syncope%>%{ЫØ%}н
+!!€ пот0р0%>ын
 
 "%{ЭЕ%}:э"
 !! __@RULENAME@__
@@ -223,11 +233,11 @@ Rules
 
 "%{ЭЕ%}:е"
 !! __@RULENAME@__
- %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: ] %> %{ТØ%}: _  ;
+ %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: ] (%^Syncope:) %> %{ТØ%}: _  ;
 !!€ ха̄ль%>%{ТØ%}%{ЭЕ%}
 !!€ ха̄л0%>0е
-!!€ поты2р%>%{ТØ%}%{ЭЕ%}
-!!€ пот0р%>0е
+!!€ потыр%^Syncope%>%{ТØ%}%{ЭЕ%}
+!!€ пот0р0%>0е
 
 "%{УЮØ%}:у"
 !! __@RULENAME@__
@@ -315,10 +325,10 @@ Rules
 !! __@RULENAME@__
  0:й <=> [ и | ы ] %> _  %{ЫИØ%}: [ г | %^PxDu2: н ] ;
 
-"0:у"
+"%{УØ%}:у"
 !! __@RULENAME@__
- 0:у <=> ы2: Cns %> _  м е̄ н ;
-!!€ потыр%>0ме̄н
+ %{УØ%}:у <=> ы: Cns %^Syncope: %> _  м е̄ н ;
+!!€ потыр%>%{УØ%}ме̄н
 !!€ пот0р%>уме̄н
 
 

@@ -13,7 +13,7 @@
 
 
 LEXICON N_CVS_masnut__n
-  N_CVS_masnut__n ;
+!  N_CVS_masnut__n ; NO REASON TO   LOOP 2017-03-18 Jaska
 
 !+N+Sg:%>        NounCase-StemC ;
 !+N+Du:%>ыг       NounCase-StemC ;
@@ -26,20 +26,20 @@ LEXICON N_CVS_masnut__n
 +N+Sg+Loc:%>т K ;
 +N+Sg+Lat:%>н K ;
 +N+Sg+Abl:%>ныл K ;
-+N+Sg+Instr:%>ыл K ;
-+N+Sg+Trans:%>ыг K ;
++N+Sg+Ins:%>ыл K ;
++N+Sg+Tra:%>ыг K ;
 
 +N+Du+Nom:%>ыг K ;
 +N+Du+Loc:%>ыгт K ;
 +N+Du+Lat:%>ыгн K ;
 +N+Du+Abl:%>ыгныл K ;
-+N+Du+Instr:%>ыгтыл K ;
++N+Du+Ins:%>ыгтыл K ;
 
 +N+Pl+Nom:%>ыт K ;
 +N+Pl+Loc:%>ытт K ;
 +N+Pl+Lat:%>ытн K ;
 +N+Pl+Abl:%>ытныл K ;
-+N+Pl+Instr:%>ытыл K ;
++N+Pl+Ins:%>ытыл K ;
 
  ! possessive forms
  
@@ -47,180 +47,180 @@ LEXICON N_CVS_masnut__n
 +N+Sg+PxSg1+Loc:%>умт K ;
 +N+Sg+PxSg1+Lat:%>умн K ;
 +N+Sg+PxSg1+Abl:%>умныл K ;
-+N+Sg+PxSg1+Instr:%>умтыл K ;
++N+Sg+PxSg1+Ins:%>умтыл K ;
 
 +N+Du+PxSg1+Nom:%>агум K ;
 +N+Du+PxSg1+Loc:%>агумт K ;
 +N+Du+PxSg1+Lat:%>агумн K ;
 +N+Du+PxSg1+Abl:%>агумныл K ;
-+N+Du+PxSg1+Instr:%>агумтыл K ;
++N+Du+PxSg1+Ins:%>агумтыл K ;
 
 +N+Pl+PxSg1+Nom:%>анум K ;
 +N+Pl+PxSg1+Loc:%>анумт K ;
 +N+Pl+PxSg1+Lat:%>анумн K ;
 +N+Pl+PxSg1+Abl:%>анумныл K ;
-+N+Pl+PxSg1+Instr:%>анумтыл K ;
++N+Pl+PxSg1+Ins:%>анумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>ын K ;
 +N+Sg+PxSg2+Loc:%>ынт K ;
 +N+Sg+PxSg2+Lat:%>ынн K ;
 +N+Sg+PxSg2+Abl:%>ынныл K ;
-+N+Sg+PxSg2+Instr:%>ынтыл K ;
++N+Sg+PxSg2+Ins:%>ынтыл K ;
 
 +N+Du+PxSg2+Nom:%>агын K ;
 +N+Du+PxSg2+Loc:%>агынт K ;
 +N+Du+PxSg2+Lat:%>агынн K ;
 +N+Du+PxSg2+Abl:%>агынныл K ;
-+N+Du+PxSg2+Instr:%>агынтыл K ;
++N+Du+PxSg2+Ins:%>агынтыл K ;
 
 +N+Pl+PxSg2+Nom+Alt:%>анын K ;
 +N+Pl+PxSg2+Loc+Alt:%>анынт K ;
 +N+Pl+PxSg2+Lat+Alt:%>анынн K ;
 +N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Ins+Alt:%>анынтыл K ;
 
 +N+Pl+PxSg2+Nom:%>ан K ;
 +N+Pl+PxSg2+Loc:%>ант K ;
 +N+Pl+PxSg2+Lat:%>анн K ;
 +N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Instr:%>антыл K ;
++N+Pl+PxSg2+Ins:%>антыл K ;
 
 +N+Sg+PxSg3+Nom:%>э K ;
 +N+Sg+PxSg3+Loc:%>эт K ;
 +N+Sg+PxSg3+Lat:%>эн K ;
 +N+Sg+PxSg3+Abl:%>эныл K ;
-+N+Sg+PxSg3+Instr:%>этыл K ;
++N+Sg+PxSg3+Ins:%>этыл K ;
 
 +N+Du+PxSg3+Nom:%>аге K ;
 +N+Du+PxSg3+Loc:%>агет K ;
 +N+Du+PxSg3+Lat:%>аген K ;
 +N+Du+PxSg3+Abl:%>агеныл K ;
-+N+Du+PxSg3+Instr:%>агетыл K ;
++N+Du+PxSg3+Ins:%>агетыл K ;
 
 +N+Pl+PxSg3+Nom:%>анэ K ;
 +N+Pl+PxSg3+Loc:%>анэт K ;
 +N+Pl+PxSg3+Lat:%>анэн K ;
 +N+Pl+PxSg3+Abl:%>анэныл K ;
-+N+Pl+PxSg3+Instr:%>анэтыл K ;
++N+Pl+PxSg3+Ins:%>анэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>агамен K ;
 +N+Du+PxDu1+Loc:%>агамент K ;
 +N+Du+PxDu1+Lat:%>агаменн K ;
 +N+Du+PxDu1+Abl:%>агаменныл K ;
-+N+Du+PxDu1+Instr:%>агаментыл K ;
++N+Du+PxDu1+Ins:%>агаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>анамен K ;
 +N+Pl+PxDu1+Loc:%>анамент K ;
 +N+Pl+PxDu1+Lat:%>анаменн K ;
 +N+Pl+PxDu1+Abl:%>анаменныл K ;
-+N+Pl+PxDu1+Instr:%>анаментыл K ;
++N+Pl+PxDu1+Ins:%>анаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>ын K ;
 +N+Sg+PxDu2+Loc:%>ынт K ;
 +N+Sg+PxDu2+Lat:%>ынн K ;
 +N+Sg+PxDu2+Abl:%>ынныл K ;
-+N+Sg+PxDu2+Instr:%>ынтыл K ;
++N+Sg+PxDu2+Ins:%>ынтыл K ;
 
 +N+Du+PxDu2+Nom:%>аген K ;
 +N+Du+PxDu2+Loc:%>агент K ;
 +N+Du+PxDu2+Lat:%>агенн K ;
 +N+Du+PxDu2+Abl:%>агенныл K ;
-+N+Du+PxDu2+Instr:%>агентыл K ;
++N+Du+PxDu2+Ins:%>агентыл K ;
 
 +N+Pl+PxDu2+Nom:%>анен K ;
 +N+Pl+PxDu2+Loc:%>анент K ;
 +N+Pl+PxDu2+Lat:%>аненн K ;
 +N+Pl+PxDu2+Abl:%>аненныл K ;
-+N+Pl+PxDu2+Instr:%>анентыл K ;
++N+Pl+PxDu2+Ins:%>анентыл K ;
 
 +N+Sg+PxDu3+Nom:%>эн K ;
 +N+Sg+PxDu3+Loc:%>энт K ;
 +N+Sg+PxDu3+Lat:%>энн K ;
 +N+Sg+PxDu3+Abl:%>энныл K ;
-+N+Sg+PxDu3+Instr:%>энтыл K ;
++N+Sg+PxDu3+Ins:%>энтыл K ;
 
 +N+Du+PxDu3+Nom:%>аген K ;
 +N+Du+PxDu3+Loc:%>агент K ;
 +N+Du+PxDu3+Lat:%>агенн K ;
 +N+Du+PxDu3+Abl:%>агенныл K ;
-+N+Du+PxDu3+Instr:%>агентыл K ;
++N+Du+PxDu3+Ins:%>агентыл K ;
 
 +N+Pl+PxDu3+Nom:%>анэн K ;
 +N+Pl+PxDu3+Loc:%>анэнт K ;
 +N+Pl+PxDu3+Lat:%>анэнн K ;
 +N+Pl+PxDu3+Abl:%>анэнныл K ;
-+N+Pl+PxDu3+Instr:%>анэнтыл K ;
++N+Pl+PxDu3+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>ув K ;
 +N+Sg+PxPl1+Loc:%>увт K ;
 +N+Sg+PxPl1+Lat:%>увн K ;
 +N+Sg+PxPl1+Abl:%>увныл K ;
-+N+Sg+PxPl1+Instr:%>увтыл K ;
++N+Sg+PxPl1+Ins:%>увтыл K ;
 
 +N+Du+PxPl1+Nom:%>агув K ;
 +N+Du+PxPl1+Loc:%>агувт K ;
 +N+Du+PxPl1+Lat:%>агувн K ;
 +N+Du+PxPl1+Abl:%>агувныл K ;
-+N+Du+PxPl1+Instr:%>агувтыл K ;
++N+Du+PxPl1+Ins:%>агувтыл K ;
 
 +N+Pl+PxPl1+Nom:%>анув K ;
 +N+Pl+PxPl1+Loc:%>анувт K ;
 +N+Pl+PxPl1+Lat:%>анувн K ;
 +N+Pl+PxPl1+Abl:%>анувныл K ;
-+N+Pl+PxPl1+Instr:%>анувтыл K ;
++N+Pl+PxPl1+Ins:%>анувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>ын K ;
 +N+Sg+PxPl2+Loc:%>ынт K ;
 +N+Sg+PxPl2+Lat:%>ынн K ;
 +N+Sg+PxPl2+Abl:%>ынныл K ;
-+N+Sg+PxPl2+Instr:%>ынтыл K ;
++N+Sg+PxPl2+Ins:%>ынтыл K ;
 
 +N+Du+PxPl2+Nom:%>аген K ;
 +N+Du+PxPl2+Loc:%>агент K ;
 +N+Du+PxPl2+Lat:%>агенн K ;
 +N+Du+PxPl2+Abl:%>агенныл K ;
-+N+Du+PxPl2+Instr:%>агентыл K ;
++N+Du+PxPl2+Ins:%>агентыл K ;
 
 +N+Pl+PxPl2+Nom:%>анен K ;
 +N+Pl+PxPl2+Loc:%>анент K ;
 +N+Pl+PxPl2+Lat:%>аненн K ;
 +N+Pl+PxPl2+Abl:%>аненныл K ;
-+N+Pl+PxPl2+Instr:%>анентыл K ;
++N+Pl+PxPl2+Ins:%>анентыл K ;
 
 +N+Sg+PxPl3+Nom:%>аныл K ;
 +N+Sg+PxPl3+Loc:%>анылт K ;
 +N+Sg+PxPl3+Lat:%>анылн K ;
 +N+Sg+PxPl3+Abl:%>анылныл K ;
-+N+Sg+PxPl3+Instr:%>анылтыл K ;
++N+Sg+PxPl3+Ins:%>анылтыл K ;
 
 +N+Du+PxPl3+Nom:%>аганыл K ;
 +N+Du+PxPl3+Loc:%>аганылт K ;
 +N+Du+PxPl3+Lat:%>аганылн K ;
 +N+Du+PxPl3+Abl:%>аганылныл K ;
-+N+Du+PxPl3+Instr:%>аганылтыл K ;
++N+Du+PxPl3+Ins:%>аганылтыл K ;
 
 +N+Pl+PxPl3+Nom:%>аныл K ;
 +N+Pl+PxPl3+Loc:%>анылт K ;
 +N+Pl+PxPl3+Lat:%>анылн K ;
 +N+Pl+PxPl3+Abl:%>анылныл K ;
-+N+Pl+PxPl3+Instr:%>анылтыл  K ;
++N+Pl+PxPl3+Ins:%>анылтыл  K ;
 
 +N+Pl+PxPl3+Nom+Alt:%>ананыл K ;
 +N+Pl+PxPl3+Loc+Alt:%>ананылт K ;
 +N+Pl+PxPl3+Lat+Alt:%>ананылн K ;
 +N+Pl+PxPl3+Abl+Alt:%>ананылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>ананылтыл  K ;
++N+Pl+PxPl3+Ins+Alt:%>ананылтыл  K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON N_CVH_luw__n
-  N_CVH_luw__n ;
+!  N_CVH_luw__n ; THERE is no reason to loop here 2017-03-18 Jaska
  
  ! non possessive forms
 
@@ -228,20 +228,20 @@ LEXICON N_CVH_luw__n
 +N+Sg+Loc:%>т K ;
 +N+Sg+Lat:%>н K ;
 +N+Sg+Abl:%>ныл K ;
-+N+Sg+Instr:%>ыл K ;
-+N+Sg+Trans:%>ыг K ;
++N+Sg+Ins:%>ыл K ;
++N+Sg+Tra:%>ыг K ;
 
 +N+Du+Nom:%>ыг K ;
 +N+Du+Loc:%>ыгт K ;
 +N+Du+Lat:%>ыгн K ;
 +N+Du+Abl:%>ыгныл K ;
-+N+Du+Instr:%>ыгтыл K ;
++N+Du+Ins:%>ыгтыл K ;
 
 +N+Pl+Nom:%>ыт K ;
 +N+Pl+Loc:%>ытт K ;
 +N+Pl+Lat:%>ытн K ;
 +N+Pl+Abl:%>ытныл K ;
-+N+Pl+Instr:%>ытыл K ;
++N+Pl+Ins:%>ытыл K ;
 
  ! possessive forms
  
@@ -249,200 +249,200 @@ LEXICON N_CVH_luw__n
 +N+Sg+PxSg1+Loc:%>умт K ;
 +N+Sg+PxSg1+Lat:%>умн K ;
 +N+Sg+PxSg1+Abl:%>умныл K ;
-+N+Sg+PxSg1+Instr:%>умтыл K ;
++N+Sg+PxSg1+Ins:%>умтыл K ;
 
 +N+Du+PxSg1+Nom:%>агум K ;
 +N+Du+PxSg1+Loc:%>агумт K ;
 +N+Du+PxSg1+Lat:%>агумн K ;
 +N+Du+PxSg1+Abl:%>агумныл K ;
-+N+Du+PxSg1+Instr:%>агумтыл K ;
++N+Du+PxSg1+Ins:%>агумтыл K ;
 
 +N+Pl+PxSg1+Nom:%>анум K ;
 +N+Pl+PxSg1+Loc:%>анумт K ;
 +N+Pl+PxSg1+Lat:%>анумн K ;
 +N+Pl+PxSg1+Abl:%>анумныл K ;
-+N+Pl+PxSg1+Instr:%>анумтыл K ;
++N+Pl+PxSg1+Ins:%>анумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>ын K ;
 +N+Sg+PxSg2+Loc:%>ынт K ;
 +N+Sg+PxSg2+Lat:%>ынн K ;
 +N+Sg+PxSg2+Abl:%>ынныл K ;
-+N+Sg+PxSg2+Instr:%>ынтыл K ;
++N+Sg+PxSg2+Ins:%>ынтыл K ;
 
 +N+Du+PxSg2+Nom:%>агын K ;
 +N+Du+PxSg2+Loc:%>агынт K ;
 +N+Du+PxSg2+Lat:%>агынн K ;
 +N+Du+PxSg2+Abl:%>агынныл K ;
-+N+Du+PxSg2+Instr:%>агынтыл K ;
++N+Du+PxSg2+Ins:%>агынтыл K ;
 
 +N+Pl+PxSg2+Nom+Alt:%>анын K ;
 +N+Pl+PxSg2+Loc+Alt:%>анынт K ;
 +N+Pl+PxSg2+Lat+Alt:%>анынн K ;
 +N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Ins+Alt:%>анынтыл K ;
 
 +N+Pl+PxSg2+Nom:%>ан K ;
 +N+Pl+PxSg2+Loc:%>ант K ;
 +N+Pl+PxSg2+Lat:%>анн K ;
 +N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Instr:%>антыл K ;
++N+Pl+PxSg2+Ins:%>антыл K ;
 
 +N+Sg+PxSg3+Nom:%>е K ;
 +N+Sg+PxSg3+Loc:%>ет K ;
 +N+Sg+PxSg3+Lat:%>ен K ;
 +N+Sg+PxSg3+Abl:%>еныл K ;
-+N+Sg+PxSg3+Instr:%>етыл K ;
++N+Sg+PxSg3+Ins:%>етыл K ;
 
 +N+Du+PxSg3+Nom:%>аге K ;
 +N+Du+PxSg3+Loc:%>агет K ;
 +N+Du+PxSg3+Lat:%>аген K ;
 +N+Du+PxSg3+Abl:%>агеныл K ;
-+N+Du+PxSg3+Instr:%>агетыл K ;
++N+Du+PxSg3+Ins:%>агетыл K ;
 
 +N+Pl+PxSg3+Nom:%>анэ K ;
 +N+Pl+PxSg3+Loc:%>анэт K ;
 +N+Pl+PxSg3+Lat:%>анэн K ;
 +N+Pl+PxSg3+Abl:%>анэныл K ;
-+N+Pl+PxSg3+Instr:%>анэтыл K ;
++N+Pl+PxSg3+Ins:%>анэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>агамен K ;
 +N+Du+PxDu1+Loc:%>агамент K ;
 +N+Du+PxDu1+Lat:%>агаменн K ;
 +N+Du+PxDu1+Abl:%>агаменныл K ;
-+N+Du+PxDu1+Instr:%>агаментыл K ;
++N+Du+PxDu1+Ins:%>агаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>анамен K ;
 +N+Pl+PxDu1+Loc:%>анамент K ;
 +N+Pl+PxDu1+Lat:%>анаменн K ;
 +N+Pl+PxDu1+Abl:%>анаменныл K ;
-+N+Pl+PxDu1+Instr:%>анаментыл K ;
++N+Pl+PxDu1+Ins:%>анаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>ын K ;
 +N+Sg+PxDu2+Loc:%>ынт K ;
 +N+Sg+PxDu2+Lat:%>ынн K ;
 +N+Sg+PxDu2+Abl:%>ынныл K ;
-+N+Sg+PxDu2+Instr:%>ынтыл K ;
++N+Sg+PxDu2+Ins:%>ынтыл K ;
 
 +N+Du+PxDu2+Nom:%>аген K ;
 +N+Du+PxDu2+Loc:%>агент K ;
 +N+Du+PxDu2+Lat:%>агенн K ;
 +N+Du+PxDu2+Abl:%>агенныл K ;
-+N+Du+PxDu2+Instr:%>агентыл K ;
++N+Du+PxDu2+Ins:%>агентыл K ;
 
 +N+Pl+PxDu2+Nom:%>анен K ;
 +N+Pl+PxDu2+Loc:%>анент K ;
 +N+Pl+PxDu2+Lat:%>аненн K ;
 +N+Pl+PxDu2+Abl:%>аненныл K ;
-+N+Pl+PxDu2+Instr:%>анентыл K ;
++N+Pl+PxDu2+Ins:%>анентыл K ;
 
 +N+Sg+PxDu3+Nom:%>ен K ;
 +N+Sg+PxDu3+Loc:%>ент K ;
 +N+Sg+PxDu3+Lat:%>енн K ;
 +N+Sg+PxDu3+Abl:%>енныл K ;
-+N+Sg+PxDu3+Instr:%>ентыл K ;
++N+Sg+PxDu3+Ins:%>ентыл K ;
 
 +N+Du+PxDu3+Nom:%>аген K ;
 +N+Du+PxDu3+Loc:%>агент K ;
 +N+Du+PxDu3+Lat:%>агенн K ;
 +N+Du+PxDu3+Abl:%>агенныл K ;
-+N+Du+PxDu3+Instr:%>агентыл K ;
++N+Du+PxDu3+Ins:%>агентыл K ;
 
 +N+Pl+PxDu3+Nom:%>анэн K ;
 +N+Pl+PxDu3+Loc:%>анэнт K ;
 +N+Pl+PxDu3+Lat:%>анэнн K ;
 +N+Pl+PxDu3+Abl:%>анэнныл K ;
-+N+Pl+PxDu3+Instr:%>анэнтыл K ;
++N+Pl+PxDu3+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>ув K ;
 +N+Sg+PxPl1+Loc:%>увт K ;
 +N+Sg+PxPl1+Lat:%>увн K ;
 +N+Sg+PxPl1+Abl:%>увныл K ;
-+N+Sg+PxPl1+Instr:%>увтыл K ;
++N+Sg+PxPl1+Ins:%>увтыл K ;
 
 +N+Du+PxPl1+Nom:%>агув K ;
 +N+Du+PxPl1+Loc:%>агувт K ;
 +N+Du+PxPl1+Lat:%>агувн K ;
 +N+Du+PxPl1+Abl:%>агувныл K ;
-+N+Du+PxPl1+Instr:%>агувтыл K ;
++N+Du+PxPl1+Ins:%>агувтыл K ;
 
 +N+Pl+PxPl1+Nom:%>анув K ;
 +N+Pl+PxPl1+Loc:%>анувт K ;
 +N+Pl+PxPl1+Lat:%>анувн K ;
 +N+Pl+PxPl1+Abl:%>анувныл K ;
-+N+Pl+PxPl1+Instr:%>анувтыл K ;
++N+Pl+PxPl1+Ins:%>анувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>ын K ;
 +N+Sg+PxPl2+Loc:%>ынт K ;
 +N+Sg+PxPl2+Lat:%>ынн K ;
 +N+Sg+PxPl2+Abl:%>ынныл K ;
-+N+Sg+PxPl2+Instr:%>ынтыл K ;
++N+Sg+PxPl2+Ins:%>ынтыл K ;
 
 +N+Du+PxPl2+Nom:%>аген K ;
 +N+Du+PxPl2+Loc:%>агент K ;
 +N+Du+PxPl2+Lat:%>агенн K ;
 +N+Du+PxPl2+Abl:%>агенныл K ;
-+N+Du+PxPl2+Instr:%>агентыл K ;
++N+Du+PxPl2+Ins:%>агентыл K ;
 
 +N+Pl+PxPl2+Nom:%>анен K ;
 +N+Pl+PxPl2+Loc:%>анент K ;
 +N+Pl+PxPl2+Lat:%>аненн K ;
 +N+Pl+PxPl2+Abl:%>аненныл K ;
-+N+Pl+PxPl2+Instr:%>анентыл K ;
++N+Pl+PxPl2+Ins:%>анентыл K ;
 
 +N+Sg+PxPl3+Nom:%>аныл K ;
 +N+Sg+PxPl3+Loc:%>анылт K ;
 +N+Sg+PxPl3+Lat:%>анылн K ;
 +N+Sg+PxPl3+Abl:%>анылныл K ;
-+N+Sg+PxPl3+Instr:%>анылтыл K ;
++N+Sg+PxPl3+Ins:%>анылтыл K ;
 
 +N+Du+PxPl3+Nom:%>аганыл K ;
 +N+Du+PxPl3+Loc:%>аганылт K ;
 +N+Du+PxPl3+Lat:%>аганылн K ;
 +N+Du+PxPl3+Abl:%>аганылныл K ;
-+N+Du+PxPl3+Instr:%>аганылтыл K ;
++N+Du+PxPl3+Ins:%>аганылтыл K ;
 
 +N+Pl+PxPl3+Nom+Alt:%>ананыл K ;
 +N+Pl+PxPl3+Loc+Alt:%>ананылт K ;
 +N+Pl+PxPl3+Lat+Alt:%>ананылн K ;
 +N+Pl+PxPl3+Abl+Alt:%>ананылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>ананылтыл K ;
++N+Pl+PxPl3+Ins+Alt:%>ананылтыл K ;
 
 +N+Pl+PxPl3+Nom:%>аныл K ;
 +N+Pl+PxPl3+Loc:%>анылт K ;
 +N+Pl+PxPl3+Lat:%>анылн K ;
 +N+Pl+PxPl3+Abl:%>анылныл K ;
-+N+Pl+PxPl3+Instr:%>анылтыл K ;
++N+Pl+PxPl3+Ins:%>анылтыл K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
  LEXICON N_CCH_aamp__n
-  N_CCH_aamp__n ;
+!  N_CCH_aamp__n ;NO REASON TO   LOOP 2017-03-18 Jaska
 
  ! non possessive forms
-+N+Sg+Nom:%> K ;
-+N+Sg+Loc:%>ыт K ;
-+N+Sg+Lat:%>ын K ;
++N+Sg+Nom: K ;
++N+Sg+Loc:%>%{ЫØ%}т K ;
++N+Sg+Lat:%>%{ЫØ%}н K ;
 +N+Sg+Abl:%>ныл K ;
-+N+Sg+Instr:%>ыл K ;
-+N+Sg+Trans:%>ыг K ;
++N+Sg+Ins:%>ыл K ;
++N+Sg+Tra:%>ыг K ;
 
 +N+Du+Nom:%>ыг K ;
 +N+Du+Loc:%>ыгт K ;
 +N+Du+Lat:%>ыгн K ;
 +N+Du+Abl:%>ыгныл K ;
-+N+Du+Instr:%>ыгтыл K ;
++N+Du+Ins:%>ыгтыл K ;
 
 +N+Pl+Nom:%>ыт K ;
 +N+Pl+Loc:%>ытт K ;
 +N+Pl+Lat:%>ытн K ;
 +N+Pl+Abl:%>ытныл K ;
-+N+Pl+Instr:%>ытыл K ;
++N+Pl+Ins:%>ытыл K ;
 
  ! possessive forms
  
@@ -450,180 +450,180 @@ LEXICON N_CVH_luw__n
 +N+Sg+PxSg1+Loc:%>умт K ;
 +N+Sg+PxSg1+Lat:%>умн K ;
 +N+Sg+PxSg1+Abl:%>умныл K ;
-+N+Sg+PxSg1+Instr:%>умтыл K ;
++N+Sg+PxSg1+Ins:%>умтыл K ;
 
 +N+Du+PxSg1+Nom:%>агум K ;
 +N+Du+PxSg1+Loc:%>агумт K ;
 +N+Du+PxSg1+Lat:%>агумн K ;
 +N+Du+PxSg1+Abl:%>агумныл K ;
-+N+Du+PxSg1+Instr:%>агумтыл K ;
++N+Du+PxSg1+Ins:%>агумтыл K ;
 
 +N+Pl+PxSg1+Nom:%>анум K ;
 +N+Pl+PxSg1+Loc:%>анумт K ;
 +N+Pl+PxSg1+Lat:%>анумн K ;
 +N+Pl+PxSg1+Abl:%>анумныл K ;
-+N+Pl+PxSg1+Instr:%>анумтыл K ;
++N+Pl+PxSg1+Ins:%>анумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>ын K ;
 +N+Sg+PxSg2+Loc:%>ынт K ;
 +N+Sg+PxSg2+Lat:%>ынн K ;
 +N+Sg+PxSg2+Abl:%>ынныл K ;
-+N+Sg+PxSg2+Instr:%>ынтыл K ;
++N+Sg+PxSg2+Ins:%>ынтыл K ;
 
 +N+Du+PxSg2+Nom:%>агын K ;
 +N+Du+PxSg2+Loc:%>агынт K ;
 +N+Du+PxSg2+Lat:%>агынн K ;
 +N+Du+PxSg2+Abl:%>агынныл K ;
-+N+Du+PxSg2+Instr:%>агынтыл K ;
++N+Du+PxSg2+Ins:%>агынтыл K ;
 
-+N+Pl+PxSg2+Nom+Alt:%>анын K ;
-+N+Pl+PxSg2+Loc+Alt:%>анынт K ;
-+N+Pl+PxSg2+Lat+Alt:%>анынн K ;
-+N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Nom:%>анын K ; !formerly marked with +Alt
++N+Pl+PxSg2+Loc:%>анынт K ; !formerly marked with +Alt
++N+Pl+PxSg2+Lat:%>анынн K ; !formerly marked with +Alt
++N+Pl+PxSg2+Abl:%>анынныл K ; !formerly marked with +Alt
++N+Pl+PxSg2+Ins:%>анынтыл K ; !formerly marked with +Alt
 
 +N+Pl+PxSg2+Nom:%>ан K ;
 +N+Pl+PxSg2+Loc:%>ант K ;
 +N+Pl+PxSg2+Lat:%>анн K ;
 +N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Instr:%>антыл K ;
++N+Pl+PxSg2+Ins:%>антыл K ;
 
 +N+Sg+PxSg3+Nom:%>е K ;
 +N+Sg+PxSg3+Loc:%>ет K ;
 +N+Sg+PxSg3+Lat:%>ен K ;
 +N+Sg+PxSg3+Abl:%>еныл K ;
-+N+Sg+PxSg3+Instr:%>етыл K ;
++N+Sg+PxSg3+Ins:%>етыл K ;
 
 +N+Du+PxSg3+Nom:%>аге K ;
 +N+Du+PxSg3+Loc:%>агет K ;
 +N+Du+PxSg3+Lat:%>аген K ;
 +N+Du+PxSg3+Abl:%>агеныл K ;
-+N+Du+PxSg3+Instr:%>агетыл K ;
++N+Du+PxSg3+Ins:%>агетыл K ;
 
 +N+Pl+PxSg3+Nom:%>анэ K ;
 +N+Pl+PxSg3+Loc:%>анэт K ;
 +N+Pl+PxSg3+Lat:%>анэн K ;
 +N+Pl+PxSg3+Abl:%>анэныл K ;
-+N+Pl+PxSg3+Instr:%>анэтыл K ;
++N+Pl+PxSg3+Ins:%>анэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>агамен K ;
 +N+Du+PxDu1+Loc:%>агамент K ;
 +N+Du+PxDu1+Lat:%>агаменн K ;
 +N+Du+PxDu1+Abl:%>агаменныл K ;
-+N+Du+PxDu1+Instr:%>агаментыл K ;
++N+Du+PxDu1+Ins:%>агаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>анамен K ;
 +N+Pl+PxDu1+Loc:%>анамент K ;
 +N+Pl+PxDu1+Lat:%>анаменн K ;
 +N+Pl+PxDu1+Abl:%>анаменныл K ;
-+N+Pl+PxDu1+Instr:%>анаментыл K ;
++N+Pl+PxDu1+Ins:%>анаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>ын K ;
 +N+Sg+PxDu2+Loc:%>ынт K ;
 +N+Sg+PxDu2+Lat:%>ынн K ;
 +N+Sg+PxDu2+Abl:%>ынныл K ;
-+N+Sg+PxDu2+Instr:%>ынтыл K ;
++N+Sg+PxDu2+Ins:%>ынтыл K ;
 
 +N+Du+PxDu2+Nom:%>аген K ;
 +N+Du+PxDu2+Loc:%>агент K ;
 +N+Du+PxDu2+Lat:%>агенн K ;
 +N+Du+PxDu2+Abl:%>агенныл K ;
-+N+Du+PxDu2+Instr:%>агентыл K ;
++N+Du+PxDu2+Ins:%>агентыл K ;
 
 +N+Pl+PxDu2+Nom:%>анен K ;
 +N+Pl+PxDu2+Loc:%>анент K ;
 +N+Pl+PxDu2+Lat:%>аненн K ;
 +N+Pl+PxDu2+Abl:%>аненныл K ;
-+N+Pl+PxDu2+Instr:%>анентыл K ;
++N+Pl+PxDu2+Ins:%>анентыл K ;
 
 +N+Sg+PxDu3+Nom:%>ен K ;
 +N+Sg+PxDu3+Loc:%>ент K ;
 +N+Sg+PxDu3+Lat:%>енн K ;
 +N+Sg+PxDu3+Abl:%>енныл K ;
-+N+Sg+PxDu3+Instr:%>ентыл K ;
++N+Sg+PxDu3+Ins:%>ентыл K ;
 
 +N+Du+PxDu3+Nom:%>аген K ;
 +N+Du+PxDu3+Loc:%>агент K ;
 +N+Du+PxDu3+Lat:%>агенн K ;
 +N+Du+PxDu3+Abl:%>агенныл K ;
-+N+Du+PxDu3+Instr:%>агентыл K ;
++N+Du+PxDu3+Ins:%>агентыл K ;
 
 +N+Pl+PxDu3+Nom:%>анэн K ;
 +N+Pl+PxDu3+Loc:%>анэнт K ;
 +N+Pl+PxDu3+Lat:%>анэнн K ;
 +N+Pl+PxDu3+Abl:%>анэнныл K ;
-+N+Pl+PxDu3+Instr:%>анэнтыл K ;
++N+Pl+PxDu3+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>ув K ;
 +N+Sg+PxPl1+Loc:%>увт K ;
 +N+Sg+PxPl1+Lat:%>увн K ;
 +N+Sg+PxPl1+Abl:%>увныл K ;
-+N+Sg+PxPl1+Instr:%>увтыл K ;
++N+Sg+PxPl1+Ins:%>увтыл K ;
 
 +N+Du+PxPl1+Nom:%>агув K ;
 +N+Du+PxPl1+Loc:%>агувт K ;
 +N+Du+PxPl1+Lat:%>агувн K ;
 +N+Du+PxPl1+Abl:%>агувныл K ;
-+N+Du+PxPl1+Instr:%>агувтыл K ;
++N+Du+PxPl1+Ins:%>агувтыл K ;
 
 +N+Pl+PxPl1+Nom:%>анув K ;
 +N+Pl+PxPl1+Loc:%>анувт K ;
 +N+Pl+PxPl1+Lat:%>анувн K ;
 +N+Pl+PxPl1+Abl:%>анувныл K ;
-+N+Pl+PxPl1+Instr:%>анувтыл K ;
++N+Pl+PxPl1+Ins:%>анувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>ын K ;
 +N+Sg+PxPl2+Loc:%>ынт K ;
 +N+Sg+PxPl2+Lat:%>ынн K ;
 +N+Sg+PxPl2+Abl:%>ынныл K ;
-+N+Sg+PxPl2+Instr:%>ынтыл K ;
++N+Sg+PxPl2+Ins:%>ынтыл K ;
 
 +N+Du+PxPl2+Nom:%>аген K ;
 +N+Du+PxPl2+Loc:%>агент K ;
 +N+Du+PxPl2+Lat:%>агенн K ;
 +N+Du+PxPl2+Abl:%>агенныл K ;
-+N+Du+PxPl2+Instr:%>агентыл K ;
++N+Du+PxPl2+Ins:%>агентыл K ;
 
 +N+Pl+PxPl2+Nom:%>анен K ;
 +N+Pl+PxPl2+Loc:%>анент K ;
 +N+Pl+PxPl2+Lat:%>аненн K ;
 +N+Pl+PxPl2+Abl:%>аненныл K ;
-+N+Pl+PxPl2+Instr:%>анентыл K ;
++N+Pl+PxPl2+Ins:%>анентыл K ;
 
 +N+Sg+PxPl3+Nom:%>аныл K ;
 +N+Sg+PxPl3+Loc:%>анылт K ;
 +N+Sg+PxPl3+Lat:%>анылн K ;
 +N+Sg+PxPl3+Abl:%>анылныл K ;
-+N+Sg+PxPl3+Instr:%>анылтыл K ;
++N+Sg+PxPl3+Ins:%>анылтыл K ;
 
 +N+Du+PxPl3+Nom:%>аганыл K ;
 +N+Du+PxPl3+Loc:%>аганылт K ;
 +N+Du+PxPl3+Lat:%>аганылн K ;
 +N+Du+PxPl3+Abl:%>аганылныл K ;
-+N+Du+PxPl3+Instr:%>аганылтыл K ;
++N+Du+PxPl3+Ins:%>аганылтыл K ;
 
 +N+Pl+PxPl3+Nom:%>ананыл K ;
 +N+Pl+PxPl3+Loc:%>ананылт K ;
 +N+Pl+PxPl3+Lat:%>ананылн K ;
 +N+Pl+PxPl3+Abl:%>ананылныл K ;
-+N+Pl+PxPl3+Instr:%>ананылтыл K ;
++N+Pl+PxPl3+Ins:%>ананылтыл K ;
 
 +N+Pl+PxPl3+Nom+Alt:%>аныл K ;
 +N+Pl+PxPl3+Loc+Alt:%>анылт K ;
 +N+Pl+PxPl3+Lat+Alt:%>анылн K ;
 +N+Pl+PxPl3+Abl+Alt:%>анылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>анылтыл K ;
++N+Pl+PxPl3+Ins+Alt:%>анылтыл K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
  LEXICON N_CCS_kant__n
-  N_CCS_kant__n ;
+!  N_CCS_kant__n ; NO REASON TO   LOOP 2017-03-18 Jaska
   
 
  ! non possessive forms
@@ -631,20 +631,20 @@ LEXICON N_CVH_luw__n
 +N+Sg+Loc:%>ыт K ;
 +N+Sg+Lat:%>ын K ;
 +N+Sg+Abl:%>ныл K ;
-+N+Sg+Instr:%>ыл K ;
-+N+Sg+Trans:%>ыг K ;
++N+Sg+Ins:%>ыл K ;
++N+Sg+Tra:%>ыг K ;
 
 +N+Du+Nom:%>ыг K ;
 +N+Du+Loc:%>ыгт K ;
 +N+Du+Lat:%>ыгн K ;
 +N+Du+Abl:%>ыгныл K ;
-+N+Du+Instr:%>ыгтыл K ;
++N+Du+Ins:%>ыгтыл K ;
 
 +N+Pl+Nom:%>ыт K ;
 +N+Pl+Loc:%>ытт K ;
 +N+Pl+Lat:%>ытн K ;
 +N+Pl+Abl:%>ытныл K ;
-+N+Pl+Instr:%>ытыл K ;
++N+Pl+Ins:%>ытыл K ;
 
  ! possessive forms
  
@@ -652,180 +652,180 @@ LEXICON N_CVH_luw__n
 +N+Sg+PxSg1+Loc:%>умт K ;
 +N+Sg+PxSg1+Lat:%>умн K ;
 +N+Sg+PxSg1+Abl:%>умныл K ;
-+N+Sg+PxSg1+Instr:%>умтыл K ;
++N+Sg+PxSg1+Ins:%>умтыл K ;
 
 +N+Du+PxSg1+Nom:%>агум K ;
 +N+Du+PxSg1+Loc:%>агумт K ;
 +N+Du+PxSg1+Lat:%>агумн K ;
 +N+Du+PxSg1+Abl:%>агумныл K ;
-+N+Du+PxSg1+Instr:%>агумтыл K ;
++N+Du+PxSg1+Ins:%>агумтыл K ;
 
 +N+Pl+PxSg1+Nom:%>анум K ;
 +N+Pl+PxSg1+Loc:%>анумт K ;
 +N+Pl+PxSg1+Lat:%>анумн K ;
 +N+Pl+PxSg1+Abl:%>анумныл K ;
-+N+Pl+PxSg1+Instr:%>анумтыл K ;
++N+Pl+PxSg1+Ins:%>анумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>ын K ;
 +N+Sg+PxSg2+Loc:%>ынт K ;
 +N+Sg+PxSg2+Lat:%>ынн K ;
 +N+Sg+PxSg2+Abl:%>ынныл K ;
-+N+Sg+PxSg2+Instr:%>ынтыл K ;
++N+Sg+PxSg2+Ins:%>ынтыл K ;
 
 +N+Du+PxSg2+Nom:%>агын K ;
 +N+Du+PxSg2+Loc:%>агынт K ;
 +N+Du+PxSg2+Lat:%>агынн K ;
 +N+Du+PxSg2+Abl:%>агынныл K ;
-+N+Du+PxSg2+Instr:%>агынтыл K ;
++N+Du+PxSg2+Ins:%>агынтыл K ;
 
 +N+Pl+PxSg2+Nom:%>ан K ;
 +N+Pl+PxSg2+Loc:%>ант K ;
 +N+Pl+PxSg2+Lat:%>анн K ;
 +N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Instr:%>антыл K ;
++N+Pl+PxSg2+Ins:%>антыл K ;
 
 +N+Pl+PxSg2+Nom+Alt:%>анын K ;
 +N+Pl+PxSg2+Loc+Alt:%>анынт K ;
 +N+Pl+PxSg2+Lat+Alt:%>анынн K ;
 +N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Ins+Alt:%>анынтыл K ;
 
 +N+Sg+PxSg3+Nom:%>э K ;
 +N+Sg+PxSg3+Loc:%>эт K ;
 +N+Sg+PxSg3+Lat:%>эн K ;
 +N+Sg+PxSg3+Abl:%>эныл K ;
-+N+Sg+PxSg3+Instr:%>этыл K ;
++N+Sg+PxSg3+Ins:%>этыл K ;
 
 +N+Du+PxSg3+Nom:%>аге K ;
 +N+Du+PxSg3+Loc:%>агет K ;
 +N+Du+PxSg3+Lat:%>аген K ;
 +N+Du+PxSg3+Abl:%>агеныл K ;
-+N+Du+PxSg3+Instr:%>агетыл K ;
++N+Du+PxSg3+Ins:%>агетыл K ;
 
 +N+Pl+PxSg3+Nom:%>анэ K ;
 +N+Pl+PxSg3+Loc:%>анэт K ;
 +N+Pl+PxSg3+Lat:%>анэн K ;
 +N+Pl+PxSg3+Abl:%>анэныл K ;
-+N+Pl+PxSg3+Instr:%>анэтыл K ;
++N+Pl+PxSg3+Ins:%>анэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>агамен K ;
 +N+Du+PxDu1+Loc:%>агамент K ;
 +N+Du+PxDu1+Lat:%>агаменн K ;
 +N+Du+PxDu1+Abl:%>агаменныл K ;
-+N+Du+PxDu1+Instr:%>агаментыл K ;
++N+Du+PxDu1+Ins:%>агаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>анамен K ;
 +N+Pl+PxDu1+Loc:%>анамент K ;
 +N+Pl+PxDu1+Lat:%>анаменн K ;
 +N+Pl+PxDu1+Abl:%>анаменныл K ;
-+N+Pl+PxDu1+Instr:%>анаментыл K ;
++N+Pl+PxDu1+Ins:%>анаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>ын K ;
 +N+Sg+PxDu2+Loc:%>ынт K ;
 +N+Sg+PxDu2+Lat:%>ынн K ;
 +N+Sg+PxDu2+Abl:%>ынныл K ;
-+N+Sg+PxDu2+Instr:%>ынтыл K ;
++N+Sg+PxDu2+Ins:%>ынтыл K ;
 
 +N+Du+PxDu2+Nom:%>аген K ;
 +N+Du+PxDu2+Loc:%>агент K ;
 +N+Du+PxDu2+Lat:%>агенн K ;
 +N+Du+PxDu2+Abl:%>агенныл K ;
-+N+Du+PxDu2+Instr:%>агентыл K ;
++N+Du+PxDu2+Ins:%>агентыл K ;
 
 +N+Pl+PxDu2+Nom:%>анен K ;
 +N+Pl+PxDu2+Loc:%>анент K ;
 +N+Pl+PxDu2+Lat:%>аненн K ;
 +N+Pl+PxDu2+Abl:%>аненныл K ;
-+N+Pl+PxDu2+Instr:%>анентыл K ;
++N+Pl+PxDu2+Ins:%>анентыл K ;
 
 +N+Sg+PxDu3+Nom:%>эн K ;
 +N+Sg+PxDu3+Loc:%>энт K ;
 +N+Sg+PxDu3+Lat:%>энн K ;
 +N+Sg+PxDu3+Abl:%>энныл K ;
-+N+Sg+PxDu3+Instr:%>энтыл K ;
++N+Sg+PxDu3+Ins:%>энтыл K ;
 
 +N+Du+PxDu3+Nom:%>аген K ;
 +N+Du+PxDu3+Loc:%>агент K ;
 +N+Du+PxDu3+Lat:%>агенн K ;
 +N+Du+PxDu3+Abl:%>агенныл K ;
-+N+Du+PxDu3+Instr:%>агентыл K ;
++N+Du+PxDu3+Ins:%>агентыл K ;
 
 +N+Pl+PxDu3+Nom:%>анэн K ;
 +N+Pl+PxDu3+Loc:%>анэнт K ;
 +N+Pl+PxDu3+Lat:%>анэнн K ;
 +N+Pl+PxDu3+Abl:%>анэнныл K ;
-+N+Pl+PxDu3+Instr:%>анэнтыл K ;
++N+Pl+PxDu3+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>ув K ;
 +N+Sg+PxPl1+Loc:%>увт K ;
 +N+Sg+PxPl1+Lat:%>увн K ;
 +N+Sg+PxPl1+Abl:%>увныл K ;
-+N+Sg+PxPl1+Instr:%>увтыл K ;
++N+Sg+PxPl1+Ins:%>увтыл K ;
 
 +N+Du+PxPl1+Nom:%>агув K ;
 +N+Du+PxPl1+Loc:%>агувт K ;
 +N+Du+PxPl1+Lat:%>агувн K ;
 +N+Du+PxPl1+Abl:%>агувныл K ;
-+N+Du+PxPl1+Instr:%>агувтыл K ;
++N+Du+PxPl1+Ins:%>агувтыл K ;
 
 +N+Pl+PxPl1+Nom:%>анув K ;
 +N+Pl+PxPl1+Loc:%>анувт K ;
 +N+Pl+PxPl1+Lat:%>анувн K ;
 +N+Pl+PxPl1+Abl:%>анувныл K ;
-+N+Pl+PxPl1+Instr:%>анувтыл K ;
++N+Pl+PxPl1+Ins:%>анувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>ын K ;
 +N+Sg+PxPl2+Loc:%>ынт K ;
 +N+Sg+PxPl2+Lat:%>ынн K ;
 +N+Sg+PxPl2+Abl:%>ынныл K ;
-+N+Sg+PxPl2+Instr:%>ынтыл K ;
++N+Sg+PxPl2+Ins:%>ынтыл K ;
 
 +N+Du+PxPl2+Nom:%>аген K ;
 +N+Du+PxPl2+Loc:%>агент K ;
 +N+Du+PxPl2+Lat:%>агенн K ;
 +N+Du+PxPl2+Abl:%>агенныл K ;
-+N+Du+PxPl2+Instr:%>агентыл K ;
++N+Du+PxPl2+Ins:%>агентыл K ;
 
 +N+Pl+PxPl2+Nom:%>анен K ;
 +N+Pl+PxPl2+Loc:%>анент K ;
 +N+Pl+PxPl2+Lat:%>аненн K ;
 +N+Pl+PxPl2+Abl:%>аненныл K ;
-+N+Pl+PxPl2+Instr:%>анентыл K ;
++N+Pl+PxPl2+Ins:%>анентыл K ;
 
 +N+Sg+PxPl3+Nom:%>аныл K ;
 +N+Sg+PxPl3+Loc:%>анылт K ;
 +N+Sg+PxPl3+Lat:%>анылн K ;
 +N+Sg+PxPl3+Abl:%>анылныл K ;
-+N+Sg+PxPl3+Instr:%>анылтыл K ;
++N+Sg+PxPl3+Ins:%>анылтыл K ;
 
 +N+Du+PxPl3+Nom:%>аганыл K ;
 +N+Du+PxPl3+Loc:%>аганылт K ;
 +N+Du+PxPl3+Lat:%>аганылн K ;
 +N+Du+PxPl3+Abl:%>аганылныл K ;
-+N+Du+PxPl3+Instr:%>аганылтыл K ;
++N+Du+PxPl3+Ins:%>аганылтыл K ;
 
 +N+Pl+PxPl3+Nom:%>аныл K ;
 +N+Pl+PxPl3+Loc:%>анылт K ;
 +N+Pl+PxPl3+Lat:%>анылн K ;
 +N+Pl+PxPl3+Abl:%>анылныл K ;
-+N+Pl+PxPl3+Instr:%>анылтыл K ;
++N+Pl+PxPl3+Ins:%>анылтыл K ;
 
 +N+Pl+PxPl3+Nom+Alt:%>ананыл K ;
 +N+Pl+PxPl3+Loc+Alt:%>ананылт K ;
 +N+Pl+PxPl3+Lat+Alt:%>ананылн K ;
 +N+Pl+PxPl3+Abl+Alt:%>ананылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>ананылтыл K ;
++N+Pl+PxPl3+Ins+Alt:%>ананылтыл K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON N_VO_maa__n
-+N:%>  N_VO_maa__n_cx_px ;
++N:  N_VO_maa__n_cx_px ;
 
 LEXICON N_VO_maa__n_cx_px
 
@@ -1027,28 +1027,28 @@ LEXICON N_VO_maa__n_cx_px
 
 
 LEXICON N_VI_aagi__n
-  N_VI_aagi__n ;
+!  N_VI_aagi__n ; NO REASON TO   LOOP 2017-03-18 Jaska
  
  ! non possessive forms
 
-+N+Sg+Nom:%> K ;
++N+Sg+Nom: K ;
 +N+Sg+Loc:%>т K ;
 +N+Sg+Lat:%>н K ;
 +N+Sg+Abl:%>ныл K ;
-+N+Sg+Instr:%>л K ;
-+N+Sg+Trans:%>иг K ;
++N+Sg+Ins:%>л K ;
++N+Sg+Tra:%>иг K ;
 
 +N+Du+Nom:%>иг K ;
 +N+Du+Loc:%>игт K ;
 +N+Du+Lat:%>игн K ;
 +N+Du+Abl:%>игныл K ;
-+N+Du+Instr:%>игтыл K ;
++N+Du+Ins:%>игтыл K ;
 
 +N+Pl+Nom:%>ит K ;
 +N+Pl+Loc:%>итт K ;
 +N+Pl+Lat:%>итн K ;
 +N+Pl+Abl:%>итныл K ;
-+N+Pl+Instr:%>итыл K ;
++N+Pl+Ins:%>итыл K ;
 
  ! possessive forms
  
@@ -1056,577 +1056,579 @@ LEXICON N_VI_aagi__n
 +N+Sg+PxSg1+Loc:%>мт K ;
 +N+Sg+PxSg1+Lat:%>мн K ;
 +N+Sg+PxSg1+Abl:%>мныл K ;
-+N+Sg+PxSg1+Instr:%>мтыл K ;
++N+Sg+PxSg1+Ins:%>мтыл K ;
 
 +N+Du+PxSg1+Nom:%>ягум K ;
 +N+Du+PxSg1+Loc:%>ягумт K ;
 +N+Du+PxSg1+Lat:%>ягумн K ;
 +N+Du+PxSg1+Abl:%>ягумныл K ;
-+N+Du+PxSg1+Instr:%>ягумтыл K ;
++N+Du+PxSg1+Ins:%>ягумтыл K ;
 
-+N+Pl+PxSg1+Nom:%>сāлянум K ;
++N+Pl+PxSg1+Nom:%^RmVow%>янум K ;
 +N+Pl+PxSg1+Loc:%>янумт K ;
 +N+Pl+PxSg1+Lat:%>янумн K ;
 +N+Pl+PxSg1+Abl:%>янумныл K ;
-+N+Pl+PxSg1+Instr:%>янумтыл K ;
++N+Pl+PxSg1+Ins:%>янумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>н K ;
 +N+Sg+PxSg2+Loc:%>нт K ;
 +N+Sg+PxSg2+Lat:%>нн K ;
 +N+Sg+PxSg2+Abl:%>нныл K ;
-+N+Sg+PxSg2+Instr:%>нтыл K ;
++N+Sg+PxSg2+Ins:%>нтыл K ;
 
 +N+Du+PxSg2+Nom:%>ягын K ;
 +N+Du+PxSg2+Loc:%>ягынт K ;
 +N+Du+PxSg2+Lat:%>ягынн K ;
 +N+Du+PxSg2+Abl:%>ягынныл K ;
-+N+Du+PxSg2+Instr:%>ягынтыл K ;
++N+Du+PxSg2+Ins:%>ягынтыл K ;
 
-+N+Pl+PxSg2+Nom+Alt:%>сāлянын K ;
-+N+Pl+PxSg2+Loc+Alt:%>янынт K ;
-+N+Pl+PxSg2+Lat+Alt:%>янынн K ;
-+N+Pl+PxSg2+Abl+Alt:%>янынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>янынтыл K ;
++N+Pl+PxSg2+Nom:%^RmVow%>янын K ; ! Previously +Alt
++N+Pl+PxSg2+Loc:%>янынт K ; ! Previously +Alt
++N+Pl+PxSg2+Lat:%>янынн K ; ! Previously +Alt
++N+Pl+PxSg2+Abl:%>янынныл K ; ! Previously +Alt
++N+Pl+PxSg2+Ins:%>янынтыл K ; ! Previously +Alt
 
-+N+Pl+PxSg2+Nom:%>сāлян K ;
-+N+Pl+PxSg2+Loc:%>янт K ;
-+N+Pl+PxSg2+Lat:%>янн K ;
-+N+Pl+PxSg2+Abl:%>янныл K ;
-+N+Pl+PxSg2+Instr:%>янтыл K ;
++N+Pl+PxSg2+Nom:%>ян K ; ! Are these primary OR secondary
++N+Pl+PxSg2+Loc:%>янт K ; ! Are these primary OR secondary
++N+Pl+PxSg2+Lat:%>янн K ; ! Are these primary OR secondary
++N+Pl+PxSg2+Abl:%>янныл K ; ! Are these primary OR secondary
++N+Pl+PxSg2+Ins:%>янтыл K ; ! Are these primary OR secondary
 
 +N+Sg+PxSg3+Nom:%>тэ K ;
 +N+Sg+PxSg3+Loc:%>тэт K ;
 +N+Sg+PxSg3+Lat:%>тэн K ;
 +N+Sg+PxSg3+Abl:%>тэныл K ;
-+N+Sg+PxSg3+Instr:%>тэтыл K ;
++N+Sg+PxSg3+Ins:%>тэтыл K ;
 
 +N+Du+PxSg3+Nom:%>яге K ;
 +N+Du+PxSg3+Loc:%>ягет K ;
 +N+Du+PxSg3+Lat:%>яген K ;
 +N+Du+PxSg3+Abl:%>ягеныл K ;
-+N+Du+PxSg3+Instr:%>ягетыл K ;
++N+Du+PxSg3+Ins:%>ягетыл K ;
 
 +N+Pl+PxSg3+Nom:%>янэ K ;
 +N+Pl+PxSg3+Loc:%>янэт K ;
 +N+Pl+PxSg3+Lat:%>янэн K ;
 +N+Pl+PxSg3+Abl:%>янэныл K ;
-+N+Pl+PxSg3+Instr:%>янэтыл K ;
++N+Pl+PxSg3+Ins:%>янэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>ягамен K ;
 +N+Du+PxDu1+Loc:%>ягамент K ;
 +N+Du+PxDu1+Lat:%>ягаменн K ;
 +N+Du+PxDu1+Abl:%>ягаменыл K ;
-+N+Du+PxDu1+Instr:%>ягаментыл K ;
++N+Du+PxDu1+Ins:%>ягаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>янамен K ;
 +N+Pl+PxDu1+Loc:%>янамент K ;
 +N+Pl+PxDu1+Lat:%>янаменн K ;
 +N+Pl+PxDu1+Abl:%>янаменыл K ;
-+N+Pl+PxDu1+Instr:%>янаментыл K ;
++N+Pl+PxDu1+Ins:%>янаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>н K ;
 +N+Sg+PxDu2+Loc:%>нт K ;
 +N+Sg+PxDu2+Lat:%>нн K ;
 +N+Sg+PxDu2+Abl:%>нныл K ;
-+N+Sg+PxDu2+Instr:%>нтыл K ;
++N+Sg+PxDu2+Ins:%>нтыл K ;
 
 +N+Du+PxDu2+Nom:%>яген K ;
 +N+Du+PxDu2+Loc:%>ягент K ;
 +N+Du+PxDu2+Lat:%>ягенн K ;
 +N+Du+PxDu2+Abl:%>ягеныл K ;
-+N+Du+PxDu2+Instr:%>ягентыл K ;
++N+Du+PxDu2+Ins:%>ягентыл K ;
 
 +N+Pl+PxDu2+Nom:%>янэн K ;
 +N+Pl+PxDu2+Loc:%>янэнт K ;
 +N+Pl+PxDu2+Lat:%>янэнн K ;
 +N+Pl+PxDu2+Abl:%>янэныл K ;
-+N+Pl+PxDu2+Instr:%>янэнтыл K ;
++N+Pl+PxDu2+Ins:%>янэнтыл K ;
 
 +N+Sg+PxDu3+Nom:%>тэн K ;
 +N+Sg+PxDu3+Loc:%>тэнт K ;
 +N+Sg+PxDu3+Lat:%>тэнн K ;
 +N+Sg+PxDu3+Abl:%>тэнныл K ;
-+N+Sg+PxDu3+Instr:%>тэнтыл K ;
++N+Sg+PxDu3+Ins:%>тэнтыл K ;
 
 +N+Du+PxDu3+Nom:%>яген K ;
 +N+Du+PxDu3+Loc:%>ягент K ;
 +N+Du+PxDu3+Lat:%>ягенн K ;
 +N+Du+PxDu3+Abl:%>ягенныл K ;
-+N+Du+PxDu3+Instr:%>ягентыл K ;
++N+Du+PxDu3+Ins:%>ягентыл K ;
 
 +N+Pl+PxDu3+Nom:%>янэн K ;
 +N+Pl+PxDu3+Loc:%>янэнт K ;
 +N+Pl+PxDu3+Lat:%>янэнн K ;
 +N+Pl+PxDu3+Abl:%>янэнныл K ;
-+N+Pl+PxDu3+Instr:%>янэнтыл K ;
++N+Pl+PxDu3+Ins:%>янэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>юв K ;
 +N+Sg+PxPl1+Loc:%>ювт K ;
 +N+Sg+PxPl1+Lat:%>ювн K ;
 +N+Sg+PxPl1+Abl:%>ювныл K ;
-+N+Sg+PxPl1+Instr:%>сāлювтыл K ;
++N+Sg+PxPl1+Ins:%^RmVow%>ювтыл K ;
 
 +N+Du+PxPl1+Nom:%>ягув K ;
 +N+Du+PxPl1+Loc:%>ягувт K ;
 +N+Du+PxPl1+Lat:%>ягувн K ;
 +N+Du+PxPl1+Abl:%>ягувныл K ;
-+N+Du+PxPl1+Instr:%>ягувтыл K ;
++N+Du+PxPl1+Ins:%>ягувтыл K ;
 
-+N+Pl+PxPl1+Nom:%>сāлянув K ;
++N+Pl+PxPl1+Nom:%^RmVow%>янув K ;
 +N+Pl+PxPl1+Loc:%>янувт K ;
 +N+Pl+PxPl1+Lat:%>янувн K ;
 +N+Pl+PxPl1+Abl:%>янувныл K ;
-+N+Pl+PxPl1+Instr:%>янувтыл K ;
++N+Pl+PxPl1+Ins:%>янувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>н K ;
 +N+Sg+PxPl2+Loc:%>нт K ;
 +N+Sg+PxPl2+Lat:%>нн K ;
 +N+Sg+PxPl2+Abl:%>нныл K ;
-+N+Sg+PxPl2+Instr:%>нтыл K ;
++N+Sg+PxPl2+Ins:%>нтыл K ;
 
 +N+Du+PxPl2+Nom:%>яген K ;
 +N+Du+PxPl2+Loc:%>ягент K ;
 +N+Du+PxPl2+Lat:%>ягенн K ;
 +N+Du+PxPl2+Abl:%>ягенныл K ;
-+N+Du+PxPl2+Instr:%>яыгентыл K ;
++N+Du+PxPl2+Ins:%>яыгентыл K ;
 
 +N+Pl+PxPl2+Nom:%>янэн K ;
 +N+Pl+PxPl2+Loc:%>янэнт K ;
 +N+Pl+PxPl2+Lat:%>янэнн K ;
 +N+Pl+PxPl2+Abl:%>янэнныл K ;
-+N+Pl+PxPl2+Instr:%>янэнтыл K ;
++N+Pl+PxPl2+Ins:%>янэнтыл K ;
 
 +N+Sg+PxPl3+Nom:%>яныл K ;
 +N+Sg+PxPl3+Loc:%>янылт K ;
 +N+Sg+PxPl3+Lat:%>янылн K ;
 +N+Sg+PxPl3+Abl:%>янылныл K ;
-+N+Sg+PxPl3+Instr:%>янылтыл K ;
++N+Sg+PxPl3+Ins:%>янылтыл K ;
 
 +N+Du+PxPl3+Nom:%>яганыл K ;
 +N+Du+PxPl3+Loc:%>яганылт K ;
 +N+Du+PxPl3+Lat:%>яганылн K ;
 +N+Du+PxPl3+Abl:%>яганылныл K ;
-+N+Du+PxPl3+Instr:%>яганылтыл K ;
++N+Du+PxPl3+Ins:%>яганылтыл K ;
 
-+N+Pl+PxPl3+Nom+Alt:%>янаныл K ;
-+N+Pl+PxPl3+Loc+Alt:%>янанылт K ;
-+N+Pl+PxPl3+Lat+Alt:%>янанылн K ;
-+N+Pl+PxPl3+Abl+Alt:%>янанылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>янанылтыл K ;
++N+Pl+PxPl3+Nom:%>янаныл K ; ! Previously marked +Alt
++N+Pl+PxPl3+Loc:%>янанылт K ; ! Previously marked +Alt
++N+Pl+PxPl3+Lat:%>янанылн K ; ! Previously marked +Alt
++N+Pl+PxPl3+Abl:%>янанылныл K ; ! Previously marked +Alt
++N+Pl+PxPl3+Ins:%>янанылтыл K ; ! Previously marked +Alt
 
-+N+Pl+PxPl3+Nom:%>яныл K ;
-+N+Pl+PxPl3+Loc:%>янылт K ;
-+N+Pl+PxPl3+Lat:%>янылн K ;
-+N+Pl+PxPl3+Abl:%>янылныл K ;
-+N+Pl+PxPl3+Instr:%>янылтыл K ;
++N+Pl+PxPl3+Nom:%>яныл K ; !Are these primary OR secondary
++N+Pl+PxPl3+Loc:%>янылт K ; !Are these primary OR secondary
++N+Pl+PxPl3+Lat:%>янылн K ; !Are these primary OR secondary
++N+Pl+PxPl3+Abl:%>янылныл K ; !Are these primary OR secondary
++N+Pl+PxPl3+Ins:%>янылтыл K ; !Are these primary OR secondary
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!syncopating
 
 LEXICON N_SYN_apyg__n
-  N_SYN_apyg__n ;
+!  N_SYN_apyg__n ; NO REASON TO LOOP 2017-03-18 Jaska
 
 +N+Sg+Nom:%> K ;
 +N+Sg+Loc:%>т K ;
 +N+Sg+Lat:%>н K ;
 +N+Sg+Abl:%>ныл K ;
+:%^Syncope N_SYN-INFLECT_apyg__n ;
 
 LEXICON N_SYN-INFLECT_apyg__n
-N_SYN-INFLECT_apyg__n ;
+!N_SYN-INFLECT_apyg__n ; NO REASON TO	LOOP 2017-03-18	Jaska
 
-+N+Sg+Instr:%>ыл K ;
-+N+Sg+Trans:%>иг K ;
+
++N+Sg+Ins:%>ыл K ;
++N+Sg+Tra:%>иг K ;
 
 +N+Du+Nom:%>ыг K ;
 +N+Du+Loc:%>ыгт K ;
 +N+Du+Lat:%>ыгн K ;
 +N+Du+Abl:%>ыгныл K ;
-+N+Du+Instr:%>ыгтыл K ;
++N+Du+Ins:%>ыгтыл K ;
 
 +N+Pl+Nom:%>ыт K ;
 +N+Pl+Loc:%>ытт K ;
 +N+Pl+Lat:%>ытн K ;
 +N+Pl+Abl:%>ытныл K ;
-+N+Pl+Instr:%>ытыл K ;
++N+Pl+Ins:%>ытыл K ;
 
 +N+Sg+PxSg1+Nom:%>ум K ;
 +N+Sg+PxSg1+Loc:%>умт K ;
 +N+Sg+PxSg1+Lat:%>умн K ;
 +N+Sg+PxSg1+Abl:%>умныл K ;
-+N+Sg+PxSg1+Instr:%>умтыл K ;
++N+Sg+PxSg1+Ins:%>умтыл K ;
 
 +N+Du+PxSg1+Nom:%>агум K ;
 +N+Du+PxSg1+Loc:%>агумт K ;
 +N+Du+PxSg1+Lat:%>агумн K ;
 +N+Du+PxSg1+Abl:%>агумныл K ;
-+N+Du+PxSg1+Instr:%>агумтыл K ;
++N+Du+PxSg1+Ins:%>агумтыл K ;
 
 +N+Pl+PxSg1+Nom:%>анум K ;
 +N+Pl+PxSg1+Loc:%>анумт K ;
 +N+Pl+PxSg1+Lat:%>анумн K ;
 +N+Pl+PxSg1+Abl:%>анумныл K ;
-+N+Pl+PxSg1+Instr:%>анумтыл K ;
++N+Pl+PxSg1+Ins:%>анумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>ын K ;
 +N+Sg+PxSg2+Loc:%>ынт K ;
 +N+Sg+PxSg2+Lat:%>ынн K ;
 +N+Sg+PxSg2+Abl:%>ынныл K ;
-+N+Sg+PxSg2+Instr:%>ынтыл K ;
++N+Sg+PxSg2+Ins:%>ынтыл K ;
 
 +N+Du+PxSg2+Nom:%>агын K ;
 +N+Du+PxSg2+Loc:%>агынт K ;
 +N+Du+PxSg2+Lat:%>агынн K ;
 +N+Du+PxSg2+Abl:%>агынныл K ;
-+N+Du+PxSg2+Instr:%>агынтыл K ;
++N+Du+PxSg2+Ins:%>агынтыл K ;
 
 +N+Pl+PxSg2+Nom+Alt:%>анын K ;
 +N+Pl+PxSg2+Loc+Alt:%>анынт K ;
 +N+Pl+PxSg2+Lat+Alt:%>анынн K ;
 +N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Ins+Alt:%>анынтыл K ;
 
 +N+Pl+PxSg2+Nom:%>ан K ;
 +N+Pl+PxSg2+Loc:%>ант K ;
 +N+Pl+PxSg2+Lat:%>анн K ;
 +N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Instr:%>антыл K ;
++N+Pl+PxSg2+Ins:%>антыл K ;
 
 +N+Sg+PxSg3+Nom:%>е K ;
 +N+Sg+PxSg3+Loc:%>ет K ;
 +N+Sg+PxSg3+Lat:%>ен K ;
 +N+Sg+PxSg3+Abl:%>еныл K ;
-+N+Sg+PxSg3+Instr:%>етыл K ;
++N+Sg+PxSg3+Ins:%>етыл K ;
 
 +N+Du+PxSg3+Nom:%>аге K ;
 +N+Du+PxSg3+Loc:%>агет K ;
 +N+Du+PxSg3+Lat:%>аген K ;
 +N+Du+PxSg3+Abl:%>агеныл K ;
-+N+Du+PxSg3+Instr:%>агетыл K ;
++N+Du+PxSg3+Ins:%>агетыл K ;
 
 +N+Pl+PxSg3+Nom:%>анэ K ;
 +N+Pl+PxSg3+Loc:%>анэт K ;
 +N+Pl+PxSg3+Lat:%>анэн K ;
 +N+Pl+PxSg3+Abl:%>анэныл K ;
-+N+Pl+PxSg3+Instr:%>анэтыл K ;
++N+Pl+PxSg3+Ins:%>анэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>агамен K ;
 +N+Du+PxDu1+Loc:%>агамент K ;
 +N+Du+PxDu1+Lat:%>агаменн K ;
 +N+Du+PxDu1+Abl:%>агаменныл K ;
-+N+Du+PxDu1+Instr:%>агаментыл K ;
++N+Du+PxDu1+Ins:%>агаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>анамен K ;
 +N+Pl+PxDu1+Loc:%>анамент K ;
 +N+Pl+PxDu1+Lat:%>анаменн K ;
 +N+Pl+PxDu1+Abl:%>анаменныл K ;
-+N+Pl+PxDu1+Instr:%>анаментыл K ;
++N+Pl+PxDu1+Ins:%>анаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>ын K ;
 +N+Sg+PxDu2+Loc:%>ынт K ;
 +N+Sg+PxDu2+Lat:%>ынн K ;
 +N+Sg+PxDu2+Abl:%>ынныл K ;
-+N+Sg+PxDu2+Instr:%>ынтыл K ;
++N+Sg+PxDu2+Ins:%>ынтыл K ;
 
 +N+Du+PxDu2+Nom:%>аген K ;
 +N+Du+PxDu2+Loc:%>агент K ;
 +N+Du+PxDu2+Lat:%>агенн K ;
 +N+Du+PxDu2+Abl:%>агенныл K ;
-+N+Du+PxDu2+Instr:%>агентыл K ;
++N+Du+PxDu2+Ins:%>агентыл K ;
 
 +N+Pl+PxDu2+Nom:%>анэн K ;
 +N+Pl+PxDu2+Loc:%>анэнт K ;
 +N+Pl+PxDu2+Lat:%>анэнн K ;
 +N+Pl+PxDu2+Abl:%>анэнныл K ;
-+N+Pl+PxDu2+Instr:%>анэнтыл K ;
++N+Pl+PxDu2+Ins:%>анэнтыл K ;
 
 +N+Sg+PxDu3+Nom:%>ен K ;
 +N+Sg+PxDu3+Loc:%>ент K ;
 +N+Sg+PxDu3+Lat:%>енн K ;
 +N+Sg+PxDu3+Abl:%>енныл K ;
-+N+Sg+PxDu3+Instr:%>ентыл K ;
++N+Sg+PxDu3+Ins:%>ентыл K ;
 
 +N+Du+PxDu3+Nom:%>аген K ;
 +N+Du+PxDu3+Loc:%>агент K ;
 +N+Du+PxDu3+Lat:%>агенн K ;
 +N+Du+PxDu3+Abl:%>агенныл K ;
-+N+Du+PxDu3+Instr:%>агентыл K ;
++N+Du+PxDu3+Ins:%>агентыл K ;
 
 +N+Pl+PxDu3+Nom:%>анэн K ;
 +N+Pl+PxDu3+Loc:%>анэнт K ;
 +N+Pl+PxDu3+Lat:%>анэнн K ;
 +N+Pl+PxDu3+Abl:%>анэнныл K ;
-+N+Pl+PxDu3+Instr:%>анэнтыл K ;
++N+Pl+PxDu3+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>ув K ;
 +N+Sg+PxPl1+Loc:%>увт K ;
 +N+Sg+PxPl1+Lat:%>увн K ;
 +N+Sg+PxPl1+Abl:%>увныл K ;
-+N+Sg+PxPl1+Instr:%>увтыл K ;
++N+Sg+PxPl1+Ins:%>увтыл K ;
 
 +N+Du+PxPl1+Nom:%>агув K ;
 +N+Du+PxPl1+Loc:%>агувт K ;
 +N+Du+PxPl1+Lat:%>агувн K ;
 +N+Du+PxPl1+Abl:%>агувныл K ;
-+N+Du+PxPl1+Instr:%>агувтыл K ;
++N+Du+PxPl1+Ins:%>агувтыл K ;
 
 +N+Pl+PxPl1+Nom:%>анув K ;
 +N+Pl+PxPl1+Loc:%>анувт K ;
 +N+Pl+PxPl1+Lat:%>анувн K ;
 +N+Pl+PxPl1+Abl:%>анувныл K ;
-+N+Pl+PxPl1+Instr:%>анувтыл K ;
++N+Pl+PxPl1+Ins:%>анувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>ын K ;
 +N+Sg+PxPl2+Loc:%>ынт K ;
 +N+Sg+PxPl2+Lat:%>ынн K ;
 +N+Sg+PxPl2+Abl:%>ынныл K ;
-+N+Sg+PxPl2+Instr:%>ынтыл K ;
++N+Sg+PxPl2+Ins:%>ынтыл K ;
 
 +N+Du+PxPl2+Nom:%>аген K ;
 +N+Du+PxPl2+Loc:%>агент K ;
 +N+Du+PxPl2+Lat:%>агенн K ;
 +N+Du+PxPl2+Abl:%>агенныл K ;
-+N+Du+PxPl2+Instr:%>агентыл K ;
++N+Du+PxPl2+Ins:%>агентыл K ;
 
 +N+Pl+PxPl2+Nom:%>анэн K ;
 +N+Pl+PxPl2+Loc:%>анэнт K ;
 +N+Pl+PxPl2+Lat:%>анэнн K ;
 +N+Pl+PxPl2+Abl:%>анэнныл K ;
-+N+Pl+PxPl2+Instr:%>анэнтыл K ;
++N+Pl+PxPl2+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl3+Nom:%>аныл K ;
 +N+Sg+PxPl3+Loc:%>анылт K ;
 +N+Sg+PxPl3+Lat:%>анылн K ;
 +N+Sg+PxPl3+Abl:%>анылныл K ;
-+N+Sg+PxPl3+Instr:%>анылтыл K ;
++N+Sg+PxPl3+Ins:%>анылтыл K ;
 
 +N+Du+PxPl3+Nom:%>аганыл K ;
 +N+Du+PxPl3+Loc:%>аганылт K ;
 +N+Du+PxPl3+Lat:%>аганылн K ;
 +N+Du+PxPl3+Abl:%>аганылныл K ;
-+N+Du+PxPl3+Instr:%>аганылтыл K ;
++N+Du+PxPl3+Ins:%>аганылтыл K ;
 
 +N+Pl+PxPl3+Nom+Alt:%>ананыл K ;
 +N+Pl+PxPl3+Loc+Alt:%>ананылт K ;
 +N+Pl+PxPl3+Lat+Alt:%>ананылн K ;
 +N+Pl+PxPl3+Abl+Alt:%>ананылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>ананылтыл K ;
++N+Pl+PxPl3+Ins+Alt:%>ананылтыл K ;
 
 +N+Pl+PxPl3+Nom:%>аныл K ;
 +N+Pl+PxPl3+Loc:%>анылт K ;
 +N+Pl+PxPl3+Lat:%>анылн K ;
 +N+Pl+PxPl3+Abl:%>анылныл K ;
-+N+Pl+PxPl3+Instr:%>анылтыл K ;
++N+Pl+PxPl3+Ins:%>анылтыл K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!irregular stems
 LEXICON N_IRREGULAR_hum__n
-N_IRREGULAR_hum__n ;
+!N_IRREGULAR_hum__n ; NO REASON TO   LOOP 2017-03-18 Jaska
 
 +N+Sg+Nom:%> K ;
 +N+Sg+Loc:%>ыт K ;
 +N+Sg+Lat:%>ын K ;
 +N+Sg+Abl:%>ыныл K ;
-+N+Sg+Instr:%>ыл K ;
-+N+Sg+Trans:%>ыг K ;
++N+Sg+Ins:%>ыл K ;
++N+Sg+Tra:%>ыг K ;
 
 +N+Du+Nom:%>ыг K ;
 +N+Du+Loc:%>ыгт K ;
 +N+Du+Lat:%>ыгн K ;
 +N+Du+Abl:%>ыгныл K ;
-+N+Du+Instr:%>ыгтыл K ;
++N+Du+Ins:%>ыгтыл K ;
 
 +N+Pl+Nom:%>ыт K ;
 +N+Pl+Loc:%>ытт K ;
 +N+Pl+Lat:%>ытн K ;
 +N+Pl+Abl:%>ытныл K ;
-+N+Pl+Instr:%>ытыл K ;
++N+Pl+Ins:%>ытыл K ;
 
 +N+Sg+PxSg1+Nom:%>ум K ;
 +N+Sg+PxSg1+Loc:%>умт K ;
 +N+Sg+PxSg1+Lat:%>умн K ;
 +N+Sg+PxSg1+Abl:%>умныл K ;
-+N+Sg+PxSg1+Instr:%>умтыл K ;
++N+Sg+PxSg1+Ins:%>умтыл K ;
 
 +N+Du+PxSg1+Nom:%>агум K ;
 +N+Du+PxSg1+Loc:%>агумт K ;
 +N+Du+PxSg1+Lat:%>агумн K ;
 +N+Du+PxSg1+Abl:%>агумныл K ;
-+N+Du+PxSg1+Instr:%>агумтыл K ;
++N+Du+PxSg1+Ins:%>агумтыл K ;
 
 +N+Pl+PxSg1+Nom:%>анум K ;
 +N+Pl+PxSg1+Loc:%>анумт K ;
 +N+Pl+PxSg1+Lat:%>анумн K ;
 +N+Pl+PxSg1+Abl:%>анумныл K ;
-+N+Pl+PxSg1+Instr:%>анумтыл K ;
++N+Pl+PxSg1+Ins:%>анумтыл K ;
 
 +N+Sg+PxSg2+Nom:%>ын K ;
 +N+Sg+PxSg2+Loc:%>ынт K ;
 +N+Sg+PxSg2+Lat:%>ынн K ;
 +N+Sg+PxSg2+Abl:%>ынныл K ;
-+N+Sg+PxSg2+Instr:%>ынтыл K ;
++N+Sg+PxSg2+Ins:%>ынтыл K ;
 
 +N+Du+PxSg2+Nom:%>агын K ;
 +N+Du+PxSg2+Loc:%>агынт K ;
 +N+Du+PxSg2+Lat:%>агынн K ;
 +N+Du+PxSg2+Abl:%>агынныл K ;
-+N+Du+PxSg2+Instr:%>агынтыл K ;
++N+Du+PxSg2+Ins:%>агынтыл K ;
 
 +N+Pl+PxSg2+Nom+Alt:%>анын K ;
 +N+Pl+PxSg2+Loc+Alt:%>анынт K ;
 +N+Pl+PxSg2+Lat+Alt:%>анынн K ;
 +N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Instr+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Ins+Alt:%>анынтыл K ;
 
 +N+Pl+PxSg2+Nom:%>ан K ;
 +N+Pl+PxSg2+Loc:%>ант K ;
 +N+Pl+PxSg2+Lat:%>анн K ;
 +N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Instr:%>антыл K ;
++N+Pl+PxSg2+Ins:%>антыл K ;
 
 +N+Sg+PxSg3+Nom:%>е K ;
 +N+Sg+PxSg3+Loc:%>ет K ;
 +N+Sg+PxSg3+Lat:%>ен K ;
 +N+Sg+PxSg3+Abl:%>еныл K ;
-+N+Sg+PxSg3+Instr:%>етыл K ;
++N+Sg+PxSg3+Ins:%>етыл K ;
 
 +N+Du+PxSg3+Nom:%>аге K ;
 +N+Du+PxSg3+Loc:%>агет K ;
 +N+Du+PxSg3+Lat:%>аген K ;
 +N+Du+PxSg3+Abl:%>агеныл K ;
-+N+Du+PxSg3+Instr:%>агетыл K ;
++N+Du+PxSg3+Ins:%>агетыл K ;
 
 +N+Pl+PxSg3+Nom:%>анэ K ;
 +N+Pl+PxSg3+Loc:%>анэт K ;
 +N+Pl+PxSg3+Lat:%>анэн K ;
 +N+Pl+PxSg3+Abl:%>анэныл K ;
-+N+Pl+PxSg3+Instr:%>анэтыл K ;
++N+Pl+PxSg3+Ins:%>анэтыл K ;
 
 +N+Sg+PxDu1+Nom:%>мен K ;
 +N+Sg+PxDu1+Loc:%>мент K ;
 +N+Sg+PxDu1+Lat:%>менн K ;
 +N+Sg+PxDu1+Abl:%>менныл K ;
-+N+Sg+PxDu1+Instr:%>ментыл K ;
++N+Sg+PxDu1+Ins:%>ментыл K ;
 
 +N+Du+PxDu1+Nom:%>агамен K ;
 +N+Du+PxDu1+Loc:%>агамент K ;
 +N+Du+PxDu1+Lat:%>агаменн K ;
 +N+Du+PxDu1+Abl:%>агаменныл K ;
-+N+Du+PxDu1+Instr:%>агаментыл K ;
++N+Du+PxDu1+Ins:%>агаментыл K ;
 
 +N+Pl+PxDu1+Nom:%>анамен K ;
 +N+Pl+PxDu1+Loc:%>анамент K ;
 +N+Pl+PxDu1+Lat:%>анаменн K ;
 +N+Pl+PxDu1+Abl:%>анаменныл K ;
-+N+Pl+PxDu1+Instr:%>анаментыл K ;
++N+Pl+PxDu1+Ins:%>анаментыл K ;
 
 +N+Sg+PxDu2+Nom:%>ын K ;
 +N+Sg+PxDu2+Loc:%>ынт K ;
 +N+Sg+PxDu2+Lat:%>ынн K ;
 +N+Sg+PxDu2+Abl:%>ынныл K ;
-+N+Sg+PxDu2+Instr:%>ынтыл K ;
++N+Sg+PxDu2+Ins:%>ынтыл K ;
 
 +N+Du+PxDu2+Nom:%>аген K ;
 +N+Du+PxDu2+Loc:%>агент K ;
 +N+Du+PxDu2+Lat:%>агенн K ;
 +N+Du+PxDu2+Abl:%>агенныл K ;
-+N+Du+PxDu2+Instr:%>агентыл K ;
++N+Du+PxDu2+Ins:%>агентыл K ;
 
 +N+Pl+PxDu2+Nom:%>анен K ;
 +N+Pl+PxDu2+Loc:%>анент K ;
 +N+Pl+PxDu2+Lat:%>аненн K ;
 +N+Pl+PxDu2+Abl:%>аненныл K ;
-+N+Pl+PxDu2+Instr:%>анентыл K ;
++N+Pl+PxDu2+Ins:%>анентыл K ;
 
 +N+Sg+PxDu3+Nom:%>ен K ;
 +N+Sg+PxDu3+Loc:%>ент K ;
 +N+Sg+PxDu3+Lat:%>енн K ;
 +N+Sg+PxDu3+Abl:%>енныл K ;
-+N+Sg+PxDu3+Instr:%>ентыл K ;
++N+Sg+PxDu3+Ins:%>ентыл K ;
 
 +N+Du+PxDu3+Nom:%>аген K ;
 +N+Du+PxDu3+Loc:%>агент K ;
 +N+Du+PxDu3+Lat:%>агенн K ;
 +N+Du+PxDu3+Abl:%>агенныл K ;
-+N+Du+PxDu3+Instr:%>агентыл K ;
++N+Du+PxDu3+Ins:%>агентыл K ;
 
 +N+Pl+PxDu3+Nom:%>анэн K ;
 +N+Pl+PxDu3+Loc:%>анэнт K ;
 +N+Pl+PxDu3+Lat:%>анэнн K ;
 +N+Pl+PxDu3+Abl:%>анэнныл K ;
-+N+Pl+PxDu3+Instr:%>анэнтыл K ;
++N+Pl+PxDu3+Ins:%>анэнтыл K ;
 
 +N+Sg+PxPl1+Nom:%>ув K ;
 +N+Sg+PxPl1+Loc:%>увт K ;
 +N+Sg+PxPl1+Lat:%>увн K ;
 +N+Sg+PxPl1+Abl:%>увныл K ;
-+N+Sg+PxPl1+Instr:%>увтыл K ;
++N+Sg+PxPl1+Ins:%>увтыл K ;
 
 +N+Du+PxPl1+Nom:%>агув K ;
 +N+Du+PxPl1+Loc:%>агувт K ;
 +N+Du+PxPl1+Lat:%>агувн K ;
 +N+Du+PxPl1+Abl:%>агувныл K ;
-+N+Du+PxPl1+Instr:%>агувтыл K ;
++N+Du+PxPl1+Ins:%>агувтыл K ;
 
 +N+Pl+PxPl1+Nom:%>анув K ;
 +N+Pl+PxPl1+Loc:%>анувт K ;
 +N+Pl+PxPl1+Lat:%>анувн K ;
 +N+Pl+PxPl1+Abl:%>анувныл K ;
-+N+Pl+PxPl1+Instr:%>анувтыл K ;
++N+Pl+PxPl1+Ins:%>анувтыл K ;
 
 +N+Sg+PxPl2+Nom:%>ын K ;
 +N+Sg+PxPl2+Loc:%>ынт K ;
 +N+Sg+PxPl2+Lat:%>ынн K ;
 +N+Sg+PxPl2+Abl:%>ынныл K ;
-+N+Sg+PxPl2+Instr:%>ынтыл K ;
++N+Sg+PxPl2+Ins:%>ынтыл K ;
 
 +N+Du+PxPl2+Nom:%>аген K ;
 +N+Du+PxPl2+Loc:%>агент K ;
 +N+Du+PxPl2+Lat:%>агенн K ;
 +N+Du+PxPl2+Abl:%>агенныл K ;
-+N+Du+PxPl2+Instr:%>агентыл K ;
++N+Du+PxPl2+Ins:%>агентыл K ;
 
 +N+Pl+PxPl2+Nom:%>анен K ;
 +N+Pl+PxPl2+Loc:%>анент K ;
 +N+Pl+PxPl2+Lat:%>аненн K ;
 +N+Pl+PxPl2+Abl:%>аненныл K ;
-+N+Pl+PxPl2+Instr:%>анентыл K ;
++N+Pl+PxPl2+Ins:%>анентыл K ;
 
 +N+Sg+PxPl3+Nom:%>аныл K ;
 +N+Sg+PxPl3+Loc:%>анылт K ;
 +N+Sg+PxPl3+Lat:%>анылн K ;
 +N+Sg+PxPl3+Abl:%>анылныл K ;
-+N+Sg+PxPl3+Instr:%>анылтыл K ;
++N+Sg+PxPl3+Ins:%>анылтыл K ;
 
 +N+Du+PxPl3+Nom:%>аганыл K ;
 +N+Du+PxPl3+Loc:%>аганылт K ;
 +N+Du+PxPl3+Lat:%>аганылн K ;
 +N+Du+PxPl3+Abl:%>аганылныл K ;
-+N+Du+PxPl3+Instr:%>аганылтыл K ;
++N+Du+PxPl3+Ins:%>аганылтыл K ;
 
 +N+Pl+PxPl3+Nom+Alt:%>ананыл K ;
 +N+Pl+PxPl3+Loc+Alt:%>ананылт K ;
 +N+Pl+PxPl3+Lat+Alt:%>ананылн K ;
 +N+Pl+PxPl3+Abl+Alt:%>ананылныл K ;
-+N+Pl+PxPl3+Instr+Alt:%>ананылтыл K ;
++N+Pl+PxPl3+Ins+Alt:%>ананылтыл K ;
 
 +N+Pl+PxPl3+Nom:%>аныл K ;
 +N+Pl+PxPl3+Loc:%>анылт K ;
 +N+Pl+PxPl3+Lat:%>анылн K ;
 +N+Pl+PxPl3+Abl:%>анылныл K ;
-+N+Pl+PxPl3+Instr:%>анылтыл K ;
++N+Pl+PxPl3+Ins:%>анылтыл K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!LEXICON NounCase-StemC
