@@ -1233,7 +1233,7 @@ LEXICON N_VI_aagi__n
 LEXICON N_SYN_apyg__n
 !  N_SYN_apyg__n ; NO REASON TO LOOP 2017-03-18 Jaska
 
-+N+Sg+Nom:%> K ;
++N+Sg+Nom: K ;
 +N+Sg+Loc:%>т K ;
 +N+Sg+Lat:%>н K ;
 +N+Sg+Abl:%>ныл K ;
@@ -1288,17 +1288,17 @@ LEXICON N_SYN-INFLECT_apyg__n
 +N+Du+PxSg2+Abl:%>агынныл K ;
 +N+Du+PxSg2+Ins:%>агынтыл K ;
 
-+N+Pl+PxSg2+Nom+Alt:%>анын K ;
-+N+Pl+PxSg2+Loc+Alt:%>анынт K ;
-+N+Pl+PxSg2+Lat+Alt:%>анынн K ;
-+N+Pl+PxSg2+Abl+Alt:%>анынныл K ;
-+N+Pl+PxSg2+Ins+Alt:%>анынтыл K ;
++N+Pl+PxSg2+Nom:%>анын K ; ! Previously +Alt
++N+Pl+PxSg2+Loc:%>анынт K ; ! Previously +Alt
++N+Pl+PxSg2+Lat:%>анынн K ; ! Previously +Alt
++N+Pl+PxSg2+Abl:%>анынныл K ; ! Previously +Alt
++N+Pl+PxSg2+Ins:%>анынтыл K ; ! Previously +Alt
 
-+N+Pl+PxSg2+Nom:%>ан K ;
-+N+Pl+PxSg2+Loc:%>ант K ;
-+N+Pl+PxSg2+Lat:%>анн K ;
-+N+Pl+PxSg2+Abl:%>анныл K ;
-+N+Pl+PxSg2+Ins:%>антыл K ;
++N+Pl+PxSg2+Nom:%>ан K ; ! Is this primary OR secondary?
++N+Pl+PxSg2+Loc:%>ант K ; ! Is this primary OR secondary?
++N+Pl+PxSg2+Lat:%>анн K ; ! Is this primary OR secondary?
++N+Pl+PxSg2+Abl:%>анныл K ; ! Is this primary OR secondary?
++N+Pl+PxSg2+Ins:%>антыл K ; ! Is this primary OR secondary?
 
 +N+Sg+PxSg3+Nom:%>е K ;
 +N+Sg+PxSg3+Loc:%>ет K ;
