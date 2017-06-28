@@ -18,26 +18,26 @@ Tests:
 
   Noun - ща̄рыщ: # Noun 122 'ocean' - full paradigm
      ща̄рыщ+N+Sg+Nom: ща̄рыщ
-     ща̄рыщ+N+Sg+Nom+PxSg1: ща̄рыщум
-     ща̄рыщ+N+Sg+Nom+PxSg2: ща̄рыщн
-     ща̄рыщ+N+Sg+Nom+PxSg3: ща̄рыще
-     ща̄рыщ+N+Sg+Nom+PxDu1: ща̄рыщме̄н
-     ща̄рыщ+N+Sg+Nom+PxDu2: ща̄рыщӣн
-     ща̄рыщ+N+Sg+Nom+PxDu3: ща̄рыще̄н
-     ща̄рыщ+N+Sg+Nom+PxPl1: ща̄рыщув
-     ща̄рыщ+N+Sg+Nom+PxPl2: ща̄рыщӣн
-     ща̄рыщ+N+Sg+Nom+PxPl3: ща̄рыщаныл
+     ща̄рыщ+N+Sg+PxSg1+Nom: ща̄рщум
+     ща̄рыщ+N+Sg+PxSg2+Nom: ща̄рыщн
+     ща̄рыщ+N+Sg+PxSg3+Nom: ща̄рще
+     ща̄рыщ+N+Sg+PxDu1+Nom: ща̄рыщме̄н
+     ща̄рыщ+N+Sg+PxDu2+Nom: ща̄рыщӣн
+     ща̄рыщ+N+Sg+PxDu3+Nom: ща̄рще̄н
+     ща̄рыщ+N+Sg+PxPl1+Nom: ща̄рщув
+     ща̄рыщ+N+Sg+PxPl2+Nom: ща̄рщӣн
+     ща̄рыщ+N+Sg+PxPl3+Nom: ща̄рщаныл
      
      ща̄рыщ+N+Sg+Loc: ща̄рыщт
-     ща̄рыщ+N+Sg+Loc+PxSg1: ща̄рыщумт
-     ща̄рыщ+N+Sg+Loc+PxSg2: ща̄рыщинт
-     ща̄рыщ+N+Sg+Loc+PxSg3: ща̄рыщт
-     ща̄рыщ+N+Sg+Loc+PxDu1: ща̄рыщме̄нт
-     ща̄рыщ+N+Sg+Loc+PxDu2: ща̄рыщӣнт
-     ща̄рыщ+N+Sg+Loc+PxDu3: ща̄рыще̄нт
-     ща̄рыщ+N+Sg+Loc+PxPl1: ща̄рыщувт
-     ща̄рыщ+N+Sg+Loc+PxPl2: ща̄рыщӣнт
-     ща̄рыщ+N+Sg+Loc+PxPl3: ща̄рыщанылт
+     ща̄рыщ+N+Sg+PxSg1+Loc: ща̄рщумт
+     ща̄рыщ+N+Sg+PxSg2+Loc: ща̄рщинт
+     ща̄рыщ+N+Sg+PxSg3+Loc: ща̄рыщт
+     ща̄рыщ+N+Sg+PxDu1+Loc: ща̄рщме̄нт
+     ща̄рыщ+N+Sg+PxDu2+Loc: ща̄рщӣнт
+     ща̄рыщ+N+Sg+PxDu3+Loc: ща̄рще̄нт
+     ща̄рыщ+N+Sg+PxPl1+Loc: ща̄рщувт
+     ща̄рыщ+N+Sg+PxPl2+Loc: ща̄рщӣнт
+     ща̄рыщ+N+Sg+PxPl3+Loc: ща̄рщанылт
      
      ща̄рыщ+N+Sg+All: ща̄рыщн
      ща̄рыщ+N+Sg+Abl: ща̄рыщныл
