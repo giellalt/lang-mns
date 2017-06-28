@@ -202,7 +202,6 @@ LEXICON Root
  N_NEWWORDS ; 	  !!= __@CODE@__ nouns
  NUM_NEWWORDS ;   !!= __@CODE@__ numerals
  PROP_NEWWORDS ;  !!= __@CODE@__ proper nouns
- V_NEWWORDS ;  	  !!= __@CODE@__ verbs
 
 LEXICON K !!= * @CODE@ for evt. clitic
 # ;
