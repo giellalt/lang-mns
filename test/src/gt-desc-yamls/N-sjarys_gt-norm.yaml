@@ -16,33 +16,33 @@ Tests:
 # Then: run analyser, then correct.
 
 
-  Noun - ся̄рысь: # Noun 122 'ocean' - full paradigm
-     ся̄рысь+N+Sg+Nom: ся̄рысь
-     ся̄рысь+N+Sg+Nom+PxSg1: ся̄рысюм
-     ся̄рысь+N+Sg+Nom+PxSg2: ся̄рысьн
-     ся̄рысь+N+Sg+Nom+PxSg3: ся̄рысе
-     ся̄рысь+N+Sg+Nom+PxDu1: ся̄рысме̄н
-     ся̄рысь+N+Sg+Nom+PxDu2: ся̄рысӣн
-     ся̄рысь+N+Sg+Nom+PxDu3: ся̄рысе̄н
-     ся̄рысь+N+Sg+Nom+PxPl1: ся̄рысюв
-     ся̄рысь+N+Sg+Nom+PxPl2: ся̄рысӣн
-     ся̄рысь+N+Sg+Nom+PxPl3: ся̄рысяныл
+  Noun - ща̄рыщ: # Noun 122 'ocean' - full paradigm
+     ща̄рыщ+N+Sg+Nom: ся̄рысь
+     ща̄рыщ+N+Sg+Nom+PxSg1: ся̄рысюм
+     ща̄рыщ+N+Sg+Nom+PxSg2: ся̄рысьн
+     ща̄рыщ+N+Sg+Nom+PxSg3: ся̄рысе
+     ща̄рыщ+N+Sg+Nom+PxDu1: ся̄рысме̄н
+     ща̄рыщ+N+Sg+Nom+PxDu2: ся̄рысӣн
+     ща̄рыщ+N+Sg+Nom+PxDu3: ся̄рысе̄н
+     ща̄рыщ+N+Sg+Nom+PxPl1: ся̄рысюв
+     ща̄рыщ+N+Sg+Nom+PxPl2: ся̄рысӣн
+     ща̄рыщ+N+Sg+Nom+PxPl3: ся̄рысяныл
      
-     ся̄рысь+N+Sg+Loc: ся̄рыст
-     ся̄рысь+N+Sg+Loc+PxSg1: ся̄рысюмт
-     ся̄рысь+N+Sg+Loc+PxSg2: ся̄рысинт
-     ся̄рысь+N+Sg+Loc+PxSg3: ся̄рысьт
-     ся̄рысь+N+Sg+Loc+PxDu1: ся̄рысме̄нт
-     ся̄рысь+N+Sg+Loc+PxDu2: ся̄рысӣнт
-     ся̄рысь+N+Sg+Loc+PxDu3: ся̄рысе̄нт
-     ся̄рысь+N+Sg+Loc+PxPl1: ся̄рысювт
-     ся̄рысь+N+Sg+Loc+PxPl2: ся̄рысӣнт
-     ся̄рысь+N+Sg+Loc+PxPl3: ся̄рысянылт
+     ща̄рыщ+N+Sg+Loc: ся̄рыст
+     ща̄рыщ+N+Sg+Loc+PxSg1: ся̄рысюмт
+     ща̄рыщ+N+Sg+Loc+PxSg2: ся̄рысинт
+     ща̄рыщ+N+Sg+Loc+PxSg3: ся̄рысьт
+     ща̄рыщ+N+Sg+Loc+PxDu1: ся̄рысме̄нт
+     ща̄рыщ+N+Sg+Loc+PxDu2: ся̄рысӣнт
+     ща̄рыщ+N+Sg+Loc+PxDu3: ся̄рысе̄нт
+     ща̄рыщ+N+Sg+Loc+PxPl1: ся̄рысювт
+     ща̄рыщ+N+Sg+Loc+PxPl2: ся̄рысӣнт
+     ща̄рыщ+N+Sg+Loc+PxPl3: ся̄рысянылт
      
-     ся̄рысь+N+Sg+All: ся̄рысьн
-     ся̄рысь+N+Sg+Abl: ся̄рысьныл
-     ся̄рысь+N+Sg+Ins: ся̄рсил
-     ся̄рысь+N+Sg+Tra: ся̄рсиг
+     ща̄рыщ+N+Sg+All: ся̄рысьн
+     ща̄рыщ+N+Sg+Abl: ся̄рысьныл
+     ща̄рыщ+N+Sg+Ins: ся̄рсил
+     ща̄рыщ+N+Sg+Tra: ся̄рсиг
      
-     ся̄рысь+N+Du+Nom: ся̄рсиг
-     ся̄рысь+N+Pl+Nom: ся̄рсит
+     ща̄рыщ+N+Du+Nom: ся̄рсиг
+     ща̄рыщ+N+Pl+Nom: ся̄рсит
