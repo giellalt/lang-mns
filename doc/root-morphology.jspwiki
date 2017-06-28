@@ -64,6 +64,7 @@ symbols (archiphones) in the lexicon files:
  __%{АЯØ%}	__
  __%{ЫИØ%}	__
  __%{ЫØ%}	__ +Loc
+ __%{УØ%}	__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
  __%{УЮØ%}	__
  __%{ТØ%}	__
  __%{ЭЕ%}	__ PxSg3
@@ -74,7 +75,8 @@ And following triggers to control variation
  __%^PxDu2	__
  __%^PxDu3	__
  __%^PxPl2	__
-
+ __%^RmVow	__ Word-final vowel removal
+ __%^Syncope	__ triggers syncope, no reason for special letters in the stem.
 !!Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -112,7 +114,6 @@ NEWWORDS FILES
  __ N_NEWWORDS ; 	  __ nouns
  __ NUM_NEWWORDS ;   __ numerals
  __ PROP_NEWWORDS ;  __ proper nouns
- __ V_NEWWORDS ;  	  __ verbs
 
  * LEXICON K  for evt. clitic
 
