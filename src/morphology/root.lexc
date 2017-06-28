@@ -54,7 +54,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! The parts-of-speech are:
  +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Prc !!≈
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
@@ -192,6 +192,9 @@ LEXICON Root
    Pronouns    ;
    Numerals    ;
    Conjunctions ;
+   Interjections ;
+   Participles ;
+   Postpositions ;
 
 !! NEWWORDS FILES
  A_NEWWORDS ;	  !!= __@CODE@__ adjectives
