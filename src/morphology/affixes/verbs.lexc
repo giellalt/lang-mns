@@ -2,44 +2,7 @@
 ! ---------------
 
 !! Stems ending in C
-!! # V11_odd = stem ends in [гӈвкквмпрх] with odd syllables
-!! # V11_even = stem ends in [гӈвкквмпрх] with even syllables
-!! # V12_odd = stem ends in (й) with odd syllables
-!! # V12_even = stem ends in (й) with even syllables
-!! # V13_odd = stem ends in [лнт] with odd syllables
-!! # V13_even = stem ends in [лнт] with even syllables
-!! # V14_odd = stem ends in [лнт](ь) with odd syllables
-!! # V14_even = stem ends in [лнт](ь) with even syllables
-!! # V15_odd = stem ends in (с) with odd syllables
-!! # V15_even = stem ends in (с) with even syllables
-!! # V16_odd = stem ends in (щ) with odd syllables
-!! # V16_even = stem ends in (щ) with even syllables
-
-!! Stems ending in CC
-!! # V21_odd = stem ends in C[гӈвкквмпрх] with odd syllables
-!! # V21_even = stem ends in C[гӈвкквмпрх] with even syllables
-!! # V22_odd = stem ends in [вп](ъ)(й) with odd syllables
-!! # V22_even = stem ends in [вп](ъ)(й) with even syllables
-!! # V23_odd = stem ends in C[лнт] with odd syllables
-!! # V23_even = stem ends in C[лнт] with even syllables
-!! # V25_odd = stem ends in C(с) with odd syllables
-!! # V25_even = stem ends in C(с) with even syllables
-!! # V26_odd = stem ends in C(щ) with odd syllables
-!! # V26_even = stem ends in C(щ) with even syllables
-
-!! Irregular stems ending in CC with elided nasal
-!! # V27_odd = stem ends in (нс) with odd syllables
-!! # V27_even = stem ends in (нс) with even syllables
-!! # V28_odd = stem ends in (ньщ) with odd syllables
-!! # V28_even = stem ends in (ньщ) with even syllables
-
-!! Stems ending in CCC
-!! # V31_odd = stem ends in CC[гӈвкквмпрх] with odd syllables
-!! # V31_even = stem ends in CC[гӈвкквмпрх] with even syllables
-!! # V33_odd = stem ends in CC[лнт] with odd syllables
-!! # V33_even = stem ends in CC[лнт] with even syllables
-!! # V35_odd = stem ends in CC(с) with odd syllables
-!! # V35_even = stem ends in CC(с) with even syllables
+)
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
