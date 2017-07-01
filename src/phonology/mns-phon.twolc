@@ -125,7 +125,7 @@ Rules
 !!€ са̄лы>ягын
 
 "Deleting vowel in suffix for vowel stems"
-Vx:0 <=> Vow %>:   _ Cns .#. ;
+Vx:0 <=> Vow %>:   _ Cns ;
         where Vx in (а у е) ;
 
 "Palatalising suffix ы for palatal stems"
