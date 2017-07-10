@@ -35,7 +35,6 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/nouns_newwords.lexc \
 			 stems/numerals_newwords.lexc \
 			 stems/pronouns.lexc \
-			 stems/propernouns_newwords.lexc \
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
 			 stems/conjunctions.lexc \
@@ -65,7 +64,7 @@ GT_LEXC_L2_SRCS=\
 			$(L2)
 
 # Set this to the names of all generated lexc files, if any
-GENERATED_LEXC_SRCS=
+GENERATED_LEXC_SRCS=generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
@@ -85,6 +84,16 @@ generated_files/urj-Cyrl-propernouns.lexc: \
 	$(GIELLA_SHARED)/urj-Cyrl/src/morphology/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
+
+generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
+		generated_files/urj-Cyrl-propernouns.lexc \
+		$(srcdir)/stems/$(GTLANG)-propernouns.lexc
+	$(AM_V_GEN)rm -f $@ && \
+	cp -f $(srcdir)/stems/$(GTLANG)-propernouns.lexc $@ && \
+	echo "" >> $@ && \
+	echo "! <--- Dump from URJ -->" >> $@ && \
+	echo "" >> $@ && \
+	$(top_srcdir)/src/scripts/urj-$(GTLANG)-conversion.pl $< >> $@
 
 ### END: Local processing: ###
 
