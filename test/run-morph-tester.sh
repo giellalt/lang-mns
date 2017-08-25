@@ -70,13 +70,13 @@ analyserfile=./$relpath/../$fstdir/analyser-$transducer
 generatorfile=./$relpath/../$fstdir/generator-$transducer
 bare_fst_file=./$relpath/../$fstdir/$transducer
 pythonbin=/opt/local/bin/python3
-runtests="$pythonbin /Users/jackrueter/main/giella-core/scripts/morph-test.py"
+runtests="$pythonbin /Users/trond/main/giella-core/scripts/morph-test.py"
 testtotalsfile=testtotals.tmp.txt
 
 # Use autotools mechanisms to only run the configured fst types in the tests:
 fsttype=
-fsttype="$fsttype hfst"
-#fsttype="$fsttype xfst"
+#fsttype="$fsttype hfst"
+fsttype="$fsttype xfst"
 #fsttype="$fsttype foma"
 
 # Exit if all fst types have been shut off:
@@ -178,11 +178,11 @@ for f in $fsttype; do
 	analyser=""
 	generator=""
 	if test $f == "xfst"; then
-		lookuptool="/opt/local/bin/lookup -flags mbTT"
+		lookuptool="/usr/local/bin/lookup -flags mbTT"
 		section="xerox"
 		fstsuffix="xfst"
 	elif test $f == "foma"; then
-		lookuptool="false"
+		lookuptool="/usr/local/bin/flookup"
 		section="xfst"
 		fstsuffix="foma"
 	elif test $f == "hfst"; then
