@@ -3,9 +3,12 @@
 
 # =================================================================== #
 # =================================================================== #
-#!!      !!! S O U T H   S Á M I   D I S A M B I G U A T O R          
+#!!      !!! N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
 # =================================================================== #
 # =================================================================== #
+
+# The content is still from sma, but the tag declaration are (mostly) mns
+
 
             # =========================================== #
             #            Short table of contents          #
@@ -49,11 +52,12 @@ LIST Pl = Pl ;
 LIST Nom = Nom ;
 LIST Acc = Acc ;
 LIST Gen = Gen ;
-LIST Ine = Ine ;
-LIST Ela = Ela ;
-LIST Ill = Ill ;
-LIST Com = Com ;
-LIST Ess = Ess ;
+LIST Par = Par ;
+LIST Loc = Loc ;
+LIST Abl = Abl ;
+LIST Lat = Lat ;
+LIST Tra = Tra ;
+
 
 LIST PxSg1 = PxSg1 ;
 LIST PxSg2 = PxSg2 ;
