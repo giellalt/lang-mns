@@ -1,12 +1,12 @@
 !! =================================== !
-!! !!!The Mansi morphophonological/twolc rule file 
+!! !!!The Mansi morphophonological/twolc rule file
 !! =================================== !
 !! One of the Grammars used for this description is:
 !! Скрибник Е.К. & К.В. Афанасьева 2007:
 !! Практически курс манийского языка, Часть 1. Ханты-Мансийск. Полиграфист.
 !! The nouns stem types should be divided into 4 separate types:
 !! (1) stems ending in vowels other than и/ы "о̄йка" 'old man';
-!! (2) stems ending in и/ы "а̄ны" 'cup', "са̄лы" 'reindeer'; 
+!! (2) stems ending in и/ы "а̄ны" 'cup', "са̄лы" 'reindeer';
 !! (3) stems ending in non-palatal consonant "а̄мп" 'dog',
 !! (4) stems ending in palatalized consonant "ха̄ль" 'birch'.
 !! There are also additional comments including a fifth type
@@ -30,16 +30,16 @@
 !! There should be tests written for other parts of speech as well.
 
 Alphabet
-а б в г д е ё ж з и й к л м н о п р с т 
-у ф х ц ч ш щ ъ ы ь э ю я ӈ 
-А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т 
+а б в г д е ё ж з и й к л м н о п р с т
+у ф х ц ч ш щ ъ ы ь э ю я ӈ
+А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т
 У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ
 
 !! Holding with Giellatekno Practice in Kildin Sami
 !! Precomposed letters are used when available within
 !! language range, i.e. Cyrillic letters vs Latin letters
 ӣ ӯ !!= @CODE@ precomposed long vowels
-Ӣ Ӯ 
+Ӣ Ӯ
 
 а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ ¯Э Ю̄ Я̄     !!= @CODE@ non-precomposed long vowels
 
@@ -50,26 +50,26 @@ Alphabet
 ! PROPOSAL: leave this question for later.
 
 !! Archiphones
-%{АЯØ%}:0	!!= __@CODE@__ 
-%{ЫИØ%}:0	!!= __@CODE@__ 
+%{АЯØ%}:0	!!= __@CODE@__
+%{ЫИØ%}:0	!!= __@CODE@__
 %{ЫØ%}:0	!!= __@CODE@__ +Loc
 %{УØ%}:0	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
-%{УЮØ%}:0	!!= __@CODE@__ 
-%{ТØ%}:0	!!= __@CODE@__ 
+%{УЮØ%}:0	!!= __@CODE@__
+%{ТØ%}:0	!!= __@CODE@__
 %{ЭЕ%}:0	!!= __@CODE@__ PxSg3
 %{ЭЕLong%}:0	!!= __@CODE@__ PxDu3
 
 
 !! Trigger
 
-%^PxDu2:0	!!= __@CODE@__ 
-%^PxDu3:0	!!= __@CODE@__ 
-%^PxPl2:0	!!= __@CODE@__ 
+%^PxDu2:0	!!= __@CODE@__
+%^PxDu3:0	!!= __@CODE@__
+%^PxPl2:0	!!= __@CODE@__
 %^RmVow:0	!!= __@CODE@__ Word-final vowel removal
 %^Syncope:0	!!= __@CODE@__ This triggers syncope with no reason to place special letters in the stem.
 
 !! BOUNDARIES
- %> # 
+ %> #
 ;
 
 Sets
@@ -78,13 +78,13 @@ Sets
        А Е И О У Ы Э Ю Я
        а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄
        А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄ ;
-       
+
  VowNoI = а е   о у э ю я
           А Е   О У Э Ю Я
           а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄
           А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄ ;
 
-  PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ; 
+  PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ;
 
 SVow = а е ё и о у ы э ю я ;
 
@@ -107,53 +107,58 @@ Definitions
 ! PostSyncStem  =  :Cns  %+:0 ;
 PostSyncStem  =  :Cns   ;
 
- 
+
 Rules
 
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
-ы:0 <=> Vow %>:   _ Cns ;
-        Vow Cns:+ _ (Cns) [Cns - й] %>: Vow ;
+ы:0 <=> Vow %>   _ Cns ;
+        Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
 
 !!€ апа>ыт
 !!€ апа>0т
 
 "Palatalising suffix vowel after и/ы stems"
-а:я <=> [и|ы] %>: _ Cns:+ Vow ;
+а:я <=> [и|ы] %> _ Cns:+ Vow ;
 
 !!€ са̄лы>агын
 !!€ са̄лы>ягын
 
+! TODO: Fix these two rules
+!"Deleting vowel in stem for vowel suffix"
+!Vx:0 <=> _ %> Vow  ;
+!        where Vx in (а у е) ;
+
 "Deleting vowel in suffix for vowel stems"
-Vx:0 <=> Vow %>:   _ Cns ;
+Vx:0 <=> Vow %>   _ Cns ;
         where Vx in (а у е) ;
 
 "Palatalising suffix ы for palatal stems"
-ы:и <=> [ь:|т|д|н|л|с|щ] %>: _ Cns ;
+ы:и <=> [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
 !!€ вармаль>ыт
 !!€ вармал0>ит
 
 "Soft sign deletion for и suffixes"
-ь:0 <=> Cns _ %>: :PalVow ; 
+ь:0 <=> Cns _ %> :PalVow ;
 !above
 
 "й instertion for vowel initial suffixes on ы final stems"
-0:й <=> [ы|и] %>: _ ы г ;
+0:й <=> [ы|и] %> _ ы г ;
 
 !!€ са̄лы>0ыг
 !!€ са̄лы>йыг
 
 "Px3 т deletion from vowel stems"
-т:0 <=> [Cns|и|ы] %>: _ э: ;
+т:0 <=> [Cns|и|ы] %> _ э: ;
 
 "э to е after certain consonants after т deletion"
-э:е <=> [Cns - [т|д|н|л|с|щ]] %>: т: _ ;
+э:е <=> [Cns - [т|д|н|л|с|щ]] %> т: _ ;
 
-!TOS 
+!TOS
 !TOS "Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
-!TOS  ы:0   <=>   _  Cns (ь:) %^Syncope: ; 
-!TOS 
+!TOS  ы:0   <=>   _  Cns (ь:) %^Syncope: ;
+!TOS
 !TOS ! _ Cns %^Syncope: %> [ %{ЫИØ%}: | %{ЫØ%}: ] [ т | н ]  ;
 !TOS !ы2:0   <=>   _  Cns (ь:) %> ( %{ТØ%}: ) :Vow  ;
 !TOS !   _  PostSyncStem (ь:) :Vow ;
@@ -169,22 +174,22 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS !!€ э̄ква%>%{ТØ%}ыл
 !TOS !!€ э̄ква%>00л
 !TOS     _ %^RmVow: ;
-!TOS 
+!TOS
 !TOS !!€grís%>s
 !TOS !!€grís00
-!TOS 
+!TOS
 !TOS !!$grís%>s
 !TOS !!$grís>s
-!TOS 
+!TOS
 !TOS ! "Palatalization of suffix vowels"
 !TOS ! Vx:Vy <=> ь: _ ;
 !TOS ! 	where Vx in ( ы )
 !TOS ! 	      Vy in ( и )
 !TOS ! 	      matched ;
-!TOS 
+!TOS
 !TOS ! "Delete Palatalisation Mark"
 !TOS ! ь:0 <=> _ Vow: ;
-!TOS 
+!TOS
 !TOS !! !!VOWEL DELETION
 !TOS "%{ЫИØ%}:0"
 !TOS !! __@RULENAME@__
@@ -194,7 +199,7 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS !?  VowNoI:  %> _ ( %^PxDu2: | %^PxPl2: ) %> [ г | н | т ] ;
 !TOS !!€ рума%>%{ЫИØ%}н%>%{ЫØ%}т
 !TOS !!€ рума%>0н%>0т
-!TOS 
+!TOS
 !TOS "%{ЫØ%}:0"
 !TOS !! __@RULENAME@__
 !TOS  %{ЫØ%}:0 <=> :Vow ((%>) :0+ ) (Cns (ь)) %> _ т  ;
@@ -207,27 +212,27 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS !!€ па̄рт%>ыг%>0н
 !TOS !!€ ха̄п%>%{ЫØ%}н
 !TOS !!€ ха̄п%>0н
-!TOS 
+!TOS
 !TOS "%{УЮØ%}:0"
 !TOS !! __@RULENAME@__
 !TOS  %{УЮØ%}:0 <=> Vow %> _ м ;
 !TOS                VowNoI %> _ в ;
-!TOS 
+!TOS
 !TOS "%{АЯØ%}:0"
 !TOS !! __@RULENAME@__
 !TOS  %{АЯØ%}:0 <=> VowNoI %> _  ;
-!TOS 
-!TOS 
+!TOS
+!TOS
 !TOS "и:0"
 !TOS !! __@RULENAME@__
 !TOS  и:0 <=> # Cns* Vow Cns _ Cns %> [ %{ЫИØ%}: | %{ЫØ%}: ] т  ;
-!TOS 
+!TOS
 !TOS "ь:0"
 !TOS !! __@RULENAME@__
 !TOS  ь:0 <=> _ (%^Syncope:) %> [ %{ЫИØ%}: | %{УЮØ%}: | %{АЯØ%}: | %{ТØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ] ]  ;
 !TOS !!€ ха̄ль%>%{ТØ%}%{ЭЕ%}
 !TOS !!€ ха̄л0%>0е
-!TOS 
+!TOS
 !TOS "%{ТØ%}:0"
 !TOS !! __@RULENAME@__
 !TOS  %{ТØ%}:0 <=> Cns (ь: ) (%^Syncope:) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы л ]  ;
@@ -241,8 +246,8 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS       VowNoI %>  _ ы: л ;
 !TOS !!€ э̄ква%>%{ТØ%}ыл
 !TOS !!€ э̄ква%>00л
-!TOS 
-!TOS 
+!TOS
+!TOS
 !TOS !! VOWEL FROM ARCHIVOWEL
 !TOS "%{ЫИØ%}:ы"
 !TOS !! __@RULENAME@__
@@ -252,7 +257,7 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS !               Cns %> _ (%^PxDu2: ) [ г | н | т ] ;
 !TOS !!€ кол%>%{ЫИØ%}н%>%{ЫØ%}т
 !TOS !!€ кол%>ын%>0т
-!TOS 
+!TOS
 !TOS "%{ЫИØ%}:и"
 !TOS !! __@RULENAME@__
 !TOS  %{ЫИØ%}:и <=> [ ь: | CnsSoft ] %> _ [ г | н | т ] ;
@@ -260,17 +265,17 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS "%{ЫØ%}:ы"
 !TOS !! __@RULENAME@__
 !TOS  %{ЫØ%}:ы <=> Cns (ы:0|и:0) [ CnsAlv | CnsNonAlv ] %> _ т  ;
-!TOS !€# 
+!TOS !€#
 !TOS          Vow Cns+ (ы:0) Cns (%^Syncope:) %> _ н ;
 !TOS !!€ па̄рт%>%{ЫØ%}н
 !TOS !!€ па̄рт%>ын
 !TOS !!€ потыр%^Syncope%>%{ЫØ%}н
 !TOS !!€ пот0р0%>ын
-!TOS 
+!TOS
 !TOS "%{ЭЕ%}:э"
 !TOS !! __@RULENAME@__
 !TOS  %{ЭЕ%}:э <=> [ CnsAlv - р | Vow ] %> %{ТØ%}: _ ;
-!TOS 
+!TOS
 !TOS "%{ЭЕ%}:е"
 !TOS !! __@RULENAME@__
 !TOS  %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: ] (%^Syncope:) %> %{ТØ%}: _  ;
@@ -278,111 +283,111 @@ Vx:0 <=> Vow %>:   _ Cns ;
 !TOS !!€ ха̄л0%>0е
 !TOS !!€ потыр%^Syncope%>%{ТØ%}%{ЭЕ%}
 !TOS !!€ пот0р0%>0е
-!TOS 
+!TOS
 !TOS "%{УЮØ%}:у"
 !TOS !! __@RULENAME@__
 !TOS  %{УЮØ%}:у <=> Cns %> _ [ м | в ] ;
-!TOS 
+!TOS
 !TOS "%{УЮØ%}:ю"
 !TOS !! __@RULENAME@__
 !TOS  %{УЮØ%}:ю <=> ь: %> _ м ;
 !TOS                [ и | ы | ь: ] %> _ в ;
-!TOS 
+!TOS
 !TOS "%{АЯØ%}:а"
 !TOS !! __@RULENAME@__
 !TOS  %{АЯØ%}:а <=> Cns %> _  ;
-!TOS 
+!TOS
 !TOS "%{АЯØ%}:я"
 !TOS !! __@RULENAME@__
 !TOS  %{АЯØ%}:я <=> [ и | ы | ь: ] %> _  ;
-!TOS 
-!TOS 
-!TOS 
+!TOS
+!TOS
+!TOS
 !TOS ! !!VOWEL LENGTHENING
 !TOS "%{ЫИØ%}:ы̄"
 !TOS !! __@RULENAME@__
 !TOS  %{ЫИØ%}:ы̄ <=>   [ CnsAlv | CnsNonAlv ]  %>  _ [ %^PxPl2: | %^PxDu2: ] ;
 !TOS !(2007: 30 ) short  [ CnsAlv | CnsNonAlv ]  %>  _  %^PxPl2: ;
-!TOS 
-!TOS 
+!TOS
+!TOS
 !TOS "%{ЫИØ%}:ӣ"
 !TOS !! __@RULENAME@__
 !TOS  %{ЫИØ%}:ӣ <=> [ ь: | CnsSoft  ] %> _ [ %^PxPl2: | %^PxDu2: ] ;
 !TOS !          [ ь: | CnsSoft | CnsNonAlv ] %> _ [ %^PxDu2: ] ;
-!TOS 
-!TOS 
+!TOS
+!TOS
 !TOS !"%{ЭЕ%}:э̄"
 !TOS !!! __@RULENAME@__
 !TOS ! %{ЭЕ%}:э̄ <=> [ CnsAlv | Vow ] %> %{ТØ%}: _ %^PxDu3: ;
-!TOS 
+!TOS
 !TOS !"%{ЭЕ%}:е̄"
 !TOS !!! __@RULENAME@__
 !TOS ! %{ЭЕ%}:е̄ <=>  [ CnsSoft | CnsNonAlv | ь:]  %> %{ТØ%}: _ %^PxDu3: ;
 !TOS !!!€ ха̄ль%>%{ТØ%}%{ЭЕ%}%^PxDu3н
 !TOS !!!€ ха̄л0%>0е̄0н
-!TOS 
+!TOS
 !TOS "%{ЭЕLong%}:э̄"
 !TOS !! __@RULENAME@__
 !TOS  %{ЭЕLong%}:э̄ <=> [ CnsAlv | Vow ] %> %{ТØ%}: _ ;
 !TOS !!€ аки%>%{ТØ%}%{ЭЕLong%}н
 !TOS !!€ аки%>тэ̄н
-!TOS 
+!TOS
 !TOS "%{ЭЕLong%}:е̄"
 !TOS !! __@RULENAME@__
 !TOS  %{ЭЕLong%}:е̄ <=> [ CnsSoft | CnsNonAlv | ь: ] %> %{ТØ%}: _ ;
 !TOS !!€ ха̄ль%>%{ТØ%}%{ЭLongЕ%н
 !TOS !!€ ха̄л0%>0е̄н
-!TOS 
+!TOS
 !TOS "а:а̄"
 !TOS !! __@RULENAME@__
 !TOS  а:а̄ <=> _ %> %{ЫИØ%}: %^PxPl2: ;
 !TOS !! JACK
 !TOS !!€ рума%>%{ЫИØ%}%^PxPl2н
 !TOS !!€ рума̄%>00н
-!TOS 
+!TOS
 !TOS "и:ӣ"
 !TOS !! __@RULENAME@__
 !TOS  и:ӣ <=> _ %> %{ЫИØ%}: %^PxDu2: ;
-!TOS 
+!TOS
 !TOS "ы:ы̄"
 !TOS !! __@RULENAME@__
 !TOS  ы:ы̄ <=> _ %> %{ЫИØ%}: %^PxDu2: ;
-!TOS 
-!TOS 
+!TOS
+!TOS
 !TOS !! !!CONSONANTS
 !TOS "%{ТØ%}:т"
 !TOS !! __@RULENAME@__
 !TOS  %{ТØ%}:т <=> Vow %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
-!TOS 
+!TOS
 !TOS !! !!CONSONANT LOSS
 !TOS "т:0"
 !TOS !! __@RULENAME@__
 !TOS  т:0 <=> т %> _ ы л ;
-!TOS 
+!TOS
 !TOS !! !!SANDHI
-!TOS 
+!TOS
 !TOS "0:й"
 !TOS !! __@RULENAME@__
 !TOS  0:й <=> [ и | ы ] %> _  %{ЫИØ%}: [ г | %^PxDu2: н ] ;
-!TOS 
+!TOS
 !TOS "%{УØ%}:у"
 !TOS !! __@RULENAME@__
 !TOS  %{УØ%}:у <=> ы: Cns %^Syncope: %> _  м е̄ н ;
 !TOS !!€ потыр%>%{УØ%}ме̄н
 !TOS !!€ пот0р%>уме̄н
-!TOS 
-!TOS 
+!TOS
+!TOS
 !TOS ! 2017-03-17 It is not necessary to remove triggers a second time
 !TOS ! They have already been removed by default in their declarations JACK
 !TOS !"Required %^PxDu2 loss"
 !TOS !! __@RULENAME__
 !TOS ! %^PxDu2:0 => _ ;
-!TOS 
+!TOS
 !TOS !"Required %^PxDu3 loss"
 !TOS !! __@RULENAME__
 !TOS ! %^PxDu3:0 => _ ;
-!TOS 
+!TOS
 !TOS !"Required %^PxPl2 loss"
 !TOS !! __@RULENAME__
 !TOS ! %^PxPl2:0 => _ ;
-!TOS 
+!TOS
