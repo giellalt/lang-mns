@@ -121,17 +121,13 @@ Rules
 "Palatalising suffix vowel after и/ы stems"
 а:я <=> [и|ы] %> _ Cns:+ Vow ;
 
+! TODO: Fix these two rules
+"Deleting vowel in suffix for vowel stems"
+Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
+        where Vx in (а у е) ;
+
 !!€ са̄лы>агын
 !!€ са̄лы>ягын
-
-! TODO: Fix these two rules
-!"Deleting vowel in stem for vowel suffix"
-!Vx:0 <=> _ %> Vow  ;
-!        where Vx in (а у е) ;
-
-"Deleting vowel in suffix for vowel stems"
-Vx:0 <=> Vow %>   _ Cns ;
-        where Vx in (а у е) ;
 
 "Palatalising suffix ы for palatal stems"
 ы:и <=> [ь:|т|д|н|л|с|щ] %> _ Cns ;
