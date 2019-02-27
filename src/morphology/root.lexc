@@ -205,6 +205,8 @@ LEXICON Root
    Postpositions ; !!= __@CODE@__ 
    PROP_MANSINAMES ;  !!= __@CODE@__ mansi-specific proper nouns
    urj-Cyrl-ProperNouns ;  !!= __@CODE@__ common cyrillic proper nouns
+   Punctuation ;
+   Symbols     ;
 
 !! NEWWORDS FILES
  A_NEWWORDS ;	  !!= __@CODE@__ adjectives
