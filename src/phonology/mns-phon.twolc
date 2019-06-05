@@ -41,7 +41,7 @@ Alphabet
 ӣ ӯ !!= @CODE@ precomposed long vowels
 Ӣ Ӯ
 
-а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ ¯Э Ю̄ Я̄     !!= @CODE@ non-precomposed long vowels
+а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄     !!= @CODE@ non-precomposed long vowels
 
 ! This is old 2017-03-19 ы2:ы ! fleeting/syncopating vowel
 ! question: are all cases where CыC syncopating ???
@@ -77,12 +77,14 @@ Sets
  Vow = а е и о у ы э ю я
        А Е И О У Ы Э Ю Я
        а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄
-       А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄ ;
+       А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;
+
 
  VowNoI = а е   о у э ю я
           А Е   О У Э Ю Я
           а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄
-          А̄ Е̄ Ӣ О̄ Ӯ Ы̄ ¯Э Ю̄ Я̄ ;
+          А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;
+
 
   PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ;
 
@@ -130,10 +132,14 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 !!€ са̄лы>ягын
 
 "Palatalising suffix ы for palatal stems"
-ы:и <=> [ь:|т|д|н|л|с|щ] %> _ Cns ;
+ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] %> _ Cns ;
+! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
 !!€ вармаль>ыт
 !!€ вармал0>ит
+!!$ та̄л>ыг
+!!$ та̄л>иг
+
 
 "Soft sign deletion for и suffixes"
 ь:0 <=> Cns _ %> :PalVow ;
