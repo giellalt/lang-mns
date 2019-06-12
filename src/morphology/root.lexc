@@ -142,6 +142,15 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Der/xxx
 
 
+        !! !!Symbols that need to be escaped on the lower side (towards twolc):
+ »7     !!≈ ; @CODE@ : Literal »
+ «7     !!≈ ; @CODE@ : Literal «
+        !! {{{
+ %[%>%] !!= @CODE@ - Literal >
+ %[%<%] !!= @CODE@ - Literal <
+        !! }}}
+
+
 !! Morphophonology
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
