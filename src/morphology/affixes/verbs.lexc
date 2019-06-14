@@ -58,7 +58,7 @@ LEXICON V11_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -99,7 +99,7 @@ LEXICON V11_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -113,19 +113,19 @@ LEXICON V11_odd
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -190,7 +190,7 @@ LEXICON V11_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -215,7 +215,7 @@ LEXICON V11_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -272,7 +272,7 @@ LEXICON V11_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -313,7 +313,7 @@ LEXICON V11_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -327,19 +327,19 @@ LEXICON V11_even
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -404,7 +404,7 @@ LEXICON V11_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -429,7 +429,7 @@ LEXICON V11_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -487,7 +487,7 @@ LEXICON V12_odd
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>йсы̄н K ;
 +V+Ind+Prt+ScDu3:%>йсы̄г K ;
-+V+Ind+Prt+ScPl1:%>йсӯв K ;
++V+Ind+Prt+ScPl1:%>йсӯв K ;
 +V+Ind+Prt+ScPl2:%>йсы̄н K ;
 +V+Ind+Prt+ScPl3:%>йсыт K ;
 
@@ -528,7 +528,7 @@ LEXICON V12_odd
 +V+Ind+Prt+ScDu1:%>ясаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ясы̄н K ;
 +V+Ind+Prt+ScDu3:%>ясы̄г K ;
-+V+Ind+Prt+ScPl1:%>ясӯв K ;
++V+Ind+Prt+ScPl1:%>ясӯв K ;
 +V+Ind+Prt+ScPl2:%>ясы̄н K ;
 +V+Ind+Prt+ScPl3:%>ясыт K ;
 
@@ -542,19 +542,19 @@ LEXICON V12_odd
 +V+Ind+Prt+OcSg3+ScPl2:%>яслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>яса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>йнӯвум K ;
-+V+Cond+Prs+ScSg2:%>йнӯвын K ;
++V+Cond+Prs+ScSg1:%>йнӯвум K ;
++V+Cond+Prs+ScSg2:%>йнӯвын K ;
 +V+Cond+Prs+ScSg3:%>йнув K ;
 +V+Cond+Prs+ScDu1:%>йнуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>йнувы̄н K ;
 +V+Cond+Prs+ScDu3:%>йнувы̄г K ;
-+V+Cond+Prs+ScPl1:%>йнувӯв K ;
++V+Cond+Prs+ScPl1:%>йнувӯв K ;
 +V+Cond+Prs+ScPl2:%>йнувы̄н K ;
-+V+Cond+Prs+ScPl3:%>йнӯвыт K ;
++V+Cond+Prs+ScPl3:%>йнӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>йнувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>йнувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>йнувтэ̄н K ;
@@ -619,7 +619,7 @@ LEXICON V12_odd
 +V+Pass+Prt+ScDu1:%>йвесме̄н K ;
 +V+Pass+Prt+ScDu2:%>йвесы̄н K ;
 +V+Pass+Prt+ScDu3:%>йвесы̄г K ;
-+V+Pass+Prt+ScPl1:%>йвесӯв K ;
++V+Pass+Prt+ScPl1:%>йвесӯв K ;
 +V+Pass+Prt+ScPl2:%>йвесы̄н K ;
 +V+Pass+Prt+ScPl3:%>йве̄сыт K ;
 
@@ -644,7 +644,7 @@ LEXICON V12_odd
 +V+Pass+Prt+ScDu1:%>явесме̄н K ;
 +V+Pass+Prt+ScDu2:%>явесы̄н K ;
 +V+Pass+Prt+ScDu3:%>явесы̄г K ;
-+V+Pass+Prt+ScPl1:%>явесӯв K ;
++V+Pass+Prt+ScPl1:%>явесӯв K ;
 +V+Pass+Prt+ScPl2:%>явесы̄н K ;
 +V+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
@@ -701,7 +701,7 @@ LEXICON V12_even
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>йсы̄н K ;
 +V+Ind+Prt+ScDu3:%>йсы̄г K ;
-+V+Ind+Prt+ScPl1:%>йсӯв K ;
++V+Ind+Prt+ScPl1:%>йсӯв K ;
 +V+Ind+Prt+ScPl2:%>йсы̄н K ;
 +V+Ind+Prt+ScPl3:%>йсыт K ;
 
@@ -742,7 +742,7 @@ LEXICON V12_even
 +V+Ind+Prt+ScDu1:%>ясаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ясы̄н K ;
 +V+Ind+Prt+ScDu3:%>ясы̄г K ;
-+V+Ind+Prt+ScPl1:%>ясӯв K ;
++V+Ind+Prt+ScPl1:%>ясӯв K ;
 +V+Ind+Prt+ScPl2:%>ясы̄н K ;
 +V+Ind+Prt+ScPl3:%>ясыт K ;
 
@@ -756,19 +756,19 @@ LEXICON V12_even
 +V+Ind+Prt+OcSg3+ScPl2:%>яслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>яса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>йнӯвум K ;
-+V+Cond+Prs+ScSg2:%>йнӯвын K ;
++V+Cond+Prs+ScSg1:%>йнӯвум K ;
++V+Cond+Prs+ScSg2:%>йнӯвын K ;
 +V+Cond+Prs+ScSg3:%>йнув K ;
 +V+Cond+Prs+ScDu1:%>йнуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>йнувы̄н K ;
 +V+Cond+Prs+ScDu3:%>йнувы̄г K ;
-+V+Cond+Prs+ScPl1:%>йнувӯв K ;
++V+Cond+Prs+ScPl1:%>йнувӯв K ;
 +V+Cond+Prs+ScPl2:%>йнувы̄н K ;
-+V+Cond+Prs+ScPl3:%>йнӯвыт K ;
++V+Cond+Prs+ScPl3:%>йнӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>йнувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>йнувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>йнувтэ̄н K ;
@@ -833,7 +833,7 @@ LEXICON V12_even
 +V+Pass+Prt+ScDu1:%>йвесме̄н K ;
 +V+Pass+Prt+ScDu2:%>йвесы̄н K ;
 +V+Pass+Prt+ScDu3:%>йвесы̄г K ;
-+V+Pass+Prt+ScPl1:%>йвесӯв K ;
++V+Pass+Prt+ScPl1:%>йвесӯв K ;
 +V+Pass+Prt+ScPl2:%>йвесы̄н K ;
 +V+Pass+Prt+ScPl3:%>йве̄сыт K ;
 
@@ -858,7 +858,7 @@ LEXICON V12_even
 +V+Pass+Prt+ScDu1:%>явесме̄н K ;
 +V+Pass+Prt+ScDu2:%>явесы̄н K ;
 +V+Pass+Prt+ScDu3:%>явесы̄г K ;
-+V+Pass+Prt+ScPl1:%>явесӯв K ;
++V+Pass+Prt+ScPl1:%>явесӯв K ;
 +V+Pass+Prt+ScPl2:%>явесы̄н K ;
 +V+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
@@ -915,7 +915,7 @@ LEXICON V13_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -956,7 +956,7 @@ LEXICON V13_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -970,19 +970,19 @@ LEXICON V13_odd
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -1047,7 +1047,7 @@ LEXICON V13_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -1072,7 +1072,7 @@ LEXICON V13_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -1129,7 +1129,7 @@ LEXICON V13_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -1170,7 +1170,7 @@ LEXICON V13_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -1184,19 +1184,19 @@ LEXICON V13_even
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -1261,7 +1261,7 @@ LEXICON V13_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -1286,7 +1286,7 @@ LEXICON V13_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -1343,7 +1343,7 @@ LEXICON V14_odd
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ьсы̄н K ;
 +V+Ind+Prt+ScDu3:%>ьсы̄г K ;
-+V+Ind+Prt+ScPl1:%>ьсӯв K ;
++V+Ind+Prt+ScPl1:%>ьсӯв K ;
 +V+Ind+Prt+ScPl2:%>ьсы̄н K ;
 +V+Ind+Prt+ScPl3:%>ьсыт K ;
 
@@ -1384,7 +1384,7 @@ LEXICON V14_odd
 +V+Ind+Prt+ScDu1:%>ясаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ясы̄н K ;
 +V+Ind+Prt+ScDu3:%>ясы̄г K ;
-+V+Ind+Prt+ScPl1:%>ясӯв K ;
++V+Ind+Prt+ScPl1:%>ясӯв K ;
 +V+Ind+Prt+ScPl2:%>ясы̄н K ;
 +V+Ind+Prt+ScPl3:%>ясыт K ;
 
@@ -1398,19 +1398,19 @@ LEXICON V14_odd
 +V+Ind+Prt+OcSg3+ScPl2:%>яслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>яса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ьнӯвум K ;
-+V+Cond+Prs+ScSg2:%>ьнӯвын K ;
++V+Cond+Prs+ScSg1:%>ьнӯвум K ;
++V+Cond+Prs+ScSg2:%>ьнӯвын K ;
 +V+Cond+Prs+ScSg3:%>ьнув K ;
 +V+Cond+Prs+ScDu1:%>ьнуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ьнувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ьнувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ьнувӯв K ;
++V+Cond+Prs+ScPl1:%>ьнувӯв K ;
 +V+Cond+Prs+ScPl2:%>ьнувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ьнӯвыт K ;
++V+Cond+Prs+ScPl3:%>ьнӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ьнӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ьнӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ьнӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ьнӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ьнӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ьнӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ьнувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ьнувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ьнувтэ̄н K ;
@@ -1475,7 +1475,7 @@ LEXICON V14_odd
 +V+Pass+Prt+ScDu1:%>ьвесме̄н K ;
 +V+Pass+Prt+ScDu2:%>ьвесы̄н K ;
 +V+Pass+Prt+ScDu3:%>ьвесы̄г K ;
-+V+Pass+Prt+ScPl1:%>ьвесӯв K ;
++V+Pass+Prt+ScPl1:%>ьвесӯв K ;
 +V+Pass+Prt+ScPl2:%>ьвесы̄н K ;
 +V+Pass+Prt+ScPl3:%>ьве̄сыт K ;
 
@@ -1500,7 +1500,7 @@ LEXICON V14_odd
 +V+Pass+Prt+ScDu1:%>явесме̄н K ;
 +V+Pass+Prt+ScDu2:%>явесы̄н K ;
 +V+Pass+Prt+ScDu3:%>явесы̄г K ;
-+V+Pass+Prt+ScPl1:%>явесӯв K ;
++V+Pass+Prt+ScPl1:%>явесӯв K ;
 +V+Pass+Prt+ScPl2:%>явесы̄н K ;
 +V+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
@@ -1557,7 +1557,7 @@ LEXICON V14_even
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ьсы̄н K ;
 +V+Ind+Prt+ScDu3:%>ьсы̄г K ;
-+V+Ind+Prt+ScPl1:%>ьсӯв K ;
++V+Ind+Prt+ScPl1:%>ьсӯв K ;
 +V+Ind+Prt+ScPl2:%>ьсы̄н K ;
 +V+Ind+Prt+ScPl3:%>ьсыт K ;
 
@@ -1598,7 +1598,7 @@ LEXICON V14_even
 +V+Ind+Prt+ScDu1:%>ясаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ясы̄н K ;
 +V+Ind+Prt+ScDu3:%>ясы̄г K ;
-+V+Ind+Prt+ScPl1:%>ясӯв K ;
++V+Ind+Prt+ScPl1:%>ясӯв K ;
 +V+Ind+Prt+ScPl2:%>ясы̄н K ;
 +V+Ind+Prt+ScPl3:%>ясыт K ;
 
@@ -1612,19 +1612,19 @@ LEXICON V14_even
 +V+Ind+Prt+OcSg3+ScPl2:%>яслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>яса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ьнӯвум K ;
-+V+Cond+Prs+ScSg2:%>ьнӯвын K ;
++V+Cond+Prs+ScSg1:%>ьнӯвум K ;
++V+Cond+Prs+ScSg2:%>ьнӯвын K ;
 +V+Cond+Prs+ScSg3:%>ьнув K ;
 +V+Cond+Prs+ScDu1:%>ьнуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ьнувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ьнувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ьнувӯв K ;
++V+Cond+Prs+ScPl1:%>ьнувӯв K ;
 +V+Cond+Prs+ScPl2:%>ьнувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ьнӯвыт K ;
++V+Cond+Prs+ScPl3:%>ьнӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ьнӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ьнӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ьнӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ьнӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ьнӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ьнӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ьнувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ьнувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ьнувтэ̄н K ;
@@ -1689,7 +1689,7 @@ LEXICON V14_even
 +V+Pass+Prt+ScDu1:%>ьвесме̄н K ;
 +V+Pass+Prt+ScDu2:%>ьвесы̄н K ;
 +V+Pass+Prt+ScDu3:%>ьвесы̄г K ;
-+V+Pass+Prt+ScPl1:%>ьвесӯв K ;
++V+Pass+Prt+ScPl1:%>ьвесӯв K ;
 +V+Pass+Prt+ScPl2:%>ьвесы̄н K ;
 +V+Pass+Prt+ScPl3:%>ьве̄сыт K ;
 
@@ -1714,7 +1714,7 @@ LEXICON V14_even
 +V+Pass+Prt+ScDu1:%>явесме̄н K ;
 +V+Pass+Prt+ScDu2:%>явесы̄н K ;
 +V+Pass+Prt+ScDu3:%>явесы̄г K ;
-+V+Pass+Prt+ScPl1:%>явесӯв K ;
++V+Pass+Prt+ScPl1:%>явесӯв K ;
 +V+Pass+Prt+ScPl2:%>явесы̄н K ;
 +V+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
@@ -1771,7 +1771,7 @@ LEXICON V15_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -1812,7 +1812,7 @@ LEXICON V15_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -1826,19 +1826,19 @@ LEXICON V15_odd
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -1903,7 +1903,7 @@ LEXICON V15_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -1928,7 +1928,7 @@ LEXICON V15_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -1985,7 +1985,7 @@ LEXICON V15_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -2026,7 +2026,7 @@ LEXICON V15_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -2040,19 +2040,19 @@ LEXICON V15_even
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -2117,7 +2117,7 @@ LEXICON V15_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -2142,7 +2142,7 @@ LEXICON V15_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -2199,7 +2199,7 @@ LEXICON V16_odd
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -2240,7 +2240,7 @@ LEXICON V16_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -2254,19 +2254,19 @@ LEXICON V16_odd
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -2331,7 +2331,7 @@ LEXICON V16_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -2356,7 +2356,7 @@ LEXICON V16_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -2413,7 +2413,7 @@ LEXICON V16_even
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>сы̄н K ;
 +V+Ind+Prt+ScDu3:%>сы̄г K ;
-+V+Ind+Prt+ScPl1:%>сӯв K ;
++V+Ind+Prt+ScPl1:%>сӯв K ;
 +V+Ind+Prt+ScPl2:%>сы̄н K ;
 +V+Ind+Prt+ScPl3:%>сыт K ;
 
@@ -2454,7 +2454,7 @@ LEXICON V16_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -2468,19 +2468,19 @@ LEXICON V16_even
 +V+Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +V+Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -2545,7 +2545,7 @@ LEXICON V16_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -2570,7 +2570,7 @@ LEXICON V16_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -2627,7 +2627,7 @@ LEXICON V21_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -2668,7 +2668,7 @@ LEXICON V21_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -2703,19 +2703,19 @@ LEXICON V21_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -2743,19 +2743,19 @@ LEXICON V21_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -2783,19 +2783,19 @@ LEXICON V21_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -2860,7 +2860,7 @@ LEXICON V21_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -2885,7 +2885,7 @@ LEXICON V21_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -2942,7 +2942,7 @@ LEXICON V21_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -2983,7 +2983,7 @@ LEXICON V21_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -3018,19 +3018,19 @@ LEXICON V21_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -3058,19 +3058,19 @@ LEXICON V21_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -3098,19 +3098,19 @@ LEXICON V21_even
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -3175,7 +3175,7 @@ LEXICON V21_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -3200,7 +3200,7 @@ LEXICON V21_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -3257,7 +3257,7 @@ LEXICON V22_odd
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>исы̄н K ;
 +V+Ind+Prt+ScDu3:%>исы̄г K ;
-+V+Ind+Prt+ScPl1:%>исӯв K ;
++V+Ind+Prt+ScPl1:%>исӯв K ;
 +V+Ind+Prt+ScPl2:%>исы̄н K ;
 +V+Ind+Prt+ScPl3:%>исыт K ;
 
@@ -3298,7 +3298,7 @@ LEXICON V22_odd
 +V+Ind+Prt+ScDu1:%>ясаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ясы̄н K ;
 +V+Ind+Prt+ScDu3:%>ясы̄г K ;
-+V+Ind+Prt+ScPl1:%>ясӯв K ;
++V+Ind+Prt+ScPl1:%>ясӯв K ;
 +V+Ind+Prt+ScPl2:%>ясы̄н K ;
 +V+Ind+Prt+ScPl3:%>ясыт K ;
 
@@ -3333,19 +3333,19 @@ LEXICON V22_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>ясаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>ясаныл K ;
 
-+V+Cond+Prs+ScSg1:%>йнӯвум K ;
-+V+Cond+Prs+ScSg2:%>йнӯвын K ;
++V+Cond+Prs+ScSg1:%>йнӯвум K ;
++V+Cond+Prs+ScSg2:%>йнӯвын K ;
 +V+Cond+Prs+ScSg3:%>йнув K ;
 +V+Cond+Prs+ScDu1:%>йнуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>йнувы̄н K ;
 +V+Cond+Prs+ScDu3:%>йнувы̄г K ;
-+V+Cond+Prs+ScPl1:%>йнувӯв K ;
++V+Cond+Prs+ScPl1:%>йнувӯв K ;
 +V+Cond+Prs+ScPl2:%>йнувы̄н K ;
-+V+Cond+Prs+ScPl3:%>йнӯвыт K ;
++V+Cond+Prs+ScPl3:%>йнӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>йнувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>йнувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>йнувтэ̄н K ;
@@ -3373,19 +3373,19 @@ LEXICON V22_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>йнуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>йнува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>инӯвум K ;
-+V+Cond+Prs+ScSg2:%>инӯвын K ;
++V+Cond+Prs+ScSg1:%>инӯвум K ;
++V+Cond+Prs+ScSg2:%>инӯвын K ;
 +V+Cond+Prs+ScSg3:%>инув K ;
 +V+Cond+Prs+ScDu1:%>инуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>инувы̄н K ;
 +V+Cond+Prs+ScDu3:%>инувы̄г K ;
-+V+Cond+Prs+ScPl1:%>инувӯв K ;
++V+Cond+Prs+ScPl1:%>инувӯв K ;
 +V+Cond+Prs+ScPl2:%>инувы̄н K ;
-+V+Cond+Prs+ScPl3:%>инӯвыт K ;
++V+Cond+Prs+ScPl3:%>инӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>инувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>инувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>инувтэ̄н K ;
@@ -3413,19 +3413,19 @@ LEXICON V22_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>инуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>инува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>янӯвум K ;
-+V+Cond+Prs+ScSg2:%>янӯвын K ;
++V+Cond+Prs+ScSg1:%>янӯвум K ;
++V+Cond+Prs+ScSg2:%>янӯвын K ;
 +V+Cond+Prs+ScSg3:%>янув K ;
 +V+Cond+Prs+ScDu1:%>януваме̄н K ;
 +V+Cond+Prs+ScDu2:%>янувы̄н K ;
 +V+Cond+Prs+ScDu3:%>янувы̄г K ;
-+V+Cond+Prs+ScPl1:%>янувӯв K ;
++V+Cond+Prs+ScPl1:%>янувӯв K ;
 +V+Cond+Prs+ScPl2:%>янувы̄н K ;
-+V+Cond+Prs+ScPl3:%>янӯвыт K ;
++V+Cond+Prs+ScPl3:%>янӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>янӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>янӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>янӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>янӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>янӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>янӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>янувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>янувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>янувтэ̄н K ;
@@ -3490,7 +3490,7 @@ LEXICON V22_odd
 +V+Pass+Prt+ScDu1:%>йвесме̄н K ;
 +V+Pass+Prt+ScDu2:%>йвесы̄н K ;
 +V+Pass+Prt+ScDu3:%>йвесы̄г K ;
-+V+Pass+Prt+ScPl1:%>йвесӯв K ;
++V+Pass+Prt+ScPl1:%>йвесӯв K ;
 +V+Pass+Prt+ScPl2:%>йвесы̄н K ;
 +V+Pass+Prt+ScPl3:%>йве̄сыт K ;
 
@@ -3515,7 +3515,7 @@ LEXICON V22_odd
 +V+Pass+Prt+ScDu1:%>явесме̄н K ;
 +V+Pass+Prt+ScDu2:%>явесы̄н K ;
 +V+Pass+Prt+ScDu3:%>явесы̄г K ;
-+V+Pass+Prt+ScPl1:%>явесӯв K ;
++V+Pass+Prt+ScPl1:%>явесӯв K ;
 +V+Pass+Prt+ScPl2:%>явесы̄н K ;
 +V+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
@@ -3572,7 +3572,7 @@ LEXICON V22_even
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>исы̄н K ;
 +V+Ind+Prt+ScDu3:%>исы̄г K ;
-+V+Ind+Prt+ScPl1:%>исӯв K ;
++V+Ind+Prt+ScPl1:%>исӯв K ;
 +V+Ind+Prt+ScPl2:%>исы̄н K ;
 +V+Ind+Prt+ScPl3:%>исыт K ;
 
@@ -3613,7 +3613,7 @@ LEXICON V22_even
 +V+Ind+Prt+ScDu1:%>ясаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ясы̄н K ;
 +V+Ind+Prt+ScDu3:%>ясы̄г K ;
-+V+Ind+Prt+ScPl1:%>ясӯв K ;
++V+Ind+Prt+ScPl1:%>ясӯв K ;
 +V+Ind+Prt+ScPl2:%>ясы̄н K ;
 +V+Ind+Prt+ScPl3:%>ясыт K ;
 
@@ -3648,19 +3648,19 @@ LEXICON V22_even
 +V+Ind+Prt+OcPl3+ScPl2:%>ясаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>ясаныл K ;
 
-+V+Cond+Prs+ScSg1:%>йнӯвум K ;
-+V+Cond+Prs+ScSg2:%>йнӯвын K ;
++V+Cond+Prs+ScSg1:%>йнӯвум K ;
++V+Cond+Prs+ScSg2:%>йнӯвын K ;
 +V+Cond+Prs+ScSg3:%>йнув K ;
 +V+Cond+Prs+ScDu1:%>йнуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>йнувы̄н K ;
 +V+Cond+Prs+ScDu3:%>йнувы̄г K ;
-+V+Cond+Prs+ScPl1:%>йнувӯв K ;
++V+Cond+Prs+ScPl1:%>йнувӯв K ;
 +V+Cond+Prs+ScPl2:%>йнувы̄н K ;
-+V+Cond+Prs+ScPl3:%>йнӯвыт K ;
++V+Cond+Prs+ScPl3:%>йнӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>йнӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>йнӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>йнӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>йнувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>йнувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>йнувтэ̄н K ;
@@ -3688,19 +3688,19 @@ LEXICON V22_even
 +V+Cond+Prs+OcPl3+ScPl2:%>йнуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>йнува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>инӯвум K ;
-+V+Cond+Prs+ScSg2:%>инӯвын K ;
++V+Cond+Prs+ScSg1:%>инӯвум K ;
++V+Cond+Prs+ScSg2:%>инӯвын K ;
 +V+Cond+Prs+ScSg3:%>инув K ;
 +V+Cond+Prs+ScDu1:%>инуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>инувы̄н K ;
 +V+Cond+Prs+ScDu3:%>инувы̄г K ;
-+V+Cond+Prs+ScPl1:%>инувӯв K ;
++V+Cond+Prs+ScPl1:%>инувӯв K ;
 +V+Cond+Prs+ScPl2:%>инувы̄н K ;
-+V+Cond+Prs+ScPl3:%>инӯвыт K ;
++V+Cond+Prs+ScPl3:%>инӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>инувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>инувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>инувтэ̄н K ;
@@ -3728,19 +3728,19 @@ LEXICON V22_even
 +V+Cond+Prs+OcPl3+ScPl2:%>инуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>инува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>янӯвум K ;
-+V+Cond+Prs+ScSg2:%>янӯвын K ;
++V+Cond+Prs+ScSg1:%>янӯвум K ;
++V+Cond+Prs+ScSg2:%>янӯвын K ;
 +V+Cond+Prs+ScSg3:%>янув K ;
 +V+Cond+Prs+ScDu1:%>януваме̄н K ;
 +V+Cond+Prs+ScDu2:%>янувы̄н K ;
 +V+Cond+Prs+ScDu3:%>янувы̄г K ;
-+V+Cond+Prs+ScPl1:%>янувӯв K ;
++V+Cond+Prs+ScPl1:%>янувӯв K ;
 +V+Cond+Prs+ScPl2:%>янувы̄н K ;
-+V+Cond+Prs+ScPl3:%>янӯвыт K ;
++V+Cond+Prs+ScPl3:%>янӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>янӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>янӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>янӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>янӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>янӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>янӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>янувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>янувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>янувтэ̄н K ;
@@ -3805,7 +3805,7 @@ LEXICON V22_even
 +V+Pass+Prt+ScDu1:%>йвесме̄н K ;
 +V+Pass+Prt+ScDu2:%>йвесы̄н K ;
 +V+Pass+Prt+ScDu3:%>йвесы̄г K ;
-+V+Pass+Prt+ScPl1:%>йвесӯв K ;
++V+Pass+Prt+ScPl1:%>йвесӯв K ;
 +V+Pass+Prt+ScPl2:%>йвесы̄н K ;
 +V+Pass+Prt+ScPl3:%>йве̄сыт K ;
 
@@ -3830,7 +3830,7 @@ LEXICON V22_even
 +V+Pass+Prt+ScDu1:%>явесме̄н K ;
 +V+Pass+Prt+ScDu2:%>явесы̄н K ;
 +V+Pass+Prt+ScDu3:%>явесы̄г K ;
-+V+Pass+Prt+ScPl1:%>явесӯв K ;
++V+Pass+Prt+ScPl1:%>явесӯв K ;
 +V+Pass+Prt+ScPl2:%>явесы̄н K ;
 +V+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
@@ -3887,7 +3887,7 @@ LEXICON V23_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -3928,7 +3928,7 @@ LEXICON V23_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -3963,19 +3963,19 @@ LEXICON V23_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -4003,19 +4003,19 @@ LEXICON V23_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -4043,19 +4043,19 @@ LEXICON V23_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -4120,7 +4120,7 @@ LEXICON V23_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -4145,7 +4145,7 @@ LEXICON V23_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -4202,7 +4202,7 @@ LEXICON V23_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -4243,7 +4243,7 @@ LEXICON V23_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -4278,19 +4278,19 @@ LEXICON V23_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -4318,19 +4318,19 @@ LEXICON V23_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -4358,19 +4358,19 @@ LEXICON V23_even
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -4435,7 +4435,7 @@ LEXICON V23_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -4460,7 +4460,7 @@ LEXICON V23_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -4517,7 +4517,7 @@ LEXICON V25_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -4558,7 +4558,7 @@ LEXICON V25_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -4593,19 +4593,19 @@ LEXICON V25_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -4633,19 +4633,19 @@ LEXICON V25_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -4673,19 +4673,19 @@ LEXICON V25_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -4750,7 +4750,7 @@ LEXICON V25_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -4775,7 +4775,7 @@ LEXICON V25_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -4832,7 +4832,7 @@ LEXICON V25_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -4873,7 +4873,7 @@ LEXICON V25_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -4908,19 +4908,19 @@ LEXICON V25_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -4948,19 +4948,19 @@ LEXICON V25_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -4988,19 +4988,19 @@ LEXICON V25_even
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -5065,7 +5065,7 @@ LEXICON V25_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -5090,7 +5090,7 @@ LEXICON V25_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -5147,7 +5147,7 @@ LEXICON V26_odd
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>исы̄н K ;
 +V+Ind+Prt+ScDu3:%>исы̄г K ;
-+V+Ind+Prt+ScPl1:%>исӯв K ;
++V+Ind+Prt+ScPl1:%>исӯв K ;
 +V+Ind+Prt+ScPl2:%>исы̄н K ;
 +V+Ind+Prt+ScPl3:%>исыт K ;
 
@@ -5188,7 +5188,7 @@ LEXICON V26_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -5223,19 +5223,19 @@ LEXICON V26_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -5263,19 +5263,19 @@ LEXICON V26_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>инӯвум K ;
-+V+Cond+Prs+ScSg2:%>инӯвын K ;
++V+Cond+Prs+ScSg1:%>инӯвум K ;
++V+Cond+Prs+ScSg2:%>инӯвын K ;
 +V+Cond+Prs+ScSg3:%>инув K ;
 +V+Cond+Prs+ScDu1:%>инуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>инувы̄н K ;
 +V+Cond+Prs+ScDu3:%>инувы̄г K ;
-+V+Cond+Prs+ScPl1:%>инувӯв K ;
++V+Cond+Prs+ScPl1:%>инувӯв K ;
 +V+Cond+Prs+ScPl2:%>инувы̄н K ;
-+V+Cond+Prs+ScPl3:%>инӯвыт K ;
++V+Cond+Prs+ScPl3:%>инӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>инувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>инувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>инувтэ̄н K ;
@@ -5303,19 +5303,19 @@ LEXICON V26_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>инуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>инува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -5380,7 +5380,7 @@ LEXICON V26_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -5405,7 +5405,7 @@ LEXICON V26_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -5462,7 +5462,7 @@ LEXICON V26_even
 +V+Ind+Prt+ScDu1:%>исаме̄н K ;
 +V+Ind+Prt+ScDu2:%>исы̄н K ;
 +V+Ind+Prt+ScDu3:%>исы̄г K ;
-+V+Ind+Prt+ScPl1:%>исӯв K ;
++V+Ind+Prt+ScPl1:%>исӯв K ;
 +V+Ind+Prt+ScPl2:%>исы̄н K ;
 +V+Ind+Prt+ScPl3:%>исыт K ;
 
@@ -5503,7 +5503,7 @@ LEXICON V26_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -5538,19 +5538,19 @@ LEXICON V26_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -5578,19 +5578,19 @@ LEXICON V26_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>инӯвум K ;
-+V+Cond+Prs+ScSg2:%>инӯвын K ;
++V+Cond+Prs+ScSg1:%>инӯвум K ;
++V+Cond+Prs+ScSg2:%>инӯвын K ;
 +V+Cond+Prs+ScSg3:%>инув K ;
 +V+Cond+Prs+ScDu1:%>инуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>инувы̄н K ;
 +V+Cond+Prs+ScDu3:%>инувы̄г K ;
-+V+Cond+Prs+ScPl1:%>инувӯв K ;
++V+Cond+Prs+ScPl1:%>инувӯв K ;
 +V+Cond+Prs+ScPl2:%>инувы̄н K ;
-+V+Cond+Prs+ScPl3:%>инӯвыт K ;
++V+Cond+Prs+ScPl3:%>инӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>инӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>инӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>инӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>инувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>инувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>инувтэ̄н K ;
@@ -5618,19 +5618,19 @@ LEXICON V26_even
 +V+Cond+Prs+OcPl3+ScPl2:%>инуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>инува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -5695,7 +5695,7 @@ LEXICON V26_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -5720,7 +5720,7 @@ LEXICON V26_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -5777,7 +5777,7 @@ LEXICON V27_odd
 +V+Ind+Prt+ScDu1:%>ссаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ссы̄н K ;
 +V+Ind+Prt+ScDu3:%>ссы̄г K ;
-+V+Ind+Prt+ScPl1:%>ссӯв K ;
++V+Ind+Prt+ScPl1:%>ссӯв K ;
 +V+Ind+Prt+ScPl2:%>ссы̄н K ;
 +V+Ind+Prt+ScPl3:%>ссыт K ;
 
@@ -5812,19 +5812,19 @@ LEXICON V27_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>ссаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>ссаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нсанӯвум K ;
-+V+Cond+Prs+ScSg2:%>нсанӯвын K ;
++V+Cond+Prs+ScSg1:%>нсанӯвум K ;
++V+Cond+Prs+ScSg2:%>нсанӯвын K ;
 +V+Cond+Prs+ScSg3:%>нсанув K ;
 +V+Cond+Prs+ScDu1:%>нсануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нсанувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нсанувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нсанувӯв K ;
++V+Cond+Prs+ScPl1:%>нсанувӯв K ;
 +V+Cond+Prs+ScPl2:%>нсанувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нсанӯвыт K ;
++V+Cond+Prs+ScPl3:%>нсанӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нсанӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нсанӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нсанӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нсанӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нсанӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нсанӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нсанувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нсанувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нсанувтэ̄н K ;
@@ -5889,7 +5889,7 @@ LEXICON V27_odd
 +V+Pass+Prt+ScDu1:%>нсавесме̄н K ;
 +V+Pass+Prt+ScDu2:%>нсавесы̄н K ;
 +V+Pass+Prt+ScDu3:%>нсавесы̄г K ;
-+V+Pass+Prt+ScPl1:%>нсавесӯв K ;
++V+Pass+Prt+ScPl1:%>нсавесӯв K ;
 +V+Pass+Prt+ScPl2:%>нсавесы̄н K ;
 +V+Pass+Prt+ScPl3:%>нсаве̄сыт K ;
 
@@ -5946,7 +5946,7 @@ LEXICON V27_even
 +V+Ind+Prt+ScDu1:%>ссаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ссы̄н K ;
 +V+Ind+Prt+ScDu3:%>ссы̄г K ;
-+V+Ind+Prt+ScPl1:%>ссӯв K ;
++V+Ind+Prt+ScPl1:%>ссӯв K ;
 +V+Ind+Prt+ScPl2:%>ссы̄н K ;
 +V+Ind+Prt+ScPl3:%>ссыт K ;
 
@@ -5981,19 +5981,19 @@ LEXICON V27_even
 +V+Ind+Prt+OcPl3+ScPl2:%>ссаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>ссаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нсанӯвум K ;
-+V+Cond+Prs+ScSg2:%>нсанӯвын K ;
++V+Cond+Prs+ScSg1:%>нсанӯвум K ;
++V+Cond+Prs+ScSg2:%>нсанӯвын K ;
 +V+Cond+Prs+ScSg3:%>нсанув K ;
 +V+Cond+Prs+ScDu1:%>нсануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нсанувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нсанувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нсанувӯв K ;
++V+Cond+Prs+ScPl1:%>нсанувӯв K ;
 +V+Cond+Prs+ScPl2:%>нсанувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нсанӯвыт K ;
++V+Cond+Prs+ScPl3:%>нсанӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нсанӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нсанӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нсанӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нсанӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нсанӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нсанӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нсанувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нсанувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нсанувтэ̄н K ;
@@ -6058,7 +6058,7 @@ LEXICON V27_even
 +V+Pass+Prt+ScDu1:%>нсавесме̄н K ;
 +V+Pass+Prt+ScDu2:%>нсавесы̄н K ;
 +V+Pass+Prt+ScDu3:%>нсавесы̄г K ;
-+V+Pass+Prt+ScPl1:%>нсавесӯв K ;
++V+Pass+Prt+ScPl1:%>нсавесӯв K ;
 +V+Pass+Prt+ScPl2:%>нсавесы̄н K ;
 +V+Pass+Prt+ScPl3:%>нсаве̄сыт K ;
 
@@ -6115,7 +6115,7 @@ LEXICON V28_odd
 +V+Ind+Prt+ScDu1:%>щсаме̄н K ;
 +V+Ind+Prt+ScDu2:%>щсы̄н K ;
 +V+Ind+Prt+ScDu3:%>щсы̄г K ;
-+V+Ind+Prt+ScPl1:%>щсӯв K ;
++V+Ind+Prt+ScPl1:%>щсӯв K ;
 +V+Ind+Prt+ScPl2:%>щсы̄н K ;
 +V+Ind+Prt+ScPl3:%>щсыт K ;
 
@@ -6150,19 +6150,19 @@ LEXICON V28_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>щсаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>щсаныл K ;
 
-+V+Cond+Prs+ScSg1:%>ньщанӯвум K ;
-+V+Cond+Prs+ScSg2:%>ньщанӯвын K ;
++V+Cond+Prs+ScSg1:%>ньщанӯвум K ;
++V+Cond+Prs+ScSg2:%>ньщанӯвын K ;
 +V+Cond+Prs+ScSg3:%>ньщанув K ;
 +V+Cond+Prs+ScDu1:%>ньщануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ньщанувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ньщанувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ньщанувӯв K ;
++V+Cond+Prs+ScPl1:%>ньщанувӯв K ;
 +V+Cond+Prs+ScPl2:%>ньщанувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ньщанӯвыт K ;
++V+Cond+Prs+ScPl3:%>ньщанӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ньщанӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ньщанӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ньщанӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ньщанӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ньщанӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ньщанӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ньщанувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ньщанувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ньщанувтэ̄н K ;
@@ -6227,7 +6227,7 @@ LEXICON V28_odd
 +V+Pass+Prt+ScDu1:%>ньщавесме̄н K ;
 +V+Pass+Prt+ScDu2:%>ньщавесы̄н K ;
 +V+Pass+Prt+ScDu3:%>ньщавесы̄г K ;
-+V+Pass+Prt+ScPl1:%>ньщавесӯв K ;
++V+Pass+Prt+ScPl1:%>ньщавесӯв K ;
 +V+Pass+Prt+ScPl2:%>ньщавесы̄н K ;
 +V+Pass+Prt+ScPl3:%>ньщаве̄сыт K ;
 
@@ -6284,7 +6284,7 @@ LEXICON V28_even
 +V+Ind+Prt+ScDu1:%>щсаме̄н K ;
 +V+Ind+Prt+ScDu2:%>щсы̄н K ;
 +V+Ind+Prt+ScDu3:%>щсы̄г K ;
-+V+Ind+Prt+ScPl1:%>щсӯв K ;
++V+Ind+Prt+ScPl1:%>щсӯв K ;
 +V+Ind+Prt+ScPl2:%>щсы̄н K ;
 +V+Ind+Prt+ScPl3:%>щсыт K ;
 
@@ -6319,19 +6319,19 @@ LEXICON V28_even
 +V+Ind+Prt+OcPl3+ScPl2:%>щсаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>щсаныл K ;
 
-+V+Cond+Prs+ScSg1:%>ньщанӯвум K ;
-+V+Cond+Prs+ScSg2:%>ньщанӯвын K ;
++V+Cond+Prs+ScSg1:%>ньщанӯвум K ;
++V+Cond+Prs+ScSg2:%>ньщанӯвын K ;
 +V+Cond+Prs+ScSg3:%>ньщанув K ;
 +V+Cond+Prs+ScDu1:%>ньщануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ньщанувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ньщанувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ньщанувӯв K ;
++V+Cond+Prs+ScPl1:%>ньщанувӯв K ;
 +V+Cond+Prs+ScPl2:%>ньщанувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ньщанӯвыт K ;
++V+Cond+Prs+ScPl3:%>ньщанӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ньщанӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ньщанӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ньщанӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ньщанӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ньщанӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ньщанӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ньщанувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ньщанувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ньщанувтэ̄н K ;
@@ -6396,7 +6396,7 @@ LEXICON V28_even
 +V+Pass+Prt+ScDu1:%>ньщавесме̄н K ;
 +V+Pass+Prt+ScDu2:%>ньщавесы̄н K ;
 +V+Pass+Prt+ScDu3:%>ньщавесы̄г K ;
-+V+Pass+Prt+ScPl1:%>ньщавесӯв K ;
++V+Pass+Prt+ScPl1:%>ньщавесӯв K ;
 +V+Pass+Prt+ScPl2:%>ньщавесы̄н K ;
 +V+Pass+Prt+ScPl3:%>ньщаве̄сыт K ;
 
@@ -6453,7 +6453,7 @@ LEXICON V31_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -6494,7 +6494,7 @@ LEXICON V31_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -6529,19 +6529,19 @@ LEXICON V31_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -6569,19 +6569,19 @@ LEXICON V31_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -6609,19 +6609,19 @@ LEXICON V31_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -6686,7 +6686,7 @@ LEXICON V31_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -6711,7 +6711,7 @@ LEXICON V31_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -6768,7 +6768,7 @@ LEXICON V31_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -6809,7 +6809,7 @@ LEXICON V31_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -6844,19 +6844,19 @@ LEXICON V31_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -6884,19 +6884,19 @@ LEXICON V31_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -6924,19 +6924,19 @@ LEXICON V31_even
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -7001,7 +7001,7 @@ LEXICON V31_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -7026,7 +7026,7 @@ LEXICON V31_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -7083,7 +7083,7 @@ LEXICON V33_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -7124,7 +7124,7 @@ LEXICON V33_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -7159,19 +7159,19 @@ LEXICON V33_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -7199,19 +7199,19 @@ LEXICON V33_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -7239,19 +7239,19 @@ LEXICON V33_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -7316,7 +7316,7 @@ LEXICON V33_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -7341,7 +7341,7 @@ LEXICON V33_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -7398,7 +7398,7 @@ LEXICON V33_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -7439,7 +7439,7 @@ LEXICON V33_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -7474,19 +7474,19 @@ LEXICON V33_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -7514,19 +7514,19 @@ LEXICON V33_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -7554,19 +7554,19 @@ LEXICON V33_even
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -7631,7 +7631,7 @@ LEXICON V33_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -7656,7 +7656,7 @@ LEXICON V33_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -7713,7 +7713,7 @@ LEXICON V35_odd
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -7754,7 +7754,7 @@ LEXICON V35_odd
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -7789,19 +7789,19 @@ LEXICON V35_odd
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -7829,19 +7829,19 @@ LEXICON V35_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -7869,19 +7869,19 @@ LEXICON V35_odd
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -7946,7 +7946,7 @@ LEXICON V35_odd
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -7971,7 +7971,7 @@ LEXICON V35_odd
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
@@ -8028,7 +8028,7 @@ LEXICON V35_even
 +V+Ind+Prt+ScDu1:%>ысаме̄н K ;
 +V+Ind+Prt+ScDu2:%>ысы̄н K ;
 +V+Ind+Prt+ScDu3:%>ысы̄г K ;
-+V+Ind+Prt+ScPl1:%>ысӯв K ;
++V+Ind+Prt+ScPl1:%>ысӯв K ;
 +V+Ind+Prt+ScPl2:%>ысы̄н K ;
 +V+Ind+Prt+ScPl3:%>ысыт K ;
 
@@ -8069,7 +8069,7 @@ LEXICON V35_even
 +V+Ind+Prt+ScDu1:%>асаме̄н K ;
 +V+Ind+Prt+ScDu2:%>асы̄н K ;
 +V+Ind+Prt+ScDu3:%>асы̄г K ;
-+V+Ind+Prt+ScPl1:%>асӯв K ;
++V+Ind+Prt+ScPl1:%>асӯв K ;
 +V+Ind+Prt+ScPl2:%>асы̄н K ;
 +V+Ind+Prt+ScPl3:%>асыт K ;
 
@@ -8104,19 +8104,19 @@ LEXICON V35_even
 +V+Ind+Prt+OcPl3+ScPl2:%>асаны̄н K ;
 +V+Ind+Prt+OcPl3+ScPl3:%>асаныл K ;
 
-+V+Cond+Prs+ScSg1:%>нӯвум K ;
-+V+Cond+Prs+ScSg2:%>нӯвын K ;
++V+Cond+Prs+ScSg1:%>нӯвум K ;
++V+Cond+Prs+ScSg2:%>нӯвын K ;
 +V+Cond+Prs+ScSg3:%>нув K ;
 +V+Cond+Prs+ScDu1:%>нуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>нувы̄н K ;
 +V+Cond+Prs+ScDu3:%>нувы̄г K ;
-+V+Cond+Prs+ScPl1:%>нувӯв K ;
++V+Cond+Prs+ScPl1:%>нувӯв K ;
 +V+Cond+Prs+ScPl2:%>нувы̄н K ;
-+V+Cond+Prs+ScPl3:%>нӯвыт K ;
++V+Cond+Prs+ScPl3:%>нӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>нӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>нӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>нӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>нувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>нувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>нувтэ̄н K ;
@@ -8144,19 +8144,19 @@ LEXICON V35_even
 +V+Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>ынӯвум K ;
-+V+Cond+Prs+ScSg2:%>ынӯвын K ;
++V+Cond+Prs+ScSg1:%>ынӯвум K ;
++V+Cond+Prs+ScSg2:%>ынӯвын K ;
 +V+Cond+Prs+ScSg3:%>ынув K ;
 +V+Cond+Prs+ScDu1:%>ынуваме̄н K ;
 +V+Cond+Prs+ScDu2:%>ынувы̄н K ;
 +V+Cond+Prs+ScDu3:%>ынувы̄г K ;
-+V+Cond+Prs+ScPl1:%>ынувӯв K ;
++V+Cond+Prs+ScPl1:%>ынувӯв K ;
 +V+Cond+Prs+ScPl2:%>ынувы̄н K ;
-+V+Cond+Prs+ScPl3:%>ынӯвыт K ;
++V+Cond+Prs+ScPl3:%>ынӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>ынӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>ынӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>ынӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>ынувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>ынувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>ынувтэ̄н K ;
@@ -8184,19 +8184,19 @@ LEXICON V35_even
 +V+Cond+Prs+OcPl3+ScPl2:%>ынуваны̄н K ;
 +V+Cond+Prs+OcPl3+ScPl3:%>ынува̄ныл K ;
 
-+V+Cond+Prs+ScSg1:%>анӯвум K ;
-+V+Cond+Prs+ScSg2:%>анӯвын K ;
++V+Cond+Prs+ScSg1:%>анӯвум K ;
++V+Cond+Prs+ScSg2:%>анӯвын K ;
 +V+Cond+Prs+ScSg3:%>анув K ;
 +V+Cond+Prs+ScDu1:%>ануваме̄н K ;
 +V+Cond+Prs+ScDu2:%>анувы̄н K ;
 +V+Cond+Prs+ScDu3:%>анувы̄г K ;
-+V+Cond+Prs+ScPl1:%>анувӯв K ;
++V+Cond+Prs+ScPl1:%>анувӯв K ;
 +V+Cond+Prs+ScPl2:%>анувы̄н K ;
-+V+Cond+Prs+ScPl3:%>анӯвыт K ;
++V+Cond+Prs+ScPl3:%>анӯвыт K ;
 
-+V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
-+V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
-+V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
++V+Cond+Prs+OcSg3+ScSg1:%>анӯвлум K ;
++V+Cond+Prs+OcSg3+ScSg2:%>анӯвлын K ;
++V+Cond+Prs+OcSg3+ScSg3:%>анӯвтэ K ;
 +V+Cond+Prs+OcSg3+ScDu1:%>анувламе̄н K ;
 +V+Cond+Prs+OcSg3+ScDu2:%>анувлы̄н K ;
 +V+Cond+Prs+OcSg3+ScDu3:%>анувтэ̄н K ;
@@ -8261,7 +8261,7 @@ LEXICON V35_even
 +V+Pass+Prt+ScDu1:%>весме̄н K ;
 +V+Pass+Prt+ScDu2:%>весы̄н K ;
 +V+Pass+Prt+ScDu3:%>весы̄г K ;
-+V+Pass+Prt+ScPl1:%>весӯв K ;
++V+Pass+Prt+ScPl1:%>весӯв K ;
 +V+Pass+Prt+ScPl2:%>весы̄н K ;
 +V+Pass+Prt+ScPl3:%>ве̄сыт K ;
 
@@ -8286,7 +8286,7 @@ LEXICON V35_even
 +V+Pass+Prt+ScDu1:%>авесме̄н K ;
 +V+Pass+Prt+ScDu2:%>авесы̄н K ;
 +V+Pass+Prt+ScDu3:%>авесы̄г K ;
-+V+Pass+Prt+ScPl1:%>авесӯв K ;
++V+Pass+Prt+ScPl1:%>авесӯв K ;
 +V+Pass+Prt+ScPl2:%>авесы̄н K ;
 +V+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
