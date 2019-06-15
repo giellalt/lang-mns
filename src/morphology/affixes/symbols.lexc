@@ -31,17 +31,22 @@ LEXICON SYMBOL_NO_suff
  +Sg+Nom: # ;
 
 LEXICON SYMBOL_suff
- +Sg+Gen:n       # ;
- +Sg+Acc:m       # ;
- +Sg+Ill:se      # ;
- +Sg+Ine:sne     # ;
- +Sg+Ela:ste     # ;
- +Sg+Com:ine     # ;
-    +Ess:ine     # ;
- +Pl+Nom:h       # ;
- +Pl+Gen:ij      # ;
- +Pl+Acc:ide     # ;
- +Pl+Ill:ide     # ;
- +Pl+Ine:ine     # ;
- +Pl+Ela:jste    # ;
- +Pl+Com:jgujmie # ;
++N+Sg+Loc:%>т # ;
++N+Sg+Lat:%>н # ;
++N+Sg+Abl:%>ыныл # ;
++N+Sg+Ins:%>ыл # ;
++N+Sg+Tra:%>ыг # ;
+
++N+Du+Nom:%>ыг # ;
++N+Du+Loc:%>ыгт # ;
++N+Du+Lat:%>ыгн # ;
++N+Du+Abl:%>ыгныл # ;
++N+Du+Ins:%>ыгтыл # ;
+
++N+Pl+Nom:%>ыт # ;
++N+Pl+Loc:%>ытт # ;
++N+Pl+Lat:%>ытн # ;
+
++N+Pl+Lat:%>ытын # ;
++N+Pl+Abl:%>ытныл # ;
++N+Pl+Ins:%>ытыл # ;
