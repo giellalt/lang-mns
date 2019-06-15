@@ -3,13 +3,15 @@
 
 !! No work on adjectives yet.
 
-LEXICON Comparisons
-+A+Pos:0        #   ;
-+A+Comp:хх       #   ; ! fix this
-+A+Superl:      #   ;  ! fix this
 
 LEXICON A_
 +A+Attr:   # ;
++A: Comparisons ;
+
+LEXICON Comparisons
++Pos:0        #   ;
++Comp:%>ыв       #   ; ! fix this
++Superl:%>xxx      #   ;  ! fix this
 
 
 

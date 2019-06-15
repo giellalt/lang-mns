@@ -5,11 +5,17 @@
 
 LEXICON Pronouns
 personal ;
-pronoun    #   ;
+!pronoun    #   ;
 
 LEXICON personal
 ам+Pron+Pers+Sg1+Nom:ам # ;
 наӈ+Pron+Pers+Sg2+Nom:наӈ # ;
 тав+Pron+Pers+Sg3+Nom:тав # ;
+ам+Pron+Pers+Du1+Nom:Ме̄н # ;
+наӈ+Pron+Pers+Du2+Nom:нэ̄н # ;
+тав+Pron+Pers+Du3+Nom:тэ̄н # ;
+ам+Pron+Pers+Pl1+Nom:ма̄н # ;
+наӈ+Pron+Pers+Pl2+Nom:на̄н # ;
+тав+Pron+Pers+Pl3+Nom:та̄н # ;
 
 ! vim: set ft=xfst-lexc:

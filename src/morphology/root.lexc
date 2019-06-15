@@ -53,11 +53,34 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num +Prc !!≈
+ +N		   !!= * __@CODE@__  
+ +A 	   !!= * __@CODE@__  
+ +Adv 	   !!= * __@CODE@__  
+ +V        !!= * __@CODE@__                             
+ +Pron 	   !!= * __@CODE@__  
+ +CS 	   !!= * __@CODE@__  
+ +CC 	   !!= * __@CODE@__  
+ +Adp 	   !!= * __@CODE@__  
+ +Po 	   !!= * __@CODE@__  
+ +Pr 	   !!= * __@CODE@__  
+ +Interj   !!= * __@CODE@__  
+ +Pcle 	   !!= * __@CODE@__  
+ +Num 	   !!= * __@CODE@__  
+ +Prc 	   !!= * __@CODE@__  
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+				
+ +Prop 	    !!= * __@CODE@__ 
+ +Pers 	    !!= * __@CODE@__ 
+ +Dem 	    !!= * __@CODE@__ 
+ +Interr    !!= * __@CODE@__ 
+ +Refl 	    !!= * __@CODE@__ 
+ +Recipr    !!= * __@CODE@__ 
+ +Rel 	    !!= * __@CODE@__ 
+ +Indef	    !!= * __@CODE@__ 
+
+
++Imp			     !!= * __@CODE@__ 
 
 !! The Usage extents are marked using following tags:
  +Err/Orth
@@ -65,75 +88,84 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Nom +Gen +Par +Acc
+ +Nom 
+ +Acc
 
  +Abl !!= * @CODE@  ныл
- +Ins !!= * @CODE@ тыл
+ +Ins   !!= * @CODE@ тыл
+ +Instr !!= * __@CODE@__ 
  +Lat !!= * @CODE@ Ын (2007: Дательный падеж)
  +Loc !!= * @CODE@  Ыт
  +Tra !!= * @CODE@  Ыг
 
- +Ill +Com +Com/Sh !!= * @CODE@ are these needed?
- +Ade +All
 
 
 !! The comparative forms are:
- +Comp +Superl
+ +Pos			     !!= * __@CODE@__ 
+ +Comp 	     !!= * __@CODE@__ 
+ +Superl	     !!= * __@CODE@__ 
+ +Attr	     !!= * __@CODE@__ 
+
+
 !! Numerals are classified under:
- +Attr +Card
- +Ord
+  +Card	     !!= * __@CODE@__ 
+ +Ord	     !!= * __@CODE@__ 
 
 
 !! Personal pronouns are marked as
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3 
+ +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3   !!= * __@CODE@__ 
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3  !!= * __@CODE@__ 
 
 !! Verb personal forms are:
- +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3
- +OcSg3 +OcDu3 +OcPl3
+ +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3  !!= * __@CODE@__ 
+ +OcSg3 +OcDu3 +OcPl3  !!= * __@CODE@__ 
 
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Ind +Prs +Prt +Pot +Cond +Imprt  !!= * __@CODE@__ 
 
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass  !!= * __@CODE@__ 
 
 ! Abbreviated words are classified with:
- +ABBR +ACR
+ +ABBR +ACR  !!= * __@CODE@__ 
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
++CLB +PUNCT +LEFT +RIGHT  !!= * __@CODE@__ 
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +TV +IV  !!= * __@CODE@__ 
+ +Trans !!= * __@CODE@__ hmm, Trans and TV?
+ 
 !! Special multiword units are analysed with:
- +Multi
+ +Multi  !!= * __@CODE@__ 
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess  !!= * __@CODE@__ 
 
 !! Question and Focus particles:
- +Qst +Foc
+ +Qst +Foc  !!= * __@CODE@__ 
 
 
 !! Semantics are classified with
- +Sem/Mal +Sem/Fem +Sem/Sur
- +Sem/Plc
- +Sem/Org
- +Sem/Obj
- +Sem/Ani
- +Sem/Hum
- +Sem/Plant
- +Sem/Group
- +Sem/Time
- +Sem/Txt
- +Sem/Route
- +Sem/Measr
- +Sem/Wthr
- +Sem/Build
- +Sem/Edu
- +Sem/Veh
- +Sem/Clth
+! +Sem/Mal     !!= * __@CODE@__ 
+! +Sem/Fem     !!= * __@CODE@__ 
+! +Sem/Sur     !!= * __@CODE@__ 
+ +Sem/Plc     !!= * __@CODE@__ 
+! +Sem/Org     !!= * __@CODE@__ 
+! +Sem/Obj     !!= * __@CODE@__ 
+! +Sem/Ani     !!= * __@CODE@__ 
+! +Sem/Hum     !!= * __@CODE@__ 
+! +Sem/Plant   !!= * __@CODE@__ 
+! +Sem/Group   !!= * __@CODE@__ 
+! +Sem/Time    !!= * __@CODE@__ 
+! +Sem/Txt     !!= * __@CODE@__ 
+! +Sem/Route   !!= * __@CODE@__ 
+! +Sem/Measr   !!= * __@CODE@__ 
+! +Sem/Wthr    !!= * __@CODE@__ 
+! +Sem/Build   !!= * __@CODE@__ 
+! +Sem/Edu     !!= * __@CODE@__ 
+! +Sem/Veh     !!= * __@CODE@__ 
+! +Sem/Clth    !!= * __@CODE@__ 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
@@ -155,23 +187,23 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols (archiphones) in the lexicon files:
-%{АЯØ%}	!!= __@CODE@__
-%{ЫИØ%}	!!= __@CODE@__
-%{ЫØ%}	!!= __@CODE@__ +Loc
-%{УØ%}	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
-%{УЮØ%}	!!= __@CODE@__
-%{ТØ%}	!!= __@CODE@__
-%{ЭЕ%}	!!= __@CODE@__ PxSg3
-%{ЭЕLong%}	!!= __@CODE@__ PxDu3
+!%{АЯØ%}	!!= __@CODE@__
+!%{ЫИØ%}	!!= __@CODE@__
+!%{ЫØ%}	!!= __@CODE@__ +Loc
+!%{УØ%}	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
+!%{УЮØ%}	!!= __@CODE@__
+!%{ТØ%}	!!= __@CODE@__
+!%{ЭЕ%}	!!= __@CODE@__ PxSg3
+!%{ЭЕLong%}	!!= __@CODE@__ PxDu3
 
 
 !! And following triggers to control variation
- {front} {back}
-%^PxDu2	!!= __@CODE@__
-%^PxDu3	!!= __@CODE@__
-%^PxPl2	!!= __@CODE@__
-%^RmVow	!!= __@CODE@__ Word-final vowel removal
-%^Syncope	!!= __@CODE@__ triggers syncope, no reason for special letters in the stem.
+! {front} {back}
+!%^PxDu2	!!= __@CODE@__
+!%^PxDu3	!!= __@CODE@__
+!%^PxPl2	!!= __@CODE@__
+!%^RmVow	!!= __@CODE@__ Word-final vowel removal
+!%^Syncope	!!= __@CODE@__ triggers syncope, no reason for special letters in the stem.
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -199,6 +231,14 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! given the proper use of these flags.
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
+ 
+ 
+ 
+ !! !!Tags that are in use in the transducer, mostly from common files
+ 
+
+ 
+ 
 
 LEXICON Root
 !! The word forms in the MANSI language start from the lexeme roots of basic
