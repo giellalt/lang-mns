@@ -5,11 +5,11 @@
 
 LEXICON Comparisons
 +A+Pos:0        #   ;
-+A+Cmp:er       #   ;
-+A+Sup:est      #   ;
++A+Comp:хх       #   ; ! fix this
++A+Superl:      #   ;  ! fix this
 
 LEXICON A_
-+A:   # ;
++A+Attr:   # ;
 
 
 
