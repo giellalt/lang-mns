@@ -50,6 +50,11 @@ Alphabet
 ! PROPOSAL: leave this question for later.
 
 !! Archiphones
+%{ЫИ%}:и	!!= __@CODE@__
+%{ЫИ%}:ы	!!= __@CODE@__
+%{ЭЕLong%}:е̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
+%{ЭЕLong%}:э̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
+
 %{АЯØ%}:0	!!= __@CODE@__
 %{ЫИØ%}:0	!!= __@CODE@__
 %{ЫØ%}:0	!!= __@CODE@__ +Loc
@@ -57,7 +62,6 @@ Alphabet
 %{УЮØ%}:0	!!= __@CODE@__
 %{ТØ%}:0	!!= __@CODE@__
 %{ЭЕ%}:0	!!= __@CODE@__ PxSg3
-%{ЭЕLong%}:0	!!= __@CODE@__ PxDu3
 
 
 !! Trigger
@@ -98,10 +102,10 @@ LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ;
  CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ
              Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ  ;
 
- CnsAlv = д з л н р с т
-          Д З Л Н Р С Т ;
+ CnsAlv = д з л н с т
+          Д З Л Н С Т ;
 
- Cns = CnsSoft CnsNonAlv CnsAlv ;
+ Cns = CnsSoft CnsNonAlv CnsAlv  р Р ;
 
 
 Definitions
@@ -116,20 +120,37 @@ Rules
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=> Vow %>   _ Cns ;
         Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
+       _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | а | у | н ӯ | н у |в е | в е̄ ] ;
 
 !!€ апа>ыт
 !!€ апа>0т
 
 "Palatalising suffix vowel after и/ы stems"
 а:я <=> [и|ы] %> _ Cns:+ Vow ;
+        й:  %> _ Cns:+ ;
 
-! TODO: Fix these two rules
-"Deleting vowel in suffix for vowel stems"
-Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
-        where Vx in (а у е) ;
+"Palatalising suffix vowel after й ь "
+у:ю <=> [й: | ь: ]  %> _ Cns:+ ;
 
-!!€ са̄лы>агын
-!!€ са̄лы>ягын
+
+ "NO Palatalization of suffix vowels"
+ Vx:Vy <=> CnsAlv %> _ ;
+  where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
+        Vy in ( ы   э   э̄ )
+        matched ;
+
+!!+V+Ind+Prs+ScSg1:
+!!€ >%{ЭЕLong%}гум
+
+
+ "Palatalization of suffix vowels"
+ Vx:Vy <=> [ ь: | р | Р | CnsNonAlv | й: | щ ] %> _ ;
+  where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
+        Vy in ( и   е   е̄ )
+        matched ;
+
+!!+V+Ind+Prs+ScSg1:
+!!€ >%{ЭЕLong%}гум
 
 "Palatalising suffix ы for palatal stems"
 ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] %> _ Cns ;
@@ -139,6 +160,18 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 !!€ вармал0>ит
 !!$ та̄л>ыг
 !!$ та̄л>иг
+
+"Removing й before suffix onset"
+й:0 <=> _ %> [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | ы: | а: | у: ] ;
+
+
+! TODO: Fix these two rules
+"Deleting vowel in suffix for vowel stems"
+Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
+        where Vx in (а у е) ;
+
+!!€ са̄лы>агын
+!!€ са̄лы>ягын
 
 
 "Soft sign deletion for и suffixes"
