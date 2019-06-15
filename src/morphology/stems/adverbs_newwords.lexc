@@ -8,6 +8,9 @@ LEXICON ADV_NEWWORDS
 !! ADD ADVERBS BELOW
 
 ! These are derived from words/dicts/mnshun/src/..xml
+вос:вос ADV-AUX_ ;
+ла̄тӈе:ла̄тӈе ADV_ ;
+
 а̄ла-ты:а̄ла-ты ADV_ ;
 а̄лпыл:а̄лпыл ADV_ ;
 а̄стлахтым:а̄стлахтым ADV_ ;
@@ -162,6 +165,7 @@ LEXICON ADV_NEWWORDS
 щама:щама ADV_ ;
 щар:щар ADV_ ;
 що̄питахтым:що̄питахтым ADV_ ;
+э̄лаль:э̄лаль ADV_ ;
 э̄лнув:э̄лнув ADV_ ;
 э̄ти:э̄ти ADV_ ;
 ювле:ювле ADV_ ;

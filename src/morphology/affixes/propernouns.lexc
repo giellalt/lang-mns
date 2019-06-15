@@ -7,12 +7,12 @@
 
 
 LEXICON PROP !! The only lexicon is {{PROP}}, it goes to K via singular cases.
-+N+Prop+Sg+Nom: K ;
-+N+Prop+Sg+Loc:%>т K ;
-+N+Prop+Sg+Lat:%>н K ;
-+N+Prop+Sg+Abl:%>ыныл K ;
-+N+Prop+Sg+Instr:%>ыл K ;
-+N+Prop+Sg+Trans:%>ыг K ;
++Sg+Nom: K ;
++Sg+Loc:%>т K ;
++Sg+Lat:%>н K ;
++Sg+Abl:%>ыныл K ;
++Sg+Instr:%>ыл K ;
++Sg+Trans:%>ыг K ;
 
 
 ! vim: set ft=xfst-lexc:

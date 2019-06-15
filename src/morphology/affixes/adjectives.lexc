@@ -10,8 +10,9 @@ LEXICON A_
 
 LEXICON Comparisons
 +Pos:0        #   ;
-+Comp:%>ыв       #   ; ! fix this
-+Superl:%>xxx      #   ;  ! fix this
++Comp:%>нув       #   ; ! fix this
++Comp:%>нуве       #   ; ! fix this
+!+Superl:%>xxx      #   ;  ! fix this
 
 
 

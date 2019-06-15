@@ -18,4 +18,6 @@ LEXICON personal
 наӈ+Pron+Pers+Pl2+Nom:на̄н # ;
 тав+Pron+Pers+Pl3+Nom:та̄н # ;
 
+хо̄тпа+Pron+Indef+Nom:хо̄тпа # ;
+
 ! vim: set ft=xfst-lexc:

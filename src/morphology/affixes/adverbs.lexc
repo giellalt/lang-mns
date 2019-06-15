@@ -6,6 +6,9 @@
 LEXICON ADV_
 +Adv:        #   ;
 
+LEXICON ADV-AUX_
++Adv+Aux:        #   ;
+
 
 
 ! vim: set ft=xfst-lexc:

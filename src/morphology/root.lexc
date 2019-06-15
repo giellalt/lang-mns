@@ -78,7 +78,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Recipr    !!= * __@CODE@__ 
  +Rel 	    !!= * __@CODE@__ 
  +Indef	    !!= * __@CODE@__ 
-
+ +Aux	    !!= * __@CODE@__ Auxiliary
 
 +Imp			     !!= * __@CODE@__ 
 
@@ -172,6 +172,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! source and target part-of-speech.
  +V→N +V→V +V→A
  +Der/xxx
++Der
++Der/Yng !!= * __@CODE@__ N» ыӈ A_ 
 
 
         !! !!Symbols that need to be escaped on the lower side (towards twolc):
@@ -193,8 +195,10 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !%{УØ%}	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
 !%{УЮØ%}	!!= __@CODE@__
 !%{ТØ%}	!!= __@CODE@__
-!%{ЭЕ%}	!!= __@CODE@__ PxSg3
-!%{ЭЕLong%}	!!= __@CODE@__ PxDu3
+
+%{ЫИ%}	!!= __@CODE@__ +V+Ind+Prs+OcSg3+ScSg1
+%{ЭЕLong%}	!!= __@CODE@__ +V+Ind+Prs+ScSg1, PxDu3
+%{ЭЕ%}	!!= __@CODE@__ +V+Ind+Prs+ScDu2, PxSg3
 
 
 !! And following triggers to control variation
@@ -263,6 +267,7 @@ LEXICON Root
  ADV_NEWWORDS ;	  !!= __@CODE@__ adverbs
  N_NEWWORDS ; 	  !!= __@CODE@__ nouns
  NUM_NEWWORDS ;   !!= __@CODE@__ numerals
+
 
 LEXICON K !!= * @CODE@ for evt. clitic
 # ;
