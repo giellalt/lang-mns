@@ -1,19 +1,20 @@
 !! Adverbs
-!  ----------
 !! Adverbs in the Northern Mansi language describe things.
+!  ----------
+
 
 LEXICON Adverbs
-туп     ADV_ ;
-тот     ADV_ ;
-сака    ADV_ ;
-мощща   ADV_ ;
-ул      ADV_ ;
-кон     ADV_ ;
-воссыг  ADV_ ;
-а̄ти    ADV_ ;
-ёмащаквег      ADV_ ;
-ёмщакв  ADV_ ;
 
 
+а̄ти+Adv:а̄ти    ADV_ ;
+воссыг+Adv:воссыг  ADV_ ;
+кон+Adv:кон     ADV_ ;
+мощща+Adv:мощща   ADV_ ;
+сака+Adv:сака    ADV_ ;
+тот+Adv:тот     ADV_ ;
+туп+Adv:туп     ADV_ ;
+ул+Adv:ул      ADV_ ;
+ёмащаквег+Adv:ёмащаквег      ADV_ ;
+ёмщакв+Adv:ёмщакв  ADV_ ;
 
 ! vim: set ft=xfst-lexc:

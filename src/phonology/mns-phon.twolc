@@ -54,6 +54,7 @@ Alphabet
 %{ЫИ%}:ы	!!= __@CODE@__
 %{ЭЕLong%}:е̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
+%{йØ%}:0	!!= __@CODE@__ ыг
 
 %{АЯØ%}:0	!!= __@CODE@__
 %{ЫИØ%}:0	!!= __@CODE@__
@@ -72,9 +73,28 @@ Alphabet
 %^RmVow:0	!!= __@CODE@__ Word-final vowel removal
 %^Syncope:0	!!= __@CODE@__ This triggers syncope with no reason to place special letters in the stem.
 
+!! Literal quotes and angles must be escaped (cf morpheme boundaries below):
+
+ »7     !! * »
+ «7     !! * «
+ %[%>%] !! * >
+ %[%<%] !! * <
+
 !! BOUNDARIES
  %> #
-;
+!! Morpheme boundaries:
+ «  ! Derivational prefix
+ »  ! Derivational suffix
+ %< ! Inflectional prefix
+ %> ! Inflectional suffix
+ #  ! Word boundary for both lexicalised and dynamic compounds
+ %^ ! (exceptional) soft hyphenation point
+ %- ! Hyphen for question particle
+ ð ! Compounding rules
+
+!! End of alphabet definitions
+ ;
+
 
 Sets
 
@@ -120,14 +140,15 @@ Rules
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=> Vow %>   _ Cns ;
         Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-       _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | а | у | н ӯ | н у |в е | в е̄ ] ;
+      Cns _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | а | у | н ӯ | н у |в е | в е̄ ] ;
 
 !!€ апа>ыт
 !!€ апа>0т
 
 "Palatalising suffix vowel after и/ы stems"
-а:я <=> [и|ы] %> _ Cns:+ Vow ;
-        й:  %> _ Cns:+ ;
+а:я <=>  й: (ы:0)  %> _ Cns:+ ;
+!where 2019-06-16 [и|ы] %> _ Cns:+ Vow ;
+      
 
 "Palatalising suffix vowel after й ь "
 у:ю <=> [й: | ь: ]  %> _ Cns:+ ;
@@ -153,7 +174,7 @@ Rules
 !!€ >%{ЭЕLong%}гум
 
 "Palatalising suffix ы for palatal stems"
-ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] %> _ Cns ;
+ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> _ Cns ;
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
 !!€ вармаль>ыт
@@ -162,7 +183,7 @@ Rules
 !!$ та̄л>иг
 
 "Removing й before suffix onset"
-й:0 <=> _ %> [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | ы: | а: | у: ] ;
+й:0 <=> _ (ы:0) %> [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | ы: | а: | у: ] ;
 
 
 ! TODO: Fix these two rules
@@ -175,11 +196,11 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 
 
 "Soft sign deletion for и suffixes"
-ь:0 <=> Cns _ %> :PalVow ;
+ь:0 <=> Cns _ (ы:0) %> :PalVow ;
 !above
 
-"й instertion for vowel initial suffixes on ы final stems"
-0:й <=> [ы|и] %> _ ы г ;
+"%{йØ%}:й instertion for vowel initial suffixes on ы final stems"
+%{йØ%}:й <=> [ы|и] %> _ ы г ;
 
 !!€ са̄лы>0ыг
 !!€ са̄лы>йыг

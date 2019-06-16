@@ -3,8 +3,8 @@
 
 !! The tag is +Interj
 
-LEXICON ij
-+Interj: # ;
+LEXICON INTERJ_
+: # ;
 
 
 !! Then comes the list of the conjunctions,
@@ -12,5 +12,5 @@ LEXICON ij
 
 LEXICON Interjections
 
-та ij ;
+та+Interj:та INTERJ_ ;
 
