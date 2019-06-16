@@ -5,8 +5,8 @@
 
 
 LEXICON A_
-+A+Attr:   # ;
-+A: Comparisons ;
++Attr:   # ;
+: Comparisons ;
 
 LEXICON Comparisons
 +Pos:0        #   ;

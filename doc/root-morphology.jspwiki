@@ -84,7 +84,7 @@ Verb personal forms are:
  * __ +OcSg3 +OcDu3 +OcPl3  __ 
 
 Verb moods are:
- * __ +Ind +Prs +Prt +Pot +Cond +Imprt  __ 
+ * __ +Ind +Prs +Prt +Pot +Cond +Imprt +Evid __ 
 
 Other verb forms are
  * __ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass  __ 
@@ -104,6 +104,34 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
  * __ +Qst +Foc  __ 
+
+
+
+!Tags distinguishing different versions of the same lemma (before POS)
+ * +v1
+ * +v2
+ * +v3
+ * +v4
+ * +v5
+ * +v6
+ * +v7
+ * +v8
+ * +v9
+ * +v10
+ * +v11
+ * +v12
+ * +v13
+ * +v14
+ * +v15
+ * +v16
+ * +v17
+ * +v18
+ * +v19
+ * +v20
+ * +v21
+ * +v22
+ * +v23
+ * +v24
 
 
 Semantics are classified with
@@ -131,6 +159,7 @@ symbols (archiphones) in the lexicon files:
  __%{ЫИ%}	__ +V+Ind+Prs+OcSg3+ScSg1
  __%{ЭЕLong%}	__ +V+Ind+Prs+ScSg1, PxDu3
  __%{ЭЕ%}	__ +V+Ind+Prs+ScDu2, PxSg3
+ __%{йØ%}	__ ыг
 
 
 And following triggers to control variation

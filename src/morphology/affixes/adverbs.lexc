@@ -4,10 +4,10 @@
 !! No work on adverbs yet.
 
 LEXICON ADV_
-+Adv:        #   ;
+:        #   ;
 
 LEXICON ADV-AUX_
-+Adv+Aux:        #   ;
++Aux:        #   ;
 
 
 
