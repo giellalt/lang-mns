@@ -45,6 +45,11 @@
 Ӯ (->) У, # Cyrillic у + U+0304 (->) basic
 ӯ (->) у, # Cyrillic у + U+0304 (->) basic
 
+Ӣ (->) Ӣ, # precomposed (->) Cyrillic И + U+0304 
+ӣ (->) ӣ, # precomposed (->) Cyrillic и + U+0304 
+Ӯ (->) Ӯ, # precomposed (->) Cyrillic у + U+0304 
+ӯ (->) ӯ, # precomposed (->) Cyrillic у + U+0304 
+
 # lazy (missing) length:
 А̄ (->) А, # 
 а̄ (->) а, # 
@@ -54,8 +59,6 @@
 ё̄ (->) ё,  # 
 О̄ (->) О, # 
 о̄ (->) о, # 
-Ӯ (->) У, # Ӯӯ
-ӯ (->) у, # 
 Ы̄ (->) Ы, # 
 ы̄ (->) ы, # 
 Э̄ (->) Э, # 
