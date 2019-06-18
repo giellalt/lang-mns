@@ -55,6 +55,9 @@ Alphabet
 %{ЭЕLong%}:е̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
 %{йØ%}:0	!!= __@CODE@__ ыг
+%{ыØ%}:ы	!!= __@CODE@__ specific floating vowel 
+%{иØ%}:и	!!= __@CODE@__ specific floating vowel 
+%{уØ%}:у	!!= __@CODE@__ specific floating vowel 
 
 %{АЯØ%}:0	!!= __@CODE@__
 %{ЫИØ%}:0	!!= __@CODE@__
@@ -136,14 +139,21 @@ PostSyncStem  =  :Cns   ;
 
 Rules
 
+ "floating vowel in Archivowels"
+ Vx:Vy <=>  _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы ] ;
+  where Vx in ( %{ыØ%} %{иØ%}  %{уØ%} )
+        Vy in ( 0   0   0 )
+        matched ;
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=> Vow %>   _ Cns ;
         Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-      Cns _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | а | у | н ӯ | н у |в е | в е̄ ] ;
+      Cns _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | а | у | н ӯ | н у | н э |в е | в е̄ ] ;
 
 !!€ апа>ыт
 !!€ апа>0т
+
+
 
 "Palatalising suffix vowel after и/ы stems"
 а:я <=>  й: (ы:0)  %> _ Cns:+ ;
@@ -165,25 +175,31 @@ Rules
 
 
  "Palatalization of suffix vowels"
- Vx:Vy <=> [ ь: | р | Р | CnsNonAlv | й: | щ ] %> _ ;
+ Vx:Vy <=> [ ь: | р | Р | CnsNonAlv | й: | CnsSoft ] ( ы: ) %> (%{йØ%}:0)  _ ;
   where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
         Vy in ( и   е   е̄ )
         matched ;
+
+!!ве̄рмуӈкве+Ind+Prs+OcPl3+ScSg3:
+!!€ ве̄рмы%>%{ЫИ%}янэ
+!!€ ве̄рм0%>иянэ
 
 !!+V+Ind+Prs+ScSg1:
 !!€ >%{ЭЕLong%}гум
 
 "Palatalising suffix ы for palatal stems"
-ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> _ Cns ;
+ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> (%{йØ%}:0) _ Cns ;
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
+
 
 !!€ вармаль>ыт
 !!€ вармал0>ит
 !!$ та̄л>ыг
 !!$ та̄л>иг
 
+
 "Removing й before suffix onset"
-й:0 <=> _ (ы:0) %> [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | ы: | а: | у: ] ;
+й:0 <=> _ (ы:0) %> [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | ( %{йØ%}:0 ) ы: | а: | у: ] ;
 
 
 ! TODO: Fix these two rules

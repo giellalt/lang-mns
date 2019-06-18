@@ -22,8 +22,14 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 !! !!Letters in alphabet
 !! Vowels with a macron
-а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄
-А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄
+а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄
+А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄
+
+!! Vowels with precomposed macron
+ӣ        !!! йӣквыт
+Ӣ        !!! йӣквыт
+ӯ        !!! ӯ  !!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+Ӯ	 !!! CYRILLIC CAPITAL LETTER U WITH MACRON
 
 %+
 
@@ -31,18 +37,16 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 ! This section copied from mansi-lexicon.lexc, looks spurious:
 ! We don't want latin letters
 ! Finug  !!! L-S !!! Notes:
-ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON
-ē        !!! 
+!ā        !!!    !!! 257 ā #\LATIN_SMALL_LETTER_A_WITH_MACRON
+!ē        !!! 
 !ё̄        !!! 
-ӣ        !!! йӣквыт
-ō        !!!    !!! (333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
-ӯ        !!! ӯ  !!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
-ы̄        !!! ??? http://www.nba.fi/hanti/mn/intro1.php
-э̄        !!! 
-ю̄        !!! 
-я̄        !!! 
+!ō        !!!    !!! (333 ō #\LATIN_SMALL_LETTER_O_WITH_MACRON)
+!ы̄        !!! ??? http://www.nba.fi/hanti/mn/intro1.php
+!э̄        !!! 
+!ю̄        !!! 
+!я̄        !!! 
 
-ы2        !!! syncopating vowel symbol
+!ы2        !!! syncopating vowel symbol
 
 ! end of spurious section.
 
@@ -74,7 +78,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +Pers 	    !!= * __@CODE@__ 
  +Dem 	    !!= * __@CODE@__ 
  +Interr    !!= * __@CODE@__ 
- +Refl 	    !!= * __@CODE@__ 
+ +Refl 	    !!= * __@CODE@__ this is also used for +Nom intensfier
  +Recipr    !!= * __@CODE@__ 
  +Rel 	    !!= * __@CODE@__ 
  +Indef	    !!= * __@CODE@__ 
@@ -85,6 +89,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !! The Usage extents are marked using following tags:
  +Err/Orth
  +Use/-Spell
+ +Use/NG
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
@@ -202,8 +207,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
  +V→N +V→V +V→A
  +Der/xxx
 +Der
-+Der/Yng !!= * __@CODE@__ N» ыӈ A_ 
-
++Der/Yng     !!= * __@CODE@__ N» ыӈ A_ Proprietive as in kpv -а
++Der/Yshch   !!= * __@CODE@__ A» ыщ ADV_
 
         !! !!Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ ; @CODE@ : Literal »
@@ -229,6 +234,9 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 %{ЭЕLong%}	!!= __@CODE@__ +V+Ind+Prs+ScSg1, PxDu3
 %{ЭЕ%}	!!= __@CODE@__ +V+Ind+Prs+ScDu2, PxSg3
 %{йØ%}	!!= __@CODE@__ ыг
+%{ыØ%}	!!= __@CODE@__ specific floating vowel 
+%{иØ%}	!!= __@CODE@__ specific floating vowel 
+%{уØ%}	!!= __@CODE@__ specific floating vowel 
 
 
 !! And following triggers to control variation
@@ -297,7 +305,7 @@ LEXICON Root
  ADV_NEWWORDS ;	  !!= __@CODE@__ adverbs
  N_NEWWORDS ; 	  !!= __@CODE@__ nouns
  NUM_NEWWORDS ;   !!= __@CODE@__ numerals
-
+ EXCEPTIONS ; 	  !!= __@CODE@__ exceptions
 
 LEXICON K !!= * @CODE@ for evt. clitic
 # ;

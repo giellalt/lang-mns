@@ -7,6 +7,7 @@
 LEXICON A_
 +Attr:   # ;
 : Comparisons ;
++Der+Der/Yshch+Adv:%>ыщ ADV_ ;
 
 LEXICON Comparisons
 +Pos:0        #   ;

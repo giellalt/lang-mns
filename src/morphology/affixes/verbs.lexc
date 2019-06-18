@@ -13,10 +13,12 @@ LEXICON V11_odd
  V11_MUTUAL ;
 
 LEXICON V11_MUTUAL
++PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
  V11_MUTUAL-IND ;
  V11_MUTUAL-IMPRT ;
  V11_MUTUAL-COND	  ;
  V11_MUTUAL-PASS ;
+:%>а V11_MUTUAL-PASS ;
 
 LEXICON V11_MUTUAL-IND
 +Ind+Prs+ScSg1:%>%{ЭЕLong%}гум K ;
@@ -205,30 +207,30 @@ LEXICON V11_MUTUAL-PASS
 +Pass+Prt+ScPl2:%>весы̄н K ;
 +Pass+Prt+ScPl3:%>ве̄сыт K ;
 
-+Pass+Prs+ScSg1:%>авем K ;
-+Pass+Prs+ScSg2:%>авен K ;
-+Pass+Prs+ScSg3:%>аве K ;
-+Pass+Prs+ScDu1:%>авемена K ;
-+Pass+Prs+ScDu1:%>авеме̄н K ;
-+Pass+Prs+ScDu2:%>авена K ;
-+Pass+Prs+ScDu2:%>аве̄н K ;
-+Pass+Prs+ScDu3:%>авега K ;
-+Pass+Prs+ScDu3:%>аве̄г K ;
-+Pass+Prs+ScPl1:%>авева K ;
-+Pass+Prs+ScPl1:%>аве̄в K ;
-+Pass+Prs+ScPl2:%>авена K ;
-+Pass+Prs+ScPl2:%>аве̄н K ;
-+Pass+Prs+ScPl3:%>авет K ;
+!+Pass+Prs+ScSg1:%>авем K ;
+!+Pass+Prs+ScSg2:%>авен K ;
+!+Pass+Prs+ScSg3:%>аве K ;
+!+Pass+Prs+ScDu1:%>авемена K ;
+!+Pass+Prs+ScDu1:%>авеме̄н K ;
+!+Pass+Prs+ScDu2:%>авена K ;
+!+Pass+Prs+ScDu2:%>аве̄н K ;
+!+Pass+Prs+ScDu3:%>авега K ;
+!+Pass+Prs+ScDu3:%>аве̄г K ;
+!+Pass+Prs+ScPl1:%>авева K ;
+!+Pass+Prs+ScPl1:%>аве̄в K ;
+!+Pass+Prs+ScPl2:%>авена K ;
+!+Pass+Prs+ScPl2:%>аве̄н K ;
+!+Pass+Prs+ScPl3:%>авет K ;
 
-+Pass+Prt+ScSg1:%>аве̄сум K ;
-+Pass+Prt+ScSg2:%>авесын K ;
-+Pass+Prt+ScSg3:%>авес K ;
-+Pass+Prt+ScDu1:%>авесме̄н K ;
-+Pass+Prt+ScDu2:%>авесы̄н K ;
-+Pass+Prt+ScDu3:%>авесы̄г K ;
-+Pass+Prt+ScPl1:%>авесӯв K ;
-+Pass+Prt+ScPl2:%>авесы̄н K ;
-+Pass+Prt+ScPl3:%>аве̄сыт K ;
+!+Pass+Prt+ScSg1:%>аве̄сум K ;
+!+Pass+Prt+ScSg2:%>авесын K ;
+!+Pass+Prt+ScSg3:%>авес K ;
+!+Pass+Prt+ScDu1:%>авесме̄н K ;
+!+Pass+Prt+ScDu2:%>авесы̄н K ;
+!+Pass+Prt+ScDu3:%>авесы̄г K ;
+!+Pass+Prt+ScPl1:%>авесӯв K ;
+!+Pass+Prt+ScPl2:%>авесы̄н K ;
+!+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
