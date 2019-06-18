@@ -53,7 +53,7 @@
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON _N01
+LEXICON N-01_
 
  ! non possessive forms
  
@@ -268,3 +268,4 @@ LEXICON _N01
 
 ! Derivation
 +Der+Der/Yng+A:%>ыӈ A_ ;
++Der+Der/Yng+A+Der+Der/Yshch+Adv:%>ыщ ADV_ ;

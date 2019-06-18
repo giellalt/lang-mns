@@ -8,10 +8,14 @@ LEXICON NUM_
 +A+Ord:%>ыт # ;
 
 LEXICON NUM-2-9_
-+Num:        #   ;
-+Num:хойплов # "teens" ;
-+Num:са̄т # "hundreds" ;
-+A+Ord:%>ыт # "ordinal numerals" ;
++Num:        ORD_   ;
++Num:хойплов ORD_ "teens" ;
++Use/NG+Num:хуйпулув ORD_ "teens" ;
++Use/NG+Num:хуйплов ORD_ "teens" ;
++Num:са̄тORD_# "hundreds" ;
+
+LEXICON ORD_
++Ord:%>ыт # "ordinal numerals" ;
 
 
 ! vim: set ft=xfst-lexc:

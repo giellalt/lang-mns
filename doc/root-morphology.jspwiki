@@ -8,6 +8,8 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
 !!Letters in alphabet
 Vowels with a macron
 
+Vowels with precomposed macron
+
 
 
 
@@ -40,7 +42,7 @@ The parts of speech are further split up into:
  * __ +Pers 	    __ 
  * __ +Dem 	    __ 
  * __ +Interr    __ 
- * __ +Refl 	    __ 
+ * __ +Refl 	    __ this is also used for +Nom intensfier
  * __ +Recipr    __ 
  * __ +Rel 	    __ 
  * __ +Indef	    __ 
@@ -140,8 +142,8 @@ Semantics are classified with
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
- * __+Der/Yng __ N» ыӈ A_ 
-
+ * __+Der/Yng     __ N» ыӈ A_ Proprietive as in kpv -а
+ * __+Der/Yshch   __ A» ыщ ADV_
 
 !!Symbols that need to be escaped on the lower side (towards twolc):
  ; »7 : Literal »
@@ -160,6 +162,9 @@ symbols (archiphones) in the lexicon files:
  __%{ЭЕLong%}	__ +V+Ind+Prs+ScSg1, PxDu3
  __%{ЭЕ%}	__ +V+Ind+Prs+ScDu2, PxSg3
  __%{йØ%}	__ ыг
+ __%{ыØ%}	__ specific floating vowel 
+ __%{иØ%}	__ specific floating vowel 
+ __%{уØ%}	__ specific floating vowel 
 
 
 And following triggers to control variation
@@ -219,7 +224,7 @@ NEWWORDS FILES
  __ ADV_NEWWORDS ;	  __ adverbs
  __ N_NEWWORDS ; 	  __ nouns
  __ NUM_NEWWORDS ;   __ numerals
-
+ __ EXCEPTIONS ; 	  __ exceptions
 
  * LEXICON K  for evt. clitic
 

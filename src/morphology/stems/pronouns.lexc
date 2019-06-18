@@ -102,7 +102,19 @@ LEXICON personal
 тав+v1+Pron+Pers+Pl3+Ins:та̄нанылтыл # ;
 тав+v2+Pron+Pers+Pl3+Ins:та̄нананылтыл # ;
 
+ам+Pron+Pers+Refl+Sg1+Nom:амки # ;
+наӈ+Pron+Pers+Refl+Sg2+Nom:наӈки # ;
+тав+Pron+Pers+Refl+Sg3+Nom:тавки # ;
+ам+v1+Pron+Pers+Refl+Du1+Nom:ме̄нки # ;
+ам+v2+Pron+Pers+Refl+Du1+Nom:ме̄йики # ;
+наӈ+Pron+Pers+Refl+Du2+Nom:нэ̄нки # ;
+тав+Pron+Pers+Refl+Du3+Nom:тэ̄нки # ;
+ам+v1+Pron+Pers+Refl+Pl1+Nom:ма̄нки # ;
+ам+v2+Pron+Pers+Refl+Pl1+Nom:ма̄ики # ;
+наӈ+Pron+Pers+Refl+Pl2+Nom:на̄нки # ;
+тав+Pron+Pers+Refl+Pl3+Nom:та̄нки # ;
 
-хо̄тпа+Pron+Inde+fNos:хо̄тпа # ;
+матыр+Pron+Interr:мат%{ыØ%}р N-01_ ; 
+хо̄тпа+Pron+Indef:хо̄тпа N-01_ ;
 
 ! vim: set ft=xfst-lexc:
