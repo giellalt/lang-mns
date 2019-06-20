@@ -23,3 +23,12 @@ LEXICON EXCEPTIONS
 
 миӈкве+V:ми V11_MUTUAL-PASS ;
 
+
+!! NEW PROPER NOUNS
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N-01_ ;
+Лука+N+Prop+Sem/Mal:Лука N-01_ ;
+Кристос+N+Prop+Sem/Mal:Кристос N-01_ ;
+Ӯщуп+N+Prop+Sem/Mal:Ӯщуп N-01_ ;
+
+Виплēем+N+Prop+Sem/Plc:Виплēем N-01_ ;
+Назарет+N+Prop+Sem/Plc:Назарет N-01_ ;
