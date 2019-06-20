@@ -137,6 +137,7 @@ Question and Focus particles:
 
 
 Semantics are classified with
+ * __ +Sem/Mal     __ 
  * __ +Sem/Plc     __ 
 
 
@@ -144,6 +145,7 @@ Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
  * __+Der/Yng     __ N» ыӈ A_ Proprietive as in kpv -а
  * __+Der/Yshch   __ A» ыщ ADV_
+ * __+Der/Ap	     __ V» ап N-01_
 
 !!Symbols that need to be escaped on the lower side (towards twolc):
  ; »7 : Literal »

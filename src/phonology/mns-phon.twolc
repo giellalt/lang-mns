@@ -148,7 +148,7 @@ Rules
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=> Vow %>   _ Cns ;
         Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-      Cns _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | а | у | н ӯ | н у | н э |в е | в е̄ ] ;
+      Cns _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | %{уØ%}: |%{ыØ%}: | а | у | н ӯ | н у | н э |в е | в е̄ ] ;
 
 !!€ апа>ыт
 !!€ апа>0т

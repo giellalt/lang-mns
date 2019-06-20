@@ -4,18 +4,19 @@
 !! No work on numerals yet.
 
 LEXICON NUM_
-+Num:        #   ;
-+A+Ord:%>ыт # ;
++Num:        N-01_   ;
+
 
 LEXICON NUM-2-9_
-+Num:        ORD_   ;
-+Num:хойплов ORD_ "teens" ;
-+Use/NG+Num:хуйпулув ORD_ "teens" ;
-+Use/NG+Num:хуйплов ORD_ "teens" ;
-+Num:са̄тORD_# "hundreds" ;
++Num:        NUM-OR-ORD_   ;
++Num:хойплов NUM-OR-ORD_ "teens" ;
++Use/NG+Num:хуйпулув NUM-OR-ORD_ "teens" ;
++Use/NG+Num:хуйплов NUM-OR-ORD_ "teens" ;
++Num:са̄т NUM-OR-ORD_ "hundreds" ;
 
-LEXICON ORD_
-+Ord:%>ыт # "ordinal numerals" ;
+LEXICON NUM-OR-ORD_
+ N-01_ ;
++Der+Der/Ord+A:%>ыт N-01_  "ordinal numerals" ;
 
 
 ! vim: set ft=xfst-lexc:

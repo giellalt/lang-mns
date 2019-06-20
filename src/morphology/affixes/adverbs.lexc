@@ -5,6 +5,7 @@
 
 LEXICON ADV_
 :        #   ;
++Comp:%>нув        #   ;
 
 LEXICON ADV-AUX_
 +Aux:        #   ;

@@ -181,7 +181,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 
 
 !! Semantics are classified with
-! +Sem/Mal     !!= * __@CODE@__ 
+ +Sem/Mal     !!= * __@CODE@__ 
 ! +Sem/Fem     !!= * __@CODE@__ 
 ! +Sem/Sur     !!= * __@CODE@__ 
  +Sem/Plc     !!= * __@CODE@__ 
@@ -209,6 +209,8 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 +Der
 +Der/Yng     !!= * __@CODE@__ N» ыӈ A_ Proprietive as in kpv -а
 +Der/Yshch   !!= * __@CODE@__ A» ыщ ADV_
++Der/Ap	     !!= * __@CODE@__ V» ап N-01_
++Actio
 
         !! !!Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ ; @CODE@ : Literal »

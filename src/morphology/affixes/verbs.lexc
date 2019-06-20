@@ -14,6 +14,10 @@ LEXICON V11_odd
 
 LEXICON V11_MUTUAL
 +PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
++PrfPrc:%>%{уØ%}м # ;
++Actio:%>%{ыØ%}м # ;
++Actio:%>%{ыØ%}н # ;
++Der+Der/Ap+N:%>ап N-01_ ;
  V11_MUTUAL-IND ;
  V11_MUTUAL-IMPRT ;
  V11_MUTUAL-COND	  ;
