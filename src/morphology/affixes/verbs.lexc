@@ -1,18 +1,18 @@
-!! Verb inflection for Mansi
+!! !!!Verb inflection for Mansi
 ! ---------------
 
 !! Stems ending in C
 
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON V11_odd
-!
+
+LEXICON V11_odd  !!= @CODE@ 
+
 +Inf:%>уӈкве K ;
  V11_MUTUAL ;
 
-LEXICON V11_MUTUAL
+LEXICON V11_MUTUAL  !!= @CODE@ 
 +PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
 +PrfPrc:%>%{уØ%}м # ;
 +Actio:%>%{ыØ%}м # ;
@@ -24,7 +24,7 @@ LEXICON V11_MUTUAL
  V11_MUTUAL-PASS ;
 :%>а V11_MUTUAL-PASS ;
 
-LEXICON V11_MUTUAL-IND
+LEXICON V11_MUTUAL-IND  !!= @CODE@ 
 +Ind+Prs+ScSg1:%>%{ЭЕLong%}гум K ;
 +Ind+Prs+ScSg2:%>%{ЭЕLong%}гын K ;
 +Ind+Prs+ScSg3:%>%{ЫИ%} K ;
@@ -127,7 +127,7 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prt+OcSg3+ScPl2:%>аслы̄н K ;
 +Ind+Prt+OcSg3+ScPl3:%>аса̄ныл K ;
 
-LEXICON V11_MUTUAL-COND
+LEXICON V11_MUTUAL-COND  !!= @CODE@ 
 +Cond+Prs+ScSg1:%>нӯвум K ;
 +Cond+Prs+ScSg2:%>нӯвын K ;
 +Cond+Prs+ScSg3:%>нув K ;
@@ -168,7 +168,7 @@ LEXICON V11_MUTUAL-COND
 +Cond+Prs+OcPl3+ScPl2:%>нуваны̄н K ;
 +Cond+Prs+OcPl3+ScPl3:%>нува̄ныл K ;
 
-LEXICON V11_MUTUAL-IMPRT
+LEXICON V11_MUTUAL-IMPRT  !!= @CODE@ 
 +Imp+ScSg2:%>%{ЭЕ%}н K ;
 +Imp+ScDu2:%>%{ЭЕLong%}н K ;
 +Imp+ScPl2:%>%{ЭЕLong%}н K ;
@@ -185,7 +185,7 @@ LEXICON V11_MUTUAL-IMPRT
 +Imp+OcPl3+ScDu2:%>%{ЭЕLong%}н K ;
 +Imp+OcPl3+ScPl2:%>%{ЭЕLong%}н K ;
 
-LEXICON V11_MUTUAL-PASS
+LEXICON V11_MUTUAL-PASS  !!= @CODE@ 
 +Pass+Prs+ScSg1:%>вем K ;
 +Pass+Prs+ScSg2:%>вен K ;
 +Pass+Prs+ScSg3:%>ве K ;
@@ -236,9 +236,9 @@ LEXICON V11_MUTUAL-PASS
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON V11_even
+
+LEXICON V11_even !!= @CODE@
 
 +Inf:%>аӈкве K ;
  V11_MUTUAL ;
@@ -453,7 +453,7 @@ LEXICON V11_even
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V12_odd
 V11_odd ;
@@ -668,7 +668,6 @@ V11_odd ;
 !+Pass+Prt+ScPl2:%>явесы̄н K ;
 !+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON V12_even
  V11_even ;
@@ -882,7 +881,6 @@ LEXICON V12_even
 !+Pass+Prt+ScPl2:%>явесы̄н K ;
 !+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON V13_odd
  V11_odd ;
@@ -1096,7 +1094,7 @@ LEXICON V13_odd
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V13_even
  V11_even ;
@@ -1311,7 +1309,7 @@ LEXICON V13_even
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V14_odd
  V11_odd ;
@@ -1527,7 +1525,7 @@ LEXICON V14_odd
 !+Pass+Prt+ScPl2:%>явесы̄н K ;
 !+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 !LEXICON V14_even
 !
@@ -1741,7 +1739,7 @@ LEXICON V14_odd
 !+Pass+Prt+ScPl2:%>явесы̄н K ;
 !+Pass+Prt+ScPl3:%>яве̄сыт K ;
 !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V15_odd
  V11_odd ;
@@ -1955,7 +1953,7 @@ LEXICON V15_odd
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V15_even
  V11_even ;
@@ -2169,7 +2167,7 @@ LEXICON V15_even
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V16_odd
  V11_odd ;
@@ -2383,7 +2381,7 @@ LEXICON V16_odd
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V16_even
  V11_even ;
@@ -2597,7 +2595,7 @@ LEXICON V16_even
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V21_odd
  V11_odd ;
@@ -2915,7 +2913,7 @@ LEXICON V21_odd
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V21_even
  V11_even ;
@@ -3233,7 +3231,7 @@ LEXICON V21_even
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 !LEXICON V22_odd
 !
@@ -3548,7 +3546,7 @@ LEXICON V21_even
 !+Pass+Prt+ScPl2:%>явесы̄н K ;
 !+Pass+Prt+ScPl3:%>яве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V22_even
 ! -йы
@@ -3863,7 +3861,7 @@ LEXICON V22_even
 +Pass+Prt+ScPl2:%>явесы̄н K ;
 +Pass+Prt+ScPl3:%>яве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V23_odd
  V11_odd ;   
@@ -4182,7 +4180,7 @@ LEXICON V23_odd
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V23_even
  V21_even ;
@@ -4499,7 +4497,7 @@ LEXICON V23_even
 !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !+Pass+Prt+ScPl3:%>аве̄сыт K ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 LEXICON V25_odd
  V23_odd ;
