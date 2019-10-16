@@ -140,7 +140,7 @@ PostSyncStem  =  :Cns   ;
 Rules
 
  "floating vowel in Archivowels"
- Vx:Vy <=>  _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы ] ;
+ Vx:Vy <=>  _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы: ] ; ! tt: ы: for ы:и
   where Vx in ( %{ыØ%} %{иØ%}  %{уØ%} )
         Vy in ( 0   0   0 )
         matched ;
@@ -189,8 +189,11 @@ Rules
 
 "Palatalising suffix ы for palatal stems"
 ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> (%{йØ%}:0) _ Cns ;
+        л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
+!!€ са̄лы>{йØ%}ыг
+!!€ са̄лы>0иг
 
 !!€ вармаль>ыт
 !!€ вармал0>ит
@@ -210,16 +213,23 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 !!€ са̄лы>агын
 !!€ са̄лы>ягын
 
+"Delete u after y"
+у:0 <=> ы %> _ ;
+
+!!€ са̄лы>ум
+!!€ са̄лы>0м
+
+
 
 "Soft sign deletion for и suffixes"
 ь:0 <=> Cns _ (ы:0) %> :PalVow ;
 !above
 
-"%{йØ%}:й instertion for vowel initial suffixes on ы final stems"
-%{йØ%}:й <=> [ы|и] %> _ ы г ;
-
-!!€ са̄лы>0ыг
-!!€ са̄лы>йыг
+! In light of the yaml file saali, this seems wrong, we want са̄лыиг, нот са̄лыйыг
+!"%{йØ%}:й instertion for vowel initial suffixes on ы final stems"
+!%{йØ%}:й <=> [ы|и] %> _ ы г ;
+!€ са̄лы>0ыг
+!€ са̄лы>йыг
 
 "Px3 т deletion from vowel stems"
 т:0 <=> [Cns|и|ы] %> _ э: ;

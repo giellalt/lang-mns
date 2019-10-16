@@ -15,200 +15,200 @@ Tests:
 # todo:
 # Then: run analyser, then correct.
 
-  Noun - сāлы: # "(eng) reindeer/(hun) rénszarvas/(rus) олень" - full paradigm
+  Noun - са̄лы: # "(eng) reindeer/(hun) rénszarvas/(rus) олень" - full paradigm
 
-     сāлы+N+Sg+Nom: сāлы
-     сāлы+N+Sg+Loc: сāлыт
-     сāлы+N+Sg+Lat: сāлын
-     сāлы+N+Sg+Abl: сāлыныл
-     сāлы+N+Sg+Ins: сāлыл
-     сāлы+N+Sg+Tra: сāлыиг
+     са̄лы+N+Sg+Nom: са̄лы
+     са̄лы+N+Sg+Loc: са̄лыт
+     са̄лы+N+Sg+Lat: са̄лын
+     са̄лы+N+Sg+Abl: са̄лыныл
+     са̄лы+N+Sg+Ins: са̄лыл
+     са̄лы+N+Sg+Tra: са̄лыиг
 
-     сāлы+N+Du+Nom: сāлыиг
-     сāлы+N+Du+Loc: сāлыигт
-     сāлы+N+Du+Lat: сāлыигн
-     сāлы+N+Du+Abl: сāлыигныл
-     сāлы+N+Du+Ins: сāлыигтыл
+     са̄лы+N+Du+Nom: са̄лыиг
+     са̄лы+N+Du+Loc: са̄лыигт
+     са̄лы+N+Du+Lat: са̄лыигн
+     са̄лы+N+Du+Abl: са̄лыигныл
+     са̄лы+N+Du+Ins: са̄лыигтыл
 
-     сāлы+N+Pl+Nom: сāлыит
-     сāлы+N+Pl+Loc: сāлыитт
-     сāлы+N+Pl+Lat: сāлыитн
-     сāлы+N+Pl+Abl: сāлыитныл
-     сāлы+N+Pl+Ins: сāлыитыл
+     са̄лы+N+Pl+Nom: са̄лыит
+     са̄лы+N+Pl+Loc: са̄лыитт
+     са̄лы+N+Pl+Lat: са̄лыитн
+     са̄лы+N+Pl+Abl: са̄лыитныл
+     са̄лы+N+Pl+Ins: са̄лыитыл
 
-     сāлы+N+Sg+PxSg1+Nom: сāлым
-     сāлы+N+Sg+PxSg1+Loc: сāлымт
-     сāлы+N+Sg+PxSg1+Lat: сāлымн
-     сāлы+N+Sg+PxSg1+Abl: сāлымныл
-     сāлы+N+Sg+PxSg1+Ins: сāлымтыл
+     са̄лы+N+Sg+PxSg1+Nom: са̄лым
+     са̄лы+N+Sg+PxSg1+Loc: са̄лымт
+     са̄лы+N+Sg+PxSg1+Lat: са̄лымн
+     са̄лы+N+Sg+PxSg1+Abl: са̄лымныл
+     са̄лы+N+Sg+PxSg1+Ins: са̄лымтыл
 
-     сāлы+N+Du+PxSg1+Nom: сāлыягум
-     сāлы+N+Du+PxSg1+Loc: сāлыягумт
-     сāлы+N+Du+PxSg1+Lat: сāлыягумн
-     сāлы+N+Du+PxSg1+Abl: сāлыягумныл
-     сāлы+N+Du+PxSg1+Ins: сāлыягумтыл
+     са̄лы+N+Du+PxSg1+Nom: са̄лыягум
+     са̄лы+N+Du+PxSg1+Loc: са̄лыягумт
+     са̄лы+N+Du+PxSg1+Lat: са̄лыягумн
+     са̄лы+N+Du+PxSg1+Abl: са̄лыягумныл
+     са̄лы+N+Du+PxSg1+Ins: са̄лыягумтыл
 
-     сāлы+N+Pl+PxSg1+Nom: сāлянум
+     са̄лы+N+Pl+PxSg1+Nom: са̄лянум
 # cf. Скрибник & Афанасьева 44: а̄ныянум
-     сāлы+N+Pl+PxSg1+Loc: сāлыянумт
-     сāлы+N+Pl+PxSg1+Lat: сāлыянумн
-     сāлы+N+Pl+PxSg1+Abl: сāлыянумныл
-     сāлы+N+Pl+PxSg1+Ins: сāлыянумтыл
+     са̄лы+N+Pl+PxSg1+Loc: са̄лыянумт
+     са̄лы+N+Pl+PxSg1+Lat: са̄лыянумн
+     са̄лы+N+Pl+PxSg1+Abl: са̄лыянумныл
+     са̄лы+N+Pl+PxSg1+Ins: са̄лыянумтыл
 
-     сāлы+N+Sg+PxSg2+Nom: сāлын
-     сāлы+N+Sg+PxSg2+Loc: сāлынт
-     сāлы+N+Sg+PxSg2+Lat: сāлынн
-     сāлы+N+Sg+PxSg2+Abl: сāлынныл
-     сāлы+N+Sg+PxSg2+Ins: сāлынтыл
+     са̄лы+N+Sg+PxSg2+Nom: са̄лын
+     са̄лы+N+Sg+PxSg2+Loc: са̄лынт
+     са̄лы+N+Sg+PxSg2+Lat: са̄лынн
+     са̄лы+N+Sg+PxSg2+Abl: са̄лынныл
+     са̄лы+N+Sg+PxSg2+Ins: са̄лынтыл
 
-     сāлы+N+Du+PxSg2+Nom: сāлыягын
-     сāлы+N+Du+PxSg2+Loc: сāлыягынт
-     сāлы+N+Du+PxSg2+Lat: сāлыягынн
-     сāлы+N+Du+PxSg2+Abl: сāлыягынныл
-     сāлы+N+Du+PxSg2+Ins: сāлыягынтыл
+     са̄лы+N+Du+PxSg2+Nom: са̄лыягын
+     са̄лы+N+Du+PxSg2+Loc: са̄лыягынт
+     са̄лы+N+Du+PxSg2+Lat: са̄лыягынн
+     са̄лы+N+Du+PxSg2+Abl: са̄лыягынныл
+     са̄лы+N+Du+PxSg2+Ins: са̄лыягынтыл
 
-     сāлы+N+Pl+PxSg2+Nom: сāлян
+     са̄лы+N+Pl+PxSg2+Nom: са̄лян
 # cf. Скрибник & Афанасьева 44: [а̄ныян, а̄ныянын]
-     сāлы+N+Pl+PxSg2+Loc: сāлыянт
-     сāлы+N+Pl+PxSg2+Lat: сāлыянн
-     сāлы+N+Pl+PxSg2+Abl: сāлыянныл
-     сāлы+N+Pl+PxSg2+Ins: сāлыянтыл
+     са̄лы+N+Pl+PxSg2+Loc: са̄лыянт
+     са̄лы+N+Pl+PxSg2+Lat: са̄лыянн
+     са̄лы+N+Pl+PxSg2+Abl: са̄лыянныл
+     са̄лы+N+Pl+PxSg2+Ins: са̄лыянтыл
 
-     сāлы+N+Pl+PxSg2+Nom: сāлянын
-     сāлы+N+Pl+PxSg2+Loc: сāлыянынт
-     сāлы+N+Pl+PxSg2+Lat: сāлыянынн
-     сāлы+N+Pl+PxSg2+Abl: сāлыянынныл
-     сāлы+N+Pl+PxSg2+Ins: сāлыянынтыл
+     са̄лы+N+Pl+PxSg2+Nom: са̄лянын
+     са̄лы+N+Pl+PxSg2+Loc: са̄лыянынт
+     са̄лы+N+Pl+PxSg2+Lat: са̄лыянынн
+     са̄лы+N+Pl+PxSg2+Abl: са̄лыянынныл
+     са̄лы+N+Pl+PxSg2+Ins: са̄лыянынтыл
 
-     сāлы+N+Sg+PxSg3+Nom: сāлытэ
-     сāлы+N+Sg+PxSg3+Loc: сāлытэт
-     сāлы+N+Sg+PxSg3+Lat: сāлытэн
-     сāлы+N+Sg+PxSg3+Abl: сāлытэныл
-     сāлы+N+Sg+PxSg3+Ins: сāлытэтыл
+     са̄лы+N+Sg+PxSg3+Nom: са̄лытэ
+     са̄лы+N+Sg+PxSg3+Loc: са̄лытэт
+     са̄лы+N+Sg+PxSg3+Lat: са̄лытэн
+     са̄лы+N+Sg+PxSg3+Abl: са̄лытэныл
+     са̄лы+N+Sg+PxSg3+Ins: са̄лытэтыл
 
-     сāлы+N+Du+PxSg3+Nom: сāлыяге
-     сāлы+N+Du+PxSg3+Loc: сāлыягет
-     сāлы+N+Du+PxSg3+Lat: сāлыяген
-     сāлы+N+Du+PxSg3+Abl: сāлыягеныл
-     сāлы+N+Du+PxSg3+Ins: сāлыягетыл
+     са̄лы+N+Du+PxSg3+Nom: са̄лыяге
+     са̄лы+N+Du+PxSg3+Loc: са̄лыягет
+     са̄лы+N+Du+PxSg3+Lat: са̄лыяген
+     са̄лы+N+Du+PxSg3+Abl: са̄лыягеныл
+     са̄лы+N+Du+PxSg3+Ins: са̄лыягетыл
 
-     сāлы+N+Pl+PxSg3+Nom: сāлыянэ
-     сāлы+N+Pl+PxSg3+Loc: сāлыянэт
-     сāлы+N+Pl+PxSg3+Lat: сāлыянэн
-     сāлы+N+Pl+PxSg3+Abl: сāлыянэныл
-     сāлы+N+Pl+PxSg3+Ins: сāлыянэтыл
+     са̄лы+N+Pl+PxSg3+Nom: са̄лыянэ
+     са̄лы+N+Pl+PxSg3+Loc: са̄лыянэт
+     са̄лы+N+Pl+PxSg3+Lat: са̄лыянэн
+     са̄лы+N+Pl+PxSg3+Abl: са̄лыянэныл
+     са̄лы+N+Pl+PxSg3+Ins: са̄лыянэтыл
 
-     сāлы+N+Sg+PxDu1+Nom: сāлымен
-     сāлы+N+Sg+PxDu1+Loc: сāлымент
-     сāлы+N+Sg+PxDu1+Lat: сāлыменн
-     сāлы+N+Sg+PxDu1+Abl: сāлыменныл
-     сāлы+N+Sg+PxDu1+Ins: сāлыментыл
+     са̄лы+N+Sg+PxDu1+Nom: са̄лымен
+     са̄лы+N+Sg+PxDu1+Loc: са̄лымент
+     са̄лы+N+Sg+PxDu1+Lat: са̄лыменн
+     са̄лы+N+Sg+PxDu1+Abl: са̄лыменныл
+     са̄лы+N+Sg+PxDu1+Ins: са̄лыментыл
 
-     сāлы+N+Du+PxDu1+Nom: сāлыягамен
-     сāлы+N+Du+PxDu1+Loc: сāлыягамент
-     сāлы+N+Du+PxDu1+Lat: сāлыягаменн
-     сāлы+N+Du+PxDu1+Abl: сāлыягаменыл
-     сāлы+N+Du+PxDu1+Ins: сāлыягаментыл
+     са̄лы+N+Du+PxDu1+Nom: са̄лыягамен
+     са̄лы+N+Du+PxDu1+Loc: са̄лыягамент
+     са̄лы+N+Du+PxDu1+Lat: са̄лыягаменн
+     са̄лы+N+Du+PxDu1+Abl: са̄лыягаменыл
+     са̄лы+N+Du+PxDu1+Ins: са̄лыягаментыл
 
-     сāлы+N+Pl+PxDu1+Nom: сāлыянамен
-     сāлы+N+Pl+PxDu1+Loc: сāлыянамент
-     сāлы+N+Pl+PxDu1+Lat: сāлыянаменн
-     сāлы+N+Pl+PxDu1+Abl: сāлыянаменыл
-     сāлы+N+Pl+PxDu1+Ins: сāлыянаментыл
+     са̄лы+N+Pl+PxDu1+Nom: са̄лыянамен
+     са̄лы+N+Pl+PxDu1+Loc: са̄лыянамент
+     са̄лы+N+Pl+PxDu1+Lat: са̄лыянаменн
+     са̄лы+N+Pl+PxDu1+Abl: са̄лыянаменыл
+     са̄лы+N+Pl+PxDu1+Ins: са̄лыянаментыл
 
-     сāлы+N+Sg+PxDu2+Nom: сāлын
-     сāлы+N+Sg+PxDu2+Loc: сāлынт
-     сāлы+N+Sg+PxDu2+Lat: сāлынн
-     сāлы+N+Sg+PxDu2+Abl: сāлынныл
-     сāлы+N+Sg+PxDu2+Ins: сāлынтыл
+     са̄лы+N+Sg+PxDu2+Nom: са̄лын
+     са̄лы+N+Sg+PxDu2+Loc: са̄лынт
+     са̄лы+N+Sg+PxDu2+Lat: са̄лынн
+     са̄лы+N+Sg+PxDu2+Abl: са̄лынныл
+     са̄лы+N+Sg+PxDu2+Ins: са̄лынтыл
 
-     сāлы+N+Du+PxDu2+Nom: сāлыяген
-     сāлы+N+Du+PxDu2+Loc: сāлыягент
-     сāлы+N+Du+PxDu2+Lat: сāлыягенн
-     сāлы+N+Du+PxDu2+Abl: сāлыягеныл
-     сāлы+N+Du+PxDu2+Ins: сāлыягентыл
+     са̄лы+N+Du+PxDu2+Nom: са̄лыяген
+     са̄лы+N+Du+PxDu2+Loc: са̄лыягент
+     са̄лы+N+Du+PxDu2+Lat: са̄лыягенн
+     са̄лы+N+Du+PxDu2+Abl: са̄лыягеныл
+     са̄лы+N+Du+PxDu2+Ins: са̄лыягентыл
 
-     сāлы+N+Pl+PxDu2+Nom: сāлыянэн
-     сāлы+N+Pl+PxDu2+Loc: сāлыянэнт
-     сāлы+N+Pl+PxDu2+Lat: сāлыянэнн
-     сāлы+N+Pl+PxDu2+Abl: сāлыянэныл
-     сāлы+N+Pl+PxDu2+Ins: сāлыянэнтыл
+     са̄лы+N+Pl+PxDu2+Nom: са̄лыянэн
+     са̄лы+N+Pl+PxDu2+Loc: са̄лыянэнт
+     са̄лы+N+Pl+PxDu2+Lat: са̄лыянэнн
+     са̄лы+N+Pl+PxDu2+Abl: са̄лыянэныл
+     са̄лы+N+Pl+PxDu2+Ins: са̄лыянэнтыл
 
-     сāлы+N+Sg+PxDu3+Nom: сāлытэн
-     сāлы+N+Sg+PxDu3+Loc: сāлытэнт
-     сāлы+N+Sg+PxDu3+Lat: сāлытэнн
-     сāлы+N+Sg+PxDu3+Abl: сāлытэнныл
-     сāлы+N+Sg+PxDu3+Ins: сāлытэнтыл
+     са̄лы+N+Sg+PxDu3+Nom: са̄лытэн
+     са̄лы+N+Sg+PxDu3+Loc: са̄лытэнт
+     са̄лы+N+Sg+PxDu3+Lat: са̄лытэнн
+     са̄лы+N+Sg+PxDu3+Abl: са̄лытэнныл
+     са̄лы+N+Sg+PxDu3+Ins: са̄лытэнтыл
 
-     сāлы+N+Du+PxDu3+Nom: сāлыяген
-     сāлы+N+Du+PxDu3+Loc: сāлыягент
-     сāлы+N+Du+PxDu3+Lat: сāлыягенн
-     сāлы+N+Du+PxDu3+Abl: сāлыягенныл
-     сāлы+N+Du+PxDu3+Ins: сāлыягентыл
+     са̄лы+N+Du+PxDu3+Nom: са̄лыяген
+     са̄лы+N+Du+PxDu3+Loc: са̄лыягент
+     са̄лы+N+Du+PxDu3+Lat: са̄лыягенн
+     са̄лы+N+Du+PxDu3+Abl: са̄лыягенныл
+     са̄лы+N+Du+PxDu3+Ins: са̄лыягентыл
 
-     сāлы+N+Pl+PxDu3+Nom: сāлыянэн
-     сāлы+N+Pl+PxDu3+Loc: сāлыянэнт
-     сāлы+N+Pl+PxDu3+Lat: сāлыянэнн
-     сāлы+N+Pl+PxDu3+Abl: сāлыянэнныл
-     сāлы+N+Pl+PxDu3+Ins: сāлыянэнтыл
+     са̄лы+N+Pl+PxDu3+Nom: са̄лыянэн
+     са̄лы+N+Pl+PxDu3+Loc: са̄лыянэнт
+     са̄лы+N+Pl+PxDu3+Lat: са̄лыянэнн
+     са̄лы+N+Pl+PxDu3+Abl: са̄лыянэнныл
+     са̄лы+N+Pl+PxDu3+Ins: са̄лыянэнтыл
 
-     сāлы+N+Sg+PxPl1+Nom: сāлыюв
-     сāлы+N+Sg+PxPl1+Loc: сāлыювт
-     сāлы+N+Sg+PxPl1+Lat: сāлыювн
-     сāлы+N+Sg+PxPl1+Abl: сāлыювныл
-     сāлы+N+Sg+PxPl1+Ins: сāлювтыл
+     са̄лы+N+Sg+PxPl1+Nom: са̄лыюв
+     са̄лы+N+Sg+PxPl1+Loc: са̄лыювт
+     са̄лы+N+Sg+PxPl1+Lat: са̄лыювн
+     са̄лы+N+Sg+PxPl1+Abl: са̄лыювныл
+     са̄лы+N+Sg+PxPl1+Ins: са̄лювтыл
 
-     сāлы+N+Du+PxPl1+Nom: сāлыягув
-     сāлы+N+Du+PxPl1+Loc: сāлыягувт
-     сāлы+N+Du+PxPl1+Lat: сāлыягувн
-     сāлы+N+Du+PxPl1+Abl: сāлыягувныл
-     сāлы+N+Du+PxPl1+Ins: сāлыягувтыл
+     са̄лы+N+Du+PxPl1+Nom: са̄лыягув
+     са̄лы+N+Du+PxPl1+Loc: са̄лыягувт
+     са̄лы+N+Du+PxPl1+Lat: са̄лыягувн
+     са̄лы+N+Du+PxPl1+Abl: са̄лыягувныл
+     са̄лы+N+Du+PxPl1+Ins: са̄лыягувтыл
 
-     сāлы+N+Pl+PxPl1+Nom: сāлянув
-     сāлы+N+Pl+PxPl1+Loc: сāлыянувт
-     сāлы+N+Pl+PxPl1+Lat: сāлыянувн
-     сāлы+N+Pl+PxPl1+Abl: сāлыянувныл
-     сāлы+N+Pl+PxPl1+Ins: сāлыянувтыл
+     са̄лы+N+Pl+PxPl1+Nom: са̄лянув
+     са̄лы+N+Pl+PxPl1+Loc: са̄лыянувт
+     са̄лы+N+Pl+PxPl1+Lat: са̄лыянувн
+     са̄лы+N+Pl+PxPl1+Abl: са̄лыянувныл
+     са̄лы+N+Pl+PxPl1+Ins: са̄лыянувтыл
 
-     сāлы+N+Sg+PxPl2+Nom: сāлын
-     сāлы+N+Sg+PxPl2+Loc: сāлынт
-     сāлы+N+Sg+PxPl2+Lat: сāлынн
-     сāлы+N+Sg+PxPl2+Abl: сāлынныл
-     сāлы+N+Sg+PxPl2+Ins: сāлынтыл
+     са̄лы+N+Sg+PxPl2+Nom: са̄лын
+     са̄лы+N+Sg+PxPl2+Loc: са̄лынт
+     са̄лы+N+Sg+PxPl2+Lat: са̄лынн
+     са̄лы+N+Sg+PxPl2+Abl: са̄лынныл
+     са̄лы+N+Sg+PxPl2+Ins: са̄лынтыл
 
-     сāлы+N+Du+PxPl2+Nom: сāлыяген
-     сāлы+N+Du+PxPl2+Loc: сāлыягент
-     сāлы+N+Du+PxPl2+Lat: сāлыягенн
-     сāлы+N+Du+PxPl2+Abl: сāлыягенныл
-     сāлы+N+Du+PxPl2+Ins: сāлыяыгентыл
+     са̄лы+N+Du+PxPl2+Nom: са̄лыяген
+     са̄лы+N+Du+PxPl2+Loc: са̄лыягент
+     са̄лы+N+Du+PxPl2+Lat: са̄лыягенн
+     са̄лы+N+Du+PxPl2+Abl: са̄лыягенныл
+     са̄лы+N+Du+PxPl2+Ins: са̄лыяыгентыл
 
-     сāлы+N+Pl+PxPl2+Nom: сāлыянэн
-     сāлы+N+Pl+PxPl2+Loc: сāлыянэнт
-     сāлы+N+Pl+PxPl2+Lat: сāлыянэнн
-     сāлы+N+Pl+PxPl2+Abl: сāлыянэнныл
-     сāлы+N+Pl+PxPl2+Ins: сāлыянэнтыл
+     са̄лы+N+Pl+PxPl2+Nom: са̄лыянэн
+     са̄лы+N+Pl+PxPl2+Loc: са̄лыянэнт
+     са̄лы+N+Pl+PxPl2+Lat: са̄лыянэнн
+     са̄лы+N+Pl+PxPl2+Abl: са̄лыянэнныл
+     са̄лы+N+Pl+PxPl2+Ins: са̄лыянэнтыл
 
-     сāлы+N+Sg+PxPl3+Nom: сāлыяныл
-     сāлы+N+Sg+PxPl3+Loc: сāлыянылт
-     сāлы+N+Sg+PxPl3+Lat: сāлыянылн
-     сāлы+N+Sg+PxPl3+Abl: сāлыянылныл
-     сāлы+N+Sg+PxPl3+Ins: сāлыянылтыл
+     са̄лы+N+Sg+PxPl3+Nom: са̄лыяныл
+     са̄лы+N+Sg+PxPl3+Loc: са̄лыянылт
+     са̄лы+N+Sg+PxPl3+Lat: са̄лыянылн
+     са̄лы+N+Sg+PxPl3+Abl: са̄лыянылныл
+     са̄лы+N+Sg+PxPl3+Ins: са̄лыянылтыл
 
-     сāлы+N+Du+PxPl3+Nom: сāлыяганыл
-     сāлы+N+Du+PxPl3+Loc: сāлыяганылт
-     сāлы+N+Du+PxPl3+Lat: сāлыяганылн
-     сāлы+N+Du+PxPl3+Abl: сāлыяганылныл
-     сāлы+N+Du+PxPl3+Ins: сāлыяганылтыл
+     са̄лы+N+Du+PxPl3+Nom: са̄лыяганыл
+     са̄лы+N+Du+PxPl3+Loc: са̄лыяганылт
+     са̄лы+N+Du+PxPl3+Lat: са̄лыяганылн
+     са̄лы+N+Du+PxPl3+Abl: са̄лыяганылныл
+     са̄лы+N+Du+PxPl3+Ins: са̄лыяганылтыл
 
-     сāлы+N+Pl+PxPl3+Nom: сāлыяныл
-     сāлы+N+Pl+PxPl3+Loc: сāлыянылт
-     сāлы+N+Pl+PxPl3+Lat: сāлыянылн
-     сāлы+N+Pl+PxPl3+Abl: сāлыянылныл
-     сāлы+N+Pl+PxPl3+Ins: сāлыянылтыл
+     са̄лы+N+Pl+PxPl3+Nom: са̄лыяныл
+     са̄лы+N+Pl+PxPl3+Loc: са̄лыянылт
+     са̄лы+N+Pl+PxPl3+Lat: са̄лыянылн
+     са̄лы+N+Pl+PxPl3+Abl: са̄лыянылныл
+     са̄лы+N+Pl+PxPl3+Ins: са̄лыянылтыл
 
-     сāлы+N+Pl+PxPl3+Nom: сāлыянныл
-     сāлы+N+Pl+PxPl3+Loc: сāлыянанылт
-     сāлы+N+Pl+PxPl3+Lat: сāлыянанылн
-     сāлы+N+Pl+PxPl3+Abl: сāлыянанылныл
-     сāлы+N+Pl+PxPl3+Ins: сāлыянанылтыл
+     са̄лы+N+Pl+PxPl3+Nom: са̄лыянныл
+     са̄лы+N+Pl+PxPl3+Loc: са̄лыянанылт
+     са̄лы+N+Pl+PxPl3+Lat: са̄лыянанылн
+     са̄лы+N+Pl+PxPl3+Abl: са̄лыянанылныл
+     са̄лы+N+Pl+PxPl3+Ins: са̄лыянанылтыл
 

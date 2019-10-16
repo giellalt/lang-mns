@@ -70,13 +70,18 @@ LEXICON N-01_
 +Du+Abl:%>%{йØ%}ыгныл K ;
 +Du+Ins:%>%{йØ%}ыгтыл K ;
 
-+Pl+Nom:%>ыт K ;
-+Pl+Loc:%>ытт K ;
-+Pl+Lat:%>ытн K ;
+!+Pl+Nom:%>ыт K ; jr
+!+Pl+Loc:%>ытт K ;
+!+Pl+Lat:%>ытн K ;
++Pl+Nom:%>%{йØ%}ыт K ; ! tt
++Pl+Loc:%>%{йØ%}ытт K ;
++Pl+Lat:%>%{йØ%}ытн K ;
 
-+Pl+Lat:%>ытын K ;
-+Pl+Abl:%>ытныл K ;
-+Pl+Ins:%>ытыл K ;
+!+Pl+Lat:%>ытын K ; jr
+!+Pl+Abl:%>ытныл K ;
+!+Pl+Ins:%>ытыл K ;
++Pl+Abl:%>%{йØ%}ытныл K ; ! tt
++Pl+Ins:%>%{йØ%}ытыл K ;
 
  ! possessive forms
 
