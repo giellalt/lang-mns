@@ -150,6 +150,7 @@ Rules
  [Cns ь:|ы] %> %{йØ%}: _ Cns ;
     Vow %> (%{йØ%}:)   _ Cns ;
              Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
+                   Cns _ Cns %> 
 .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
  
 !!€ апа>%{йØ%}ыт
