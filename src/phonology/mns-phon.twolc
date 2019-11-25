@@ -146,17 +146,41 @@ Rules
         matched ;
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
-ы:0 <=> Vow %>   _ Cns ;
-        Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-      Cns _ %>  [ %{ЫИ%}: | %{ЭЕ%}: | %{ЭЕLong%}: | %{уØ%}: |%{ыØ%}: | а | у | н ӯ | н у | н э |в е | в е̄ ] ;
+ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:|%{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
+ [Cns ь:|ы] %> %{йØ%}: _ Cns ;
+    Vow %> (%{йØ%}:)   _ Cns ;
+             Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
+.#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
+ 
+!!€ апа>%{йØ%}ыт
+!!€ апа>00т
 
-!!€ апа>ыт
-!!€ апа>0т
+!!€ ха̄п>%{йØ%}ыт
+!!€ ха̄п>0ыт
+ 
+!!€ апа>ныл
+!!€ апа>ныл
 
+!!€ паль>ныл
+!!€ паль>ныл
+
+
+"i instead of y for pl nom, loc, lat"
+%{йØ%}:и <=> [Cns ь:|ы] %> _ ;
+
+!!€ паль>%{йØ%}ыт
+!!€ пал0>и0т
+
+!!€ са̄лы>{йØ%}ыг
+!!€ са̄лы>и0г
+
+!!€ ха̄п>ыныл
+!!€ ха̄п>0ныл  
 
 
 "Palatalising suffix vowel after и/ы stems"
-а:я <=>  й: (ы:0)  %> _ Cns:+ ;
+а:я <=>  й: (ы:0) %> _ Cns:+ ;
+                ы %> _ ;
 !where 2019-06-16 [и|ы] %> _ Cns:+ Vow ;
       
 
@@ -170,8 +194,8 @@ Rules
         Vy in ( ы   э   э̄ )
         matched ;
 
-!!+V+Ind+Prs+ScSg1:
-!!€ >%{ЭЕLong%}гум
+!+V+Ind+Prs+ScSg1:
+! >%{ЭЕLong%}гум
 
 
  "Palatalization of suffix vowels"
@@ -180,23 +204,21 @@ Rules
         Vy in ( и   е   е̄ )
         matched ;
 
-!!ве̄рмуӈкве+Ind+Prs+OcPl3+ScSg3:
+!ве̄рмуӈкве+Ind+Prs+OcPl3+ScSg3:
 !!€ ве̄рмы%>%{ЫИ%}янэ
 !!€ ве̄рм0%>иянэ
 
-!!+V+Ind+Prs+ScSg1:
-!!€ >%{ЭЕLong%}гум
+! +V+Ind+Prs+ScSg1:
+! € >%{ЭЕLong%}гум
 
 "Palatalising suffix ы for palatal stems"
-ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> (%{йØ%}:0) _ Cns ;
+ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> _ Cns ;
         л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
-!!€ са̄лы>{йØ%}ыг
-!!€ са̄лы>0иг
-
 !!€ вармаль>ыт
 !!€ вармал0>ит
+
 !!$ та̄л>ыг
 !!$ та̄л>иг
 
@@ -473,3 +495,6 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 !TOS !! __@RULENAME__
 !TOS ! %^PxPl2:0 => _ ;
 !TOS
+
+!!€ a
+!!€ b
