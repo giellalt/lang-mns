@@ -50,17 +50,15 @@
 
 !! # N53 = irregular paradigm of хум
 
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON N-01_
-
- ! non possessive forms
- 
+! noun in ь + ыт
+ ! non possessive forms 
 +Sg+Nom: K ;
 +Sg+Loc:%>т K ;
 +Sg+Lat:%>н K ;
-+Sg+Abl:%>ыныл K ;
++Sg+Abl:%>ныл K ;
 +Sg+Ins:%>ыл K ;
 +Sg+Tra:%>%{йØ%}ыг K ;
 
@@ -114,6 +112,7 @@ LEXICON N-01_
 +Du+PxSg2+Lat:%>агынн K ;
 +Du+PxSg2+Abl:%>агынныл K ;
 +Du+PxSg2+Ins:%>агынтыл K ;
++Du+PxSg2+Nom+Use/NG:%>агн K ;
 
 +Pl+PxSg2+Nom:%>ан K ;
 +Pl+PxSg2+Loc:%>ант K ;
@@ -139,29 +138,49 @@ LEXICON N-01_
 +Du+PxSg3+Abl:%>агеныл K ;
 +Du+PxSg3+Ins:%>агетыл K ;
 
-+Pl+PxSg3+Nom:%>нэ K ;
-+Pl+PxSg3+Loc:%>нэт K ;
-+Pl+PxSg3+Lat:%>нэн K ;
-+Pl+PxSg3+Abl:%>нэныл K ;
-+Pl+PxSg3+Ins:%>нэтыл K ;
++Pl+PxSg3+Nom:%>анэ K ;
++Pl+PxSg3+Loc:%>анэт K ;
++Pl+PxSg3+Lat:%>анэн K ;
++Pl+PxSg3+Abl:%>анэныл K ;
++Pl+PxSg3+Ins:%>анэтыл K ;
 
 +Sg+PxDu1+Nom:%>ме̄н K ;
++Sg+PxDu1+Nom+Use/NG:%>мен K ;
 +Sg+PxDu1+Loc:%>ме̄нт K ;
++Sg+PxDu1+Loc+Use/NG:%>мент K ;
 +Sg+PxDu1+Lat:%>ме̄нн K ;
++Sg+PxDu1+Lat+Use/NG:%>менн K ;
 +Sg+PxDu1+Abl:%>ме̄нныл K ;
++Sg+PxDu1+Abl+Use/NG:%>менныл K ;
 +Sg+PxDu1+Ins:%>ме̄нтыл K ;
++Sg+PxDu1+Ins+Use/NG:%>ментыл K ;
 
 +Du+PxDu1+Nom:%>гме̄н K ;
 +Du+PxDu1+Loc:%>гме̄нт K ;
 +Du+PxDu1+Lat:%>гме̄нн K ;
 +Du+PxDu1+Abl:%>гме̄нныл K ;
 +Du+PxDu1+Ins:%>гме̄нтыл K ;
++Du+PxDu1+Nom+Use/NG:%>гмен K ;
++Du+PxDu1+Loc+Use/NG:%>гмент K ;
++Du+PxDu1+Lat+Use/NG:%>гменн K ;
++Du+PxDu1+Abl+Use/NG:%>гменныл K ;
++Du+PxDu1+Ins+Use/NG:%>гментыл K ;
++Du+PxDu1+Nom+Use/NG:%>гaмен K ;
++Du+PxDu1+Loc+Use/NG:%>гaмент K ;
++Du+PxDu1+Lat+Use/NG:%>гaменн K ;
++Du+PxDu1+Abl+Use/NG:%>гaменныл K ;
++Du+PxDu1+Ins+Use/NG:%>гaментыл K ;
 
 +Pl+PxDu1+Nom:%>нме̄н K ;
 +Pl+PxDu1+Loc:%>нме̄нт K ;
 +Pl+PxDu1+Lat:%>нме̄нн K ;
 +Pl+PxDu1+Abl:%>нме̄нныл K ;
 +Pl+PxDu1+Ins:%>нме̄нтыл K ;
++Pl+PxDu1+Nom+Use/NG:%>нмен K ;
++Pl+PxDu1+Loc+Use/NG:%>нмент K ;
++Pl+PxDu1+Lat+Use/NG:%>нменн K ;
++Pl+PxDu1+Abl+Use/NG:%>нменныл K ;
++Pl+PxDu1+Ins+Use/NG:%>нментыл K ;
 
 +Sg+PxDu2+Nom:%>н K ;
 +Sg+PxDu2+Loc:%>нт K ;
