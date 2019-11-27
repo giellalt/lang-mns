@@ -139,18 +139,18 @@ PostSyncStem  =  :Cns   ;
 
 Rules
 
- "floating vowel in Archivowels"
+"floating vowel in Archivowels"
  Vx:Vy <=>  _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы: ] ; ! tt: ы: for ы:и
   where Vx in ( %{ыØ%} %{иØ%}  %{уØ%} )
         Vy in ( 0   0   0 )
         matched ;
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
-ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:|%{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
+ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
  [Cns ь:|ы] %> %{йØ%}: _ Cns ;
     Vow %> (%{йØ%}:)   _ Cns ;
              Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-                   Cns _ Cns %> 
+                   Cns _ Cns %> ;
 .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
  
 !!€ апа>%{йØ%}ыт
