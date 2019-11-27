@@ -147,7 +147,7 @@ Rules
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
- [Cns ь:|ы] %> %{йØ%}: _ Cns ;
+[щ|Cns ь:|ы] %> %{йØ%}: _ Cns ;
     Vow %> (%{йØ%}:)   _ Cns ;
              Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
                    Cns _ Cns %> ;
@@ -167,7 +167,7 @@ Rules
 
 
 "i instead of y for pl nom, loc, lat"
-%{йØ%}:и <=> [Cns ь:|ы] %> _ ;
+%{йØ%}:и <=> [щ|Cns ь:|ы] %> _ ; ! And the ohter ь-less consonants!
 
 !!€ паль>%{йØ%}ыт
 !!€ пал0>и0т
