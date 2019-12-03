@@ -148,7 +148,8 @@ Rules
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
 [щ|Cns ь:|ы] %> %{йØ%}: _ Cns ;
-    Vow %> (%{йØ%}:)   _ Cns ;
+    [Vow - и] %> %{йØ%}:   _ Cns ;
+       Vow  %>    _ Cns ;
              Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
                    Cns _ Cns %> ;
 .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
@@ -177,6 +178,13 @@ Rules
 
 !!€ ха̄п>ыныл
 !!€ ха̄п>0ныл  
+
+"j instead of y for du nom in i"
+%{йØ%}:й <=> [и|ы] %> _ ; ! And the ohter ь-less consonants!
+
+!!€ аки>{йØ%}ыг
+!!€ аки>йыг
+
 
 
 "Palatalising suffix vowel after и/ы stems"
@@ -237,10 +245,13 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 !!€ са̄лы>ягын
 
 "Delete u after y"
-у:0 <=> ы %> _ ;
+у:0 <=> [ы|и] %> _ ;
 
 !!€ са̄лы>ум
 !!€ са̄лы>0м
+
+!!€ аки>ум
+!!€ аки>0м
 
 
 
