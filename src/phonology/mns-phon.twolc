@@ -147,12 +147,13 @@ Rules
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
-[щ|Cns ь:|ы] %> %{йØ%}: _ Cns ;
-    [Vow - и] %> %{йØ%}:   _ Cns ;
-       Vow  %>    _ Cns ;
-             Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-                   Cns _ Cns %> ;
-.#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
+[щ|Cns ь:|ы] %> %{йØ%}:0 _ Cns ;
+     Vow %> (%{йØ%}:0)   _ Cns ;
+  [Vow - и] %> %{йØ%}:   _ Cns ;
+              Vow  %>    _ Cns ;
+               Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
+                     Cns _ Cns %> ;
+  .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
  
 !!€ апа>%{йØ%}ыт
 !!€ апа>00т
@@ -168,19 +169,19 @@ Rules
 
 
 "i instead of y for pl nom, loc, lat"
-%{йØ%}:и <=> [щ|Cns ь:|ы] %> _ ; ! And the ohter ь-less consonants!
+%{йØ%}:и <=> [щ|Cns ь:] %> _ ; ! And the ohter ь-less consonants!
 
 !!€ паль>%{йØ%}ыт
 !!€ пал0>и0т
-
-!!€ са̄лы>{йØ%}ыг
-!!€ са̄лы>и0г
 
 !!€ ха̄п>ыныл
 !!€ ха̄п>0ныл  
 
 "j instead of y for du nom in i"
 %{йØ%}:й <=> [и|ы] %> _ ; ! And the ohter ь-less consonants!
+
+!!€ а̄ны>{йØ%}ыг
+!!€ а̄ныйыг
 
 !!€ аки>{йØ%}ыг
 !!€ аки>йыг
