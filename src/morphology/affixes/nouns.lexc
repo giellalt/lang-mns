@@ -56,30 +56,24 @@ LEXICON N-01_
 ! noun in ь + ыт
  ! non possessive forms 
 +Sg+Nom: K ;
-+Sg+Loc:%>т K ;
-+Sg+Lat:%>н K ;
++Sg+Loc:%>ыт K ;
++Sg+Lat:%>ын K ;
 +Sg+Abl:%>ныл K ;
 +Sg+Ins:%>ыл K ;
 +Sg+Tra:%>%{йØ%}ыг K ;
 
-+Du+Nom:%>%{йØ%}ыг K ;
++Du+Nom:%>%{йØ%}ыг K ; ! а̄ныйыг, э̄кваг
 +Du+Loc:%>%{йØ%}ыгт K ;
 +Du+Lat:%>%{йØ%}ыгн K ;
 +Du+Abl:%>%{йØ%}ыгныл K ;
 +Du+Ins:%>%{йØ%}ыгтыл K ;
 
-+Pl+Nom:%>ыт K ; ! jr
++Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
 +Pl+Loc:%>ытт K ;
 +Pl+Lat:%>ытн K ;
-!+Pl+Nom:%>%{йØ%}ыт K ; ! tt
-!+Pl+Loc:%>%{йØ%}ытт K ;
-!+Pl+Lat:%>%{йØ%}ытн K ;
-
 !+Pl+Lat:%>ытын K ; jr
-!+Pl+Abl:%>ытныл K ;
-!+Pl+Ins:%>ытыл K ;
-+Pl+Abl:%>%{йØ%}ытныл K ; ! tt
-+Pl+Ins:%>%{йØ%}ытыл K ;
++Pl+Abl:%>ытныл K ;
++Pl+Ins:%>ытыл K ;
 
  ! possessive forms
 
