@@ -22,7 +22,7 @@ Tests:
      ла̄тыӈ+N+Sg+PxSg1+Nom: ла̄тӈум
      ла̄тыӈ+N+Sg+PxSg2+Nom: ла̄тӈын
      ла̄тыӈ+N+Sg+PxSg3+Nom: ла̄тӈе
-     ла̄тыӈ+N+Sg+PxDu1+Nom: ла̄тыӈме̄н  # Or should it be ла̄тӈуме̄н
+     ла̄тыӈ+N+Sg+PxDu1+Nom: [ла̄тыӈме̄н, ла̄тыӈмен]  # Or should it be ла̄тӈуме̄н
 # (2007: 30) short
      ла̄тыӈ+N+Sg+PxDu2+Nom: ла̄тӈы̄н
      ла̄тыӈ+N+Sg+PxDu3+Nom: ла̄тӈе̄н
