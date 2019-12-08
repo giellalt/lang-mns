@@ -67,6 +67,7 @@ Alphabet
 %{ТØ%}:0	!!= __@CODE@__
 %{ЭЕ%}:0	!!= __@CODE@__ PxSg3
 
+ы2:0	!!= __@CODE@__ weak ы for Loc and Lat
 
 !! Trigger
 
@@ -189,12 +190,16 @@ Rules
 !!€ аки>{йØ%}ыг
 !!€ аки>йыг
 
+"ы2 as ы in Sg Loc and Lat"
+ы2:ы <=> Cns (Vow:0) Cns %> _ ;
 
+!!€ тронд>ы2т
+!!€ тронд>ыт
 
 "Palatalising suffix vowel after и/ы stems"
 а:я <=>  й: (ы:0) %> _ Cns:+ ;
                 ы %> _ ;
-!where 2019-06-16 [и|ы] %> _ Cns:+ Vow ;
+!where 2019-ç06-16 [и|ы] %> _ Cns:+ Vow ;
       
 
 "Palatalising suffix vowel after й ь "

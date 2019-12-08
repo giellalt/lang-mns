@@ -46,7 +46,6 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 !ю̄        !!! 
 !я̄        !!! 
 
-!ы2        !!! syncopating vowel symbol
 
 ! end of spurious section.
 
@@ -240,6 +239,7 @@ Multichar_Symbols  !!≈ !!!@CODE@ definitions
 %{иØ%}	!!= __@CODE@__ specific floating vowel 
 %{уØ%}	!!= __@CODE@__ specific floating vowel 
 
+ы2         !!= __@CODE@__ weak ы in Sg Loc and Sg Lat
 
 !! And following triggers to control variation
 ! {front} {back}
