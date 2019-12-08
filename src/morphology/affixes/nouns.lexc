@@ -56,8 +56,8 @@ LEXICON N-01_
 ! noun in ь + ыт
  ! non possessive forms 
 +Sg+Nom: K ;
-+Sg+Loc:%>ыт K ;
-+Sg+Lat:%>ын K ;
++Sg+Loc:%>ы2т K ; ! -ыт/ _ CC, -т elsewhere
++Sg+Lat:%>ы2н K ; ! -ын as -ыт above
 +Sg+Abl:%>ныл K ;
 +Sg+Ins:%>ыл K ;
 +Sg+Tra:%>%{йØ%}ыг K ;
