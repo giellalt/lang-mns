@@ -230,7 +230,7 @@ Rules
 ! € >%{ЭЕLong%}гум
 
 "Palatalising suffix ы for palatal stems"
-ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %> _ Cns ;
+ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %>  (%{йØ%}:0) _ Cns ;
         л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
@@ -265,8 +265,12 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 
 
 "Soft sign deletion for и suffixes"
-ь:0 <=> Cns _ (ы:0) %> :PalVow ;
+ь:0 <=> Cns _ (ы:0) %> (%{йØ%}:0) :PalVow ;
 !above
+
+!!€ паль>{йØ%}ыг
+!!€ пал0>0иг
+
 
 ! In light of the yaml file saali, this seems wrong, we want са̄лыиг, нот са̄лыйыг
 !"%{йØ%}:й instertion for vowel initial suffixes on ы final stems"
