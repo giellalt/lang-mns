@@ -1,0 +1,9 @@
+name = "Mansi"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.mns"
+
+[windows]
+system_product_code = "F1EACD2F-9DEF-471A-BA7C-4C42560EEAA3"
+msoffice_product_code = "9A7E85AB-B1A1-4471-8DC5-EB6152F45DE6"
