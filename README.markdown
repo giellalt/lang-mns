@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/mnsdoc/index.html>
+-   <https://giellalt.uit.no/lang/mns/NorthernMansiDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies
