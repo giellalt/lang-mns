@@ -2,32 +2,32 @@
 ## Copyright: Sámediggi/Divvun/UiT
 ## Licence: GPL v3+
 
-# List all jspwiki files that should be created from source files in the
-# JSP_PAGES variable. The filename pattern is as follows:
+# List all md files that should be created from source files in the
+# MD_PAGES variable. The filename pattern is as follows:
 #
-# dir/filename.lexc => filename-dir.jspwiki
+# dir/filename.lexc => filename-dir.md
 
-JSP_PAGES=root-morphology.jspwiki        \
-		 adjectives-affixes.jspwiki       \
-		 adjectives-stems.jspwiki         \
-		 conjunctions-stems.jspwiki       \
-		 nouns-affixes.jspwiki            \
-		 nouns-stems.jspwiki              \
-		 numerals-stems.jspwiki           \
-		 pronouns-stems.jspwiki           \
-		 verbs-affixes.jspwiki            \
-		 verbs-stems.jspwiki
-# abbreviations-stems.jspwiki      \
-# acronyms-stems.jspwiki           \
-# adpositions-stems.jspwiki        \
-# adverbs-stems.jspwiki            \
-# clitics-morphology.jspwiki       \
-# compounding-morphology.jspwiki   \
-# interjections-stems.jspwiki      \
-# particles-stems.jspwiki          \
-#		 propernouns-stems.jspwiki        \
-# propernouns-affixes.jspwiki      \
-# punctuation-stems.jspwiki        \
-# smi-propernouns-stems.jspwiki    \
-# subjunctions-stems.jspwiki       \
-include $(top_srcdir)/../giella-core/am-shared/doc-dir-include.am
+MD_PAGES=root-morphology.md        \
+		 adjectives-affixes.md       \
+		 adjectives-stems.md         \
+		 conjunctions-stems.md       \
+		 nouns-affixes.md            \
+		 nouns-stems.md              \
+		 numerals-stems.md           \
+		 pronouns-stems.md           \
+		 verbs-affixes.md            \
+		 verbs-stems.md
+# abbreviations-stems.md      \
+# acronyms-stems.md           \
+# adpositions-stems.md        \
+# adverbs-stems.md            \
+# clitics-morphology.md       \
+# compounding-morphology.md   \
+# interjections-stems.md      \
+# particles-stems.md          \
+#		 propernouns-stems.md        \
+# propernouns-affixes.md      \
+# punctuation-stems.md        \
+# smi-propernouns-stems.md    \
+# subjunctions-stems.md       \
+include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am
