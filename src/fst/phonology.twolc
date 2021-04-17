@@ -1,5 +1,5 @@
 !! =================================== !
-!! !!!The Mansi morphophonological/twolc rule file
+!! # The Mansi morphophonological/twolc rule file
 !! =================================== !
 !! One of the Grammars used for this description is:
 !! Скрибник Е.К. & К.В. Афанасьева 2007:
@@ -50,32 +50,32 @@ Alphabet
 ! PROPOSAL: leave this question for later.
 
 !! Archiphones
-%{ЫИ%}:и	!!= __@CODE@__
-%{ЫИ%}:ы	!!= __@CODE@__
-%{ЭЕLong%}:е̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
-%{ЭЕLong%}:э̄	!!= __@CODE@__ +V+Ind+Prs+ScSg1
-%{йØ%}:0	!!= __@CODE@__ ыг
-%{ыØ%}:ы	!!= __@CODE@__ specific floating vowel 
-%{иØ%}:и	!!= __@CODE@__ specific floating vowel 
-%{уØ%}:у	!!= __@CODE@__ specific floating vowel 
+%{ЫИ%}:и	!!= **@CODE@**
+%{ЫИ%}:ы	!!= **@CODE@**
+%{ЭЕLong%}:е̄	!!= **@CODE@** +V+Ind+Prs+ScSg1
+%{ЭЕLong%}:э̄	!!= **@CODE@** +V+Ind+Prs+ScSg1
+%{йØ%}:0	!!= **@CODE@** ыг
+%{ыØ%}:ы	!!= **@CODE@** specific floating vowel 
+%{иØ%}:и	!!= **@CODE@** specific floating vowel 
+%{уØ%}:у	!!= **@CODE@** specific floating vowel 
 
-%{АЯØ%}:0	!!= __@CODE@__
-%{ЫИØ%}:0	!!= __@CODE@__
-%{ЫØ%}:0	!!= __@CODE@__ +Loc
-%{УØ%}:0	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
-%{УЮØ%}:0	!!= __@CODE@__
-%{ТØ%}:0	!!= __@CODE@__
-%{ЭЕ%}:0	!!= __@CODE@__ PxSg3
+%{АЯØ%}:0	!!= **@CODE@**
+%{ЫИØ%}:0	!!= **@CODE@**
+%{ЫØ%}:0	!!= **@CODE@** +Loc
+%{УØ%}:0	!!= **@CODE@** +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
+%{УЮØ%}:0	!!= **@CODE@**
+%{ТØ%}:0	!!= **@CODE@**
+%{ЭЕ%}:0	!!= **@CODE@** PxSg3
 
-ы2:0	!!= __@CODE@__ weak ы for Loc and Lat
+ы2:0	!!= **@CODE@** weak ы for Loc and Lat
 
 !! Trigger
 
-%^PxDu2:0	!!= __@CODE@__
-%^PxDu3:0	!!= __@CODE@__
-%^PxPl2:0	!!= __@CODE@__
-%^RmVow:0	!!= __@CODE@__ Word-final vowel removal
-%^Syncope:0	!!= __@CODE@__ This triggers syncope with no reason to place special letters in the stem.
+%^PxDu2:0	!!= **@CODE@**
+%^PxDu3:0	!!= **@CODE@**
+%^PxPl2:0	!!= **@CODE@**
+%^RmVow:0	!!= **@CODE@** Word-final vowel removal
+%^Syncope:0	!!= **@CODE@** This triggers syncope with no reason to place special letters in the stem.
 
 !! Literal quotes and angles must be escaped (cf morpheme boundaries below):
 
