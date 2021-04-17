@@ -9,7 +9,7 @@ LEXICON PROP_KUDO_SURFEM
 +Sem/Sur: PROP ;
 +Sem/Fem: PROP ;
 
-LEXICON PROP !! The only lexicon is {{PROP}}, it goes to K via singular cases.
+LEXICON PROP !! The only lexicon is `PROP`, it goes to K via singular cases.
 +Sg+Nom: K ;
 +Sg+Loc:%>т K ;
 +Sg+Lat:%>н K ;

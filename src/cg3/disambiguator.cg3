@@ -3,7 +3,7 @@
 
 # =================================================================== #
 # =================================================================== #
-#!!      !!! N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
+#!! N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
 # =================================================================== #
 # =================================================================== #
 
@@ -27,7 +27,7 @@
 
 
 # ========== #
-#!! !!!Delimiters 
+#!! # Delimiters 
 # ========== #
 
 
@@ -35,7 +35,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; #!!
 
 
 # ============= #
-#!! !!Tags and sets 
+#!! ## Tags and sets 
 # ============= #
 
 #!! * BOS/EOS
@@ -452,11 +452,11 @@ SET ROUTE = CONCRETE-ROUTE OR ABSTR-ROUTE ;
 SET PLACE = GEOGRAPHICAL-PLACE OR POLITICAL-PLACE OR GENERAL-PLACE OR ROUTE OR BUILDING ;
 
 # ============== #
-#!!  !!!Disambiguation #
+#!! # Disambiguation #
 # ============== #
 
 
-BEFORE-SECTIONS  #!! !!@CODE@
+BEFORE-SECTIONS  #!! ## @CODE@
 
 #!! Rule for adding Sem/Date as a tag to readings which looks like dates
 SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Date) TARGET ("<[0-3][0-9][.][0-2][0-9][.][1-2][0-9][0-9][0-9]>"r Num) ;
@@ -465,9 +465,9 @@ SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Date) TARGET ("<[0-3][0-9][.][0-2][0-9][.]
 SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Year) TARGET ("<[1-2][0-9][0-9][0-9]>"r Num) ;
 
 
-SECTION  #!! !!@CODE@
+SECTION  #!! ## @CODE@
 
-#!! !!Cycle 0
+#!! ## Cycle 0
 
 #!! Removing non-lexicalised forms when lexicalised 
 
