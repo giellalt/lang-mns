@@ -7,7 +7,7 @@
 #
 # dir/filename.lexc => filename-dir.md
 
-MD_PAGES=root-morphology.md        \
+MD_PAGES=root-morphology.md          \
 		 adjectives-affixes.md       \
 		 adjectives-stems.md         \
 		 conjunctions-stems.md       \
@@ -25,9 +25,10 @@ MD_PAGES=root-morphology.md        \
 # compounding-morphology.md   \
 # interjections-stems.md      \
 # particles-stems.md          \
-#		 propernouns-stems.md        \
+# propernouns-stems.md        \
 # propernouns-affixes.md      \
 # punctuation-stems.md        \
 # smi-propernouns-stems.md    \
-# subjunctions-stems.md       \
+# subjunctions-stems.md
+
 include $(top_srcdir)/../giella-core/am-shared/docs-dir-include.am
