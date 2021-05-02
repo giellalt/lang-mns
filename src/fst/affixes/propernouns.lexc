@@ -18,5 +18,9 @@ LEXICON PROP !! The only lexicon is `PROP`, it goes to K via singular cases.
 +Sg+Trans:%>ыг K ;
 
 
+LEXICON PROP-PATR-MAL_END-IN-CH/DZ
+!! **LEXICON @LEXNAME@** the content is just there to make the fst compile.
++N+Prop: # ; 
+
 ! vim: set ft=xfst-lexc:
 

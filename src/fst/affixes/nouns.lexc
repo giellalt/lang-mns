@@ -1,65 +1,73 @@
-!! Noun inflection for Mansi
+!! # Noun inflection for Mansi
 ! ----------------
 
-!! Stems ending in V
-!! 1. N01 = stem ending in (а|о|у|э|а̄|о̄|ӯ|э̄|я|ё|ю|е|я̄|ё̄|ю̄|е̄)
-!! 1. N02 = stem ending in (и|ы|ӣ|ы̄)
+!! This file contains the noun inflection. 
 
-!! Stems ending in C
-!! 1. N13 = stem ending in (г|ӈ|в|к|кв|м|п|р|х)
-!! 1. N14 = stem ending in (ль|нь|ть)
-!! 1. N16 = stem ending in (й)
-!! 1. N17 = stem ending in (б|д|ф|ц|ч|ш|з|ж)
-!! 1. N18 = stem ending in (бь|дь|фь|ць|чь|шь|зь|жь|рь)
-!! 1. N19 = stem ending in (щ)
 
-!! Stems ending in CC
-!! 1. N23 = stem ending in C and (г|ӈ|в|к|кв|м|п|р|х)
-!! 1. N24 = stem ending in C and (л|н|т|с)
-!! 1. N25 = stem ending in C and (ль|нь|ть)
-!! 1. N26 = stem ending in C and (й)
-!! 1. N27 = stem ending in C and (б|д|ф|ц|ч|ш|з|ж)
-!! 1. N28 = stem ending in C and (бь|дь|фь|ць|чь|шь|зь|жь|рь)
-!! 1. N29 = stem ending in C and (щ)
+! This documentation is obsolete (see below):
 
-!! Stems ending in CCC
-!! 1. N33 = stem ending in CC and (г|ӈ|в|к|кв|м|п|р|х)
-!! 1. N34 = stem ending in CC and (л|н|т|с)
-!! 1. N35 = stem ending in CC and (ль|нь|ть)
-!! 1. N36 = stem ending in CC and (й)
-!! 1. N37 = stem ending in CC and (б|д|ф|ц|ч|ш|з|ж)
-!! 1. N38 = stem ending in CC and (бь|дь|фь|ць|чь|шь|зь|жь|рь)
-!! 1. N29 = stem ending in CC and (щ)
+! Stems ending in V
+! 1. N01 = stem ending in (а|о|у|э|а̄|о̄|ӯ|э̄|я|ё|ю|е|я̄|ё̄|ю̄|е̄)
+! 1. N02 = stem ending in (и|ы|ӣ|ы̄)
 
-!! Stems with syncopating vowel
-!! 1. N4311 = syncopating stems ending in -ыг
-!! 1. N4321 = syncopating stems ending in -иг
-!! 1. N4331 = syncopating stems ending in -ыӈ
-!! 1. N4341 = syncopating stems ending in -иӈ
-!! 1. N4411 = syncopating stems ending in -ыл
-!! 1. N4421 = syncopating stems ending in -ил
-!! 1. N4431 = syncopating stems ending in -ын
-!! 1. N4441 = syncopating stems ending in -ин
-!! 1. N4511 = syncopating stems ending in -ум
-!! 1. N4521 = syncopating stems ending in -ым
-!! 1. N4531 = syncopating stems ending in -уп
-!! 1. N4611 = syncopating stems ending in -ыр
-!! 1. N4621 = syncopating stems ending in -ир
-!! 1. N4711 = syncopating stems ending in -ых
-!! 1. N4721 = syncopating stems ending in -их
+! Stems ending in C
+! 1. N13 = stem ending in (г|ӈ|в|к|кв|м|п|р|х)
+! 1. N14 = stem ending in (ль|нь|ть)
+! 1. N16 = stem ending in (й)
+! 1. N17 = stem ending in (б|д|ф|ц|ч|ш|з|ж)
+! 1. N18 = stem ending in (бь|дь|фь|ць|чь|шь|зь|жь|рь)
+! 1. N19 = stem ending in (щ)
 
-!! 1. N53 = irregular paradigm of хум
+! Stems ending in CC
+! 1. N23 = stem ending in C and (г|ӈ|в|к|кв|м|п|р|х)
+! 1. N24 = stem ending in C and (л|н|т|с)
+! 1. N25 = stem ending in C and (ль|нь|ть)
+! 1. N26 = stem ending in C and (й)
+! 1. N27 = stem ending in C and (б|д|ф|ц|ч|ш|з|ж)
+! 1. N28 = stem ending in C and (бь|дь|фь|ць|чь|шь|зь|жь|рь)
+! 1. N29 = stem ending in C and (щ)
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Stems ending in CCC
+! 1. N33 = stem ending in CC and (г|ӈ|в|к|кв|м|п|р|х)
+! 1. N34 = stem ending in CC and (л|н|т|с)
+! 1. N35 = stem ending in CC and (ль|нь|ть)
+! 1. N36 = stem ending in CC and (й)
+! 1. N37 = stem ending in CC and (б|д|ф|ц|ч|ш|з|ж)
+! 1. N38 = stem ending in CC and (бь|дь|фь|ць|чь|шь|зь|жь|рь)
+! 1. N29 = stem ending in CC and (щ)
+
+! Stems with syncopating vowel
+! 1. N4311 = syncopating stems ending in -ыг
+! 1. N4321 = syncopating stems ending in -иг
+! 1. N4331 = syncopating stems ending in -ыӈ
+! 1. N4341 = syncopating stems ending in -иӈ
+! 1. N4411 = syncopating stems ending in -ыл
+! 1. N4421 = syncopating stems ending in -ил
+! 1. N4431 = syncopating stems ending in -ын
+! 1. N4441 = syncopating stems ending in -ин
+! 1. N4511 = syncopating stems ending in -ум
+! 1. N4521 = syncopating stems ending in -ым
+! 1. N4531 = syncopating stems ending in -уп
+! 1. N4611 = syncopating stems ending in -ыр
+! 1. N4621 = syncopating stems ending in -ир
+! 1. N4711 = syncopating stems ending in -ых
+! 1. N4721 = syncopating stems ending in -их
+
+! 1. N53 = irregular paradigm of хум
+
+!! All Mansi nouns have the same suffixe, thus only one continuation lexica.
+!! The stem vowel alternation is taken care of in the twolc file.
+
+!! ## The lexicon
 
 LEXICON N-01_
+!! **LEXICON @LEXNAME@** is the only Nansi noun lexicon. It has entries of three types:
 ! noun in ь + ыт
- ! non possessive forms 
+!! ### 1. Non-possessive forms 
+!! affixes for Nom, Loc, Lat, Abl, Ins, Tra, for Sg, Du, Pl.
 +Sg+Nom: K ;
 +Sg+Loc:%>ыт K ; ! not like Pl Nom!!
 +Sg+Lat:%>ын K ;
-!+Sg+Loc:%>ы2т K ; ! -ыт/ _ CC, -т elsewhere
-!+Sg+Lat:%>ы2н K ; ! -ын as -ыт above
 +Sg+Abl:%>ныл K ;
 +Sg+Ins:%>ыл K ;
 +Sg+Tra:%>%{йØ%}ыг K ;
@@ -77,8 +85,11 @@ LEXICON N-01_
 +Pl+Abl:%>ытныл K ;
 +Pl+Ins:%>ытыл K ;
 
- ! possessive forms
+!+Sg+Loc:%>ы2т K ; ! -ыт/ _ CC, -т elsewhere
+!+Sg+Lat:%>ы2н K ; ! -ын as -ыт above
 
+!! ### 2. Possessive forms
+!! Affixes for pissessive suffixes + case forms.
 +Sg+PxSg1+Nom:%>ум K ;
 +Sg+PxSg1+Loc:%>умт K ;
 +Sg+PxSg1+Lat:%>умн K ;
@@ -156,6 +167,7 @@ LEXICON N-01_
 +Du+PxDu1+Lat:%>гме̄нн K ;
 +Du+PxDu1+Abl:%>гме̄нныл K ;
 +Du+PxDu1+Ins:%>гме̄нтыл K ;
+
 +Du+PxDu1+Nom+Use/NG:%>гмен K ;
 +Du+PxDu1+Loc+Use/NG:%>гмент K ;
 +Du+PxDu1+Lat+Use/NG:%>гменн K ;
@@ -172,6 +184,7 @@ LEXICON N-01_
 +Pl+PxDu1+Lat:%>нме̄нн K ;
 +Pl+PxDu1+Abl:%>нме̄нныл K ;
 +Pl+PxDu1+Ins:%>нме̄нтыл K ;
+
 +Pl+PxDu1+Nom+Use/NG:%>нмен K ;
 +Pl+PxDu1+Loc+Use/NG:%>нмент K ;
 +Pl+PxDu1+Lat+Use/NG:%>нменн K ;
@@ -286,6 +299,7 @@ LEXICON N-01_
 +Pl+PxPl3+Abl:%>нылныл K ;
 +Pl+PxPl3+Ins:%>нылтыл K ;
 
-! Derivation
+!! ### 3. Derivation forms
+!! This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 +Der+Der/Yng+A:%>ыӈ A_ ;
 +Der+Der/Yng+A+Der+Der/Yshch+Adv:%>ыщ ADV_ ;

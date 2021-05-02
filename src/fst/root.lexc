@@ -18,7 +18,7 @@
 !! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
 
 
-Multichar_Symbols  !!≈ # @CODE@ definitions
+Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! ## Letters in alphabet
 !! Vowels with a macron
@@ -55,261 +55,249 @@ Multichar_Symbols  !!≈ # @CODE@ definitions
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +N		   !!= * **@CODE@**  
- +A 	   !!= * **@CODE@**  
- +Adv 	   !!= * **@CODE@**  
- +V        !!= * **@CODE@**                             
- +Pron 	   !!= * **@CODE@**  
- +CS 	   !!= * **@CODE@**  
- +CC 	   !!= * **@CODE@**  
- +Adp 	   !!= * **@CODE@**  
- +Po 	   !!= * **@CODE@**  
- +Pr 	   !!= * **@CODE@**  
- +Interj   !!= * **@CODE@**  
- +Pcle 	   !!= * **@CODE@**  
- +Num 	   !!= * **@CODE@**  
- +Prc 	   !!= * **@CODE@**  
+!! ### The parts-of-speech are:
+ +N		   !!≈ * **@CODE@**  
+ +A 	   !!≈ * **@CODE@**  
+ +Adv 	   !!≈ * **@CODE@**  
+ +V        !!≈ * **@CODE@**                             
+ +Pron 	   !!≈ * **@CODE@**  
+ +CS 	   !!≈ * **@CODE@**  
+ +CC 	   !!≈ * **@CODE@**  
+ +Adp 	   !!≈ * **@CODE@**  
+ +Po 	   !!≈ * **@CODE@**  
+ +Pr 	   !!≈ * **@CODE@**  
+ +Interj   !!≈ * **@CODE@**  
+ +Pcle 	   !!≈ * **@CODE@**  
+ +Num 	   !!≈ * **@CODE@**  
+ +Prc 	   !!≈ * **@CODE@**  
 
-!! The parts of speech are further split up into:
+!! ### The parts of speech are further split up into:
 				
- +Prop 	    !!= * **@CODE@** 
- +Pers 	    !!= * **@CODE@** 
- +Dem 	    !!= * **@CODE@** 
- +Interr    !!= * **@CODE@** 
- +Refl 	    !!= * **@CODE@** this is also used for +Nom intensfier
- +Recipr    !!= * **@CODE@** 
- +Rel 	    !!= * **@CODE@** 
- +Indef	    !!= * **@CODE@** 
- +Aux	    !!= * **@CODE@** Auxiliary
+ +Prop 	    !!≈ * **@CODE@** 
+ +Pers 	    !!≈ * **@CODE@** 
+ +Dem 	    !!≈ * **@CODE@** 
+ +Interr    !!≈ * **@CODE@** 
+ +Refl 	    !!≈ * **@CODE@** this is also used for +Nom intensfier
+ +Recipr    !!≈ * **@CODE@** 
+ +Rel 	    !!≈ * **@CODE@** 
+ +Indef	    !!≈ * **@CODE@** 
+ +Aux	    !!≈ * **@CODE@** Auxiliary
++Imp			     !!≈ * **@CODE@** 
 
-+Imp			     !!= * **@CODE@** 
+!! ### The Usage extents are marked using following tags:
+ +Err/Orth  	    !!≈ * **@CODE@**  do not accept, but recognize
+ +Use/NG 	    !!≈ * **@CODE@** do not generate, but accept
+ +Use/-Spell 	    !!≈ * **@CODE@** do not use in speller 
 
-!! The Usage extents are marked using following tags:
- +Err/Orth  	    !!= * **@CODE@**  do not accept, but recognize
- +Use/NG 	    !!= * **@CODE@** do not generate, but accept
- +Use/-Spell 	    !!= * **@CODE@** do not use in speller 
-
-!! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Nom 
- +Acc
-
- +Abl !!= * @CODE@  ныл
- +Ins   !!= * @CODE@ тыл
- +Instr !!= * **@CODE@** 
- +Lat !!= * @CODE@ Ын (2007: Дательный падеж)
- +Loc !!= * @CODE@  Ыт
- +Tra !!= * @CODE@  Ыг
+!! ### The nominals are inflected in the following Case and Number
+ +Sg +Du +Pl !!≈ * **@CODE@** 
+ +Nom  !!≈ * **@CODE@** 
+ +Acc !!≈ * **@CODE@** 
+ +Abl !!≈ * **@CODE@** ныл
+ +Ins   !!≈ * **@CODE@** тыл
+ +Instr !!≈ * **@CODE@** 
+ +Lat !!≈ * **@CODE@** Ын (2007: Дательный падеж)
+ +Loc !!≈ * **@CODE@** Ыт
+ +Tra !!≈ * **@CODE@** Ыг
 
 
 
-!! The comparative forms are:
- +Pos			     !!= * **@CODE@** 
- +Comp 	     !!= * **@CODE@** 
- +Superl	     !!= * **@CODE@** 
- +Attr	     !!= * **@CODE@** 
+!! ### The comparative forms are:
+ +Pos      !!≈ * **@CODE@** 
+ +Comp     !!≈ * **@CODE@** 
+ +Superl    !!≈ * **@CODE@** 
+ +Attr      !!≈ * **@CODE@** 
 
 
-!! Numerals are classified under:
-  +Card	     !!= * **@CODE@** 
- +Ord	     !!= * **@CODE@** 
+!! ### Number, person and mod
 
+  +Card  +Ord        !!≈ * **@CODE@**  Numerals are classified under:
+ +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3   !!≈ * **@CODE@**  Personal pronouns are marked as
+ +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3  !!≈ * **@CODE@** for possessive suffixes
+ +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3z  !!≈ * **@CODE@** Verb subject conjugation
+ +OcSg3 +OcDu3 +OcPl3  !!≈ * **@CODE@** Verb object conjugation
+ +Ind +Prs +Prt +Pot +Cond +Imprt +Evid !!≈ * **@CODE@** Verb moods 
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass  !!≈ * **@CODE@** infinite verbforms
+ +TV +IV  !!≈ * **@CODE@** for transitive, intransitive
+ +Trans !!≈ * **@CODE@** hmm, Trans and TV?
 
-!! Personal pronouns are marked as
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3   !!= * **@CODE@** 
+!! ### Abbreviated words are classified with:
+ +ABBR +ACR  !!≈ * **@CODE@** 
+ +Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3  !!= * **@CODE@** 
+!! ### Special symbols are classified with:
++CLB +PUNCT +LEFT +RIGHT  !!≈ * **@CODE@** 
+ +Multi  !!≈ * **@CODE@** multiword units
+ +Guess  !!≈ * **@CODE@** Non-dictionary words (not in use)
 
-!! Verb personal forms are:
- +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3  !!= * **@CODE@** 
- +OcSg3 +OcDu3 +OcPl3  !!= * **@CODE@** 
-
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt +Evid !!= * **@CODE@** 
-
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass  !!= * **@CODE@** 
-
-! Abbreviated words are classified with:
- +ABBR +ACR  !!= * **@CODE@** 
-+Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT  !!= * **@CODE@** 
-!! The verbs are syntactically split according to transitivity:
- +TV +IV  !!= * **@CODE@** 
- +Trans !!= * **@CODE@** hmm, Trans and TV?
- 
-!! Special multiword units are analysed with:
- +Multi  !!= * **@CODE@** 
-!! Non-dictionary words can be recognised with:
- +Guess  !!= * **@CODE@** 
-
-!! Question and Focus particles:
- +Qst +Foc  !!= * **@CODE@** 
+ +Qst +Foc  !!≈ * **@CODE@** Question and Focus particles
 
 !!! !Tags usually not visible outside the code:
 
 
 !! ### Tags distinguishing different versions of the same lemma (before POS)
-+v1   !!≈ * @CODE@
-+v2   !!≈ * @CODE@
-+v3   !!≈ * @CODE@
-+v4   !!≈ * @CODE@
-+v5   !!≈ * @CODE@
-+v6   !!≈ * @CODE@
-+v7   !!≈ * @CODE@
-+v8   !!≈ * @CODE@
-+v9   !!≈ * @CODE@
-+v10  !!≈ * @CODE@
-+v11  !!≈ * @CODE@
-+v12  !!≈ * @CODE@
-+v13  !!≈ * @CODE@
-+v14  !!≈ * @CODE@
-+v15  !!≈ * @CODE@
-+v16  !!≈ * @CODE@
-+v17  !!≈ * @CODE@
-+v18  !!≈ * @CODE@
-+v19  !!≈ * @CODE@
-+v20  !!≈ * @CODE@
-+v21  !!≈ * @CODE@
-+v22  !!≈ * @CODE@
-+v23  !!≈ * @CODE@
-+v24  !!≈ * @CODE@
++v1   !!≈ * **@CODE@**
++v2   !!≈ * **@CODE@**
++v3   !!≈ * **@CODE@**
++v4   !!≈ * **@CODE@**
++v5   !!≈ * **@CODE@**
++v6   !!≈ * **@CODE@**
++v7   !!≈ * **@CODE@**
++v8   !!≈ * **@CODE@**
++v9   !!≈ * **@CODE@**
++v10  !!≈ * **@CODE@**
++v11  !!≈ * **@CODE@**
++v12  !!≈ * **@CODE@**
++v13  !!≈ * **@CODE@**
++v14  !!≈ * **@CODE@**
++v15  !!≈ * **@CODE@**
++v16  !!≈ * **@CODE@**
++v17  !!≈ * **@CODE@**
++v18  !!≈ * **@CODE@**
++v19  !!≈ * **@CODE@**
++v20  !!≈ * **@CODE@**
++v21  !!≈ * **@CODE@**
++v22  !!≈ * **@CODE@**
++v23  !!≈ * **@CODE@**
++v24  !!≈ * **@CODE@**
 
 
 !! Semantics are classified with
- +Sem/Mal     !!= * **@CODE@** 
-! +Sem/Fem     !!= * __@CODE@__ 
-! +Sem/Sur     !!= * __@CODE@__ 
- +Sem/Plc     !!= * **@CODE@** 
-! +Sem/Org     !!= * __@CODE@__ 
-! +Sem/Obj     !!= * __@CODE@__ 
-! +Sem/Ani     !!= * __@CODE@__ 
-! +Sem/Hum     !!= * __@CODE@__ 
-! +Sem/Plant   !!= * __@CODE@__ 
-! +Sem/Group   !!= * __@CODE@__ 
-! +Sem/Time    !!= * __@CODE@__ 
-! +Sem/Txt     !!= * __@CODE@__ 
-! +Sem/Route   !!= * __@CODE@__ 
-! +Sem/Measr   !!= * __@CODE@__ 
-! +Sem/Wthr    !!= * __@CODE@__ 
-! +Sem/Build   !!= * __@CODE@__ 
-! +Sem/Edu     !!= * __@CODE@__ 
-! +Sem/Veh     !!= * __@CODE@__ 
-! +Sem/Clth    !!= * __@CODE@__ 
+ +Sem/Mal     !!≈ * **@CODE@** 
+! +Sem/Fem     !!≈ * __@CODE@__ 
+! +Sem/Sur     !!≈ * __@CODE@__ 
+ +Sem/Plc     !!≈ * **@CODE@** 
+! +Sem/Org     !!≈ * __@CODE@__ 
+! +Sem/Obj     !!≈ * __@CODE@__ 
+! +Sem/Ani     !!≈ * __@CODE@__ 
+! +Sem/Hum     !!≈ * __@CODE@__ 
+! +Sem/Plant   !!≈ * __@CODE@__ 
+! +Sem/Group   !!≈ * __@CODE@__ 
+! +Sem/Time    !!≈ * __@CODE@__ 
+! +Sem/Txt     !!≈ * __@CODE@__ 
+! +Sem/Route   !!≈ * __@CODE@__ 
+! +Sem/Measr   !!≈ * __@CODE@__ 
+! +Sem/Wthr    !!≈ * __@CODE@__ 
+! +Sem/Build   !!≈ * __@CODE@__ 
+! +Sem/Edu     !!≈ * __@CODE@__ 
+! +Sem/Veh     !!≈ * __@CODE@__ 
+! +Sem/Clth    !!≈ * __@CODE@__ 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
-+Der
-+Der/Yng     !!= * **@CODE@** N» ыӈ Proprietive as in kpv -а
-+Der/Yshch   !!= * **@CODE@** A» ыщ 
-+Der/Ap	     !!= * **@CODE@** V» ап 
+ +V→N +V→V +V→A    !!≈ * **@CODE@** 
+ +Der/xxx   !!≈ * **@CODE@** 
++Der    !!≈ * **@CODE@** 
++Der/Yng     !!≈ * **@CODE@** N» ыӈ Proprietive as in kpv -а
++Der/Yshch   !!≈ * **@CODE@** A» ыщ 
++Der/Ap	     !!≈ * **@CODE@** V» ап 
 +Actio
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ * **@CODE@**:  Literal »
  «7     !!≈ * **@CODE@**:  Literal «
-        !! ```
- %[%>%] !!= @CODE@ - Literal >
- %[%<%] !!= @CODE@ - Literal <
-        !! ```
+ %[%>%] !!≈ **@CODE@**- Literal >
+ %[%<%] !!≈ **@CODE@**- Literal <
 
 
-!! Morphophonology
+!! ## Morphophonology
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols (archiphones) in the lexicon files:
-!%{АЯØ%}	!!= __@CODE@__
-!%{ЫИØ%}	!!= __@CODE@__
-!%{ЫØ%}	!!= __@CODE@__ +Loc
-!%{УØ%}	!!= __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
-!%{УЮØ%}	!!= __@CODE@__
-!%{ТØ%}	!!= __@CODE@__
+!%{АЯØ%}	!!≈ __@CODE@__
+!%{ЫИØ%}	!!≈ __@CODE@__
+!%{ЫØ%}	!!≈ __@CODE@__ +Loc
+!%{УØ%}	!!≈ __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
+!%{УЮØ%}	!!≈ __@CODE@__
+!%{ТØ%}	!!≈ __@CODE@__
 
-%{ЫИ%}	!!= **@CODE@** +V+Ind+Prs+OcSg3+ScSg1
-%{ЭЕLong%}	!!= **@CODE@** +V+Ind+Prs+ScSg1, PxDu3
-%{ЭЕ%}	!!= **@CODE@** +V+Ind+Prs+ScDu2, PxSg3
-%{йØ%}	!!= **@CODE@** ыг
-%{ыØ%}	!!= **@CODE@** specific floating vowel 
-%{иØ%}	!!= **@CODE@** specific floating vowel 
-%{уØ%}	!!= **@CODE@** specific floating vowel 
+%{ЫИ%}	!!≈ **@CODE@** +V+Ind+Prs+OcSg3+ScSg1
+%{ЭЕLong%}	!!≈ **@CODE@** +V+Ind+Prs+ScSg1, PxDu3
+%{ЭЕ%}	!!≈ **@CODE@** +V+Ind+Prs+ScDu2, PxSg3
+%{йØ%}	!!≈ **@CODE@** ыг
+%{ыØ%}	!!≈ **@CODE@** specific floating vowel 
+%{иØ%}	!!≈ **@CODE@** specific floating vowel 
+%{уØ%}	!!≈ **@CODE@** specific floating vowel 
 
-ы2         !!= **@CODE@** weak ы in Sg Loc and Sg Lat
+ы2         !!≈ **@CODE@** weak ы in Sg Loc and Sg Lat
 
 !! And following triggers to control variation
 ! {front} {back}
-!%^PxDu2	!!= __@CODE@__
-!%^PxDu3	!!= __@CODE@__
-!%^PxPl2	!!= __@CODE@__
-!%^RmVow	!!= __@CODE@__ Word-final vowel removal
-!%^Syncope	!!= __@CODE@__ triggers syncope, no reason for special letters in the stem.
+!%^PxDu2	!!≈ __@CODE@__
+!%^PxDu3	!!≈ __@CODE@__
+!%^PxPl2	!!≈ __@CODE@__
+!%^RmVow	!!≈ __@CODE@__ Word-final vowel removal
+!%^Syncope	!!≈ __@CODE@__ triggers syncope, no reason for special letters in the stem.
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
- @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
- @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
-!! 
+
+!! | Flag | Explanation
+!! | ---- | -----------
+ @P.NeedNoun.ON@    !!≈ |  **@CODE@**| (Dis)allow compounds with verbs unless nominalised
+ @D.NeedNoun.ON@    !!≈ |  **@CODE@**| (Dis)allow compounds with verbs unless nominalised
+ @C.NeedNoun@       !!≈ |  **@CODE@**| (Dis)allow compounds with verbs unless nominalised
+
 !! For languages that allow compounding, the following flag diacritics are needed
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
- @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
- @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
- @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
- @D.CmpNone.TRUE@  !!≈ |  @CODE@ | Combines with the next tag to prohibit compounding
- @U.CmpNone.FALSE@ !!≈ |  @CODE@ | Combines with the prev tag to prohibit compounding
- @P.CmpOnly.TRUE@  !!≈ |  @CODE@ | Sets a flag to indicate that the word has passed R
- @D.CmpOnly.FALSE@ !!≈ |  @CODE@ | Disallow words coming directly from root.
-!! 
+
+!! | Flag | Explanation
+!! | ---- | -----------
+ @P.CmpFrst.FALSE@ !!≈ |  **@CODE@**| Require that words tagged as such only appear first
+ @D.CmpPref.TRUE@  !!≈ |  **@CODE@**| Block such words from entering ENDLEX
+ @P.CmpPref.FALSE@ !!≈ |  **@CODE@**| Block these words from making further compounds
+ @D.CmpLast.TRUE@  !!≈ |  **@CODE@**| Block such words from entering R
+ @D.CmpNone.TRUE@  !!≈ |  **@CODE@**| Combines with the next tag to prohibit compounding
+ @U.CmpNone.FALSE@ !!≈ |  **@CODE@**| Combines with the prev tag to prohibit compounding
+ @P.CmpOnly.TRUE@  !!≈ |  **@CODE@**| Sets a flag to indicate that the word has passed R
+ @D.CmpOnly.FALSE@ !!≈ |  **@CODE@**| Disallow words coming directly from root.
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
- @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
- @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
- 
- 
- 
- !! ## Tags that are in use in the transducer, mostly from common files
+
+!! | Flag | Explanation
+!! | ---- | -----------
+ @U.Cap.Obl@        !!≈ |  **@CODE@**| Allowing downcasing of derived names: deatnulasj.
+ @U.Cap.Opt@        !!≈ |  **@CODE@**| Allowing downcasing of derived names: deatnulasj.
  
 
  
- 
+!! ## The basic lexica
 
 LEXICON Root
+!! **LEXICON @LEXNAME@** 
 !! The word forms in the MANSI language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-   Nouns   ; !!= **@CODE@** 
-   Verbs   ; !!= **@CODE@** 
-   Adjectives  ; !!= **@CODE@** 
-   Adverbs  ; !!= **@CODE@** 
-   Pronouns    ; !!= **@CODE@** 
-   Numerals    ; !!= **@CODE@** 
-   Conjunctions ; !!= **@CODE@** 
-   Interjections ; !!= **@CODE@** 
-   Participles ; !!= **@CODE@** 
-   Postpositions ; !!= **@CODE@** 
-   PROP_MANSINAMES ;  !!= **@CODE@** mansi-specific proper nouns
-   urj-Cyrl-ProperNouns ;  !!= **@CODE@** common cyrillic proper nouns
-   Punctuation ;
-   Symbols     ;
+   Nouns   ;               !!≈ **@CODE@** 
+   Verbs   ;               !!≈ **@CODE@** 
+   Adjectives  ;           !!≈ **@CODE@** 
+   Adverbs  ;              !!≈ **@CODE@** 
+   Pronouns    ;           !!≈ **@CODE@** 
+   Numerals    ;           !!≈ **@CODE@** 
+   Conjunctions ;          !!≈ **@CODE@** 
+   Interjections ;         !!≈ **@CODE@** 
+   Participles ;           !!≈ **@CODE@** 
+   Postpositions ;         !!≈ **@CODE@** 
+   PROP_MANSINAMES ;       !!≈ **@CODE@** mansi-specific proper nouns
+   urj-Cyrl-ProperNouns ;  !!≈ **@CODE@** common cyrillic proper nouns
+   Punctuation ;           !!≈ **@CODE@** 
+   Symbols     ;           !!≈ **@CODE@** 
+!! NEWWORDS FILES:
+   A_NEWWORDS ;	           !!≈ **@CODE@** adjectives
+   ADV_NEWWORDS ;	       !!≈ **@CODE@** adverbs
+   N_NEWWORDS ; 	       !!≈ **@CODE@** nouns
+   NUM_NEWWORDS ;          !!≈ **@CODE@** numerals
+   EXCEPTIONS ; 	       !!≈ **@CODE@** exceptions
 
-!! NEWWORDS FILES
- A_NEWWORDS ;	  !!= **@CODE@** adjectives
- ADV_NEWWORDS ;	  !!= **@CODE@** adverbs
- N_NEWWORDS ; 	  !!= **@CODE@** nouns
- NUM_NEWWORDS ;   !!= **@CODE@** numerals
- EXCEPTIONS ; 	  !!= **@CODE@** exceptions
-
-LEXICON K !!= * @CODE@ for evt. clitic
+LEXICON K 
+!! * **LEXICON @LEXNAME@** for evt. clitic (goes to #)
 # ;
 
 ! vim: set ft=xfst-lexc:
+
