@@ -152,6 +152,53 @@ ADD ADVERBS BELOW
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Mansi morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
 
