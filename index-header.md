@@ -5,7 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/issues)
 [![Build status](https://github.com/giellalt/lang-mns/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-mns/actions)
 
-This page documents the work on the **Mansi language model**. 
+This page documents the work on the **Mansi language model**.
 
 The analyser contains appr 6000 stems, and is still in
 an experimental stage. It is in use in a Mansi e-dictionary.
@@ -15,7 +15,7 @@ For questions, contact Csilla Horvath or Trond Trosterud.
 # Project documentation
 
 * Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-mns.fi.html)
- 
+
 ## Grammatical issues
 
 * [The tags that are in use](https://github.com/giellalt/lang-mns/blob/main/src/fst/root.lexc)
