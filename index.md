@@ -8,24 +8,22 @@
 This page documents the work on the **Mansi language model**.
 
 The analyser contains appr 6000 stems, and is still in
-an experimental stage. It is in use in a Mansi e-dictionary.
+an early stage. It is in use in a Mansi e-dictionary.
 
-For questions, contact Csilla Horvath or Trond Trosterud.
+For questions, contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
-# Project documentation
+## Resources
 
-* Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-mns.fi.html)
+* [Language technology tools for Mansi](https://giellatekno.uit.no/cgi/index.mns.eng.html)
 
 ## Grammatical issues
 
-* [The tags that are in use](https://github.com/giellalt/lang-mns/blob/main/src/fst/root.lexc)
-* [A list of morphological tags](/lang/common/MorphologicalTags.html)
+* [A list of the morphological tags used in the GiellaLT infrastructure](/lang/common/MorphologicalTags.html)
 
 
 ## Using the analysers
 
-* In the terminal: analyse words by writing `umns`, generate with `dmns`
-* For more info, see [How to use the morphological parsers](/tools/docu-sme-manual.html)
+* [How to download, set up, compile and use the Mansi parser](/tools/docu-sme-manual.html)
 
 # In-source documentation
 

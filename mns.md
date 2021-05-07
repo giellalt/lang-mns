@@ -33,19 +33,16 @@ one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
 
 **LEXICON EXCEPTIONS** only one verb and some propernounss for now.
-IRREGULAR ADJECTIVES
 
-IRREGULAR DETERMINERS
-
-IRREGULAR NOUNS
 
 IRREGULAR VERBS
-
-
-
+ миӈкве+V+Inf:миӈкве K ;
 
 NEW PROPER NOUNS
-
+ Ӣсус+N+Prop+Sem/Mal:Ӣсус N-01_ ;
+ Лука+N+Prop+Sem/Mal:Лука N-01_ ;
+ Кристос+N+Prop+Sem/Mal:Кристос N-01_ ;
+...
 # New adverbs in mansi
 
 This is where new words are added as lexc entries before they are 
@@ -60,8 +57,23 @@ ADD ADVERBS BELOW
 
 # Mansi Noun stems
 
-**LEXICON Nouns** gives all the nouns, contlex N-01_
+**LEXICON Nouns** gives all the nouns, contlex **N-01_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
+ * а̄вгуст+N:а̄вгуст N-01_ "август" ;
+ * а̄ви+N:а̄ви N-01_ "вход /место/" ;
+ * а̄врах+N:а̄врах N-01_ "обрыв" ;
+ * а̄втор+N:а̄втор N-01_ "автор" ;
+ * а̄ги+N:а̄ги N-01_ "дочь" ;
+ * а̄гирищ+N:а̄гирищ N-01_ "девочка" ;
+ * а̄гм+N:а̄гм N-01_ "боль" ;
+ * а̄гум+N:а̄гум N-01_ "болезнь" ;
+ * а̄кань+N:а̄кань N-01_ "кукла" ;
+ * а̄мп+N:а̄мп N-01_ "собака" ;
+ * а̄па+N:а̄па N-01_ "люлька" ;
+ * а̄рталь+N:а̄рталь N-01_ "семья" ;
+ * а̄ртмил+N:а̄ртмил N-01_ "удача" ;
+ * ласка+N:ласка N-01_ "ласка /животное/" ;
+ * ласточка+N:ласточка N-01_ "ласточка" ;
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 паль N_ "(eng) ear/(hun) fül/(rus) ухо" ;

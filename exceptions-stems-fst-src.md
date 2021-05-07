@@ -8,16 +8,13 @@ one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
 
 **LEXICON EXCEPTIONS** only one verb and some propernounss for now.
-IRREGULAR ADJECTIVES
 
-IRREGULAR DETERMINERS
-
-IRREGULAR NOUNS
 
 IRREGULAR VERBS
-
-
-
+ миӈкве+V+Inf:миӈкве K ;
 
 NEW PROPER NOUNS
-
+ Ӣсус+N+Prop+Sem/Mal:Ӣсус N-01_ ;
+ Лука+N+Prop+Sem/Mal:Лука N-01_ ;
+ Кристос+N+Prop+Sem/Mal:Кристос N-01_ ;
+...
