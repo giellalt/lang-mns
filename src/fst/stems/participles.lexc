@@ -1,8 +1,11 @@
+!! # Participle stems
 
+!! Just a dummy file.
 LEXICON PRC_
+!! **LEXICON @LEXNAME@** 
 +Prc: # ;
 
 
 LEXICON Participles
-
+!! **LEXICON @LEXNAME@** dummy entry "participle" -- probably delete the files
 particple PRC_  ;

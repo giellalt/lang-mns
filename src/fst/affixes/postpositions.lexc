@@ -1,5 +1,8 @@
 
+!! # Postposition morphology
+
 LEXICON PO_
+!! **LEXICON @LEXNAME@** going to K (check, perhaps bad idea) and to Px forms.
 : K ;
 +PxSg1:%>%{уØ%}м K ;
 +PxSg2:%>%{ыØ%}н K ;

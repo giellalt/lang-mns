@@ -12,15 +12,18 @@
 ! Other licensing options are available upon request, please contact
 ! giellatekno@hum.uit.no or feedback@divvun.no
 
-!! # Symbol affixes
+!! # Mansi Symbol affixes
 
 LEXICON Noun_symbols_possibly_inflected
+!! **LEXICON @LEXNAME@** 
  +N+Symbol: SYMBOL_connector ;
 
 LEXICON Noun_symbols_never_inflected
+!! **LEXICON @LEXNAME@** 
  +N+Symbol: # ;
 
 LEXICON SYMBOL_connector
+!! **LEXICON @LEXNAME@** 
                SYMBOL_NO_suff ; ! §
           :%:  SYMBOL_suff    ; ! §:sne
  +Err/Orth:    SYMBOL_suff    ; ! §esne
@@ -28,9 +31,11 @@ LEXICON SYMBOL_connector
  +Err/Orth:%'e SYMBOL_suff    ; ! §'esne
 
 LEXICON SYMBOL_NO_suff
+!! **LEXICON @LEXNAME@** 
  +Sg+Nom: # ;
 
 LEXICON SYMBOL_suff
+!! **LEXICON @LEXNAME@** 
 +N+Sg+Loc:%>т # ;
 +N+Sg+Lat:%>н # ;
 +N+Sg+Abl:%>ыныл # ;

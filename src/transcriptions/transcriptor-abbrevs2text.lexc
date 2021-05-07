@@ -18,13 +18,14 @@
 ! to work.
 
 ! ========================================================================== !
-! !!            !!!Mansi abbreviations                               !
+!! # Mansi abbreviations                               
 ! ========================================================================== !
 
 !! We describe here how abbreviations are in Mansi are read out, e.g.
 !! for text-to-speech systems.
 
 LEXICON Root
+!! * @LEXNAME@
 !! For example:
 
 s.:syntynyt # ;  !!= * @CODE@
