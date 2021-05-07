@@ -1,4 +1,0 @@
-Numerals in Northern Mansi
-
-
-
