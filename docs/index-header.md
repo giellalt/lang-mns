@@ -18,8 +18,8 @@ For questions, contact Csilla Horvath or Trond Trosterud.
  
 ## Grammatical issues
 
-* [The tags that are in use|https://github.com/giellalt/lang-mns/blob/main/src/fst/root.lexc]
-* [A list of morphological tags|/lang/common/MorphologicalTags.html]
+* [The tags that are in use](https://github.com/giellalt/lang-mns/blob/main/src/fst/root.lexc)
+* [A list of morphological tags](/lang/common/MorphologicalTags.html)
 
 
 ## Using the analysers
