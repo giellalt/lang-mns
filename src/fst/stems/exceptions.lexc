@@ -9,28 +9,23 @@
 
 LEXICON EXCEPTIONS
 !! **LEXICON @LEXNAME@** only one verb and some propernounss for now.
-!! IRREGULAR ADJECTIVES
 
-!! IRREGULAR DETERMINERS
-
-!! IRREGULAR NOUNS
+! IRREGULAR ADJECTIVES
+! IRREGULAR DETERMINERS
+! IRREGULAR NOUNS
 
 !! IRREGULAR VERBS
-миӈкве+V+Inf:миӈкве K ;
+миӈкве+V+Inf:миӈкве K ; !!≈ @CODE@
 миӈкве+V+Ind+Prs+ScSg1:мыгум K ;
 миӈкве+V+Ind+Prs+ScSg2:маен K ;
 миӈкве+V+Ind+Prs+ScDu2:мае̄н K ;
 миӈкве+V+Ind+Prs+ScPl2:мае̄н K ;
-
-
 миӈкве+V:ми V11_MUTUAL-PASS ;
 
-
 !! NEW PROPER NOUNS
-Ӣсус+N+Prop+Sem/Mal:Ӣсус N-01_ ;
-Лука+N+Prop+Sem/Mal:Лука N-01_ ;
-Кристос+N+Prop+Sem/Mal:Кристос N-01_ ;
-Ӯщуп+N+Prop+Sem/Mal:Ӯщуп N-01_ ;
-
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N-01_ ; !!≈ @CODE@
+Лука+N+Prop+Sem/Mal:Лука N-01_ ; !!≈ @CODE@
+Кристос+N+Prop+Sem/Mal:Кристос N-01_ ; !!≈ @CODE@
+Ӯщуп+N+Prop+Sem/Mal:Ӯщуп N-01_ ; !! ...
 Виплēем+N+Prop+Sem/Plc:Виплēем N-01_ ;
 Назарет+N+Prop+Sem/Plc:Назарет N-01_ ;
