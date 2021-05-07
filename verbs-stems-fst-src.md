@@ -1,3 +1,7 @@
+# Mansi verb stems
+
+## List of the lexica:
+
 * V11_odd  =  воруӈкве
 * V11_even =
 * V12_odd  =  аюӈкве
@@ -32,9 +36,17 @@
 * V35_even =
 
 
+## The lexica themselves
+
+
+**LEXICON Verbs** is the list of all verbstems
 
 
 
 
 
-
+ * а̄гмалтаӈкве+V:а̄гмалты V23_even "определить" ; 
+ * а̄йтынтахтуӈкве+V:а̄йтынтахты V23_odd "тошнить" ;
+ * а̄лмаяӈкве+V:а̄лмай V12_even "поднять" ;
+ * а̄лмта̄луӈкве+V:а̄лмта̄лу V13_even "носить /на руках/" ;
+..., some 3500 verbs.

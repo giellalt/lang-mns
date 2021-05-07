@@ -1,9 +1,11 @@
 # Adjective inflection for Northern Mansi
 
-No work on adjectives yet.
+Almost no work on adjectives yet.
 
 
+**LEXICON A_** gets +Attr or goes to Comparisons or ADV_
 
+**LEXICON Comparisons** gives Pos and (two!) Comp
 
 
 

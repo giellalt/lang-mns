@@ -3,18 +3,27 @@
 
 The tag is +CC
 
+**LEXICON cj** for the tag +CC
 
 
 Then comes the list of the conjunctions,
-so far only a single one.
+so far only 3 of them.
 
+**LEXICON Conjunctions** for the conjunctions themselves
+# Postpositions
+
+**LEXICON Postpositions** is the lexicon, containing 3 Po so far.
+# New propernouns
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 Нё̄р PROP_ "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 
+**LEXICON PROP_MANSINAMES** 
 ADD PROPER NOUNS BELOW
 
+
+# Exceptions in Mansi
 
 Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 else. This file contains all enumerated word forms that cannot reasonably be
@@ -23,7 +32,7 @@ to none exceptions, it's always better to have a paradigm that covers only
 one or few words than an exception since these will not work nicely with e.g.
 compounding scheme or possibly many end applications.
 
-
+**LEXICON EXCEPTIONS** only one verb and some propernounss for now.
 IRREGULAR ADJECTIVES
 
 IRREGULAR DETERMINERS
@@ -37,30 +46,40 @@ IRREGULAR VERBS
 
 NEW PROPER NOUNS
 
+# New adverbs in mansi
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 ёл ADV_ "(eng) down below/(hun) lent/(rus) вниз| внизу" ;
 
 
+**LEXICON ADV_NEWWORDS** 
 ADD ADVERBS BELOW
 
 
+
+# Mansi Noun stems
+
+**LEXICON Nouns** gives all the nouns, contlex N-01_
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 паль N_ "(eng) ear/(hun) fül/(rus) ухо" ;
 
 
+**LEXICON N_NEWWORDS** 
 ADD NOUNS BELOW
-Numerals in Northern Mansi
+# Numerals in Northern Mansi
 
 
+**LEXICON Numerals** to lexicon numeral
 
-Adverbs
-Adverbs in the Northern Mansi language describe things.
+# Adverbs
+
+Adverbs in the Northern Mansi
 
 
-
+**LEXICON Adverbs** 
 
 
 
@@ -75,15 +94,22 @@ so far only a single one.
 
 
 
+# Mansi numerals
+
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 нёлолов NUM_ "(eng) eight/(hun) nyolc/(rus) восемь" ;
 ADD NUMERALS HERE
 
+**LEXICON NUM_NEWWORDS** 
 
 
 
 
+
+# Mansi verb stems
+
+## List of the lexica:
 
 * V11_odd  =  воруӈкве
 * V11_even =
@@ -119,36 +145,61 @@ ADD NUMERALS HERE
 * V35_even =
 
 
+## The lexica themselves
+
+
+**LEXICON Verbs** is the list of all verbstems
+
+
+
+
+
+ * а̄гмалтаӈкве+V:а̄гмалты V23_even "определить" ; 
+ * а̄йтынтахтуӈкве+V:а̄йтынтахты V23_odd "тошнить" ;
+ * а̄лмаяӈкве+V:а̄лмай V12_even "поднять" ;
+ * а̄лмта̄луӈкве+V:а̄лмта̄лу V13_even "носить /на руках/" ;
+..., some 3500 verbs.
+# Participle stems
+
+Just a dummy file.
+**LEXICON PRC_** 
+
+
+**LEXICON Participles** dummy entry "participle" -- probably delete the files
+# Adjectives in Mansi
+
+**LEXICON Adjectives** 
+
+
+# Pronouns in Northern Mansi
+
+The file lists personal pronouns and their lemma + tags.
+
+**LEXICON Pronouns** is the lexicon, pointing to
+ * personal ;
+
+**LEXICON personal** contains the forms
+ * ам+Pron+Pers+Sg1+Nom:ам # ; 
+ * наӈ+Pron+Pers+Sg2+Nom:наӈ # ; 
+ * тав+Pron+Pers+Sg3+Nom:тав # ; 
+...
 
 
 
 
 
 
-Adjectives
 
 
 
-
-Pronouns in Northern Mansi
-
-No work on pronouns so far.
-
-
-
-
-
-
-
-
-
-
+# New adjectives
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
 яныг+A:яны2г A_ "(eng) big/(hun) nagy/(rus) большой" ;
 
 
+**LEXICON A_NEWWORDS** 
 ADD ADJECTIVES BELOW
 
 
@@ -427,12 +478,21 @@ End of alphabet definitions
 
 
 
-# Symbol affixes
+# Postposition morphology
 
+**LEXICON PO_** going to K (check, perhaps bad idea) and to Px forms.
 
+# Mansi Symbol affixes
 
+**LEXICON Noun_symbols_possibly_inflected** 
 
+**LEXICON Noun_symbols_never_inflected** 
 
+**LEXICON SYMBOL_connector** 
+
+**LEXICON SYMBOL_NO_suff** 
+
+**LEXICON SYMBOL_suff** 
 
 
 
@@ -499,11 +559,14 @@ Affixes for pissessive suffixes + case forms.
 This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 # Numerals for Northern Mansi
 
-No work on numerals yet.
+No much work on numerals yet.
+
+**LEXICON NUM_** 
 
 
+**LEXICON NUM-2-9_** 
 
-
+**LEXICON NUM-OR-ORD_** 
 
 
 
@@ -511,22 +574,25 @@ No work on numerals yet.
 
 No work on adverbs yet.
 
+**LEXICON ADV_** either to # or via Comp нув to #
+
+**LEXICON ADV-AUX_** gets +Aux tag
 
 
 
 
-
-Proper noun inflection for Northern Mansi
+# Proper noun inflection for Northern Mansi
 
 So far no work on Northern Mansi proper nouns.
 It will contain two parts: A general Russian name base
 and Mansi-specific names.
 
+**LEXICON PROP_KUDO_SURFEM** 
 
-The only lexicon is `PROP`, it goes to K via singular cases.
+**LEXICON PROP**  The only lexicon is `PROP`, it goes to K via singular cases.
 
 
-**LEXICON PROP-PATR-MAL_END-IN-CH/DZ** the content is just there to make the fst compile.
+**LEXICON PROP-PATR-MAL_END-IN-CH/DZ** = the content is just there to make the fst compile.
 
 
 # Verb inflection for Mansi
@@ -537,40 +603,43 @@ Stems ending in C
 
 
 
- LEXICON V11_odd   
+**LEXICON V11_odd** 
 
+* **LEXICON V11_MUTUAL** 
+	* **LEXICON V11_MUTUAL-IND**  
+	* **LEXICON V11_MUTUAL-COND** 
+	* **LEXICON V11_MUTUAL-IMPRT**  
+	* **LEXICON V11_MUTUAL-PASS**  
+* **LEXICON V11_even** pointing to
+ +Inf:%>аӈкве K ;
+ V11_MUTUAL ;
 
- LEXICON V11_MUTUAL   
 
- LEXICON V11_MUTUAL-IND   
 
 
 
 
 
 
+**LEXICON V12_odd** pointing to V11_odd
 
 
 
 
- LEXICON V11_MUTUAL-COND   
 
 
 
 
- LEXICON V11_MUTUAL-IMPRT   
 
 
 
 
- LEXICON V11_MUTUAL-PASS   
 
 
 
 
 
 
- LEXICON V11_even 
 
 
 
@@ -627,6 +696,7 @@ Stems ending in C
 
 
 
+**LEXICON V13_even** to V11_even
 
 
 
@@ -652,6 +722,7 @@ Stems ending in C
 
 
 
+**LEXICON V14_odd** to V11_odd
 
 
 
@@ -729,6 +800,7 @@ Stems ending in C
 
 
 
+**LEXICON V16_odd** to V11_odd
 
 
 
@@ -754,6 +826,7 @@ Stems ending in C
 
 
 
+**LEXICON V16_even** 
 
 
 
@@ -779,6 +852,7 @@ Stems ending in C
 
 
 
+**LEXICON V21_odd** 
 
 
 
@@ -851,6 +925,7 @@ Stems ending in C
 
 
 
+**LEXICON V22_even** contains all forms
 
 
 
@@ -886,6 +961,10 @@ Stems ending in C
 
 
 
+**LEXICON V23_odd** is the lexicon, pointing to
+ * V11_odd ; 
+ * :%>ы V11_MUTUAL-COND ; 
+ * :%>а V11_MUTUAL-COND ; 
 
 
 
@@ -994,6 +1073,7 @@ Stems ending in C
 
 
 
+**LEXICON V26_odd** 
 
 
 
@@ -1029,6 +1109,7 @@ Stems ending in C
 
 
 
+**LEXICON V26_even** 
 
 
 
@@ -1063,6 +1144,7 @@ Stems ending in C
 
 
 
+**LEXICON V27_odd** 
 
 
 
@@ -1084,6 +1166,7 @@ Stems ending in C
 
 
 
+**LEXICON V28_odd** 
 
 
 
@@ -1106,6 +1189,7 @@ Stems ending in C
 
 
 
+**LEXICON V31_odd** to V11_odd
 
 
 
@@ -1140,6 +1224,7 @@ Stems ending in C
 
 
 
+**LEXICON V31_even** to V11_even
 
 
 
@@ -1175,6 +1260,7 @@ Stems ending in C
 
 
 
+**LEXICON V33_odd** to V11_odd
 
 
 
@@ -1210,6 +1296,7 @@ Stems ending in C
 
 
 
+**LEXICON V33_even**  to V11_even
 
 
 
@@ -1246,6 +1333,7 @@ Stems ending in C
 
 
 
+**LEXICON V35_odd** to V11_odd
 
 
 
@@ -1281,56 +1369,7 @@ Stems ending in C
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**LEXICON V35_even** to V11_even
 
 
 
@@ -1367,10 +1406,12 @@ Stems ending in C
 
 # Adjective inflection for Northern Mansi
 
-No work on adjectives yet.
+Almost no work on adjectives yet.
 
 
+**LEXICON A_** gets +Attr or goes to Comparisons or ADV_
 
+**LEXICON Comparisons** gives Pos and (two!) Comp
 
 
 
@@ -1380,24 +1421,31 @@ No work on adjectives yet.
 
 # Pronouns for Northern Mansi
 
-No work on pronouns yet.
+This file is (still) not needed, as the personal pronoun forms are listed in the stem file.
 
 
 
 
 
 
-# Mansi morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
+# Mansi morphological analyser                      
+This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
+basic **Root** lexicon.
 
 
  # **Multichar_Symbols**definitions
 
-## Letters in alphabet
+## Multicharacter letters in the alphabet
 Vowels with a macron
 
+ * а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ 
+ * А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ 
 Vowels with precomposed macron
-
+ * ӣ  йӣквыт
+ * Ӣ  йӣквыт
+ * ӯ  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+ * Ӯ  CYRILLIC CAPITAL LETTER U WITH MACRON
+ * %+ suffix border
 
 
 
@@ -1620,10 +1668,12 @@ NEWWORDS FILES:
 
 
 
+# Mansi abbreviations                               
 
 We describe here how abbreviations are in Mansi are read out, e.g.
 for text-to-speech systems.
 
+* Root
 For example:
 
  * s.:syntynyt # ;  
@@ -1635,9 +1685,14 @@ For example:
 
 
 
+# The Mansi dates 
 
 
+Note!  This file contains Erzya, not Mansi, this should be changed to Mansi.
 
+12.3.
+Умарьковонь 12-це чи
+Умарьковонь кемголмовоце чи
 
 
 

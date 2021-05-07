@@ -6,40 +6,43 @@ Stems ending in C
 
 
 
- LEXICON V11_odd   
+**LEXICON V11_odd** 
 
+* **LEXICON V11_MUTUAL** 
+	* **LEXICON V11_MUTUAL-IND**  
+	* **LEXICON V11_MUTUAL-COND** 
+	* **LEXICON V11_MUTUAL-IMPRT**  
+	* **LEXICON V11_MUTUAL-PASS**  
+* **LEXICON V11_even** pointing to
+ +Inf:%>аӈкве K ;
+ V11_MUTUAL ;
 
- LEXICON V11_MUTUAL   
 
- LEXICON V11_MUTUAL-IND   
 
 
 
 
 
 
+**LEXICON V12_odd** pointing to V11_odd
 
 
 
 
- LEXICON V11_MUTUAL-COND   
 
 
 
 
- LEXICON V11_MUTUAL-IMPRT   
 
 
 
 
- LEXICON V11_MUTUAL-PASS   
 
 
 
 
 
 
- LEXICON V11_even 
 
 
 
@@ -96,6 +99,7 @@ Stems ending in C
 
 
 
+**LEXICON V13_even** to V11_even
 
 
 
@@ -121,6 +125,7 @@ Stems ending in C
 
 
 
+**LEXICON V14_odd** to V11_odd
 
 
 
@@ -198,6 +203,7 @@ Stems ending in C
 
 
 
+**LEXICON V16_odd** to V11_odd
 
 
 
@@ -223,6 +229,7 @@ Stems ending in C
 
 
 
+**LEXICON V16_even** 
 
 
 
@@ -248,6 +255,7 @@ Stems ending in C
 
 
 
+**LEXICON V21_odd** 
 
 
 
@@ -320,6 +328,7 @@ Stems ending in C
 
 
 
+**LEXICON V22_even** contains all forms
 
 
 
@@ -355,6 +364,10 @@ Stems ending in C
 
 
 
+**LEXICON V23_odd** is the lexicon, pointing to
+ * V11_odd ; 
+ * :%>ы V11_MUTUAL-COND ; 
+ * :%>а V11_MUTUAL-COND ; 
 
 
 
@@ -463,6 +476,7 @@ Stems ending in C
 
 
 
+**LEXICON V26_odd** 
 
 
 
@@ -498,6 +512,7 @@ Stems ending in C
 
 
 
+**LEXICON V26_even** 
 
 
 
@@ -532,6 +547,7 @@ Stems ending in C
 
 
 
+**LEXICON V27_odd** 
 
 
 
@@ -553,6 +569,7 @@ Stems ending in C
 
 
 
+**LEXICON V28_odd** 
 
 
 
@@ -575,6 +592,7 @@ Stems ending in C
 
 
 
+**LEXICON V31_odd** to V11_odd
 
 
 
@@ -609,6 +627,7 @@ Stems ending in C
 
 
 
+**LEXICON V31_even** to V11_even
 
 
 
@@ -644,6 +663,7 @@ Stems ending in C
 
 
 
+**LEXICON V33_odd** to V11_odd
 
 
 
@@ -679,6 +699,7 @@ Stems ending in C
 
 
 
+**LEXICON V33_even**  to V11_even
 
 
 
@@ -715,6 +736,7 @@ Stems ending in C
 
 
 
+**LEXICON V35_odd** to V11_odd
 
 
 
@@ -750,56 +772,7 @@ Stems ending in C
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**LEXICON V35_even** to V11_even
 
 
 

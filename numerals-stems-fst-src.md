@@ -1,4 +1,5 @@
-Numerals in Northern Mansi
+# Numerals in Northern Mansi
 
 
+**LEXICON Numerals** to lexicon numeral
 

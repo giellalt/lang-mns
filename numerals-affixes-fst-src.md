@@ -1,10 +1,13 @@
 # Numerals for Northern Mansi
 
-No work on numerals yet.
+No much work on numerals yet.
+
+**LEXICON NUM_** 
 
 
+**LEXICON NUM-2-9_** 
 
-
+**LEXICON NUM-OR-ORD_** 
 
 
 

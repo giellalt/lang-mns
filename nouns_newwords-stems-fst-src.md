@@ -3,4 +3,5 @@ added to the xml source files.
 паль N_ "(eng) ear/(hun) fül/(rus) ухо" ;
 
 
+**LEXICON N_NEWWORDS** 
 ADD NOUNS BELOW

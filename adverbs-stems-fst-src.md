@@ -1,7 +1,8 @@
-Adverbs
-Adverbs in the Northern Mansi language describe things.
+# Adverbs
+
+Adverbs in the Northern Mansi
 
 
-
+**LEXICON Adverbs** 
 
 

@@ -1,15 +1,22 @@
 
-# Mansi morphological analyser                      !
-INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
+# Mansi morphological analyser                      
+This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
+basic **Root** lexicon.
 
 
  # **Multichar_Symbols**definitions
 
-## Letters in alphabet
+## Multicharacter letters in the alphabet
 Vowels with a macron
 
+ * а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ 
+ * А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ 
 Vowels with precomposed macron
-
+ * ӣ  йӣквыт
+ * Ӣ  йӣквыт
+ * ӯ  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+ * Ӯ  CYRILLIC CAPITAL LETTER U WITH MACRON
+ * %+ suffix border
 
 
 
