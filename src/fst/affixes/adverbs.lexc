@@ -4,10 +4,12 @@
 !! No work on adverbs yet.
 
 LEXICON ADV_
+!! **LEXICON @LEXNAME@** either to # or via Comp нув to #
 :        #   ;
 +Comp:%>нув        #   ;
 
 LEXICON ADV-AUX_
+!! **LEXICON @LEXNAME@** gets +Aux tag
 +Aux:        #   ;
 
 

@@ -1,17 +1,19 @@
-!! Pronouns in Northern Mansi
+!! # Pronouns in Northern Mansi
 ! --------
 
-!! No work on pronouns so far.
+!! The file lists personal pronouns and their lemma + tags.
 
 LEXICON Pronouns
-personal ;
+!! **LEXICON @LEXNAME@** is the lexicon, pointing to
+personal ; !!≈ * @CODE@
 !pronoun    #   ;
 
 LEXICON personal
-ам+Pron+Pers+Sg1+Nom:ам # ;
-наӈ+Pron+Pers+Sg2+Nom:наӈ # ;
-тав+Pron+Pers+Sg3+Nom:тав # ;
-ам+v1+Pron+Pers+Du1+Nom:ме̄н # ;
+!! **LEXICON @LEXNAME@** contains the forms
+ам+Pron+Pers+Sg1+Nom:ам # ; !!≈ * @CODE@ 
+наӈ+Pron+Pers+Sg2+Nom:наӈ # ; !!≈ * @CODE@ 
+тав+Pron+Pers+Sg3+Nom:тав # ; !!≈ * @CODE@ 
+ам+v1+Pron+Pers+Du1+Nom:ме̄н # ; !! ...
 ам+v2+Pron+Pers+Du1+Nom:ме̄йи # ;
 наӈ+Pron+Pers+Du2+Nom:нэ̄н # ;
 тав+Pron+Pers+Du3+Nom:тэ̄н # ;

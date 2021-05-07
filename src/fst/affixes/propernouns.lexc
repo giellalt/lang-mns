@@ -1,4 +1,4 @@
-!! Proper noun inflection for Northern Mansi
+!! # Proper noun inflection for Northern Mansi
 ! ----------------------
 
 !! So far no work on Northern Mansi proper nouns.
@@ -6,10 +6,12 @@
 !! and Mansi-specific names.
 
 LEXICON PROP_KUDO_SURFEM
+!! **LEXICON @LEXNAME@** 
 +Sem/Sur: PROP ;
 +Sem/Fem: PROP ;
 
-LEXICON PROP !! The only lexicon is `PROP`, it goes to K via singular cases.
+LEXICON PROP 
+!! **LEXICON @LEXNAME@**  The only lexicon is `PROP`, it goes to K via singular cases.
 +Sg+Nom: K ;
 +Sg+Loc:%>т K ;
 +Sg+Lat:%>н K ;
@@ -19,7 +21,7 @@ LEXICON PROP !! The only lexicon is `PROP`, it goes to K via singular cases.
 
 
 LEXICON PROP-PATR-MAL_END-IN-CH/DZ
-!! **LEXICON @LEXNAME@** the content is just there to make the fst compile.
+!! **LEXICON @LEXNAME@** = the content is just there to make the fst compile.
 +N+Prop: # ; 
 
 ! vim: set ft=xfst-lexc:

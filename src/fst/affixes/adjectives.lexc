@@ -1,15 +1,17 @@
 !! # Adjective inflection for Northern Mansi
 ! --------------------
 
-!! No work on adjectives yet.
+!! Almost no work on adjectives yet.
 
 
 LEXICON A_
+!! **LEXICON @LEXNAME@** gets +Attr or goes to Comparisons or ADV_
 +Attr:   # ;
 : Comparisons ;
 +Der+Der/Yshch+Adv:%>ыщ ADV_ ;
 
 LEXICON Comparisons
+!! **LEXICON @LEXNAME@** gives Pos and (two!) Comp
 +Pos:0        #   ;
 +Comp:%>нув       #   ; ! fix this
 +Comp:%>нуве       #   ; ! fix this

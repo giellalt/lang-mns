@@ -1,9 +1,10 @@
-!! Numerals in Northern Mansi
+!! # Numerals in Northern Mansi
 
 ! --------
 ! No work on numerals so far.
 
 LEXICON Numerals
+!! **LEXICON @LEXNAME@** to lexicon numeral
 numeral    #  ;
 
 ! vim: set ft=xfst-lexc:

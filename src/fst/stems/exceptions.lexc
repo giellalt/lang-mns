@@ -1,3 +1,5 @@
+!! # Exceptions in Mansi
+
 !! Exceptions are quite strange word-forms. the ones that do not fit anywhere 
 !! else. This file contains all enumerated word forms that cannot reasonably be
 !! created from lexical data by regular inflection. Usually there should be next
@@ -6,7 +8,7 @@
 !! compounding scheme or possibly many end applications.
 
 LEXICON EXCEPTIONS
-
+!! **LEXICON @LEXNAME@** only one verb and some propernounss for now.
 !! IRREGULAR ADJECTIVES
 
 !! IRREGULAR DETERMINERS

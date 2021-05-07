@@ -4,14 +4,15 @@
 !! The tag is +CC
 
 LEXICON cj
+!! **LEXICON @LEXNAME@** for the tag +CC
 +CC: # ;
 
 
 !! Then comes the list of the conjunctions,
-!! so far only a single one.
+!! so far only 3 of them.
 
 LEXICON Conjunctions
-
+!! **LEXICON @LEXNAME@** for the conjunctions themselves
 да cj ;
 ос cj ;
 таима̄гсыл cj ;

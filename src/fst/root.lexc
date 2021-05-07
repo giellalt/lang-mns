@@ -13,25 +13,26 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-!! # Mansi morphological analyser                      !
+!! # Mansi morphological analyser                      
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Mansi LANGUAGE.
+!! This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
+!! basic **Root** lexicon.
 
 
 Multichar_Symbols  !!≈ # **@CODE@**definitions
 
-!! ## Letters in alphabet
+!! ## Multicharacter letters in the alphabet
 !! Vowels with a macron
-а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄
-А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄
 
+а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ !!≈ * @CODE@ 
+А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ !!≈ * @CODE@ 
+!
 !! Vowels with precomposed macron
-ӣ        !!! йӣквыт
-Ӣ        !!! йӣквыт
-ӯ        !!! ӯ  !!! (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
-Ӯ	 !!! CYRILLIC CAPITAL LETTER U WITH MACRON
-
-%+
+ӣ        !!≈ * @CODE@  йӣквыт
+Ӣ        !!≈ * @CODE@  йӣквыт
+ӯ        !!≈ * @CODE@  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+Ӯ        !!≈ * @CODE@  CYRILLIC CAPITAL LETTER U WITH MACRON
+%+ !!≈ * @CODE@ suffix border
 
 
 ! This section copied from mansi-lexicon.lexc, looks spurious:
