@@ -2,89 +2,64 @@
 !! # The Mansi morphophonological/twolc rule file
 ! =================================== !
 
-!! One of the Grammars used for this description is:
 !! Скрибник Е.К. & К.В. Афанасьева 2007:
 !! Практически курс манийского языка, Часть 1. Ханты-Мансийск. Полиграфист.
 
-!! The nouns stem types should be divided into 4 separate types:
-!! (1) stems ending in vowels other than и/ы "о̄йка" 'old man';
-!! (2) stems ending in и/ы "а̄ны" 'cup', "са̄лы" 'reindeer';
-!! (3) stems ending in non-palatal consonant "а̄мп" 'dog',
-!! (4) stems ending in palatalized consonant "ха̄ль" 'birch'.
-!! There are also additional comments including a fifth type
-!! (5) "потыр" 'speech, story' featuring syncope .(2007: 19)
-!! By expressing all context variation in twolc, the input in nouns can
-!! be reduced to:
-
-!! 1. one unit expressing both lemma and stem;
-!! 1. a simple N_ continuation lexicon;
-!! 1. a translation gloss,
-!! 1. lexc line-final ";" semicolon.
-
-!!  -----------------
-!!   (1)  (2)    (3)                                                         (4)
-!! а̄мп  N_   "(eng) dog/(hun) kutya|eb/(rus) собака" ;
-
-!! It is important that yaml tests are written with as extensive paradigms
-!! as possible. These tests are also the basis of the morphological analyzer.
-!! There should be tests written for other parts of speech as well.
 
 !! ## Alphabet, sets and definitions
 !! ### Alphabet
 Alphabet
+!! Basic letters:
 а б в г д е ё ж з и й к л м н о п р с т  !!≈ * **@CODE@** 
 у ф х ц ч ш щ ъ ы ь э ю я ӈ			     !!≈ * **@CODE@** 
 А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т  !!≈ * **@CODE@** 
 У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ			     !!≈ * **@CODE@** 
 
-!! Holding with Giellatekno Practice in Kildin Sami
-!! Precomposed letters are used when available within
-!! language range, i.e. Cyrillic letters vs Latin letters
+!! Letters with diacritical marks:
+!! Precomposed letters are used when available, otherwise non-composed ones.
 
-ӣ ӯ !!≈ **@CODE@** precomposed long vowels
-Ӣ Ӯ !!≈ **@CODE@** precomposed long vowels
-а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄     !!≈ **@CODE@** non-precomposed long vowels
+ӣ ӯ !!≈ * **@CODE@** precomposed long vowels
+Ӣ Ӯ !!≈ * **@CODE@** precomposed long vowels
+а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄     !!≈ * **@CODE@** non-precomposed long vowels
+
+
+!! #### Archiphones
+
+%{ЫИ%}:и	!!≈ * **@CODE@**
+%{ЫИ%}:ы	!!≈ * **@CODE@**
+%{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
+%{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
+%{йØ%}:0	!!≈ * **@CODE@** ыг
+%{ыØ%}:ы	!!≈ * **@CODE@** specific floating vowel 
+%{иØ%}:и	!!≈ * **@CODE@** specific floating vowel 
+%{уØ%}:у	!!≈ * **@CODE@** specific floating vowel 
+%{АЯØ%}:0	!!≈ * **@CODE@**
+%{ЫИØ%}:0	!!≈ * **@CODE@**
+%{ЫØ%}:0	!!≈ * **@CODE@** +Loc
+%{УØ%}:0	!!≈ * **@CODE@** +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
+%{УЮØ%}:0	!!≈ * **@CODE@**
+%{ТØ%}:0	!!≈ * **@CODE@**
+%{ЭЕ%}:0	!!≈ * **@CODE@** PxSg3
+ы2:0	!!≈ * **@CODE@** weak ы for Loc and Lat
 
 ! This is old 2017-03-19 ы2:ы ! fleeting/syncopating vowel
 ! question: are all cases where CыC syncopating ???
 ! EXCEPTION = апыг, квāлыг, ...
 ! ... possibly not syncopating before г ...
-! PROPOSAL: leave this question for later.
-
-!! #### Archiphones
-
-%{ЫИ%}:и	!!≈ **@CODE@**
-%{ЫИ%}:ы	!!≈ **@CODE@**
-%{ЭЕLong%}:е̄	!!≈ **@CODE@** +V+Ind+Prs+ScSg1
-%{ЭЕLong%}:э̄	!!≈ **@CODE@** +V+Ind+Prs+ScSg1
-%{йØ%}:0	!!≈ **@CODE@** ыг
-%{ыØ%}:ы	!!≈ **@CODE@** specific floating vowel 
-%{иØ%}:и	!!≈ **@CODE@** specific floating vowel 
-%{уØ%}:у	!!≈ **@CODE@** specific floating vowel 
-
-%{АЯØ%}:0	!!≈ **@CODE@**
-%{ЫИØ%}:0	!!≈ **@CODE@**
-%{ЫØ%}:0	!!≈ **@CODE@** +Loc
-%{УØ%}:0	!!≈ **@CODE@** +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
-%{УЮØ%}:0	!!≈ **@CODE@**
-%{ТØ%}:0	!!≈ **@CODE@**
-%{ЭЕ%}:0	!!≈ **@CODE@** PxSg3
-
-ы2:0	!!≈ **@CODE@** weak ы for Loc and Lat
 
 !! #### Triggers
 
-%^PxDu2:0	!!≈ **@CODE@**
-%^PxDu3:0	!!≈ **@CODE@**
-%^PxPl2:0	!!≈ **@CODE@**
-%^RmVow:0	!!≈ **@CODE@** Word-final vowel removal
-%^Syncope:0	!!≈ **@CODE@** This triggers syncope with no reason to place special letters in the stem.
+%^PxDu2:0	!!≈ * **@CODE@**
+%^PxDu3:0	!!≈ * **@CODE@**
+%^PxPl2:0	!!≈ * **@CODE@**
+%^RmVow:0	!!≈ * **@CODE@** Word-final vowel removal
+%^Syncope:0	!!≈ * **@CODE@** This triggers syncope with no reason to place special letters in the stem.
 
 !! #### Literal quotes and angles
 !! These must be escaped (cf morpheme boundaries below):
 
- »7     !! * »
- «7     !! * «
+ »7     !! * »7
+ «7     !! * «7
  %[%>%] !! * >
  %[%<%] !! * <
 
@@ -137,20 +112,20 @@ PostSyncStem  =  :Cns   ;  !!≈ * **@CODE@**
 !! ## Rules
 Rules
 
-"floating vowel in Archivowels"
-!! **RULE: @RULENAME@**  
+"Floating vowel in Archivowels"
+!! **RULE: @RULENAME@**  deletes floting vowel when suffix is vowel initial, VC>V.
  Vx:Vy <=>  _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы: ] ; ! tt: ы: for ы:и
   where Vx in ( %{ыØ%} %{иØ%}  %{уØ%} )
         Vy in ( 0   0   0 )
         matched ;
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
-!! **RULE: @RULENAME@**  
+!! **RULE: @RULENAME@**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
 [щ|Cns ь:|ы] %> %{йØ%}:0 _ Cns ;
      Vow %> (%{йØ%}:0)   _ Cns ;
   [Vow - и] %> %{йØ%}:   _ Cns ;
-              Vow  %>    _ Cns ;
+              Vow  %>    _ Cns ; ! This is for vowel stems
                Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
                      Cns _ Cns %> ;
   .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
@@ -168,6 +143,8 @@ Rules
 !!€ апа>ныл
 !!€ паль>ныл
 !!€ паль>ныл
+!!€ ха̄п>ыныл
+!!€ ха̄п>0ныл  
 
 
 "i instead of y for pl nom, loc, lat"
@@ -178,8 +155,6 @@ Rules
 
 !!€ паль>%{йØ%}ыт
 !!€ пал0>и0т
-!!€ ха̄п>ыныл
-!!€ ха̄п>0ныл  
 
 "j instead of y for du nom in i"
 !! **RULE: @RULENAME@**  
@@ -206,15 +181,15 @@ Rules
 а:я <=>  й: (ы:0) %> _ Cns:+ ;
                 ы %> _ ;
 !where 2019-ç06-16 [и|ы] %> _ Cns:+ Vow ;
-      
+
 
 "Palatalising suffix vowel after й ь"
-!! **RULE: @RULENAME@**  
+!! **RULE: @RULENAME@**  changes у to ы after  й ь
 у:ю <=> [й: | ь: ]  %> _ Cns:+ ;
 
 
 "NO Palatalization of suffix vowels"
-!! **RULE: @RULENAME@**  
+!! **RULE: @RULENAME@** gives ы э after  з л н с т
  Vx:Vy <=> CnsAlv %> _ ;
   where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
         Vy in ( ы   э   э̄ )
@@ -225,7 +200,7 @@ Rules
 
 
 "Palatalization of suffix vowels"
-!! **RULE: @RULENAME@**  
+!! **RULE: @RULENAME@**  is the palatal opposite of the previous rule
  Vx:Vy <=> [ ь: | р | Р | CnsNonAlv | й: | CnsSoft ] ( ы: ) %> (%{йØ%}:0)  _ ;
   where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
         Vy in ( и   е   е̄ )
@@ -239,8 +214,8 @@ Rules
 ! +V+Ind+Prs+ScSg1:
 ! € >%{ЭЕLong%}гум
 
-"Palatalising suffix ы for palatal stems"
-!! **RULE: @RULENAME@**  
+"Palatalising suffix vowel ы to и for palatal stems"
+!! **RULE: @RULENAME@**  after ь etc.
 ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %>  (%{йØ%}:0) _ Cns ;
         л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
@@ -260,6 +235,7 @@ Rules
 
 ! TODO: Fix these two rules
 "Deleting vowel in suffix for vowel stems"
+!! **RULE: @RULENAME@**  deletes suffix-initial а у е
 Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
         where Vx in (а у е) ;
 
@@ -282,6 +258,7 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 
 
 "Soft sign deletion for и suffixes"
+!! **RULE: @RULENAME@**  
 ь:0 <=> Cns _ (ы:0) %> (%{йØ%}:0) :PalVow ;
 !above
 
