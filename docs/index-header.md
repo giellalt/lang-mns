@@ -7,9 +7,10 @@
 
 These pages document the work on the [Mansi language model](https://github.com/giellalt/lang-mns).
 
-The analyser contains appr 6000 stems, and is still in
-an early stage. It is in use in a Mansi e-dictionary.
-For questions, contact Csilla Horvath, Jack Rueter or Trond Trosterud.
+The analyser contains appr 6000 stems, and is in an early stage. It
+still recognise 48 % of the wordforms in a 1.1 million corpus of
+running text and is in use in a Mansi e-dictionary.  For questions,
+contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
 ## Resources
 
