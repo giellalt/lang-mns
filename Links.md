@@ -1,3 +1,5 @@
+* [disambiguator-cg3-src.md](disambiguator-cg3-src.md)
+* [functions-cg3-src.md](functions-cg3-src.md)
 * [conjunctions-stems-fst-src.md](conjunctions-stems-fst-src.md)
 * [postpositions-stems-fst-src.md](postpositions-stems-fst-src.md)
 * [mns-propernouns-stems-fst-src.md](mns-propernouns-stems-fst-src.md)
@@ -28,3 +30,4 @@
 * [root-fst-src.md](root-fst-src.md)
 * [transcriptor-abbrevs2text-transcriptions-src.md](transcriptor-abbrevs2text-transcriptions-src.md)
 * [transcriptor-date-digit2text-transcriptions-src.md](transcriptor-date-digit2text-transcriptions-src.md)
+* [grammarchecker-grammarcheckers-tools.md](grammarchecker-grammarcheckers-tools.md)
