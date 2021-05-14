@@ -3,15 +3,15 @@
 
 # =================================================================== #
 # =================================================================== #
-#!! N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
+#!! # N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
 # =================================================================== #
 # =================================================================== #
 
-# The content is still from sma, but the tag declaration are (mostly) mns
+#!! The content is still from sma, but the tag declaration are (mostly) mns
 
 
             # =========================================== #
-            #            Short table of contents          #
+            #           Short table of contents          
             # =========================================== #
 
             # Delimiters
@@ -27,256 +27,219 @@
 
 
 # ========== #
-#!! # Delimiters 
+#!! ## Delimiters , tags and sets
 # ========== #
 
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; #!!
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; #!!≈ @CODE
 
 
 # ============= #
 #!! ## Tags and sets 
 # ============= #
 
-#!! * BOS/EOS
+#!!s BOS/EOS
 
 LIST BOS = (>>>) (<s>); 
 LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 
-#!! * Tags declared as single-membered LISTs 
+#!! ### Tags declared as single-membered LISTs 
 # ======================================
 
-LIST N = N ;
-LIST Sg = Sg ;
-LIST Pl = Pl ;
-LIST Nom = Nom ;
-LIST Acc = Acc ;
-LIST Gen = Gen ;
-LIST Par = Par ;
-LIST Loc = Loc ;
-LIST Abl = Abl ;
-LIST Lat = Lat ;
-LIST Tra = Tra ;
-
-
-LIST PxSg1 = PxSg1 ;
-LIST PxSg2 = PxSg2 ;
-LIST PxSg3 = PxSg3 ;
-
-LIST PxDu1 = PxDu1 ;
-LIST PxDu2 = PxDu2 ;
-LIST PxDu3 = PxDu3 ;
-
-LIST PxPl1 = PxPl1 ;
-LIST PxPl2 = PxPl2 ;
-LIST PxPl3 = PxPl3 ;
-
-LIST V = V ;
-LIST Prs = Prs ;
-LIST Prt = Prt ;
-
-LIST Sg1 = Sg1 ;
-LIST Sg2 = Sg2 ;
-LIST Sg3 = Sg3 ;
-
-LIST Du1 = Du1 ;
-LIST Du2 = Du2 ;
-LIST Du3 = Du3 ;
-
-LIST Pl1 = Pl1 ;
-LIST Pl2 = Pl2 ;
-LIST Pl3 = Pl3 ;
-
-LIST Inf = Inf ;
-LIST Neg = Neg ;
-LIST ConNeg = ConNeg ;
-LIST Foc/gan = Foc/gan ;
-
-LIST PrfPrc = PrfPrc ;
-LIST PrsPrc = PrsPrc ;
-LIST VGen = VGen ;
-LIST Ger = Ger ;
-
-LIST Ind = Ind ;
-
-LIST Imp = Imp ;
-LIST ImpII = ImpII ;
-
-LIST Pot = Pot ;
-LIST Cond = Cond ;
-LIST Imprt = Imprt ;
-LIST IV = IV ; 
-LIST TV = TV ;
-
-LIST Opt = Opt ;
-
-LIST Actor = Actor ;
-LIST Clt = Clt ;
-LIST A = A ;
-LIST Ord = Ord ;
-LIST Coll = Coll ;
-LIST ABBR = ABBR ;
-LIST ACR = ACR ;
-
+LIST N = N ;				 #!!≈ * @CODE@
+LIST Sg = Sg ;				 #!!≈ * @CODE@
+LIST Pl = Pl ;				 #!!≈ * @CODE@
+LIST Nom = Nom ;			 #!!≈ * @CODE@
+LIST Acc = Acc ;			 #!!≈ * @CODE@
+LIST Gen = Gen ;			 #!!≈ * @CODE@
+LIST Par = Par ;			 #!!≈ * @CODE@
+LIST Loc = Loc ;			 #!!≈ * @CODE@
+LIST Abl = Abl ;			 #!!≈ * @CODE@
+LIST Lat = Lat ;			 #!!≈ * @CODE@
+LIST Tra = Tra ;			 #!!≈ * @CODE@
+LIST PxSg1 = PxSg1 ;		 #!!≈ * @CODE@
+LIST PxSg2 = PxSg2 ;		 #!!≈ * @CODE@
+LIST PxSg3 = PxSg3 ;		 #!!≈ * @CODE@
+LIST PxDu1 = PxDu1 ;		 #!!≈ * @CODE@
+LIST PxDu2 = PxDu2 ;		 #!!≈ * @CODE@
+LIST PxDu3 = PxDu3 ;		 #!!≈ * @CODE@
+LIST PxPl1 = PxPl1 ;		 #!!≈ * @CODE@
+LIST PxPl2 = PxPl2 ;		 #!!≈ * @CODE@
+LIST PxPl3 = PxPl3 ;		 #!!≈ * @CODE@
+LIST V = V ;				 #!!≈ * @CODE@
+LIST Prs = Prs ;			 #!!≈ * @CODE@
+LIST Prt = Prt ;			 #!!≈ * @CODE@
+LIST Sg1 = Sg1 ;			 #!!≈ * @CODE@
+LIST Sg2 = Sg2 ;			 #!!≈ * @CODE@
+LIST Sg3 = Sg3 ;			 #!!≈ * @CODE@
+LIST Du1 = Du1 ;			 #!!≈ * @CODE@
+LIST Du2 = Du2 ;			 #!!≈ * @CODE@
+LIST Du3 = Du3 ;			 #!!≈ * @CODE@
+LIST Pl1 = Pl1 ;			 #!!≈ * @CODE@
+LIST Pl2 = Pl2 ;			 #!!≈ * @CODE@
+LIST Pl3 = Pl3 ;			 #!!≈ * @CODE@
+LIST Inf = Inf ;			 #!!≈ * @CODE@
+LIST Neg = Neg ;			 #!!≈ * @CODE@
+LIST ConNeg = ConNeg ;		 #!!≈ * @CODE@
+LIST Foc/gan = Foc/gan ;	 #!!≈ * @CODE@
+LIST PrfPrc = PrfPrc ;		 #!!≈ * @CODE@
+LIST PrsPrc = PrsPrc ;		 #!!≈ * @CODE@
+LIST VGen = VGen ;			 #!!≈ * @CODE@
+LIST Ger = Ger ;			 #!!≈ * @CODE@
+LIST Ind = Ind ;			 #!!≈ * @CODE@
+LIST Imp = Imp ;			 #!!≈ * @CODE@
+LIST ImpII = ImpII ;		 #!!≈ * @CODE@
+LIST Pot = Pot ;			 #!!≈ * @CODE@
+LIST Cond = Cond ;			 #!!≈ * @CODE@
+LIST Imprt = Imprt ;		 #!!≈ * @CODE@
+LIST IV = IV ; 				 #!!≈ * @CODE@
+LIST TV = TV ;				 #!!≈ * @CODE@
+LIST Opt = Opt ;			 #!!≈ * @CODE@
+LIST Actor = Actor ;		 #!!≈ * @CODE@
+LIST Clt = Clt ;			 #!!≈ * @CODE@
+LIST A = A ;				 #!!≈ * @CODE@
+LIST Ord = Ord ;			 #!!≈ * @CODE@
+LIST Coll = Coll ;			 #!!≈ * @CODE@
+LIST ABBR = ABBR ;			 #!!≈ * @CODE@
+LIST ACR = ACR ;			 #!!≈ * @CODE@
+LIST Comp = Comp ;			 #!!≈ * @CODE@
+LIST Superl = Superl ;		 #!!≈ * @CODE@
+LIST Attr = Attr ;			 #!!≈ * @CODE@
+LIST Pron = Pron ;			 #!!≈ * @CODE@
+LIST Pers = Pers ;			 #!!≈ * @CODE@
+LIST Dem = Dem ;			 #!!≈ * @CODE@
+LIST Interr = Interr ;		 #!!≈ * @CODE@
+LIST Rel = Rel ;			 #!!≈ * @CODE@
+LIST Po = Po ;				 #!!≈ * @CODE@
+LIST Pr = Pr ;				 #!!≈ * @CODE@
+LIST Adv = Adv ;			 #!!≈ * @CODE@
+LIST Interj = Interj ;		 #!!≈ * @CODE@
+LIST Indef = Indef ;		 #!!≈ * @CODE@
+LIST Num = Num ;			 #!!≈ * @CODE@
+LIST Prop = Prop ;			 #!!≈ * @CODE@
+LIST Mal = Mal ;			 #!!≈ * @CODE@
+LIST Fem = Fem ;			 #!!≈ * @CODE@
+LIST Sur = Sur ;			 #!!≈ * @CODE@
+LIST Org = Org ;			 #!!≈ * @CODE@
+LIST CS = CS ;				 #!!≈ * @CODE@
+LIST CC = CC ;				 #!!≈ * @CODE@
+LIST Pcle = Pcle ;			 #!!≈ * @CODE@
+LIST CLB = CLB ;			 #!!≈ * @CODE@
+LIST LEFT = LEFT ;			 #!!≈ * @CODE@
+LIST RIGHT = RIGHT ;		 #!!≈ * @CODE@
+LIST COMMA = "," ;			 #!!≈ * @CODE@
+LIST Der1 = Der1 ;			 #!!≈ * @CODE@
+LIST Der2 = Der2 ;			 #!!≈ * @CODE@
+LIST Der3 = Der3 ;			 #!!≈ * @CODE@
 LIST QMARK = """ ; # ADD " FOR SYNTAX COLOURING.
-LIST PPUNCT = PUNCT ;
-SET PUNCT = PPUNCT - QMARK ;
-LIST Comp = Comp ;
-LIST Superl = Superl ;
 
-LIST Attr = Attr ;
+#!! ### Semantic tags
 
-LIST Pron = Pron ;
-LIST Pers = Pers ;
-LIST Dem = Dem ;
-LIST Interr = Interr ;
-LIST Rel = Rel ;
-#LIST Adp = Adp ;
-LIST Po = Po ;
-LIST Pr = Pr ;
-LIST Adv = Adv ;
-LIST Interj = Interj ;
-LIST Indef = Indef ;
-LIST Num = Num ;
-LIST Prop = Prop ;
+LIST Sem/Ani = Sem/Ani ;	 #!!≈ * @CODE@ 
+LIST Sem/Fem = Sem/Fem ;	 #!!≈ * @CODE@ 
+LIST Sem/Mal = Sem/Mal ;	 #!!≈ * @CODE@ 
+LIST Sem/Obj = Sem/Obj ;	 #!!≈ * @CODE@ 
+LIST Sem/Org = Sem/Org ;	 #!!≈ * @CODE@ 
+LIST Sem/Plc = Sem/Plc ;	 #!!≈ * @CODE@ 
+LIST Sem/Sur = Sem/Sur ;	 #!!≈ * @CODE@ 
+LIST Sem/Time = Sem/Time ;	 #!!≈ * @CODE@ 
+LIST Sem/Hum = Sem/Hum ;	 #!!≈ * @CODE@ 
+LIST Sem/Date = Sem/Date ;	 #!!≈ * @CODE@ 
+LIST Sem/Year = Sem/Year ;	 #!!≈ * @CODE@ 
+LIST Sem/Group = Sem/Group ; #!!≈ * @CODE@ 
+LIST Sem/Route = Sem/Route ; #!!≈ * @CODE@ 
+LIST Sem/Build = Sem/Build ; #!!≈ * @CODE@ 
+LIST Sem/Place = Sem/Place ; #!!≈ * @CODE@ 
+LIST Sem/Food = Sem/Food ;	 #!!≈ * @CODE@ 
+SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ; #!!≈ * @CODE@ 
 
-LIST Mal = Mal ;
-LIST Fem = Fem ;
-LIST Sur = Sur ;
-LIST Org = Org ;
+#!! ### Syntactic tags
 
-LIST CS = CS ;
-LIST CC = CC ;
-LIST Pcle = Pcle ;
-LIST CLB = CLB ;
-LIST LEFT = LEFT ;
-LIST RIGHT = RIGHT ;
-LIST COMMA = "," ;
-LIST Der1 = Der1 ;
-LIST Der2 = Der2 ;
-LIST Der3 = Der3 ;
-
-#!! * Semantic tags
-
-LIST Sem/Ani = Sem/Ani ;	 #!! Sem/Ani
-LIST Sem/Fem = Sem/Fem ;	 #!! Sem/Fem
-LIST Sem/Mal = Sem/Mal ;	 #!! Sem/Mal
-LIST Sem/Obj = Sem/Obj ;	 #!! Sem/Obj
-LIST Sem/Org = Sem/Org ;	 #!! Sem/Org
-LIST Sem/Plc = Sem/Plc ;	 #!! Sem/Plc
-LIST Sem/Sur = Sem/Sur ;	 #!! Sem/Sur
-LIST Sem/Time = Sem/Time ;	 #!! Sem/Time
-LIST Sem/Hum = Sem/Hum ;	 #!! Sem/Hum
-LIST Sem/Date = Sem/Date ;	 #!! Sem/Date
-LIST Sem/Year = Sem/Year ;	 #!! Sem/Year
-LIST Sem/Group = Sem/Group ; #!! Sem/Group
-LIST Sem/Route = Sem/Route ; #!! Sem/Route
-LIST Sem/Build = Sem/Build ; #!! Sem/Build
-LIST Sem/Place = Sem/Place ; #!! Sem/Place
-LIST Sem/Food = Sem/Food ;	 #!! Sem/Food
-SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ;
-
-#!! * Syntactic tags
-
-LIST @CNP = @CNP ;				   #!! @CNP
-LIST @CVP = @CVP ;				   #!! @CVP
-LIST @+FAUXV = @+FAUXV ; 		   #!! @+FAUXV
-LIST @+FMAINV = @+FMAINV ; 		   #!! @+FMAINV
-LIST @-FAUXV = @-FAUXV ;		   #!! @-FAUXV
-LIST @-FMAINV = @-FMAINV ;		   #!! @-FMAINV
-SET MAINV = @-FMAINV OR @+FMAINV ; #!! MAINV
-
-LIST @ADVL = @ADVL ;
-LIST @>ADVL = @>ADVL ;
-LIST @ADVL< = @ADVL< ;
-LIST @<ADVL = @<ADVL ;
-LIST @ADVL> = @ADVL> ;
-LIST @-FADVL = @-FADVL ;
-LIST @A< = @A< ;
-LIST @>A = @>A ;
-LIST @ActioN> = @ActioN> ; 
-LIST @APP = @APP ;
-LIST @APP-N< = @APP-N< ;
-LIST @APP-Pron< = @APP-Pron< ;
-LIST @APP>Pron = @APP>Pron ;
-LIST @APP-Num< = @APP-Num< ;
-LIST @APP-ADVL< = @APP-ADVL< ;
-LIST @CMPND = @CMPND ; 
-LIST @COMP-CS< = @COMP-CS< ;
-LIST @HAB = @HAB ;
-LIST @INTERJ = @INTERJ ; 
-LIST @MEASURE = @MEASURE ;
-LIST @>N = @>N ;
-LIST @N< = @N< ;
-LIST @NNum> = @NNum>; 
-LIST @NumN< = @NumN<;
-LIST @>Num = @>Num;
-LIST @Num< = @Num< ;
-LIST @NPron< = @NPron< ;
-LIST @NQ< = @NQ< ; 
-LIST @NUM-PRON = @NUM-PRON ; 
-#LIST @NUMBER = @NUMBER ;
-LIST @OBJ = @OBJ ;
-LIST @<OBJ = @<OBJ ;
-LIST @OBJ> = @OBJ> ;
-LIST @OPRED = @OPRED ; 
-LIST @<OPRED = @<OPRED ;
-LIST @OPRED> = @OPRED> ;
-LIST @PCLE = @PCLE ; 
-LIST @HNOUN = @HNOUN ;
-LIST @PrcN> = @PrcN> ; 
-LIST @PronN< = @PronN< ; 
-LIST @PronN> = @PronN> ; 
-LIST @Pron< = @Pron< ;
-LIST @>Pron = @>Pron ;
-LIST @P< = @P< ;
-LIST @>P = @>P ;
-LIST @SPRED = @SPRED ; 
-LIST @<SPRED = @<SPRED ;
-LIST @SPRED> = @SPRED> ;
-LIST @SUBJ = @SUBJ ; 
-LIST @<SUBJ = @<SUBJ ;
-LIST @SUBJ> = @SUBJ> ;
-LIST @SUBJ-QH = @SUBJ-QH ;
-LIST @TITLE = @TITLE ; 
-LIST @VOC = @VOC ; 
-LIST @X = @X ;
+LIST @CNP = @CNP ;				    #!!≈ * @CODE@ 
+LIST @CVP = @CVP ;				    #!!≈ * @CODE@ 
+LIST @+FAUXV = @+FAUXV ; 		    #!!≈ * @CODE@ 
+LIST @+FMAINV = @+FMAINV ; 		    #!!≈ * @CODE@ 
+LIST @-FAUXV = @-FAUXV ;		    #!!≈ * @CODE@ 
+LIST @-FMAINV = @-FMAINV ;		    #!!≈ * @CODE@ 
+SET MAINV = @-FMAINV OR @+FMAINV ;  #!!≈ * @CODE@ 
+LIST @ADVL = @ADVL ;			    #!!≈ * @CODE@ 
+LIST @>ADVL = @>ADVL ;			    #!!≈ * @CODE@ 
+LIST @ADVL< = @ADVL< ;			    #!!≈ * @CODE@ 
+LIST @<ADVL = @<ADVL ;			    #!!≈ * @CODE@ 
+LIST @ADVL> = @ADVL> ;			    #!!≈ * @CODE@ 
+LIST @-FADVL = @-FADVL ;		    #!!≈ * @CODE@ 
+LIST @A< = @A< ;				    #!!≈ * @CODE@ 
+LIST @>A = @>A ;				    #!!≈ * @CODE@ 
+LIST @ActioN> = @ActioN> ; 		    #!!≈ * @CODE@ 
+LIST @APP = @APP ;				    #!!≈ * @CODE@ 
+LIST @APP-N< = @APP-N< ;		    #!!≈ * @CODE@ 
+LIST @APP-Pron< = @APP-Pron< ;	    #!!≈ * @CODE@ 
+LIST @APP>Pron = @APP>Pron ;	    #!!≈ * @CODE@ 
+LIST @APP-Num< = @APP-Num< ;	    #!!≈ * @CODE@ 
+LIST @APP-ADVL< = @APP-ADVL< ;	    #!!≈ * @CODE@ 
+LIST @CMPND = @CMPND ; 			    #!!≈ * @CODE@ 
+LIST @COMP-CS< = @COMP-CS< ;	    #!!≈ * @CODE@ 
+LIST @HAB = @HAB ;				    #!!≈ * @CODE@ 
+LIST @INTERJ = @INTERJ ; 		    #!!≈ * @CODE@ 
+LIST @MEASURE = @MEASURE ;		    #!!≈ * @CODE@ 
+LIST @>N = @>N ;				    #!!≈ * @CODE@ 
+LIST @N< = @N< ;				    #!!≈ * @CODE@ 
+LIST @NNum> = @NNum>; 			    #!!≈ * @CODE@ 
+LIST @NumN< = @NumN<;			    #!!≈ * @CODE@ 
+LIST @>Num = @>Num;				    #!!≈ * @CODE@ 
+LIST @Num< = @Num< ;			    #!!≈ * @CODE@ 
+LIST @NPron< = @NPron< ;		    #!!≈ * @CODE@ 
+LIST @NQ< = @NQ< ; 				    #!!≈ * @CODE@ 
+LIST @NUM-PRON = @NUM-PRON ; 	    #!!≈ * @CODE@ 
+#LIST @NUMBER = @NUMBER ;		    #!!≈ * @CODE@ 
+LIST @OBJ = @OBJ ;				    #!!≈ * @CODE@ 
+LIST @<OBJ = @<OBJ ;			    #!!≈ * @CODE@ 
+LIST @OBJ> = @OBJ> ;			    #!!≈ * @CODE@ 
+LIST @OPRED = @OPRED ; 			    #!!≈ * @CODE@ 
+LIST @<OPRED = @<OPRED ;		    #!!≈ * @CODE@ 
+LIST @OPRED> = @OPRED> ;		    #!!≈ * @CODE@ 
+LIST @PCLE = @PCLE ; 			    #!!≈ * @CODE@ 
+LIST @HNOUN = @HNOUN ;			    #!!≈ * @CODE@ 
+LIST @PrcN> = @PrcN> ; 			    #!!≈ * @CODE@ 
+LIST @PronN< = @PronN< ; 		    #!!≈ * @CODE@ 
+LIST @PronN> = @PronN> ; 		    #!!≈ * @CODE@ 
+LIST @Pron< = @Pron< ;			    #!!≈ * @CODE@ 
+LIST @>Pron = @>Pron ;			    #!!≈ * @CODE@ 
+LIST @P< = @P< ;				    #!!≈ * @CODE@ 
+LIST @>P = @>P ;				    #!!≈ * @CODE@ 
+LIST @SPRED = @SPRED ; 			    #!!≈ * @CODE@ 
+LIST @<SPRED = @<SPRED ;		    #!!≈ * @CODE@ 
+LIST @SPRED> = @SPRED> ;		    #!!≈ * @CODE@ 
+LIST @SUBJ = @SUBJ ; 			    #!!≈ * @CODE@ 
+LIST @<SUBJ = @<SUBJ ;			    #!!≈ * @CODE@ 
+LIST @SUBJ> = @SUBJ> ;			    #!!≈ * @CODE@ 
+LIST @SUBJ-QH = @SUBJ-QH ;		    #!!≈ * @CODE@ 
+LIST @TITLE = @TITLE ; 			    #!!≈ * @CODE@ 
+LIST @VOC = @VOC ; 				    #!!≈ * @CODE@ 
+LIST @X = @X ;					    #!!≈ * @CODE@ 
 
 
 #!! * More sets
 
 
-LIST REAL-TITLE = "prof" "cand.philol" ;
-LIST OFFICE = "gånka" ;
-SET TITLE = REAL-TITLE OR OFFICE ; 
-LIST Guess = Guess ;
-
-# SET TITLE = REAL-TITLE OR TITLE-LIKE OR PROFESSION OR OFFICE ; 
 
 
 LIST CASES = Nom Acc Gen Par Loc Abl Lat Tra ;
 LIST ADVLCASE =  Loc Abl Lat Tra ;
 LIST NUMBER = Sg Du Pl ;
-LIST NOMEN-NOT-PRON = N A Indef Num Ord ;  # they can have Dem as attr
 
 LIST WORD = N A V Adv Pron Interj Num CS CC Pcle Pr Po ;
 SET REALWORD = WORD - Num - Ord ;
 SET REALWORD-NOTABBR = WORD - Num - Ord - ABBR ;
-
-SET NOT-QMARK = WORD OR CLB OR PUNCT - QMARK ;
-
 LIST NOT-ADV-INT-PCLE = N A Num Pron A V CC CS ;
-
 SET NOT-ADV = WORD - Adv ;
 
 SET NP-HEAD = Num OR N OR Pron ;
-
-SET PRE-NP-HEAD = (Prop Attr) OR (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (Pron Logo Gen) OR (N Gen) OR Num OR (Cmpnd) OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR (PrfPrc @>N) OR (PrfPrc @>N) OR (PrsPrc) OR (A Ord) OR Attr OR ("gånka") ;
+SET PRE-NP-HEAD = (Prop Attr) OR (Prop @>N) OR (A Attr) OR (ABBR Attr) OR (Pron Pers Gen) OR (Pron Logo Gen) OR (N Gen) OR Num OR (Cmpnd) OR CC OR (Pron Dem) OR (Pron Refl Gen) OR (Pron Indef) OR (PrfPrc @>N) OR (PrfPrc @>N) OR (PrsPrc) OR (A Ord) OR Attr ;
          # The strict version of items that can only be premodifiers, not parts of the predicate - copied from sme-dis.rle
          
 SET NP-MEMBER   = PRE-NP-HEAD OR N ;
 
-SET GUJMIE = (Pl Gen) OR (Pl1 Gen) OR (Pl2 Gen) OR (Pl3 Gen) ;
          
 SET NPNH = WORD - PRE-NP-HEAD OR (ABBR) ;       # NPNH  = "NOT-PRE-NP-HEAD" 
 SET NPNHA = WORD - PRE-NP-HEAD OR (ABBR) OR Adv ;   
@@ -286,49 +249,7 @@ SET NPNHAI   = WORD - PRE-NP-HEAD - Adv - Indef ;
 
 SET PX = PxSg1 OR PxSg2 OR PxSg3 OR PxDu1 OR PxDu2 OR PxDu3 OR PxPl1 OR PxPl2 OR PxPl3 ;
 
-LIST FAMILY = "aahka" "aahkove" "aajja" "aajjove" "aajkoehkadtjh" "aajkohke" "aajnehke" "aarpije" "aehtjaahka" "aehtjaajja" "aehtjie" "baernie" "boelve" "daktere" "eejhtegh" "elkie" "fijrie" "fuelhkie" "gaalla" "geelle" "geellege" "gåeskie" "gåeskuve" "gåetehke" "gåmma" "gåmmebe" "ietnie" "jiekie" "jiekuve" "jijmie" "jijmuve" "jyöne" "jöömmetje" "krist’aehtjie" "krist’ietnie" "laahkoe" "laevie" "laeviehkadtjh" "maadteraahka" "maadteraajja" "maadtoe" "maake" "maaketje" "maana" "meata" "moehrele" "muahra" "månnja" "mænnja" "neapede" "neebne" "nååte" "nïejte" "onnevïelle" "onneåabpa" "seasa" "slïekte" "stoerrevïelle" "stoerreåabpa" "sïesele" "tjidtjaahka" "tjidtjaajja" "tjidtjie" "tjietsie" "tjietsuve" "voehpe" "voehpealmetjh" "vuanove" "vïelle" "vïjve" "åabpa" "åabpetjh" "åerpele" "åerpene" "åerpienadtjh" "vïelletjh" ;
-
-
- 
-# those can both be buildings and represent humans
- # Duomma:lea
-
-LIST INSTITUTION = "jarnge" "kultuvrejarnge" "raerie" "kultuvreraerie" ; 
-
-# the previous items can both represent abstract processes and humans
- 
-LIST MEDIA = "media" "radio" "TV" ; # "oahpahus#rádio" "rádio" "televišuvdna" ;
-
-
-LIST ORGANIZATION = (Prop Org) "digkie" "digkiegåetie" "skuvlekontovre" ;
-
-
-
-LIST EDUCATION = "skuvle" ;
-
-LIST CURRENCY = "denaare" "kråvna" "kråvnoe" "kravna" "kr" "ru" "¢" "€" "$";
-
-# suits to LANGUAGE Gen
-LIST LESSON =  "kuvsje" ;
-
- 
-
-LIST OTHER-INDUSTRY = "bálvalus#ealáhus" ;
-
-# Not related to certain political verbs
- # Duomma:lea
-
-LIST POLITICAL-INDUSTRY = "alkohol#politihkka"  ;
- # Related to certain political verbs
- # Duomma:lea
- 
-SET INDUSTRY = POLITICAL-INDUSTRY OR OTHER-INDUSTRY ;
-
-LIST NORGA = "Dánmárku-#Norga" "davvi#Norga" "Davvi-Norga" "gaska-#Norga" "Norga" "norga" "norgga#bealli" "Norgga-#ruoŧŧa" ;
-
-
 #!! * Verb sets
-
 
  # The set REALCOPULAS is smaller than COPULAS, made for verbs with PrfPrc complements: Seammás REALCOPULAS son dovdan iežas...
 LIST REALCOPULAS = "lea" ;
@@ -341,14 +262,11 @@ SET V-NOT-COP = V - COPULAS ;
 LIST MOD-ASP = "galkedh" "tjoeveridh" "tjoeredh" "sååjhtedh" ;
 
  # Verbs that never have arguments of their own 
- 
-LIST AUX-OR-MAIN = "aelkedh" "edtjedh" "maehtedh" "sïjhtedh" "sjïdtedh" "båetedh" "åadtjodh" ;
 
  # These verbs can take arguments, so they do not belong in the AUX group, 
  # but they are nevertheless mapped to (@+FAUXV). 
  
-SET AUX = COPULAS OR Neg OR MOD-ASP OR AUX-OR-MAIN ;
-
+SET AUX = COPULAS OR Neg OR MOD-ASP  ;
 
 SET VFIN = Ind OR Imprt ;
 
@@ -362,101 +280,17 @@ SET VFIN-NOT-NEG = VFIN - Neg ;
 SET NOT-NP = VFIN-NOT-NEG OR ConNeg OR Inf OR Pcle OR Interj OR CS ;
  # The set NP-BOUNDARY is bigger. 
 
-LIST INFV = "aavoedidh" "aelkedh" "buektiehtidh" "provhkedh" ; 
-# These are often followed by an infitive.
-
-LIST ILLV = "båetedh" "juhtedh" "ringkedh" ;
-LIST COMV = "budtedh" "pruvredh" ;
-
-LIST COM-ADJ = "latjkes" ;
-
-LIST STV = Der/ehte ;
-
-LIST ILLADV = "bæjjese" "davvese" "daase" "dahkoe" "diekie" "doekoe" "dohkoe" "jallese" "mænngese" "noerhtese" "olkese" "vueliebasse" "våålese" "åarjese" "åvtese" ;
-
-LIST INEADV =  "daebpene" "debpene" "duebpene" "dubpene" "daagkoe" "dagkoe" "doegkoe" "dogkoe" "daajkoe" "dajkoe" "doejkoe" "dojkoe" ;
-
-LIST ELAADV = "daebpede" "debpede" "duebpede" "dubpede"  "dåvvese" ;
-
-LIST GUKTIEGOSSE = ("gusnie" Adv) ("guktie" Adv) ("gosse" Adv) ("gåessie" Adv) ("gogkoe" Adv) ("gogka" Adv) ("gustie" Adv) ("gåabpelen" Adv) ("gåabpoeh" Adv) ("gåabpah" Adv) ("gåabph" Adv) ("gubpene" Adv) ("gubpede" Adv) ("gubpelde" Adv) ("gumhtie" Adv) ("mannemes" Adv) "magkeres" "magkere" "guktems" "gumhtems" "gumhteme" ("mijladtje" Adv) ("man" Adv) "mannasinie" ("mejnie" Adv) ("mennie" Adv) ("mestie" Adv);
-
-LIST DAESNIE = ("daesnie" Adv) ("åvtesne" Adv) ("sjisjnjielisnie" Adv) ("dusnie" Adv) ("miehtjielisnie" Adv) ("dubpielisnie" Adv) ("jilliebisnie" Adv) ("luvlielisnie" Adv) ("ålkoelisnie" Adv) ("gusnie" Adv) ("luvliegisnie" Adv) ("åarjalisnie" Adv) ("minngielisnie" Adv) ("bijjielisnie" Adv) ("sisnjielisnie" Adv) ("åarjielisnie" Adv) ("åerjielisnie" Adv) ("vuelielisnie" Adv) ("debpielisnie" Adv) ("duebpielisnie" Adv) ("åarjelisnie" Adv) ("noerhtelisnie" Adv) ("jillielisnie" Adv) ("luvliebisnie" Adv) ("vueliebisnie" Adv);
-
-LIST DAESTIE = ("daestie" Adv) ("åvteste" Adv) ("sjisjnjielistie" Adv) ("dustie" Adv) ("miehtjielistie" Adv) ("dubpielistie" Adv) ("jilliebistie" Adv) ("luvlielistie" Adv) ("ålkoelistie" Adv) ("gustie" Adv) ("luvliegistie" Adv) ("åarjalistie" Adv) ("minngielistie" Adv) ("bijjielistie" Adv) ("sisnjielistie" Adv) ("åarjielistie" Adv) ("åerjielistie" Adv) ("vuelielistie" Adv) ("debpielistie" Adv) ("duebpielistie" Adv) ("åarjelistie" Adv) ("noerhtelistie" Adv) ("jillielistie" Adv) ("luvliebistie" Adv) ("vueliebistie" Adv);
-
-
-LIST ADV-MOD-ADV = "aaptsah" "aaptsh" "aave" "gaaje" "gaajh" "joekoen" "ååpsen" "fer" "for" "dan" ("mij" Sg Gen) "øøvre" ;
-
-LIST ADV-MOD-NP = "ållesth" "allesth" "aave" "aejvie" "dovne" "eevre" "öövre" "ov" "ovve" "rikti" "ajve" "barre" "gaaje" "gaajh" "joekoen" "hujht" "hujhtskabph" "lïgke" "lïjhke" "gujht" "læjhkan" "van" "darhkan" "eantan" "man" "mahte" "ovrehte" "raakte" "varke" "varki" "aaptsah" "aaptsh" "medtie" ;
-
-LIST GRADE-ADV =  "aaptsah" "aaptsh" "ållesth" "allesth" "ååpsen" "aave" "aejvie" "dovne" "eevre" "ajve" "barre" ("jienebe" Adv) ("jeenjebe" Adv) "ov" "ovve" "rikti" "gaaje" "gaajh" "joekoen" "åpmohts" "åpmehts" "aajmohts" "åpmoeh" ("man" Adv) "mahte" "ovrehte" "raakte" "varke" "varki" "seamma" "öövre" "uhtjienadtje" "sagke" ;
 
 
 #!! * BOUNDARY SETS
 
 
-SET S-BOUNDARY = (Pron Interr) OR (Pron Rel) OR ("men") OR ("mohte") OR ("\;") OR (":") OR ("-") OR ("–") OR CS OR GUKTIEGOSSE OR BOS OR EOS ;
-SET REALCLB = CLB - COMMA ;
-
-SET SV-BOUNDARY = S-BOUNDARY OR Inf OR V-MAIN - PrsPrc ;
-
-SET NP-BOUNDARY = BOS OR EOS OR REALCLB OR VFIN OR Inf OR (Actio Ess) OR ConNeg OR VGen OR Po OR Pr OR Pcle OR Interj OR CS ;
-
-# The following set contains the one-letter abbrs from abbr-sma-lex.txt
-LIST SOMESMALLABBR = "a" "r" "c" "d" "e" "f" "f" "g" "h" "i" "l" "m" "b" "j" "s" ;
-LIST SOMECAPABBR = "A" "R" "C" "D" "E" "F" "F" "G" "H" "I" "L" "M" "B" "J" "S" ;
-
-# Der sets
-LIST V-DER = Der/didh Der/htidh Der/alle Der/stidh Der/ehte Der/lidh Der/htalle Der/lgidh Der/htjidh Der/htovve Der/htoeve Der/htehte Der/ahtje Der/gåete Der/ehte Der/adte Der/eds Der/PassL;
-
-LIST V-DER-SUF = (".*didh"r) (".*htidh"r)  (".*alledh"r) (".*stidh"r) (".*ehtedh"r) (".*lidh"r) (".*lgidh"r) (".*htjidh"r)  (".*htovvedh"r)  (".*htoevedh"r)  (".*htehtedh"r)  (".*ahtjedh"r)  (".*gåetedh"r) (".*ehtedh"r) (".*gåetedh"r) (".*adtedh"r) (".*edsedh"r) (".*sovvedh"r) ;
-
-LIST N-DER = Der/NomAct Der/NomAg Der/Dimin Der/voete ;
-LIST N-DER-SUF = (".*immie"r) (".*me"r) (".*æjja"r) (".*ije"r) (".*tje"r)  (".*voete"r) ;
-
-LIST A-DER = Der/ldihkie Der/ijes Der/ihks Der/les Der/ldahke Der/ldh ;
-LIST A-DER-SUF = (".*ldihkie"r) (".*ijes"r) (".*ihks"r) (".*les"r) (".*ldahke"r) (".*ldh"r) ;
-
-LIST PASS = Der/PassS Der/PassL ;
-
-SET LEX-V = V - V-DER;
-
-SET LEX-N = N - N-DER;
-
-SET LEX-A = A - A-DER;
-
-LIST VERB-FORMS = Inf Sg1 Sg2 Sg3 ;
-
-SET FORMS = VERB-FORMS OR WORD ;
-
-LIST BUILDING = "gåetie" ;
-
-#LIST ROOM = "ladnja" "oadem#ladnja" ;
-
-LIST GEOGRAPHICAL-PLACE = "dajve" "deava" "gaedtie" "gádde" "jaevrie" "vaerie" "miehtsie";  
-LIST POLITICAL-PLACE = "rïjhke"; 
-LIST GENERAL-PLACE = "sïjte";  
-#LIST SPEC-PLACE = "värro#áltár" ; # for Ill disamb
-
-LIST PLACE-P = "alkalisnie" "alkalistie" "avtelen" "avteli" "avtelisnie" "avtelistie" "avtem" "avtene" "baakta" "baaktoe" "baalte" "baaltelen" "baalteli" "baaltelisnie" "baaltelistie" "baaltes" "baaltese" "bealan" "bealese" "bealesne" "bealeste" "bielehth" "bielelen" "bieleli" "bielesne" "bieleste" "bielielisnie" "bielielistie" "bijjelen" "bijjeli" "bijjielisnie" "bijjielistie" "boehten" "boehth" "bïjre" "daebpiebisnie" "daebpelen" "daebpeli" "daebpielisnie" "daebpielisnie" "daebpielistie" "debpeli" "debpielisnie" "debpielistie" "duakan" "dubpelen" "dubpeli" "dubpielisnie" "dubpielistie" "duebpelen" "duebpeli" "duebpielisnie" "duebpielistie" "duekelen" "duekesne" "duekeste" "duekiem" "jillelen" "jilleli" "jillielisnie" "jillielistie" "luvleli" "luvlielisnie" "luvlielistie" "miehtjelde" "miehtjelen" "miehtjeli" "miehtjielasse" "miehtjielisnie" "miehtjielistie" "nïlle" "noerhtelen" "noerhteli" "noerhtelisnie" "noerhtelistie" "nualan" "nueleste" "nuelesne" "nuelie" "nueliem" "raajan" "raejeste" "rastah" "sisnie" "sisnjeli" "sisnjielisnie" "sisnjielistie" "sistie" "sjisjnjeli" "sjisjnjielisnie" "sjisjnjielistie" "sïjse" "tjïddh" "tjïrrh" "uvte" "vuelelen" "vueleli" "vuelielisnie" "vuelielistie" "vuestelen" "vuestie" "vuestielisnie" "vuestielistie" "vööste" "åarjalisnie" "åarjalistie" "åarjelen" "åarjeli" "åarjielisnie" "åarjielistie" "åelesne" "åerjielisnie" "ålkoelisnie" "ålkoelistie" "ålkolen" "ålkoli" "åvtelen" "åvteli" "åvtelisnie" "åvtelistie" "åvtem" "åvtene" "åvtese" "åvtesne" "åvteste" "åvtetji" "åvtine" "lïhkebe" "vuelege" ;
-
-
-LIST TIME = "biejjie" "b" "gïjre" "giesie" "tïjme" "dygne" "bodte" "bådte" "tjaktje" "tjaktjegiesie" "tjaktjedaelvie" "daelvie" "tsåahka" "jaepie" "jïjje" "jahke" "aske" "reakedsbiejjie" "våhkoe" "vahka" "måanta" "dæjsta" "aejkie" ;
-
-LIST CONCRETE-ROUTE = (".*raejkien"r) (".*raejkiem"r) "guhkies" ;
-
-LIST ABSTR-ROUTE = "mïjle" (".*mïjle"r) "lehkie#mïjletje" (".*meetere"r) ;
-
-SET ROUTE = CONCRETE-ROUTE OR ABSTR-ROUTE ; 
-
-SET PLACE = GEOGRAPHICAL-PLACE OR POLITICAL-PLACE OR GENERAL-PLACE OR ROUTE OR BUILDING ;
-
 # ============== #
-#!! # Disambiguation #
+#!! ## Disambiguation rules
 # ============== #
 
 
-BEFORE-SECTIONS  #!! ## @CODE@
+BEFORE-SECTIONS  #!!≈ ## @CODE@
 
 #!! Rule for adding Sem/Date as a tag to readings which looks like dates
 SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Date) TARGET ("<[0-3][0-9][.][0-2][0-9][.][1-2][0-9][0-9][0-9]>"r Num) ;
@@ -465,9 +299,9 @@ SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Date) TARGET ("<[0-3][0-9][.][0-2][0-9][.]
 SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Year) TARGET ("<[1-2][0-9][0-9][0-9]>"r Num) ;
 
 
-SECTION  #!! ## @CODE@
+SECTION  #!!≈ ## @CODE@
 
-#!! ## Cycle 0
+#!! ### Cycle 0
 
 #!! Removing non-lexicalised forms when lexicalised 
 
