@@ -9,13 +9,13 @@
           # (No other long Cyrillic vowels precomposed)
 
 # RY: NB: we do *NOT* use latin pre-composed symbols for these (as per JR)
+
 А̄ (->) , # Luuimaa Seeripos F50E
 а̄ (->) , # Luuimaa Seeripos F50F
 Е̄ (->) , # Luuimaa Seeripos F510
 е̄ (->) , # Luuimaa Seeripos F511
 О̄ (->) , # Luuimaa Seeripos F518
 о̄ (->) , # Luuimaa Seeripos F519
-
 Ё̄ (->) , # Luuimaa Seeripos F512
 ё̄ (->) , # Luuimaa Seeripos F513
 Ы̄ (->) , # Luuimaa Seeripos F520
@@ -34,45 +34,14 @@
 е̄ (->) ē, #U+0113
 О̄ (->) Ō, #U+014С
 о̄ (->) ō, #U+014В
-
-
-# The remaining mappings are for LAZY writers:
-
-# RY: i and u: we use Luuimaa-Seeripos original pre-composed symbols -- we keep these:
-
-Ӣ (->) И, # Cyrillic И + U+0304 (->) precomposed 04E2 (Luuimaa Seeripos)
-ӣ (->) и, # Cyrillic и + U+0304 (->) basic
-Ӯ (->) У, # Cyrillic у + U+0304 (->) basic
-ӯ (->) у, # Cyrillic у + U+0304 (->) basic
-
 Ӣ (->) Ӣ, # precomposed (->) Cyrillic И + U+0304 
 ӣ (->) ӣ, # precomposed (->) Cyrillic и + U+0304 
 Ӯ (->) Ӯ, # precomposed (->) Cyrillic у + U+0304 
 ӯ (->) ӯ, # precomposed (->) Cyrillic у + U+0304 
 
-# lazy (missing) length:
-А̄ (->) А, # 
-а̄ (->) а, # 
-Е̄ (->) Е, # 
-е̄ (->) е, # 
-Ё̄ (->) Ё,  # 
-ё̄ (->) ё,  # 
-О̄ (->) О, # 
-о̄ (->) о, # 
-Ы̄ (->) Ы, # 
-ы̄ (->) ы, # 
-Э̄ (->) Э, # 
-э̄ (->) э, # 
-Ю̄ (->) Ю, # 
-ю̄ (->) ю, # 
-Я̄ (->) Я, # 
-я̄ (->) я, # 
 
-# missing diaereses:
-Ё (->) Е,  # 
-ё (->) е,  # 
+# New vs. old orthography (move this to spellrelax-mobile?
 
-# New vs. old orthography
 щ а (->) с я,
 щ а̄ (->) с я̄,
 щ е (->) с е,
@@ -86,21 +55,3 @@
 щ о̄ (->) с ё̄
 ;
 
-
-# Future thought:
-# A posible change is to split this file into lg-specific files.
-# As the number of language grow, this might be more relevant.
-# Especially conflicting rules a -> b, b -> a in different lgs
-# might force a split of this file.
-
-# Note:
-# Some of the lines above seem to contain identical letters, 
-# and in some cases the same right-hand letter seems to occure twice.
-# In each case, the __second__ of these is a non-precomposed letter.
-# In order to check which one is which one, open this file in emacs
-# and read through the line with the arrow key. The letters who span over
-# two characters (press arrow twice) are the precomposed ones.
-
-# Note that the ï/Ï letters are there for sma.
-# They are probably substandard, and should be relegated to sma.fst
-# but removed from a sma.norm.fst.
