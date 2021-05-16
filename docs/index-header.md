@@ -7,14 +7,11 @@
 
 These pages document the work on the [Mansi language model](https://github.com/giellalt/lang-mns).
 
-The analyser contains appr 6000 stems, and is in an early stage. It
+The Mansi analyser contains appr 6000 stems, and is in an early stage. It
 still recognise 48 % of the wordforms in a 1.1 million corpus of
 running text and is in use in a Mansi e-dictionary.  For questions,
 contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
-## Resources
-
-* [Language technology tools for Mansi (based upon this model)](https://giellatekno.uit.no/cgi/index.mns.eng.html)
 
 ## Grammatical issues
 
@@ -23,7 +20,15 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
 ## Using the analysers
 
+### HOWTO for developers
+
 * [How to download, set up, compile and use the language model](/tools/docu-sme-manual.html)
+
+### Resources built upon the Mansi language model
+
+* [Language technology tools for Mansi (based upon this model)](https://giellatekno.uit.no/cgi/index.mns.eng.html)
+* [xperimental Mansi spellchecker for download](https://divvun.org/proofing/proofing.html)
+* [Experimental Mansi spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose *Languages*)
 
 # In-source documentation
 
