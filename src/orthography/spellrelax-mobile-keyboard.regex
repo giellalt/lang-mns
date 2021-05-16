@@ -1,8 +1,38 @@
 # Northern Mansi #SoMe spellrelax file.
 
-# In case of long
+# RY: i and u: we use Luuimaa-Seeripos original pre-composed symbols -- we keep these:
 
+Ӣ (->) И, # Cyrillic И + U+0304 (->) precomposed 04E2 (Luuimaa Seeripos)
+ӣ (->) и, # Cyrillic и + U+0304 (->) basic
+Ӯ (->) У, # Cyrillic у + U+0304 (->) basic
+ӯ (->) у, # Cyrillic у + U+0304 (->) basic
+
+# lazy (missing) length:
+А̄ (->) А, # 
+а̄ (->) а, # 
+Е̄ (->) Е, # 
+е̄ (->) е, # 
+Ё̄ (->) Ё,  # 
+ё̄ (->) ё,  # 
+О̄ (->) О, # 
+о̄ (->) о, # 
+Ы̄ (->) Ы, # 
+ы̄ (->) ы, # 
+Э̄ (->) Э, # 
+э̄ (->) э, # 
+Ю̄ (->) Ю, # 
+ю̄ (->) ю, # 
+Я̄ (->) Я, # 
+я̄ (->) я, # 
+
+# missing diaereses:
+Ё (->) Е,  # 
+ё (->) е,  # 
+
+# missing ENG
 ӈ (->) н ( г ) 
+
+
 ;
 
 
