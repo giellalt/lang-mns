@@ -115,7 +115,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
   +Card  +Ord        !!≈ * **@CODE@**  Numerals are classified under:
  +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3   !!≈ * **@CODE@**  Personal pronouns are marked as
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3  !!≈ * **@CODE@** for possessive suffixes
- +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3z  !!≈ * **@CODE@** Verb subject conjugation
+ +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3  !!≈ * **@CODE@** Verb subject conjugation
  +OcSg3 +OcDu3 +OcPl3  !!≈ * **@CODE@** Verb object conjugation
  +Ind +Prs +Prt +Pot +Cond +Imprt +Evid !!≈ * **@CODE@** Verb moods 
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass  !!≈ * **@CODE@** infinite verbforms
@@ -165,24 +165,24 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! Semantics are classified with
  +Sem/Mal     !!≈ * **@CODE@** 
-! +Sem/Fem     !!≈ * __@CODE@__ 
-! +Sem/Sur     !!≈ * __@CODE@__ 
+ +Sem/Fem     !!≈ * __@CODE@__ 
+ +Sem/Sur     !!≈ * __@CODE@__ 
  +Sem/Plc     !!≈ * **@CODE@** 
-! +Sem/Org     !!≈ * __@CODE@__ 
-! +Sem/Obj     !!≈ * __@CODE@__ 
-! +Sem/Ani     !!≈ * __@CODE@__ 
-! +Sem/Hum     !!≈ * __@CODE@__ 
-! +Sem/Plant   !!≈ * __@CODE@__ 
-! +Sem/Group   !!≈ * __@CODE@__ 
-! +Sem/Time    !!≈ * __@CODE@__ 
-! +Sem/Txt     !!≈ * __@CODE@__ 
-! +Sem/Route   !!≈ * __@CODE@__ 
-! +Sem/Measr   !!≈ * __@CODE@__ 
-! +Sem/Wthr    !!≈ * __@CODE@__ 
-! +Sem/Build   !!≈ * __@CODE@__ 
-! +Sem/Edu     !!≈ * __@CODE@__ 
-! +Sem/Veh     !!≈ * __@CODE@__ 
-! +Sem/Clth    !!≈ * __@CODE@__ 
+ +Sem/Org     !!≈ * __@CODE@__ 
+ +Sem/Obj     !!≈ * __@CODE@__ 
+ +Sem/Ani     !!≈ * __@CODE@__ 
+ +Sem/Hum     !!≈ * __@CODE@__ 
+ +Sem/Plant   !!≈ * __@CODE@__ 
+ +Sem/Group   !!≈ * __@CODE@__ 
+ +Sem/Time    !!≈ * __@CODE@__ 
+ +Sem/Txt     !!≈ * __@CODE@__ 
+ +Sem/Route   !!≈ * __@CODE@__ 
+ +Sem/Measr   !!≈ * __@CODE@__ 
+ +Sem/Wthr    !!≈ * __@CODE@__ 
+ +Sem/Build   !!≈ * __@CODE@__ 
+ +Sem/Edu     !!≈ * __@CODE@__ 
+ +Sem/Veh     !!≈ * __@CODE@__ 
+ +Sem/Clth    !!≈ * __@CODE@__ 
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
