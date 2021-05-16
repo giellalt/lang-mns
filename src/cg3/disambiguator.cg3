@@ -98,6 +98,7 @@ LIST Opt = Opt ;			 #!!≈ * @CODE@
 LIST Actor = Actor ;		 #!!≈ * @CODE@
 LIST Clt = Clt ;			 #!!≈ * @CODE@
 LIST A = A ;				 #!!≈ * @CODE@
+LIST Pos = Pos ;			 #!!≈ * @CODE@
 LIST Ord = Ord ;			 #!!≈ * @CODE@
 LIST Coll = Coll ;			 #!!≈ * @CODE@
 LIST ABBR = ABBR ;			 #!!≈ * @CODE@
@@ -301,11 +302,14 @@ SUBSTITUTE:Date1 (Num Sg) (Num Sg Sem/Year) TARGET ("<[1-2][0-9][0-9][0-9]>"r Nu
 
 SECTION  #!!≈ ## @CODE@
 
-#!! ### Cycle 0
+#!! ### Cycle 0: No context
 
 #!! Removing non-lexicalised forms when lexicalised 
 
 #REMOVE:PassS (Der/PassS) ; # ikke bra
 
 
- 
+#!! ### Cycle 1: Local context
+
+REMOVE:Attr A + Pos IF (1 A OR N);
+REMOVE:Pos A + Attr IF (0 Pos)(NOT 1 A OR N);
