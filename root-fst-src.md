@@ -86,7 +86,7 @@ language are presented in this system in terms of the following symbols.
  * **+Card +Ord**  Numerals are classified under:
  * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**  Personal pronouns are marked as
  * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3** for possessive suffixes
- * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3z** Verb subject conjugation
+ * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3** Verb subject conjugation
  * **+OcSg3 +OcDu3 +OcPl3** Verb object conjugation
  * **+Ind +Prs +Prt +Pot +Cond +Imprt +Evid** Verb moods 
  * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass** infinite verbforms
@@ -135,7 +135,24 @@ language are presented in this system in terms of the following symbols.
 
 Semantics are classified with
  * **+Sem/Mal** 
+ * __+Sem/Fem__ 
+ * __+Sem/Sur__ 
  * **+Sem/Plc** 
+ * __+Sem/Org__ 
+ * __+Sem/Obj__ 
+ * __+Sem/Ani__ 
+ * __+Sem/Hum__ 
+ * __+Sem/Plant__ 
+ * __+Sem/Group__ 
+ * __+Sem/Time__ 
+ * __+Sem/Txt__ 
+ * __+Sem/Route__ 
+ * __+Sem/Measr__ 
+ * __+Sem/Wthr__ 
+ * __+Sem/Build__ 
+ * __+Sem/Edu__ 
+ * __+Sem/Veh__ 
+ * __+Sem/Clth__ 
 
 
 Derivations are classified under the morphophonetic form of the suffix, the
