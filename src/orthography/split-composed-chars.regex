@@ -1,0 +1,25 @@
+# Regex to expand multichar symbols (in the fst sense) to a string of individual letters.
+# Will make sure that various tools do not choke on parsing input strings.
+
+"ё" -> {ё},
+"Ё" -> {Ё},
+"ӣ" -> {ӣ},
+"ӯ" -> {ӯ},
+"Ӣ" -> {Ӣ},
+"Ӯ" -> {Ӯ},
+"а̄" -> {а̄},
+"е̄" -> {е̄},
+"о̄" -> {о̄},
+"ы̄" -> {ы̄},
+"э̄" -> {э̄},
+"ю̄" -> {ю̄},
+"я̄" -> {я̄},
+"ё̄" -> {ё̄},
+"А̄" -> {А̄},
+"Е̄" -> {Е̄},
+"О̄" -> {О̄},
+"Ы̄" -> {Ы̄},
+"Э̄" -> {Э̄},
+"Ю̄" -> {Ю̄},
+"Я̄" -> {Я̄};
+
