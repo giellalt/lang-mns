@@ -1852,6 +1852,8 @@ This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-
 
 # The Mansi morphophonological/twolc rule file
 
+This file documents the [phonology.twolc file](http://github.com/giellalt/lang-mns/blob/main/src/fst/phonology.twolc) 
+
 Скрибник Е.К. & К.В. Афанасьева 2007:
 Практически курс манийского языка, Часть 1. Ханты-Мансийск. Полиграфист.
 
