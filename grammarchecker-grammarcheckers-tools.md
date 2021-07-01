@@ -1,5 +1,5 @@
 
-      N O R T H E R N   M A N S I  G R A M M A R   C H E C K E R
+N O R T H E R N   M A N S I  G R A M M A R   C H E C K E R
 
 
 
@@ -409,3 +409,5 @@ expression **WORD - premodifiers**.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../tools/grammarcheckers/grammarchecker.cg3](http://github.com/giellalt/lang-mns/blob/main/../tools/grammarcheckers/grammarchecker.cg3)</small>

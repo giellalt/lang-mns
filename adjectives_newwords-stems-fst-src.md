@@ -8,3 +8,5 @@ added to the xml source files.
 **LEXICON A_NEWWORDS** 
 ADD ADJECTIVES BELOW
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small>

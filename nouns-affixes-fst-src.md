@@ -59,3 +59,5 @@ Affixes for pissessive suffixes + case forms.
 
 ### 3. Derivation forms
 This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/nouns.lexc)</small>

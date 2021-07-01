@@ -18,3 +18,5 @@ NEW PROPER NOUNS
  Лука+N+Prop+Sem/Mal:Лука N-01_ ;
  Кристос+N+Prop+Sem/Mal:Кристос N-01_ ;
 ...
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/exceptions.lexc)</small>

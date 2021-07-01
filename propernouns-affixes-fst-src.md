@@ -12,3 +12,5 @@ and Mansi-specific names.
 **LEXICON PROP-PATR-MAL_END-IN-CH/DZ** = the content is just there to make the fst compile.
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/propernouns.lexc)</small>

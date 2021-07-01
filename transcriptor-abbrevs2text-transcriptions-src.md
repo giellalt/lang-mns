@@ -16,3 +16,5 @@ For example:
  * esim.:esimerkiksi # ; 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>

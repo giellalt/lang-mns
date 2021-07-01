@@ -8,3 +8,5 @@ added to the xml source files.
 ADD PROPER NOUNS BELOW
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/mns-propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/mns-propernouns.lexc)</small>

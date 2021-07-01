@@ -206,3 +206,5 @@ End of alphabet definitions
 **RULE: э to е after certain consonants after т deletion**  
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/phonology.twolc)</small>

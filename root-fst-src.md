@@ -254,3 +254,5 @@ NEWWORDS FILES:
 * **LEXICON K** for evt. clitic (goes to #)
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/root.lexc)</small>

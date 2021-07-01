@@ -17,3 +17,5 @@
  * а̄ртмил+N:а̄ртмил N-01_ "удача" ;
  * ласка+N:ласка N-01_ "ласка /животное/" ;
  * ласточка+N:ласточка N-01_ "ласточка" ;
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns.lexc)</small>
