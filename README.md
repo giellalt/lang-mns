@@ -3,7 +3,7 @@ The Northern Mansi morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/issues)
 [![Build Status](https://github.com/giellalt/lang-mns/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-mns/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-mns)](https://raw.githubusercontent.com/giellalt/lang-mns/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/blob/main/LICENSE)
 
 This repository contains finite state source files for the Mansi language,
 for building morphological analysers, proofing tools
