@@ -163,6 +163,11 @@ source and target part-of-speech.
  * **+Der/Yng** N» ыӈ Proprietive as in kpv -а
  * **+Der/Yshch** A» ыщ 
  * **+Der/Ap** V» ап 
+ * **+Der/Ord** is this the best analysis?
+
+
+
+
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
  * **»7**:  Literal »
