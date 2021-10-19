@@ -101,6 +101,8 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Loc !!≈ * **@CODE@** Ыт
  +Tra !!≈ * **@CODE@** Ыг
 
++Dat
++Ela
 
 
 !! ### The comparative forms are:
@@ -193,7 +195,15 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 +Der/Yng     !!≈ * **@CODE@** N» ыӈ Proprietive as in kpv -а
 +Der/Yshch   !!≈ * **@CODE@** A» ыщ 
 +Der/Ap	     !!≈ * **@CODE@** V» ап 
++Der/Ord     !!≈ * **@CODE@** is this the best analysis?
+
 +Actio
+
++Err/Orth-colloq
++Hom1
++Hom2
+
+
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ * **@CODE@**:  Literal »
