@@ -184,12 +184,13 @@ symbols (archiphones) in the lexicon files:
  **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
  **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
  **%{йØ%}** ыг
- * **%{Øы%}** Loc
+ * **%{Øы%}** ы in Sg Loc Is this same as Sg Lat, too 2021-10-18
  **%{ыØ%}** specific floating vowel 
  **%{иØ%}** specific floating vowel 
  **%{уØ%}** specific floating vowel 
 
- **ы2** weak ы in Sg Loc and Sg Lat
+ **ы2** ы in stem, syncope 
+ **ы3** weak ы in Sg Loc and Sg Lat
 
 And following triggers to control variation
 ## Flag diacritics

@@ -1136,12 +1136,13 @@ symbols (archiphones) in the lexicon files:
  **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
  **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
  **%{йØ%}** ыг
- * **%{Øы%}** Loc
+ * **%{Øы%}** ы in Sg Loc Is this same as Sg Lat, too 2021-10-18
  **%{ыØ%}** specific floating vowel 
  **%{иØ%}** specific floating vowel 
  **%{уØ%}** specific floating vowel 
 
- **ы2** weak ы in Sg Loc and Sg Lat
+ **ы2** ы in stem, syncope 
+ **ы3** weak ы in Sg Loc and Sg Lat
 
 And following triggers to control variation
 ## Flag diacritics
@@ -1255,7 +1256,8 @@ Precomposed letters are used when available, otherwise non-composed ones.
  * **%{УЮØ%}:0**
  * **%{ТØ%}:0**
  * **%{ЭЕ%}:0** PxSg3
- * **ы2:0** weak ы for Loc and Lat
+ * **ы2:ы** syncope vowel
+ * **ы3:0** weak ы for Loc and Lat
 
 
 #### Triggers
@@ -1339,15 +1341,14 @@ End of alphabet definitions
 * *ха̄п>ыныл*
 * *ха̄п>0ныл*
 
-
-**RULE: Vow ы in loc appears**  
+**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
 
 #### Tests:
 
 * *паль>%{йØ%}ыт*
 * *пал0>0ит*
 
-**RULE: Vow ы in loc appears**  
+**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
 
 #### Tests:
 
@@ -1357,11 +1358,18 @@ End of alphabet definitions
 * *аки>{йØ%}ыг*
 * *аки>0иг*
 
-**RULE: ы2 as ы in Sg Loc and Lat**  
+**RULE: ы2 as ы in syncope in stem**  
+яныг+N+Sg+Loc:
+* *яны2г>{Øы}т*
+* *ян0г>ыт*
+
+
+
+**RULE: ы3 as ы in Sg Loc and Lat**  
 
 #### Tests:
 
-* *тронд>ы2т*
+* *тронд>ы3т*
 * *тронд>ыт*
 
 **RULE: Palatalising suffix vowel after и/ы stems**  

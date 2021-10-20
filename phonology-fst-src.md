@@ -40,7 +40,8 @@ Precomposed letters are used when available, otherwise non-composed ones.
  * **%{УЮØ%}:0**
  * **%{ТØ%}:0**
  * **%{ЭЕ%}:0** PxSg3
- * **ы2:0** weak ы for Loc and Lat
+ * **ы2:ы** syncope vowel
+ * **ы3:0** weak ы for Loc and Lat
 
 
 #### Triggers
@@ -124,15 +125,14 @@ End of alphabet definitions
 * *ха̄п>ыныл*
 * *ха̄п>0ныл*
 
-
-**RULE: Vow ы in loc appears**  
+**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
 
 #### Tests:
 
 * *паль>%{йØ%}ыт*
 * *пал0>0ит*
 
-**RULE: Vow ы in loc appears**  
+**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
 
 #### Tests:
 
@@ -142,11 +142,18 @@ End of alphabet definitions
 * *аки>{йØ%}ыг*
 * *аки>0иг*
 
-**RULE: ы2 as ы in Sg Loc and Lat**  
+**RULE: ы2 as ы in syncope in stem**  
+яныг+N+Sg+Loc:
+* *яны2г>{Øы}т*
+* *ян0г>ыт*
+
+
+
+**RULE: ы3 as ы in Sg Loc and Lat**  
 
 #### Tests:
 
-* *тронд>ы2т*
+* *тронд>ы3т*
 * *тронд>ыт*
 
 **RULE: Palatalising suffix vowel after и/ы stems**  
