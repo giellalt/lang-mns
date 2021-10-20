@@ -130,7 +130,8 @@ Rules
   [Vow - [и|ы]] %> %{йØ%}:   _ Cns ;
               Vow  %>    _ Cns ; ! This is for vowel stems
                Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-                     Cns _ Cns %> ;
+!сыл%>уӈкве
+!2021-10-17                     Cns _ Cns %> ;
 !  .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
   .#. Cns:* Vow Cns:+ %> _ Cns ы л ; ! ха̄п + ыныл, not for  ха̄п + ыт  
 
@@ -139,8 +140,9 @@ Rules
  
 !!€ апа>%{йØ%}ыт
 !!€ апа>00т
+!! аки+N+Du+Nom:  __paternal uncle younger than father__
 !!€ аки>%{йØ%}ыг
-!!€ аки>00г
+!!€ аки>0иг
 !!€ ха̄п>%{йØ%}ыт
 !!€ ха̄п>0ыт
 !!€ апа>ныл
@@ -151,25 +153,26 @@ Rules
 !!€ ха̄п>0ныл  
 
 
-"i instead of y for pl nom, loc, lat"
+!"i instead of y for pl nom, loc, lat"
 !! **RULE: @RULENAME@**  
-%{йØ%}:и <=> [щ|Cns ь:] %> _ ; ! And the ohter ь-less consonants!
+!2021-10-18%{йØ%}:и <=> [щ|Cns ь:] %> _ ; ! And the ohter ь-less consonants!
 
 !! #### Tests:
 
 !!€ паль>%{йØ%}ыт
-!!€ пал0>и0т
+!!€ пал0>0ит
 
-"j instead of y for du nom in i"
+!"j instead of y for du nom in i"
 !! **RULE: @RULENAME@**  
-%{йØ%}:й <=> [и|ы] %> _ ; ! And the ohter ь-less consonants!
+! 2021-10-18%{йØ%}:й <=> [и|ы] %> _ ; ! And the other ь-less consonants!
 
 !! #### Tests:
 
 !!€ а̄ны>{йØ%}ыг
-!!€ а̄ны>йыг
+!!€ а̄ны>0иг
+!! аки+N+Sg+Tra: __as an uncle__
 !!€ аки>{йØ%}ыг
-!!€ аки>йыг
+!!€ аки>0иг
 
 "ы2 as ы in Sg Loc and Lat"
 !! **RULE: @RULENAME@**  
@@ -221,7 +224,8 @@ Rules
 "Palatalising suffix vowel ы to и for palatal stems"
 !! **RULE: @RULENAME@**  after ь etc.
 ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %>  (%{йØ%}:0) _ Cns \[ы] ;
-        л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
+!        л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
+        Cns [ы|и] %> %{йØ%}:0 _ Cns ; ! са̄лыиг
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
 !! #### Tests:
@@ -240,8 +244,8 @@ Rules
 ! TODO: Fix these two rules
 "Deleting vowel in suffix for vowel stems"
 !! **RULE: @RULENAME@**  deletes suffix-initial а у е
-Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
-        where Vx in (а у е) ;
+Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
+        where Vx in (а е) ;
 
 !! #### Tests:
 
@@ -250,7 +254,7 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow
 
 "Delete u after y"
 !! **RULE: @RULENAME@**  
-у:0 <=> [ы|и] %> _ ;
+у:0 <=> Vow %> _ ;
 
 !! #### Tests:
 
