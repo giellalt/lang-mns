@@ -227,12 +227,13 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 %{ЭЕLong%}	!!≈ **@CODE@** +V+Ind+Prs+ScSg1, PxDu3
 %{ЭЕ%}	!!≈ **@CODE@** +V+Ind+Prs+ScDu2, PxSg3
 %{йØ%}	!!≈ **@CODE@** ыг
-%{Øы%}	!!≈ * **@CODE@** Loc
+%{Øы%}	!!≈ * **@CODE@** ы in Sg Loc Is this same as Sg Lat, too 2021-10-18
 %{ыØ%}	!!≈ **@CODE@** specific floating vowel 
 %{иØ%}	!!≈ **@CODE@** specific floating vowel 
 %{уØ%}	!!≈ **@CODE@** specific floating vowel 
 
-ы2         !!≈ **@CODE@** weak ы in Sg Loc and Sg Lat
+ы2         !!≈ **@CODE@** ы in stem, syncope 
+ы3         !!≈ **@CODE@** weak ы in Sg Loc and Sg Lat
 
 !! And following triggers to control variation
 ! {front} {back}

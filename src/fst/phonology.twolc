@@ -43,7 +43,8 @@ Alphabet
 %{УЮØ%}:0	!!≈ * **@CODE@**
 %{ТØ%}:0	!!≈ * **@CODE@**
 %{ЭЕ%}:0	!!≈ * **@CODE@** PxSg3
-ы2:0	!!≈ * **@CODE@** weak ы for Loc and Lat
+ы2:ы	!!≈ * **@CODE@** syncope vowel
+ы3:0	!!≈ * **@CODE@** weak ы for Loc and Lat
 
 ! This is old 2017-03-19 ы2:ы ! fleeting/syncopating vowel
 ! question: are all cases where CыC syncopating ???
@@ -153,10 +154,6 @@ Rules
 !!€ ха̄п>ыныл
 !!€ ха̄п>0ныл  
 
-!%{Øы%}:0 this is for Loc
-"Vow ы in loc appears"
-%{Øы%}:ы <=> [р т| ы: Cns] %> _ т ;
-
 !"i instead of y for pl nom, loc, lat"
 !! **RULE: @RULENAME@**  
 !2021-10-18%{йØ%}:и <=> [щ|Cns ь:] %> _ ; ! And the ohter ь-less consonants!
@@ -178,13 +175,25 @@ Rules
 !!€ аки>{йØ%}ыг
 !!€ аки>0иг
 
-"ы2 as ы in Sg Loc and Lat"
+"ы2 as ы in syncope in stem"
 !! **RULE: @RULENAME@**  
-ы2:ы <=> Cns (Vow:0) Cns %> _ ;
+ы2:0 <=> Cns _ Cns %> :Vow ;
+!! яныг+N+Sg+Loc:
+!!€ яны2г>{Øы}т
+!!€ ян0г>ыт
+
+!%{Øы%}:0 this is for Loc
+"Vow ы in loc appears"
+%{Øы%}:ы <=> [р т| ы2: Cns] %> _ т ;
+
+
+"ы3 as ы in Sg Loc and Lat"
+!! **RULE: @RULENAME@**  
+ы3:ы <=> Cns (Vow:0) Cns %> _ ;
 
 !! #### Tests:
 
-!!€ тронд>ы2т
+!!€ тронд>ы3т
 !!€ тронд>ыт
 
 "Palatalising suffix vowel after и/ы stems"
