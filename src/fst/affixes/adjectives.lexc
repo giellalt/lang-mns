@@ -12,7 +12,7 @@ LEXICON A_
 
 LEXICON Comparisons
 !! **LEXICON @LEXNAME@** gives Pos and (two!) Comp
-+Pos:0        #   ;
++Sg+Nom:0        #   ; ! was: +Pos, but we test for +Sg+Nom. Look at this.
 +Comp:%>нув       #   ; ! fix this
 +Comp:%>нуве       #   ; ! fix this
 !+Superl:%>xxx      #   ;  ! fix this
