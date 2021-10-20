@@ -29,6 +29,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
  * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
  * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
  * **%{йØ%}:0** ыг
+ * **%{Øы%}:0** Loc
  * **%{ыØ%}:ы** specific floating vowel 
  * **%{иØ%}:и** specific floating vowel 
  * **%{уØ%}:у** specific floating vowel 
@@ -124,14 +125,14 @@ End of alphabet definitions
 * *ха̄п>0ныл*
 
 
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
+**RULE: Vow ы in loc appears**  
 
 #### Tests:
 
 * *паль>%{йØ%}ыт*
 * *пал0>0ит*
 
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
+**RULE: Vow ы in loc appears**  
 
 #### Tests:
 

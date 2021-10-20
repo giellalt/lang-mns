@@ -184,6 +184,7 @@ symbols (archiphones) in the lexicon files:
  **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
  **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
  **%{йØ%}** ыг
+ * **%{Øы%}** Loc
  **%{ыØ%}** specific floating vowel 
  **%{иØ%}** specific floating vowel 
  **%{уØ%}** specific floating vowel 
