@@ -124,13 +124,15 @@ Rules
 "Deleting ы in suffix for vowel stems and deleting floating ы"
 !! **RULE: @RULENAME@**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 ы:0 <=>            Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
-[щ|Cns ь:|ы] %> %{йØ%}:0 _ Cns ;
-     Vow %> (%{йØ%}:0)   _ Cns ;
-  [Vow - и] %> %{йØ%}:   _ Cns ;
+!this is in next Vow2021-10-17  ы %> %{йØ%}:0 _ Cns ;
+! Check this 2021-10-17 [щ|Cns ь:|ы] %> %{йØ%}:0 _ Cns ;
+!Check this2021-10-17     Vow  %> (%{йØ%}:0)   _ Cns ;
+  [Vow - [и|ы]] %> %{йØ%}:   _ Cns ;
               Vow  %>    _ Cns ; ! This is for vowel stems
                Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
                      Cns _ Cns %> ;
-  .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
+!  .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
+  .#. Cns:* Vow Cns:+ %> _ Cns ы л ; ! ха̄п + ыныл, not for  ха̄п + ыт  
 
 
 !! #### Tests:
@@ -218,7 +220,7 @@ Rules
 
 "Palatalising suffix vowel ы to и for palatal stems"
 !! **RULE: @RULENAME@**  after ь etc.
-ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %>  (%{йØ%}:0) _ Cns ;
+ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %>  (%{йØ%}:0) _ Cns \[ы] ;
         л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
 ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
 
