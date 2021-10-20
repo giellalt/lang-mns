@@ -1325,8 +1325,9 @@ End of alphabet definitions
 
 * *апа>%{йØ%}ыт*
 * *апа>00т*
+аки+N+Du+Nom:  __paternal uncle younger than father__
 * *аки>%{йØ%}ыг*
-* *аки>00г*
+* *аки>0иг*
 * *ха̄п>%{йØ%}ыт*
 * *ха̄п>0ыт*
 * *апа>ныл*
@@ -1337,21 +1338,22 @@ End of alphabet definitions
 * *ха̄п>0ныл*
 
 
-**RULE: i instead of y for pl nom, loc, lat**  
+**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
 
 #### Tests:
 
 * *паль>%{йØ%}ыт*
-* *пал0>и0т*
+* *пал0>0ит*
 
-**RULE: j instead of y for du nom in i**  
+**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
 
 #### Tests:
 
 * *а̄ны>{йØ%}ыг*
-* *а̄ны>йыг*
+* *а̄ны>0иг*
+аки+N+Sg+Tra: __as an uncle__
 * *аки>{йØ%}ыг*
-* *аки>йыг*
+* *аки>0иг*
 
 **RULE: ы2 as ы in Sg Loc and Lat**  
 
