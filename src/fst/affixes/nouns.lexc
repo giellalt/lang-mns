@@ -66,8 +66,8 @@ LEXICON N-01_
 !! ### 1. Non-possessive forms 
 !! affixes for Nom, Loc, Lat, Abl, Ins, Tra, for Sg, Du, Pl.
 +Sg+Nom: K ;
-+Sg+Loc:%>ыт K ; ! not like Pl Nom!!
-+Sg+Lat:%>ын K ;
++Sg+Loc:%>%{Øы%}т K ; ! not like Pl Nom!!
++Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom
 +Sg+Abl:%>ныл K ;
 +Sg+Ins:%>ыл K ;
 +Sg+Tra:%>%{йØ%}ыг K ;

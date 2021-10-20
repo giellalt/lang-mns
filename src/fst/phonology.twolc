@@ -32,6 +32,7 @@ Alphabet
 %{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 %{йØ%}:0	!!≈ * **@CODE@** ыг
+%{Øы%}:0	!!≈ * **@CODE@** Loc
 %{ыØ%}:ы	!!≈ * **@CODE@** specific floating vowel 
 %{иØ%}:и	!!≈ * **@CODE@** specific floating vowel 
 %{уØ%}:у	!!≈ * **@CODE@** specific floating vowel 
@@ -152,6 +153,9 @@ Rules
 !!€ ха̄п>ыныл
 !!€ ха̄п>0ныл  
 
+!%{Øы%}:0 this is for Loc
+"Vow ы in loc appears"
+%{Øы%}:ы <=> [р т| ы: Cns] %> _ т ;
 
 !"i instead of y for pl nom, loc, lat"
 !! **RULE: @RULENAME@**  

@@ -227,6 +227,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 %{ЭЕLong%}	!!≈ **@CODE@** +V+Ind+Prs+ScSg1, PxDu3
 %{ЭЕ%}	!!≈ **@CODE@** +V+Ind+Prs+ScDu2, PxSg3
 %{йØ%}	!!≈ **@CODE@** ыг
+%{Øы%}	!!≈ * **@CODE@** Loc
 %{ыØ%}	!!≈ **@CODE@** specific floating vowel 
 %{иØ%}	!!≈ **@CODE@** specific floating vowel 
 %{уØ%}	!!≈ **@CODE@** specific floating vowel 
