@@ -1450,7 +1450,7 @@ The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
 
-**LEXICON N-01_** is the only Nansi noun lexicon. It has entries of three types:
+**LEXICON N1_** is the only Nansi noun lexicon. It has entries of three types:
 ### 1. Non-possessive forms 
 affixes for Nom, Loc, Lat, Abl, Ins, Tra, for Sg, Du, Pl.
 
@@ -2408,9 +2408,9 @@ IRREGULAR VERBS
  миӈкве+V+Inf:миӈкве K ;
 
 NEW PROPER NOUNS
- Ӣсус+N+Prop+Sem/Mal:Ӣсус N-01_ ;
- Лука+N+Prop+Sem/Mal:Лука N-01_ ;
- Кристос+N+Prop+Sem/Mal:Кристос N-01_ ;
+ Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
+ Лука+N+Prop+Sem/Mal:Лука N1_ ;
+ Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
 ...
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
@@ -2423,23 +2423,23 @@ ADD NOUNS BELOW
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns_newwords.lexc)</small># Mansi Noun stems
 
-**LEXICON Nouns** gives all the nouns, contlex **N-01_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
+**LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
- * а̄вгуст+N:а̄вгуст N-01_ "август" ;
- * а̄ви+N:а̄ви N-01_ "вход /место/" ;
- * а̄врах+N:а̄врах N-01_ "обрыв" ;
- * а̄втор+N:а̄втор N-01_ "автор" ;
- * а̄ги+N:а̄ги N-01_ "дочь" ;
- * а̄гирищ+N:а̄гирищ N-01_ "девочка" ;
- * а̄гм+N:а̄гм N-01_ "боль" ;
- * а̄гум+N:а̄гум N-01_ "болезнь" ;
- * а̄кань+N:а̄кань N-01_ "кукла" ;
- * а̄мп+N:а̄мп N-01_ "собака" ;
- * а̄па+N:а̄па N-01_ "люлька" ;
- * а̄рталь+N:а̄рталь N-01_ "семья" ;
- * а̄ртмил+N:а̄ртмил N-01_ "удача" ;
- * ласка+N:ласка N-01_ "ласка /животное/" ;
- * ласточка+N:ласточка N-01_ "ласточка" ;
+ * а̄вгуст+N:а̄вгуст N1_ "август" ;
+ * а̄ви+N:а̄ви N1_ "вход /место/" ;
+ * а̄врах+N:а̄врах N1_ "обрыв" ;
+ * а̄втор+N:а̄втор N1_ "автор" ;
+ * а̄ги+N:а̄ги N1_ "дочь" ;
+ * а̄гирищ+N:а̄гирищ N1_ "девочка" ;
+ * а̄гм+N:а̄гм N1_ "боль" ;
+ * а̄гум+N:а̄гум N1_ "болезнь" ;
+ * а̄кань+N:а̄кань N1_ "кукла" ;
+ * а̄мп+N:а̄мп N1_ "собака" ;
+ * а̄па+N:а̄па N1_ "люлька" ;
+ * а̄рталь+N:а̄рталь N1_ "семья" ;
+ * а̄ртмил+N:а̄ртмил N1_ "удача" ;
+ * ласка+N:ласка N1_ "ласка /животное/" ;
+ * ласточка+N:ласточка N1_ "ласточка" ;
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns.lexc)</small># Mansi verb stems
 
@@ -2493,6 +2493,7 @@ ADD NOUNS BELOW
  * а̄лмаяӈкве+V:а̄лмай V12_even "поднять" ;
  * а̄лмта̄луӈкве+V:а̄лмта̄лу V13_even "носить /на руках/" ;
 ..., some 3500 verbs.
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/verbs.lexc)</small># New adverbs in mansi
 
@@ -2588,7 +2589,6 @@ added to the xml source files.
 
 **LEXICON A_NEWWORDS** 
 ADD ADJECTIVES BELOW
-
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small># Numerals in Northern Mansi
 
@@ -2598,7 +2598,7 @@ ADD ADJECTIVES BELOW
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/numerals.lexc)</small># Adjectives in Mansi
 
-**LEXICON Adjectives** 
+**LEXICON Adjectives**
 
 
 * * *

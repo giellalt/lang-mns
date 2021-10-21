@@ -15,7 +15,7 @@ The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
 
-**LEXICON N-01_** is the only Nansi noun lexicon. It has entries of three types:
+**LEXICON N1_** is the only Nansi noun lexicon. It has entries of three types:
 ### 1. Non-possessive forms 
 affixes for Nom, Loc, Lat, Abl, Ins, Tra, for Sg, Du, Pl.
 

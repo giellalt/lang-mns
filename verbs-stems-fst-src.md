@@ -50,5 +50,6 @@
  * а̄лмаяӈкве+V:а̄лмай V12_even "поднять" ;
  * а̄лмта̄луӈкве+V:а̄лмта̄лу V13_even "носить /на руках/" ;
 ..., some 3500 verbs.
+
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/verbs.lexc)</small>

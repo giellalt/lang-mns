@@ -1,6 +1,6 @@
 # Adjectives in Mansi
 
-**LEXICON Adjectives** 
+**LEXICON Adjectives**
 
 
 * * *
