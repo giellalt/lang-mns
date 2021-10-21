@@ -5,7 +5,7 @@
 
 LEXICON NUM_
 !! **LEXICON @LEXNAME@** 
-+Num:        N-01_   ;
++Num:        N1_   ;
 
 
 LEXICON NUM-2-9_
@@ -18,8 +18,8 @@ LEXICON NUM-2-9_
 
 LEXICON NUM-OR-ORD_
 !! **LEXICON @LEXNAME@** 
- N-01_ ;
-+Der+Der/Ord+A:%>ыт N-01_  "ordinal numerals" ;
+ N1_ ;
++Der+Der/Ord+A:%>ыт N1_  "ordinal numerals" ;
 
 
 ! vim: set ft=xfst-lexc:

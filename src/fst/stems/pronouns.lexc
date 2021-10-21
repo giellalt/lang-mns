@@ -116,12 +116,12 @@ LEXICON personal
 наӈ+Pron+Pers+Refl+Pl2+Nom:на̄нки # ;
 тав+Pron+Pers+Refl+Pl3+Nom:та̄нки # ;
 
-ти+Pron+Dem:ти N-01_ ;
+ти+Pron+Dem:ти N1_ ;
 
-маныр+Pron+Interr:ман%{ыØ%}р N-01_ ; 
-матыр+Pron+Interr:мат%{ыØ%}р N-01_ ; 
+маныр+Pron+Interr:ман%{ыØ%}р N1_ ; 
+матыр+Pron+Interr:мат%{ыØ%}р N1_ ; 
 
-хо̄тпа+Pron+Indef:хо̄тпа N-01_ ;
-мощща+Pron+Indef:мощща N-01_ ;
+хо̄тпа+Pron+Indef:хо̄тпа N1_ ;
+мощща+Pron+Indef:мощща N1_ ;
 
 ! vim: set ft=xfst-lexc:
