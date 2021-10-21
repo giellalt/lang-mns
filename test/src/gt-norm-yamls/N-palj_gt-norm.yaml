@@ -24,19 +24,19 @@ Tests:
     паль+N+Sg+PxSg2+Nom: палин
     паль+N+Sg+PxSg3+Nom: пале
     паль+N+Sg+PxDu1+Nom: [пальме̄н, пальмен]
-    паль+N+Sg+PxDu2+Nom: палӣн
+    паль+N+Sg+PxDu2+Nom: палин
     паль+N+Sg+PxDu3+Nom: пале̄н
     паль+N+Sg+PxPl1+Nom: палюв
-    паль+N+Sg+PxPl2+Nom: палӣн
+    паль+N+Sg+PxPl2+Nom: палин
     паль+N+Sg+PxPl3+Nom: паляныл
     паль+N+Sg+PxSg1+Loc: палюмт
     паль+N+Sg+PxSg2+Loc: палинт
     паль+N+Sg+PxSg3+Loc: палет
     паль+N+Sg+PxDu1+Loc: пальме̄нт
-    паль+N+Sg+PxDu2+Loc: палӣнт
+    паль+N+Sg+PxDu2+Loc: палинт
     паль+N+Sg+PxDu3+Loc: пале̄нт
     паль+N+Sg+PxPl1+Loc: палювт
-    паль+N+Sg+PxPl2+Loc: палӣнт
+    паль+N+Sg+PxPl2+Loc: палинт
     паль+N+Sg+PxPl3+Loc: палянылт
 
 # (Скрибник & Афанасьева 2007: 78)
@@ -45,19 +45,19 @@ Tests:
     паль+N+Du+PxSg2+Nom: палягын
     паль+N+Du+PxSg3+Nom: паляге
     паль+N+Du+PxDu1+Nom: палягме̄н
-    паль+N+Du+PxDu2+Nom: палягы̄н
+    паль+N+Du+PxDu2+Nom: палягын
     паль+N+Du+PxDu3+Nom: паляге̄н
     паль+N+Du+PxPl1+Nom: палягув
-    паль+N+Du+PxPl2+Nom: палягы̄н
+    паль+N+Du+PxPl2+Nom: палягын
     паль+N+Du+PxPl3+Nom: паляганыл
     паль+N+Pl+PxSg1+Nom: палянум
     паль+N+Pl+PxSg2+Nom: палянын
     паль+N+Pl+PxSg3+Nom: палянэ
     паль+N+Pl+PxDu1+Nom: палянме̄н
-    паль+N+Pl+PxDu2+Nom: паляны̄н
+    паль+N+Pl+PxDu2+Nom: палянын
     паль+N+Pl+PxDu3+Nom: палянэ̄н
     паль+N+Pl+PxPl1+Nom: палянув
-    паль+N+Pl+PxPl2+Nom: паляны̄н
+    паль+N+Pl+PxPl2+Nom: палянын
     паль+N+Pl+PxPl3+Nom: палянаныл
 
     ха̄ль+N+Sg+Nom: ха̄ль
