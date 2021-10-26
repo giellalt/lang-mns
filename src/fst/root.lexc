@@ -216,12 +216,10 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 ! ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols (archiphones) in the lexicon files:
-!%{АЯØ%}	!!≈ __@CODE@__
+%{аяØ%}	!!≈ __@CODE@__ PxPl3 %{аяØ%}ныл
 !%{ЫИØ%}	!!≈ __@CODE@__
-!%{ЫØ%}	!!≈ __@CODE@__ +Loc
-!%{УØ%}	!!≈ __@CODE@__ +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
 !%{УЮØ%}	!!≈ __@CODE@__
-!%{ТØ%}	!!≈ __@CODE@__
+%{тØ%}	!!≈ __@CODE@__ Ins, PxSg3,
 
 %{ЫИ%}	!!≈ **@CODE@** +V+Ind+Prs+OcSg3+ScSg1
 %{ЭЕLong%}	!!≈ **@CODE@** +V+Ind+Prs+ScSg1, PxDu3

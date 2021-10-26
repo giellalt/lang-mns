@@ -61,58 +61,101 @@
 !! ## The lexicon
 
 LEXICON N1_
-!! **LEXICON @LEXNAME@** is the only Nansi noun lexicon. It has entries of three types:
+ N1_SG ;
+ N1_DU ;
+ N1_PL ;
+!! **LEXICON @LEXNAME@** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
 ! noun in ь + ыт
 !! ### 1. Non-possessive forms 
-!! affixes for Nom, Loc, Lat, Abl, Ins, Tra, for Sg, Du, Pl.
+!! affixes for Nom, Loc, Lat, Abl, Ins, Tra.
+LEXICON N1_SG
 +Sg+Nom: K ;
-+Sg+Loc:%>%{Øы%}т K ; ! not like Pl Nom!!
++Sg+Loc:%>%{ыØ%}т K ; ! not like Pl Nom!!
 +Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom
 +Sg+Abl:%>ныл K ;
-+Sg+Ins:%>ыл K ;
++Sg+Ins:%>%{тØ%}ыл K ; ! is this тыл after vowels, as I coded it earlier2021-10-25
 +Sg+Tra:%>%{йØ%}ыг K ;
-
-+Du+Nom:%>%{йØ%}ыг K ; ! а̄ныйыг, э̄кваг
-+Du+Loc:%>%{йØ%}ыгт K ;
-+Du+Lat:%>%{йØ%}ыгн K ;
-+Du+Abl:%>%{йØ%}ыгныл K ;
-+Du+Ins:%>%{йØ%}ыгтыл K ;
-
-+Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
-+Pl+Loc:%>ытт K ;
-+Pl+Lat:%>ытн K ;
-!+Pl+Lat:%>ытын K ; jr
-+Pl+Abl:%>ытныл K ;
-+Pl+Ins:%>ытыл K ;
 
 !+Sg+Loc:%>ы2т K ; ! -ыт/ _ CC, -т elsewhere
 !+Sg+Lat:%>ы2н K ; ! -ын as -ыт above
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
-+Sg+PxSg1+Nom:%>ум K ;
-+Sg+PxSg1+Loc:%>умт K ;
-+Sg+PxSg1+Lat:%>умн K ;
-+Sg+PxSg1+Abl:%>умныл K ;
-+Sg+PxSg1+Ins:%>умтыл K ;
-
-+Du+PxSg1+Nom:%>агум K ;
-+Du+PxSg1+Loc:%>агумт K ;
-+Du+PxSg1+Lat:%>агумн K ;
-+Du+PxSg1+Abl:%>агумныл K ;
-+Du+PxSg1+Ins:%>агумтыл K ;
-
-+Pl+PxSg1+Nom:%>анум K ;
-+Pl+PxSg1+Loc:%>анумт K ;
-+Pl+PxSg1+Lat:%>анумн K ;
-+Pl+PxSg1+Abl:%>анумныл K ;
-+Pl+PxSg1+Ins:%>анумтыл K ;
++Sg+PxSg1+Nom:%>%{уØ%}м K ;
++Sg+PxSg1+Loc:%>%{уØ%}мт K ;
++Sg+PxSg1+Lat:%>%{уØ%}мн K ;
++Sg+PxSg1+Abl:%>%{уØ%}мныл K ;
++Sg+PxSg1+Ins:%>%{уØ%}мтыл K ;
 
 +Sg+PxSg2+Nom:%>ын K ;
 +Sg+PxSg2+Loc:%>ынт K ;
 +Sg+PxSg2+Lat:%>ынн K ;
 +Sg+PxSg2+Abl:%>ынныл K ;
 +Sg+PxSg2+Ins:%>ынтыл K ;
+
++Sg+PxSg3+Nom:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
++Sg+PxSg3+Loc:%>%{тØ%}%{ЭЕ%}т K ;
++Sg+PxSg3+Lat:%>%{тØ%}%{ЭЕ%}н K ;
++Sg+PxSg3+Abl:%>%{тØ%}%{ЭЕ%}ныл K ;
++Sg+PxSg3+Ins:%>%{тØ%}%{ЭЕ%}тыл K ;
+
++Sg+PxDu1+Nom:%>%{уØ%}ме̄н K ; ! ? +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
++Sg+PxDu1+Nom+Use/NG:%>%{уØ%}мен K ;
++Sg+PxDu1+Loc:%>%{уØ%}ме̄нт K ;
++Sg+PxDu1+Loc+Use/NG:%>%{уØ%}мент K ;
++Sg+PxDu1+Lat:%>%{уØ%}ме̄нн K ;
++Sg+PxDu1+Lat+Use/NG:%>%{уØ%}менн K ;
++Sg+PxDu1+Abl:%>%{уØ%}ме̄нныл K ;
++Sg+PxDu1+Abl+Use/NG:%>%{уØ%}менныл K ;
++Sg+PxDu1+Ins:%>%{уØ%}ме̄нтыл K ;
++Sg+PxDu1+Ins+Use/NG:%>%{уØ%}ментыл K ;
+
++Sg+PxDu2+Nom:%>н K ;
++Sg+PxDu2+Loc:%>нт K ;
++Sg+PxDu2+Lat:%>нн K ;
++Sg+PxDu2+Abl:%>нныл K ;
++Sg+PxDu2+Ins:%>нтыл K ;
+
++Sg+PxDu3+Nom:%>тэ̄н K ;
++Sg+PxDu3+Loc:%>тэ̄нт K ;
++Sg+PxDu3+Lat:%>тэ̄нн K ;
++Sg+PxDu3+Abl:%>тэ̄нныл K ;
++Sg+PxDu3+Ins:%>тэ̄нтыл K ;
+
++Sg+PxPl1+Nom:%>%{уØ%}в K ;
++Sg+PxPl1+Loc:%>%{уØ%}вт K ;
++Sg+PxPl1+Lat:%>%{уØ%}вн K ;
++Sg+PxPl1+Abl:%>%{уØ%}вныл K ;
++Sg+PxPl1+Ins:%>%{уØ%}втыл K ;
+
++Sg+PxPl2+Nom:%>н K ;
++Sg+PxPl2+Loc:%>нт K ;
++Sg+PxPl2+Lat:%>нн K ;
++Sg+PxPl2+Abl:%>нныл K ;
++Sg+PxPl2+Ins:%>нтыл K ;
+
++Sg+PxPl3+Nom:%>%{аяØ%}ныл K ;
++Sg+PxPl3+Loc:%>%{аяØ%}нылт K ;
++Sg+PxPl3+Lat:%>%{аяØ%}нылн K ;
++Sg+PxPl3+Abl:%>%{аяØ%}нылныл K ;
++Sg+PxPl3+Ins:%>%{аяØ%}нылтыл K ;
+
+
+LEXICON N1_DU
++Du+Nom:%>%{йØ%}ыг K ; ! а̄ныйыг, э̄кваг
++Du+Loc:%>%{йØ%}ыгт K ;
++Du+Lat:%>%{йØ%}ыгн K ;
++Du+Abl:%>%{йØ%}ыгныл K ;
++Du+Ins:%>%{йØ%}ыгтыл K ;
+
+!! ### 2. Possessive forms
+!! Affixes for pissessive suffixes + case forms.
+
++Du+PxSg1+Nom:%>агум K ;
++Du+PxSg1+Loc:%>агумт K ;
++Du+PxSg1+Lat:%>агумн K ;
++Du+PxSg1+Abl:%>агумныл K ;
++Du+PxSg1+Ins:%>агумтыл K ;
 
 +Du+PxSg2+Nom:%>агын K ;
 +Du+PxSg2+Loc:%>агынт K ;
@@ -121,46 +164,11 @@ LEXICON N1_
 +Du+PxSg2+Ins:%>агынтыл K ;
 +Du+PxSg2+Nom+Use/NG:%>агн K ;
 
-+Pl+PxSg2+Nom:%>ан K ;
-+Pl+PxSg2+Loc:%>ант K ;
-+Pl+PxSg2+Lat:%>анн K ;
-+Pl+PxSg2+Abl:%>анныл K ;
-+Pl+PxSg2+Ins:%>антыл K ;
-
-+Pl+PxSg2+Nom:%>анын K ;
-+Pl+PxSg2+Loc:%>анынт K ;
-+Pl+PxSg2+Lat:%>анынн K ;
-+Pl+PxSg2+Abl:%>анынныл K ;
-+Pl+PxSg2+Ins:%>анынтыл K ;
-
-+Sg+PxSg3+Nom:%>тэ K ; ! todo: delete т for хап
-+Sg+PxSg3+Loc:%>тэт K ;
-+Sg+PxSg3+Lat:%>тэн K ;
-+Sg+PxSg3+Abl:%>тэныл K ;
-+Sg+PxSg3+Ins:%>тэтыл K ;
-
 +Du+PxSg3+Nom:%>аге K ;
 +Du+PxSg3+Loc:%>агет K ;
 +Du+PxSg3+Lat:%>аген K ;
 +Du+PxSg3+Abl:%>агеныл K ;
 +Du+PxSg3+Ins:%>агетыл K ;
-
-+Pl+PxSg3+Nom:%>анэ K ;
-+Pl+PxSg3+Loc:%>анэт K ;
-+Pl+PxSg3+Lat:%>анэн K ;
-+Pl+PxSg3+Abl:%>анэныл K ;
-+Pl+PxSg3+Ins:%>анэтыл K ;
-
-+Sg+PxDu1+Nom:%>ме̄н K ;
-+Sg+PxDu1+Nom+Use/NG:%>мен K ;
-+Sg+PxDu1+Loc:%>ме̄нт K ;
-+Sg+PxDu1+Loc+Use/NG:%>мент K ;
-+Sg+PxDu1+Lat:%>ме̄нн K ;
-+Sg+PxDu1+Lat+Use/NG:%>менн K ;
-+Sg+PxDu1+Abl:%>ме̄нныл K ;
-+Sg+PxDu1+Abl+Use/NG:%>менныл K ;
-+Sg+PxDu1+Ins:%>ме̄нтыл K ;
-+Sg+PxDu1+Ins+Use/NG:%>ментыл K ;
 
 +Du+PxDu1+Nom:%>гме̄н K ;
 +Du+PxDu1+Loc:%>гме̄нт K ;
@@ -179,6 +187,71 @@ LEXICON N1_
 +Du+PxDu1+Abl+Use/NG:%>гaменныл K ;
 +Du+PxDu1+Ins+Use/NG:%>гaментыл K ;
 
++Du+PxDu2+Nom:%>гы̄н K ;
++Du+PxDu2+Loc:%>гы̄нт K ;
++Du+PxDu2+Lat:%>гы̄нн K ;
++Du+PxDu2+Abl:%>гы̄нныл K ;
++Du+PxDu2+Ins:%>гы̄нтыл K ;
+
++Du+PxDu3+Nom:%>ге̄н K ;
++Du+PxDu3+Loc:%>ге̄нт K ;
++Du+PxDu3+Lat:%>ге̄нн K ;
++Du+PxDu3+Abl:%>ге̄нныл K ;
++Du+PxDu3+Ins:%>ге̄нтыл K ;
+
++Du+PxPl1+Nom:%>гув K ;
++Du+PxPl1+Loc:%>гувт K ;
++Du+PxPl1+Lat:%>гувн K ;
++Du+PxPl1+Abl:%>гувныл K ;
++Du+PxPl1+Ins:%>гувтыл K ;
+
++Du+PxPl2+Nom:%>гы̄н K ;
++Du+PxPl2+Loc:%>гы̄нт K ;
++Du+PxPl2+Lat:%>гы̄нн K ;
++Du+PxPl2+Abl:%>гы̄нныл K ;
++Du+PxPl2+Ins:%>гы̄нтыл K ;
+
++Du+PxPl3+Nom:%>га̄ныл K ;
++Du+PxPl3+Loc:%>га̄нылт K ;
++Du+PxPl3+Lat:%>га̄нылн K ;
++Du+PxPl3+Abl:%>га̄нылныл K ;
++Du+PxPl3+Ins:%>га̄нылтыл K ;
+
+LEXICON N1_PL
++Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
++Pl+Loc:%>ытт K ;
++Pl+Lat:%>ытн K ;
+!+Pl+Lat:%>ытын K ; jr
++Pl+Abl:%>ытныл K ;
++Pl+Ins:%>ытыл K ;
+
+!! ### 2. Possessive forms
+!! Affixes for pissessive suffixes + case forms.
+
++Pl+PxSg1+Nom:%>анум K ;
++Pl+PxSg1+Loc:%>анумт K ;
++Pl+PxSg1+Lat:%>анумн K ;
++Pl+PxSg1+Abl:%>анумныл K ;
++Pl+PxSg1+Ins:%>анумтыл K ;
+
++Pl+PxSg2+Nom:%>ан K ;
++Pl+PxSg2+Loc:%>ант K ;
++Pl+PxSg2+Lat:%>анн K ;
++Pl+PxSg2+Abl:%>анныл K ;
++Pl+PxSg2+Ins:%>антыл K ;
+
++Pl+PxSg2+Nom:%>анын K ;
++Pl+PxSg2+Loc:%>анынт K ;
++Pl+PxSg2+Lat:%>анынн K ;
++Pl+PxSg2+Abl:%>анынныл K ;
++Pl+PxSg2+Ins:%>анынтыл K ;
+
++Pl+PxSg3+Nom:%>анэ K ;
++Pl+PxSg3+Loc:%>анэт K ;
++Pl+PxSg3+Lat:%>анэн K ;
++Pl+PxSg3+Abl:%>анэныл K ;
++Pl+PxSg3+Ins:%>анэтыл K ;
+
 +Pl+PxDu1+Nom:%>нме̄н K ;
 +Pl+PxDu1+Loc:%>нме̄нт K ;
 +Pl+PxDu1+Lat:%>нме̄нн K ;
@@ -190,18 +263,6 @@ LEXICON N1_
 +Pl+PxDu1+Lat+Use/NG:%>нменн K ;
 +Pl+PxDu1+Abl+Use/NG:%>нменныл K ;
 +Pl+PxDu1+Ins+Use/NG:%>нментыл K ;
-
-+Sg+PxDu2+Nom:%>н K ;
-+Sg+PxDu2+Loc:%>нт K ;
-+Sg+PxDu2+Lat:%>нн K ;
-+Sg+PxDu2+Abl:%>нныл K ;
-+Sg+PxDu2+Ins:%>нтыл K ;
-
-+Du+PxDu2+Nom:%>гы̄н K ;
-+Du+PxDu2+Loc:%>гы̄нт K ;
-+Du+PxDu2+Lat:%>гы̄нн K ;
-+Du+PxDu2+Abl:%>гы̄нныл K ;
-+Du+PxDu2+Ins:%>гы̄нтыл K ;
 
 +Pl+PxDu2+Nom:%>ны̄н K ;
 +Pl+PxDu2+Loc:%>ны̄нт K ;
@@ -215,53 +276,17 @@ LEXICON N1_
 +Pl+PxDu2+Abl:%>нныл K ;
 +Pl+PxDu2+Ins:%>нтыл K ;
 
-+Sg+PxDu3+Nom:%>тэ̄н K ;
-+Sg+PxDu3+Loc:%>тэ̄нт K ;
-+Sg+PxDu3+Lat:%>тэ̄нн K ;
-+Sg+PxDu3+Abl:%>тэ̄нныл K ;
-+Sg+PxDu3+Ins:%>тэ̄нтыл K ;
-
-+Du+PxDu3+Nom:%>ге̄н K ;
-+Du+PxDu3+Loc:%>ге̄нт K ;
-+Du+PxDu3+Lat:%>ге̄нн K ;
-+Du+PxDu3+Abl:%>ге̄нныл K ;
-+Du+PxDu3+Ins:%>ге̄нтыл K ;
-
 +Pl+PxDu3+Nom:%>нэ̄н K ;
 +Pl+PxDu3+Loc:%>нэ̄нт K ;
 +Pl+PxDu3+Lat:%>нэ̄нн K ;
 +Pl+PxDu3+Abl:%>нэ̄нныл K ;
 +Pl+PxDu3+Ins:%>нэ̄нтыл K ;
 
-+Sg+PxPl1+Nom:%>в K ;
-+Sg+PxPl1+Loc:%>вт K ;
-+Sg+PxPl1+Lat:%>вн K ;
-+Sg+PxPl1+Abl:%>вныл K ;
-+Sg+PxPl1+Ins:%>втыл K ;
-
-+Du+PxPl1+Nom:%>гув K ;
-+Du+PxPl1+Loc:%>гувт K ;
-+Du+PxPl1+Lat:%>гувн K ;
-+Du+PxPl1+Abl:%>гувныл K ;
-+Du+PxPl1+Ins:%>гувтыл K ;
-
 +Pl+PxPl1+Nom:%>нув K ;
 +Pl+PxPl1+Loc:%>нувт K ;
 +Pl+PxPl1+Lat:%>нувн K ;
 +Pl+PxPl1+Abl:%>нувныл K ;
 +Pl+PxPl1+Ins:%>нувтыл K ;
-
-+Sg+PxPl2+Nom:%>н K ;
-+Sg+PxPl2+Loc:%>нт K ;
-+Sg+PxPl2+Lat:%>нн K ;
-+Sg+PxPl2+Abl:%>нныл K ;
-+Sg+PxPl2+Ins:%>нтыл K ;
-
-+Du+PxPl2+Nom:%>гы̄н K ;
-+Du+PxPl2+Loc:%>гы̄нт K ;
-+Du+PxPl2+Lat:%>гы̄нн K ;
-+Du+PxPl2+Abl:%>гы̄нныл K ;
-+Du+PxPl2+Ins:%>гы̄нтыл K ;
 
 +Pl+PxPl2+Nom:%>ны̄н K ;
 +Pl+PxPl2+Loc:%>ны̄нт K ;
@@ -274,18 +299,6 @@ LEXICON N1_
 +Pl+PxPl2+Lat:%>нн K ;
 +Pl+PxPl2+Abl:%>нныл K ;
 +Pl+PxPl2+Ins:%>нтыл K ;
-
-+Sg+PxPl3+Nom:%>ныл K ;
-+Sg+PxPl3+Loc:%>нылт K ;
-+Sg+PxPl3+Lat:%>нылн K ;
-+Sg+PxPl3+Abl:%>нылныл K ;
-+Sg+PxPl3+Ins:%>нылтыл K ;
-
-+Du+PxPl3+Nom:%>га̄ныл K ;
-+Du+PxPl3+Loc:%>га̄нылт K ;
-+Du+PxPl3+Lat:%>га̄нылн K ;
-+Du+PxPl3+Abl:%>га̄нылныл K ;
-+Du+PxPl3+Ins:%>га̄нылтыл K ;
 
 +Pl+PxPl3+Nom:%>наныл K ;
 +Pl+PxPl3+Loc:%>нанылт K ;
