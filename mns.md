@@ -1131,6 +1131,8 @@ source and target part-of-speech.
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
+ __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+ __%{тØ%}__ Ins, PxSg3,
 
  **%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
  **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
@@ -1248,13 +1250,11 @@ Precomposed letters are used when available, otherwise non-composed ones.
  * **%{Øы%}:0** Loc
  * **%{ыØ%}:ы** specific floating vowel 
  * **%{иØ%}:и** specific floating vowel 
- * **%{уØ%}:у** specific floating vowel 
- * **%{АЯØ%}:0**
+ * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
+ * **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
  * **%{ЫИØ%}:0**
- * **%{ЫØ%}:0** +Loc
- * **%{УØ%}:0** +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
  * **%{УЮØ%}:0**
- * **%{ТØ%}:0**
+ * **%{тØ%}:0** PxSg3, Ins
  * **%{ЭЕ%}:0** PxSg3
  * **ы2:ы** syncope vowel
  * **ы3:0** weak ы for Loc and Lat
@@ -1321,6 +1321,11 @@ End of alphabet definitions
 ## Rules
 
 **RULE: Floating vowel in Archivowels**  deletes floting vowel when suffix is vowel initial, VC>V.
+
+ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
+* *ла̄т{ыØ}ӈ>{уØ}в*
+* *ла̄т0ӈ>ув*
+
 
 **RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 
@@ -1423,6 +1428,9 @@ End of alphabet definitions
 **RULE: Soft sign deletion for и suffixes**  
 
 #### Tests:
+ха̄ль+N+Sg+PxSg3+Nom
+* *ха̄ль>{тØ}{ЭЕ}*
+* *ха̄л0>0е*
 
 * *паль>{йØ%}ыг*
 * *пал0>0иг*
@@ -1430,6 +1438,37 @@ End of alphabet definitions
 **RULE: Px3 т deletion from vowel stems**  
 
 **RULE: э to е after certain consonants after т deletion**  
+
+
+
+
+
+__%{аяØ%}:0__
+
+
+
+__%{тØ%}:0__
+ха̄ль+N+Sg+PxSg3+Nom
+* *ха̄ль%>%{тØ%}%{ЭЕ%}*
+* *ха̄л0%>0е*
+кол+N+Sg+Ins:
+* *кол%>%{тØ%}ыл*
+* *кол%>0ыл*
+потыр+N+Sg+PxSg3+Nom
+* *пот%{ыØ%}р>{тØ}{ЭЕ}*
+* *пот0р>0е*
+э̄ква+N+Sg+Ins
+* *э̄ква>{тØ}ыл*
+* *э̄ква>00л*
+
+
+__%{аяØ%}:а__
+
+__%{аяØ%}:я__
+
+
+CONSONANTS
+__%{тØ%}:т__
 
 
 * * *
@@ -1450,9 +1489,20 @@ The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
 
-**LEXICON N1_** is the only Nansi noun lexicon. It has entries of three types:
+**LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
 ### 1. Non-possessive forms 
-affixes for Nom, Loc, Lat, Abl, Ins, Tra, for Sg, Du, Pl.
+affixes for Nom, Loc, Lat, Abl, Ins, Tra.
+
+
+### 2. Possessive forms
+Affixes for pissessive suffixes + case forms.
+
+
+
+
+
+
+
 
 
 
@@ -1471,12 +1521,8 @@ Affixes for pissessive suffixes + case forms.
 
 
 
-
-
-
-
-
-
+### 2. Possessive forms
+Affixes for pissessive suffixes + case forms.
 
 
 
@@ -2432,7 +2478,7 @@ ADD NOUNS BELOW
  * а̄ги+N:а̄ги N1_ "дочь" ;
  * а̄гирищ+N:а̄гирищ N1_ "девочка" ;
  * а̄гм+N:а̄гм N1_ "боль" ;
- * а̄гум+N:а̄гум N1_ "болезнь" ;
+ * а̄гум+N:а̄г%{уØ%}м N1_ "болезнь" ;
  * а̄кань+N:а̄кань N1_ "кукла" ;
  * а̄мп+N:а̄мп N1_ "собака" ;
  * а̄па+N:а̄па N1_ "люлька" ;

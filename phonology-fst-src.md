@@ -32,13 +32,11 @@ Precomposed letters are used when available, otherwise non-composed ones.
  * **%{Øы%}:0** Loc
  * **%{ыØ%}:ы** specific floating vowel 
  * **%{иØ%}:и** specific floating vowel 
- * **%{уØ%}:у** specific floating vowel 
- * **%{АЯØ%}:0**
+ * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
+ * **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
  * **%{ЫИØ%}:0**
- * **%{ЫØ%}:0** +Loc
- * **%{УØ%}:0** +N+Sg+PxDu1+Nom %{УØ%} м е̄ н
  * **%{УЮØ%}:0**
- * **%{ТØ%}:0**
+ * **%{тØ%}:0** PxSg3, Ins
  * **%{ЭЕ%}:0** PxSg3
  * **ы2:ы** syncope vowel
  * **ы3:0** weak ы for Loc and Lat
@@ -105,6 +103,11 @@ End of alphabet definitions
 ## Rules
 
 **RULE: Floating vowel in Archivowels**  deletes floting vowel when suffix is vowel initial, VC>V.
+
+ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
+* *ла̄т{ыØ}ӈ>{уØ}в*
+* *ла̄т0ӈ>ув*
+
 
 **RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 
@@ -207,6 +210,9 @@ End of alphabet definitions
 **RULE: Soft sign deletion for и suffixes**  
 
 #### Tests:
+ха̄ль+N+Sg+PxSg3+Nom
+* *ха̄ль>{тØ}{ЭЕ}*
+* *ха̄л0>0е*
 
 * *паль>{йØ%}ыг*
 * *пал0>0иг*
@@ -214,6 +220,37 @@ End of alphabet definitions
 **RULE: Px3 т deletion from vowel stems**  
 
 **RULE: э to е after certain consonants after т deletion**  
+
+
+
+
+
+__%{аяØ%}:0__
+
+
+
+__%{тØ%}:0__
+ха̄ль+N+Sg+PxSg3+Nom
+* *ха̄ль%>%{тØ%}%{ЭЕ%}*
+* *ха̄л0%>0е*
+кол+N+Sg+Ins:
+* *кол%>%{тØ%}ыл*
+* *кол%>0ыл*
+потыр+N+Sg+PxSg3+Nom
+* *пот%{ыØ%}р>{тØ}{ЭЕ}*
+* *пот0р>0е*
+э̄ква+N+Sg+Ins
+* *э̄ква>{тØ}ыл*
+* *э̄ква>00л*
+
+
+__%{аяØ%}:а__
+
+__%{аяØ%}:я__
+
+
+CONSONANTS
+__%{тØ%}:т__
 
 
 * * *

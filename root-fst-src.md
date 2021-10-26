@@ -179,6 +179,8 @@ source and target part-of-speech.
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
+ __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+ __%{тØ%}__ Ins, PxSg3,
 
  **%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
  **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
