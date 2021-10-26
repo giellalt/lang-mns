@@ -133,7 +133,7 @@ Rules
 !this is in next Vow2021-10-17  ы %> %{йØ%}:0 _ Cns ;
 ! Check this 2021-10-17 [щ|Cns ь:|ы] %> %{йØ%}:0 _ Cns ;
 !Check this2021-10-17     Vow  %> (%{йØ%}:0)   _ Cns ;
-  [Vow - [и|ы]] %> %{йØ%}:   _ Cns ;
+  [Vow - [и|ы]] %> [%{йØ%}:|%{тØ%}:]   _ Cns ;
               Vow  %>    _ Cns ; ! This is for vowel stems
                Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
 !сыл%>уӈкве
@@ -407,6 +407,9 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
 !! кол+N+Sg+Ins:
 !!€ кол%>%{тØ%}ыл
 !!€ кол%>0ыл
+!! яныт+N+Sg+Ins:
+!!€ ян%{ыØ%}т%>%{тØ%}ыл
+!!€ яныт%>0ыл
 !! потыр+N+Sg+PxSg3+Nom
 !!€ пот%{ыØ%}р>{тØ}{ЭЕ}
 !!€ пот0р>0е
