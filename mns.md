@@ -902,321 +902,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-mns/blob/main/../src/cg3/functions.cg3)</small>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/mansi-lexicon.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/mansi-lexicon.lexc)</small>
-# Mansi morphological analyser                      
-This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
-basic **Root** lexicon.
-
-
- # **Multichar_Symbols**definitions
-
-## Multicharacter letters in the alphabet
-Vowels with a macron
-
- * а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ 
- * А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ 
-Vowels with precomposed macron
- * ӣ  йӣквыт
- * Ӣ  йӣквыт
- * ӯ  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
- * Ӯ  CYRILLIC CAPITAL LETTER U WITH MACRON
- * %+ suffix border
-
-
-
-
-
-## Analysis symbols
-The morphological analyses of wordforms for the Mansi
-language are presented in this system in terms of the following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
-
-### The parts-of-speech are:
- * **+N**  
- * **+A**  
- * **+Adv**  
- * **+V**                             
- * **+Pron**  
- * **+CS**  
- * **+CC**  
- * **+Adp**  
- * **+Po**  
- * **+Pr**  
- * **+Interj**  
- * **+Pcle**  
- * **+Num**  
- * **+Prc**  
-
-### The parts of speech are further split up into:
-
- * **+Prop** 
- * **+Pers** 
- * **+Dem** 
- * **+Interr** 
- * **+Refl** this is also used for +Nom intensfier
- * **+Recipr** 
- * **+Rel** 
- * **+Indef** 
- * **+Aux** Auxiliary
- * **+Imp** 
-
-### The Usage extents are marked using following tags:
- * **+Err/Orth**  do not accept, but recognize
- * **+Use/NG** do not generate, but accept
- * **+Use/-Spell** do not use in speller 
-
-### The nominals are inflected in the following Case and Number
- * **+Sg +Du +Pl** 
- * **+Nom** 
- * **+Acc** 
- * **+Abl** ныл
- * **+Ins** тыл
- * **+Instr** 
- * **+Lat** Ын (2007: Дательный падеж)
- * **+Loc** Ыт
- * **+Tra** Ыг
-
-
-
-### The comparative forms are:
- * **+Pos** 
- * **+Comp** 
- * **+Superl** 
- * **+Attr** 
-
-
-### Number, person and mod
-
- * **+Card +Ord**  Numerals are classified under:
- * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**  Personal pronouns are marked as
- * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3** for possessive suffixes
- * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3** Verb subject conjugation
- * **+OcSg3 +OcDu3 +OcPl3** Verb object conjugation
- * **+Ind +Prs +Prt +Pot +Cond +Imprt +Evid** Verb moods 
- * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass** infinite verbforms
- * **+TV +IV** for transitive, intransitive
- * **+Trans** hmm, Trans and TV?
-
-### Abbreviated words are classified with:
- * **+ABBR +ACR** 
- * **+Symbol** = independent symbols in the text stream, like £, €, ©
-
-### Special symbols are classified with:
- * **+CLB +PUNCT +LEFT +RIGHT** 
- * **+Multi** multiword units
- * **+Guess** Non-dictionary words (not in use)
-
- * **+Qst +Foc** Question and Focus particles
-
-
-
-### Tags distinguishing different versions of the same lemma (before POS)
- * **+v1**
- * **+v2**
- * **+v3**
- * **+v4**
- * **+v5**
- * **+v6**
- * **+v7**
- * **+v8**
- * **+v9**
- * **+v10**
- * **+v11**
- * **+v12**
- * **+v13**
- * **+v14**
- * **+v15**
- * **+v16**
- * **+v17**
- * **+v18**
- * **+v19**
- * **+v20**
- * **+v21**
- * **+v22**
- * **+v23**
- * **+v24**
-
-
-Semantics are classified with
- * **+Sem/Mal** 
- * __+Sem/Fem__ 
- * __+Sem/Sur__ 
- * **+Sem/Plc** 
- * __+Sem/Org__ 
- * __+Sem/Obj__ 
- * __+Sem/Ani__ 
- * __+Sem/Hum__ 
- * __+Sem/Plant__ 
- * __+Sem/Group__ 
- * __+Sem/Time__ 
- * __+Sem/Txt__ 
- * __+Sem/Route__ 
- * __+Sem/Measr__ 
- * __+Sem/Wthr__ 
- * __+Sem/Build__ 
- * __+Sem/Edu__ 
- * __+Sem/Veh__ 
- * __+Sem/Clth__ 
-
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
- * **+V→N +V→V +V→A** 
- * **+Der/xxx** 
- * **+Der** 
- * **+Der/Yng** N» ыӈ Proprietive as in kpv -а
- * **+Der/Yshch** A» ыщ 
- * **+Der/Ap** V» ап 
- * **+Der/Ord** is this the best analysis?
-
-
-
-
-
-## Symbols that need to be escaped on the lower side (towards twolc):
- * **»7**:  Literal »
- * **«7**:  Literal «
- **%[%>%]**- Literal >
- **%[%<%]**- Literal <
-
-
-## Morphophonology
-To represent phonologic variations in word forms we use the following
-symbols (archiphones) in the lexicon files:
- __%{аяØ%}__ PxPl3 %{аяØ%}ныл
- __%{тØ%}__ Ins, PxSg3,
-
- **%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
- **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
- **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
- **%{йØ%}** ыг
- * **%{Øы%}** ы in Sg Loc Is this same as Sg Lat, too 2021-10-18
- **%{ыØ%}** specific floating vowel 
- **%{иØ%}** specific floating vowel 
- **%{уØ%}** specific floating vowel 
-
- **ы2** ы in stem, syncope 
- **ы3** weak ы in Sg Loc and Sg Lat
-
-And following triggers to control variation
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-
-| Flag | Explanation
-| ---- | -----------
- |  **@P.NeedNoun.ON@**| (Dis)allow compounds with verbs unless nominalised
- |  **@D.NeedNoun.ON@**| (Dis)allow compounds with verbs unless nominalised
- |  **@C.NeedNoun@**| (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-
-| Flag | Explanation
-| ---- | -----------
- |  **@P.CmpFrst.FALSE@**| Require that words tagged as such only appear first
- |  **@D.CmpPref.TRUE@**| Block such words from entering ENDLEX
- |  **@P.CmpPref.FALSE@**| Block these words from making further compounds
- |  **@D.CmpLast.TRUE@**| Block such words from entering R
- |  **@D.CmpNone.TRUE@**| Combines with the next tag to prohibit compounding
- |  **@U.CmpNone.FALSE@**| Combines with the prev tag to prohibit compounding
- |  **@P.CmpOnly.TRUE@**| Sets a flag to indicate that the word has passed R
- |  **@D.CmpOnly.FALSE@**| Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-
-| Flag | Explanation
-| ---- | -----------
- |  **@U.Cap.Obl@**| Allowing downcasing of derived names: deatnulasj.
- |  **@U.Cap.Opt@**| Allowing downcasing of derived names: deatnulasj.
-
-
-
-## The basic lexica
-
-**LEXICON Root** 
-The word forms in the MANSI language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
- **Nouns ;** 
- **Verbs ;** 
- **Adjectives ;** 
- **Adverbs ;** 
- **Pronouns ;** 
- **Numerals ;** 
- **Conjunctions ;** 
- **Interjections ;** 
- **Participles ;** 
- **Postpositions ;** 
- **PROP_MANSINAMES ;** mansi-specific proper nouns
- **urj-Cyrl-ProperNouns ;** common cyrillic proper nouns
- **Punctuation ;** 
- **Symbols ;** 
-NEWWORDS FILES:
- **A_NEWWORDS ;** adjectives
- **ADV_NEWWORDS ;** adverbs
- **N_NEWWORDS ;** nouns
- **NUM_NEWWORDS ;** numerals
- **EXCEPTIONS ;** exceptions
-
-* **LEXICON K** for evt. clitic (goes to #)
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/root.lexc)</small># The Mansi morphophonological/twolc rule file
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-mns/blob/main/../src/cg3/functions.cg3)</small># The Mansi morphophonological/twolc rule file
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-mns/blob/main/src/fst/phonology.twolc) 
 
@@ -1475,76 +1161,42 @@ __%{тØ%}:т__
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/phonology.twolc)</small># Noun inflection for Mansi
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/phonology.twolc)</small># Adverbs for Northern Mansi
 
-This file contains the noun inflection. 
+No work on adverbs yet.
 
+**LEXICON ADV_** either to # or via Comp нув to #
 
-
-
-
-
-
-
-
-All Mansi nouns have the same suffixe, thus only one continuation lexica.
-The stem vowel alternation is taken care of in the twolc file.
-
-## The lexicon
-
-**LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
-### 1. Non-possessive forms 
-affixes for Nom, Loc, Lat, Abl, Ins, Tra.
-
-
-### 2. Possessive forms
-Affixes for pissessive suffixes + case forms.
+**LEXICON ADV-AUX_** gets +Aux tag
 
 
 
 
-
-
-
-
-
-
-
-### 2. Possessive forms
-Affixes for pissessive suffixes + case forms.
-
-
-
-
-
-
-
-
-
-
-
-
-### 2. Possessive forms
-Affixes for pissessive suffixes + case forms.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 3. Derivation forms
-This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/nouns.lexc)</small># Verb inflection for Mansi
+<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/adverbs.lexc)</small># Pronouns for Northern Mansi
+
+This file is (still) not needed, as the personal pronoun forms are listed in the stem file.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/pronouns.lexc)</small># Numerals for Northern Mansi
+
+No much work on numerals yet.
+
+**LEXICON NUM_** 
+
+
+**LEXICON NUM-2-9_** 
+
+**LEXICON NUM-OR-ORD_** 
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/numerals.lexc)</small># Verb inflection for Mansi
 
 Stems ending in C
 
@@ -2369,63 +2021,76 @@ and Mansi-specific names.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/propernouns.lexc)</small># Adverbs for Northern Mansi
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/propernouns.lexc)</small># Noun inflection for Mansi
 
-No work on adverbs yet.
-
-**LEXICON ADV_** either to # or via Comp нув to #
-
-**LEXICON ADV-AUX_** gets +Aux tag
+This file contains the noun inflection. 
 
 
 
 
+
+
+
+
+
+All Mansi nouns have the same suffixe, thus only one continuation lexica.
+The stem vowel alternation is taken care of in the twolc file.
+
+## The lexicon
+
+**LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
+### 1. Non-possessive forms 
+affixes for Nom, Loc, Lat, Abl, Ins, Tra.
+
+
+### 2. Possessive forms
+Affixes for pissessive suffixes + case forms.
+
+
+
+
+
+
+
+
+
+
+
+### 2. Possessive forms
+Affixes for pissessive suffixes + case forms.
+
+
+
+
+
+
+
+
+
+
+
+
+### 2. Possessive forms
+Affixes for pissessive suffixes + case forms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 3. Derivation forms
+This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adverbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/adverbs.lexc)</small>
-# Postposition morphology
-
-**LEXICON PO_** going to K (check, perhaps bad idea) and to Px forms.
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/postpositions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/postpositions.lexc)</small># Numerals for Northern Mansi
-
-No much work on numerals yet.
-
-**LEXICON NUM_** 
-
-
-**LEXICON NUM-2-9_** 
-
-**LEXICON NUM-OR-ORD_** 
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/numerals.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/numerals.lexc)</small># Adjective inflection for Northern Mansi
-
-Almost no work on adjectives yet.
-
-
-**LEXICON A_** gets +Attr or goes to Comparisons or ADV_
-
-**LEXICON Comparisons** gives Pos and (two!) Comp
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/adjectives.lexc)</small># Pronouns for Northern Mansi
-
-This file is (still) not needed, as the personal pronoun forms are listed in the stem file.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/pronouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/nouns.lexc)</small>
 # Mansi Symbol affixes
 
 **LEXICON Noun_symbols_possibly_inflected** 
@@ -2441,56 +2106,92 @@ This file is (still) not needed, as the personal pronoun forms are listed in the
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/symbols.lexc)</small># Exceptions in Mansi
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/symbols.lexc)</small>
+# Postposition morphology
 
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-**LEXICON EXCEPTIONS** only one verb and some propernounss for now.
-
-
-IRREGULAR VERBS
- миӈкве+V+Inf:миӈкве K ;
-
-NEW PROPER NOUNS
- Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
- Лука+N+Prop+Sem/Mal:Лука N1_ ;
- Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
-...
+**LEXICON PO_** going to K (check, perhaps bad idea) and to Px forms.
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/exceptions.lexc)</small>This is where new words are added as lexc entries before they are 
+<small>This (part of) documentation was generated from [../src/fst/affixes/postpositions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/postpositions.lexc)</small># Adjective inflection for Northern Mansi
+
+Almost no work on adjectives yet.
+
+
+**LEXICON A_** gets +Attr or goes to Comparisons or ADV_
+
+**LEXICON Comparisons** gives Pos and (two!) Comp
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/adjectives.lexc)</small># Mansi numerals
+
+This is where new words are added as lexc entries before they are 
 added to the xml source files.
-паль N_ "(eng) ear/(hun) fül/(rus) ухо" ;
+нёлолов NUM_ "(eng) eight/(hun) nyolc/(rus) восемь" ;
+ADD NUMERALS HERE
+
+**LEXICON NUM_NEWWORDS** 
 
 
-**LEXICON N_NEWWORDS** 
-ADD NOUNS BELOW
+
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns_newwords.lexc)</small># Mansi Noun stems
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/numerals_newwords.lexc)</small># Adverbs
 
-**LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
+Adverbs in the Northern Mansi
 
- * а̄вгуст+N:а̄вгуст N1_ "август" ;
- * а̄ви+N:а̄ви N1_ "вход /место/" ;
- * а̄врах+N:а̄врах N1_ "обрыв" ;
- * а̄втор+N:а̄втор N1_ "автор" ;
- * а̄ги+N:а̄ги N1_ "дочь" ;
- * а̄гирищ+N:а̄гирищ N1_ "девочка" ;
- * а̄гм+N:а̄гм N1_ "боль" ;
- * а̄гум+N:а̄г%{уØ%}м N1_ "болезнь" ;
- * а̄кань+N:а̄кань N1_ "кукла" ;
- * а̄мп+N:а̄мп N1_ "собака" ;
- * а̄па+N:а̄па N1_ "люлька" ;
- * а̄рталь+N:а̄рталь N1_ "семья" ;
- * а̄ртмил+N:а̄ртмил N1_ "удача" ;
- * ласка+N:ласка N1_ "ласка /животное/" ;
- * ласточка+N:ласточка N1_ "ласточка" ;
+
+**LEXICON Adverbs** 
+
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns.lexc)</small># Mansi verb stems
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adverbs.lexc)</small># New adverbs in mansi
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+ёл ADV_ "(eng) down below/(hun) lent/(rus) вниз| внизу" ;
+
+
+**LEXICON ADV_NEWWORDS** 
+ADD ADVERBS BELOW
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small># Pronouns in Northern Mansi
+
+The file lists personal pronouns and their lemma + tags.
+
+**LEXICON Pronouns** is the lexicon, pointing to
+ * personal ;
+
+**LEXICON personal** contains the forms
+ * ам+Pron+Pers+Sg1+Nom:ам # ; 
+ * наӈ+Pron+Pers+Sg2+Nom:наӈ # ; 
+ * тав+Pron+Pers+Sg3+Nom:тав # ; 
+...
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/pronouns.lexc)</small># Numerals in Northern Mansi
+
+
+**LEXICON Numerals** to lexicon numeral
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/numerals.lexc)</small># Mansi verb stems
 
 ## List of the lexica:
 
@@ -2544,57 +2245,7 @@ ADD NOUNS BELOW
 ..., some 3500 verbs.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/verbs.lexc)</small># New adverbs in mansi
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-ёл ADV_ "(eng) down below/(hun) lent/(rus) вниз| внизу" ;
-
-
-**LEXICON ADV_NEWWORDS** 
-ADD ADVERBS BELOW
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adverbs_newwords.lexc)</small># Adverbs
-
-Adverbs in the Northern Mansi
-
-
-**LEXICON Adverbs** 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adverbs.lexc)</small># New propernouns
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-Нё̄р PROP_ "(eng) the Urals/(hun) Urál/(rus) Урал" ;
-
-**LEXICON PROP_MANSINAMES** 
-ADD PROPER NOUNS BELOW
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/mns-propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/mns-propernouns.lexc)</small># Postpositions
-
-**LEXICON Postpositions** is the lexicon, containing 3 Po so far.
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/postpositions.lexc)</small>
-# Interjections in Northern Mansi
-
-The tag is +Interj
-
-
-
-Then comes the list of the conjunctions,
-so far only a single one.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/interjections.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/verbs.lexc)</small>
 # Conjunctions in Northern Mansi
 
 The tag is +CC
@@ -2607,7 +2258,63 @@ so far only 3 of them.
 
 **LEXICON Conjunctions** for the conjunctions themselves
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/conjunctions.lexc)</small># Participle stems
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/conjunctions.lexc)</small>
+# Interjections in Northern Mansi
+
+The tag is +Interj
+
+
+
+Then comes the list of the conjunctions,
+so far only a single one.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/interjections.lexc)</small># New propernouns
+
+This is where new words are added as lexc entries before they are 
+added to the xml source files.
+Нё̄р PROP_ "(eng) the Urals/(hun) Urál/(rus) Урал" ;
+
+**LEXICON PROP_MANSINAMES** 
+ADD PROPER NOUNS BELOW
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/mns-propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/mns-propernouns.lexc)</small># Mansi Noun stems
+
+**LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
+
+ * а̄вгуст+N:а̄вгуст N1_ "август" ;
+ * а̄ви+N:а̄ви N1_ "вход /место/" ;
+ * а̄врах+N:а̄врах N1_ "обрыв" ;
+ * а̄втор+N:а̄втор N1_ "автор" ;
+ * а̄ги+N:а̄ги N1_ "дочь" ;
+ * а̄гирищ+N:а̄гирищ N1_ "девочка" ;
+ * а̄гм+N:а̄гм N1_ "боль" ;
+ * а̄гум+N:а̄г%{уØ%}м N1_ "болезнь" ;
+ * а̄кань+N:а̄кань N1_ "кукла" ;
+ * а̄мп+N:а̄мп N1_ "собака" ;
+ * а̄па+N:а̄па N1_ "люлька" ;
+ * а̄рталь+N:а̄рталь N1_ "семья" ;
+ * а̄ртмил+N:а̄ртмил N1_ "удача" ;
+ * ласка+N:ласка N1_ "ласка /животное/" ;
+ * ласточка+N:ласточка N1_ "ласточка" ;
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns.lexc)</small>This is where new words are added as lexc entries before they are 
+added to the xml source files.
+паль N_ "(eng) ear/(hun) fül/(rus) ухо" ;
+
+
+**LEXICON N_NEWWORDS** 
+ADD NOUNS BELOW
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/nouns_newwords.lexc)</small># Postpositions
+
+**LEXICON Postpositions** is the lexicon, containing 3 Po so far.
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/postpositions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/postpositions.lexc)</small># Participle stems
 
 Just a dummy file.
 **LEXICON PRC_** 
@@ -2615,21 +2322,7 @@ Just a dummy file.
 
 **LEXICON Participles** dummy entry "participle" -- probably delete the files
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/participles.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/participles.lexc)</small># Mansi numerals
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-нёлолов NUM_ "(eng) eight/(hun) nyolc/(rus) восемь" ;
-ADD NUMERALS HERE
-
-**LEXICON NUM_NEWWORDS** 
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/numerals_newwords.lexc)</small># New adjectives
+<small>This (part of) documentation was generated from [../src/fst/stems/participles.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/participles.lexc)</small># New adjectives
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -2639,30 +2332,71 @@ added to the xml source files.
 **LEXICON A_NEWWORDS** 
 ADD ADJECTIVES BELOW
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small># Numerals in Northern Mansi
-
-
-**LEXICON Numerals** to lexicon numeral
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/numerals.lexc)</small># Adjectives in Mansi
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives_newwords.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adjectives_newwords.lexc)</small># Adjectives in Mansi
 
 **LEXICON Adjectives**
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adjectives.lexc)</small># Pronouns in Northern Mansi
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/adjectives.lexc)</small># Exceptions in Mansi
 
-The file lists personal pronouns and their lemma + tags.
+Exceptions are quite strange word-forms. the ones that do not fit anywhere 
+else. This file contains all enumerated word forms that cannot reasonably be
+created from lexical data by regular inflection. Usually there should be next
+to none exceptions, it's always better to have a paradigm that covers only
+one or few words than an exception since these will not work nicely with e.g.
+compounding scheme or possibly many end applications.
 
-**LEXICON Pronouns** is the lexicon, pointing to
- * personal ;
+**LEXICON EXCEPTIONS** only one verb and some propernounss for now.
 
-**LEXICON personal** contains the forms
- * ам+Pron+Pers+Sg1+Nom:ам # ; 
- * наӈ+Pron+Pers+Sg2+Nom:наӈ # ; 
- * тав+Pron+Pers+Sg3+Nom:тав # ; 
+
+IRREGULAR VERBS
+ миӈкве+V+Inf:миӈкве K ;
+
+NEW PROPER NOUNS
+ Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
+ Лука+N+Prop+Sem/Mal:Лука N1_ ;
+ Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
 ...
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/exceptions.lexc)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2673,7 +2407,273 @@ The file lists personal pronouns and their lemma + tags.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/mansi-lexicon.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/mansi-lexicon.lexc)</small>
+# Mansi morphological analyser                      
+This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
+basic **Root** lexicon.
+
+
+ # **Multichar_Symbols**definitions
+
+## Multicharacter letters in the alphabet
+Vowels with a macron
+
+ * а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ 
+ * А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ 
+Vowels with precomposed macron
+ * ӣ  йӣквыт
+ * Ӣ  йӣквыт
+ * ӯ  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+ * Ӯ  CYRILLIC CAPITAL LETTER U WITH MACRON
+ * %+ suffix border
+
+
+
+
+
+## Analysis symbols
+The morphological analyses of wordforms for the Mansi
+language are presented in this system in terms of the following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+### The parts-of-speech are:
+ * **+N**  
+ * **+A**  
+ * **+Adv**  
+ * **+V**                             
+ * **+Pron**  
+ * **+CS**  
+ * **+CC**  
+ * **+Adp**  
+ * **+Po**  
+ * **+Pr**  
+ * **+Interj**  
+ * **+Pcle**  
+ * **+Num**  
+ * **+Prc**  
+
+### The parts of speech are further split up into:
+
+ * **+Prop** 
+ * **+Pers** 
+ * **+Dem** 
+ * **+Interr** 
+ * **+Refl** this is also used for +Nom intensfier
+ * **+Recipr** 
+ * **+Rel** 
+ * **+Indef** 
+ * **+Aux** Auxiliary
+ * **+Imp** 
+
+### The Usage extents are marked using following tags:
+ * **+Err/Orth**  do not accept, but recognize
+ * **+Use/NG** do not generate, but accept
+ * **+Use/-Spell** do not use in speller 
+
+### The nominals are inflected in the following Case and Number
+ * **+Sg +Du +Pl** 
+ * **+Nom** 
+ * **+Acc** 
+ * **+Abl** ныл
+ * **+Ins** тыл
+ * **+Instr** 
+ * **+Lat** Ын (2007: Дательный падеж)
+ * **+Loc** Ыт
+ * **+Tra** Ыг
+
+
+
+### The comparative forms are:
+ * **+Pos** 
+ * **+Comp** 
+ * **+Superl** 
+ * **+Attr** 
+
+
+### Number, person and mod
+
+ * **+Card +Ord**  Numerals are classified under:
+ * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**  Personal pronouns are marked as
+ * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3** for possessive suffixes
+ * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3** Verb subject conjugation
+ * **+OcSg3 +OcDu3 +OcPl3** Verb object conjugation
+ * **+Ind +Prs +Prt +Pot +Cond +Imprt +Evid** Verb moods 
+ * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass** infinite verbforms
+ * **+TV +IV** for transitive, intransitive
+ * **+Trans** hmm, Trans and TV?
+
+### Abbreviated words are classified with:
+ * **+ABBR +ACR** 
+ * **+Symbol** = independent symbols in the text stream, like £, €, ©
+
+### Special symbols are classified with:
+ * **+CLB +PUNCT +LEFT +RIGHT** 
+ * **+Multi** multiword units
+ * **+Guess** Non-dictionary words (not in use)
+
+ * **+Qst +Foc** Question and Focus particles
+
+
+
+### Tags distinguishing different versions of the same lemma (before POS)
+ * **+v1**
+ * **+v2**
+ * **+v3**
+ * **+v4**
+ * **+v5**
+ * **+v6**
+ * **+v7**
+ * **+v8**
+ * **+v9**
+ * **+v10**
+ * **+v11**
+ * **+v12**
+ * **+v13**
+ * **+v14**
+ * **+v15**
+ * **+v16**
+ * **+v17**
+ * **+v18**
+ * **+v19**
+ * **+v20**
+ * **+v21**
+ * **+v22**
+ * **+v23**
+ * **+v24**
+
+
+Semantics are classified with
+ * **+Sem/Mal** 
+ * __+Sem/Fem__ 
+ * __+Sem/Sur__ 
+ * **+Sem/Plc** 
+ * __+Sem/Org__ 
+ * __+Sem/Obj__ 
+ * __+Sem/Ani__ 
+ * __+Sem/Hum__ 
+ * __+Sem/Plant__ 
+ * __+Sem/Group__ 
+ * __+Sem/Time__ 
+ * __+Sem/Txt__ 
+ * __+Sem/Route__ 
+ * __+Sem/Measr__ 
+ * __+Sem/Wthr__ 
+ * __+Sem/Build__ 
+ * __+Sem/Edu__ 
+ * __+Sem/Veh__ 
+ * __+Sem/Clth__ 
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+ * **+V→N +V→V +V→A** 
+ * **+Der/xxx** 
+ * **+Der** 
+ * **+Der/Yng** N» ыӈ Proprietive as in kpv -а
+ * **+Der/Yshch** A» ыщ 
+ * **+Der/Ap** V» ап 
+ * **+Der/Ord** is this the best analysis?
+
+
+
+
+
+## Symbols that need to be escaped on the lower side (towards twolc):
+ * **»7**:  Literal »
+ * **«7**:  Literal «
+ **%[%>%]**- Literal >
+ **%[%<%]**- Literal <
+
+
+## Morphophonology
+To represent phonologic variations in word forms we use the following
+symbols (archiphones) in the lexicon files:
+ __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+ __%{тØ%}__ Ins, PxSg3,
+
+ **%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
+ **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
+ **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
+ **%{йØ%}** ыг
+ * **%{Øы%}** ы in Sg Loc Is this same as Sg Lat, too 2021-10-18
+ **%{ыØ%}** specific floating vowel 
+ **%{иØ%}** specific floating vowel 
+ **%{уØ%}** specific floating vowel 
+
+ **ы2** ы in stem, syncope 
+ **ы3** weak ы in Sg Loc and Sg Lat
+
+And following triggers to control variation
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+
+| Flag | Explanation
+| ---- | -----------
+ |  **@P.NeedNoun.ON@**| (Dis)allow compounds with verbs unless nominalised
+ |  **@D.NeedNoun.ON@**| (Dis)allow compounds with verbs unless nominalised
+ |  **@C.NeedNoun@**| (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+
+| Flag | Explanation
+| ---- | -----------
+ |  **@P.CmpFrst.FALSE@**| Require that words tagged as such only appear first
+ |  **@D.CmpPref.TRUE@**| Block such words from entering ENDLEX
+ |  **@P.CmpPref.FALSE@**| Block these words from making further compounds
+ |  **@D.CmpLast.TRUE@**| Block such words from entering R
+ |  **@D.CmpNone.TRUE@**| Combines with the next tag to prohibit compounding
+ |  **@U.CmpNone.FALSE@**| Combines with the prev tag to prohibit compounding
+ |  **@P.CmpOnly.TRUE@**| Sets a flag to indicate that the word has passed R
+ |  **@D.CmpOnly.FALSE@**| Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+
+| Flag | Explanation
+| ---- | -----------
+ |  **@U.Cap.Obl@**| Allowing downcasing of derived names: deatnulasj.
+ |  **@U.Cap.Opt@**| Allowing downcasing of derived names: deatnulasj.
+
+
+
+## The basic lexica
+
+**LEXICON Root** 
+The word forms in the MANSI language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+ **Nouns ;** 
+ **Verbs ;** 
+ **Adjectives ;** 
+ **Adverbs ;** 
+ **Pronouns ;** 
+ **Numerals ;** 
+ **Conjunctions ;** 
+ **Interjections ;** 
+ **Participles ;** 
+ **Postpositions ;** 
+ **PROP_MANSINAMES ;** mansi-specific proper nouns
+ **urj-Cyrl-ProperNouns ;** common cyrillic proper nouns
+ **Punctuation ;** 
+ **Symbols ;** 
+NEWWORDS FILES:
+ **A_NEWWORDS ;** adjectives
+ **ADV_NEWWORDS ;** adverbs
+ **N_NEWWORDS ;** nouns
+ **NUM_NEWWORDS ;** numerals
+ **EXCEPTIONS ;** exceptions
+
+* **LEXICON K** for evt. clitic (goes to #)
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/root.lexc)</small>
 # The Mansi dates 
 
 
