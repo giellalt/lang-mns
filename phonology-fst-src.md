@@ -9,46 +9,46 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 ## Alphabet, sets and definitions
 ### Alphabet
 Basic letters:
- * **а б в г д е ё ж з и й к л м н о п р с т** 
- * **у ф х ц ч ш щ ъ ы ь э ю я ӈ** 
- * **А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т** 
- * **У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ** 
+* **а б в г д е ё ж з и й к л м н о п р с т** 
+* **у ф х ц ч ш щ ъ ы ь э ю я ӈ** 
+* **А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т** 
+* **У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ** 
 
 Letters with diacritical marks:
 Precomposed letters are used when available, otherwise non-composed ones.
 
- * **ӣ ӯ** precomposed long vowels
- * **Ӣ Ӯ** precomposed long vowels
- * **а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄** non-precomposed long vowels
+* **ӣ ӯ** precomposed long vowels
+* **Ӣ Ӯ** precomposed long vowels
+* **а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄** non-precomposed long vowels
 
 
 #### Archiphones
 
- * **%{ЫИ%}:и**
- * **%{ЫИ%}:ы**
- * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
- * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
- * **%{йØ%}:0** ыг
- * **%{Øы%}:0** Loc
- * **%{ыØ%}:ы** specific floating vowel 
- * **%{иØ%}:и** specific floating vowel 
- * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
- * **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
- * **%{ЫИØ%}:0**
- * **%{УЮØ%}:0**
- * **%{тØ%}:0** PxSg3, Ins
- * **%{ЭЕ%}:0** PxSg3
- * **ы2:ы** syncope vowel
- * **ы3:0** weak ы for Loc and Lat
+* **%{ЫИ%}:и**
+* **%{ЫИ%}:ы**
+* **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
+* **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
+* **%{йØ%}:0** ыг
+* **%{Øы%}:0** Loc
+* **%{ыØ%}:ы** specific floating vowel 
+* **%{иØ%}:и** specific floating vowel 
+* **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
+* **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
+* **%{ЫИØ%}:0**
+* **%{УЮØ%}:0**
+* **%{тØ%}:0** PxSg3, Ins
+* **%{ЭЕ%}:0** PxSg3
+* **ы2:ы** syncope vowel
+* **ы3:0** weak ы for Loc and Lat
 
 
 #### Triggers
 
- * **%^PxDu2:0**
- * **%^PxDu3:0**
- * **%^PxPl2:0**
- * **%^RmVow:0** Word-final vowel removal
- * **%^Syncope:0** This triggers syncope with no reason to place special letters in the stem.
+* **%^PxDu2:0**
+* **%^PxDu3:0**
+* **%^PxPl2:0**
+* **%^RmVow:0** Word-final vowel removal
+* **%^Syncope:0** This triggers syncope with no reason to place special letters in the stem.
 
 #### Literal quotes and angles
 These must be escaped (cf morpheme boundaries below):
@@ -60,44 +60,44 @@ These must be escaped (cf morpheme boundaries below):
 
 ### Boundaries
 
-  **%> #** for suffix and word end
+ **%> #** for suffix and word end
 
 #### Morpheme boundaries:
- * **«** = Derivational prefix
- * **»** = Derivational suffix
- * **%<** = Inflectional prefix
- * **%>** = Inflectional suffix
- * **#** = Word boundary for both lexicalised and dynamic compounds
- * **%^** = (exceptional) soft hyphenation point
- * **%-** = Hyphen for question particle
- * **ð** = Compounding rules
+* **«** = Derivational prefix
+* **»** = Derivational suffix
+* **%<** = Inflectional prefix
+* **%>** = Inflectional suffix
+* **#** = Word boundary for both lexicalised and dynamic compounds
+* **%^** = (exceptional) soft hyphenation point
+* **%-** = Hyphen for question particle
+* **ð** = Compounding rules
 
 End of alphabet definitions
 
 ### Sets
 
- * **Vow = а е и о у ы э ю я**
-  **А Е И О У Ы Э Ю Я**
-  **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
-  **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
- * **VowNoI = а е о у э ю я**
-  **А Е О У Э Ю Я**
-  **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
-  **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
- * **PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ;**
- * **SVow = а е ё и о у ы э ю я ;**
- * **LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ;**
- * **CnsSoft = щ Щ ;**
- * **CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ**
-  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
- * **CnsAlv = д з л н с т**
-  **Д З Л Н С Т ;**
- * **Cns = CnsSoft CnsNonAlv CnsAlv р Р ;**
+* **Vow = а е и о у ы э ю я**
+ **А Е И О У Ы Э Ю Я**
+ **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
+ **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
+* **VowNoI = а е о у э ю я**
+ **А Е О У Э Ю Я**
+ **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
+ **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
+* **PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ;**
+* **SVow = а е ё и о у ы э ю я ;**
+* **LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ;**
+* **CnsSoft = щ Щ ;**
+* **CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ**
+ **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
+* **CnsAlv = д з л н с т**
+ **Д З Л Н С Т ;**
+* **Cns = CnsSoft CnsNonAlv CnsAlv р Р ;**
 
 
 ### Definitions
 
- * **PostSyncStem = :Cns ;** 
+* **PostSyncStem = :Cns ;** 
 
 
 ## Rules

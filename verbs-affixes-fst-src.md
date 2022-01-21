@@ -14,8 +14,8 @@ Stems ending in C
 	* **LEXICON V11_MUTUAL-IMPRT**  
 	* **LEXICON V11_MUTUAL-PASS**  
 * **LEXICON V11_even** pointing to
- +Inf:%>аӈкве K ;
- V11_MUTUAL ;
++Inf:%>аӈкве K ;
+V11_MUTUAL ;
 
 
 
@@ -365,9 +365,9 @@ Stems ending in C
 
 
 **LEXICON V23_odd** is the lexicon, pointing to
- * V11_odd ; 
- * :%>ы V11_MUTUAL-COND ; 
- * :%>а V11_MUTUAL-COND ; 
+* V11_odd ; 
+* :%>ы V11_MUTUAL-COND ; 
+* :%>а V11_MUTUAL-COND ; 
 
 
 

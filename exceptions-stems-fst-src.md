@@ -11,12 +11,12 @@ compounding scheme or possibly many end applications.
 
 
 IRREGULAR VERBS
- миӈкве+V+Inf:миӈкве K ;
+миӈкве+V+Inf:миӈкве K ;
 
 NEW PROPER NOUNS
- Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
- Лука+N+Prop+Sem/Mal:Лука N1_ ;
- Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
+Лука+N+Prop+Sem/Mal:Лука N1_ ;
+Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
 ...
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/exceptions.lexc)</small>
