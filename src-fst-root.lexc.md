@@ -3,7 +3,6 @@
 This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
 basic **Root** lexicon.
 
-
 # **Multichar_Symbols**definitions
 
 ## Multicharacter letters in the alphabet
@@ -17,10 +16,6 @@ Vowels with precomposed macron
 * ӯ  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
 * Ӯ  CYRILLIC CAPITAL LETTER U WITH MACRON
 * %+ suffix border
-
-
-
-
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Mansi
@@ -72,14 +67,11 @@ language are presented in this system in terms of the following symbols.
 * **+Loc** Ыт
 * **+Tra** Ыг
 
-
-
 ### The comparative forms are:
 * **+Pos** 
 * **+Comp** 
 * **+Superl** 
 * **+Attr** 
-
 
 ### Number, person and mod
 
@@ -103,8 +95,6 @@ language are presented in this system in terms of the following symbols.
 * **+Guess** Non-dictionary words (not in use)
 
 * **+Qst +Foc** Question and Focus particles
-
-
 
 ### Tags distinguishing different versions of the same lemma (before POS)
 * **+v1**
@@ -132,7 +122,6 @@ language are presented in this system in terms of the following symbols.
 * **+v23**
 * **+v24**
 
-
 Semantics are classified with
 * **+Sem/Mal** 
 * __+Sem/Fem__ 
@@ -154,7 +143,6 @@ Semantics are classified with
 * __+Sem/Veh__ 
 * __+Sem/Clth__ 
 
-
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 * **+V→N +V→V +V→A** 
@@ -165,16 +153,11 @@ source and target part-of-speech.
 * **+Der/Ap** V» ап 
 * **+Der/Ord** is this the best analysis?
 
-
-
-
-
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
 **%[%>%]**- Literal >
 **%[%<%]**- Literal <
-
 
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -232,8 +215,6 @@ given the proper use of these flags.
 |  **@U.Cap.Obl@**| Allowing downcasing of derived names: deatnulasj.
 |  **@U.Cap.Opt@**| Allowing downcasing of derived names: deatnulasj.
 
-
-
 ## The basic lexica
 
 **LEXICON Root** 
@@ -262,6 +243,9 @@ NEWWORDS FILES:
 
 * **LEXICON K** for evt. clitic (goes to #)
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/root.lexc)</small>
+
+---
+

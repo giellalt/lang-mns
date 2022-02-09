@@ -8,9 +8,11 @@ and Mansi-specific names.
 
 **LEXICON PROP**  The only lexicon is `PROP`, it goes to K via singular cases.
 
-
 **LEXICON PROP-PATR-MAL_END-IN-CH/DZ** = the content is just there to make the fst compile.
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/propernouns.lexc)</small>
+
+---
+

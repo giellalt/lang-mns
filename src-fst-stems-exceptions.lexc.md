@@ -9,7 +9,6 @@ compounding scheme or possibly many end applications.
 
 **LEXICON EXCEPTIONS** only one verb and some propernounss for now.
 
-
 IRREGULAR VERBS
 миӈкве+V+Inf:миӈкве K ;
 
@@ -18,5 +17,10 @@ NEW PROPER NOUNS
 Лука+N+Prop+Sem/Mal:Лука N1_ ;
 Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
 ...
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/exceptions.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/exceptions.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/exceptions.lexc)</small>
+
+---
+

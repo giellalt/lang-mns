@@ -35,15 +35,9 @@
 * V35_odd  =
 * V35_even =
 
-
 ## The lexica themselves
 
-
 **LEXICON Verbs** is the list of all verbstems
-
-
-
-
 
 * а̄гмалтаӈкве+V:а̄гмалты V23_even "определить" ; 
 * а̄йтынтахтуӈкве+V:а̄йтынтахты V23_odd "тошнить" ;
@@ -52,4 +46,8 @@
 ..., some 3500 verbs.
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+

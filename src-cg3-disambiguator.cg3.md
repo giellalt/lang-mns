@@ -3,19 +3,11 @@
 
 **Nore!** Some tag declarations or sets may be left from copying this file from sma.
 
-
-
-
-
 ## Delimiters , tags and sets
-
 
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; # DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; # @CODE
 
-
 ## Tags and sets 
-
-
 
 ### Tags declared as single-membered LISTs 
 
@@ -191,8 +183,6 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; # DELIMITERS = "<.>" "<!>" "<?>" 
 * LIST @VOC = @VOC ; # 
 * LIST @X = @X ; # 
 
-
-
 ### Sets
 
 #### Grammatical sets
@@ -204,7 +194,6 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; # DELIMITERS = "<.>" "<!>" "<?>" 
 * SET REALWORD = WORD - Num - Ord ; # 
 * SET REALWORD-NOTABBR = WORD - Num - Ord - ABBR ; # 
 
-
 #### Sets for NP identification
 
 * LIST NOT-ADV-INT-PCLE = N A Num Pron A V CC CS ; # 
@@ -215,7 +204,6 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; # DELIMITERS = "<.>" "<!>" "<?>" 
 * SET NPNH = WORD - PRE-NP-HEAD OR (ABBR) ; #  NPNH  = "NOT-PRE-NP-HEAD" 
 * SET NPNHA = WORD - PRE-NP-HEAD OR (ABBR) OR Adv ; # 
 * SET NPNHAI = WORD - PRE-NP-HEAD - Adv - Indef ; # 
-
 
 #### Noun sets
 
@@ -243,25 +231,18 @@ but they are nevertheless mapped to (@+FAUXV).
 * SET NOT-NP = VFIN-NOT-NEG OR ConNeg OR Inf OR Pcle OR Interj OR CS ; # 
 The set NP-BOUNDARY is bigger. 
 
-
-
 #### Boundary sets
 
 Empty for now.
 
-
-
 ## Disambiguation rules
 
-
 ### BEFORE-SECTIONS
-
 
 **Rule: Date1** for adding Sem/Date as a tag to readings which looks like dates.
 **Rule: Date2** for adding Sem/Date as a tag to readings which looks like dates.
 **Rule: Date3** for adding Sem/Date as a tag to readings which looks like dates.
 **Rule: Date4** for adding Sem/Date as a tag to readings which looks like dates.
-
 
 ### SECTION
 
@@ -269,20 +250,15 @@ Empty for now.
 
 Still no rules written. 
 
-
-
 ### Cycle 1: Local context around the target word
 
 **Rule: Attr** removes Pos and keeps Attr for A in front of A or N.
 
 **Rule: Pos** removes Attr and keeps Pos for A if no .
 
-
-
 ### Cycle 2: Slightly less local context
 
 Still no rules written. 
-
 
 ### Cycle 3: Global disambiguation 
 Still no rules written. 
@@ -291,7 +267,9 @@ Still no rules written.
 ### Cycle 5: Post-syntactic morphological disambiguation
 Still no rules written. 
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/disambiguator.cg3](http://github.com/giellalt/lang-mns/blob/main/../src/cg3/disambiguator.cg3)</small>
+
+<small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-mns/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+

@@ -5,7 +5,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-m
 Скрибник Е.К. & К.В. Афанасьева 2007:
 Практически курс манийского языка, Часть 1. Ханты-Мансийск. Полиграфист.
 
-
 ## Alphabet, sets and definitions
 ### Alphabet
 Basic letters:
@@ -20,7 +19,6 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **ӣ ӯ** precomposed long vowels
 * **Ӣ Ӯ** precomposed long vowels
 * **а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄** non-precomposed long vowels
-
 
 #### Archiphones
 
@@ -40,7 +38,6 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{ЭЕ%}:0** PxSg3
 * **ы2:ы** syncope vowel
 * **ы3:0** weak ы for Loc and Lat
-
 
 #### Triggers
 
@@ -94,11 +91,9 @@ End of alphabet definitions
  **Д З Л Н С Т ;**
 * **Cns = CnsSoft CnsNonAlv CnsAlv р Р ;**
 
-
 ### Definitions
 
 * **PostSyncStem = :Cns ;** 
-
 
 ## Rules
 
@@ -108,9 +103,7 @@ End of alphabet definitions
 * *ла̄т{ыØ}ӈ>{уØ}в*
 * *ла̄т0ӈ>ув*
 
-
 **RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
-
 
 #### Tests:
 
@@ -150,8 +143,6 @@ End of alphabet definitions
 * *яны2г>{Øы}т*
 * *ян0г>ыт*
 
-
-
 **RULE: ы3 as ы in Sg Loc and Lat**  
 
 #### Tests:
@@ -161,20 +152,15 @@ End of alphabet definitions
 
 **RULE: Palatalising suffix vowel after и/ы stems**  
 
-
 **RULE: Palatalising suffix vowel after й ь**  changes у to ы after  й ь
 
-
 **RULE: NO Palatalization of suffix vowels** gives ы э after  з л н с т
-
-
 
 **RULE: Palatalization of suffix vowels**  is the palatal opposite of the previous rule
 
 #### Tests:
 * *ве̄рмы%>%{ЫИ%}янэ*
 * *ве̄рм0%>иянэ*
-
 
 **RULE: Palatalising suffix vowel ы to и for palatal stems**  after ь etc.
 
@@ -185,9 +171,7 @@ End of alphabet definitions
 * ★*та̄л>ыг* (is not standard language)
 * ★*та̄л>иг* (is not standard language)
 
-
 **RULE: Removing й before suffix onset**  
-
 
 **RULE: Deleting vowel in suffix for vowel stems**  deletes suffix-initial а у е
 
@@ -205,8 +189,6 @@ End of alphabet definitions
 * *аки>ум*
 * *аки>0м*
 
-
-
 **RULE: Soft sign deletion for и suffixes**  
 
 #### Tests:
@@ -221,13 +203,7 @@ End of alphabet definitions
 
 **RULE: э to е after certain consonants after т deletion**  
 
-
-
-
-
 __%{аяØ%}:0__
-
-
 
 __%{тØ%}:0__
 ха̄ль+N+Sg+PxSg3+Nom
@@ -246,15 +222,16 @@ __%{тØ%}:0__
 * *э̄ква>{тØ}ыл*
 * *э̄ква>00л*
 
-
 __%{аяØ%}:а__
 
 __%{аяØ%}:я__
 
-
 CONSONANTS
 __%{тØ%}:т__
 
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-mns/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-mns/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
