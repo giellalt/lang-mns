@@ -4,7 +4,7 @@
 !! The tag is +Interj
 
 LEXICON INTERJ_
-: # ;
+# ;
 
 
 !! Then comes the list of the conjunctions,
@@ -13,4 +13,5 @@ LEXICON INTERJ_
 LEXICON Interjections
 
 та+Interj:та INTERJ_ ;
-
+паща+Interj:паща INTERJ_ "terve" ;
+я̄тилы+Interj:я̄тилы INTERJ_ "ole hyvä" ;

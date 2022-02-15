@@ -1,0 +1,48 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (2007: 47)
+
+  Verb - минуӈкве: # Verb 'eng go/fin mennä' - full paradigm
+#
+     минуӈкве+V+Inf: минуӈкве
+
+     минуӈкве+V+Ind+Prs+ScSg1: [минэ̄гум, минегым]
+     минуӈкве+V+Ind+Prs+ScSg2: [минэ̄гын, минегын]
+     минуӈкве+V+Ind+Prs+ScSg3: [мины, мини]
+
+     минуӈкве+V+Ind+Prs+ScDu1: [миныме̄н, минимен]
+     минуӈкве+V+Ind+Prs+ScDu2: минегы̄н
+     минуӈкве+V+Ind+Prs+ScDu3: минег
+
+     минуӈкве+V+Ind+Prs+ScPl1: минев
+     минуӈкве+V+Ind+Prs+ScPl2: минегы̄н
+     минуӈкве+V+Ind+Prs+ScPl3: минегыт
+     
+     минуӈкве+V+Ind+Prt+ScSg1: минасум
+     минуӈкве+V+Ind+Prt+ScSg2: минасын
+     минуӈкве+V+Ind+Prt+ScSg3: минас
+
+     минуӈкве+V+Ind+Prt+ScDu1: минасаме̄н
+     минуӈкве+V+Ind+Prt+ScDu2: минасы̄н
+     минуӈкве+V+Ind+Prt+ScDu3: минасы̄г
+
+     минуӈкве+V+Ind+Prt+ScPl1: минасув
+     минуӈкве+V+Ind+Prt+ScPl2: минасы̄н
+     минуӈкве+V+Ind+Prt+ScPl3: минасыт
+
+     минуӈкве+V+Der+Der/NomAct+N+Sg+Nom: минам
+

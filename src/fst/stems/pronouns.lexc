@@ -118,7 +118,8 @@ LEXICON personal
 
 ти+Pron+Dem:ти N1_ ;
 
-маныр+Pron+Interr:ман%{ыØ%}р N1_ ; 
+маныр+v1+Pron+Interr:ман%{ыØ%}р N1_ ; 
+маныр+v2+Pron+Interr:ма̄н%{ыØ%}р N1_ ; 
 матыр+Pron+Interr:мат%{ыØ%}р N1_ ; 
 
 хо̄тпа+Pron+Indef:хо̄тпа N1_ ;

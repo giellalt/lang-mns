@@ -1,0 +1,226 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (2007: 47)
+
+  Verb - миӈкве: # Verb 'give' - full paradigm
+# perhaps stem should be in миӈкве+V+Ind+Prs+ScSg3: тоты
+    миӈкве+V+Inf: миӈкве
+
+#    миӈкве+V: [тотнуве]
+#    миӈкве+V: [тотымэн]
+
+    миӈкве+V+Ind+Prs+ScPl1: мыгӯв
+    миӈкве+V+Ind+Prs+ScPl2: мае̄н
+    миӈкве+V+Ind+Prs+ScPl3: мыгыт
+    миӈкве+V+Ind+Prs+ScDu1: мыгме̄н
+    миӈкве+V+Ind+Prs+ScDu2: мае̄н
+    миӈкве+V+Ind+Prs+ScDu3: мыгыг
+    миӈкве+V+Ind+Prs+ScSg1: мыгум
+    миӈкве+V+Ind+Prs+ScSg2: мае̄н
+    миӈкве+V+Ind+Prs+ScSg3: мыг
+
+
+    миӈкве+V+Ind+Prt+ScSg1: мисум
+    миӈкве+V+Ind+Prt+ScSg2: мисын
+    миӈкве+V+Ind+Prt+ScSg3: мис
+    миӈкве+V+Ind+Prt+ScDu1: мисуме̄н
+    миӈкве+V+Ind+Prt+ScDu2: мисы̄н
+    миӈкве+V+Ind+Prt+ScDu3: мисы̄г
+    миӈкве+V+Ind+Prt+ScPl1: мисув
+    миӈкве+V+Ind+Prt+ScPl2: мисы̄н
+    миӈкве+V+Ind+Prt+ScPl3: мисыт
+
+    миӈкве+V+Cond+Prs+ScSg1: [минувум]
+    миӈкве+V+Cond+Prs+ScSg2: [минувын]
+    миӈкве+V+Cond+Prs+ScSg3: [минув]
+    миӈкве+V+Cond+Prs+ScDu1: [минувамен]
+    миӈкве+V+Cond+Prs+ScDu2: [минувын]
+    миӈкве+V+Cond+Prs+ScDu3: [минувыг]
+    миӈкве+V+Cond+Prs+ScPl1: [минувув]
+    миӈкве+V+Cond+Prs+ScPl2: [минувын]
+    миӈкве+V+Cond+Prs+ScPl3: [минувыт]
+
+
+#    миӈкве+V+Imp+ScDu2: [тотэн]
+#    миӈкве+V+Imp+ScPl2: [тотэн]
+#    миӈкве+V+Imp+ScSg2: [тотэн]
+
+
+#    миӈкве+V+Ind+Prs+OcSg3+ScSg1: тотылум
+#    миӈкве+V+Ind+Prs+OcSg3+ScSg2: [тотылын]
+#    миӈкве+V+Ind+Prs+OcSg3+ScSg3: [тотытэ]
+#    миӈкве+V+Ind+Prs+OcSg3+ScDu1: x
+#    миӈкве+V+Ind+Prs+OcSg3+ScDu2: [тотылын]
+#    миӈкве+V+Ind+Prs+OcSg3+ScDu3: [тотытэн]
+#    миӈкве+V+Ind+Prs+OcSg3+ScPl1: [тотылув]
+#    миӈкве+V+Ind+Prs+OcSg3+ScPl2: [тотылын]
+#    миӈкве+V+Ind+Prs+OcSg3+ScPl3: [тотыяныл]
+
+#    миӈкве+V+Ind+Prs+OcDu3+ScSg1: [тотыягум]
+#    миӈкве+V+Ind+Prs+OcDu3+ScSg2: [тотыягын]
+#    миӈкве+V+Ind+Prs+OcDu3+ScSg3: [тотыяге]
+#    миӈкве+V+Ind+Prs+OcDu3+ScDu1: [тотыягмен]
+#    миӈкве+V+Ind+Prs+OcDu3+ScDu2: [тотыягын]
+#    миӈкве+V+Ind+Prs+OcDu3+ScDu3: [тотыяген]
+#    миӈкве+V+Ind+Prs+OcDu3+ScPl1: [тотыягув]
+#    миӈкве+V+Ind+Prs+OcDu3+ScPl2: [тотыягын]
+#    миӈкве+V+Ind+Prs+OcDu3+ScPl3: [тотыяганыл]
+
+#    миӈкве+V+Ind+Prs+OcPl3+ScSg1: [тотыянум]
+#    миӈкве+V+Ind+Prs+OcPl3+ScSg2: [тотыян]
+#    миӈкве+V+Ind+Prs+OcPl3+ScSg3: [тотыянэ]
+#    миӈкве+V+Ind+Prs+OcPl3+ScDu1: [тотылумен]
+#    миӈкве+V+Ind+Prs+OcPl3+ScDu2: xxx
+#    миӈкве+V+Ind+Prs+OcPl3+ScDu3: [тотыянэн]
+#    миӈкве+V+Ind+Prs+OcPl3+ScPl1: [тотыянув]
+#    миӈкве+V+Ind+Prs+OcPl3+ScPl2: x
+#    миӈкве+V+Ind+Prs+OcPl3+ScPl3: [тотыяныл]
+
+    миӈкве+V+Ind+Prt+OcSg3+ScSg1: мислум
+    миӈкве+V+Ind+Prt+OcSg3+ScSg2: мислын
+    миӈкве+V+Ind+Prt+OcSg3+ScSg3: мистэ
+    миӈкве+V+Ind+Prt+OcSg3+ScDu1: мисламен
+    миӈкве+V+Ind+Prt+OcSg3+ScDu2: мислын
+    миӈкве+V+Ind+Prt+OcSg3+ScDu3: мистэн
+    миӈкве+V+Ind+Prt+OcSg3+ScPl1: мислув
+    миӈкве+V+Ind+Prt+OcSg3+ScPl2: мислын
+    миӈкве+V+Ind+Prt+OcSg3+ScPl3: мисаныл
+
+
+    миӈкве+V+Ind+Prt+OcDu3+ScSg1: мисагум
+    миӈкве+V+Ind+Prt+OcDu3+ScSg2: мисагын
+    миӈкве+V+Ind+Prt+OcDu3+ScSg3: мисаге
+    миӈкве+V+Ind+Prt+OcDu3+ScDu1: [мисагме̄н, мисагмен]
+    миӈкве+V+Ind+Prt+OcDu3+ScDu2: [мисагы̄н, мисагын]
+    миӈкве+V+Ind+Prt+OcDu3+ScDu3: [мисаге̄н, мисагаге̄н, мисаген]
+    миӈкве+V+Ind+Prt+OcDu3+ScPl1: мисагув
+    миӈкве+V+Ind+Prt+OcDu3+ScPl2: [мисагы̄н, мисагын]
+    миӈкве+V+Ind+Prt+OcDu3+ScPl3: мисаганыл
+
+    миӈкве+V+Ind+Prt+OcPl3+ScSg1: мисанум
+    миӈкве+V+Ind+Prt+OcPl3+ScSg2: [мисан, миса̄нын]
+    миӈкве+V+Ind+Prt+OcPl3+ScSg3: мисанэ
+    миӈкве+V+Ind+Prt+OcPl3+ScDu1: [мисанаме̄н, мисананме̄н]
+    миӈкве+V+Ind+Prt+OcPl3+ScDu2: [мисан, мисаны̄н]
+    миӈкве+V+Ind+Prt+OcPl3+ScDu3: [мисанэ̄н, мисананэ̄н]
+    миӈкве+V+Ind+Prt+OcPl3+ScPl1: мисанув
+    миӈкве+V+Ind+Prt+OcPl3+ScPl2: [мисан, мисаны̄н]
+    миӈкве+V+Ind+Prt+OcPl3+ScPl3: [мисаныл, мисананыл]
+
+    
+    миӈкве+V+Cond+Prs+OcSg3+ScSg1: [минувлум]
+    миӈкве+V+Cond+Prs+OcSg3+ScSg2: [минувлын]
+    миӈкве+V+Cond+Prs+OcSg3+ScSg3: [минувтэ]
+    миӈкве+V+Cond+Prs+OcSg3+ScDu1: [минувламен]
+    миӈкве+V+Cond+Prs+OcSg3+ScDu2: [минувлын]
+#    миӈкве+V+Cond+Prs+OcSg3+ScDu3: x
+    миӈкве+V+Cond+Prs+OcSg3+ScPl1: [минувлув]
+    миӈкве+V+Cond+Prs+OcSg3+ScPl2: [минувлын]
+    миӈкве+V+Cond+Prs+OcSg3+ScPl3: [минуваныл]
+
+    миӈкве+V+Cond+Prs+OcDu3+ScSg1: [минувагум]
+    миӈкве+V+Cond+Prs+OcDu3+ScSg2: [минувагын]
+    миӈкве+V+Cond+Prs+OcDu3+ScSg3: [минуваге]
+    миӈкве+V+Cond+Prs+OcDu3+ScDu1: [минувагмен]
+    миӈкве+V+Cond+Prs+OcDu3+ScDu2: [минувагын]
+    миӈкве+V+Cond+Prs+OcDu3+ScDu3: [минуваген]
+#    миӈкве+V+Cond+Prs+OcDu3+ScPl1: x
+    миӈкве+V+Cond+Prs+OcDu3+ScPl2: [минувагын]
+#    миӈкве+V+Cond+Prs+OcDu3+ScPl3: x
+
+    миӈкве+V+Cond+Prs+OcPl3+ScSg1: [минуванум]
+    миӈкве+V+Cond+Prs+OcPl3+ScSg2: [минуванын]
+    миӈкве+V+Cond+Prs+OcPl3+ScSg3: [минуванэ]
+    миӈкве+V+Cond+Prs+OcPl3+ScDu1: [минуванмен]
+    миӈкве+V+Cond+Prs+OcPl3+ScDu2: [минуванын]
+    миӈкве+V+Cond+Prs+OcPl3+ScDu3: [минуванэн]
+    миӈкве+V+Cond+Prs+OcPl3+ScPl1: [минуванув]
+    миӈкве+V+Cond+Prs+OcPl3+ScPl2: [минуванын]
+    миӈкве+V+Cond+Prs+OcPl3+ScPl3: [минуваныл]
+
+#    миӈкве+V+Imp+OcSg3+ScSg2: [тотэлн]
+#    миӈкве+V+Imp+OcSg3+ScDu2: [тотэлн]
+#    миӈкве+V+Imp+OcSg3+ScPl2: [тотэлн]
+
+#    миӈкве+V+Imp+OcDu3+ScSg2: [тотэгын]
+#    миӈкве+V+Imp+OcDu3+ScDu2: [тотэгын]
+#    миӈкве+V+Imp+OcDu3+ScPl2: [тотэгын]
+
+#    миӈкве+V+Imp+OcPl3+ScSg2: [тотэн]
+#    миӈкве+V+Imp+OcPl3+ScDu2: [тотэн]
+#    миӈкве+V+Imp+OcPl3+ScPl2: [тотэн]
+
+
+#    миӈкве+V+Pass+Prs+ScSg1: [тотавем]
+#    миӈкве+V+Pass+Prs+ScSg2: [тотавен]
+#    миӈкве+V+Pass+Prs+ScSg3: [тотаве]
+#    миӈкве+V+Pass+Prs+ScDu1: [тотавемен]
+#    миӈкве+V+Pass+Prs+ScDu2: [тотавен]
+#    миӈкве+V+Pass+Prs+ScDu3: [тотавег]
+#    миӈкве+V+Pass+Prs+ScPl1: [тотавев]
+#    миӈкве+V+Pass+Prs+ScPl2: [тотавен]
+#    миӈкве+V+Pass+Prs+ScPl3: [тотавет]
+
+
+    миӈкве+V+Pass+Prt+ScSg1: майве̄сум
+    миӈкве+V+Pass+Prt+ScSg2: майве̄сн
+    миӈкве+V+Pass+Prt+ScSg3: майвес
+    миӈкве+V+Pass+Prt+ScDu1: майвесаме̄н
+    миӈкве+V+Pass+Prt+ScDu2: майвесы̄н
+    миӈкве+V+Pass+Prt+ScDu3: майвесы̄г
+    миӈкве+V+Pass+Prt+ScPl1: майвесув
+    миӈкве+V+Pass+Prt+ScPl2: майвесы̄н
+    миӈкве+V+Pass+Prt+ScPl3: майве̄сыт
+
+#    миӈкве+V: [минувев]
+#    миӈкве+V: [минувем]
+#    миӈкве+V: [минувен]
+#    миӈкве+V: [минувет]
+#    миӈкве+V: [тотыянул]
+#
+#    миӈкве+V: [минувлэн]
+#    миӈкве+V: [мисуме̄н]
+#    миӈкве+V: [майвесемен]
+#    миӈкве+V: [мисанамен]
+#    миӈкве+V: [тотыянамен]
+
+# йиӈкве 'tulla'
+йиӈкве+V+Act+Ind+Prs+ScSg1: ювум
+йиӈкве+V+Act+Ind+Prs+ScSg2: ювын
+йиӈкве+V+Act+Ind+Prs+ScSg3: юв
+
+йиӈкве+V+Act+Ind+Prs+ScDu1: ювмēн
+йиӈкве+V+Act+Ind+Prs+ScDu2: ювын
+йиӈкве+V+Act+Ind+Prs+ScDu3: ювыг
+
+йиӈкве+V+Act+Ind+Prs+ScPl1: ювӯв
+йиӈкве+V+Act+Ind+Prs+ScPl2: ювы̄н
+йиӈкве+V+Act+Ind+Prs+ScPl3: ювыт
+
+#тэ̄ӈкве 'syödä' 
+тэ̄ӈкве+V+Act+Ind+Prs+ScSg1: тэ̄гум
+тэ̄ӈкве+V+Act+Ind+Prs+ScSg2: тэ̄гын
+тэ̄ӈкве+V+Act+Ind+Prs+ScSg3: тэ̄г
+
+тэ̄ӈкве+V+Act+Ind+Prs+ScDu1: тэ̄гмēн
+тэ̄ӈкве+V+Act+Ind+Prs+ScDu2: тэ̄гын
+тэ̄ӈкве+V+Act+Ind+Prs+ScDu3: тэ̄гыг
+
+тэ̄ӈкве+V+Act+Ind+Prs+ScPl1: тэ̄гӯв
+тэ̄ӈкве+V+Act+Ind+Prs+ScPl2: тэ̄гын
+тэ̄ӈкве+V+Act+Ind+Prs+ScPl3: тэ̄гыт
+
+# лыӈкве ’heittää’, виӈкве ‘ottaa’, ва̄ ӈкве ‘nähdä’
