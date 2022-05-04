@@ -53,7 +53,7 @@ lemmacount=500
 script_dir=$giella_core/scripts
 
 ################## DO NOT CHANGE BELOW HERE!!! ##################
-source $script_dir/generate-wordforms-for-cont_lexes.sh \
+"$script_dir/generate-wordforms-for-cont_lexes.sh" \
         "$giella_core" \
         "$morf_codes" \
         "$source_file" \
