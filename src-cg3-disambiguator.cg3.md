@@ -5,7 +5,7 @@
 
 ## Delimiters , tags and sets
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>"; DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>";  @CODE
+@CODE
 
 ## Tags and sets 
 
