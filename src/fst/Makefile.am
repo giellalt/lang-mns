@@ -16,7 +16,12 @@
 ## along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Add language-specific flags for hfst-lexc compilation here:
-HFST_LEXC_LOCAL_FLAGS=
+if HAVE_SHARED_COMMON
+HFST_LEXC_LOCAL_FLAGS=  # --Werror # uncomment if lexc is good enough
+else
+HFST_LEXC_LOCAL_FLAGS=  # No --Werror if deps are missing !
+endif
+
 
 ####### Morphology source file defs: ########
 
@@ -68,8 +73,30 @@ GT_LEXC_L2_SRCS=\
 
 # Set this to the names of all generated lexc files, if any
 GENERATED_LEXC_SRCS=generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc \
-                    generated_files/punctuation.lexc \
-                    generated_files/symbols.lexc
+                    generated_files/mul-$(GLANG)-punctuation.lexc \
+                    generated_files/mul-$(GLANG)-symbols.lexc
+
+
+# change handling of shared lexical data here:
+if HAVE_SHARED_COMMON
+url.tmp.lexc: $(gt_SHARED_common)/src/fst/url.lexc
+	$(AM_V_CP)cp -f $< $@
+
+generated_files/mul-$(GLANG)-%.lexc: $(gt_SHARED_common)/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_CP)cp -f $< $@
+else
+# this is "safe" fallback (compiles but you miss everything)
+url.tmp.lexc:
+	echo "LEXICON Root" > $@
+	echo "< h t t p (s) : / / ?*> # ;" >> $@
+
+generated_files/mul-$(GLANG)-%.lexc:
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_C_GEN)echo "! Missing shared common data" > $@
+endif
+# add other lexical shared data handling here
+
 
 # Set this to the names of all source xml files, if any
 GT_XML_SRCS=
@@ -93,8 +120,9 @@ GT_DISTRO_SRCS=
 
 GIELLA_LOCAL_TARGETS=
 
+if HAVE_SHARED_URJ_CYRL
 generated_files/urj-Cyrl-propernouns.lexc: \
-	$(GIELLA_SHARED)/urj-Cyrl/src/fst/stems/urj-Cyrl-propernouns.lexc
+	$(gt_SHARED_urj_Cyrl)/src/fst/stems/urj-Cyrl-propernouns.lexc
 	$(AM_V_at)$(MKDIR_P) generated_files
 	$(AM_V_GEN)cp -f $< $@
 
@@ -107,7 +135,12 @@ generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
 	echo "! <--- Dump from URJ -->" >> $@ && \
 	echo "" >> $@ && \
 	$(top_srcdir)/src/scripts/urj-$(GTLANG)-conversion.pl $< >> $@
+else
+generated_files/urj-Cyrl-$(GTLANG)-%.lexc:
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_C_GEN)echo "! Missing shared common data" > $@
 
+endif
 ### END: Local processing: ###
 
 ####### Other targets: ###########
