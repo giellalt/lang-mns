@@ -125,6 +125,20 @@ PostSyncStem  =  :Cns   ;  !!≈ * **@CODE@**
 !! ## Rules
 Rules
 
+"Syncope for ы, и and у"
+!! **RULE: @RULENAME@**  
+ Vx:Vy <=> Cns _ (Cns) [Cns - й] [ %{SYNCH%}: | %{SYNCS%}: ] %> [ %{ыиØ%}: | а | %{аяØ%}: | %{уØ%}: | %{ЭЕ%}: ] ; !
+  where Vx in ( ы и у )
+        Vy in ( 0 0 0 )
+        matched ;
+
+!! ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
+!!€ ла̄тыӈ{SYNCH}>{уØ}в
+!!€ ла̄т0ӈ0>ув
+!! яныг+N+Sg+Loc:
+!!€ яныг{SYNCH}>{ыиØ}т
+!!€ ян0г0>ыт
+
 "Floating vowel in Archivowels"
 !! **RULE: @RULENAME@**  deletes floting vowel when suffix is vowel initial, VC>V.
  Vx:Vy <=> Cns _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы: | %{ыØ%}: | %{уØ%}: | %{аяØ%}: | %{тØ%}: %{ЭЕ%}: ] ; ! tt: ы: for ы:и
@@ -133,9 +147,6 @@ Rules
         Vy in ( 0   0   0 )
         matched ;
 
-!! ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
-!!€ ла̄т{ыØ}ӈ>{уØ}в
-!!€ ла̄т0ӈ>ув
 
 
 "Deleting ы in suffix for vowel stems and deleting floating ы"
@@ -193,18 +204,14 @@ Rules
 "ы2 as ы in syncope in stem"
 !! **RULE: @RULENAME@**  
 ы2:0 <=> Cns _ Cns %> :Vow ;
-!! яныг+N+Sg+Loc:
-!!€ яны2г>{Øы}т
-!!€ ян0г>ыт
-
-!%{Øы%}:0 this is for Loc
-"Vow ы in loc appears"
-%{Øы%}:ы <=> [р т| ы2: Cns] %> _ т ;
 
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"
 %{ыиØ%}:ы <=>
-     [%{VCCH%}:] %> _ [т|н] ;
+     [%{VCCH%}:|%{SYNCH%}:] %> _ [т|н|л] ;
+!! яныг+N+Sg+Loc:
+!!€ яныг{SYNCH}>{ыиØ}т
+!!€ ян0г0>ыт
 !!
 ![р т|Cns %{ыØ%}: (Cns) Cns] %> _ [т|н] ;
 !! я̄ӈк+N+Sg+Loc: **ice/jää**
@@ -213,7 +220,7 @@ Rules
 
 "Vow и in loc appears"
 %{ыиØ%}:и <=>
-     [%{VCCS%}:] %> _ [т|н] ;
+     [%{VCCS%}:|%{SYNCS%}:] %> _ [т|н|л] ;
 !!ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыØ}т
 !!€ ансамбл00>ит
@@ -344,7 +351,8 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 
 "%{аяØ%}:0"
 !! __@RULENAME@__
-%{аяØ%}:0 <=> VowNoI %> _  ;
+%{аяØ%}:0 <=> %{VO%}:  %> _  ;
+!VowNoI  %> _  ;
 
 
 "%{тØ%}:0"
@@ -371,11 +379,13 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 
 "%{аяØ%}:а"
 !! __@RULENAME@__
- %{аяØ%}:а <=> Cns %> _  ;
+ %{аяØ%}:а <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: ]  %> _  ;
+! Cns %> _  ;
 
 "%{аяØ%}:я"
 !! __@RULENAME@__
-  %{аяØ%}:я <=> [ и | ы | ь: ] %> _  ;
+  %{аяØ%}:я <=> [%{VI%}: | %{SYNCS%}: | %{NOSYNCS%}: | %{VCS%}: | %{VCCS%}: ]  %> _  ;
+  ! [ и | ы | ь: ] %> _  ;
 
 
 !! !!CONSONANTS
