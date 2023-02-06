@@ -475,6 +475,16 @@ All Mansi nouns have the same suffixe, thus only one continuation lexica.
 The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
+* LEXICON N_VI_ Stems ending in и ы: а̄ви
+* LEXICON N_VO_ Stems ending in other vowels ӯра
+* LEXICON N_SYNCH_ Stems with syncopy, hard
+* LEXICON N_SYNCS_ Stems with syncopy, soft
+* LEXICON N_NOSYNCH_ Stems without syncopy, hard
+* LEXICON N_NOSYNCS_ Stems without syncopy, soft
+* LEXICON N_VCH_ Stems ending in single hard consonant
+* LEXICON N_VCCH_ Stems ending in hard consonant cluster: а̄вгуст
+* LEXICON N_VCS_ Stems ending in single soft consonant
+* LEXICON N_VCCS_ Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
 ### 1. Non-possessive forms 
@@ -681,6 +691,8 @@ Precomposed letters are used when available, otherwise non-composed ones.
 
 #### Archiphones
 
+* **%{ыиØ%}:0** Loc and Ins
+
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
@@ -691,7 +703,6 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{иØ%}:и** specific floating vowel 
 * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
 * **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
-* **%{ЫИØ%}:0**
 * **%{УЮØ%}:0**
 * **%{тØ%}:0** PxSg3, Ins
 * **%{ЭЕ%}:0** PxSg3
@@ -699,6 +710,16 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **ы3:0** weak ы for Loc and Lat
 
 #### Triggers
+__%{VO%}:0__ Stem ending in vowel other than и ы
+__%{VI%}:0__ Stem ending in vowel и or ы
+__%{SYNCH%}:0__ Stem with syncope with и, ы, у hard
+__%{SYNCS%}:0__ Stem with syncope with и, ы, у soft
+__%{NOSYNCH%}:0__ Stem without syncope with и, ы, у hard
+__%{NOSYNCS%}:0__ Stem without syncope with и, ы, у soft
+__%{VCH%}:0__ Stem ending in single hard consonant
+__%{VCCH%}:0__ Stem ending in hard consonant cluster
+__%{VCS%}:0__ Stem ending in single soft consonant
+__%{VCCS%}:0__ Stem ending in soft consonant cluster
 
 * **%^PxDu2:0**
 * **%^PxDu3:0**
@@ -802,7 +823,14 @@ End of alphabet definitions
 * *яны2г>{Øы}т*
 * *ян0г>ыт*
 
-**RULE: Palatalising suffix vowel after и/ы stems** is a rule ...
+я̄ӈк+N+Sg+Loc: **ice/jää**
+* *я̄ӈк{VCCH}>{ыиØ}т*
+* *я̄ӈк0>ыт*
+
+* *ансамбль{VCCS}>{ыØ}т*
+* *ансамбл00>ит*
+
+**RULE: Palatalising suffix vowel after и/ы stems**  
 
 **RULE: Palatalising suffix vowel after й ь**  changes у to ы after  й ь
 
@@ -841,7 +869,9 @@ End of alphabet definitions
 * *аки>ум*
 * *аки>0м*
 
-**RULE: Soft sign deletion for и suffixes**  
+**RULE: Soft sign deletion for и suffixes**  2023.02
+* *ансамбль{VCCS}>{ыØ}т*
+* *ансамбл00>ит*
 
 #### Tests:
 ха̄ль+N+Sg+PxSg3+Nom
@@ -1052,6 +1082,8 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+__%{ыиØ%}__ Loc and Ins
+
 __%{тØ%}__ Ins, PxSg3,
 
 **%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
@@ -1067,6 +1099,17 @@ __%{тØ%}__ Ins, PxSg3,
 **ы3** weak ы in Sg Loc and Sg Lat
 
 And following triggers to control variation
+__%{VO%}__ Stem ending in vowel other than и ы
+__%{VI%}__ Stem ending in vowel и or ы
+__%{SYNCH%}__ Stem with syncope with и, ы, у hard
+__%{SYNCS%}__ Stem with syncope with и, ы, у soft
+__%{NOSYNCH%}__ Stem without syncope with и, ы, у hard
+__%{NOSYNCS%}__ Stem without syncope with и, ы, у soft
+__%{VCH%}__ Stem ending in single hard consonant
+__%{VCCH%}__ Stem ending in hard consonant cluster
+__%{VCS%}__ Stem ending in single soft consonant
+__%{VCCS%}__ Stem ending in soft consonant cluster
+
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -1267,21 +1310,40 @@ ADD PROPER NOUNS BELOW
 
 **LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
-* а̄вгуст+N:а̄вгуст N1_ "август" ;
-* а̄ви+N:а̄ви N1_ "вход /место/" ;
-* а̄врах+N:а̄врах N1_ "обрыв" ;
-* а̄втор+N:а̄втор N1_ "автор" ;
-* а̄ги+N:а̄ги N1_ "дочь" ;
-* а̄гирищ+N:а̄гирищ N1_ "девочка" ;
-* а̄гм+N:а̄гм N1_ "боль" ;
-* а̄гум+N:а̄г%{уØ%}м N1_ "болезнь" ;
-* а̄кань+N:а̄кань N1_ "кукла" ;
-* а̄мп+N:а̄мп N1_ "собака" ;
-* а̄па+N:а̄па N1_ "люлька" ;
-* а̄рталь+N:а̄рталь N1_ "семья" ;
-* а̄ртмил+N:а̄ртмил N1_ "удача" ;
-* ласка+N:ласка N1_ "ласка /животное/" ;
-* ласточка+N:ласточка N1_ "ласточка" ;
+* а̄вгуст+N:а̄вгуст N_VCCH_ "август" ;
+* а̄ви+N:а̄ви N_VI_ "вход /место/" ;
+* а̄врах+N:а̄врах N_VCH_ "обрыв" ;
+* а̄втор+N:а̄втор N_VCH_ "автор" ;
+* а̄ги+N:а̄ги N_VI_ "дочь" ;
+* а̄гирищ+N:а̄гирищ N_NOSYNCS_ "девочка" ; CHECKME
+
+* а̄гм+N:а̄гм N_VCCH_ "боль" ; CHECKME
+* а̄гум+N:а̄гум N_SYNCH_ "болезнь" ;
+
+* а̄кань+N:а̄кань N_VCS_ "кукла" ;
+
+* а̄кв+N:а̄кв N_VCCH_ "тётя" ; Compare consonant-final
+* а̄ква+N:а̄ква N_VO_ "тётя" ; Compare vowel-final
+
+* а̄мп+N:а̄мп N_VCCH_ "собака" ;
+* а̄па+N:а̄па N_VO_ "люлька" ;
+* а̄рталь+N:а̄рталь N_VCS_ "семья" ;
+* а̄ртмил+N:а̄ртмил N_VCH_ "удача" ;
+
+* а̄щойка+N:а̄щойка N_VO_ ; CHECKME
+
+* а̄ӈквпыг+N:а̄ӈкв#пыг N_NOSYNCH_ "брат /двоюродный//по материнской линии/" ; CHECKME
+
+* аквщос+N:аквщос N_VCH_ ; CHECKME
+
+* вла̄сть+N:вла̄сть N_VCCS_ "власть" ; CHECKME
+
+* голубь+N:голубь N_VCS_ "голубь" ; CHECKME
+
+* ласка+N:ласка N_VO_ "ласка /животное/" ;
+* ласточка+N:ласточка N_VO_ "ласточка" ;
+
+* тушь+N:тушь N_VCS_ "тушь" ; CHECKME
 
 * * *
 

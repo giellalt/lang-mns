@@ -22,6 +22,8 @@ Precomposed letters are used when available, otherwise non-composed ones.
 
 #### Archiphones
 
+* **%{ыиØ%}:0** Loc and Ins
+
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
@@ -32,7 +34,6 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{иØ%}:и** specific floating vowel 
 * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
 * **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
-* **%{ЫИØ%}:0**
 * **%{УЮØ%}:0**
 * **%{тØ%}:0** PxSg3, Ins
 * **%{ЭЕ%}:0** PxSg3
@@ -40,6 +41,16 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **ы3:0** weak ы for Loc and Lat
 
 #### Triggers
+__%{VO%}:0__ Stem ending in vowel other than и ы
+__%{VI%}:0__ Stem ending in vowel и or ы
+__%{SYNCH%}:0__ Stem with syncope with и, ы, у hard
+__%{SYNCS%}:0__ Stem with syncope with и, ы, у soft
+__%{NOSYNCH%}:0__ Stem without syncope with и, ы, у hard
+__%{NOSYNCS%}:0__ Stem without syncope with и, ы, у soft
+__%{VCH%}:0__ Stem ending in single hard consonant
+__%{VCCH%}:0__ Stem ending in hard consonant cluster
+__%{VCS%}:0__ Stem ending in single soft consonant
+__%{VCCS%}:0__ Stem ending in soft consonant cluster
 
 * **%^PxDu2:0**
 * **%^PxDu3:0**
@@ -143,7 +154,14 @@ End of alphabet definitions
 * *яны2г>{Øы}т*
 * *ян0г>ыт*
 
-**RULE: Palatalising suffix vowel after и/ы stems** is a rule ...
+я̄ӈк+N+Sg+Loc: **ice/jää**
+* *я̄ӈк{VCCH}>{ыиØ}т*
+* *я̄ӈк0>ыт*
+
+* *ансамбль{VCCS}>{ыØ}т*
+* *ансамбл00>ит*
+
+**RULE: Palatalising suffix vowel after и/ы stems**  
 
 **RULE: Palatalising suffix vowel after й ь**  changes у to ы after  й ь
 
@@ -182,7 +200,9 @@ End of alphabet definitions
 * *аки>ум*
 * *аки>0м*
 
-**RULE: Soft sign deletion for и suffixes**  
+**RULE: Soft sign deletion for и suffixes**  2023.02
+* *ансамбль{VCCS}>{ыØ}т*
+* *ансамбл00>ит*
 
 #### Tests:
 ха̄ль+N+Sg+PxSg3+Nom

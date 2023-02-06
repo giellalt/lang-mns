@@ -163,6 +163,8 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+__%{ыиØ%}__ Loc and Ins
+
 __%{тØ%}__ Ins, PxSg3,
 
 **%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
@@ -178,6 +180,17 @@ __%{тØ%}__ Ins, PxSg3,
 **ы3** weak ы in Sg Loc and Sg Lat
 
 And following triggers to control variation
+__%{VO%}__ Stem ending in vowel other than и ы
+__%{VI%}__ Stem ending in vowel и or ы
+__%{SYNCH%}__ Stem with syncope with и, ы, у hard
+__%{SYNCS%}__ Stem with syncope with и, ы, у soft
+__%{NOSYNCH%}__ Stem without syncope with и, ы, у hard
+__%{NOSYNCS%}__ Stem without syncope with и, ы, у soft
+__%{VCH%}__ Stem ending in single hard consonant
+__%{VCCH%}__ Stem ending in hard consonant cluster
+__%{VCS%}__ Stem ending in single soft consonant
+__%{VCCS%}__ Stem ending in soft consonant cluster
+
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
