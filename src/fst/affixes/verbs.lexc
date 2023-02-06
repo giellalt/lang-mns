@@ -57,7 +57,7 @@ LEXICON V11_MUTUAL-IND
 !
 +Ind+Prs+OcSg3+ScSg1:%>%{ЫИ%}лум K ;
 +Ind+Prs+OcSg3+ScSg2:%>%{ЫИ%}лын K ;
-+Ind+Prs+OcSg3+ScSg3:%>%{ЫИ%}тэ K ;
++Ind+Prs+OcSg3+ScSg3:%>%{ЫИ%}тэ K ; ! XXX Long ? тотытэ vs. тоты̄тэ
 +Ind+Prs+OcSg3+ScDu1:%>%{ЫИ%}ламе̄н K ;
 +Ind+Prs+OcSg3+ScDu2:%>%{ЫИ%}лы̄н K ;
 +Ind+Prs+OcSg3+ScDu3:%>%{ЫИ%}тэ̄н K ;
