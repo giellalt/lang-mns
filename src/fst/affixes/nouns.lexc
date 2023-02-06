@@ -73,7 +73,8 @@ LEXICON N1_SG
 +Sg+Loc:%>%{ыØ%}т K ; ! not like Pl Nom!!
 +Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom
 +Sg+Abl:%>ныл K ;
-+Sg+Ins:%>%{тØ%}ыл K ; ! is this тыл after vowels, as I coded it earlier2021-10-25
+!+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
++Sg+Ins:%>ыл K ; ! 43 stems, no т.
 +Sg+Tra:%>%{йØ%}ыг K ;
 
 !+Sg+Loc:%>ы2т K ; ! -ыт/ _ CC, -т elsewhere
