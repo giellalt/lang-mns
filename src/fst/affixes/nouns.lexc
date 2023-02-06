@@ -59,6 +59,27 @@
 !! The stem vowel alternation is taken care of in the twolc file.
 
 !! ## The lexicon
+LEXICON N_VI_ !!≈ * @CODE@ Stems ending in и ы: а̄ви
+:%{VI%} N1_ ;
+LEXICON N_VO_ !!≈ * @CODE@ Stems ending in other vowels ӯра
+:%{VO%} N1_ ;
+LEXICON N_SYNCH_ !!≈ * @CODE@ Stems with syncopy, hard
+:%{SYNCH%} N1_ ;
+LEXICON N_SYNCS_ !!≈ * @CODE@ Stems with syncopy, soft
+:%{SYNCS%} N1_ ;
+LEXICON N_NOSYNCH_ !!≈ * @CODE@ Stems without syncopy, hard
+:%{NOSYNCH%} N1_ ;
+LEXICON N_NOSYNCS_ !!≈ * @CODE@ Stems without syncopy, soft
+:%{NOSYNCS%} N1_ ;
+LEXICON N_VCH_ !!≈ * @CODE@ Stems ending in single hard consonant
+:%{VCH%} N1_ ;
+LEXICON N_VCCH_ !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
+:%{VCCH%} N1_ ;
+LEXICON N_VCS_ !!≈ * @CODE@ Stems ending in single soft consonant
+:%{VCS%} N1_ ;
+LEXICON N_VCCS_ !!≈ * @CODE@ Stems ending in soft consonant cluster
+:%{VCCS%} N1_ ;
+
 
 LEXICON N1_
  N1_SG ;
@@ -70,14 +91,14 @@ LEXICON N1_
 !! affixes for Nom, Loc, Lat, Abl, Ins, Tra.
 LEXICON N1_SG
 +Sg+Nom: K ;
-+Sg+Loc:%>%{ыØ%}т K ; ! not like Pl Nom!!
++Sg+Loc:%>%{ыиØ%}т K ; ! not like Pl Nom!!
 +Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom
 +Sg+Abl:%>ныл K ;
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
 +Sg+Ins:%>ыл K ; ! 43 stems, no т.
 +Sg+Tra:%>%{йØ%}ыг K ;
 
-!+Sg+Loc:%>ы2т K ; ! -ыт/ _ CC, -т elsewhere
+!+Sg+Loc:%>%{ЫИØ%}т K ; ! -ыт/ _ CC, -т elsewhere
 !+Sg+Lat:%>ы2н K ; ! -ын as -ыт above
 
 !! ### 2. Possessive forms
