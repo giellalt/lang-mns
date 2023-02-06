@@ -49,5 +49,36 @@
 +Ind+Prs+OcPl3+ScPl3
 +Ind+Prs+OcPl3+ScPl3
 
++Ind+Prt+OcSg3+ScSg1
++Ind+Prt+OcSg3+ScSg2
++Ind+Prt+OcSg3+ScSg3
++Ind+Prt+OcSg3+ScDu1
++Ind+Prt+OcSg3+ScDu2
++Ind+Prt+OcSg3+ScDu3
++Ind+Prt+OcSg3+ScPl1
++Ind+Prt+OcSg3+ScPl2
++Ind+Prt+OcSg3+ScPl3
+
++Ind+Prt+OcDu3+ScSg1
++Ind+Prt+OcDu3+ScSg2
++Ind+Prt+OcDu3+ScSg3
++Ind+Prt+OcDu3+ScDu1
++Ind+Prt+OcDu3+ScDu2
++Ind+Prt+OcDu3+ScDu3
++Ind+Prt+OcDu3+ScPl1
++Ind+Prt+OcDu3+ScPl2
++Ind+Prt+OcDu3+ScPl3
+
++Ind+Prt+OcPl3+ScSg1
++Ind+Prt+OcPl3+ScSg2
++Ind+Prt+OcPl3+ScSg3
++Ind+Prt+OcPl3+ScDu1
++Ind+Prt+OcPl3+ScDu2
++Ind+Prt+OcPl3+ScDu3
++Ind+Prt+OcPl3+ScPl1
++Ind+Prt+OcPl3+ScPl2
++Ind+Prt+OcPl3+ScPl3
++Ind+Prt+OcPl3+ScPl3
+
 
 
