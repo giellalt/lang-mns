@@ -195,17 +195,9 @@ Rules
 %{ыØ%}:ы <=> [р т|Cns %{ыØ%}: (Cns) Cns] %> _ [т|н] ;
  Cns _ (Cns) Cns (ь:) [ %>  Cns | # ] ;
 
-"ы3 as ы in Sg Loc and Lat"
-!! **RULE: @RULENAME@**  
-ы3:ы <=> Cns (Vow:0) Cns %> _ ;
-
-!! #### Tests:
-
-!!€ тронд>ы3т
-!!€ тронд>ыт
 
 "Palatalising suffix vowel after и/ы stems"
-!! **RULE: @RULENAME@**  
+!! **RULE: @RULENAME@** is a rule ...
 а:я <=>  й: (ы:0) %> _ Cns:+ ;
                 ы %> _ ;
 !where 2019-ç06-16 [и|ы] %> _ Cns:+ Vow ;
@@ -321,6 +313,53 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
 
 
 
+"%{аяØ%}:0"
+!! __@RULENAME@__
+%{аяØ%}:0 <=> VowNoI %> _  ;
+
+"%{тØ%}:0"
+!! __@RULENAME@__
+ %{тØ%}:0 <=> Cns (ь: ) (%^Syncope:) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы л ]  ;
+! # Cns* (Vow Cns) Vow Cns (ь: ) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
+!! ха̄ль+N+Sg+PxSg3+Nom
+!!€ ха̄ль%>%{тØ%}%{ЭЕ%}
+!!€ ха̄л0%>0е
+!! кол+N+Sg+Ins:
+!!€ кол%>%{тØ%}ыл
+!!€ кол%>0ыл
+!! яныт+N+Sg+Ins:
+!!€ ян%{ыØ%}т%>%{тØ%}ыл
+!!€ яныт%>0ыл
+!! потыр+N+Sg+PxSg3+Nom
+!!€ пот%{ыØ%}р>{тØ}{ЭЕ}
+!!€ пот0р>0е
+ VowNoI %>  _ ы: л ;
+!! э̄ква+N+Sg+Ins
+!!€ э̄ква>{тØ}ыл
+!!€ э̄ква>00л
+
+
+"%{аяØ%}:а"
+!! __@RULENAME@__
+ %{аяØ%}:а <=> Cns %> _  ;
+
+"%{аяØ%}:я"
+!! __@RULENAME@__
+  %{аяØ%}:я <=> [ и | ы | ь: ] %> _  ;
+
+
+!! !!CONSONANTS
+"%{тØ%}:т"
+!! __@RULENAME@__
+%{тØ%}:т <=> Vow %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
+!            ы %> _ ы л ;
+
+
+!€ a
+!€ b
+
+
+
 !TOS
 !TOS "Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
 !TOS  ы:0   <=>   _  Cns (ь:) %^Syncope: ;
@@ -384,9 +423,7 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
 !TOS  %{УЮØ%}:0 <=> Vow %> _ м ;
 !TOS                VowNoI %> _ в ;
 
-"%{аяØ%}:0"
-!! __@RULENAME@__
-%{аяØ%}:0 <=> VowNoI %> _  ;
+
 
 !TOS
 !TOS "и:0"
@@ -397,26 +434,6 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
 !TOS  !! __@RULENAME@__
 !TOS  ь:0 <=> _ (%^Syncope:) %> [ %{ЫИØ%}: | %{УЮØ%}: | %{аяØ%}: | %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ] ]  ;
 
-"%{тØ%}:0"
-!! __@RULENAME@__
- %{тØ%}:0 <=> Cns (ь: ) (%^Syncope:) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы л ]  ;
-! # Cns* (Vow Cns) Vow Cns (ь: ) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
-!! ха̄ль+N+Sg+PxSg3+Nom
-!!€ ха̄ль%>%{тØ%}%{ЭЕ%}
-!!€ ха̄л0%>0е
-!! кол+N+Sg+Ins:
-!!€ кол%>%{тØ%}ыл
-!!€ кол%>0ыл
-!! яныт+N+Sg+Ins:
-!!€ ян%{ыØ%}т%>%{тØ%}ыл
-!!€ яныт%>0ыл
-!! потыр+N+Sg+PxSg3+Nom
-!!€ пот%{ыØ%}р>{тØ}{ЭЕ}
-!!€ пот0р>0е
- VowNoI %>  _ ы: л ;
-!! э̄ква+N+Sg+Ins
-!!€ э̄ква>{тØ}ыл
-!!€ э̄ква>00л
 
 !TOS
 !TOS !! VOWEL FROM ARCHIVOWEL
@@ -464,13 +481,6 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
 !TOS  %{УЮØ%}:ю <=> ь: %> _ м ;
 !TOS                [ и | ы | ь: ] %> _ в ;
 
-"%{аяØ%}:а"
-!! __@RULENAME@__
- %{аяØ%}:а <=> Cns %> _  ;
-
-"%{аяØ%}:я"
-!! __@RULENAME@__
-  %{аяØ%}:я <=> [ и | ы | ь: ] %> _  ;
 
 !TOS
 !TOS
@@ -525,44 +535,3 @@ Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
 !TOS  ы:ы̄ <=> _ %> %{ЫИØ%}: %^PxDu2: ;
 !TOS
 
-!! !!CONSONANTS
-"%{тØ%}:т"
-!! __@RULENAME@__
-%{тØ%}:т <=> Vow %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
-            ы %> _ ы л ;
-
-!TOS !! !!CONSONANT LOSS
-!TOS "т:0"
-!TOS !! __@RULENAME@__
-!TOS  т:0 <=> т %> _ ы л ;
-!TOS
-!TOS !! !!SANDHI
-!TOS
-!TOS "0:й"
-!TOS !! __@RULENAME@__
-!TOS  0:й <=> [ и | ы ] %> _  %{ЫИØ%}: [ г | %^PxDu2: н ] ;
-!TOS
-!TOS "%{уØ%}:у"
-!TOS !! __@RULENAME@__
-!TOS  %{уØ%}:у <=> ы: Cns %^Syncope: %> _  м е̄ н ;
-!TOS !!€ потыр%>%{уØ%}ме̄н
-!TOS !!€ пот0р%>уме̄н
-!TOS
-!TOS
-!TOS ! 2017-03-17 It is not necessary to remove triggers a second time
-!TOS ! They have already been removed by default in their declarations JACK
-!TOS !"Required %^PxDu2 loss"
-!TOS !! __@RULENAME__
-!TOS ! %^PxDu2:0 => _ ;
-!TOS
-!TOS !"Required %^PxDu3 loss"
-!TOS !! __@RULENAME__
-!TOS ! %^PxDu3:0 => _ ;
-!TOS
-!TOS !"Required %^PxPl2 loss"
-!TOS !! __@RULENAME__
-!TOS ! %^PxPl2:0 => _ ;
-!TOS
-
-!€ a
-!€ b
