@@ -143,14 +143,7 @@ End of alphabet definitions
 * *яны2г>{Øы}т*
 * *ян0г>ыт*
 
-**RULE: ы3 as ы in Sg Loc and Lat**  
-
-#### Tests:
-
-* *тронд>ы3т*
-* *тронд>ыт*
-
-**RULE: Palatalising suffix vowel after и/ы stems**  
+**RULE: Palatalising suffix vowel after и/ы stems** is a rule ...
 
 **RULE: Palatalising suffix vowel after й ь**  changes у to ы after  й ь
 
