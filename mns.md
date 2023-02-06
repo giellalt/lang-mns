@@ -777,11 +777,16 @@ End of alphabet definitions
 
 ## Rules
 
-**RULE: Floating vowel in Archivowels**  deletes floting vowel when suffix is vowel initial, VC>V.
+**RULE: Syncope for ы, и and у**  
 
 ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
-* *ла̄т{ыØ}ӈ>{уØ}в*
-* *ла̄т0ӈ>ув*
+* *ла̄тыӈ{SYNCH}>{уØ}в*
+* *ла̄т0ӈ0>ув*
+яныг+N+Sg+Loc:
+* *яныг{SYNCH}>{ыиØ}т*
+* *ян0г0>ыт*
+
+**RULE: Floating vowel in Archivowels**  deletes floting vowel when suffix is vowel initial, VC>V.
 
 **RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 
@@ -819,10 +824,10 @@ End of alphabet definitions
 * *аки>0иг*
 
 **RULE: ы2 as ы in syncope in stem**  
-яныг+N+Sg+Loc:
-* *яны2г>{Øы}т*
-* *ян0г>ыт*
 
+яныг+N+Sg+Loc:
+* *яныг{SYNCH}>{ыиØ}т*
+* *ян0г0>ыт*
 я̄ӈк+N+Sg+Loc: **ice/jää**
 * *я̄ӈк{VCCH}>{ыиØ}т*
 * *я̄ӈк0>ыт*
