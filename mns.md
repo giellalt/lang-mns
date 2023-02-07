@@ -760,7 +760,7 @@ End of alphabet definitions
 **RULE: Syncope for ы, и and у**  
 
 ла̄тыӈ+N+Sg+PxPl1+Nom:  **language/kieli**
-* *ла̄тыӈ{SYNCH}>{уØ}в*
+* *ла̄тыӈ{SYNCH}>{уюØ}в*
 * *ла̄т0ӈ0>ув*
 яныг+N+Sg+Loc:
 * *яныг{SYNCH}>{ыиØ}т*
@@ -782,21 +782,17 @@ End of alphabet definitions
 * *ха̄п>ыныл*
 * *ха̄п>0ныл*
 
-**RULE: Syncope for ы, и and у**  
-
 #### Tests:
 
-* *паль>%{йØ%}ыт*
+* *паль>{йØ}ыт*
 * *пал0>0ит*
 
-**RULE: Syncope for ы, и and у**  
-
 #### Tests:
 
-* *а̄ны>{йØ%}ыг*
+* *а̄ны>{йØ}ыг*
 * *а̄ны>0иг*
 аки+N+Sg+Tra: __as an uncle__
-* *аки>{йØ%}ыг*
+* *аки>{йØ}ыг*
 * *аки>0иг*
 
 яныг+N+Sg+Loc:
@@ -834,7 +830,7 @@ End of alphabet definitions
 
 **RULE: Soft sign deletion for и suffixes**  2023.02
 ансамбль+N+Sg+Loc: **band/yhtye**
-* *ансамбль{VCCS}>{ыØ}т*
+* *ансамбль{VCCS}>{ыиØ}т*
 * *ансамбл00>ит*
 
 #### Tests:
@@ -851,6 +847,12 @@ __%{аяØ%}:0__ deletes а/я after VO vowel stems
 __%{аяØ%}:а__
 
 __%{аяØ%}:я__
+
+__%{уюØ%}:0__ deletes а/я after VO vowel stems
+
+__%{уюØ%}:у__
+
+__%{уюØ%}:ю__
 
 __%{ЭЕLong%}:э̄__
 
@@ -869,6 +871,9 @@ __%{ЭЕ%}:е__
 * *пот0р0%>0е*
 
 __%{ЫИ%}:ы__
+тотуӈкве+V+Ind+Prs+ScDu1+OcDu3:
+* *тот{VU}>{ЫИ}ягмен*
+* *тот0>ыягмен*
 
 __%{ЫИ%}:и__
 
