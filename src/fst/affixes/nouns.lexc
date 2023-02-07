@@ -61,22 +61,31 @@
 !! ## The lexicon
 LEXICON N_VI_ !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_ ;
+
 LEXICON N_VO_ !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} N1_ ;
+
 LEXICON N_SYNCH_ !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%} N1_ ;
+
 LEXICON N_SYNCS_ !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} N1_ ;
+
 LEXICON N_NOSYNCH_ !!≈ * @CODE@ Stems without syncopy, hard
 :%{NOSYNCH%} N1_ ;
+
 LEXICON N_NOSYNCS_ !!≈ * @CODE@ Stems without syncopy, soft
 :%{NOSYNCS%} N1_ ;
+
 LEXICON N_VCH_ !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%} N1_ ;
+
 LEXICON N_VCCH_ !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
 :%{VCCH%} N1_ ;
+
 LEXICON N_VCS_ !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%} N1_ ;
+
 LEXICON N_VCCS_ !!≈ * @CODE@ Stems ending in soft consonant cluster
 :%{VCCS%} N1_ ;
 
