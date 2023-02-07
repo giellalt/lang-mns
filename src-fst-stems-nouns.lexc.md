@@ -1,5 +1,21 @@
 # Mansi Noun stems
 
+## The continuiation lexica
+
+- N_NOSYNCH_ = а̄рсын
+- N_NOSYNCS_ = а̄гирищ
+- N_SUP_	    = 
+- N_SYNCH_   = а̄пыр
+- N_SYNCS_   = а̄мыщ
+- N_VCCH_    = а̄гм
+- N_VCCS_    = 
+- N_VCH_	    = а̄врах
+- N_VCS_	    = а̄кань
+- N_VI_	    = а̄ви
+- N_VO_	    = а̄ква
+
+## The lexicon entries
+
 **LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
 * а̄вгуст+N:а̄вгуст N_VCCH_ "август" ;
