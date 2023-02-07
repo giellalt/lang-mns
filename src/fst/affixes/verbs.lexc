@@ -174,22 +174,31 @@ LEXICON V11_MUTUAL-COND
 +Cond+Prs+ScPl2+OcSg3:%>нувлын K ;
 +Cond+Prs+ScPl3+OcSg3:%>нува̄ныл K ;
 !
-+Cond+Prs+ScSg1+OcDu3:%>нува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>нува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>нува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>нувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>нувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>нуваге̄н K ;
++Cond+Prs+ScSg1+OcDu3:%>нувагум K ;
++Err/Orth+Cond+Prs+ScSg1+OcDu3:%>нува̄гум K ;
++Cond+Prs+ScSg2+OcDu3:%>нувагын K ;
++Err/Orth+Cond+Prs+ScSg2+OcDu3:%>нува̄гын K ;
++Cond+Prs+ScSg3+OcDu3:%>нуваге K ;
++Err/Orth+Cond+Prs+ScSg3+OcDu3:%>нува̄ге K ;
++Cond+Prs+ScDu1+OcDu3:%>нувагмен K ;
++Err/Orth+Cond+Prs+ScDu1+OcDu3:%>нувагме̄н K ;
++Cond+Prs+ScDu2+OcDu3:%>нувагын K ;
++Err/Orth+Cond+Prs+ScDu2+OcDu3:%>нувагы̄н K ;
++Cond+Prs+ScDu3+OcDu3:%>нуваген K ;
++Err/Orth+Cond+Prs+ScDu3+OcDu3:%>нуваге̄н K ;
 +Cond+Prs+ScPl1+OcDu3:%>нувагув K ;
 +Cond+Prs+ScPl2+OcDu3:%>нувагы̄н K ;
 +Cond+Prs+ScPl3+OcDu3:%>нувага̄ныл K ;
 !
 +Cond+Prs+ScSg1+OcPl3:%>нува̄нум K ;
 +Cond+Prs+ScSg2+OcPl3:%>нува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>нува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>нуванме̄н K ;
++Cond+Prs+ScSg3+OcPl3:%>нуванэ K ;
++Err/Orth+Cond+Prs+ScSg3+OcPl3:%>нува̄нэ K ;
++Cond+Prs+ScDu1+OcPl3:%>нуванмен K ;
++Err/Orth+Cond+Prs+ScDu1+OcPl3:%>нуванме̄н K ;
 +Cond+Prs+ScDu2+OcPl3:%>нуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>нуванэ̄н K ;
++Cond+Prs+ScDu3+OcPl3:%>нуванэн K ;
++Err/Orth+Cond+Prs+ScDu3+OcPl3:%>нуванэ̄н K ;
 +Cond+Prs+ScPl1+OcPl3:%>нуванув K ;
 +Cond+Prs+ScPl2+OcPl3:%>нуваны̄н K ;
 +Cond+Prs+ScPl3+OcPl3:%>нува̄ныл K ;
@@ -217,16 +226,19 @@ LEXICON V11_MUTUAL-PASS
 +Pass+Prs+ScSg1:%>вем K ;
 +Pass+Prs+ScSg2:%>вен K ;
 +Pass+Prs+ScSg3:%>ве K ;
-+Pass+Prs+ScDu1:%>вемена K ;
++Pass+Prs+ScDu1:%>вемен K ;
++Err/Orth+Pass+Prs+ScDu1:%>вемена K ;
 +Pass+Prs+ScDu1:%>веме̄н K ;
 +Pass+Prs+ScDu2:%>вена K ;
 +Pass+Prs+ScDu2:%>ве̄н K ;
 +Pass+Prs+ScDu3:%>вега K ;
-+Pass+Prs+ScDu3:%>ве̄г K ;
++Pass+Prs+ScDu3:%>вег K ;
++Err/Orth+Pass+Prs+ScDu3:%>ве̄г K ;
 +Pass+Prs+ScPl1:%>вева K ;
 +Pass+Prs+ScPl1:%>ве̄в K ;
 +Pass+Prs+ScPl2:%>вена K ;
-+Pass+Prs+ScPl2:%>ве̄н K ;
++Pass+Prs+ScPl2:%>вен K ;
++Err/Orth+Pass+Prs+ScPl2:%>ве̄н K ;
 +Pass+Prs+ScPl3:%>вет K ;
 !
 +Pass+Prt+ScSg1:%>ве̄сум K ;
@@ -239,1436 +251,1436 @@ LEXICON V11_MUTUAL-PASS
 +Pass+Prt+ScPl2:%>весы̄н K ;
 +Pass+Prt+ScPl3:%>ве̄сыт K ;
 
-LEXICON V11_even 
+!2023_02_09a!LEXICON V11_even 
 !! * **LEXICON @LEXNAME@** pointing to
-+Inf:%>аӈкве K ; !!≈ @CODE@
- V11_MUTUAL ; !!≈ @CODE@
-
-
-
-LEXICON V12_odd
+!2023_02_09a!+Inf:%>аӈкве K ; !!≈ @CODE@
+!2023_02_09a! V11_MUTUAL ; !!≈ @CODE@
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V12_odd
 !! **LEXICON @LEXNAME@** pointing to V11_odd
-V11_odd ;
-
-
-LEXICON V12_even
+!2023_02_09a!V11_odd ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V12_even
 !! 	* **LEXICON @LEXNAME@**  to V11_even
- V11_even ;
-
-LEXICON V13_odd
+!2023_02_09a! V11_even ;
+!2023_02_09a!
+!2023_02_09a!LEXICON V13_odd
 !! 	* **LEXICON @LEXNAME@**  to V11_odd
- V11_odd ;
-
-
-LEXICON V13_even
+!2023_02_09a! V11_odd ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V13_even
 !! **LEXICON @LEXNAME@** to V11_even
- V11_even ;
-
-
-LEXICON V14_odd
+!2023_02_09a! V11_even ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V14_odd
 !! **LEXICON @LEXNAME@** to V11_odd
- V11_odd ;
-
-
-LEXICON V15_odd
+!2023_02_09a! V11_odd ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V15_odd
 !! **LEXICON @LEXNAME@** to V11_odd
- V11_odd ;
-
-
-LEXICON V15_even
+!2023_02_09a! V11_odd ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V15_even
 !! **LEXICON @LEXNAME@** to V11_even
- V11_even ;
-
-
-LEXICON V16_odd
+!2023_02_09a! V11_even ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V16_odd
 !! **LEXICON @LEXNAME@** to V11_odd
- V11_odd ;
-
-LEXICON V16_even
+!2023_02_09a! V11_odd ;
+!2023_02_09a!
+!2023_02_09a!LEXICON V16_even
 !! **LEXICON @LEXNAME@** 
- V11_even ;
-
-
-LEXICON V21_odd
+!2023_02_09a! V11_even ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V21_odd
 !! **LEXICON @LEXNAME@** to V11_odd but with ы, а to V11_MUTUAL-COND
- V11_odd ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-LEXICON V21_even
+!2023_02_09a! V11_odd ;
+!2023_02_09a!:%>ы V11_MUTUAL-COND ;
+!2023_02_09a!:%>а V11_MUTUAL-COND ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V21_even
 !! **LEXICON @LEXNAME@** to V11_even
- V11_even ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-LEXICON V22_even
+!2023_02_09a! V11_even ;
+!2023_02_09a!:%>ы V11_MUTUAL-COND ;
+!2023_02_09a!:%>а V11_MUTUAL-COND ;
+!2023_02_09a!
+!2023_02_09a!LEXICON V22_even
 !! **LEXICON @LEXNAME@** contains all forms
 ! -йы
-+Inf:%>яӈкве K ;
-+Ind+Prs+ScSg1:%>е̄гум K ;
-+Ind+Prs+ScSg2:%>е̄гын K ;
-+Ind+Prs+ScSg3:%>и K ;
-+Ind+Prs+ScDu1:%>име̄н K ;
-+Ind+Prs+ScDu2:%>егы̄н K ;
-+Ind+Prs+ScDu3:%>е̄г K ;
-+Ind+Prs+ScPl1:%>е̄в K ;
-+Ind+Prs+ScPl2:%>егы̄н K ;
-+Ind+Prs+ScPl3:%>е̄гыт K ;
-
-+Ind+Prs+ScSg1+OcSg3:%>илум K ;
-+Ind+Prs+ScSg2+OcSg3:%>илын K ;
-+Ind+Prs+ScSg3+OcSg3:%>итэ K ;
-+Ind+Prs+ScDu1+OcSg3:%>иламе̄н K ;
-+Ind+Prs+ScDu2+OcSg3:%>илы̄н K ;
-+Ind+Prs+ScDu3+OcSg3:%>итэ̄н K ;
-+Ind+Prs+ScPl1+OcSg3:%>илув K ;
-+Ind+Prs+ScPl2+OcSg3:%>илы̄н K ;
-+Ind+Prs+ScPl3+OcSg3:%>ия̄ныл K ;
-
-+Ind+Prs+ScSg1+OcDu3:%>иягум K ;
-+Ind+Prs+ScSg2+OcDu3:%>иягын K ;
-+Ind+Prs+ScSg3+OcDu3:%>ияге K ;
-+Ind+Prs+ScDu1+OcDu3:%>иягме̄н K ;
-+Ind+Prs+ScDu2+OcDu3:%>иягы̄н K ;
-+Ind+Prs+ScDu3+OcDu3:%>ияге̄н K ;
-+Ind+Prs+ScPl1+OcDu3:%>иягув K ;
-+Ind+Prs+ScPl2+OcDu3:%>иягы̄н K ;
-+Ind+Prs+ScPl3+OcDu3:%>ияга̄ныл K ;
-
-+Ind+Prs+ScSg1+OcPl3:%>иянум K ;
-+Ind+Prs+ScSg2+OcPl3:%>иян K ;
-+Ind+Prs+ScSg3+OcPl3:%>иянэ K ;
-+Ind+Prs+ScDu1+OcPl3:%>иянме̄н K ;
-+Ind+Prs+ScDu2+OcPl3:%>ияны̄н K ;
-+Ind+Prs+ScDu3+OcPl3:%>иянэ̄н K ;
-+Ind+Prs+ScPl1+OcPl3:%>иянув K ;
-+Ind+Prs+ScPl2+OcPl3:%>ияны̄н K ;
-+Ind+Prs+ScPl3+OcPl3:%>ия̄ныл K ;
-+Ind+Prs+ScPl3+OcPl3:%>ияна̄ныл K ;
-
-+Ind+Prt+ScSg1:%>исум K ;
-+Ind+Prt+ScSg2:%>исын K ;
-+Ind+Prt+ScSg3:%>ис K ;
-+Ind+Prt+ScDu1:%>исаме̄н K ;
-+Ind+Prt+ScDu2:%>исы̄н K ;
-+Ind+Prt+ScDu3:%>исы̄г K ;
-+Ind+Prt+ScPl1:%>исӯв K ;
-+Ind+Prt+ScPl2:%>исы̄н K ;
-+Ind+Prt+ScPl3:%>исыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>ислум K ;
-+Ind+Prt+ScSg2+OcSg3:%>ислын K ;
-+Ind+Prt+ScSg3+OcSg3:%>истэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>исламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>ислы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>истэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>ислув K ;
-+Ind+Prt+ScPl2+OcSg3:%>ислы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>иса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>исагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>исагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>исаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>исагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>исагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>исаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>исагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>исагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>иса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>исаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>исанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>исан K ;
-+Ind+Prt+ScSg3+OcPl3:%>исанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>исанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>исаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>исанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>исанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>исаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>исаныл K ;
-
-+Ind+Prt+ScSg1:%>ясум K ;
-+Ind+Prt+ScSg2:%>ясын K ;
-+Ind+Prt+ScSg3:%>яс K ;
-+Ind+Prt+ScDu1:%>ясаме̄н K ;
-+Ind+Prt+ScDu2:%>ясы̄н K ;
-+Ind+Prt+ScDu3:%>ясы̄г K ;
-+Ind+Prt+ScPl1:%>ясӯв K ;
-+Ind+Prt+ScPl2:%>ясы̄н K ;
-+Ind+Prt+ScPl3:%>ясыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>яслум K ;
-+Ind+Prt+ScSg2+OcSg3:%>яслын K ;
-+Ind+Prt+ScSg3+OcSg3:%>ястэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>ясламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>яслы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>ястэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>яслув K ;
-+Ind+Prt+ScPl2+OcSg3:%>яслы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>яса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>ясагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>ясагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>ясаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>ясагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>ясагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>ясаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>ясагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>ясагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>яса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>ясаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>ясанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>ясан K ;
-+Ind+Prt+ScSg3+OcPl3:%>ясанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>ясанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>ясаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>ясанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>ясанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>ясаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>ясаныл K ;
-
-+Cond+Prs+ScSg1:%>йнӯвум K ;
-+Cond+Prs+ScSg2:%>йнӯвын K ;
-+Cond+Prs+ScSg3:%>йнув K ;
-+Cond+Prs+ScDu1:%>йнуваме̄н K ;
-+Cond+Prs+ScDu2:%>йнувы̄н K ;
-+Cond+Prs+ScDu3:%>йнувы̄г K ;
-+Cond+Prs+ScPl1:%>йнувӯв K ;
-+Cond+Prs+ScPl2:%>йнувы̄н K ;
-+Cond+Prs+ScPl3:%>йнӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>йнӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>йнӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>йнӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>йнувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>йнувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>йнувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>йнувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>йнувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>йнува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>йнува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>йнува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>йнува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>йнувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>йнувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>йнуваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>йнувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>йнувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>йнувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>йнува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>йнува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>йнува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>йнуванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>йнуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>йнуванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>йнуванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>йнуваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>йнува̄ныл K ;
-
-+Cond+Prs+ScSg1:%>инӯвум K ;
-+Cond+Prs+ScSg2:%>инӯвын K ;
-+Cond+Prs+ScSg3:%>инув K ;
-+Cond+Prs+ScDu1:%>инуваме̄н K ;
-+Cond+Prs+ScDu2:%>инувы̄н K ;
-+Cond+Prs+ScDu3:%>инувы̄г K ;
-+Cond+Prs+ScPl1:%>инувӯв K ;
-+Cond+Prs+ScPl2:%>инувы̄н K ;
-+Cond+Prs+ScPl3:%>инӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>инӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>инӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>инӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>инувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>инувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>инувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>инувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>инувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>инува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>инува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>инува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>инува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>инувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>инувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>инуваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>инувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>инувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>инувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>инува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>инува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>инува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>инуванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>инуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>инуванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>инуванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>инуваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>инува̄ныл K ;
-
-+Cond+Prs+ScSg1:%>янӯвум K ;
-+Cond+Prs+ScSg2:%>янӯвын K ;
-+Cond+Prs+ScSg3:%>янув K ;
-+Cond+Prs+ScDu1:%>януваме̄н K ;
-+Cond+Prs+ScDu2:%>янувы̄н K ;
-+Cond+Prs+ScDu3:%>янувы̄г K ;
-+Cond+Prs+ScPl1:%>янувӯв K ;
-+Cond+Prs+ScPl2:%>янувы̄н K ;
-+Cond+Prs+ScPl3:%>янӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>янӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>янӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>янӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>янувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>янувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>янувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>янувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>янувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>янува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>янува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>янува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>янува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>янувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>янувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>януваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>янувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>янувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>янувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>янува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>янува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>янува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>януванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>януваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>януванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>януванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>януваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>янува̄ныл K ;
-
-+Imprt+ScSg2:%>ен K ;
-+Imprt+ScDu2:%>е̄н K ;
-+Imprt+ScPl2:%>е̄н K ;
-
-+Imprt+ScSg2+OcSg3:%>елн K ;
-+Imprt+ScDu2+OcSg3:%>елн K ;
-+Imprt+ScPl2+OcSg3:%>елн K ;
-
-+Imprt+ScSg2+OcDu3:%>егын K ;
-+Imprt+ScDu2+OcDu3:%>егын K ;
-+Imprt+ScPl2+OcDu3:%>егын K ;
-
-+Imprt+ScSg2+OcPl3:%>е̄н K ;
-+Imprt+ScDu2+OcPl3:%>е̄н K ;
-+Imprt+ScPl2+OcPl3:%>е̄н K ;
-
-+Pass+Prs+ScSg1:%>йвем K ;
-+Pass+Prs+ScSg2:%>йвен K ;
-+Pass+Prs+ScSg3:%>йве K ;
-+Pass+Prs+ScDu1:%>йвемена K ;
-+Pass+Prs+ScDu1:%>йвеме̄н K ;
-+Pass+Prs+ScDu2:%>йвена K ;
-+Pass+Prs+ScDu2:%>йве̄н K ;
-+Pass+Prs+ScDu3:%>йвега K ;
-+Pass+Prs+ScDu3:%>йве̄г K ;
-+Pass+Prs+ScPl1:%>йвева K ;
-+Pass+Prs+ScPl1:%>йве̄в K ;
-+Pass+Prs+ScPl2:%>йвена K ;
-+Pass+Prs+ScPl2:%>йве̄н K ;
-+Pass+Prs+ScPl3:%>йвет K ;
-
-+Pass+Prt+ScSg1:%>йве̄сум K ;
-+Pass+Prt+ScSg2:%>йвесын K ;
-+Pass+Prt+ScSg3:%>йвес K ;
-+Pass+Prt+ScDu1:%>йвесме̄н K ;
-+Pass+Prt+ScDu2:%>йвесы̄н K ;
-+Pass+Prt+ScDu3:%>йвесы̄г K ;
-+Pass+Prt+ScPl1:%>йвесӯв K ;
-+Pass+Prt+ScPl2:%>йвесы̄н K ;
-+Pass+Prt+ScPl3:%>йве̄сыт K ;
-
-+Pass+Prs+ScSg1:%>явем K ;
-+Pass+Prs+ScSg2:%>явен K ;
-+Pass+Prs+ScSg3:%>яве K ;
-+Pass+Prs+ScDu1:%>явемена K ;
-+Pass+Prs+ScDu1:%>явеме̄н K ;
-+Pass+Prs+ScDu2:%>явена K ;
-+Pass+Prs+ScDu2:%>яве̄н K ;
-+Pass+Prs+ScDu3:%>явега K ;
-+Pass+Prs+ScDu3:%>яве̄г K ;
-+Pass+Prs+ScPl1:%>явева K ;
-+Pass+Prs+ScPl1:%>яве̄в K ;
-+Pass+Prs+ScPl2:%>явена K ;
-+Pass+Prs+ScPl2:%>яве̄н K ;
-+Pass+Prs+ScPl3:%>явет K ;
-
-+Pass+Prt+ScSg1:%>яве̄сум K ;
-+Pass+Prt+ScSg2:%>явесын K ;
-+Pass+Prt+ScSg3:%>явес K ;
-+Pass+Prt+ScDu1:%>явесме̄н K ;
-+Pass+Prt+ScDu2:%>явесы̄н K ;
-+Pass+Prt+ScDu3:%>явесы̄г K ;
-+Pass+Prt+ScPl1:%>явесӯв K ;
-+Pass+Prt+ScPl2:%>явесы̄н K ;
-+Pass+Prt+ScPl3:%>яве̄сыт K ;
-
-
-
-LEXICON V23_odd
+!2023_02_09a!+Inf:%>яӈкве K ;
+!2023_02_09a!+Ind+Prs+ScSg1:%>е̄гум K ;
+!2023_02_09a!+Ind+Prs+ScSg2:%>е̄гын K ;
+!2023_02_09a!+Ind+Prs+ScSg3:%>и K ;
+!2023_02_09a!+Ind+Prs+ScDu1:%>име̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2:%>егы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3:%>е̄г K ;
+!2023_02_09a!+Ind+Prs+ScPl1:%>е̄в K ;
+!2023_02_09a!+Ind+Prs+ScPl2:%>егы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3:%>е̄гыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcSg3:%>илум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcSg3:%>илын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcSg3:%>итэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcSg3:%>иламе̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcSg3:%>илы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcSg3:%>итэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcSg3:%>илув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcSg3:%>илы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcSg3:%>ия̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcDu3:%>иягум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcDu3:%>иягын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcDu3:%>ияге K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcDu3:%>иягме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcDu3:%>иягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcDu3:%>ияге̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcDu3:%>иягув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcDu3:%>иягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcDu3:%>ияга̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcPl3:%>иянум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcPl3:%>иян K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcPl3:%>иянэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcPl3:%>иянме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcPl3:%>ияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcPl3:%>иянэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcPl3:%>иянув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcPl3:%>ияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ия̄ныл K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ияна̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>исум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>исын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>ис K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>исаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>исы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>исы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>исӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>исы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>исыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>ислум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>ислын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>истэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>исламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>ислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>истэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>ислув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>ислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>иса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>исагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>исагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>исаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>исагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>исагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>исаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>исагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>исагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>иса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>исаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>исанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>исан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>исанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>исанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>исаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>исанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>исанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>исаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>исаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>ясум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>ясын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>яс K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>ясаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>ясы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>ясы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>ясӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>ясы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>ясыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>яслум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>яслын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>ястэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>ясламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>яслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>ястэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>яслув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>яслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>яса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>ясагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>ясагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>ясаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>ясагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>ясагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>ясаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>ясагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>ясагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>яса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>ясаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>ясанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>ясан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>ясанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>ясанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>ясаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>ясанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>ясанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>ясаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>ясаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>йнӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>йнӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>йнув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>йнуваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>йнувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>йнувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>йнувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>йнувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>йнӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>йнӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>йнӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>йнӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>йнувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>йнувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>йнувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>йнувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>йнувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>йнува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>йнува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>йнува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>йнува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>йнувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>йнувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>йнуваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>йнувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>йнувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>йнувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>йнува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>йнува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>йнува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>йнуванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>йнуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>йнуванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>йнуванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>йнуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>йнува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>инӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>инӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>инув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>инуваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>инувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>инувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>инувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>инувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>инӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>инӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>инӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>инӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>инувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>инувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>инувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>инувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>инувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>инува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>инува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>инува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>инува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>инувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>инувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>инуваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>инувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>инувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>инувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>инува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>инува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>инува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>инуванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>инуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>инуванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>инуванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>инуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>инува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>янӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>янӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>янув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>януваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>янувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>янувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>янувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>янувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>янӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>янӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>янӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>янӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>янувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>янувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>янувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>янувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>янувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>янува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>янува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>янува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>янува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>янувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>янувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>януваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>янувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>янувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>янувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>янува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>янува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>янува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>януванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>януваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>януванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>януванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>януваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>янува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2:%>ен K ;
+!2023_02_09a!+Imprt+ScDu2:%>е̄н K ;
+!2023_02_09a!+Imprt+ScPl2:%>е̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcSg3:%>елн K ;
+!2023_02_09a!+Imprt+ScDu2+OcSg3:%>елн K ;
+!2023_02_09a!+Imprt+ScPl2+OcSg3:%>елн K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcDu3:%>егын K ;
+!2023_02_09a!+Imprt+ScDu2+OcDu3:%>егын K ;
+!2023_02_09a!+Imprt+ScPl2+OcDu3:%>егын K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcPl3:%>е̄н K ;
+!2023_02_09a!+Imprt+ScDu2+OcPl3:%>е̄н K ;
+!2023_02_09a!+Imprt+ScPl2+OcPl3:%>е̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>йвем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>йвен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>йве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>йвемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>йвеме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>йвена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>йве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>йвега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>йве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>йвева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>йве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>йвена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>йве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>йвет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>йве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>йвесын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>йвес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>йвесме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>йвесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>йвесы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>йвесӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>йвесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>йве̄сыт K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>явем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>явен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>яве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>явемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>явеме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>явена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>яве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>явега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>яве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>явева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>яве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>явена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>яве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>явет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>яве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>явесын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>явес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>явесме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>явесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>явесы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>явесӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>явесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>яве̄сыт K ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V23_odd
 !! **LEXICON @LEXNAME@** is the lexicon, pointing to
- V11_odd ;   !!≈ * @CODE@ 
-:%>ы V11_MUTUAL-COND ; !!≈ * @CODE@ 
-:%>а V11_MUTUAL-COND ; !!≈ * @CODE@ 
-
-
-LEXICON V23_even
+!2023_02_09a! V11_odd ;   !!≈ * @CODE@ 
+!2023_02_09a!:%>ы V11_MUTUAL-COND ; !!≈ * @CODE@ 
+!2023_02_09a!:%>а V11_MUTUAL-COND ; !!≈ * @CODE@ 
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V23_even
 !! **LEXICON @LEXNAME@** to V21_even
- V21_even ;
-
-
-LEXICON V25_odd
+!2023_02_09a! V21_even ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V25_odd
 !! **LEXICON @LEXNAME@** to V23_odd
- V23_odd ;
-
-
-LEXICON V26_odd
+!2023_02_09a! V23_odd ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V26_odd
 !! **LEXICON @LEXNAME@** contains all forms
 ! щ ы- 
-
-+Inf:%>уӈкве K ;
-
-+Ind+Prs+ScSg1:%>е̄гум K ;
-+Ind+Prs+ScSg2:%>е̄гын K ;
-+Ind+Prs+ScSg3:%>и K ;
-+Ind+Prs+ScDu1:%>име̄н K ;
-+Ind+Prs+ScDu2:%>егы̄н K ;
-+Ind+Prs+ScDu3:%>е̄г K ;
-+Ind+Prs+ScPl1:%>е̄в K ;
-+Ind+Prs+ScPl2:%>егы̄н K ;
-+Ind+Prs+ScPl3:%>е̄гыт K ;
-
-+Ind+Prs+ScSg1+OcSg3:%>илум K ;
-+Ind+Prs+ScSg2+OcSg3:%>илын K ;
-+Ind+Prs+ScSg3+OcSg3:%>итэ K ;
-+Ind+Prs+ScDu1+OcSg3:%>иламе̄н K ;
-+Ind+Prs+ScDu2+OcSg3:%>илы̄н K ;
-+Ind+Prs+ScDu3+OcSg3:%>итэ̄н K ;
-+Ind+Prs+ScPl1+OcSg3:%>илув K ;
-+Ind+Prs+ScPl2+OcSg3:%>илы̄н K ;
-+Ind+Prs+ScPl3+OcSg3:%>ия̄ныл K ;
-
-+Ind+Prs+ScSg1+OcDu3:%>иягум K ;
-+Ind+Prs+ScSg2+OcDu3:%>иягын K ;
-+Ind+Prs+ScSg3+OcDu3:%>ияге K ;
-+Ind+Prs+ScDu1+OcDu3:%>иягме̄н K ;
-+Ind+Prs+ScDu2+OcDu3:%>иягы̄н K ;
-+Ind+Prs+ScDu3+OcDu3:%>ияге̄н K ;
-+Ind+Prs+ScPl1+OcDu3:%>иягув K ;
-+Ind+Prs+ScPl2+OcDu3:%>иягы̄н K ;
-+Ind+Prs+ScPl3+OcDu3:%>ияга̄ныл K ;
-
-+Ind+Prs+ScSg1+OcPl3:%>иянум K ;
-+Ind+Prs+ScSg2+OcPl3:%>иян K ;
-+Ind+Prs+ScSg3+OcPl3:%>иянэ K ;
-+Ind+Prs+ScDu1+OcPl3:%>иянме̄н K ;
-+Ind+Prs+ScDu2+OcPl3:%>ияны̄н K ;
-+Ind+Prs+ScDu3+OcPl3:%>иянэ̄н K ;
-+Ind+Prs+ScPl1+OcPl3:%>иянув K ;
-+Ind+Prs+ScPl2+OcPl3:%>ияны̄н K ;
-+Ind+Prs+ScPl3+OcPl3:%>ия̄ныл K ;
-+Ind+Prs+ScPl3+OcPl3:%>ияна̄ныл K ;
-
-+Ind+Prt+ScSg1:%>исум K ;
-+Ind+Prt+ScSg2:%>исын K ;
-+Ind+Prt+ScSg3:%>ис K ;
-+Ind+Prt+ScDu1:%>исаме̄н K ;
-+Ind+Prt+ScDu2:%>исы̄н K ;
-+Ind+Prt+ScDu3:%>исы̄г K ;
-+Ind+Prt+ScPl1:%>исӯв K ;
-+Ind+Prt+ScPl2:%>исы̄н K ;
-+Ind+Prt+ScPl3:%>исыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>ислум K ;
-+Ind+Prt+ScSg2+OcSg3:%>ислын K ;
-+Ind+Prt+ScSg3+OcSg3:%>истэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>исламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>ислы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>истэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>ислув K ;
-+Ind+Prt+ScPl2+OcSg3:%>ислы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>иса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>исагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>исагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>исаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>исагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>исагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>исаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>исагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>исагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>иса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>исаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>исанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>исан K ;
-+Ind+Prt+ScSg3+OcPl3:%>исанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>исанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>исаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>исанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>исанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>исаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>исаныл K ;
-
-+Ind+Prt+ScSg1:%>асум K ;
-+Ind+Prt+ScSg2:%>асын K ;
-+Ind+Prt+ScSg3:%>ас K ;
-+Ind+Prt+ScDu1:%>асаме̄н K ;
-+Ind+Prt+ScDu2:%>асы̄н K ;
-+Ind+Prt+ScDu3:%>асы̄г K ;
-+Ind+Prt+ScPl1:%>асӯв K ;
-+Ind+Prt+ScPl2:%>асы̄н K ;
-+Ind+Prt+ScPl3:%>асыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>аслум K ;
-+Ind+Prt+ScSg2+OcSg3:%>аслын K ;
-+Ind+Prt+ScSg3+OcSg3:%>астэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>асламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>аслы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>астэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>аслув K ;
-+Ind+Prt+ScPl2+OcSg3:%>аслы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>аса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>асагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>асагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>асаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>асагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>асагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>асаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>асагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>асагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>аса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>асаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>асанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>асан K ;
-+Ind+Prt+ScSg3+OcPl3:%>асанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>асанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>асаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>асанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>асанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>асаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>асаныл K ;
-
-+Cond+Prs+ScSg1:%>нӯвум K ;
-+Cond+Prs+ScSg2:%>нӯвын K ;
-+Cond+Prs+ScSg3:%>нув K ;
-+Cond+Prs+ScDu1:%>нуваме̄н K ;
-+Cond+Prs+ScDu2:%>нувы̄н K ;
-+Cond+Prs+ScDu3:%>нувы̄г K ;
-+Cond+Prs+ScPl1:%>нувӯв K ;
-+Cond+Prs+ScPl2:%>нувы̄н K ;
-+Cond+Prs+ScPl3:%>нӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>нӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>нӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>нӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>нувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>нувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>нувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>нувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>нувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>нува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>нува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>нува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>нува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>нувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>нувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>нуваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>нувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>нувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>нувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>нува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>нува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>нува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>нуванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>нуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>нуванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>нуванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>нуваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>нува̄ныл K ;
-
-+Cond+Prs+ScSg1:%>инӯвум K ;
-+Cond+Prs+ScSg2:%>инӯвын K ;
-+Cond+Prs+ScSg3:%>инув K ;
-+Cond+Prs+ScDu1:%>инуваме̄н K ;
-+Cond+Prs+ScDu2:%>инувы̄н K ;
-+Cond+Prs+ScDu3:%>инувы̄г K ;
-+Cond+Prs+ScPl1:%>инувӯв K ;
-+Cond+Prs+ScPl2:%>инувы̄н K ;
-+Cond+Prs+ScPl3:%>инӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>инӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>инӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>инӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>инувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>инувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>инувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>инувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>инувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>инува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>инува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>инува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>инува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>инувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>инувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>инуваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>инувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>инувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>инувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>инува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>инува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>инува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>инуванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>инуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>инуванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>инуванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>инуваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>инува̄ныл K ;
-
-+Cond+Prs+ScSg1:%>анӯвум K ;
-+Cond+Prs+ScSg2:%>анӯвын K ;
-+Cond+Prs+ScSg3:%>анув K ;
-+Cond+Prs+ScDu1:%>ануваме̄н K ;
-+Cond+Prs+ScDu2:%>анувы̄н K ;
-+Cond+Prs+ScDu3:%>анувы̄г K ;
-+Cond+Prs+ScPl1:%>анувӯв K ;
-+Cond+Prs+ScPl2:%>анувы̄н K ;
-+Cond+Prs+ScPl3:%>анӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>анӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>анӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>анӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>анувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>анувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>анувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>анувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>анувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>анува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>анува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>анува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>анува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>анувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>анувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>ануваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>анувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>анувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>анувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>анува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>анува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>анува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>ануванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>ануваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>ануванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>ануванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>ануваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>анува̄ныл K ;
-
-+Imprt+ScSg2:%>ен K ;
-+Imprt+ScDu2:%>е̄н K ;
-+Imprt+ScPl2:%>е̄н K ;
-
-+Imprt+ScSg2+OcSg3:%>елн K ;
-+Imprt+ScDu2+OcSg3:%>елн K ;
-+Imprt+ScPl2+OcSg3:%>елн K ;
-
-+Imprt+ScSg2+OcDu3:%>егын K ;
-+Imprt+ScDu2+OcDu3:%>егын K ;
-+Imprt+ScPl2+OcDu3:%>егын K ;
-
-+Imprt+ScSg2+OcPl3:%>е̄н K ;
-+Imprt+ScDu2+OcPl3:%>е̄н K ;
-+Imprt+ScPl2+OcPl3:%>е̄н K ;
-
-+Pass+Prs+ScSg1:%>вем K ;
-+Pass+Prs+ScSg2:%>вен K ;
-+Pass+Prs+ScSg3:%>ве K ;
-+Pass+Prs+ScDu1:%>вемена K ;
-+Pass+Prs+ScDu1:%>веме̄н K ;
-+Pass+Prs+ScDu2:%>вена K ;
-+Pass+Prs+ScDu2:%>ве̄н K ;
-+Pass+Prs+ScDu3:%>вега K ;
-+Pass+Prs+ScDu3:%>ве̄г K ;
-+Pass+Prs+ScPl1:%>вева K ;
-+Pass+Prs+ScPl1:%>ве̄в K ;
-+Pass+Prs+ScPl2:%>вена K ;
-+Pass+Prs+ScPl2:%>ве̄н K ;
-+Pass+Prs+ScPl3:%>вет K ;
-
-+Pass+Prt+ScSg1:%>ве̄сум K ;
-+Pass+Prt+ScSg2:%>весын K ;
-+Pass+Prt+ScSg3:%>вес K ;
-+Pass+Prt+ScDu1:%>весме̄н K ;
-+Pass+Prt+ScDu2:%>весы̄н K ;
-+Pass+Prt+ScDu3:%>весы̄г K ;
-+Pass+Prt+ScPl1:%>весӯв K ;
-+Pass+Prt+ScPl2:%>весы̄н K ;
-+Pass+Prt+ScPl3:%>ве̄сыт K ;
-
-+Pass+Prs+ScSg1:%>авем K ;
-+Pass+Prs+ScSg2:%>авен K ;
-+Pass+Prs+ScSg3:%>аве K ;
-+Pass+Prs+ScDu1:%>авемена K ;
-+Pass+Prs+ScDu1:%>авеме̄н K ;
-+Pass+Prs+ScDu2:%>авена K ;
-+Pass+Prs+ScDu2:%>аве̄н K ;
-+Pass+Prs+ScDu3:%>авега K ;
-+Pass+Prs+ScDu3:%>аве̄г K ;
-+Pass+Prs+ScPl1:%>авева K ;
-+Pass+Prs+ScPl1:%>аве̄в K ;
-+Pass+Prs+ScPl2:%>авена K ;
-+Pass+Prs+ScPl2:%>аве̄н K ;
-+Pass+Prs+ScPl3:%>авет K ;
-
-+Pass+Prt+ScSg1:%>аве̄сум K ;
-+Pass+Prt+ScSg2:%>авесын K ;
-+Pass+Prt+ScSg3:%>авес K ;
-+Pass+Prt+ScDu1:%>авесме̄н K ;
-+Pass+Prt+ScDu2:%>авесы̄н K ;
-+Pass+Prt+ScDu3:%>авесы̄г K ;
-+Pass+Prt+ScPl1:%>авесӯв K ;
-+Pass+Prt+ScPl2:%>авесы̄н K ;
-+Pass+Prt+ScPl3:%>аве̄сыт K ;
-
+!2023_02_09a!
+!2023_02_09a!+Inf:%>уӈкве K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1:%>е̄гум K ;
+!2023_02_09a!+Ind+Prs+ScSg2:%>е̄гын K ;
+!2023_02_09a!+Ind+Prs+ScSg3:%>и K ;
+!2023_02_09a!+Ind+Prs+ScDu1:%>име̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2:%>егы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3:%>е̄г K ;
+!2023_02_09a!+Ind+Prs+ScPl1:%>е̄в K ;
+!2023_02_09a!+Ind+Prs+ScPl2:%>егы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3:%>е̄гыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcSg3:%>илум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcSg3:%>илын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcSg3:%>итэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcSg3:%>иламе̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcSg3:%>илы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcSg3:%>итэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcSg3:%>илув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcSg3:%>илы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcSg3:%>ия̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcDu3:%>иягум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcDu3:%>иягын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcDu3:%>ияге K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcDu3:%>иягме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcDu3:%>иягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcDu3:%>ияге̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcDu3:%>иягув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcDu3:%>иягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcDu3:%>ияга̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcPl3:%>иянум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcPl3:%>иян K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcPl3:%>иянэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcPl3:%>иянме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcPl3:%>ияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcPl3:%>иянэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcPl3:%>иянув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcPl3:%>ияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ия̄ныл K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ияна̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>исум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>исын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>ис K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>исаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>исы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>исы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>исӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>исы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>исыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>ислум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>ислын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>истэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>исламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>ислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>истэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>ислув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>ислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>иса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>исагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>исагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>исаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>исагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>исагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>исаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>исагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>исагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>иса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>исаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>исанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>исан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>исанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>исанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>исаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>исанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>исанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>исаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>исаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>асум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>асын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>ас K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>асаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>асы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>асы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>асӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>асы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>асыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>аслум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>аслын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>астэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>асламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>аслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>астэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>аслув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>аслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>аса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>асагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>асагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>асаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>асагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>асагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>асаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>асагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>асагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>аса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>асаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>асанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>асан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>асанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>асанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>асаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>асанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>асанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>асаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>асаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>нӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>нӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>нув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>нуваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>нувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>нувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>нувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>нувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>нӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>нӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>нӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>нӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>нувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>нувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>нувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>нувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>нувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>нува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>нува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>нува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>нува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>нувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>нувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>нуваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>нувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>нувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>нувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>нува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>нува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>нува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>нуванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>нуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>нуванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>нуванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>нуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>нува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>инӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>инӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>инув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>инуваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>инувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>инувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>инувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>инувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>инӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>инӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>инӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>инӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>инувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>инувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>инувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>инувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>инувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>инува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>инува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>инува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>инува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>инувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>инувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>инуваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>инувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>инувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>инувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>инува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>инува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>инува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>инуванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>инуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>инуванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>инуванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>инуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>инува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>анӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>анӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>анув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>ануваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>анувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>анувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>анувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>анувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>анӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>анӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>анӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>анӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>анувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>анувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>анувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>анувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>анувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>анува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>анува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>анува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>анува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>анувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>анувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>ануваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>анувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>анувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>анувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>анува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>анува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>анува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>ануванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>ануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>ануванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>ануванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>ануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>анува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2:%>ен K ;
+!2023_02_09a!+Imprt+ScDu2:%>е̄н K ;
+!2023_02_09a!+Imprt+ScPl2:%>е̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcSg3:%>елн K ;
+!2023_02_09a!+Imprt+ScDu2+OcSg3:%>елн K ;
+!2023_02_09a!+Imprt+ScPl2+OcSg3:%>елн K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcDu3:%>егын K ;
+!2023_02_09a!+Imprt+ScDu2+OcDu3:%>егын K ;
+!2023_02_09a!+Imprt+ScPl2+OcDu3:%>егын K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcPl3:%>е̄н K ;
+!2023_02_09a!+Imprt+ScDu2+OcPl3:%>е̄н K ;
+!2023_02_09a!+Imprt+ScPl2+OcPl3:%>е̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>вем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>вен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>ве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>вемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>веме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>вена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>ве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>вега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>ве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>вева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>ве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>вена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>ве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>вет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>ве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>весын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>вес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>весме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>весы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>весы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>весӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>весы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>ве̄сыт K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>авем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>авен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>аве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>авемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>авеме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>авена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>аве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>авега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>аве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>авева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>аве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>авена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>аве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>авет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>аве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>авесын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>авес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>авесме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>авесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>авесы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>авесӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>авесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>аве̄сыт K ;
+!2023_02_09a!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON V26_even
+!2023_02_09a!
+!2023_02_09a!LEXICON V26_even
 !! **LEXICON @LEXNAME@** contains all forms
-+Inf:%>аӈкве K ;
-
-+Ind+Prs+ScSg1:%>е̄гум K ;
-+Ind+Prs+ScSg2:%>е̄гын K ;
-+Ind+Prs+ScSg3:%>и K ;
-+Ind+Prs+ScDu1:%>име̄н K ;
-+Ind+Prs+ScDu2:%>егы̄н K ;
-+Ind+Prs+ScDu3:%>е̄г K ;
-+Ind+Prs+ScPl1:%>е̄в K ;
-+Ind+Prs+ScPl2:%>егы̄н K ;
-+Ind+Prs+ScPl3:%>е̄гыт K ;
-
-+Ind+Prs+ScSg1+OcSg3:%>илум K ;
-+Ind+Prs+ScSg2+OcSg3:%>илын K ;
-+Ind+Prs+ScSg3+OcSg3:%>итэ K ;
-+Ind+Prs+ScDu1+OcSg3:%>иламе̄н K ;
-+Ind+Prs+ScDu2+OcSg3:%>илы̄н K ;
-+Ind+Prs+ScDu3+OcSg3:%>итэ̄н K ;
-+Ind+Prs+ScPl1+OcSg3:%>илув K ;
-+Ind+Prs+ScPl2+OcSg3:%>илы̄н K ;
-+Ind+Prs+ScPl3+OcSg3:%>ия̄ныл K ;
-
-+Ind+Prs+ScSg1+OcDu3:%>иягум K ;
-+Ind+Prs+ScSg2+OcDu3:%>иягын K ;
-+Ind+Prs+ScSg3+OcDu3:%>ияге K ;
-+Ind+Prs+ScDu1+OcDu3:%>иягме̄н K ;
-+Ind+Prs+ScDu2+OcDu3:%>иягы̄н K ;
-+Ind+Prs+ScDu3+OcDu3:%>ияге̄н K ;
-+Ind+Prs+ScPl1+OcDu3:%>иягув K ;
-+Ind+Prs+ScPl2+OcDu3:%>иягы̄н K ;
-+Ind+Prs+ScPl3+OcDu3:%>ияга̄ныл K ;
-
-+Ind+Prs+ScSg1+OcPl3:%>иянум K ;
-+Ind+Prs+ScSg2+OcPl3:%>иян K ;
-+Ind+Prs+ScSg3+OcPl3:%>иянэ K ;
-+Ind+Prs+ScDu1+OcPl3:%>иянме̄н K ;
-+Ind+Prs+ScDu2+OcPl3:%>ияны̄н K ;
-+Ind+Prs+ScDu3+OcPl3:%>иянэ̄н K ;
-+Ind+Prs+ScPl1+OcPl3:%>иянув K ;
-+Ind+Prs+ScPl2+OcPl3:%>ияны̄н K ;
-+Ind+Prs+ScPl3+OcPl3:%>ия̄ныл K ;
-+Ind+Prs+ScPl3+OcPl3:%>ияна̄ныл K ;
-
-+Ind+Prt+ScSg1:%>исум K ;
-+Ind+Prt+ScSg2:%>исын K ;
-+Ind+Prt+ScSg3:%>ис K ;
-+Ind+Prt+ScDu1:%>исаме̄н K ;
-+Ind+Prt+ScDu2:%>исы̄н K ;
-+Ind+Prt+ScDu3:%>исы̄г K ;
-+Ind+Prt+ScPl1:%>исӯв K ;
-+Ind+Prt+ScPl2:%>исы̄н K ;
-+Ind+Prt+ScPl3:%>исыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>ислум K ;
-+Ind+Prt+ScSg2+OcSg3:%>ислын K ;
-+Ind+Prt+ScSg3+OcSg3:%>истэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>исламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>ислы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>истэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>ислув K ;
-+Ind+Prt+ScPl2+OcSg3:%>ислы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>иса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>исагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>исагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>исаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>исагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>исагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>исаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>исагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>исагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>иса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>исаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>исанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>исан K ;
-+Ind+Prt+ScSg3+OcPl3:%>исанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>исанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>исаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>исанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>исанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>исаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>исаныл K ;
-
-+Ind+Prt+ScSg1:%>асум K ;
-+Ind+Prt+ScSg2:%>асын K ;
-+Ind+Prt+ScSg3:%>ас K ;
-+Ind+Prt+ScDu1:%>асаме̄н K ;
-+Ind+Prt+ScDu2:%>асы̄н K ;
-+Ind+Prt+ScDu3:%>асы̄г K ;
-+Ind+Prt+ScPl1:%>асӯв K ;
-+Ind+Prt+ScPl2:%>асы̄н K ;
-+Ind+Prt+ScPl3:%>асыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>аслум K ;
-+Ind+Prt+ScSg2+OcSg3:%>аслын K ;
-+Ind+Prt+ScSg3+OcSg3:%>астэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>асламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>аслы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>астэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>аслув K ;
-+Ind+Prt+ScPl2+OcSg3:%>аслы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>аса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>асагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>асагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>асаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>асагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>асагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>асаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>асагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>асагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>аса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>асаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>асанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>асан K ;
-+Ind+Prt+ScSg3+OcPl3:%>асанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>асанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>асаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>асанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>асанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>асаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>асаныл K ;
-
-+Cond+Prs+ScSg1:%>нӯвум K ;
-+Cond+Prs+ScSg2:%>нӯвын K ;
-+Cond+Prs+ScSg3:%>нув K ;
-+Cond+Prs+ScDu1:%>нуваме̄н K ;
-+Cond+Prs+ScDu2:%>нувы̄н K ;
-+Cond+Prs+ScDu3:%>нувы̄г K ;
-+Cond+Prs+ScPl1:%>нувӯв K ;
-+Cond+Prs+ScPl2:%>нувы̄н K ;
-+Cond+Prs+ScPl3:%>нӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>нӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>нӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>нӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>нувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>нувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>нувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>нувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>нувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>нува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>нува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>нува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>нува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>нувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>нувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>нуваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>нувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>нувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>нувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>нува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>нува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>нува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>нуванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>нуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>нуванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>нуванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>нуваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>нува̄ныл K ;
-
-+Cond+Prs+ScSg1:%>инӯвум K ;
-+Cond+Prs+ScSg2:%>инӯвын K ;
-+Cond+Prs+ScSg3:%>инув K ;
-+Cond+Prs+ScDu1:%>инуваме̄н K ;
-+Cond+Prs+ScDu2:%>инувы̄н K ;
-+Cond+Prs+ScDu3:%>инувы̄г K ;
-+Cond+Prs+ScPl1:%>инувӯв K ;
-+Cond+Prs+ScPl2:%>инувы̄н K ;
-+Cond+Prs+ScPl3:%>инӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>инӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>инӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>инӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>инувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>инувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>инувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>инувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>инувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>инува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>инува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>инува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>инува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>инувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>инувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>инуваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>инувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>инувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>инувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>инува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>инува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>инува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>инуванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>инуваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>инуванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>инуванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>инуваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>инува̄ныл K ;
-
-+Cond+Prs+ScSg1:%>анӯвум K ;
-+Cond+Prs+ScSg2:%>анӯвын K ;
-+Cond+Prs+ScSg3:%>анув K ;
-+Cond+Prs+ScDu1:%>ануваме̄н K ;
-+Cond+Prs+ScDu2:%>анувы̄н K ;
-+Cond+Prs+ScDu3:%>анувы̄г K ;
-+Cond+Prs+ScPl1:%>анувӯв K ;
-+Cond+Prs+ScPl2:%>анувы̄н K ;
-+Cond+Prs+ScPl3:%>анӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>анӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>анӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>анӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>анувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>анувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>анувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>анувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>анувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>анува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>анува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>анува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>анува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>анувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>анувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>ануваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>анувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>анувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>анувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>анува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>анува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>анува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>ануванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>ануваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>ануванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>ануванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>ануваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>анува̄ныл K ;
-
-+Imprt+ScSg2:%>ен K ;
-+Imprt+ScDu2:%>е̄н K ;
-+Imprt+ScPl2:%>е̄н K ;
-
-+Imprt+ScSg2+OcSg3:%>елн K ;
-+Imprt+ScDu2+OcSg3:%>елн K ;
-+Imprt+ScPl2+OcSg3:%>елн K ;
-
-+Imprt+ScSg2+OcDu3:%>егын K ;
-+Imprt+ScDu2+OcDu3:%>егын K ;
-+Imprt+ScPl2+OcDu3:%>егын K ;
-
-+Imprt+ScSg2+OcPl3:%>е̄н K ;
-+Imprt+ScDu2+OcPl3:%>е̄н K ;
-+Imprt+ScPl2+OcPl3:%>е̄н K ;
-
-+Pass+Prs+ScSg1:%>вем K ;
-+Pass+Prs+ScSg2:%>вен K ;
-+Pass+Prs+ScSg3:%>ве K ;
-+Pass+Prs+ScDu1:%>вемена K ;
-+Pass+Prs+ScDu1:%>веме̄н K ;
-+Pass+Prs+ScDu2:%>вена K ;
-+Pass+Prs+ScDu2:%>ве̄н K ;
-+Pass+Prs+ScDu3:%>вега K ;
-+Pass+Prs+ScDu3:%>ве̄г K ;
-+Pass+Prs+ScPl1:%>вева K ;
-+Pass+Prs+ScPl1:%>ве̄в K ;
-+Pass+Prs+ScPl2:%>вена K ;
-+Pass+Prs+ScPl2:%>ве̄н K ;
-+Pass+Prs+ScPl3:%>вет K ;
-
-+Pass+Prt+ScSg1:%>ве̄сум K ;
-+Pass+Prt+ScSg2:%>весын K ;
-+Pass+Prt+ScSg3:%>вес K ;
-+Pass+Prt+ScDu1:%>весме̄н K ;
-+Pass+Prt+ScDu2:%>весы̄н K ;
-+Pass+Prt+ScDu3:%>весы̄г K ;
-+Pass+Prt+ScPl1:%>весӯв K ;
-+Pass+Prt+ScPl2:%>весы̄н K ;
-+Pass+Prt+ScPl3:%>ве̄сыт K ;
-
-+Pass+Prs+ScSg1:%>авем K ;
-+Pass+Prs+ScSg2:%>авен K ;
-+Pass+Prs+ScSg3:%>аве K ;
-+Pass+Prs+ScDu1:%>авемена K ;
-+Pass+Prs+ScDu1:%>авеме̄н K ;
-+Pass+Prs+ScDu2:%>авена K ;
-+Pass+Prs+ScDu2:%>аве̄н K ;
-+Pass+Prs+ScDu3:%>авега K ;
-+Pass+Prs+ScDu3:%>аве̄г K ;
-+Pass+Prs+ScPl1:%>авева K ;
-+Pass+Prs+ScPl1:%>аве̄в K ;
-+Pass+Prs+ScPl2:%>авена K ;
-+Pass+Prs+ScPl2:%>аве̄н K ;
-+Pass+Prs+ScPl3:%>авет K ;
-
-+Pass+Prt+ScSg1:%>аве̄сум K ;
-+Pass+Prt+ScSg2:%>авесын K ;
-+Pass+Prt+ScSg3:%>авес K ;
-+Pass+Prt+ScDu1:%>авесме̄н K ;
-+Pass+Prt+ScDu2:%>авесы̄н K ;
-+Pass+Prt+ScDu3:%>авесы̄г K ;
-+Pass+Prt+ScPl1:%>авесӯв K ;
-+Pass+Prt+ScPl2:%>авесы̄н K ;
-+Pass+Prt+ScPl3:%>аве̄сыт K ;
-
+!2023_02_09a!+Inf:%>аӈкве K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1:%>е̄гум K ;
+!2023_02_09a!+Ind+Prs+ScSg2:%>е̄гын K ;
+!2023_02_09a!+Ind+Prs+ScSg3:%>и K ;
+!2023_02_09a!+Ind+Prs+ScDu1:%>име̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2:%>егы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3:%>е̄г K ;
+!2023_02_09a!+Ind+Prs+ScPl1:%>е̄в K ;
+!2023_02_09a!+Ind+Prs+ScPl2:%>егы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3:%>е̄гыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcSg3:%>илум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcSg3:%>илын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcSg3:%>итэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcSg3:%>иламе̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcSg3:%>илы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcSg3:%>итэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcSg3:%>илув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcSg3:%>илы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcSg3:%>ия̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcDu3:%>иягум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcDu3:%>иягын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcDu3:%>ияге K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcDu3:%>иягме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcDu3:%>иягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcDu3:%>ияге̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcDu3:%>иягув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcDu3:%>иягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcDu3:%>ияга̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcPl3:%>иянум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcPl3:%>иян K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcPl3:%>иянэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcPl3:%>иянме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcPl3:%>ияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcPl3:%>иянэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcPl3:%>иянув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcPl3:%>ияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ия̄ныл K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ияна̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>исум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>исын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>ис K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>исаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>исы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>исы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>исӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>исы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>исыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>ислум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>ислын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>истэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>исламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>ислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>истэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>ислув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>ислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>иса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>исагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>исагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>исаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>исагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>исагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>исаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>исагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>исагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>иса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>исаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>исанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>исан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>исанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>исанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>исаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>исанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>исанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>исаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>исаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>асум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>асын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>ас K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>асаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>асы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>асы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>асӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>асы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>асыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>аслум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>аслын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>астэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>асламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>аслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>астэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>аслув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>аслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>аса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>асагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>асагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>асаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>асагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>асагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>асаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>асагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>асагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>аса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>асаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>асанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>асан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>асанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>асанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>асаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>асанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>асанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>асаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>асаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>нӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>нӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>нув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>нуваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>нувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>нувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>нувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>нувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>нӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>нӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>нӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>нӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>нувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>нувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>нувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>нувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>нувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>нува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>нува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>нува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>нува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>нувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>нувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>нуваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>нувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>нувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>нувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>нува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>нува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>нува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>нуванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>нуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>нуванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>нуванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>нуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>нува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>инӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>инӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>инув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>инуваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>инувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>инувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>инувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>инувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>инӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>инӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>инӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>инӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>инувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>инувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>инувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>инувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>инувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>инува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>инува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>инува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>инува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>инувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>инувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>инуваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>инувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>инувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>инувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>инува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>инува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>инува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>инуванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>инуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>инуванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>инуванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>инуваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>инува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>анӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>анӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>анув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>ануваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>анувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>анувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>анувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>анувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>анӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>анӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>анӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>анӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>анувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>анувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>анувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>анувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>анувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>анува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>анува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>анува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>анува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>анувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>анувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>ануваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>анувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>анувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>анувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>анува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>анува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>анува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>ануванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>ануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>ануванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>ануванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>ануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>анува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2:%>ен K ;
+!2023_02_09a!+Imprt+ScDu2:%>е̄н K ;
+!2023_02_09a!+Imprt+ScPl2:%>е̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcSg3:%>елн K ;
+!2023_02_09a!+Imprt+ScDu2+OcSg3:%>елн K ;
+!2023_02_09a!+Imprt+ScPl2+OcSg3:%>елн K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcDu3:%>егын K ;
+!2023_02_09a!+Imprt+ScDu2+OcDu3:%>егын K ;
+!2023_02_09a!+Imprt+ScPl2+OcDu3:%>егын K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcPl3:%>е̄н K ;
+!2023_02_09a!+Imprt+ScDu2+OcPl3:%>е̄н K ;
+!2023_02_09a!+Imprt+ScPl2+OcPl3:%>е̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>вем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>вен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>ве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>вемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>веме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>вена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>ве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>вега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>ве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>вева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>ве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>вена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>ве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>вет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>ве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>весын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>вес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>весме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>весы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>весы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>весӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>весы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>ве̄сыт K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>авем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>авен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>аве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>авемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>авеме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>авена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>аве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>авега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>аве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>авева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>аве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>авена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>аве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>авет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>аве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>авесын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>авес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>авесме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>авесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>авесы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>авесӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>авесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>аве̄сыт K ;
+!2023_02_09a!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON V27_odd
+!2023_02_09a!
+!2023_02_09a!LEXICON V27_odd
 !! **LEXICON @LEXNAME@** contains all forms
-+Inf:%>нсуӈкве K ;
-
-+Ind+Prs+ScSg1:%>нсэ̄гум K ;
-+Ind+Prs+ScSg2:%>нсэ̄гын K ;
-+Ind+Prs+ScSg3:%>нсы K ;
-+Ind+Prs+ScDu1:%>нсыме̄н K ;
-+Ind+Prs+ScDu2:%>нсэгы̄н K ;
-+Ind+Prs+ScDu3:%>нсэ̄г K ;
-+Ind+Prs+ScPl1:%>нсэ̄в K ;
-+Ind+Prs+ScPl2:%>нсэгы̄н K ;
-+Ind+Prs+ScPl3:%>нсэ̄гыт K ;
-
-+Ind+Prs+ScSg1+OcSg3:%>нсылум K ;
-+Ind+Prs+ScSg2+OcSg3:%>нсылын K ;
-+Ind+Prs+ScSg3+OcSg3:%>нсытэ K ;
-+Ind+Prs+ScDu1+OcSg3:%>нсыламе̄н K ;
-+Ind+Prs+ScDu2+OcSg3:%>нсылы̄н K ;
-+Ind+Prs+ScDu3+OcSg3:%>нсытэ̄н K ;
-+Ind+Prs+ScPl1+OcSg3:%>нсылув K ;
-+Ind+Prs+ScPl2+OcSg3:%>нсылы̄н K ;
-+Ind+Prs+ScPl3+OcSg3:%>нсыя̄ныл K ;
-
-+Ind+Prs+ScSg1+OcDu3:%>нсыягум K ;
-+Ind+Prs+ScSg2+OcDu3:%>нсыягын K ;
-+Ind+Prs+ScSg3+OcDu3:%>нсыяге K ;
-+Ind+Prs+ScDu1+OcDu3:%>нсыягме̄н K ;
-+Ind+Prs+ScDu2+OcDu3:%>нсыягы̄н K ;
-+Ind+Prs+ScDu3+OcDu3:%>нсыяге̄н K ;
-+Ind+Prs+ScPl1+OcDu3:%>нсыягув K ;
-+Ind+Prs+ScPl2+OcDu3:%>нсыягы̄н K ;
-+Ind+Prs+ScPl3+OcDu3:%>нсыяга̄ныл K ;
-
-+Ind+Prs+ScSg1+OcPl3:%>нсыянум K ;
-+Ind+Prs+ScSg2+OcPl3:%>нсыян K ;
-+Ind+Prs+ScSg3+OcPl3:%>нсыянэ K ;
-+Ind+Prs+ScDu1+OcPl3:%>нсыянме̄н K ;
-+Ind+Prs+ScDu2+OcPl3:%>нсыяны̄н K ;
-+Ind+Prs+ScDu3+OcPl3:%>нсыянэ̄н K ;
-+Ind+Prs+ScPl1+OcPl3:%>нсыянув K ;
-+Ind+Prs+ScPl2+OcPl3:%>нсыяны̄н K ;
-+Ind+Prs+ScPl3+OcPl3:%>нсыя̄ныл K ;
-+Ind+Prs+ScPl3+OcPl3:%>нсыяна̄ныл K ;
-
-+Ind+Prt+ScSg1:%>ссум K ;
-+Ind+Prt+ScSg2:%>ссын K ;
-+Ind+Prt+ScSg3:%>нсыс K ;
-+Ind+Prt+ScDu1:%>ссаме̄н K ;
-+Ind+Prt+ScDu2:%>ссы̄н K ;
-+Ind+Prt+ScDu3:%>ссы̄г K ;
-+Ind+Prt+ScPl1:%>ссӯв K ;
-+Ind+Prt+ScPl2:%>ссы̄н K ;
-+Ind+Prt+ScPl3:%>ссыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>нсыслум K ;
-+Ind+Prt+ScSg2+OcSg3:%>нсыслын K ;
-+Ind+Prt+ScSg3+OcSg3:%>нсыстэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>нсысламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>нсыслы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>нсыстэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>нсыслув K ;
-+Ind+Prt+ScPl2+OcSg3:%>нсыслы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>сса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>ссагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>ссагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>ссаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>ссагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>ссагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>ссаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>ссагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>ссагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>сса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>ссаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>ссанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>ссан K ;
-+Ind+Prt+ScSg3+OcPl3:%>ссанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>ссанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>ссаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>ссанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>ссанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>ссаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>ссаныл K ;
-
-+Cond+Prs+ScSg1:%>нсанӯвум K ;
-+Cond+Prs+ScSg2:%>нсанӯвын K ;
-+Cond+Prs+ScSg3:%>нсанув K ;
-+Cond+Prs+ScDu1:%>нсануваме̄н K ;
-+Cond+Prs+ScDu2:%>нсанувы̄н K ;
-+Cond+Prs+ScDu3:%>нсанувы̄г K ;
-+Cond+Prs+ScPl1:%>нсанувӯв K ;
-+Cond+Prs+ScPl2:%>нсанувы̄н K ;
-+Cond+Prs+ScPl3:%>нсанӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>нсанӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>нсанӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>нсанӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>нсанувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>нсанувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>нсанувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>нсанувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>нсанувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>нсанува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>нсанува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>нсанува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>нсанува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>нсанувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>нсанувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>нсануваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>нсанувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>нсанувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>нсанувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>нсанува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>нсанува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>нсанува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>нсануванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>нсануваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>нсануванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>нсануванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>нсануваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>нсанува̄ныл K ;
-
-+Imprt+ScSg2:%>нсэн K ;
-+Imprt+ScDu2:%>нсэ̄н K ;
-+Imprt+ScPl2:%>нсэ̄н K ;
-
-+Imprt+ScSg2+OcSg3:%>нсэлн K ;
-+Imprt+ScDu2+OcSg3:%>нсэлн K ;
-+Imprt+ScPl2+OcSg3:%>нсэлн K ;
-
-+Imprt+ScSg2+OcDu3:%>нсэгын K ;
-+Imprt+ScDu2+OcDu3:%>нсэгын K ;
-+Imprt+ScPl2+OcDu3:%>нсэгын K ;
-
-+Imprt+ScSg2+OcPl3:%>нсэ̄н K ;
-+Imprt+ScDu2+OcPl3:%>нсэ̄н K ;
-+Imprt+ScPl2+OcPl3:%>нсэ̄н K ;
-
-+Pass+Prs+ScSg1:%>нсавем K ;
-+Pass+Prs+ScSg2:%>нсавен K ;
-+Pass+Prs+ScSg3:%>нсаве K ;
-+Pass+Prs+ScDu1:%>нсавемена K ;
-+Pass+Prs+ScDu1:%>нсавеме̄н K ;
-+Pass+Prs+ScDu2:%>нсавена K ;
-+Pass+Prs+ScDu2:%>нсаве̄н K ;
-+Pass+Prs+ScDu3:%>нсавега K ;
-+Pass+Prs+ScDu3:%>нсаве̄г K ;
-+Pass+Prs+ScPl1:%>нсавева K ;
-+Pass+Prs+ScPl1:%>нсаве̄в K ;
-+Pass+Prs+ScPl2:%>нсавена K ;
-+Pass+Prs+ScPl2:%>нсаве̄н K ;
-+Pass+Prs+ScPl3:%>нсавет K ;
-
-+Pass+Prt+ScSg1:%>нсаве̄сум K ;
-+Pass+Prt+ScSg2:%>нсавесын K ;
-+Pass+Prt+ScSg3:%>нсавес K ;
-+Pass+Prt+ScDu1:%>нсавесме̄н K ;
-+Pass+Prt+ScDu2:%>нсавесы̄н K ;
-+Pass+Prt+ScDu3:%>нсавесы̄г K ;
-+Pass+Prt+ScPl1:%>нсавесӯв K ;
-+Pass+Prt+ScPl2:%>нсавесы̄н K ;
-+Pass+Prt+ScPl3:%>нсаве̄сыт K ;
-
-
-LEXICON V28_odd
+!2023_02_09a!+Inf:%>нсуӈкве K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1:%>нсэ̄гум K ;
+!2023_02_09a!+Ind+Prs+ScSg2:%>нсэ̄гын K ;
+!2023_02_09a!+Ind+Prs+ScSg3:%>нсы K ;
+!2023_02_09a!+Ind+Prs+ScDu1:%>нсыме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2:%>нсэгы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3:%>нсэ̄г K ;
+!2023_02_09a!+Ind+Prs+ScPl1:%>нсэ̄в K ;
+!2023_02_09a!+Ind+Prs+ScPl2:%>нсэгы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3:%>нсэ̄гыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcSg3:%>нсылум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcSg3:%>нсылын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcSg3:%>нсытэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcSg3:%>нсыламе̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcSg3:%>нсылы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcSg3:%>нсытэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcSg3:%>нсылув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcSg3:%>нсылы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcSg3:%>нсыя̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcDu3:%>нсыягум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcDu3:%>нсыягын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcDu3:%>нсыяге K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcDu3:%>нсыягме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcDu3:%>нсыягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcDu3:%>нсыяге̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcDu3:%>нсыягув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcDu3:%>нсыягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcDu3:%>нсыяга̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcPl3:%>нсыянум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcPl3:%>нсыян K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcPl3:%>нсыянэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcPl3:%>нсыянме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcPl3:%>нсыяны̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcPl3:%>нсыянэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcPl3:%>нсыянув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcPl3:%>нсыяны̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>нсыя̄ныл K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>нсыяна̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>ссум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>ссын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>нсыс K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>ссаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>ссы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>ссы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>ссӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>ссы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>ссыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>нсыслум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>нсыслын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>нсыстэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>нсысламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>нсыслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>нсыстэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>нсыслув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>нсыслы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>сса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>ссагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>ссагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>ссаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>ссагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>ссагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>ссаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>ссагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>ссагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>сса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>ссаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>ссанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>ссан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>ссанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>ссанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>ссаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>ссанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>ссанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>ссаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>ссаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>нсанӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>нсанӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>нсанув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>нсануваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>нсанувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>нсанувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>нсанувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>нсанувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>нсанӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>нсанӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>нсанӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>нсанӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>нсанувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>нсанувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>нсанувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>нсанувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>нсанувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>нсанува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>нсанува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>нсанува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>нсанува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>нсанувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>нсанувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>нсануваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>нсанувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>нсанувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>нсанувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>нсанува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>нсанува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>нсанува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>нсануванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>нсануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>нсануванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>нсануванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>нсануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>нсанува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2:%>нсэн K ;
+!2023_02_09a!+Imprt+ScDu2:%>нсэ̄н K ;
+!2023_02_09a!+Imprt+ScPl2:%>нсэ̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcSg3:%>нсэлн K ;
+!2023_02_09a!+Imprt+ScDu2+OcSg3:%>нсэлн K ;
+!2023_02_09a!+Imprt+ScPl2+OcSg3:%>нсэлн K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcDu3:%>нсэгын K ;
+!2023_02_09a!+Imprt+ScDu2+OcDu3:%>нсэгын K ;
+!2023_02_09a!+Imprt+ScPl2+OcDu3:%>нсэгын K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcPl3:%>нсэ̄н K ;
+!2023_02_09a!+Imprt+ScDu2+OcPl3:%>нсэ̄н K ;
+!2023_02_09a!+Imprt+ScPl2+OcPl3:%>нсэ̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>нсавем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>нсавен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>нсаве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>нсавемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>нсавеме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>нсавена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>нсаве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>нсавега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>нсаве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>нсавева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>нсаве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>нсавена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>нсаве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>нсавет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>нсаве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>нсавесын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>нсавес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>нсавесме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>нсавесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>нсавесы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>нсавесӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>нсавесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>нсаве̄сыт K ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!LEXICON V28_odd
 !! **LEXICON @LEXNAME@** contains all forms
-+Inf:%>ньщуӈкве K ;
-
-+Ind+Prs+ScSg1:%>ньще̄гум K ;
-+Ind+Prs+ScSg2:%>ньще̄гын K ;
-+Ind+Prs+ScSg3:%>ньщи K ;
-+Ind+Prs+ScDu1:%>ньщиме̄н K ;
-+Ind+Prs+ScDu2:%>ньщегы̄н K ;
-+Ind+Prs+ScDu3:%>ньще̄г K ;
-+Ind+Prs+ScPl1:%>ньще̄в K ;
-+Ind+Prs+ScPl2:%>ньщегы̄н K ;
-+Ind+Prs+ScPl3:%>ньще̄гыт K ;
-
-+Ind+Prs+ScSg1+OcSg3:%>ньщилум K ;
-+Ind+Prs+ScSg2+OcSg3:%>ньщилын K ;
-+Ind+Prs+ScSg3+OcSg3:%>ньщитэ K ;
-+Ind+Prs+ScDu1+OcSg3:%>ньщиламе̄н K ;
-+Ind+Prs+ScDu2+OcSg3:%>ньщилы̄н K ;
-+Ind+Prs+ScDu3+OcSg3:%>ньщитэ̄н K ;
-+Ind+Prs+ScPl1+OcSg3:%>ньщилув K ;
-+Ind+Prs+ScPl2+OcSg3:%>ньщилы̄н K ;
-+Ind+Prs+ScPl3+OcSg3:%>ньщия̄ныл K ;
-
-+Ind+Prs+ScSg1+OcDu3:%>ньщиягум K ;
-+Ind+Prs+ScSg2+OcDu3:%>ньщиягын K ;
-+Ind+Prs+ScSg3+OcDu3:%>ньщияге K ;
-+Ind+Prs+ScDu1+OcDu3:%>ньщиягме̄н K ;
-+Ind+Prs+ScDu2+OcDu3:%>ньщиягы̄н K ;
-+Ind+Prs+ScDu3+OcDu3:%>ньщияге̄н K ;
-+Ind+Prs+ScPl1+OcDu3:%>ньщиягув K ;
-+Ind+Prs+ScPl2+OcDu3:%>ньщиягы̄н K ;
-+Ind+Prs+ScPl3+OcDu3:%>ньщияга̄ныл K ;
-
-+Ind+Prs+ScSg1+OcPl3:%>ньщиянум K ;
-+Ind+Prs+ScSg2+OcPl3:%>ньщиян K ;
-+Ind+Prs+ScSg3+OcPl3:%>ньщиянэ K ;
-+Ind+Prs+ScDu1+OcPl3:%>ньщиянме̄н K ;
-+Ind+Prs+ScDu2+OcPl3:%>ньщияны̄н K ;
-+Ind+Prs+ScDu3+OcPl3:%>ньщиянэ̄н K ;
-+Ind+Prs+ScPl1+OcPl3:%>ньщиянув K ;
-+Ind+Prs+ScPl2+OcPl3:%>ньщияны̄н K ;
-+Ind+Prs+ScPl3+OcPl3:%>ньщия̄ныл K ;
-+Ind+Prs+ScPl3+OcPl3:%>ньщияна̄ныл K ;
-
-+Ind+Prt+ScSg1:%>щсум K ;
-+Ind+Prt+ScSg2:%>щсын K ;
-+Ind+Prt+ScSg3:%>ньщис K ;
-+Ind+Prt+ScDu1:%>щсаме̄н K ;
-+Ind+Prt+ScDu2:%>щсы̄н K ;
-+Ind+Prt+ScDu3:%>щсы̄г K ;
-+Ind+Prt+ScPl1:%>щсӯв K ;
-+Ind+Prt+ScPl2:%>щсы̄н K ;
-+Ind+Prt+ScPl3:%>щсыт K ;
-
-+Ind+Prt+ScSg1+OcSg3:%>ньщислум K ;
-+Ind+Prt+ScSg2+OcSg3:%>ньщислын K ;
-+Ind+Prt+ScSg3+OcSg3:%>ньщистэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>ньщисламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>ньщислы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>ньщистэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>ньщислув K ;
-+Ind+Prt+ScPl2+OcSg3:%>ньщислы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>щса̄ныл K ;
-
-+Ind+Prt+ScSg1+OcDu3:%>щсагум K ;
-+Ind+Prt+ScSg2+OcDu3:%>щсагын K ;
-+Ind+Prt+ScSg3+OcDu3:%>щсаге K ;
-+Ind+Prt+ScDu1+OcDu3:%>щсагме̄н K ;
-+Ind+Prt+ScDu2+OcDu3:%>щсагы̄н K ;
-+Ind+Prt+ScDu3+OcDu3:%>щсаге̄н K ;
-+Ind+Prt+ScPl1+OcDu3:%>щсагув K ;
-+Ind+Prt+ScPl2+OcDu3:%>щсагы̄н K ;
-+Ind+Prt+ScPl3+OcDu3:%>щса̄ныл K ;
-+Ind+Prt+ScPl3+OcDu3:%>щсаганыл K ;
-
-+Ind+Prt+ScSg1+OcPl3:%>щсанум K ;
-+Ind+Prt+ScSg2+OcPl3:%>щсан K ;
-+Ind+Prt+ScSg3+OcPl3:%>щсанэ K ;
-+Ind+Prt+ScDu1+OcPl3:%>щсанме̄н K ;
-+Ind+Prt+ScDu2+OcPl3:%>щсаны̄н K ;
-+Ind+Prt+ScDu3+OcPl3:%>щсанэ̄н K ;
-+Ind+Prt+ScPl1+OcPl3:%>щсанув K ;
-+Ind+Prt+ScPl2+OcPl3:%>щсаны̄н K ;
-+Ind+Prt+ScPl3+OcPl3:%>щсаныл K ;
-
-+Cond+Prs+ScSg1:%>ньщанӯвум K ;
-+Cond+Prs+ScSg2:%>ньщанӯвын K ;
-+Cond+Prs+ScSg3:%>ньщанув K ;
-+Cond+Prs+ScDu1:%>ньщануваме̄н K ;
-+Cond+Prs+ScDu2:%>ньщанувы̄н K ;
-+Cond+Prs+ScDu3:%>ньщанувы̄г K ;
-+Cond+Prs+ScPl1:%>ньщанувӯв K ;
-+Cond+Prs+ScPl2:%>ньщанувы̄н K ;
-+Cond+Prs+ScPl3:%>ньщанӯвыт K ;
-
-+Cond+Prs+ScSg1+OcSg3:%>ньщанӯвлум K ;
-+Cond+Prs+ScSg2+OcSg3:%>ньщанӯвлын K ;
-+Cond+Prs+ScSg3+OcSg3:%>ньщанӯвтэ K ;
-+Cond+Prs+ScDu1+OcSg3:%>ньщанувламе̄н K ;
-+Cond+Prs+ScDu2+OcSg3:%>ньщанувлы̄н K ;
-+Cond+Prs+ScDu3+OcSg3:%>ньщанувтэ̄н K ;
-+Cond+Prs+ScPl1+OcSg3:%>ньщанувлув K ;
-+Cond+Prs+ScPl2+OcSg3:%>ньщанувлын K ;
-+Cond+Prs+ScPl3+OcSg3:%>ньщанува̄ныл K ;
-
-+Cond+Prs+ScSg1+OcDu3:%>ньщанува̄гум K ;
-+Cond+Prs+ScSg2+OcDu3:%>ньщанува̄гын K ;
-+Cond+Prs+ScSg3+OcDu3:%>ньщанува̄ге K ;
-+Cond+Prs+ScDu1+OcDu3:%>ньщанувагме̄н K ;
-+Cond+Prs+ScDu2+OcDu3:%>ньщанувагы̄н K ;
-+Cond+Prs+ScDu3+OcDu3:%>ньщануваге̄н K ;
-+Cond+Prs+ScPl1+OcDu3:%>ньщанувагув K ;
-+Cond+Prs+ScPl2+OcDu3:%>ньщанувагы̄н K ;
-+Cond+Prs+ScPl3+OcDu3:%>ньщанувага̄ныл K ;
-
-+Cond+Prs+ScSg1+OcPl3:%>ньщанува̄нум K ;
-+Cond+Prs+ScSg2+OcPl3:%>ньщанува̄нын K ;
-+Cond+Prs+ScSg3+OcPl3:%>ньщанува̄нэ K ;
-+Cond+Prs+ScDu1+OcPl3:%>ньщануванме̄н K ;
-+Cond+Prs+ScDu2+OcPl3:%>ньщануваны̄н K ;
-+Cond+Prs+ScDu3+OcPl3:%>ньщануванэ̄н K ;
-+Cond+Prs+ScPl1+OcPl3:%>ньщануванув K ;
-+Cond+Prs+ScPl2+OcPl3:%>ньщануваны̄н K ;
-+Cond+Prs+ScPl3+OcPl3:%>ньщанува̄ныл K ;
-
-+Imprt+ScSg2:%>ньщен K ;
-+Imprt+ScDu2:%>ньще̄н K ;
-+Imprt+ScPl2:%>ньще̄н K ;
-
-+Imprt+ScSg2+OcSg3:%>ньщелн K ;
-+Imprt+ScDu2+OcSg3:%>ньщелн K ;
-+Imprt+ScPl2+OcSg3:%>ньщелн K ;
-
-+Imprt+ScSg2+OcDu3:%>ньщегын K ;
-+Imprt+ScDu2+OcDu3:%>ньщегын K ;
-+Imprt+ScPl2+OcDu3:%>ньщегын K ;
-
-+Imprt+ScSg2+OcPl3:%>ньще̄н K ;
-+Imprt+ScDu2+OcPl3:%>ньще̄н K ;
-+Imprt+ScPl2+OcPl3:%>ньще̄н K ;
-
-+Pass+Prs+ScSg1:%>ньщавем K ;
-+Pass+Prs+ScSg2:%>ньщавен K ;
-+Pass+Prs+ScSg3:%>ньщаве K ;
-+Pass+Prs+ScDu1:%>ньщавемена K ;
-+Pass+Prs+ScDu1:%>ньщавеме̄н K ;
-+Pass+Prs+ScDu2:%>ньщавена K ;
-+Pass+Prs+ScDu2:%>ньщаве̄н K ;
-+Pass+Prs+ScDu3:%>ньщавега K ;
-+Pass+Prs+ScDu3:%>ньщаве̄г K ;
-+Pass+Prs+ScPl1:%>ньщавева K ;
-+Pass+Prs+ScPl1:%>ньщаве̄в K ;
-+Pass+Prs+ScPl2:%>ньщавена K ;
-+Pass+Prs+ScPl2:%>ньщаве̄н K ;
-+Pass+Prs+ScPl3:%>ньщавет K ;
-
-+Pass+Prt+ScSg1:%>ньщаве̄сум K ;
-+Pass+Prt+ScSg2:%>ньщавесын K ;
-+Pass+Prt+ScSg3:%>ньщавес K ;
-+Pass+Prt+ScDu1:%>ньщавесме̄н K ;
-+Pass+Prt+ScDu2:%>ньщавесы̄н K ;
-+Pass+Prt+ScDu3:%>ньщавесы̄г K ;
-+Pass+Prt+ScPl1:%>ньщавесӯв K ;
-+Pass+Prt+ScPl2:%>ньщавесы̄н K ;
-+Pass+Prt+ScPl3:%>ньщаве̄сыт K ;
-
-
-
-
-LEXICON V31_odd
-!! **LEXICON @LEXNAME@** to V11_odd
-! is this V21_odd
- V11_odd ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-LEXICON V31_even
-!! **LEXICON @LEXNAME@** to V11_even and with ы, а to V11_MUTUAL-COND
-! same as V21_even ?
-! CnsNonAlv ы-
- V11_even ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-
-LEXICON V33_odd
-!! **LEXICON @LEXNAME@** to V11_odd and with ы, а to V11_MUTUAL-COND
-! CnsAlv ы-
-! is this V23_odd
- V11_odd ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-
-
-LEXICON V33_even
-!! **LEXICON @LEXNAME@** to V11_even and with ы, а to V11_MUTUAL-COND
-! is this V23_even
-! CnsAlv ы-
- V11_even ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-
-
-
-LEXICON V35_odd
-!! **LEXICON @LEXNAME@** to V11_odd and with ы, а to V11_MUTUAL-COND
-! с ы-
- V11_odd ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-
-LEXICON V35_even
-!! **LEXICON @LEXNAME@** to V11_even and with ы, а to V11_MUTUAL-COND
-! с ы-
- V11_even ;
-:%>ы V11_MUTUAL-COND ;
-:%>а V11_MUTUAL-COND ;
-
-
-
-
-
-
+!2023_02_09a!+Inf:%>ньщуӈкве K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1:%>ньще̄гум K ;
+!2023_02_09a!+Ind+Prs+ScSg2:%>ньще̄гын K ;
+!2023_02_09a!+Ind+Prs+ScSg3:%>ньщи K ;
+!2023_02_09a!+Ind+Prs+ScDu1:%>ньщиме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2:%>ньщегы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3:%>ньще̄г K ;
+!2023_02_09a!+Ind+Prs+ScPl1:%>ньще̄в K ;
+!2023_02_09a!+Ind+Prs+ScPl2:%>ньщегы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3:%>ньще̄гыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcSg3:%>ньщилум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcSg3:%>ньщилын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcSg3:%>ньщитэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcSg3:%>ньщиламе̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcSg3:%>ньщилы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcSg3:%>ньщитэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcSg3:%>ньщилув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcSg3:%>ньщилы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcSg3:%>ньщия̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcDu3:%>ньщиягум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcDu3:%>ньщиягын K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcDu3:%>ньщияге K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcDu3:%>ньщиягме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcDu3:%>ньщиягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcDu3:%>ньщияге̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcDu3:%>ньщиягув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcDu3:%>ньщиягы̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcDu3:%>ньщияга̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prs+ScSg1+OcPl3:%>ньщиянум K ;
+!2023_02_09a!+Ind+Prs+ScSg2+OcPl3:%>ньщиян K ;
+!2023_02_09a!+Ind+Prs+ScSg3+OcPl3:%>ньщиянэ K ;
+!2023_02_09a!+Ind+Prs+ScDu1+OcPl3:%>ньщиянме̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu2+OcPl3:%>ньщияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScDu3+OcPl3:%>ньщиянэ̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl1+OcPl3:%>ньщиянув K ;
+!2023_02_09a!+Ind+Prs+ScPl2+OcPl3:%>ньщияны̄н K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ньщия̄ныл K ;
+!2023_02_09a!+Ind+Prs+ScPl3+OcPl3:%>ньщияна̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1:%>щсум K ;
+!2023_02_09a!+Ind+Prt+ScSg2:%>щсын K ;
+!2023_02_09a!+Ind+Prt+ScSg3:%>ньщис K ;
+!2023_02_09a!+Ind+Prt+ScDu1:%>щсаме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2:%>щсы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3:%>щсы̄г K ;
+!2023_02_09a!+Ind+Prt+ScPl1:%>щсӯв K ;
+!2023_02_09a!+Ind+Prt+ScPl2:%>щсы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3:%>щсыт K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcSg3:%>ньщислум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcSg3:%>ньщислын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcSg3:%>ньщистэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcSg3:%>ньщисламе̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcSg3:%>ньщислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcSg3:%>ньщистэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcSg3:%>ньщислув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcSg3:%>ньщислы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcSg3:%>щса̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcDu3:%>щсагум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcDu3:%>щсагын K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcDu3:%>щсаге K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcDu3:%>щсагме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcDu3:%>щсагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcDu3:%>щсаге̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcDu3:%>щсагув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcDu3:%>щсагы̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>щса̄ныл K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcDu3:%>щсаганыл K ;
+!2023_02_09a!
+!2023_02_09a!+Ind+Prt+ScSg1+OcPl3:%>щсанум K ;
+!2023_02_09a!+Ind+Prt+ScSg2+OcPl3:%>щсан K ;
+!2023_02_09a!+Ind+Prt+ScSg3+OcPl3:%>щсанэ K ;
+!2023_02_09a!+Ind+Prt+ScDu1+OcPl3:%>щсанме̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu2+OcPl3:%>щсаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScDu3+OcPl3:%>щсанэ̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl1+OcPl3:%>щсанув K ;
+!2023_02_09a!+Ind+Prt+ScPl2+OcPl3:%>щсаны̄н K ;
+!2023_02_09a!+Ind+Prt+ScPl3+OcPl3:%>щсаныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1:%>ньщанӯвум K ;
+!2023_02_09a!+Cond+Prs+ScSg2:%>ньщанӯвын K ;
+!2023_02_09a!+Cond+Prs+ScSg3:%>ньщанув K ;
+!2023_02_09a!+Cond+Prs+ScDu1:%>ньщануваме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2:%>ньщанувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3:%>ньщанувы̄г K ;
+!2023_02_09a!+Cond+Prs+ScPl1:%>ньщанувӯв K ;
+!2023_02_09a!+Cond+Prs+ScPl2:%>ньщанувы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3:%>ньщанӯвыт K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcSg3:%>ньщанӯвлум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcSg3:%>ньщанӯвлын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcSg3:%>ньщанӯвтэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcSg3:%>ньщанувламе̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcSg3:%>ньщанувлы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcSg3:%>ньщанувтэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcSg3:%>ньщанувлув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcSg3:%>ньщанувлын K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcSg3:%>ньщанува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcDu3:%>ньщанува̄гум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcDu3:%>ньщанува̄гын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcDu3:%>ньщанува̄ге K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcDu3:%>ньщанувагме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcDu3:%>ньщанувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcDu3:%>ньщануваге̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcDu3:%>ньщанувагув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcDu3:%>ньщанувагы̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcDu3:%>ньщанувага̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Cond+Prs+ScSg1+OcPl3:%>ньщанува̄нум K ;
+!2023_02_09a!+Cond+Prs+ScSg2+OcPl3:%>ньщанува̄нын K ;
+!2023_02_09a!+Cond+Prs+ScSg3+OcPl3:%>ньщанува̄нэ K ;
+!2023_02_09a!+Cond+Prs+ScDu1+OcPl3:%>ньщануванме̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu2+OcPl3:%>ньщануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScDu3+OcPl3:%>ньщануванэ̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl1+OcPl3:%>ньщануванув K ;
+!2023_02_09a!+Cond+Prs+ScPl2+OcPl3:%>ньщануваны̄н K ;
+!2023_02_09a!+Cond+Prs+ScPl3+OcPl3:%>ньщанува̄ныл K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2:%>ньщен K ;
+!2023_02_09a!+Imprt+ScDu2:%>ньще̄н K ;
+!2023_02_09a!+Imprt+ScPl2:%>ньще̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcSg3:%>ньщелн K ;
+!2023_02_09a!+Imprt+ScDu2+OcSg3:%>ньщелн K ;
+!2023_02_09a!+Imprt+ScPl2+OcSg3:%>ньщелн K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcDu3:%>ньщегын K ;
+!2023_02_09a!+Imprt+ScDu2+OcDu3:%>ньщегын K ;
+!2023_02_09a!+Imprt+ScPl2+OcDu3:%>ньщегын K ;
+!2023_02_09a!
+!2023_02_09a!+Imprt+ScSg2+OcPl3:%>ньще̄н K ;
+!2023_02_09a!+Imprt+ScDu2+OcPl3:%>ньще̄н K ;
+!2023_02_09a!+Imprt+ScPl2+OcPl3:%>ньще̄н K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prs+ScSg1:%>ньщавем K ;
+!2023_02_09a!+Pass+Prs+ScSg2:%>ньщавен K ;
+!2023_02_09a!+Pass+Prs+ScSg3:%>ньщаве K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>ньщавемена K ;
+!2023_02_09a!+Pass+Prs+ScDu1:%>ньщавеме̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>ньщавена K ;
+!2023_02_09a!+Pass+Prs+ScDu2:%>ньщаве̄н K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>ньщавега K ;
+!2023_02_09a!+Pass+Prs+ScDu3:%>ньщаве̄г K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>ньщавева K ;
+!2023_02_09a!+Pass+Prs+ScPl1:%>ньщаве̄в K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>ньщавена K ;
+!2023_02_09a!+Pass+Prs+ScPl2:%>ньщаве̄н K ;
+!2023_02_09a!+Pass+Prs+ScPl3:%>ньщавет K ;
+!2023_02_09a!
+!2023_02_09a!+Pass+Prt+ScSg1:%>ньщаве̄сум K ;
+!2023_02_09a!+Pass+Prt+ScSg2:%>ньщавесын K ;
+!2023_02_09a!+Pass+Prt+ScSg3:%>ньщавес K ;
+!2023_02_09a!+Pass+Prt+ScDu1:%>ньщавесме̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu2:%>ньщавесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScDu3:%>ньщавесы̄г K ;
+!2023_02_09a!+Pass+Prt+ScPl1:%>ньщавесӯв K ;
+!2023_02_09a!+Pass+Prt+ScPl2:%>ньщавесы̄н K ;
+!2023_02_09a!+Pass+Prt+ScPl3:%>ньщаве̄сыт K ;
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09a!
+!2023_02_09!
+!2023_02_09!LEXICON V31_odd
+!2023_02_09!!! **LEXICON @LEXNAME@** to V11_odd
+!2023_02_09!! is this V21_odd
+!2023_02_09! V11_odd ;
+!2023_02_09!:%>ы V11_MUTUAL-COND ;
+!2023_02_09!:%>а V11_MUTUAL-COND ;
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!LEXICON V31_even
+!2023_02_09!!! **LEXICON @LEXNAME@** to V11_even and with ы, а to V11_MUTUAL-COND
+!2023_02_09!! same as V21_even ?
+!2023_02_09!! CnsNonAlv ы-
+!2023_02_09! V11_even ;
+!2023_02_09!:%>ы V11_MUTUAL-COND ;
+!2023_02_09!:%>а V11_MUTUAL-COND ;
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!LEXICON V33_odd
+!2023_02_09!!! **LEXICON @LEXNAME@** to V11_odd and with ы, а to V11_MUTUAL-COND
+!2023_02_09!! CnsAlv ы-
+!2023_02_09!! is this V23_odd
+!2023_02_09! V11_odd ;
+!2023_02_09!:%>ы V11_MUTUAL-COND ;
+!2023_02_09!:%>а V11_MUTUAL-COND ;
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!LEXICON V33_even
+!2023_02_09!!! **LEXICON @LEXNAME@** to V11_even and with ы, а to V11_MUTUAL-COND
+!2023_02_09!! is this V23_even
+!2023_02_09!! CnsAlv ы-
+!2023_02_09! V11_even ;
+!2023_02_09!:%>ы V11_MUTUAL-COND ;
+!2023_02_09!:%>а V11_MUTUAL-COND ;
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!LEXICON V35_odd
+!2023_02_09!!! **LEXICON @LEXNAME@** to V11_odd and with ы, а to V11_MUTUAL-COND
+!2023_02_09!! с ы-
+!2023_02_09! V11_odd ;
+!2023_02_09!:%>ы V11_MUTUAL-COND ;
+!2023_02_09!:%>а V11_MUTUAL-COND ;
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!LEXICON V35_even
+!2023_02_09!!! **LEXICON @LEXNAME@** to V11_even and with ы, а to V11_MUTUAL-COND
+!2023_02_09!! с ы-
+!2023_02_09! V11_even ;
+!2023_02_09!:%>ы V11_MUTUAL-COND ;
+!2023_02_09!:%>а V11_MUTUAL-COND ;
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09!
+!2023_02_09a!
+!2023_02_09a!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
+!2023_02_09a!
+!2023_02_09a!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!                                      !! 
@@ -1676,10 +1688,10 @@ LEXICON V35_even
 !!                                      !! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!2023_02_09a!
 ! What comes here is commented out and just kept
 ! for reference until the dust settles.
-
+!2023_02_09a!
 !€old€ LEXICON V11_MUTUAL-PASS  
 !€old€ !! 	* **LEXICON @LEXNAME@**  
 !€old€ +Pass+Prs+ScSg1:%>вем K ;
@@ -9842,6 +9854,7 @@ LEXICON V35_even
 !€old€ !+Pass+Prt+ScPl1:%>авесӯв K ;
 !€old€ !+Pass+Prt+ScPl2:%>авесы̄н K ;
 !€old€ !+Pass+Prt+ScPl3:%>аве̄сыт K ;
-
+!2023_02_09a!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!2023_02_09a!
+!2023_02_09a!
