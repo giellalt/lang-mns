@@ -18,27 +18,27 @@ Tests:
 
   Noun - потыр: # Noun 122 'word' - full paradigm, FIXME!
      потыр+N+Sg+Nom: потыр
-     потыр+N+Sg+PxSg1+Nom: потрум
-     потыр+N+Sg+PxSg2+Nom: потырын #
-     потыр+N+Sg+PxSg3+Nom: потре
-     потыр+N+Sg+PxDu1+Nom: [потруме̄н, потрумен]
+     потыр+N+Sg+Nom+PxSg1: потрум
+     потыр+N+Sg+Nom+PxSg2: потырын #
+     потыр+N+Sg+Nom+PxSg3: потре
+     потыр+N+Sg+Nom+PxDu1: [потруме̄н, потрумен]
 # (2007: 30) short
-     потыр+N+Sg+PxDu2+Nom: потры̄н #
-     потыр+N+Sg+PxDu3+Nom: потре̄н #
-     потыр+N+Sg+PxPl1+Nom: потрув
-     потыр+N+Sg+PxPl2+Nom: потры̄н #
-     потыр+N+Sg+PxPl3+Nom: потраныл
+     потыр+N+Sg+Nom+PxDu2: потры̄н #
+     потыр+N+Sg+Nom+PxDu3: потре̄н #
+     потыр+N+Sg+Nom+PxPl1: потрув
+     потыр+N+Sg+Nom+PxPl2: потры̄н #
+     потыр+N+Sg+Nom+PxPl3: потраныл
      
      потыр+N+Sg+Loc: потрыт
-     потыр+N+Sg+PxSg1+Loc: потрумт #
-     потыр+N+Sg+PxSg2+Loc: потрынт #
-     потыр+N+Sg+PxSg3+Loc: потре̄т 
-     потыр+N+Sg+PxDu1+Loc: потырме̄нт #
-     потыр+N+Sg+PxDu2+Loc: потры̄нт #
-     потыр+N+Sg+PxDu3+Loc: потре̄нт #
-     потыр+N+Sg+PxPl1+Loc: потрувт 
-     потыр+N+Sg+PxPl2+Loc: потры̄нт #
-     потыр+N+Sg+PxPl3+Loc: потранылт #
+     потыр+N+Sg+Loc+PxSg1: потрумт #
+     потыр+N+Sg+Loc+PxSg2: потрынт #
+     потыр+N+Sg+Loc+PxSg3: потре̄т 
+     потыр+N+Sg+Loc+PxDu1: потырме̄нт #
+     потыр+N+Sg+Loc+PxDu2: потры̄нт #
+     потыр+N+Sg+Loc+PxDu3: потре̄нт #
+     потыр+N+Sg+Loc+PxPl1: потрувт 
+     потыр+N+Sg+Loc+PxPl2: потры̄нт #
+     потыр+N+Sg+Loc+PxPl3: потранылт #
 
 #    (2007: 43)    explicitely not this +Dat??
      потыр+N+Sg+Lat: потрын 
@@ -47,29 +47,29 @@ Tests:
      потыр+N+Sg+Tra: потрыг  
      
      потыр+N+Du+Nom: потырыг #
-     потыр+N+Du+PxSg1+Nom: потрагум #
-     потыр+N+Du+PxSg2+Nom: потрагын #
-     потыр+N+Du+PxSg3+Nom: потраге #
-     потыр+N+Du+PxDu1+Nom: потрагме̄н #
-     потыр+N+Du+PxDu2+Nom: потрагы̄н #
-     потыр+N+Du+PxDu3+Nom: потраге̄н #
-     потыр+N+Du+PxPl1+Nom: потрагув #
-     потыр+N+Du+PxPl2+Nom: потрагы̄н #
-     потыр+N+Du+PxPl3+Nom: потраганыл #
+     потыр+N+Du+Nom+PxSg1: потрагум #
+     потыр+N+Du+Nom+PxSg2: потрагын #
+     потыр+N+Du+Nom+PxSg3: потраге #
+     потыр+N+Du+Nom+PxDu1: потрагме̄н #
+     потыр+N+Du+Nom+PxDu2: потрагы̄н #
+     потыр+N+Du+Nom+PxDu3: потраге̄н #
+     потыр+N+Du+Nom+PxPl1: потрагув #
+     потыр+N+Du+Nom+PxPl2: потрагы̄н #
+     потыр+N+Du+Nom+PxPl3: потраганыл #
 
      потыр+N+Pl+Nom: потрыт
      потыр+N+Pl+Abl: потрытныл
      потыр+N+Pl+Ins: [потрытыл, потрытл]
      потыр+N+Pl+Loc: [потрытыт, потрытт]
-     потыр+N+Pl+PxSg1+Nom: потранум 
-     потыр+N+Pl+PxSg2+Nom: потранын #
-     потыр+N+Pl+PxSg3+Nom: потранэ 
-     потыр+N+Pl+PxDu1+Nom: потранме̄н #
-     потыр+N+Pl+PxDu2+Nom: потраны̄н #
-     потыр+N+Pl+PxDu3+Nom: потранэ̄н 
-     потыр+N+Pl+PxPl1+Nom: потранув #
-     потыр+N+Pl+PxPl2+Nom: потраны̄н #
-     потыр+N+Pl+PxPl3+Nom: потрананыл #
+     потыр+N+Pl+Nom+PxSg1: потранум 
+     потыр+N+Pl+Nom+PxSg2: потранын #
+     потыр+N+Pl+Nom+PxSg3: потранэ 
+     потыр+N+Pl+Nom+PxDu1: потранме̄н #
+     потыр+N+Pl+Nom+PxDu2: потраны̄н #
+     потыр+N+Pl+Nom+PxDu3: потранэ̄н 
+     потыр+N+Pl+Nom+PxPl1: потранув #
+     потыр+N+Pl+Nom+PxPl2: потраны̄н #
+     потыр+N+Pl+Nom+PxPl3: потрананыл #
 
 # потраме̄гыт
 # потрамасум

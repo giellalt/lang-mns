@@ -24,46 +24,46 @@ Tests:
      кол+N+Sg+Ins: колыл
      кол+N+Sg+Tra: колыг
 
-     кол+N+Sg+PxSg1+Nom: колум
-     кол+N+Sg+PxSg2+Nom: колын
-     кол+N+Sg+PxSg3+Nom: колэ
-     кол+N+Sg+PxDu1+Nom: [колме̄н, колмен]
+     кол+N+Sg+Nom+PxSg1: колум
+     кол+N+Sg+Nom+PxSg2: колын
+     кол+N+Sg+Nom+PxSg3: колэ
+     кол+N+Sg+Nom+PxDu1: [колме̄н, колмен]
 # (2007: 30) short elsewhere not
-     кол+N+Sg+PxDu2+Nom: колы̄н
-     кол+N+Sg+PxDu3+Nom: колэ̄н
-     кол+N+Sg+PxPl1+Nom: колув
-     кол+N+Sg+PxPl2+Nom: колы̄н
-     кол+N+Sg+PxPl3+Nom: коланыл
+     кол+N+Sg+Nom+PxDu2: колы̄н
+     кол+N+Sg+Nom+PxDu3: колэ̄н
+     кол+N+Sg+Nom+PxPl1: колув
+     кол+N+Sg+Nom+PxPl2: колы̄н
+     кол+N+Sg+Nom+PxPl3: коланыл
      кол+N+Sg+Loc: колт
-     кол+N+Sg+PxSg1+Loc: колумт
-     кол+N+Sg+PxSg2+Loc: колынт
-     кол+N+Sg+PxSg3+Loc: колэт
-     кол+N+Sg+PxDu1+Loc: колме̄нт
-     кол+N+Sg+PxDu2+Loc: колы̄нт
-     кол+N+Sg+PxDu3+Loc: колэ̄нт
-     кол+N+Sg+PxPl1+Loc: колувт
-     кол+N+Sg+PxPl2+Loc: колы̄нт
-     кол+N+Sg+PxPl3+Loc: коланылт
+     кол+N+Sg+Loc+PxSg1: колумт
+     кол+N+Sg+Loc+PxSg2: колынт
+     кол+N+Sg+Loc+PxSg3: колэт
+     кол+N+Sg+Loc+PxDu1: колме̄нт
+     кол+N+Sg+Loc+PxDu2: колы̄нт
+     кол+N+Sg+Loc+PxDu3: колэ̄нт
+     кол+N+Sg+Loc+PxPl1: колувт
+     кол+N+Sg+Loc+PxPl2: колы̄нт
+     кол+N+Sg+Loc+PxPl3: коланылт
      кол+N+Du+Loc: колыгт
      кол+N+Pl+Loc: колытт
 # (Скрибник & Афанасьева 2007: 78) analogue
      кол+N+Du+Nom: колыг
-     кол+N+Du+PxSg1+Nom: колагум
-     кол+N+Du+PxSg2+Nom: колагын
-     кол+N+Du+PxSg3+Nom: колаге
-     кол+N+Du+PxDu1+Nom: колагме̄н
-     кол+N+Du+PxDu2+Nom: колагы̄н
-     кол+N+Du+PxDu3+Nom: колаге̄н
-     кол+N+Du+PxPl1+Nom: колагув
-     кол+N+Du+PxPl2+Nom: колагы̄н
-     кол+N+Du+PxPl3+Nom: колаганыл
+     кол+N+Du+Nom+PxSg1: колагум
+     кол+N+Du+Nom+PxSg2: колагын
+     кол+N+Du+Nom+PxSg3: колаге
+     кол+N+Du+Nom+PxDu1: колагме̄н
+     кол+N+Du+Nom+PxDu2: колагы̄н
+     кол+N+Du+Nom+PxDu3: колаге̄н
+     кол+N+Du+Nom+PxPl1: колагув
+     кол+N+Du+Nom+PxPl2: колагы̄н
+     кол+N+Du+Nom+PxPl3: колаганыл
      кол+N+Pl+Nom: колыт
-     кол+N+Pl+PxSg1+Nom: коланум
-     кол+N+Pl+PxSg2+Nom: коланын
-     кол+N+Pl+PxSg3+Nom: коланэ
-     кол+N+Pl+PxDu1+Nom: коланме̄н
-     кол+N+Pl+PxDu2+Nom: коланы̄н
-     кол+N+Pl+PxDu3+Nom: коланэ̄н
-     кол+N+Pl+PxPl1+Nom: коланув
-     кол+N+Pl+PxPl2+Nom: коланы̄н
-     кол+N+Pl+PxPl3+Nom: колананыл
+     кол+N+Pl+Nom+PxSg1: коланум
+     кол+N+Pl+Nom+PxSg2: коланын
+     кол+N+Pl+Nom+PxSg3: коланэ
+     кол+N+Pl+Nom+PxDu1: коланме̄н
+     кол+N+Pl+Nom+PxDu2: коланы̄н
+     кол+N+Pl+Nom+PxDu3: коланэ̄н
+     кол+N+Pl+Nom+PxPl1: коланув
+     кол+N+Pl+Nom+PxPl2: коланы̄н
+     кол+N+Pl+Nom+PxPl3: колананыл

@@ -19,27 +19,27 @@ Tests:
 
   Noun - ла̄тыӈ: # Noun 122 'word' - full paradigm, FIXME!
      ла̄тыӈ+N+Sg+Nom: ла̄тыӈ
-     ла̄тыӈ+N+Sg+PxSg1+Nom: ла̄тӈум
-     ла̄тыӈ+N+Sg+PxSg2+Nom: ла̄тӈын
-     ла̄тыӈ+N+Sg+PxSg3+Nom: ла̄тӈе
-     ла̄тыӈ+N+Sg+PxDu1+Nom: [ла̄тыӈме̄н, ла̄тыӈмен]  # Or should it be ла̄тӈуме̄н
+     ла̄тыӈ+N+Sg+Nom+PxSg1: ла̄тӈум
+     ла̄тыӈ+N+Sg+Nom+PxSg2: ла̄тӈын
+     ла̄тыӈ+N+Sg+Nom+PxSg3: ла̄тӈе
+     ла̄тыӈ+N+Sg+Nom+PxDu1: [ла̄тыӈме̄н, ла̄тыӈмен]  # Or should it be ла̄тӈуме̄н
 # (2007: 30) short
-     ла̄тыӈ+N+Sg+PxDu2+Nom: ла̄тӈы̄н
-     ла̄тыӈ+N+Sg+PxDu3+Nom: ла̄тӈе̄н
-     ла̄тыӈ+N+Sg+PxPl1+Nom: ла̄тӈув
-     ла̄тыӈ+N+Sg+PxPl2+Nom: ла̄тӈы̄н
-     ла̄тыӈ+N+Sg+PxPl3+Nom: ла̄тӈаныл
+     ла̄тыӈ+N+Sg+Nom+PxDu2: ла̄тӈы̄н
+     ла̄тыӈ+N+Sg+Nom+PxDu3: ла̄тӈе̄н
+     ла̄тыӈ+N+Sg+Nom+PxPl1: ла̄тӈув
+     ла̄тыӈ+N+Sg+Nom+PxPl2: ла̄тӈы̄н
+     ла̄тыӈ+N+Sg+Nom+PxPl3: ла̄тӈаныл
      
      ла̄тыӈ+N+Sg+Loc: ла̄тыӈт
-     ла̄тыӈ+N+Sg+PxSg1+Loc: ла̄тӈумт
-     ла̄тыӈ+N+Sg+PxSg2+Loc: ла̄тӈынт
-     ла̄тыӈ+N+Sg+PxSg3+Loc: ла̄тӈет
-     ла̄тыӈ+N+Sg+PxDu1+Loc: ла̄тыӈме̄нт # Or should it be ла̄тӈуме̄нт
-     ла̄тыӈ+N+Sg+PxDu2+Loc: ла̄тӈы̄нт
-     ла̄тыӈ+N+Sg+PxDu3+Loc: ла̄тӈе̄нт
-     ла̄тыӈ+N+Sg+PxPl1+Loc: ла̄тӈувт
-     ла̄тыӈ+N+Sg+PxPl2+Loc: ла̄тӈы̄нт
-     ла̄тыӈ+N+Sg+PxPl3+Loc: ла̄тӈанылт
+     ла̄тыӈ+N+Sg+Loc+PxSg1: ла̄тӈумт
+     ла̄тыӈ+N+Sg+Loc+PxSg2: ла̄тӈынт
+     ла̄тыӈ+N+Sg+Loc+PxSg3: ла̄тӈет
+     ла̄тыӈ+N+Sg+Loc+PxDu1: ла̄тыӈме̄нт # Or should it be ла̄тӈуме̄нт
+     ла̄тыӈ+N+Sg+Loc+PxDu2: ла̄тӈы̄нт
+     ла̄тыӈ+N+Sg+Loc+PxDu3: ла̄тӈе̄нт
+     ла̄тыӈ+N+Sg+Loc+PxPl1: ла̄тӈувт
+     ла̄тыӈ+N+Sg+Loc+PxPl2: ла̄тӈы̄нт
+     ла̄тыӈ+N+Sg+Loc+PxPl3: ла̄тӈанылт
 
 # (2007: 43) +Lat
      ла̄тыӈ+N+Sg+Lat: ла̄тӈын

@@ -20,51 +20,51 @@ Tests:
     паль+N+Du+Nom: палиг
     паль+N+Pl+Nom: палит
 
-    паль+N+Sg+PxSg1+Nom: палюм
-    паль+N+Sg+PxSg2+Nom: палин
-    паль+N+Sg+PxSg3+Nom: пале
-    паль+N+Sg+PxDu1+Nom: [пальме̄н, пальмен]
-    паль+N+Sg+PxDu2+Nom: палин
-    паль+N+Sg+PxDu3+Nom: пале̄н
-    паль+N+Sg+PxPl1+Nom: палюв
-    паль+N+Sg+PxPl2+Nom: палин
-    паль+N+Sg+PxPl3+Nom: паляныл
-    паль+N+Sg+PxSg1+Loc: палюмт
-    паль+N+Sg+PxSg2+Loc: палинт
-    паль+N+Sg+PxSg3+Loc: палет
-    паль+N+Sg+PxDu1+Loc: пальме̄нт
-    паль+N+Sg+PxDu2+Loc: палинт
-    паль+N+Sg+PxDu3+Loc: пале̄нт
-    паль+N+Sg+PxPl1+Loc: палювт
-    паль+N+Sg+PxPl2+Loc: палинт
-    паль+N+Sg+PxPl3+Loc: палянылт
+    паль+N+Sg+Nom+PxSg1: палюм
+    паль+N+Sg+Nom+PxSg2: палин
+    паль+N+Sg+Nom+PxSg3: пале
+    паль+N+Sg+Nom+PxDu1: [пальме̄н, пальмен]
+    паль+N+Sg+Nom+PxDu2: палин
+    паль+N+Sg+Nom+PxDu3: пале̄н
+    паль+N+Sg+Nom+PxPl1: палюв
+    паль+N+Sg+Nom+PxPl2: палин
+    паль+N+Sg+Nom+PxPl3: паляныл
+    паль+N+Sg+Loc+PxSg1: палюмт
+    паль+N+Sg+Loc+PxSg2: палинт
+    паль+N+Sg+Loc+PxSg3: палет
+    паль+N+Sg+Loc+PxDu1: пальме̄нт
+    паль+N+Sg+Loc+PxDu2: палинт
+    паль+N+Sg+Loc+PxDu3: пале̄нт
+    паль+N+Sg+Loc+PxPl1: палювт
+    паль+N+Sg+Loc+PxPl2: палинт
+    паль+N+Sg+Loc+PxPl3: палянылт
 
 # (Скрибник & Афанасьева 2007: 78)
 
-    паль+N+Du+PxSg1+Nom: палягум
-    паль+N+Du+PxSg2+Nom: палягын
-    паль+N+Du+PxSg3+Nom: паляге
-    паль+N+Du+PxDu1+Nom: палягме̄н
-    паль+N+Du+PxDu2+Nom: палягын
-    паль+N+Du+PxDu3+Nom: паляге̄н
-    паль+N+Du+PxPl1+Nom: палягув
-    паль+N+Du+PxPl2+Nom: палягын
-    паль+N+Du+PxPl3+Nom: паляганыл
-    паль+N+Pl+PxSg1+Nom: палянум
-    паль+N+Pl+PxSg2+Nom: палянын
-    паль+N+Pl+PxSg3+Nom: палянэ
-    паль+N+Pl+PxDu1+Nom: палянме̄н
-    паль+N+Pl+PxDu2+Nom: палянын
-    паль+N+Pl+PxDu3+Nom: палянэ̄н
-    паль+N+Pl+PxPl1+Nom: палянув
-    паль+N+Pl+PxPl2+Nom: палянын
-    паль+N+Pl+PxPl3+Nom: палянаныл
+    паль+N+Du+Nom+PxSg1: палягум
+    паль+N+Du+Nom+PxSg2: палягын
+    паль+N+Du+Nom+PxSg3: паляге
+    паль+N+Du+Nom+PxDu1: палягме̄н
+    паль+N+Du+Nom+PxDu2: палягын
+    паль+N+Du+Nom+PxDu3: паляге̄н
+    паль+N+Du+Nom+PxPl1: палягув
+    паль+N+Du+Nom+PxPl2: палягын
+    паль+N+Du+Nom+PxPl3: паляганыл
+    паль+N+Pl+Nom+PxSg1: палянум
+    паль+N+Pl+Nom+PxSg2: палянын
+    паль+N+Pl+Nom+PxSg3: палянэ
+    паль+N+Pl+Nom+PxDu1: палянме̄н
+    паль+N+Pl+Nom+PxDu2: палянын
+    паль+N+Pl+Nom+PxDu3: палянэ̄н
+    паль+N+Pl+Nom+PxPl1: палянув
+    паль+N+Pl+Nom+PxPl2: палянын
+    паль+N+Pl+Nom+PxPl3: палянаныл
 
     ха̄ль+N+Sg+Nom: ха̄ль
     ха̄ль+N+Du+Nom: ха̄лиг
     ха̄ль+N+Pl+Nom: ха̄лит
 
-    ха̄ль+N+Sg+PxSg1+Nom: ха̄люм
-    ха̄ль+N+Sg+PxSg2+Nom: ха̄лин
-    ха̄ль+N+Sg+PxSg3+Nom: ха̄ле
+    ха̄ль+N+Sg+Nom+PxSg1: ха̄люм
+    ха̄ль+N+Sg+Nom+PxSg2: ха̄лин
+    ха̄ль+N+Sg+Nom+PxSg3: ха̄ле
 
