@@ -1486,8 +1486,8 @@ The file lists personal pronouns and their lemma + tags.
 
 **LEXICON Verbs** is the list of all verbstems
 
-* а̄гмалтаӈкве+V:а̄гмалты V23_even "определить" ; 
-* а̄йтынтахтуӈкве+V:а̄йтынтахты V23_odd "тошнить" ;
+* а̄гмалтаӈкве+V:а̄гмалт V23_even "определить" ; 
+* а̄йтынтахтуӈкве+V:а̄йтынтахт V23_odd "тошнить" ;
 * а̄лмаяӈкве+V:а̄лмай V12_even "поднять" ;
 * а̄лмта̄луӈкве+V:а̄лмта̄лу V13_even "носить /на руках/" ;
 ..., some 3500 verbs.
