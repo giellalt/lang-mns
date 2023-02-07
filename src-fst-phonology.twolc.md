@@ -22,7 +22,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 
 #### Archiphones
 
-* **%{ыиØ%}:0** Loc and Ins
+* **%{ыиØ%}:0** Loc and Ins and ...
 
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
@@ -110,16 +110,12 @@ End of alphabet definitions
 
 **RULE: Syncope for ы, и and у**  
 
-ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
+ла̄тыӈ+N+Sg+PxPl1+Nom:  **language/kieli**
 * *ла̄тыӈ{SYNCH}>{уØ}в*
 * *ла̄т0ӈ0>ув*
 яныг+N+Sg+Loc:
 * *яныг{SYNCH}>{ыиØ}т*
 * *ян0г0>ыт*
-
-**RULE: Floating vowel in Archivowels**  deletes floting vowel when suffix is vowel initial, VC>V.
-
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 
 #### Tests:
 
@@ -137,14 +133,14 @@ End of alphabet definitions
 * *ха̄п>ыныл*
 * *ха̄п>0ныл*
 
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
+**RULE: Syncope for ы, и and у**  
 
 #### Tests:
 
 * *паль>%{йØ%}ыт*
 * *пал0>0ит*
 
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
+**RULE: Syncope for ы, и and у**  
 
 #### Tests:
 
@@ -166,19 +162,9 @@ End of alphabet definitions
 * *ансамбль{VCCS}>{ыØ}т*
 * *ансамбл00>ит*
 
-**RULE: Palatalising suffix vowel after и/ы stems**  
-
-**RULE: Palatalising suffix vowel after й ь**  changes у to ы after  й ь
-
-**RULE: NO Palatalization of suffix vowels** gives ы э after  з л н с т
-
-**RULE: Palatalization of suffix vowels**  is the palatal opposite of the previous rule
-
 #### Tests:
 * *ве̄рмы%>%{ЫИ%}янэ*
 * *ве̄рм0%>иянэ*
-
-**RULE: Palatalising suffix vowel ы to и for palatal stems**  after ь etc.
 
 #### Tests:
 
@@ -187,16 +173,10 @@ End of alphabet definitions
 * ★*та̄л>ыг* (is not standard language)
 * ★*та̄л>иг* (is not standard language)
 
-**RULE: Removing й before suffix onset**  
-
-**RULE: Deleting vowel in suffix for vowel stems**  deletes suffix-initial а у е
-
 #### Tests:
 
 * *са̄лы>агын*
 * *са̄лы>ягын*
-
-**RULE: Delete u after y**  
 
 #### Tests:
 
@@ -206,10 +186,12 @@ End of alphabet definitions
 * *аки>0м*
 
 **RULE: Soft sign deletion for и suffixes**  2023.02
+ансамбль+N+Sg+Loc: **band/yhtye**
 * *ансамбль{VCCS}>{ыØ}т*
 * *ансамбл00>ит*
 
 #### Tests:
+
 ха̄ль+N+Sg+PxSg3+Nom
 * *ха̄ль>{тØ}{ЭЕ}*
 * *ха̄л0>0е*
@@ -217,13 +199,14 @@ End of alphabet definitions
 * *паль>{йØ%}ыг*
 * *пал0>0иг*
 
-**RULE: Px3 т deletion from vowel stems**  
+__%{аяØ%}:0__ deletes а/я after VO vowel stems
 
-**RULE: э to е after certain consonants after т deletion**  
+__%{аяØ%}:а__
 
-__%{аяØ%}:0__
+__%{аяØ%}:я__
 
-__%{тØ%}:0__
+### CONSONANTS
+
 ха̄ль+N+Sg+PxSg3+Nom
 * *ха̄ль%>%{тØ%}%{ЭЕ%}*
 * *ха̄л0%>0е*
@@ -239,13 +222,6 @@ __%{тØ%}:0__
 э̄ква+N+Sg+Ins
 * *э̄ква>{тØ}ыл*
 * *э̄ква>00л*
-
-__%{аяØ%}:а__
-
-__%{аяØ%}:я__
-
-CONSONANTS
-__%{тØ%}:т__
 
 * * *
 

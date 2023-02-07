@@ -476,14 +476,23 @@ The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
 * LEXICON N_VI_ Stems ending in и ы: а̄ви
+
 * LEXICON N_VO_ Stems ending in other vowels ӯра
+
 * LEXICON N_SYNCH_ Stems with syncopy, hard
+
 * LEXICON N_SYNCS_ Stems with syncopy, soft
+
 * LEXICON N_NOSYNCH_ Stems without syncopy, hard
+
 * LEXICON N_NOSYNCS_ Stems without syncopy, soft
+
 * LEXICON N_VCH_ Stems ending in single hard consonant
+
 * LEXICON N_VCCH_ Stems ending in hard consonant cluster: а̄вгуст
+
 * LEXICON N_VCS_ Stems ending in single soft consonant
+
 * LEXICON N_VCCS_ Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
@@ -691,7 +700,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 
 #### Archiphones
 
-* **%{ыиØ%}:0** Loc and Ins
+* **%{ыиØ%}:0** Loc and Ins and ...
 
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
@@ -779,16 +788,12 @@ End of alphabet definitions
 
 **RULE: Syncope for ы, и and у**  
 
-ла̄тыӈ+N+Sg+PxPl1+Nom:  __paternal uncle younger than father__
+ла̄тыӈ+N+Sg+PxPl1+Nom:  **language/kieli**
 * *ла̄тыӈ{SYNCH}>{уØ}в*
 * *ла̄т0ӈ0>ув*
 яныг+N+Sg+Loc:
 * *яныг{SYNCH}>{ыиØ}т*
 * *ян0г0>ыт*
-
-**RULE: Floating vowel in Archivowels**  deletes floting vowel when suffix is vowel initial, VC>V.
-
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
 
 #### Tests:
 
@@ -806,14 +811,14 @@ End of alphabet definitions
 * *ха̄п>ыныл*
 * *ха̄п>0ныл*
 
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
+**RULE: Syncope for ы, и and у**  
 
 #### Tests:
 
 * *паль>%{йØ%}ыт*
 * *пал0>0ит*
 
-**RULE: Deleting ы in suffix for vowel stems and deleting floating ы**  
+**RULE: Syncope for ы, и and у**  
 
 #### Tests:
 
@@ -835,19 +840,9 @@ End of alphabet definitions
 * *ансамбль{VCCS}>{ыØ}т*
 * *ансамбл00>ит*
 
-**RULE: Palatalising suffix vowel after и/ы stems**  
-
-**RULE: Palatalising suffix vowel after й ь**  changes у to ы after  й ь
-
-**RULE: NO Palatalization of suffix vowels** gives ы э after  з л н с т
-
-**RULE: Palatalization of suffix vowels**  is the palatal opposite of the previous rule
-
 #### Tests:
 * *ве̄рмы%>%{ЫИ%}янэ*
 * *ве̄рм0%>иянэ*
-
-**RULE: Palatalising suffix vowel ы to и for palatal stems**  after ь etc.
 
 #### Tests:
 
@@ -856,16 +851,10 @@ End of alphabet definitions
 * ★*та̄л>ыг* (is not standard language)
 * ★*та̄л>иг* (is not standard language)
 
-**RULE: Removing й before suffix onset**  
-
-**RULE: Deleting vowel in suffix for vowel stems**  deletes suffix-initial а у е
-
 #### Tests:
 
 * *са̄лы>агын*
 * *са̄лы>ягын*
-
-**RULE: Delete u after y**  
 
 #### Tests:
 
@@ -875,10 +864,12 @@ End of alphabet definitions
 * *аки>0м*
 
 **RULE: Soft sign deletion for и suffixes**  2023.02
+ансамбль+N+Sg+Loc: **band/yhtye**
 * *ансамбль{VCCS}>{ыØ}т*
 * *ансамбл00>ит*
 
 #### Tests:
+
 ха̄ль+N+Sg+PxSg3+Nom
 * *ха̄ль>{тØ}{ЭЕ}*
 * *ха̄л0>0е*
@@ -886,13 +877,14 @@ End of alphabet definitions
 * *паль>{йØ%}ыг*
 * *пал0>0иг*
 
-**RULE: Px3 т deletion from vowel stems**  
+__%{аяØ%}:0__ deletes а/я after VO vowel stems
 
-**RULE: э to е after certain consonants after т deletion**  
+__%{аяØ%}:а__
 
-__%{аяØ%}:0__
+__%{аяØ%}:я__
 
-__%{тØ%}:0__
+### CONSONANTS
+
 ха̄ль+N+Sg+PxSg3+Nom
 * *ха̄ль%>%{тØ%}%{ЭЕ%}*
 * *ха̄л0%>0е*
@@ -908,13 +900,6 @@ __%{тØ%}:0__
 э̄ква+N+Sg+Ins
 * *э̄ква>{тØ}ыл*
 * *э̄ква>00л*
-
-__%{аяØ%}:а__
-
-__%{аяØ%}:я__
-
-CONSONANTS
-__%{тØ%}:т__
 
 * * *
 
@@ -1315,17 +1300,25 @@ ADD PROPER NOUNS BELOW
 
 ## The continuiation lexica
 
+Explaining the contlex naming convention:
+- V = Vowel, C = Consonant
+- VCH = short hard consonant, CS = soft consonant (ь, щ, ч, й)
+- VCCH = hard consonant cluster, CS = soft consonant cluster (all the rest)
+- VI = high vowel и, ы; VO = low or round vowel (all the rest)
+- SYN = synchopy, NOSYN = no synchopy (even though it seemingly should have it)
+
+This gives us the following stem types:
+
 - N_NOSYNCH_ = а̄рсын
 - N_NOSYNCS_ = а̄гирищ
-- N_SUP_	    = 
 - N_SYNCH_   = а̄пыр
 - N_SYNCS_   = а̄мыщ
-- N_VCCH_    = а̄гм
-- N_VCCS_    = 
-- N_VCH_	    = а̄врах
-- N_VCS_	    = а̄кань
-- N_VI_	    = а̄ви
-- N_VO_	    = а̄ква
+- N_VCCH_    = а̄гм. класс
+- N_VCCS_    = ансамбль
+- N_VCH_     = а̄врах
+- N_VCS_     = а̄кань
+- N_VI_      = а̄ви
+- N_VO_      = а̄ква
 
 ## The lexicon entries
 

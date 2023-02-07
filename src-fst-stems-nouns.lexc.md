@@ -2,17 +2,25 @@
 
 ## The continuiation lexica
 
+Explaining the contlex naming convention:
+- V = Vowel, C = Consonant
+- VCH = short hard consonant, CS = soft consonant (ь, щ, ч, й)
+- VCCH = hard consonant cluster, CS = soft consonant cluster (all the rest)
+- VI = high vowel и, ы; VO = low or round vowel (all the rest)
+- SYN = synchopy, NOSYN = no synchopy (even though it seemingly should have it)
+
+This gives us the following stem types:
+
 - N_NOSYNCH_ = а̄рсын
 - N_NOSYNCS_ = а̄гирищ
-- N_SUP_	    = 
 - N_SYNCH_   = а̄пыр
 - N_SYNCS_   = а̄мыщ
-- N_VCCH_    = а̄гм
-- N_VCCS_    = 
-- N_VCH_	    = а̄врах
-- N_VCS_	    = а̄кань
-- N_VI_	    = а̄ви
-- N_VO_	    = а̄ква
+- N_VCCH_    = а̄гм. класс
+- N_VCCS_    = ансамбль
+- N_VCH_     = а̄врах
+- N_VCS_     = а̄кань
+- N_VI_      = а̄ви
+- N_VO_      = а̄ква
 
 ## The lexicon entries
 
