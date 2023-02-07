@@ -131,39 +131,17 @@ Rules
 
 "Syncope for ы, и and у"
 !! **RULE: @RULENAME@**  
- Vx:Vy <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [%{ыиØ%}:|а|%{аяØ%}:|%{уØ%}:|%{ЭЕ%}:] ;
+ Vx:Vy <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [%{ыиØ%}:|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
   where Vx in ( ы и у )
         Vy in ( 0 0 0 )
         matched ;
 
 !! ла̄тыӈ+N+Sg+PxPl1+Nom:  **language/kieli**
-!!€ ла̄тыӈ{SYNCH}>{уØ}в
+!!€ ла̄тыӈ{SYNCH}>{уюØ}в
 !!€ ла̄т0ӈ0>ув
 !! яныг+N+Sg+Loc:
 !!€ яныг{SYNCH}>{ыиØ}т
 !!€ ян0г0>ыт
-
-!"Floating vowel in Archivowels" ! to be deleted
-! **RULE: @RULENAME@**  deletes floting vowel when suffix is vowel initial, VC>V.
-! Vx:0 <=> Cns _ (Cns) [Cns - й] %> [ Vow | %{йØ%}: ы: | %{ыØ%}: | %{уØ%}: | %{аяØ%}: | %{тØ%}: %{ЭЕ%}: ] ; ! tt: ы: for ы:и
-!     [Vow - ы] %> _ ;
-!  where Vx in ( %{ыØ%} %{иØ%}  %{уØ%} ) ;
-
-
-
-! "Deleting ы in suffix for vowel stems and deleting floating ы"
-! ! **RULE: @RULENAME@**  This rule takes care of all vowel stems, and deletes the initial vowel of the suffix.
-! ы:0 <=> Cns _ %> [%{ЫИ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| %{уØ%}:|%{ыØ%}:|а|у|н ӯ|н у|н э|в е|в е̄] ;
-! !this is in next Vow2021-10-17  ы %> %{йØ%}:0 _ Cns ;
-! ! Check this 2021-10-17 [щ|Cns ь:|ы] %> %{йØ%}:0 _ Cns ;
-! !Check this2021-10-17     Vow  %> (%{йØ%}:0)   _ Cns ;
-!   [Vow - [и|ы]] %> [%{йØ%}:|%{тØ%}:]   _ Cns ;
-!               Vow  %>    _ Cns ; ! This is for vowel stems
-!                Vow Cns:+ _ (Cns) [Cns - й] %> Vow ;
-!сыл%>уӈкве
-!2021-10-17                     Cns _ Cns %> ;
-!  .#. Cns:* Vow Cns:+ %> _ Cns ; ! ха̄п + ыныл, not for  ха̄п + ыт  
-!  .#. Cns:* Vow Cns:+ %> _ Cns ы л ; ! ха̄п + ыныл, not for  ха̄п + ыт  
 
 
 !! #### Tests:
@@ -182,78 +160,39 @@ Rules
 !!€ ха̄п>ыныл
 !!€ ха̄п>0ныл  
 
-!"i instead of y for pl nom, loc, lat"
-!! **RULE: @RULENAME@**  
-!2021-10-18%{йØ%}:и <=> [щ|Cns ь:] %> _ ; ! And the ohter ь-less consonants!
-
 !! #### Tests:
 
-!!€ паль>%{йØ%}ыт
+!!€ паль>{йØ}ыт
 !!€ пал0>0ит
 
-!"j instead of y for du nom in i"
-!! **RULE: @RULENAME@**  
-! 2021-10-18%{йØ%}:й <=> [и|ы] %> _ ; ! And the other ь-less consonants!
-
 !! #### Tests:
 
-!!€ а̄ны>{йØ%}ыг
+!!€ а̄ны>{йØ}ыг
 !!€ а̄ны>0иг
 !! аки+N+Sg+Tra: __as an uncle__
-!!€ аки>{йØ%}ыг
+!!€ аки>{йØ}ыг
 !!€ аки>0иг
 
 
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"
 %{ыиØ%}:ы <=>
-     [%{VCCH%}:|%{SYNCH%}:] %> _ [т|н|л] ;
+     [%{VCCH%}:|%{SYNCH%}:] %> _ [т|н|л|я] ;
 !! яныг+N+Sg+Loc:
 !!€ яныг{SYNCH}>{ыиØ}т
 !!€ ян0г0>ыт
 !!
-![р т|Cns %{ыØ%}: (Cns) Cns] %> _ [т|н] ;
 !! я̄ӈк+N+Sg+Loc: **ice/jää**
 !!€ я̄ӈк{VCCH}>{ыиØ}т
 !!€ я̄ӈк0>ыт
 
 "Vow и in loc appears"
 %{ыиØ%}:и <=>
-     Pal %> _ [т|н|л] ;
+     Pal %> _ [т|н|л|я] ;
      
 !!ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыØ}т
 !!€ ансамбл00>ит
-
-! "Palatalising suffix vowel after и/ы stems"
-! ! **RULE: @RULENAME@**  
-! а:я <=>  й: (ы:0) %> _ Cns:+ ;
-!                 ы %> _ ;
-!where 2019-ç06-16 [и|ы] %> _ Cns:+ Vow ;
-
-
-! "Palatalising suffix vowel after й ь"
-! ! **RULE: @RULENAME@**  changes у to ы after  й ь
-! у:ю <=> [й: | ь: ]  %> _ Cns:+ ;
-
-
-! "NO Palatalization of suffix vowels"
-! ! **RULE: @RULENAME@** gives ы э after  з л н с т
-!  Vx:Vy <=> CnsAlv %> (%{тØ%}:) _ ;
-!   where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
-!         Vy in ( ы   э   э̄ )
-!         matched ;
-
-!+V+Ind+Prs+ScSg1:
-! >%{ЭЕLong%}гум
-
-
-! "Palatalization of suffix vowels"
-! ! **RULE: @RULENAME@**  is the palatal opposite of the previous rule
-!  Vx:Vy <=> [ ь: | р | Р | CnsNonAlv | й: | CnsSoft ] ( ы: ) %> (%{йØ%}:0|%{тØ%}:)  _ ;
-!   where Vx in ( %{ЫИ%} %{ЭЕ%}  %{ЭЕLong%} )
-!         Vy in ( и   е   е̄ )
-!         matched ;
 
 !! #### Tests:
 !ве̄рмуӈкве+Ind+Prs+OcPl3+ScSg3:
@@ -263,13 +202,6 @@ Rules
 ! +V+Ind+Prs+ScSg1:
 ! € >%{ЭЕLong%}гум
 
-! "Palatalising suffix vowel ы to и for palatal stems"
-! ! **RULE: @RULENAME@**  after ь etc.
-! ы:и <=> [[т|д|н|л|с] ь: |й: | щ ] (ы:0) %>  (%{йØ%}:0) _ Cns \[ы] ;
-! !        л ы %> %{йØ%}:0 _ Cns ; ! са̄лыиг
-!         Cns [ы|и] %> %{йØ%}:0 _ Cns ; ! са̄лыиг
-! ! [ь:|т|д|н|л|с|щ] %> _ Cns ;
-
 !! #### Tests:
 
 !!€ вармаль>ыт
@@ -278,25 +210,10 @@ Rules
 !!$ та̄л>иг
 
 
-! "Removing й before suffix onset"
-! ! **RULE: @RULENAME@**  
-! й:0 <=> _ (ы:0) %> [ %{ЫИ%}: | (%{тØ%}:) %{ЭЕ%}: | %{ЭЕLong%}: | ( %{йØ%}:0 ) ы: | а: | у: ] ;
-
-
-! TODO: Fix these two rules
-!"Deleting vowel in suffix for vowel stems"
-! **RULE: @RULENAME@**  deletes suffix-initial а у е
-!Vx:0 <=> VowNoI %>   _ Cns ; ! was: Vow (now all but и ы)
-!        where Vx in (а е) ;
-
 !! #### Tests:
 
 !!€ са̄лы>агын
 !!€ са̄лы>ягын
-
-!"Delete u after y"
-! **RULE: @RULENAME@**  
-!у:0 <=> Vow %> _ ;
 
 !! #### Tests:
 
@@ -311,7 +228,7 @@ Rules
 !! **RULE: @RULENAME@**  2023.02
 ь:0 <=>
     _ [%{VCCS%}:] %> %{ыиØ%}: [т|н]; !! ансамбль+N+Sg+Loc: **band/yhtye**
-!!€ ансамбль{VCCS}>{ыØ}т
+!!€ ансамбль{VCCS}>{ыиØ}т
 !!€ ансамбл00>ит
 
 Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] ;
@@ -340,10 +257,10 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 ! э:е <=> [Cns - [т|д|н|л|с|щ]] %> т: _ ;
 
 !!TESTS
-!echo 'л а̄ т {ыØ}:0 ӈ > {уØ}:у в' | hfst-pair-test src/fst/phonology.compose.hfst
+!echo 'л а̄ т {ыØ}:0 ӈ > {уюØ}:у в' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'х а̄ л ь:0 > {тØ}:0 {ЭЕ}:е' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'я н ы > {тØ}:т ы л' | hfst-pair-test src/fst/phonology.compose.hfst
-!echo 'о к р у г > {уØ}:у в' | hfst-pair-test src/fst/phonology.compose.hfst
+!echo 'о к р у г > {уюØ}:у в' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'ла̄тыӈ+N+Sg+Nom' | hfst-lookup src/morphology/lexicon.hfst
 
 
@@ -363,6 +280,23 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 "%{аяØ%}:я"
 !! __@RULENAME@__
   %{аяØ%}:я <=> [%{VI%}: | Pal ]  %> _  ;
+  ! [ и | ы | ь: ] %> _  ;
+
+
+"%{уюØ%}:0"
+!! __@RULENAME@__ deletes а/я after VO vowel stems
+%{уюØ%}:0 <=> %{VO%}:  %> _  ;
+!VowNoI  %> _  ;
+
+
+"%{уюØ%}:у"
+!! __@RULENAME@__
+ %{уюØ%}:у <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: ]  %> _  ;
+! Cns %> _  ;
+
+"%{уюØ%}:ю"
+!! __@RULENAME@__
+  %{уюØ%}:ю <=> [%{VI%}: | Pal ]  %> _  ;
   ! [ и | ы | ь: ] %> _  ;
 
 "%{ЭЕLong%}:э̄"
@@ -404,6 +338,9 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 "%{ЫИ%}:ы"
 !! __@RULENAME@__
 %{ЫИ%}:ы <=> [ CnsAlv - р | Vow ] [%{VU%}:|%{VA%}:] %> _ ;
+!! тотуӈкве+V+Ind+Prs+ScDu1+OcDu3:
+!!€ тот{VU}>{ЫИ}ягмен
+!!€ тот0>ыягмен
 
 "%{ЫИ%}:и"
 !! __@RULENAME@__
