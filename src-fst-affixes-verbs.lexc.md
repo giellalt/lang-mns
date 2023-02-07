@@ -4,7 +4,9 @@
 
 ## Stems ending in C
 
-**LEXICON V11_odd** 
+**LEXICON V_U** 
+
+**LEXICON V_A** 
 
 * **LEXICON V11_MUTUAL** 
 	* **LEXICON V11_MUTUAL-IND**  

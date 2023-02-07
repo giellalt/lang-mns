@@ -49,7 +49,6 @@ language are presented in this system in terms of the following symbols.
 * **+Rel** 
 * **+Indef** 
 * **+Aux** Auxiliary
-* **+Imp** 
 
 ### The Usage extents are marked using following tags:
 * **+Err/Orth**  do not accept, but recognize
@@ -164,6 +163,7 @@ To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
 __%{ыиØ%}__ Loc and Ins
+* **%{уюØ%}** suffix onset vowel
 
 __%{тØ%}__ Ins, PxSg3,
 
@@ -176,9 +176,6 @@ __%{тØ%}__ Ins, PxSg3,
 **%{иØ%}** specific floating vowel 
 **%{уØ%}** specific floating vowel 
 
-**ы2** ы in stem, syncope 
-**ы3** weak ы in Sg Loc and Sg Lat
-
 And following triggers to control variation
 __%{VO%}__ Stem ending in vowel other than и ы
 __%{VI%}__ Stem ending in vowel и or ы
@@ -190,6 +187,8 @@ __%{VCH%}__ Stem ending in single hard consonant
 __%{VCCH%}__ Stem ending in hard consonant cluster
 __%{VCS%}__ Stem ending in single soft consonant
 __%{VCCS%}__ Stem ending in soft consonant cluster
+__%{VA%}__ -аӈкве verb
+__%{VU%}__ -уӈкве verb
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following

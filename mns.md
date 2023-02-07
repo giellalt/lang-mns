@@ -597,7 +597,9 @@ and Mansi-specific names.
 
 ## Stems ending in C
 
-**LEXICON V11_odd** 
+**LEXICON V_U** 
+
+**LEXICON V_A** 
 
 * **LEXICON V11_MUTUAL** 
 	* **LEXICON V11_MUTUAL-IND**  
@@ -700,23 +702,25 @@ Precomposed letters are used when available, otherwise non-composed ones.
 
 #### Archiphones
 
+* **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
 * **%{ыиØ%}:0** Loc and Ins and ...
-
+* **%{уюØ%}:0** suffix onset vowel
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
+* **%{ЭЕLong%}:е** +V+Ind+Prs+ScSg1 VU
+* **%{ЭЕLong%}:э** +V+Ind+Prs+ScSg1 VU
+* **%{ЭЕ%}:е** PxSg3
+* **%{ЭЕ%}:э** PxSg3
+
 * **%{йØ%}:0** ыг
 * **%{Øы%}:0** Loc
 * **%{ыØ%}:ы** specific floating vowel 
 * **%{иØ%}:и** specific floating vowel 
 * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
-* **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
 * **%{УЮØ%}:0**
 * **%{тØ%}:0** PxSg3, Ins
-* **%{ЭЕ%}:0** PxSg3
-* **ы2:ы** syncope vowel
-* **ы3:0** weak ы for Loc and Lat
 
 #### Triggers
 __%{VO%}:0__ Stem ending in vowel other than и ы
@@ -729,6 +733,9 @@ __%{VCH%}:0__ Stem ending in single hard consonant
 __%{VCCH%}:0__ Stem ending in hard consonant cluster
 __%{VCS%}:0__ Stem ending in single soft consonant
 __%{VCCS%}:0__ Stem ending in soft consonant cluster
+
+__%{VA%}:0__ -аӈкве verb
+__%{VU%}:0__ -уӈкве verb
 
 * **%^PxDu2:0**
 * **%^PxDu3:0**
@@ -778,7 +785,7 @@ End of alphabet definitions
  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
 * **CnsAlv = д з л н с т**
  **Д З Л Н С Т ;**
-* **Cns = CnsSoft CnsNonAlv CnsAlv р Р ;**
+* **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й;**
 
 ### Definitions
 
@@ -797,12 +804,12 @@ End of alphabet definitions
 
 #### Tests:
 
-* *апа>%{йØ%}ыт*
+* *апа>{йØ}ыт*
 * *апа>00т*
 аки+N+Du+Nom:  __paternal uncle younger than father__
-* *аки>%{йØ%}ыг*
+* *аки>{йØ}ыг*
 * *аки>0иг*
-* *ха̄п>%{йØ%}ыт*
+* *ха̄п>{йØ}ыт*
 * *ха̄п>0ыт*
 * *апа>ныл*
 * *апа>ныл*
@@ -827,8 +834,6 @@ End of alphabet definitions
 аки+N+Sg+Tra: __as an uncle__
 * *аки>{йØ%}ыг*
 * *аки>0иг*
-
-**RULE: ы2 as ы in syncope in stem**  
 
 яныг+N+Sg+Loc:
 * *яныг{SYNCH}>{ыиØ}т*
@@ -874,7 +879,7 @@ End of alphabet definitions
 * *ха̄ль>{тØ}{ЭЕ}*
 * *ха̄л0>0е*
 
-* *паль>{йØ%}ыг*
+* *паль>{йØ}ыг*
 * *пал0>0иг*
 
 __%{аяØ%}:0__ deletes а/я after VO vowel stems
@@ -882,6 +887,22 @@ __%{аяØ%}:0__ deletes а/я after VO vowel stems
 __%{аяØ%}:а__
 
 __%{аяØ%}:я__
+
+__%{ЭЕLong%}:э̄__
+
+__%{ЭЕLong%}:э̄__
+
+__%{ЭЕLong%}:э__
+
+__%{ЭЕLong%}:э__
+
+__%{ЭЕ%}:э__
+
+__%{ЭЕ%}:е__
+* *ха̄ль%>%{тØ%}%{ЭЕ%}*
+* *ха̄л0%>0е*
+* *потыр%^Syncope%>%{тØ%}%{ЭЕ%}*
+* *пот0р0%>0е*
 
 ### CONSONANTS
 
@@ -958,7 +979,6 @@ language are presented in this system in terms of the following symbols.
 * **+Rel** 
 * **+Indef** 
 * **+Aux** Auxiliary
-* **+Imp** 
 
 ### The Usage extents are marked using following tags:
 * **+Err/Orth**  do not accept, but recognize
@@ -1073,6 +1093,7 @@ To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
 __%{ыиØ%}__ Loc and Ins
+* **%{уюØ%}** suffix onset vowel
 
 __%{тØ%}__ Ins, PxSg3,
 
@@ -1085,9 +1106,6 @@ __%{тØ%}__ Ins, PxSg3,
 **%{иØ%}** specific floating vowel 
 **%{уØ%}** specific floating vowel 
 
-**ы2** ы in stem, syncope 
-**ы3** weak ы in Sg Loc and Sg Lat
-
 And following triggers to control variation
 __%{VO%}__ Stem ending in vowel other than и ы
 __%{VI%}__ Stem ending in vowel и or ы
@@ -1099,6 +1117,8 @@ __%{VCH%}__ Stem ending in single hard consonant
 __%{VCCH%}__ Stem ending in hard consonant cluster
 __%{VCS%}__ Stem ending in single soft consonant
 __%{VCCS%}__ Stem ending in soft consonant cluster
+__%{VA%}__ -аӈкве verb
+__%{VU%}__ -уӈкве verb
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -1185,7 +1205,7 @@ NEWWORDS FILES:
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
-яныг+A:яны2г A_ "(eng) big/(hun) nagy/(rus) большой" ;
+яныг+A:яныг A_SYNCH "(eng) big/(hun) nagy/(rus) большой" ;
 
 **LEXICON A_NEWWORDS** 
 ADD ADJECTIVES BELOW
@@ -1486,10 +1506,10 @@ The file lists personal pronouns and their lemma + tags.
 
 **LEXICON Verbs** is the list of all verbstems
 
-* а̄гмалтаӈкве+V:а̄гмалт V23_even "определить" ; 
-* а̄йтынтахтуӈкве+V:а̄йтынтахт V23_odd "тошнить" ;
-* а̄лмаяӈкве+V:а̄лмай V12_even "поднять" ;
-* а̄лмта̄луӈкве+V:а̄лмта̄лу V13_even "носить /на руках/" ;
+* а̄гмалтаӈкве+V:а̄гмалт V_A "23_even_определить" ; 
+* а̄йтынтахтуӈкве+V:а̄йтынтахт V_U "23_odd_тошнить" ;
+* а̄лмаяӈкве+V:а̄лмай V_A "12_even_поднять" ;
+* а̄лмта̄луӈкве+V:а̄лмта̄л V_U "13_even_носить /на руках/" ;
 ..., some 3500 verbs.
 
 * * *
