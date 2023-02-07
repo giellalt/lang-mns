@@ -83,7 +83,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Rel 	    !!≈ * **@CODE@** 
  +Indef	    !!≈ * **@CODE@** 
  +Aux	    !!≈ * **@CODE@** Auxiliary
-+Imp			     !!≈ * **@CODE@** 
+
 
 !! ### The Usage extents are marked using following tags:
  +Err/Orth  	    !!≈ * **@CODE@**  do not accept, but recognize
@@ -218,6 +218,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 !! symbols (archiphones) in the lexicon files:
 %{аяØ%}	!!≈ __@CODE@__ PxPl3 %{аяØ%}ныл
 %{ыиØ%}	!!≈ __@CODE@__ Loc and Ins
+%{уюØ%}	!!≈ * **@CODE@** suffix onset vowel
 
 !%{УЮØ%}	!!≈ __@CODE@__
 %{тØ%}	!!≈ __@CODE@__ Ins, PxSg3,
@@ -231,8 +232,6 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 %{иØ%}	!!≈ **@CODE@** specific floating vowel 
 %{уØ%}	!!≈ **@CODE@** specific floating vowel 
 
-ы2         !!≈ **@CODE@** ы in stem, syncope 
-ы3         !!≈ **@CODE@** weak ы in Sg Loc and Sg Lat
 
 !! And following triggers to control variation
 ! {front} {back}
@@ -246,6 +245,9 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 %{VCCH%}	!!≈ __@CODE@__ Stem ending in hard consonant cluster
 %{VCS%}	!!≈ __@CODE@__ Stem ending in single soft consonant
 %{VCCS%}	!!≈ __@CODE@__ Stem ending in soft consonant cluster
+%{VA%}	!!≈ __@CODE@__ -аӈкве verb
+%{VU%}	!!≈ __@CODE@__ -уӈкве verb
+
 
 
 !%^PxDu2	!!≈ __@CODE@__

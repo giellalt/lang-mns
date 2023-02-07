@@ -27,28 +27,27 @@ Alphabet
 
 !! #### Archiphones
 
+%{аяØ%}:0	!!≈ * **@CODE@** PxPl3 %{аяØ%}ныл
 %{ыиØ%}:0	!!≈ * **@CODE@** Loc and Ins and ...
-
+%{уюØ%}:0	!!≈ * **@CODE@** suffix onset vowel
 %{ЫИ%}:и	!!≈ * **@CODE@**
 %{ЫИ%}:ы	!!≈ * **@CODE@**
 %{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
+%{ЭЕLong%}:е	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
+%{ЭЕLong%}:э	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
+%{ЭЕ%}:е	!!≈ * **@CODE@** PxSg3
+%{ЭЕ%}:э	!!≈ * **@CODE@** PxSg3
+
 %{йØ%}:0	!!≈ * **@CODE@** ыг
 %{Øы%}:0	!!≈ * **@CODE@** Loc
 %{ыØ%}:ы	!!≈ * **@CODE@** specific floating vowel 
 %{иØ%}:и	!!≈ * **@CODE@** specific floating vowel 
 %{уØ%}:у	!!≈ * **@CODE@** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
-%{аяØ%}:0	!!≈ * **@CODE@** PxPl3 %{аяØ%}ныл
 %{УЮØ%}:0	!!≈ * **@CODE@**
 %{тØ%}:0	!!≈ * **@CODE@** PxSg3, Ins
-%{ЭЕ%}:0	!!≈ * **@CODE@** PxSg3
-ы2:ы	!!≈ * **@CODE@** syncope vowel
-ы3:0	!!≈ * **@CODE@** weak ы for Loc and Lat
 
-! This is old 2017-03-19 ы2:ы ! fleeting/syncopating vowel
-! question: are all cases where CыC syncopating ???
-! EXCEPTION = апыг, квāлыг, ...
-! ... possibly not syncopating before г ...
+
 
 !! #### Triggers
 %{VO%}:0	!!≈ __@CODE@__ Stem ending in vowel other than и ы
@@ -61,6 +60,9 @@ Alphabet
 %{VCCH%}:0	!!≈ __@CODE@__ Stem ending in hard consonant cluster
 %{VCS%}:0	!!≈ __@CODE@__ Stem ending in single soft consonant
 %{VCCS%}:0	!!≈ __@CODE@__ Stem ending in soft consonant cluster
+
+%{VA%}:0	!!≈ __@CODE@__ -аӈкве verb
+%{VU%}:0	!!≈ __@CODE@__ -уӈкве verb
 
 %^PxDu2:0	!!≈ * **@CODE@**
 %^PxDu3:0	!!≈ * **@CODE@**
@@ -112,7 +114,7 @@ LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ; !!≈ * **@CODE@**
              Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ  ; !!≈  **@CODE@**
  CnsAlv = д з л н с т !!≈ * **@CODE@**
           Д З Л Н С Т ; !!≈  **@CODE@**
- Cns = CnsSoft CnsNonAlv CnsAlv  р Р ;  !!≈ * **@CODE@**
+ Cns = CnsSoft CnsNonAlv CnsAlv  р Р й Й;  !!≈ * **@CODE@**
 
 
 !! ### Definitions
@@ -166,12 +168,12 @@ Rules
 
 !! #### Tests:
  
-!!€ апа>%{йØ%}ыт
+!!€ апа>{йØ}ыт
 !!€ апа>00т
 !! аки+N+Du+Nom:  __paternal uncle younger than father__
-!!€ аки>%{йØ%}ыг
+!!€ аки>{йØ}ыг
 !!€ аки>0иг
-!!€ ха̄п>%{йØ%}ыт
+!!€ ха̄п>{йØ}ыт
 !!€ ха̄п>0ыт
 !!€ апа>ныл
 !!€ апа>ныл
@@ -201,9 +203,6 @@ Rules
 !!€ аки>{йØ%}ыг
 !!€ аки>0иг
 
-"ы2 as ы in syncope in stem"
-!! **RULE: @RULENAME@**  
-ы2:0 <=> Cns _ Cns %> :Vow ;
 
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"
@@ -324,7 +323,7 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 !!€ ха̄ль>{тØ}{ЭЕ}
 !!€ ха̄л0>0е
 
-!!€ паль>{йØ%}ыг
+!!€ паль>{йØ}ыг
 !!€ пал0>0иг
 ! In light of the yaml file saali, this seems wrong, we want са̄лыиг, нот са̄лыйыг
 !"%{йØ%}:й instertion for vowel initial suffixes on ы final stems"
@@ -366,6 +365,42 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
   %{аяØ%}:я <=> [%{VI%}: | Pal ]  %> _  ;
   ! [ и | ы | ь: ] %> _  ;
 
+"%{ЭЕLong%}:э̄"
+!! __@RULENAME@__
+ %{ЭЕLong%}:э̄ <=> CnsAlv %{VA%} %> _ ;
+ !!€ аки%>%{тØ%}%{ЭЕLong%}н
+ !!€ аки%>тэ̄н
+
+ "%{ЭЕLong%}:е̄"
+ !! __@RULENAME@__
+  %{ЭЕLong%}:е̄ <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VA%} %> _ ;
+ !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
+ !!€ ха̄л0%>0е̄н
+
+"%{ЭЕLong%}:э"
+!! __@RULENAME@__
+ %{ЭЕLong%}:э <=> CnsAlv %{VU%} %> _ ;
+ !!€ тот{VU}>{ЭЕLong}в
+ !!€ тот0>эв
+
+ "%{ЭЕLong%}:е"
+ !! __@RULENAME@__
+  %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%} %> _ ;
+ !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
+ !!€ ха̄л0%>0е̄н
+
+"%{ЭЕ%}:э"
+!! __@RULENAME@__
+%{ЭЕ%}:э <=> [ CnsAlv - р | Vow ] [%{VU%}:|%{VA%}:] %> _ ;
+
+"%{ЭЕ%}:е"
+!! __@RULENAME@__
+ %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: ] (%^Syncope:) %> %{тØ%}: _  ;
+!!€ ха̄ль%>%{тØ%}%{ЭЕ%}
+!!€ ха̄л0%>0е
+!!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
+!!€ пот0р0%>0е
+
 
 !! ### CONSONANTS
 
@@ -387,7 +422,7 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 !! потыр+N+Sg+PxSg3+Nom
 !!€ пот%{ыØ%}р>{тØ}{ЭЕ}
 !!€ пот0р>0е
- VowNoI %>  _ ы: л ;
+! VowNoI %>  _ ы: л ;
 !! э̄ква+N+Sg+Ins
 !!€ э̄ква>{тØ}ыл
 !!€ э̄ква>00л
@@ -407,8 +442,7 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 !TOS  ы:0   <=>   _  Cns (ь:) %^Syncope: ;
 !TOS
 !TOS ! _ Cns %^Syncope: %> [ %{ЫИØ%}: | %{ыØ%}: ] [ т | н ]  ;
-!TOS !ы2:0   <=>   _  Cns (ь:) %> ( %{тØ%}: ) :Vow  ;
-!TOS !   _  PostSyncStem (ь:) :Vow ;
+
 !TOS !!€ потыр%^Syncope%>%{УЮØ%}м
 !TOS !!€ пот0р0%>ум
 !TOS !!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
@@ -489,19 +523,7 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 !TOS !!€ па̄рт%>ын
 !TOS !!€ потыр%^Syncope%>%{ыØ%}н
 !TOS !!€ пот0р0%>ын
-!TOS
-!TOS "%{ЭЕ%}:э"
-!TOS !! __@RULENAME@__
-!TOS  %{ЭЕ%}:э <=> [ CnsAlv - р | Vow ] %> %{тØ%}: _ ;
-!TOS
-!TOS "%{ЭЕ%}:е"
-!TOS !! __@RULENAME@__
-!TOS  %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: ] (%^Syncope:) %> %{тØ%}: _  ;
-!TOS !!€ ха̄ль%>%{тØ%}%{ЭЕ%}
-!TOS !!€ ха̄л0%>0е
-!TOS !!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
-!TOS !!€ пот0р0%>0е
-!TOS
+
 !TOS "%{УЮØ%}:у"
 !TOS !! __@RULENAME@__
 !TOS  %{УЮØ%}:у <=> Cns %> _ [ м | в ] ;
@@ -544,19 +566,8 @@ Cns _ (ы:0) %> (%{йØ%}:0) [:PalVow| %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ]] 
 !TOS ! %{ЭЕ%}:е̄ <=>  [ CnsSoft | CnsNonAlv | ь:]  %> %{тØ%}: _ %^PxDu3: ;
 !TOS !!!€ ха̄ль%>%{тØ%}%{ЭЕ%}%^PxDu3н
 !TOS !!!€ ха̄л0%>0е̄0н
-!TOS
-!TOS "%{ЭЕLong%}:э̄"
-!TOS !! __@RULENAME@__
-!TOS  %{ЭЕLong%}:э̄ <=> [ CnsAlv | Vow ] %> %{тØ%}: _ ;
-!TOS !!€ аки%>%{тØ%}%{ЭЕLong%}н
-!TOS !!€ аки%>тэ̄н
-!TOS
-!TOS "%{ЭЕLong%}:е̄"
-!TOS !! __@RULENAME@__
-!TOS  %{ЭЕLong%}:е̄ <=> [ CnsSoft | CnsNonAlv | ь: ] %> %{тØ%}: _ ;
-!TOS !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
-!TOS !!€ ха̄л0%>0е̄н
-!TOS
+
+
 !TOS "а:а̄"
 !TOS !! __@RULENAME@__
 !TOS  а:а̄ <=> _ %> %{ЫИØ%}: %^PxPl2: ;

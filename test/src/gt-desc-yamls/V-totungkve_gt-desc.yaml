@@ -20,8 +20,8 @@ Tests:
 # perhaps stem should be in тотуӈкве+V+Ind+Prs+ScSg3: тоты
     тотуӈкве+V+Inf: тотуӈкве
 
-    тотнуве: [тотнуве]
-    тотымэн: [тотымэн]
+#    тотнуве: [тотнуве]
+#    тотымэн: [тотымэн]
 
     тотуӈкве+V+Ind+Prs+ScPl1: [тотэ̄в, тотэв]
     тотуӈкве+V+Ind+Prs+ScPl2: [тотэ̄гын, тотэгын]
@@ -43,7 +43,7 @@ Tests:
     тотуӈкве+V+Ind+Prt+ScPl1: тотсув
     тотуӈкве+V+Ind+Prt+ScPl2: [тотсы̄н, тотсын]
     тотуӈкве+V+Ind+Prt+ScPl3: тотсыт
-]
+
     тотуӈкве+V+Cond+Prs+ScSg1: [тотнувум]
     тотуӈкве+V+Cond+Prs+ScSg2: [тотнувын]
     тотуӈкве+V+Cond+Prs+ScSg3: [тотнув]
@@ -64,7 +64,7 @@ Tests:
     тотуӈкве+V+Ind+Prs+OcSg3+ScSg1: тотылум
     тотуӈкве+V+Ind+Prs+OcSg3+ScSg2: [тотылын]
     тотуӈкве+V+Ind+Prs+OcSg3+ScSg3: [тотытэ]
-    тотуӈкве+V+Ind+Prs+OcSg3+ScDu1: x
+#    тотуӈкве+V+Ind+Prs+OcSg3+ScDu1: x
     тотуӈкве+V+Ind+Prs+OcSg3+ScDu2: [тотылын]
     тотуӈкве+V+Ind+Prs+OcSg3+ScDu3: [тотытэн]
     тотуӈкве+V+Ind+Prs+OcSg3+ScPl1: [тотылув]
@@ -84,11 +84,11 @@ Tests:
     тотуӈкве+V+Ind+Prs+OcPl3+ScSg1: [тотыянум]
     тотуӈкве+V+Ind+Prs+OcPl3+ScSg2: [тотыян]
     тотуӈкве+V+Ind+Prs+OcPl3+ScSg3: [тотыянэ]
-    тотуӈкве+V+Ind+Prs+OcPl3+ScDu1: xxx
-    тотуӈкве+V+Ind+Prs+OcPl3+ScDu2: xxx
+#    тотуӈкве+V+Ind+Prs+OcPl3+ScDu1: xxx
+#    тотуӈкве+V+Ind+Prs+OcPl3+ScDu2: xxx
     тотуӈкве+V+Ind+Prs+OcPl3+ScDu3: [тотыянэн]
     тотуӈкве+V+Ind+Prs+OcPl3+ScPl1: [тотыянув]
-    тотуӈкве+V+Ind+Prs+OcPl3+ScPl2: x
+#    тотуӈкве+V+Ind+Prs+OcPl3+ScPl2: x
     тотуӈкве+V+Ind+Prs+OcPl3+ScPl3: [тотыяныл]
 
     тотуӈкве+V+Ind+Prt+OcSg3+ScSg1: [тотыслум]
@@ -115,11 +115,11 @@ Tests:
     тотуӈкве+V+Ind+Prt+OcPl3+ScSg1: [тотсанум]
     тотуӈкве+V+Ind+Prt+OcPl3+ScSg2: [тотсан]
     тотуӈкве+V+Ind+Prt+OcPl3+ScSg3: [тотсанэ]
-    тотуӈкве+V+Ind+Prt+OcPl3+ScDu1: x
-    тотуӈкве+V+Ind+Prt+OcPl3+ScDu2: x
+#    тотуӈкве+V+Ind+Prt+OcPl3+ScDu1: x
+#    тотуӈкве+V+Ind+Prt+OcPl3+ScDu2: x
     тотуӈкве+V+Ind+Prt+OcPl3+ScDu3: [тотсанэн]
     тотуӈкве+V+Ind+Prt+OcPl3+ScPl1: [тотсанув]
-    тотуӈкве+V+Ind+Prt+OcPl3+ScPl2: x
+#    тотуӈкве+V+Ind+Prt+OcPl3+ScPl2: x
     тотуӈкве+V+Ind+Prt+OcPl3+ScPl3: [тотсаныл]
 
 
@@ -131,7 +131,7 @@ Tests:
     тотуӈкве+V+Cond+Prs+OcSg3+ScSg3: [тотнувтэ]
     тотуӈкве+V+Cond+Prs+OcSg3+ScDu1: [тотнувламен]
     тотуӈкве+V+Cond+Prs+OcSg3+ScDu2: [тотнувлын]
-    тотуӈкве+V+Cond+Prs+OcSg3+ScDu3: x
+#    тотуӈкве+V+Cond+Prs+OcSg3+ScDu3: x
     тотуӈкве+V+Cond+Prs+OcSg3+ScPl1: [тотнувлув]
     тотуӈкве+V+Cond+Prs+OcSg3+ScPl2: [тотнувлын]
     тотуӈкве+V+Cond+Prs+OcSg3+ScPl3: [тотнуваныл]
@@ -142,9 +142,9 @@ Tests:
     тотуӈкве+V+Cond+Prs+OcDu3+ScDu1: [тотнувагмен]
     тотуӈкве+V+Cond+Prs+OcDu3+ScDu2: [тотнувагын]
     тотуӈкве+V+Cond+Prs+OcDu3+ScDu3: [тотнуваген]
-    тотуӈкве+V+Cond+Prs+OcDu3+ScPl1: x
+#    тотуӈкве+V+Cond+Prs+OcDu3+ScPl1: x
     тотуӈкве+V+Cond+Prs+OcDu3+ScPl2: [тотнувагын]
-    тотуӈкве+V+Cond+Prs+OcDu3+ScPl3: x
+#    тотуӈкве+V+Cond+Prs+OcDu3+ScPl3: x
 
     тотуӈкве+V+Cond+Prs+OcPl3+ScSg1: [тотнуванум]
     тотуӈкве+V+Cond+Prs+OcPl3+ScSg2: [тотнуванын]
@@ -191,7 +191,7 @@ Tests:
     тотуӈкве+V+Pass+Prt+ScSg1: [тотвесум]
     тотуӈкве+V+Pass+Prt+ScSg2: [тотвесын]
     тотуӈкве+V+Pass+Prt+ScSg3: [тотвес]
-    тотуӈкве+V+Pass+Prt+ScDu1: x
+#    тотуӈкве+V+Pass+Prt+ScDu1: x
     тотуӈкве+V+Pass+Prt+ScDu2: [тотвесын]
     тотуӈкве+V+Pass+Prt+ScDu3: [тотвесыг]
     тотуӈкве+V+Pass+Prt+ScPl1: [тотвесув]

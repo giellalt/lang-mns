@@ -109,68 +109,68 @@ LEXICON N1_SG
 +Sg+Tra:%>%{йØ%}ыг K ;
 
 !+Sg+Loc:%>%{ыиØ%}т K ; ! -ыт/ _ CC, -т elsewhere
-!+Sg+Lat:%>ы2н K ; ! -ын as -ыт above
+!+Sg+Lat:%>%{ыиØ%}н K ; ! -ын as -ыт above
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
-+Sg+PxSg1+Nom:%>%{уØ%}м K ;
-+Sg+PxSg1+Loc:%>%{уØ%}мт K ;
-+Sg+PxSg1+Lat:%>%{уØ%}мн K ;
-+Sg+PxSg1+Abl:%>%{уØ%}мныл K ;
-+Sg+PxSg1+Ins:%>%{уØ%}мтыл K ;
++Sg+Nom+PxSg1:%>%{уØ%}м K ;
++Sg+Loc+PxSg1:%>%{уØ%}мт K ;
++Sg+Lat+PxSg1:%>%{уØ%}мн K ;
++Sg+Abl+PxSg1:%>%{уØ%}мныл K ;
++Sg+Ins+PxSg1:%>%{уØ%}мтыл K ;
 
-+Sg+PxSg2+Nom:%>ын K ;
-+Sg+PxSg2+Loc:%>ынт K ;
-+Sg+PxSg2+Lat:%>ынн K ;
-+Sg+PxSg2+Abl:%>ынныл K ;
-+Sg+PxSg2+Ins:%>ынтыл K ;
++Sg+Nom+PxSg2:%>ын K ;
++Sg+Loc+PxSg2:%>ынт K ;
++Sg+Lat+PxSg2:%>ынн K ;
++Sg+Abl+PxSg2:%>ынныл K ;
++Sg+Ins+PxSg2:%>ынтыл K ;
 
-+Sg+PxSg3+Nom:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
-+Sg+PxSg3+Loc:%>%{тØ%}%{ЭЕ%}т K ;
-+Sg+PxSg3+Lat:%>%{тØ%}%{ЭЕ%}н K ;
-+Sg+PxSg3+Abl:%>%{тØ%}%{ЭЕ%}ныл K ;
-+Sg+PxSg3+Ins:%>%{тØ%}%{ЭЕ%}тыл K ;
++Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
++Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;
++Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕ%}н K ;
++Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
++Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}тыл K ;
 
-+Sg+PxDu1+Nom:%>%{уØ%}ме̄н K ; ! ? +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
-+Sg+PxDu1+Nom+Use/NG:%>%{уØ%}мен K ;
-+Sg+PxDu1+Loc:%>%{уØ%}ме̄нт K ;
-+Sg+PxDu1+Loc+Use/NG:%>%{уØ%}мент K ;
-+Sg+PxDu1+Lat:%>%{уØ%}ме̄нн K ;
-+Sg+PxDu1+Lat+Use/NG:%>%{уØ%}менн K ;
-+Sg+PxDu1+Abl:%>%{уØ%}ме̄нныл K ;
-+Sg+PxDu1+Abl+Use/NG:%>%{уØ%}менныл K ;
-+Sg+PxDu1+Ins:%>%{уØ%}ме̄нтыл K ;
-+Sg+PxDu1+Ins+Use/NG:%>%{уØ%}ментыл K ;
++Sg+Nom+PxDu1:%>%{уØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н
++Sg+Nom+PxDu1+Use/NG:%>%{уØ%}мен K ;
++Sg+Loc+PxDu1:%>%{уØ%}ме̄нт K ;
++Sg+Loc+PxDu1+Use/NG:%>%{уØ%}мент K ;
++Sg+Lat+PxDu1:%>%{уØ%}ме̄нн K ;
++Sg+Lat+PxDu1+Use/NG:%>%{уØ%}менн K ;
++Sg+Abl+PxDu1:%>%{уØ%}ме̄нныл K ;
++Sg+Abl+PxDu1+Use/NG:%>%{уØ%}менныл K ;
++Sg+Ins+PxDu1:%>%{уØ%}ме̄нтыл K ;
++Sg+Ins+PxDu1+Use/NG:%>%{уØ%}ментыл K ;
 
-+Sg+PxDu2+Nom:%>н K ;
-+Sg+PxDu2+Loc:%>нт K ;
-+Sg+PxDu2+Lat:%>нн K ;
-+Sg+PxDu2+Abl:%>нныл K ;
-+Sg+PxDu2+Ins:%>нтыл K ;
++Sg+Nom+PxDu2:%>н K ;
++Sg+Loc+PxDu2:%>нт K ;
++Sg+Lat+PxDu2:%>нн K ;
++Sg+Abl+PxDu2:%>нныл K ;
++Sg+Ins+PxDu2:%>нтыл K ;
 
-+Sg+PxDu3+Nom:%>тэ̄н K ;
-+Sg+PxDu3+Loc:%>тэ̄нт K ;
-+Sg+PxDu3+Lat:%>тэ̄нн K ;
-+Sg+PxDu3+Abl:%>тэ̄нныл K ;
-+Sg+PxDu3+Ins:%>тэ̄нтыл K ;
++Sg+Nom+PxDu3:%>тэ̄н K ;
++Sg+Loc+PxDu3:%>тэ̄нт K ;
++Sg+Lat+PxDu3:%>тэ̄нн K ;
++Sg+Abl+PxDu3:%>тэ̄нныл K ;
++Sg+Ins+PxDu3:%>тэ̄нтыл K ;
 
-+Sg+PxPl1+Nom:%>%{уØ%}в K ;
-+Sg+PxPl1+Loc:%>%{уØ%}вт K ;
-+Sg+PxPl1+Lat:%>%{уØ%}вн K ;
-+Sg+PxPl1+Abl:%>%{уØ%}вныл K ;
-+Sg+PxPl1+Ins:%>%{уØ%}втыл K ;
++Sg+Nom+PxPl1:%>%{уØ%}в K ;
++Sg+Loc+PxPl1:%>%{уØ%}вт K ;
++Sg+Lat+PxPl1:%>%{уØ%}вн K ;
++Sg+Abl+PxPl1:%>%{уØ%}вныл K ;
++Sg+Ins+PxPl1:%>%{уØ%}втыл K ;
 
-+Sg+PxPl2+Nom:%>н K ;
-+Sg+PxPl2+Loc:%>нт K ;
-+Sg+PxPl2+Lat:%>нн K ;
-+Sg+PxPl2+Abl:%>нныл K ;
-+Sg+PxPl2+Ins:%>нтыл K ;
++Sg+Nom+PxPl2:%>н K ;
++Sg+Loc+PxPl2:%>нт K ;
++Sg+Lat+PxPl2:%>нн K ;
++Sg+Abl+PxPl2:%>нныл K ;
++Sg+Ins+PxPl2:%>нтыл K ;
 
-+Sg+PxPl3+Nom:%>%{аяØ%}ныл K ;
-+Sg+PxPl3+Loc:%>%{аяØ%}нылт K ;
-+Sg+PxPl3+Lat:%>%{аяØ%}нылн K ;
-+Sg+PxPl3+Abl:%>%{аяØ%}нылныл K ;
-+Sg+PxPl3+Ins:%>%{аяØ%}нылтыл K ;
++Sg+Nom+PxPl3:%>%{аяØ%}ныл K ;
++Sg+Loc+PxPl3:%>%{аяØ%}нылт K ;
++Sg+Lat+PxPl3:%>%{аяØ%}нылн K ;
++Sg+Abl+PxPl3:%>%{аяØ%}нылныл K ;
++Sg+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
 
 
 LEXICON N1_DU
@@ -183,71 +183,71 @@ LEXICON N1_DU
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
 
-+Du+PxSg1+Nom:%>%{аяØ%}гум K ;
-+Du+PxSg1+Loc:%>%{аяØ%}гумт K ;
-+Du+PxSg1+Lat:%>%{аяØ%}гумн K ;
-+Du+PxSg1+Abl:%>%{аяØ%}гумныл K ;
-+Du+PxSg1+Ins:%>%{аяØ%}гумтыл K ;
++Du+Nom+PxSg1:%>%{аяØ%}гум K ;
++Du+Loc+PxSg1:%>%{аяØ%}гумт K ;
++Du+Lat+PxSg1:%>%{аяØ%}гумн K ;
++Du+Abl+PxSg1:%>%{аяØ%}гумныл K ;
++Du+Ins+PxSg1:%>%{аяØ%}гумтыл K ;
 
-+Du+PxSg2+Nom:%>%{аяØ%}гын K ;
-+Du+PxSg2+Loc:%>%{аяØ%}гынт K ;
-+Du+PxSg2+Lat:%>%{аяØ%}гынн K ;
-+Du+PxSg2+Abl:%>%{аяØ%}гынныл K ;
-+Du+PxSg2+Ins:%>%{аяØ%}гынтыл K ;
-+Du+PxSg2+Nom+Use/NG:%>%{аяØ%}гн K ;
++Du+Nom+PxSg2:%>%{аяØ%}гын K ;
++Du+Loc+PxSg2:%>%{аяØ%}гынт K ;
++Du+Lat+PxSg2:%>%{аяØ%}гынн K ;
++Du+Abl+PxSg2:%>%{аяØ%}гынныл K ;
++Du+Ins+PxSg2:%>%{аяØ%}гынтыл K ;
++Du+Nom+PxSg2+Use/NG:%>%{аяØ%}гн K ;
 
-+Du+PxSg3+Nom:%>%{аяØ%}ге K ;
-+Du+PxSg3+Loc:%>%{аяØ%}гет K ;
-+Du+PxSg3+Lat:%>%{аяØ%}ген K ;
-+Du+PxSg3+Abl:%>%{аяØ%}геныл K ;
-+Du+PxSg3+Ins:%>%{аяØ%}гетыл K ;
++Du+Nom+PxSg3:%>%{аяØ%}ге K ;
++Du+Loc+PxSg3:%>%{аяØ%}гет K ;
++Du+Lat+PxSg3:%>%{аяØ%}ген K ;
++Du+Abl+PxSg3:%>%{аяØ%}геныл K ;
++Du+Ins+PxSg3:%>%{аяØ%}гетыл K ;
 
-+Du+PxDu1+Nom:%>%{аяØ%}гме̄н K ;
-+Du+PxDu1+Loc:%>%{аяØ%}гме̄нт K ;
-+Du+PxDu1+Lat:%>%{аяØ%}гме̄нн K ;
-+Du+PxDu1+Abl:%>%{аяØ%}гме̄нныл K ;
-+Du+PxDu1+Ins:%>%{аяØ%}гме̄нтыл K ;
++Du+Nom+PxDu1:%>%{аяØ%}гме̄н K ;
++Du+Loc+PxDu1:%>%{аяØ%}гме̄нт K ;
++Du+Lat+PxDu1:%>%{аяØ%}гме̄нн K ;
++Du+Abl+PxDu1:%>%{аяØ%}гме̄нныл K ;
++Du+Ins+PxDu1:%>%{аяØ%}гме̄нтыл K ;
 
-+Du+PxDu1+Nom+Use/NG:%>%{аяØ%}гмен K ;
-+Du+PxDu1+Loc+Use/NG:%>%{аяØ%}гмент K ;
-+Du+PxDu1+Lat+Use/NG:%>%{аяØ%}гменн K ;
-+Du+PxDu1+Abl+Use/NG:%>%{аяØ%}гменныл K ;
-+Du+PxDu1+Ins+Use/NG:%>%{аяØ%}гментыл K ;
-+Du+PxDu1+Nom+Use/NG:%>%{аяØ%}гaмен K ;
-+Du+PxDu1+Loc+Use/NG:%>%{аяØ%}гaмент K ;
-+Du+PxDu1+Lat+Use/NG:%>%{аяØ%}гaменн K ;
-+Du+PxDu1+Abl+Use/NG:%>%{аяØ%}гaменныл K ;
-+Du+PxDu1+Ins+Use/NG:%>%{аяØ%}гaментыл K ;
++Du+Nom+PxDu1+Use/NG:%>%{аяØ%}гмен K ;
++Du+Loc+PxDu1+Use/NG:%>%{аяØ%}гмент K ;
++Du+Lat+PxDu1+Use/NG:%>%{аяØ%}гменн K ;
++Du+Abl+PxDu1+Use/NG:%>%{аяØ%}гменныл K ;
++Du+Ins+PxDu1+Use/NG:%>%{аяØ%}гментыл K ;
++Du+Nom+PxDu1+Use/NG:%>%{аяØ%}гaмен K ;
++Du+Loc+PxDu1+Use/NG:%>%{аяØ%}гaмент K ;
++Du+Lat+PxDu1+Use/NG:%>%{аяØ%}гaменн K ;
++Du+Abl+PxDu1+Use/NG:%>%{аяØ%}гaменныл K ;
++Du+Ins+PxDu1+Use/NG:%>%{аяØ%}гaментыл K ;
 
-+Du+PxDu2+Nom:%>%{аяØ%}гы̄н K ;
-+Du+PxDu2+Loc:%>%{аяØ%}гы̄нт K ;
-+Du+PxDu2+Lat:%>%{аяØ%}гы̄нн K ;
-+Du+PxDu2+Abl:%>%{аяØ%}гы̄нныл K ;
-+Du+PxDu2+Ins:%>%{аяØ%}гы̄нтыл K ;
++Du+Nom+PxDu2:%>%{аяØ%}гы̄н K ;
++Du+Loc+PxDu2:%>%{аяØ%}гы̄нт K ;
++Du+Lat+PxDu2:%>%{аяØ%}гы̄нн K ;
++Du+Abl+PxDu2:%>%{аяØ%}гы̄нныл K ;
++Du+Ins+PxDu2:%>%{аяØ%}гы̄нтыл K ;
 
-+Du+PxDu3+Nom:%>%{аяØ%}ге̄н K ;
-+Du+PxDu3+Loc:%>%{аяØ%}ге̄нт K ;
-+Du+PxDu3+Lat:%>%{аяØ%}ге̄нн K ;
-+Du+PxDu3+Abl:%>%{аяØ%}ге̄нныл K ;
-+Du+PxDu3+Ins:%>%{аяØ%}ге̄нтыл K ;
++Du+Nom+PxDu3:%>%{аяØ%}ге̄н K ;
++Du+Loc+PxDu3:%>%{аяØ%}ге̄нт K ;
++Du+Lat+PxDu3:%>%{аяØ%}ге̄нн K ;
++Du+Abl+PxDu3:%>%{аяØ%}ге̄нныл K ;
++Du+Ins+PxDu3:%>%{аяØ%}ге̄нтыл K ;
 
-+Du+PxPl1+Nom:%>%{аяØ%}гув K ;
-+Du+PxPl1+Loc:%>%{аяØ%}гувт K ;
-+Du+PxPl1+Lat:%>%{аяØ%}гувн K ;
-+Du+PxPl1+Abl:%>%{аяØ%}гувныл K ;
-+Du+PxPl1+Ins:%>%{аяØ%}гувтыл K ;
++Du+Nom+PxPl1:%>%{аяØ%}гув K ;
++Du+Loc+PxPl1:%>%{аяØ%}гувт K ;
++Du+Lat+PxPl1:%>%{аяØ%}гувн K ;
++Du+Abl+PxPl1:%>%{аяØ%}гувныл K ;
++Du+Ins+PxPl1:%>%{аяØ%}гувтыл K ;
 
-+Du+PxPl2+Nom:%>%{аяØ%}гы̄н K ;
-+Du+PxPl2+Loc:%>%{аяØ%}гы̄нт K ;
-+Du+PxPl2+Lat:%>%{аяØ%}гы̄нн K ;
-+Du+PxPl2+Abl:%>%{аяØ%}гы̄нныл K ;
-+Du+PxPl2+Ins:%>%{аяØ%}гы̄нтыл K ;
++Du+Nom+PxPl2:%>%{аяØ%}гы̄н K ;
++Du+Loc+PxPl2:%>%{аяØ%}гы̄нт K ;
++Du+Lat+PxPl2:%>%{аяØ%}гы̄нн K ;
++Du+Abl+PxPl2:%>%{аяØ%}гы̄нныл K ;
++Du+Ins+PxPl2:%>%{аяØ%}гы̄нтыл K ;
 
-+Du+PxPl3+Nom:%>%{аяØ%}га̄ныл K ;
-+Du+PxPl3+Loc:%>%{аяØ%}га̄нылт K ;
-+Du+PxPl3+Lat:%>%{аяØ%}га̄нылн K ;
-+Du+PxPl3+Abl:%>%{аяØ%}га̄нылныл K ;
-+Du+PxPl3+Ins:%>%{аяØ%}га̄нылтыл K ;
++Du+Nom+PxPl3:%>%{аяØ%}га̄ныл K ;
++Du+Loc+PxPl3:%>%{аяØ%}га̄нылт K ;
++Du+Lat+PxPl3:%>%{аяØ%}га̄нылн K ;
++Du+Abl+PxPl3:%>%{аяØ%}га̄нылныл K ;
++Du+Ins+PxPl3:%>%{аяØ%}га̄нылтыл K ;
 
 LEXICON N1_PL
 +Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
@@ -260,89 +260,89 @@ LEXICON N1_PL
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
 
-+Pl+PxSg1+Nom:%>%{аяØ%}нум K ;
-+Pl+PxSg1+Loc:%>%{аяØ%}нумт K ;
-+Pl+PxSg1+Lat:%>%{аяØ%}нумн K ;
-+Pl+PxSg1+Abl:%>%{аяØ%}нумныл K ;
-+Pl+PxSg1+Ins:%>%{аяØ%}нумтыл K ;
++Pl+Nom+PxSg1:%>%{аяØ%}нум K ;
++Pl+Loc+PxSg1:%>%{аяØ%}нумт K ;
++Pl+Lat+PxSg1:%>%{аяØ%}нумн K ;
++Pl+Abl+PxSg1:%>%{аяØ%}нумныл K ;
++Pl+Ins+PxSg1:%>%{аяØ%}нумтыл K ;
 
-+Pl+PxSg2+Nom:%>%{аяØ%}н K ;
-+Pl+PxSg2+Loc:%>%{аяØ%}нт K ;
-+Pl+PxSg2+Lat:%>%{аяØ%}нн K ;
-+Pl+PxSg2+Abl:%>%{аяØ%}нныл K ;
-+Pl+PxSg2+Ins:%>%{аяØ%}нтыл K ;
++Pl+Nom+PxSg2:%>%{аяØ%}н K ;
++Pl+Loc+PxSg2:%>%{аяØ%}нт K ;
++Pl+Lat+PxSg2:%>%{аяØ%}нн K ;
++Pl+Abl+PxSg2:%>%{аяØ%}нныл K ;
++Pl+Ins+PxSg2:%>%{аяØ%}нтыл K ;
 
-+Pl+PxSg2+Nom:%>%{аяØ%}нын K ;
-+Pl+PxSg2+Loc:%>%{аяØ%}нынт K ;
-+Pl+PxSg2+Lat:%>%{аяØ%}нынн K ;
-+Pl+PxSg2+Abl:%>%{аяØ%}нынныл K ;
-+Pl+PxSg2+Ins:%>%{аяØ%}нынтыл K ;
++Pl+Nom+PxSg2:%>%{аяØ%}нын K ;
++Pl+Loc+PxSg2:%>%{аяØ%}нынт K ;
++Pl+Lat+PxSg2:%>%{аяØ%}нынн K ;
++Pl+Abl+PxSg2:%>%{аяØ%}нынныл K ;
++Pl+Ins+PxSg2:%>%{аяØ%}нынтыл K ;
 
-+Pl+PxSg3+Nom:%>%{аяØ%}нэ K ;
-+Pl+PxSg3+Loc:%>%{аяØ%}нэт K ;
-+Pl+PxSg3+Lat:%>%{аяØ%}нэн K ;
-+Pl+PxSg3+Abl:%>%{аяØ%}нэныл K ;
-+Pl+PxSg3+Ins:%>%{аяØ%}нэтыл K ;
++Pl+Nom+PxSg3:%>%{аяØ%}нэ K ;
++Pl+Loc+PxSg3:%>%{аяØ%}нэт K ;
++Pl+Lat+PxSg3:%>%{аяØ%}нэн K ;
++Pl+Abl+PxSg3:%>%{аяØ%}нэныл K ;
++Pl+Ins+PxSg3:%>%{аяØ%}нэтыл K ;
 
-+Pl+PxDu1+Nom:%>%{аяØ%}нме̄н K ;
-+Pl+PxDu1+Loc:%>%{аяØ%}нме̄нт K ;
-+Pl+PxDu1+Lat:%>%{аяØ%}нме̄нн K ;
-+Pl+PxDu1+Abl:%>%{аяØ%}нме̄нныл K ;
-+Pl+PxDu1+Ins:%>%{аяØ%}нме̄нтыл K ;
++Pl+Nom+PxDu1:%>%{аяØ%}нме̄н K ;
++Pl+Loc+PxDu1:%>%{аяØ%}нме̄нт K ;
++Pl+Lat+PxDu1:%>%{аяØ%}нме̄нн K ;
++Pl+Abl+PxDu1:%>%{аяØ%}нме̄нныл K ;
++Pl+Ins+PxDu1:%>%{аяØ%}нме̄нтыл K ;
 
-+Pl+PxDu1+Nom+Use/NG:%>%{аяØ%}нмен K ;
-+Pl+PxDu1+Loc+Use/NG:%>%{аяØ%}нмент K ;
-+Pl+PxDu1+Lat+Use/NG:%>%{аяØ%}нменн K ;
-+Pl+PxDu1+Abl+Use/NG:%>%{аяØ%}нменныл K ;
-+Pl+PxDu1+Ins+Use/NG:%>%{аяØ%}нментыл K ;
++Pl+Nom+PxDu1+Use/NG:%>%{аяØ%}нмен K ;
++Pl+Loc+PxDu1+Use/NG:%>%{аяØ%}нмент K ;
++Pl+Lat+PxDu1+Use/NG:%>%{аяØ%}нменн K ;
++Pl+Abl+PxDu1+Use/NG:%>%{аяØ%}нменныл K ;
++Pl+Ins+PxDu1+Use/NG:%>%{аяØ%}нментыл K ;
 
-+Pl+PxDu2+Nom:%>%{аяØ%}ны̄н K ;
-+Pl+PxDu2+Loc:%>%{аяØ%}ны̄нт K ;
-+Pl+PxDu2+Lat:%>%{аяØ%}ны̄нн K ;
-+Pl+PxDu2+Abl:%>%{аяØ%}ны̄нныл K ;
-+Pl+PxDu2+Ins:%>%{аяØ%}ны̄нтыл K ;
++Pl+Nom+PxDu2:%>%{аяØ%}ны̄н K ;
++Pl+Loc+PxDu2:%>%{аяØ%}ны̄нт K ;
++Pl+Lat+PxDu2:%>%{аяØ%}ны̄нн K ;
++Pl+Abl+PxDu2:%>%{аяØ%}ны̄нныл K ;
++Pl+Ins+PxDu2:%>%{аяØ%}ны̄нтыл K ;
 
-+Pl+PxDu2+Nom:%>%{аяØ%}н K ;
-+Pl+PxDu2+Loc:%>%{аяØ%}нт K ;
-+Pl+PxDu2+Lat:%>%{аяØ%}нн K ;
-+Pl+PxDu2+Abl:%>%{аяØ%}нныл K ;
-+Pl+PxDu2+Ins:%>%{аяØ%}нтыл K ;
++Pl+Nom+PxDu2:%>%{аяØ%}н K ;
++Pl+Loc+PxDu2:%>%{аяØ%}нт K ;
++Pl+Lat+PxDu2:%>%{аяØ%}нн K ;
++Pl+Abl+PxDu2:%>%{аяØ%}нныл K ;
++Pl+Ins+PxDu2:%>%{аяØ%}нтыл K ;
 
-+Pl+PxDu3+Nom:%>%{аяØ%}нэ̄н K ;
-+Pl+PxDu3+Loc:%>%{аяØ%}нэ̄нт K ;
-+Pl+PxDu3+Lat:%>%{аяØ%}нэ̄нн K ;
-+Pl+PxDu3+Abl:%>%{аяØ%}нэ̄нныл K ;
-+Pl+PxDu3+Ins:%>%{аяØ%}нэ̄нтыл K ;
++Pl+Nom+PxDu3:%>%{аяØ%}нэ̄н K ;
++Pl+Loc+PxDu3:%>%{аяØ%}нэ̄нт K ;
++Pl+Lat+PxDu3:%>%{аяØ%}нэ̄нн K ;
++Pl+Abl+PxDu3:%>%{аяØ%}нэ̄нныл K ;
++Pl+Ins+PxDu3:%>%{аяØ%}нэ̄нтыл K ;
 
-+Pl+PxPl1+Nom:%>%{аяØ%}нув K ;
-+Pl+PxPl1+Loc:%>%{аяØ%}нувт K ;
-+Pl+PxPl1+Lat:%>%{аяØ%}нувн K ;
-+Pl+PxPl1+Abl:%>%{аяØ%}нувныл K ;
-+Pl+PxPl1+Ins:%>%{аяØ%}нувтыл K ;
++Pl+Nom+PxPl1:%>%{аяØ%}нув K ;
++Pl+Loc+PxPl1:%>%{аяØ%}нувт K ;
++Pl+Lat+PxPl1:%>%{аяØ%}нувн K ;
++Pl+Abl+PxPl1:%>%{аяØ%}нувныл K ;
++Pl+Ins+PxPl1:%>%{аяØ%}нувтыл K ;
 
-+Pl+PxPl2+Nom:%>%{аяØ%}ны̄н K ;
-+Pl+PxPl2+Loc:%>%{аяØ%}ны̄нт K ;
-+Pl+PxPl2+Lat:%>%{аяØ%}ны̄нн K ;
-+Pl+PxPl2+Abl:%>%{аяØ%}ны̄нныл K ;
-+Pl+PxPl2+Ins:%>%{аяØ%}ны̄нтыл K ;
++Pl+Nom+PxPl2:%>%{аяØ%}ны̄н K ;
++Pl+Loc+PxPl2:%>%{аяØ%}ны̄нт K ;
++Pl+Lat+PxPl2:%>%{аяØ%}ны̄нн K ;
++Pl+Abl+PxPl2:%>%{аяØ%}ны̄нныл K ;
++Pl+Ins+PxPl2:%>%{аяØ%}ны̄нтыл K ;
 
-+Pl+PxPl2+Nom:%>%{аяØ%}н K ;
-+Pl+PxPl2+Loc:%>%{аяØ%}нт K ;
-+Pl+PxPl2+Lat:%>%{аяØ%}нн K ;
-+Pl+PxPl2+Abl:%>%{аяØ%}нныл K ;
-+Pl+PxPl2+Ins:%>%{аяØ%}нтыл K ;
++Pl+Nom+PxPl2:%>%{аяØ%}н K ;
++Pl+Loc+PxPl2:%>%{аяØ%}нт K ;
++Pl+Lat+PxPl2:%>%{аяØ%}нн K ;
++Pl+Abl+PxPl2:%>%{аяØ%}нныл K ;
++Pl+Ins+PxPl2:%>%{аяØ%}нтыл K ;
 
-+Pl+PxPl3+Nom:%>%{аяØ%}наныл K ;
-+Pl+PxPl3+Loc:%>%{аяØ%}нанылт K ;
-+Pl+PxPl3+Lat:%>%{аяØ%}нанылн K ;
-+Pl+PxPl3+Abl:%>%{аяØ%}нанылныл K ;
-+Pl+PxPl3+Ins:%>%{аяØ%}нанылтыл K ;
++Pl+Nom+PxPl3:%>%{аяØ%}наныл K ;
++Pl+Loc+PxPl3:%>%{аяØ%}нанылт K ;
++Pl+Lat+PxPl3:%>%{аяØ%}нанылн K ;
++Pl+Abl+PxPl3:%>%{аяØ%}нанылныл K ;
++Pl+Ins+PxPl3:%>%{аяØ%}нанылтыл K ;
 
-+Pl+PxPl3+Nom:%>%{аяØ%}ныл K ;
-+Pl+PxPl3+Loc:%>%{аяØ%}нылт K ;
-+Pl+PxPl3+Lat:%>%{аяØ%}нылн K ;
-+Pl+PxPl3+Abl:%>%{аяØ%}нылныл K ;
-+Pl+PxPl3+Ins:%>%{аяØ%}нылтыл K ;
++Pl+Nom+PxPl3:%>%{аяØ%}ныл K ;
++Pl+Loc+PxPl3:%>%{аяØ%}нылт K ;
++Pl+Lat+PxPl3:%>%{аяØ%}нылн K ;
++Pl+Abl+PxPl3:%>%{аяØ%}нылныл K ;
++Pl+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
 
 !! ### 3. Derivation forms
 !! This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
