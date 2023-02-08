@@ -17,5 +17,6 @@ LEXICON Adverbs
 ул+Adv:ул      ADV_ ;
 ёмащаквег+Adv:ёмащаквег      ADV_ ;
 ёмщакв+Adv:ёмщакв  ADV_ ;
+юв+Adv:юв ADV_ ;
 
 ! vim: set ft=xfst-lexc:

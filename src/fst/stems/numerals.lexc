@@ -5,6 +5,8 @@
 
 LEXICON Numerals
 !! **LEXICON @LEXNAME@** to lexicon numeral
-numeral    #  ;
+со̄тыра+Num:со̄тыра # "1000" ;
+
+
 
 ! vim: set ft=xfst-lexc:
