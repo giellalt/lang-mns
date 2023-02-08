@@ -418,12 +418,6 @@ Rules
 !€ a
 !€ b
 
-!TOS
-!TOS "Remove fleeting vowel Ы at end of syncopating stem: when after morpheme boundary, and followed by a VOWEL"
-!TOS  ы:0   <=>   _  Cns (ь:) %^Syncope: ;
-!TOS
-!TOS ! _ Cns %^Syncope: %> [ %{ЫИØ%}: | %{ыØ%}: ] [ т | н ]  ;
-
 !TOS !!€ потыр%^Syncope%>%{УЮØ%}м
 !TOS !!€ пот0р0%>ум
 !TOS !!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
@@ -432,168 +426,24 @@ Rules
 !TOS !!€ пот0р0%>ыт
 !TOS !!€ потыр%^Syncope%>0ме̄н
 !TOS !!€ пот0р0%>уме̄н
-!TOS     VowNoI %> %{тØ%}: _ л ;
+
 !TOS !!€ э̄ква%>%{тØ%}ыл
 !TOS !!€ э̄ква%>00л
-!TOS     _ %^RmVow: ;
-!TOS
-!TOS !!€grís%>s
-!TOS !!€grís00
-!TOS
-!TOS !!$grís%>s
-!TOS !!$grís>s
-!TOS
-!TOS ! "Palatalization of suffix vowels"
-!TOS ! Vx:Vy <=> ь: _ ;
-!TOS ! 	where Vx in ( ы )
-!TOS ! 	      Vy in ( и )
-!TOS ! 	      matched ;
-!TOS
-!TOS ! "Delete Palatalisation Mark"
-!TOS ! ь:0 <=> _ Vow: ;
-!TOS
-!TOS !! !!VOWEL DELETION
-!TOS "%{ЫИØ%}:0"
-!TOS !! __@RULENAME@__
-!TOS  %{ЫИØ%}:0 <=>  VowNoI:    %> _ ( %^PxDu2: | %^PxPl2: ) [ г | н | т ] ;
-!TOS                [ и: | ы: ] %> _ ( %^PxDu2: | %^PxPl2: ) [     н | т ] ;
-!TOS !! JACK
-!TOS !?  VowNoI:  %> _ ( %^PxDu2: | %^PxPl2: ) %> [ г | н | т ] ;
-!TOS !!€ рума%>%{ЫИØ%}н%>%{ыØ%}т
-!TOS !!€ рума%>0н%>0т
-!TOS
-!TOS "%{ыØ%}:0"
-!TOS !! __@RULENAME@__
-!TOS  %{ыØ%}:0 <=> :Vow ((%>) :0+ ) (Cns (ь)) %> _ т  ;
-!TOS !! JACK
-!TOS !!€ рума%>%{ЫИØ%}н%>%{ыØ%}т
-!TOS !!€ рума%>0н%>0т
-!TOS      :Vow (Cns) %> _ н ;
-!TOS !     :Vow (Cns) %> _ н ;
+
+
 !TOS !!€ па̄рт%>%{ЫИØ%}г%>%{ыØ%}н
 !TOS !!€ па̄рт%>ыг%>0н
 !TOS !!€ ха̄п%>%{ыØ%}н
 !TOS !!€ ха̄п%>0н
-!TOS
-!TOS "%{УЮØ%}:0"
-!TOS !! __@RULENAME@__
-!TOS  %{УЮØ%}:0 <=> Vow %> _ м ;
-!TOS                VowNoI %> _ в ;
 
-!TOS
-!TOS !! VOWEL FROM ARCHIVOWEL
-!TOS "%{ЫИØ%}:ы"
-!TOS !! __@RULENAME@__
-!TOS  %{ЫИØ%}:ы <=> [ и | ы ] %> 0: _   г  ;
-!TOS                [CnsNonAlv|CnsAlv]       %>    _ [ г | н | т ] ;
-!TOS !(2007: 30) short elsewhere long??               Cns %> _ %^PxDu2: н  ;
-!TOS !               Cns %> _ (%^PxDu2: ) [ г | н | т ] ;
-!TOS !!€ кол%>%{ЫИØ%}н%>%{ыØ%}т
-!TOS !!€ кол%>ын%>0т
-!TOS
-!TOS "%{ЫИØ%}:и"
-!TOS !! __@RULENAME@__
-!TOS  %{ЫИØ%}:и <=> [ ь: | CnsSoft ] %> _ [ г | н | т ] ;
-!TOS                 [ и | ы ] %> 0: _ %^PxDu2: н  ;
-!TOS "%{ыØ%}:ы"
-!TOS !! __@RULENAME@__
-!TOS  %{ыØ%}:ы <=> Cns (ы:0|и:0) [ CnsAlv | CnsNonAlv ] %> _ т  ;
-!TOS !€#
-!TOS          Vow Cns+ (ы:0) Cns (%^Syncope:) %> _ н ;
 !TOS !!€ па̄рт%>%{ыØ%}н
 !TOS !!€ па̄рт%>ын
 !TOS !!€ потыр%^Syncope%>%{ыØ%}н
 !TOS !!€ пот0р0%>ын
 
-!TOS "%{УЮØ%}:у"
-!TOS !! __@RULENAME@__
-!TOS  %{УЮØ%}:у <=> Cns %> _ [ м | в ] ;
-!TOS
-!TOS "%{УЮØ%}:ю"
-!TOS !! __@RULENAME@__
-!TOS  %{УЮØ%}:ю <=> ь: %> _ м ;
-!TOS                [ и | ы | ь: ] %> _ в ;
-
-!TOS
-!TOS "и:0"
-!TOS !! __@RULENAME@__
-!TOS  и:0 <=> # Cns* Vow Cns _ Cns %> [ %{ЫИØ%}: | %{ыØ%}: ] т  ;
-
-!TOS  "ь:0"
-!TOS  !! __@RULENAME@__
-!TOS  ь:0 <=> _ (%^Syncope:) %> [ %{ЫИØ%}: | %{УЮØ%}: | %{аяØ%}: | %{тØ%}: [ %{ЭЕ%}: | %{ЭЕLong%}: ] ]  ;
-
-!TOS
-!TOS
-!TOS ! !!VOWEL LENGTHENING
-!TOS "%{ЫИØ%}:ы̄"
-!TOS !! __@RULENAME@__
-!TOS  %{ЫИØ%}:ы̄ <=>   [ CnsAlv | CnsNonAlv ]  %>  _ [ %^PxPl2: | %^PxDu2: ] ;
-!TOS !(2007: 30 ) short  [ CnsAlv | CnsNonAlv ]  %>  _  %^PxPl2: ;
-!TOS
-!TOS
-!TOS "%{ЫИØ%}:ӣ"
-!TOS !! __@RULENAME@__
-!TOS  %{ЫИØ%}:ӣ <=> [ ь: | CnsSoft  ] %> _ [ %^PxPl2: | %^PxDu2: ] ;
-!TOS !          [ ь: | CnsSoft | CnsNonAlv ] %> _ [ %^PxDu2: ] ;
-!TOS
-!TOS
-!TOS !"%{ЭЕ%}:э̄"
-!TOS !!! __@RULENAME@__
-!TOS ! %{ЭЕ%}:э̄ <=> [ CnsAlv | Vow ] %> %{тØ%}: _ %^PxDu3: ;
-!TOS
-!TOS !"%{ЭЕ%}:е̄"
-!TOS !!! __@RULENAME@__
-!TOS ! %{ЭЕ%}:е̄ <=>  [ CnsSoft | CnsNonAlv | ь:]  %> %{тØ%}: _ %^PxDu3: ;
-!TOS !!!€ ха̄ль%>%{тØ%}%{ЭЕ%}%^PxDu3н
-!TOS !!!€ ха̄л0%>0е̄0н
-
-
-!TOS "а:а̄"
-!TOS !! __@RULENAME@__
-!TOS  а:а̄ <=> _ %> %{ЫИØ%}: %^PxPl2: ;
-!TOS !! JACK
 !TOS !!€ рума%>%{ЫИØ%}%^PxPl2н
 !TOS !!€ рума̄%>00н
-!TOS
-!TOS "и:ӣ"
-!TOS !! __@RULENAME@__
-!TOS  и:ӣ <=> _ %> %{ЫИØ%}: %^PxDu2: ;
-!TOS
-!TOS "ы:ы̄"
-!TOS !! __@RULENAME@__
-!TOS  ы:ы̄ <=> _ %> %{ЫИØ%}: %^PxDu2: ;
-!TOS
 
-!TOS !! !!CONSONANT LOSS
-!TOS "т:0"
-!TOS !! __@RULENAME@__
-!TOS  т:0 <=> т %> _ ы л ;
-!TOS
-!TOS !! !!SANDHI
-!TOS
-!TOS "0:й"
-!TOS !! __@RULENAME@__
-!TOS  0:й <=> [ и | ы ] %> _  %{ЫИØ%}: [ г | %^PxDu2: н ] ;
-!TOS
-!TOS "%{уØ%}:у"
-!TOS !! __@RULENAME@__
-!TOS  %{уØ%}:у <=> ы: Cns %^Syncope: %> _  м е̄ н ;
 !TOS !!€ потыр%>%{уØ%}ме̄н
 !TOS !!€ пот0р%>уме̄н
-!TOS
-!TOS
-!TOS ! 2017-03-17 It is not necessary to remove triggers a second time
-!TOS ! They have already been removed by default in their declarations JACK
-!TOS !"Required %^PxDu2 loss"
-!TOS !! __@RULENAME__
-!TOS ! %^PxDu2:0 => _ ;
-!TOS
-!TOS !"Required %^PxDu3 loss"
-!TOS !! __@RULENAME__
-!TOS ! %^PxDu3:0 => _ ;
-!TOS
-!TOS !"Required %^PxPl2 loss"
-!TOS !! __@RULENAME__
-!TOS ! %^PxPl2:0 => _ ;
-!TOS
+
