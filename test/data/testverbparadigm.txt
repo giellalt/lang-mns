@@ -1,4 +1,6 @@
 +Inf
++PrsPrc
++PrfPrc
 +Ind+Prs+ScSg1
 +Ind+Prs+ScSg2
 +Ind+Prs+ScSg3
