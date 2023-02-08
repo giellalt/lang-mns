@@ -28,11 +28,16 @@ LEXICON V_U
 !! **LEXICON @LEXNAME@** 
 +Inf:%>уӈкве K ;
 :%{VU%} V11_MUTUAL ;
+:%{VU%} V11_MUTUAL_PASS_PRT ;
+:%{VU%}%>а V11_MUTUAL_PASS_PRS ;
+:%{VU%}%>%{ыиØ%} V11_MUTUAL_IND_PRT_OCSG3 ;
 
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
 +Inf:%>аӈкве K ;
 :%{VA%} V11_MUTUAL ;
+:%{VA%}%>а V11_MUTUAL_PASS ;
+:%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_OCSG3 ;
 
 
 LEXICON V11_MUTUAL 
@@ -45,8 +50,6 @@ LEXICON V11_MUTUAL
  V11_MUTUAL-IND ;
  V11_MUTUAL-IMPRT ;
  V11_MUTUAL-COND	  ;
- V11_MUTUAL-PASS ;
-:%>а V11_MUTUAL-PASS ;
 !
 LEXICON V11_MUTUAL-IND 
 !! 	* **LEXICON @LEXNAME@**  
@@ -58,7 +61,8 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
 +Ind+Prs+ScDu3:%>%{ЭЕLong%}г K ;
 +Ind+Prs+ScPl1:%>%{ЭЕLong%}в K ;
-+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
++Ind+Prs+ScPl2:%>%{ЭЕ%}гын K ;
++Err/Orth+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
 +Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт K ;
 !
 +Ind+Prs+ScSg1+OcSg3:%>%{ЫИ%}лум K ;
@@ -108,10 +112,12 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prt+ScSg2:%>сын K ;
 +Ind+Prt+ScSg3:%>ыс K ;
 +Ind+Prt+ScDu1:%>ысаме̄н K ;
-+Ind+Prt+ScDu2:%>сы̄н K ;
++Ind+Prt+ScDu2:%>сын K ;
++Err/Orth+Ind+Prt+ScDu2:%>сы̄н K ;
 +Ind+Prt+ScDu3:%>сы̄г K ;
 +Ind+Prt+ScPl1:%>сӯв K ;
-+Ind+Prt+ScPl2:%>сы̄н K ;
++Ind+Prt+ScPl2:%>сын K ;
++Err/Orth+Ind+Prt+ScPl2:%>сы̄н K ;
 +Ind+Prt+ScPl3:%>сыт K ;
 !
 +Ind+Prt+ScSg1+OcSg3:%>ыслум K ;
@@ -168,21 +174,22 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prt+ScPl2:%>асы̄н K ;
 +Ind+Prt+ScPl3:%>асыт K ;
 !
-+Ind+Prt+ScSg1+OcSg3:%>аслум K ;
-+Ind+Prt+ScSg2+OcSg3:%>аслын K ;
-+Ind+Prt+ScSg3+OcSg3:%>астэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>асламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>аслы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>астэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>аслув K ;
-+Ind+Prt+ScPl2+OcSg3:%>аслы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>аса̄ныл K ;
+LEXICON V11_MUTUAL_IND_PRT_OCSG3 
++Ind+Prt+ScSg1+OcSg3:слум K ;
++Ind+Prt+ScSg2+OcSg3:слын K ;
++Ind+Prt+ScSg3+OcSg3:стэ K ;
++Ind+Prt+ScDu1+OcSg3:сламе̄н K ;
++Ind+Prt+ScDu2+OcSg3:слы̄н K ;
++Ind+Prt+ScDu3+OcSg3:стэ̄н K ;
++Ind+Prt+ScPl1+OcSg3:слув K ;
++Ind+Prt+ScPl2+OcSg3:слы̄н K ;
++Ind+Prt+ScPl3+OcSg3:са̄ныл K ;
 !
 LEXICON V11_MUTUAL-COND 
 !! 	* **LEXICON @LEXNAME@** 
-+Cond+Prs+ScSg1:%>нвум K ;
++Cond+Prs+ScSg1:%>нувум K ;
 +Err/Orth+Cond+Prs+ScSg1:%>нӯвум K ;
-+Cond+Prs+ScSg2:%>нвын K ;
++Cond+Prs+ScSg2:%>нувын K ;
 +Err/Orth+Cond+Prs+ScSg2:%>нӯвын K ;
 +Cond+Prs+ScSg3:%>нув K ;
 +Cond+Prs+ScDu1:%>нувамен K ;
@@ -191,7 +198,8 @@ LEXICON V11_MUTUAL-COND
 +Err/Orth+Cond+Prs+ScDu2:%>нувы̄н K ;
 +Cond+Prs+ScDu3:%>нувы̄г K ;
 +Cond+Prs+ScPl1:%>нувӯв K ;
-+Cond+Prs+ScPl2:%>нувы̄н K ;
++Cond+Prs+ScPl2:%>нувын K ;
++Err/Orth+Cond+Prs+ScPl2:%>нувы̄н K ;
 +Cond+Prs+ScPl3:%>нувыт K ;
 +Err/Orth+Cond+Prs+ScPl3:%>нӯвыт K ;
 !
@@ -267,7 +275,10 @@ LEXICON V11_MUTUAL-IMPRT
 +Err/Orth+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
 +Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
 !
-LEXICON V11_MUTUAL-PASS  
+LEXICON V11_MUTUAL_PASS
+ V11_MUTUAL_PASS_PRS ;
+ V11_MUTUAL_PASS_PRT ;
+LEXICON V11_MUTUAL_PASS_PRS
 !! 	* **LEXICON @LEXNAME@**  
 +Pass+Prs+ScSg1:%>вем K ;
 +Pass+Prs+ScSg2:%>вен K ;
@@ -288,6 +299,7 @@ LEXICON V11_MUTUAL-PASS
 +Err/Orth+Pass+Prs+ScPl2:%>ве̄н K ;
 +Pass+Prs+ScPl3:%>вет K ;
 !
+LEXICON V11_MUTUAL_PASS_PRT
 +Pass+Prt+ScSg1:%>ве̄сум K ;
 +Pass+Prt+ScSg2:%>ве̄сын K ;
 +Pass+Prt+ScSg3:%>вес K ;
@@ -1739,7 +1751,7 @@ LEXICON V11_MUTUAL-PASS
 ! What comes here is commented out and just kept
 ! for reference until the dust settles.
 !2023_02_09a!
-!€old€ LEXICON V11_MUTUAL-PASS  
+!€old€ LEXICON V11_MUTUAL_PASS  
 !€old€ !! 	* **LEXICON @LEXNAME@**  
 !€old€ +Pass+Prs+ScSg1:%>вем K ;
 !€old€ +Pass+Prs+ScSg2:%>вен K ;
