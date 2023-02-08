@@ -760,6 +760,21 @@ End of alphabet definitions
 **RULE: Syncope for ы**  
 * *ловиньт{VA}>{аяØ}>ыс*
 * *ловиньт0>а>0с*
+павыл+N+Pl+Nom:
+* *павыл{SYNCH}>ыт*
+* *пав0л0>ыт*
+кол+N+Pl+Nom: **house/koti**
+* *кол{VCH}>ыт*
+* *кол0>ыт*
+кол+N+Sg+Loc: **house/koti**
+* *кол{VCH}>{ыиØ}т*
+* *кол0>0т*
+класс+N+Sg+Loc:
+* *класс{VCCH}>{ыиØ}т*
+* *класс0>ыт*
+класс+N+Pl+Nom:
+* *класс{VCCH}>ыт*
+* *класс0>ыт*
 
 **RULE: Syncope for и**  
 
@@ -794,14 +809,17 @@ End of alphabet definitions
 * *аки{VI}>{йØ}{ыиØ}г*
 * *аки0>0иг*
 
-яныг+N+Sg+Loc:
-* *яныг{SYNCH}>{ыиØ}т*
-* *ян0г0>ыт*
+павыл+N+Sg+Loc:
+* *павыл{SYNCH}>{ыиØ}т*
+* *павыл0>0т*
 я̄ӈк+N+Sg+Loc: **ice/jää**
 * *я̄ӈк{VCCH}>{ыиØ}т*
 * *я̄ӈк0>ыт*
 
 * *ансамбль{VCCS}>{ыиØ}т*
+* *ансамбл00>ит*
+
+* *ансамбль{VCCS}>ыт*
 * *ансамбл00>ит*
 
 #### Tests:
@@ -829,6 +847,7 @@ End of alphabet definitions
 
 **RULE: Soft sign deletion for и suffixes**  2023.02
 ансамбль+N+Sg+Loc: **band/yhtye**
+ансамбль+N+Pl+Nom: **band/yhtye**
 ансамбль+N+Sg+Loc: **band/yhtye**
 * *ансамбль{VCCS}>{ыиØ}т*
 * *ансамбл00>ит*
@@ -841,6 +860,10 @@ End of alphabet definitions
 
 * *паль{VCS}>{йØ}{ыиØ}г*
 * *пал00>0иг*
+
+павыл+N+Pl+Nom:
+* *павыл{SYNCH}>ыт*
+* *пав0л0>ыт*
 
 __%{аяØ%}:0__ deletes а/я after VO vowel stems
 
@@ -1059,7 +1082,7 @@ source and target part-of-speech.
 * **+Der** 
 * **+Der/Yng** N» ыӈ Proprietive as in kpv -а
 * **+Der/Yshch** A» ыщ 
-* **+Der/Ap** V» ап 
+* **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
 * **+Der/Ord** is this the best analysis?
 
 ## Symbols that need to be escaped on the lower side (towards twolc):

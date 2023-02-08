@@ -149,7 +149,7 @@ source and target part-of-speech.
 * **+Der** 
 * **+Der/Yng** N» ыӈ Proprietive as in kpv -а
 * **+Der/Yshch** A» ыщ 
-* **+Der/Ap** V» ап 
+* **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
 * **+Der/Ord** is this the best analysis?
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
