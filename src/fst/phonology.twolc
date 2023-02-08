@@ -300,26 +300,26 @@ Rules
 
 "%{ЭЕLong%}:э̄"
 !! __@RULENAME@__
- %{ЭЕLong%}:э̄ <=> CnsAlv %{VA%} %> (%{тØ%}:) _ ;
+ %{ЭЕLong%}:э̄ <=> CnsAlv %{VA%}: %> (%{тØ%}:) _ ;
 !! аки
 !!€ аки{VI}>%{тØ%}%{ЭЕLong%}н
 !!€ аки0>тэ̄н
 
  "%{ЭЕLong%}:е̄"
  !! __@RULENAME@__
-  %{ЭЕLong%}:е̄ <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VA%} %> _ ;
+  %{ЭЕLong%}:е̄ <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VA%}: %> _ ;
  !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
  !!€ ха̄л0%>0е̄н
 
 "%{ЭЕLong%}:э"
 !! __@RULENAME@__
- %{ЭЕLong%}:э <=> CnsAlv %{VU%} %> _ ;
+ %{ЭЕLong%}:э <=> CnsAlv %{VU%}: %> _ ;
  !!€ тот{VU}>{ЭЕLong}в
  !!€ тот0>эв
 
  "%{ЭЕLong%}:е"
  !! __@RULENAME@__
-  %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%} %> _ ;
+  %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%}: %> _ ;
  !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
  !!€ ха̄л0%>0е̄н
 
@@ -341,6 +341,10 @@ Rules
 !! тотуӈкве+V+Ind+Prs+ScDu1+OcDu3:
 !!€ тот{VU}>{ЫИ}ягмен
 !!€ тот0>ыягмен
+!! tотуӈкве+V+Ind+Prs+ScPl1+OcSg3:
+!!€ тот{VU}>{ЫИ}лӯв
+!!€ тот0>ылӯв
+!lang-mns jackrueter$ echo 'т о т {VU}:0 > {ЫИ}:ы л ӯ в'| hfst-pair-test src/fst/phonology.compose.hfst
 
 "%{ЫИ%}:и"
 !! __@RULENAME@__
