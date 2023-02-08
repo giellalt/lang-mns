@@ -14,6 +14,9 @@ Processing: "Soft sign deletion for и suffixes"
 Processing: "{аяØ}:0"
 Processing: "{аяØ}:а"
 Processing: "{аяØ}:я"
+There is a <=-rule conflict between "{аяØ}:а" and "{аяØ}:я".
+E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ь:ь щ:щ {VCS}: >:> _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#. 
+
 Processing: "{уюØ}:0"
 Processing: "{уюØ}:у"
 Processing: "{уюØ}:ю"

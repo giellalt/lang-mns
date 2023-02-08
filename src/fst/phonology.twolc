@@ -122,6 +122,7 @@ Definitions
 
 Pal = [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:|%{NOSYNCS%}:] ;
 
+
 ! PostSyncStem  =  :Cns  %+:0 ;
 PostSyncStem  =  :Cns   ;  !!≈ * **@CODE@** 
 
@@ -276,12 +277,12 @@ Rules
 
 "%{аяØ%}:а"
 !! __@RULENAME@__
- %{аяØ%}:а <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: ]  %> _  ;
+ %{аяØ%}:а <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | щ %{VCS%}:| %{VCCH%}: | [CnsSoft | CnsAlv] [%{VA%}:|%{VU%}:]]  %> _  ;
 ! Cns %> _  ;
 
 "%{аяØ%}:я"
 !! __@RULENAME@__
-  %{аяØ%}:я <=> [%{VI%}: | Pal ]  %> _  ;
+  %{аяØ%}:я <=> [%{VI%}: | Pal | [ь: | й:] [%{VA%}:|%{VU%}:]]  %> _  ;
   ! [ и | ы | ь: ] %> _  ;
 
 

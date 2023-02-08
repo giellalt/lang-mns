@@ -30,8 +30,8 @@ LEXICON V_U
 :%{VU%} V11_MUTUAL ;
 :%{VU%} V11_MUTUAL_IND_PRT_SC ;
 :%{VU%} V11_MUTUAL_PASS_PRT ;
-:%{VU%}%>а V11_MUTUAL_PASS_PRS ;
-:%{VU%}%>%{ЫИ%} V11_MUTUAL_IND_PRT_OCSG3 ;
+:%{VU%}%>%{аяØ%} V11_MUTUAL_PASS_PRS ;
+:%{VU%} V11_MUTUAL_IND_PRT_OCSG3 ;
 
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
@@ -60,7 +60,8 @@ LEXICON V11_MUTUAL-IND
 +Err/Orth+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын K ;
 +Ind+Prs+ScSg3:%>%{ЫИ%} K ;
 +Ind+Prs+ScDu1:%>%{ЫИ%}ме̄н K ;
-+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
++Ind+Prs+ScDu2:%>%{ЭЕ%}гын K ;
++Err/Orth+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
 +Ind+Prs+ScDu3:%>%{ЭЕLong%}г K ;
 +Ind+Prs+ScPl1:%>%{ЭЕLong%}в K ;
 +Ind+Prs+ScPl2:%>%{ЭЕ%}гын K ;
@@ -108,7 +109,7 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prs+ScPl2+OcPl3:%>%{ЫИ%}яны̄н K ;
 +Ind+Prs+ScPl3+OcPl3:%>%{ЫИ%}яныл K ;
 +Err/Orth+Ind+Prs+ScPl3+OcPl3:%>%{ЫИ%}я̄ныл K ;
-+Ind+Prs+ScPl3+OcPl3:%>%{ЫИ%}яна̄ныл K ;
++Err/Orth+Ind+Prs+ScPl3+OcPl3:%>%{ЫИ%}яна̄ныл K ;
 !
 !+Ind+Prt+ScSg1+OcSg3:%>ыслум K ;
 !+Ind+Prt+ScSg2+OcSg3:%>ыслын K ;
@@ -177,19 +178,19 @@ LEXICON V11_MUTUAL_IND_PRT_SC
 !+Ind+Prt+ScPl3:%>асыт K ;
 !
 LEXICON V11_MUTUAL_IND_PRT_OCSG3 
-+Ind+Prt+ScSg1+OcSg3:слум K ;
-+Ind+Prt+ScSg2+OcSg3:слын K ;
-+Ind+Prt+ScSg3+OcSg3:стэ K ;
-+Ind+Prt+ScDu1+OcSg3:сламен K ;
-+Err/Orth+Ind+Prt+ScDu1+OcSg3:сламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:слын K ;
-+Err/Orth+Ind+Prt+ScDu2+OcSg3:слы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:стэн K ;
-+Err/Orth+Ind+Prt+ScDu3+OcSg3:стэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:слув K ;
-+Err/Orth+Ind+Prt+ScPl1+OcSg3:%>слӯв K ;
-+Ind+Prt+ScPl2+OcSg3:слын K ;
-+Err/Orth+Ind+Prt+ScPl2+OcSg3:слы̄н K ;
++Ind+Prt+ScSg1+OcSg3:ыслум K ;
++Ind+Prt+ScSg2+OcSg3:ыслын K ;
++Ind+Prt+ScSg3+OcSg3:ыстэ K ;
++Ind+Prt+ScDu1+OcSg3:ысламен K ;
++Err/Orth+Ind+Prt+ScDu1+OcSg3:ысламе̄н K ;
++Ind+Prt+ScDu2+OcSg3:ыслын K ;
++Err/Orth+Ind+Prt+ScDu2+OcSg3:ыслы̄н K ;
++Ind+Prt+ScDu3+OcSg3:ыстэн K ;
++Err/Orth+Ind+Prt+ScDu3+OcSg3:ыстэ̄н K ;
++Ind+Prt+ScPl1+OcSg3:ыслув K ;
++Err/Orth+Ind+Prt+ScPl1+OcSg3:%>ыслӯв K ;
++Ind+Prt+ScPl2+OcSg3:ыслын K ;
++Err/Orth+Ind+Prt+ScPl2+OcSg3:ыслы̄н K ;
 +Ind+Prt+ScPl3+OcSg3:саныл K ;
 +Err/Orth+Ind+Prt+ScPl3+OcSg3:са̄ныл K ;
 !
