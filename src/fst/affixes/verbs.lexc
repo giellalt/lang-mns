@@ -15,10 +15,12 @@ LEXICON Csuff
 +Ind+Prs+ScSg2:%>ын K ;
 +Ind+Prs+ScSg3: K ;
 +Ind+Prs+ScDu1:%>ме̄н K ;
-+Ind+Prs+ScDu2:%>ы̄н K ;
++Ind+Prs+ScDu2:%>ын K ;
++Ind+Prs+ScDu2+Use/NG:%>ы̄н K ;
 +Ind+Prs+ScDu3:%>ыг K ;
 +Ind+Prs+ScPl1:%>ув K ;
-+Ind+Prs+ScPl2:%>ы̄н K ;
++Ind+Prs+ScPl2:%>ын K ;
++Ind+Prs+ScPl2+Use/NG:%>ы̄н K ;
 +Ind+Prs+ScPl3:%>ыт K ;
 
 
@@ -57,15 +59,15 @@ LEXICON V11_MUTUAL-IND
 !! 	* **LEXICON @LEXNAME@**  
 +Ind+Prs+ScSg1:%>%{ЭЕLong%}гум K ;
 +Ind+Prs+ScSg2:%>%{ЭЕ%}гын K ;
-+Err/Orth+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын K ;
++Use/NG+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын K ;
 +Ind+Prs+ScSg3:%>%{ЫИ%} K ;
 +Ind+Prs+ScDu1:%>%{ЫИ%}ме̄н K ;
 +Ind+Prs+ScDu2:%>%{ЭЕ%}гын K ;
-+Err/Orth+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
++Use/NG+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
 +Ind+Prs+ScDu3:%>%{ЭЕLong%}г K ;
 +Ind+Prs+ScPl1:%>%{ЭЕLong%}в K ;
 +Ind+Prs+ScPl2:%>%{ЭЕ%}гын K ;
-+Err/Orth+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
++Use/NG+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
 +Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт K ;
 !
 +Ind+Prs+ScSg1+OcSg3:%>%{ЫИ%}лум K ;
@@ -73,24 +75,24 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prs+ScSg3+OcSg3:%>%{ЫИ%}тэ K ; ! XXX Long ? тотытэ vs. тоты̄тэ
 +Ind+Prs+ScDu1+OcSg3:%>%{ЫИ%}ламе̄н K ;
 +Ind+Prs+ScDu2+OcSg3:%>%{ЫИ%}лын K ;
-+Err/Orth+Ind+Prs+ScDu2+OcSg3:%>%{ЫИ%}лы̄н K ;
-+Ind+Prs+ScDu3+OcSg3:%>%{ЫИ%}тэн K ;
-+Err/Orth+Ind+Prs+ScDu3+OcSg3:%>%{ЫИ%}тэ̄н K ;
++Ind+Prs+ScDu2+OcSg3:%>%{ЫИ%}лы̄н K ;
++Ind+Prs+ScDu3+OcSg3+Use/NG:%>%{ЫИ%}тэн K ;
++Ind+Prs+ScDu3+OcSg3:%>%{ЫИ%}тэ̄н K ;
 +Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лӯв K ;
 +Ind+Prs+ScPl2+OcSg3:%>%{ЫИ%}лын K ;
-+Err/Orth+Ind+Prs+ScPl2+OcSg3:%>%{ЫИ%}лы̄н K ;
++Ind+Prs+ScPl2+OcSg3+Use/NG:%>%{ЫИ%}лы̄н K ;
 +Ind+Prs+ScPl3+OcSg3:%>%{ЫИ%}яныл K ;
-+Err/Orth+Ind+Prs+ScPl3+OcSg3:%>%{ЫИ%}я̄ныл K ;
++Ind+Prs+ScPl3+OcSg3+Use/NG:%>%{ЫИ%}я̄ныл K ;
 !
 +Ind+Prs+ScSg1+OcDu3:%>%{ЫИ%}ягум K ;
 +Ind+Prs+ScSg2+OcDu3:%>%{ЫИ%}ягын K ;
 +Ind+Prs+ScSg3+OcDu3:%>%{ЫИ%}яге K ;
-+Ind+Prs+ScDu1+OcDu3:%>%{ЫИ%}ягмен K ;
-+Err/Orth+Ind+Prs+ScDu1+OcDu3:%>%{ЫИ%}ягме̄н K ;
++Ind+Prs+ScDu1+OcDu3+Use/NG:%>%{ЫИ%}ягмен K ;
++Ind+Prs+ScDu1+OcDu3:%>%{ЫИ%}ягме̄н K ;
 +Ind+Prs+ScDu2+OcDu3:%>%{ЫИ%}ягын K ;
-+Err/Orth+Ind+Prs+ScDu2+OcDu3:%>%{ЫИ%}ягы̄н K ;
-+Ind+Prs+ScDu3+OcDu3:%>%{ЫИ%}яген K ;
-+Err/Orth+Ind+Prs+ScDu3+OcDu3:%>%{ЫИ%}яге̄н K ;
++Use/NG+Ind+Prs+ScDu2+OcDu3:%>%{ЫИ%}ягы̄н K ;
++Ind+Prs+ScDu3+OcDu3+Use/NG:%>%{ЫИ%}яген K ;
++Ind+Prs+ScDu3+OcDu3:%>%{ЫИ%}яге̄н K ;
 +Ind+Prs+ScPl1+OcDu3:%>%{ЫИ%}ягӯв K ;
 +Err/Orth+Ind+Prs+ScPl1+OcDu3:%>%{ЫИ%}ягув K ;
 +Ind+Prs+ScPl2+OcDu3:%>%{ЫИ%}ягын K ;
