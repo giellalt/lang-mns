@@ -132,6 +132,9 @@ Rules
 "Syncope for ы"
 !! **RULE: @RULENAME@**  
  ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [%{ыиØ%}:|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
+  %{VA%}: %> %{аяØ%}: %> _ ;
+!!€ ловиньт{VA}>{аяØ}>ыс
+!!€ ловиньт0>а>0с
 
 "Syncope for и"
 !! **RULE: @RULENAME@**  

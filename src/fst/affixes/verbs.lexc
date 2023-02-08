@@ -28,15 +28,17 @@ LEXICON V_U
 !! **LEXICON @LEXNAME@** 
 +Inf:%>уӈкве K ;
 :%{VU%} V11_MUTUAL ;
+:%{VU%} V11_MUTUAL_IND_PRT_SC ;
 :%{VU%} V11_MUTUAL_PASS_PRT ;
 :%{VU%}%>а V11_MUTUAL_PASS_PRS ;
-:%{VU%}%>%{ыиØ%} V11_MUTUAL_IND_PRT_OCSG3 ;
+:%{VU%}%>%{ЫИ%} V11_MUTUAL_IND_PRT_OCSG3 ;
 
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
 +Inf:%>аӈкве K ;
 :%{VA%} V11_MUTUAL ;
-:%{VA%}%>а V11_MUTUAL_PASS ;
+:%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_SC ;
+:%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_OCSG3 ;
 
 
@@ -108,33 +110,20 @@ LEXICON V11_MUTUAL-IND
 +Err/Orth+Ind+Prs+ScPl3+OcPl3:%>%{ЫИ%}я̄ныл K ;
 +Ind+Prs+ScPl3+OcPl3:%>%{ЫИ%}яна̄ныл K ;
 !
-+Ind+Prt+ScSg1:%>сум K ;
-+Ind+Prt+ScSg2:%>сын K ;
-+Ind+Prt+ScSg3:%>ыс K ;
-+Ind+Prt+ScDu1:%>ысаме̄н K ;
-+Ind+Prt+ScDu2:%>сын K ;
-+Err/Orth+Ind+Prt+ScDu2:%>сы̄н K ;
-+Ind+Prt+ScDu3:%>сы̄г K ;
-+Ind+Prt+ScPl1:%>сӯв K ;
-+Ind+Prt+ScPl2:%>сын K ;
-+Err/Orth+Ind+Prt+ScPl2:%>сы̄н K ;
-+Ind+Prt+ScPl3:%>сыт K ;
-!
-+Ind+Prt+ScSg1+OcSg3:%>ыслум K ;
-+Ind+Prt+ScSg2+OcSg3:%>ыслын K ;
-+Ind+Prt+ScSg3+OcSg3:%>ыстэ K ;
-+Ind+Prt+ScDu1+OcSg3:%>ысламен K ;
-+Err/Orth+Ind+Prt+ScDu1+OcSg3:%>ысламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:%>ыслын K ;
-+Err/Orth+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:%>ыстэн K ;
-+Err/Orth+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н K ;
-+Ind+Prt+ScPl1+OcSg3:%>ыслув K ;
-+Err/Orth+Ind+Prt+ScPl1+OcSg3:%>ыслӯв K ;
-+Ind+Prt+ScPl2+OcSg3:%>ыслын K ;
-+Err/Orth+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:%>саныл K ;
-+Err/Orth+Ind+Prt+ScPl3+OcSg3:%>са̄ныл K ;
+!+Ind+Prt+ScSg1+OcSg3:%>ыслум K ;
+!+Ind+Prt+ScSg2+OcSg3:%>ыслын K ;
+!+Ind+Prt+ScSg3+OcSg3:%>ыстэ K ;
+!+Ind+Prt+ScDu1+OcSg3:%>ысламен K ;
+!+Err/Orth+Ind+Prt+ScDu1+OcSg3:%>ысламе̄н K ;
+!+Ind+Prt+ScDu2+OcSg3:%>ыслын K ;
+!+Err/Orth+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н K ;
+!+Ind+Prt+ScDu3+OcSg3:%>ыстэн K ;
+!+Err/Orth+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н K ;
+!+Ind+Prt+ScPl1+OcSg3:%>ыслув K ;
+!+Ind+Prt+ScPl2+OcSg3:%>ыслын K ;
+!+Err/Orth+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н K ;
+!+Ind+Prt+ScPl3+OcSg3:%>саныл K ;
+!+Err/Orth+Ind+Prt+ScPl3+OcSg3:%>са̄ныл K ;
 !
 +Ind+Prt+ScSg1+OcDu3:%>сагум K ;
 +Ind+Prt+ScSg2+OcDu3:%>сагын K ;
@@ -164,26 +153,45 @@ LEXICON V11_MUTUAL-IND
 +Ind+Prt+ScPl2+OcPl3:%>саны̄н K ;
 +Ind+Prt+ScPl3+OcPl3:%>саныл K ;
 !
-+Ind+Prt+ScSg1:%>асум K ;
-+Ind+Prt+ScSg2:%>асын K ;
-+Ind+Prt+ScSg3:%>ас K ;
-+Ind+Prt+ScDu1:%>асаме̄н K ;
-+Ind+Prt+ScDu2:%>асы̄н K ;
-+Ind+Prt+ScDu3:%>асы̄г K ;
-+Ind+Prt+ScPl1:%>асӯв K ;
-+Ind+Prt+ScPl2:%>асы̄н K ;
-+Ind+Prt+ScPl3:%>асыт K ;
+LEXICON V11_MUTUAL_IND_PRT_SC 
++Ind+Prt+ScSg1:%>сум K ;
++Ind+Prt+ScSg2:%>сын K ;
++Ind+Prt+ScSg3:%>ыс K ;
++Ind+Prt+ScDu1:%>ысаме̄н K ;
++Ind+Prt+ScDu2:%>сын K ;
++Err/Orth+Ind+Prt+ScDu2:%>сы̄н K ;
++Ind+Prt+ScDu3:%>сы̄г K ;
++Ind+Prt+ScPl1:%>сӯв K ;
++Ind+Prt+ScPl2:%>сын K ;
++Err/Orth+Ind+Prt+ScPl2:%>сы̄н K ;
++Ind+Prt+ScPl3:%>сыт K ;
+!
+!+Ind+Prt+ScSg1:%>асум K ;
+!+Ind+Prt+ScSg2:%>асын K ;
+!+Ind+Prt+ScSg3:%>ас K ;
+!+Ind+Prt+ScDu1:%>асаме̄н K ;
+!+Ind+Prt+ScDu2:%>асы̄н K ;
+!+Ind+Prt+ScDu3:%>асы̄г K ;
+!+Ind+Prt+ScPl1:%>асӯв K ;
+!+Ind+Prt+ScPl2:%>асы̄н K ;
+!+Ind+Prt+ScPl3:%>асыт K ;
 !
 LEXICON V11_MUTUAL_IND_PRT_OCSG3 
 +Ind+Prt+ScSg1+OcSg3:слум K ;
 +Ind+Prt+ScSg2+OcSg3:слын K ;
 +Ind+Prt+ScSg3+OcSg3:стэ K ;
-+Ind+Prt+ScDu1+OcSg3:сламе̄н K ;
-+Ind+Prt+ScDu2+OcSg3:слы̄н K ;
-+Ind+Prt+ScDu3+OcSg3:стэ̄н K ;
++Ind+Prt+ScDu1+OcSg3:сламен K ;
++Err/Orth+Ind+Prt+ScDu1+OcSg3:сламе̄н K ;
++Ind+Prt+ScDu2+OcSg3:слын K ;
++Err/Orth+Ind+Prt+ScDu2+OcSg3:слы̄н K ;
++Ind+Prt+ScDu3+OcSg3:стэн K ;
++Err/Orth+Ind+Prt+ScDu3+OcSg3:стэ̄н K ;
 +Ind+Prt+ScPl1+OcSg3:слув K ;
-+Ind+Prt+ScPl2+OcSg3:слы̄н K ;
-+Ind+Prt+ScPl3+OcSg3:са̄ныл K ;
++Err/Orth+Ind+Prt+ScPl1+OcSg3:%>слӯв K ;
++Ind+Prt+ScPl2+OcSg3:слын K ;
++Err/Orth+Ind+Prt+ScPl2+OcSg3:слы̄н K ;
++Ind+Prt+ScPl3+OcSg3:саныл K ;
++Err/Orth+Ind+Prt+ScPl3+OcSg3:са̄ныл K ;
 !
 LEXICON V11_MUTUAL-COND 
 !! 	* **LEXICON @LEXNAME@** 
