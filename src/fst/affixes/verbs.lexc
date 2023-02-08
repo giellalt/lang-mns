@@ -54,7 +54,7 @@ LEXICON V11_MUTUAL
 +PrfPrc:%>%{уюØ%}м # ;
 +Actio:%>%{ыиØ%}м # ;
 +Actio:%>%{ыиØ%}н # ;
-+Der+Der/Ap+N:%>ап N-01_ ;
++Der+Der/Ap+N:%>ап N_VCH_ ;
  V11_MUTUAL-IND ;
  V11_MUTUAL-IMPRT ;
  V11_MUTUAL-COND	  ;

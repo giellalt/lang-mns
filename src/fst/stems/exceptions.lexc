@@ -20,7 +20,7 @@ LEXICON EXCEPTIONS
 миӈкве+V+Ind+Prs+ScSg2:маен K ;
 миӈкве+V+Ind+Prs+ScDu2:мае̄н K ;
 миӈкве+V+Ind+Prs+ScPl2:мае̄н K ;
-миӈкве+V:ми V11_MUTUAL-PASS ;
+миӈкве+V:ми V11_MUTUAL_PASS ;
 
 !! NEW PROPER NOUNS
 Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ; !!≈ @CODE@

@@ -16,6 +16,7 @@ LIST Cond = Cond ;
 LIST Dat = Dat ;
 LIST Dem = Dem ;
 LIST Der = Der ;
+LIST Der/Ap = Der/Ap ;
 LIST Der/Ord = Der/Ord ;
 LIST Der/Yng = Der/Yng ;
 LIST Der/Yshch = Der/Yshch ;

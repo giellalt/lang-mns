@@ -132,10 +132,26 @@ Rules
 
 "Syncope for ы"
 !! **RULE: @RULENAME@**  
- ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [%{ыиØ%}:|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
+ ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
   %{VA%}: %> %{аяØ%}: %> _ ;
+  [%{VO%}:| %{VI%}:]  %> _ [т] ; !Plural
 !!€ ловиньт{VA}>{аяØ}>ыс
 !!€ ловиньт0>а>0с
+!! павыл+N+Pl+Nom:
+!!€ павыл{SYNCH}>ыт
+!!€ пав0л0>ыт
+!! кол+N+Pl+Nom: **house/koti**
+!!€ кол{VCH}>ыт
+!!€ кол0>ыт
+!! кол+N+Sg+Loc: **house/koti**
+!!€ кол{VCH}>{ыиØ}т
+!!€ кол0>0т
+!! класс+N+Sg+Loc:
+!!€ класс{VCCH}>{ыиØ}т
+!!€ класс0>ыт
+!! класс+N+Pl+Nom:
+!!€ класс{VCCH}>ыт
+!!€ класс0>ыт
 
 "Syncope for и"
 !! **RULE: @RULENAME@**  
@@ -187,10 +203,10 @@ Rules
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"
 %{ыиØ%}:ы <=>
-     [%{VCCH%}:|%{SYNCH%}:] %> _ [т|н|л|я] ;
-!! яныг+N+Sg+Loc:
-!!€ яныг{SYNCH}>{ыиØ}т
-!!€ ян0г0>ыт
+     [%{VCCH%}:] %> _ [т|н|л|я] ;
+!! павыл+N+Sg+Loc:
+!!€ павыл{SYNCH}>{ыиØ}т
+!!€ павыл0>0т
 !!
 !! я̄ӈк+N+Sg+Loc: **ice/jää**
 !!€ я̄ӈк{VCCH}>{ыиØ}т
@@ -202,6 +218,12 @@ Rules
      
 !!ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыиØ}т
+!!€ ансамбл00>ит
+
+"Vow и in plural ы to и"
+ы:и <=> [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %> _ [т] ;
+!!ансамбль+N+Pl+Nom: **band/yhtye**
+!!€ ансамбль{VCCS}>ыт
 !!€ ансамбл00>ит
 
 !! #### Tests:
@@ -237,8 +259,9 @@ Rules
 "Soft sign deletion for и suffixes"
 !! **RULE: @RULENAME@**  2023.02
 ь:0 <=>
-    _ [%{VCCS%}:|%{VCS%}:] %>  %{ыиØ%}: [т|н|л]; !! ансамбль+N+Sg+Loc: **band/yhtye**
-    _ [%{VCCS%}:|%{VCS%}:] %> (%{йØ%}:0)  %{ыиØ%}: [г]; !! ансамбль+N+Sg+Loc: **band/yhtye**
+    _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %>  %{ыиØ%}: [т|н|л]; !! ансамбль+N+Sg+Loc: **band/yhtye**
+    _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %>  ы: [т]; !! ансамбль+N+Pl+Nom: **band/yhtye**
+    _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %> (%{йØ%}:0)  %{ыиØ%}: [г]; !! ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыиØ}т
 !!€ ансамбл00>ит
 
@@ -266,6 +289,9 @@ Rules
 !echo 'о к р у г > {уюØ}:у в' | hfst-pair-test src/fst/phonology.compose.hfst
 !echo 'ла̄тыӈ+N+Sg+Nom' | hfst-lookup src/morphology/lexicon.hfst
 
+!! павыл+N+Pl+Nom:
+!!€ павыл{SYNCH}>ыт
+!!€ пав0л0>ыт
 
 
 
