@@ -24,10 +24,10 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 !! ## Multicharacter letters in the alphabet
 !! Vowels with a macron
 
-а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ !!≈ * @CODE@ 
-А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ !!≈ * @CODE@ 
+а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ !!≈ * @CODE@ also composed и, у
+А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ !!≈ * @CODE@ also composed И, У
 !
-!! Vowels with precomposed macron
+!! Vowels with precomposed macron, in the code we use 
 ӣ        !!≈ * @CODE@  йӣквыт
 Ӣ        !!≈ * @CODE@  йӣквыт
 ӯ        !!≈ * @CODE@  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
