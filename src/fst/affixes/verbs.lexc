@@ -285,18 +285,18 @@ LEXICON V11_MUTUAL_PASS_PRS
 +Pass+Prs+ScSg3:%>ве K ;
 +Pass+Prs+ScDu1:%>вемен K ;
 +Err/Orth+Pass+Prs+ScDu1:%>вемена K ;
-+Pass+Prs+ScDu1:%>веме̄н K ;
++Err/Orth+Pass+Prs+ScDu1:%>веме̄н K ;
 +Pass+Prs+ScDu2:%>вен K ;
 +Err/Orth+Pass+Prs+ScDu2:%>вена K ;
 +Err/Orth+Pass+Prs+ScDu2:%>ве̄н K ;
-+Pass+Prs+ScDu3:%>вега K ;
 +Pass+Prs+ScDu3:%>вег K ;
 +Err/Orth+Pass+Prs+ScDu3:%>ве̄г K ;
-+Pass+Prs+ScPl1:%>вева K ;
++Err/Orth+Pass+Prs+ScDu3:%>вега K ;
 +Pass+Prs+ScPl1:%>ве̄в K ;
-+Pass+Prs+ScPl2:%>вена K ;
++Err/Orth+Pass+Prs+ScPl1:%>вева K ;
 +Pass+Prs+ScPl2:%>вен K ;
 +Err/Orth+Pass+Prs+ScPl2:%>ве̄н K ;
++Err/Orth+Pass+Prs+ScPl2:%>вена K ;
 +Pass+Prs+ScPl3:%>вет K ;
 !
 LEXICON V11_MUTUAL_PASS_PRT
