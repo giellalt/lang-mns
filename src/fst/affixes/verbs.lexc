@@ -29,6 +29,7 @@ LEXICON Csuff
 LEXICON V_U
 !! **LEXICON @LEXNAME@** 
 +Inf:%>уӈкве K ;
++PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
 :%{VU%} V11_MUTUAL ;
 :%{VU%} V11_MUTUAL_IND_PRT_SC ;
 :%{VU%} V11_MUTUAL_PASS_PRT ;
@@ -38,6 +39,8 @@ LEXICON V_U
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
 +Inf:%>аӈкве K ;
++PrsPrc:a%>нэ # ; ! This will need some variants with onset vowel.
++PrsPrc:a%>н # ; ! This will need some variants with onset vowel.
 :%{VA%} V11_MUTUAL ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_SC ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
@@ -46,7 +49,6 @@ LEXICON V_A
 
 LEXICON V11_MUTUAL 
 !! * **LEXICON @LEXNAME@** 
-+PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
 +PrfPrc:%>%{уюØ%}м # ;
 +Actio:%>%{ыиØ%}м # ;
 +Actio:%>%{ыиØ%}н # ;
