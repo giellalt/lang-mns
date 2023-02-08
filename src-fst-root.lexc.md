@@ -8,9 +8,9 @@ basic **Root** lexicon.
 ## Multicharacter letters in the alphabet
 Vowels with a macron
 
-* а̄ е̄ ё̄ ӣ о̄ ы̄ э̄ ю̄ я̄ 
-* А̄ Е̄ Ё̄ Ӣ О̄ Ы̄ Э̄ Ю̄ Я̄ 
-Vowels with precomposed macron
+* а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ also composed и, у
+* А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ also composed И, У
+Vowels with precomposed macron, in the code we use 
 * ӣ  йӣквыт
 * Ӣ  йӣквыт
 * ӯ  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
