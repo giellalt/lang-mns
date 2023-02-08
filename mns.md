@@ -758,6 +758,8 @@ End of alphabet definitions
 ## Rules
 
 **RULE: Syncope for ы**  
+* *ловиньт{VA}>{аяØ}>ыс*
+* *ловиньт0>а>0с*
 
 **RULE: Syncope for и**  
 
