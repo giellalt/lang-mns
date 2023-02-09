@@ -253,12 +253,6 @@ word classes, or optionally from prefixes:
 **urj-Cyrl-ProperNouns ;** common cyrillic proper nouns
 **Punctuation ;** 
 **Symbols ;** 
-NEWWORDS FILES:
-**A_NEWWORDS ;** adjectives
-**ADV_NEWWORDS ;** adverbs
-**N_NEWWORDS ;** nouns
-**NUM_NEWWORDS ;** numerals
-**EXCEPTIONS ;** exceptions
 
 * **LEXICON K** for evt. clitic (goes to #)
 

@@ -1192,12 +1192,6 @@ word classes, or optionally from prefixes:
 **urj-Cyrl-ProperNouns ;** common cyrillic proper nouns
 **Punctuation ;** 
 **Symbols ;** 
-NEWWORDS FILES:
-**A_NEWWORDS ;** adjectives
-**ADV_NEWWORDS ;** adverbs
-**N_NEWWORDS ;** nouns
-**NUM_NEWWORDS ;** numerals
-**EXCEPTIONS ;** exceptions
 
 * **LEXICON K** for evt. clitic (goes to #)
 
@@ -1217,45 +1211,17 @@ NEWWORDS FILES:
 
 ---
 
-# New adjectives
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-яныг+A:яныг A_SYNCH "(eng) big/(hun) nagy/(rus) большой" ;
-
-**LEXICON A_NEWWORDS** 
-ADD ADJECTIVES BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives_newwords.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/adjectives_newwords.lexc)</small>
-
----
-
 # Adverbs
 
 Adverbs in the Northern Mansi
 
 **LEXICON Adverbs** 
 
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/adverbs.lexc)</small>
-
----
-
-# New adverbs in mansi
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-ёл ADV_ "(eng) down below/(hun) lent/(rus) вниз| внизу" ;
-
-**LEXICON ADV_NEWWORDS** 
 ADD ADVERBS BELOW
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adverbs_newwords.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/adverbs_newwords.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/adverbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/adverbs.lexc)</small>
 
 ---
 
@@ -1274,32 +1240,6 @@ so far only 3 of them.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/conjunctions.lexc)</small>
-
----
-
-# Exceptions in Mansi
-
-Exceptions are quite strange word-forms. the ones that do not fit anywhere 
-else. This file contains all enumerated word forms that cannot reasonably be
-created from lexical data by regular inflection. Usually there should be next
-to none exceptions, it's always better to have a paradigm that covers only
-one or few words than an exception since these will not work nicely with e.g.
-compounding scheme or possibly many end applications.
-
-**LEXICON EXCEPTIONS** only one verb and some propernounss for now.
-
-IRREGULAR VERBS
-миӈкве+V+Inf:миӈкве K ;
-
-NEW PROPER NOUNS
-Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
-Лука+N+Prop+Sem/Mal:Лука N1_ ;
-Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
-...
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/exceptions.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/exceptions.lexc)</small>
 
 ---
 
@@ -1323,7 +1263,13 @@ This is where new words are added as lexc entries before they are
 added to the xml source files.
 Нё̄р PROP_ "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 
-**LEXICON PROP_MANSINAMES** 
+**LEXICON PROP_MANSINAMES**
+
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
+Лука+N+Prop+Sem/Mal:Лука N1_ ;
+Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
+...
+
 ADD PROPER NOUNS BELOW
 
 * * *
@@ -1401,19 +1347,6 @@ This gives us the following stem types:
 
 ---
 
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-паль N_ "(eng) ear/(hun) fül/(rus) ухо" ;
-
-**LEXICON N_NEWWORDS** 
-ADD NOUNS BELOW
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/nouns_newwords.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/nouns_newwords.lexc)</small>
-
----
-
 # Numerals in Northern Mansi
 
 **LEXICON Numerals** to lexicon numera
@@ -1423,21 +1356,6 @@ ADD NOUNS BELOW
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/numerals.lexc)</small>
-
----
-
-# Mansi numerals
-
-This is where new words are added as lexc entries before they are 
-added to the xml source files.
-нёлолов NUM_ "(eng) eight/(hun) nyolc/(rus) восемь" ;
-ADD NUMERALS HERE
-
-**LEXICON NUM_NEWWORDS** 
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/stems/numerals_newwords.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/numerals_newwords.lexc)</small>
 
 ---
 
@@ -1488,6 +1406,8 @@ The file lists personal pronouns and their lemma + tags.
 ## The lexica themselves
 
 **LEXICON Verbs** is the list of all verbstems
+
+миӈкве+V+Inf:миӈкве K ;
 
 * а̄гмалтаӈкве+V:а̄гмалт V_A "23_even_определить" ; 
 * а̄йтынтахтуӈкве+V:а̄йтынтахт V_U "23_odd_тошнить" ;
