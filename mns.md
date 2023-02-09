@@ -677,13 +677,12 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{ЭЕLong%}:э** +V+Ind+Prs+ScSg1 VU
 * **%{ЭЕ%}:е** PxSg3
 * **%{ЭЕ%}:э** PxSg3
-
+* **%{УЮØ%}:0**
 * **%{йØ%}:0** ыг
 * **%{Øы%}:0** Loc
 * **%{ыØ%}:ы** specific floating vowel 
 * **%{иØ%}:и** specific floating vowel 
 * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
-* **%{УЮØ%}:0**
 * **%{тØ%}:0** PxSg3, Ins
 
 #### Triggers
@@ -851,6 +850,7 @@ End of alphabet definitions
 ансамбль+N+Sg+Loc: **band/yhtye**
 * *ансамбль{VCCS}>{ыиØ}т*
 * *ансамбл00>ит*
+ЧЧ+V+Inf: ****
 
 #### Tests:
 
