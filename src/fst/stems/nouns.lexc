@@ -30,6 +30,7 @@
 LEXICON Nouns
 !! **LEXICON @LEXNAME@** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
+
 а̄вгуст+N:а̄вгуст N_VCCH_ "август" ; !!≈ * @CODE@
 а̄ви+N:а̄ви N_VI_ "вход /место/" ; !!≈ * @CODE@
 а̄висӯнт+N:а̄висӯнт N_VCCH_ "порог" ;

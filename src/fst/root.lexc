@@ -322,12 +322,6 @@ LEXICON Root
    urj-Cyrl-ProperNouns ;  !!≈ **@CODE@** common cyrillic proper nouns
    Punctuation ;           !!≈ **@CODE@** 
    Symbols     ;           !!≈ **@CODE@** 
-!! NEWWORDS FILES:
-   A_NEWWORDS ;	           !!≈ **@CODE@** adjectives
-   ADV_NEWWORDS ;	       !!≈ **@CODE@** adverbs
-   N_NEWWORDS ; 	       !!≈ **@CODE@** nouns
-   NUM_NEWWORDS ;          !!≈ **@CODE@** numerals
-   EXCEPTIONS ; 	       !!≈ **@CODE@** exceptions
 
 LEXICON K 
 !! * **LEXICON @LEXNAME@** for evt. clitic (goes to #)
