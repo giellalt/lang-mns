@@ -143,6 +143,24 @@ generated_files/urj-Cyrl-$(GTLANG)-%.lexc:
 	$(AM_C_GEN)echo "! Missing shared common data" > $@
 
 endif
+
+if HAVE_SHARED_SMI
+# arabic_roman_digits.lexc matches this:
+generated_files/smi-$(GLANG)-%.lexc: \
+			$(gt_SHARED_smi)/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_GEN)cp -f $< $@
+
+generated_files/smi-$(GLANG)-%.lexc: \
+			$(gt_SHARED_smi)/src/fst/stems/smi-%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_GEN)cp -f $< $@
+else
+generated_files/smi-$(GLANG)-%.lexc:
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_C_GEN)echo "! Missing shared common data" > $@
+endif
+
 ### END: Local processing: ###
 
 ####### Other targets: ###########
