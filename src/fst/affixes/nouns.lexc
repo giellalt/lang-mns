@@ -148,11 +148,16 @@ LEXICON N1_SG
 +Sg+Abl+PxDu2:%>нныл K ;
 +Sg+Ins+PxDu2:%>нтыл K ;
 
-+Sg+Nom+PxDu3:%>тэ̄н K ;
-+Sg+Loc+PxDu3:%>тэ̄нт K ;
-+Sg+Lat+PxDu3:%>тэ̄нн K ;
-+Sg+Abl+PxDu3:%>тэ̄нныл K ;
-+Sg+Ins+PxDu3:%>тэ̄нтыл K ;
++Sg+Nom+PxDu3:%>%{тØ%}%{ЭЕLong%}н K ;
++Sg+Nom+PxDu3:%>%{тØ%}%{ЭЕ%}н K ;
++Sg+Loc+PxDu3:%>%{тØ%}%{ЭЕLong%}нт K ;
++Sg+Loc+PxDu3:%>%{тØ%}%{ЭЕ%}нт K ;
++Sg+Lat+PxDu3:%>%{тØ%}%{ЭЕLong%}нн K ;
++Sg+Lat+PxDu3:%>%{тØ%}%{ЭЕ%}нн K ;
++Sg+Abl+PxDu3:%>%{тØ%}%{ЭЕLong%}нныл K ;
++Sg+Abl+PxDu3:%>%{тØ%}%{ЭЕ%}нныл K ;
++Sg+Ins+PxDu3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
++Sg+Ins+PxDu3:%>%{тØ%}%{ЭЕ%}нтыл K ;
 
 +Sg+Nom+PxPl1:%>%{уюØ%}в K ;
 +Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
@@ -226,10 +231,15 @@ LEXICON N1_DU
 +Du+Ins+PxDu2:%>%{аяØ%}гы̄нтыл K ;
 
 +Du+Nom+PxDu3:%>%{аяØ%}ге̄н K ;
++Du+Nom+PxDu3:%>%{аяØ%}ген K ;
 +Du+Loc+PxDu3:%>%{аяØ%}ге̄нт K ;
++Du+Loc+PxDu3:%>%{аяØ%}гент K ;
 +Du+Lat+PxDu3:%>%{аяØ%}ге̄нн K ;
++Du+Lat+PxDu3:%>%{аяØ%}генн K ;
 +Du+Abl+PxDu3:%>%{аяØ%}ге̄нныл K ;
++Du+Abl+PxDu3:%>%{аяØ%}генныл K ;
 +Du+Ins+PxDu3:%>%{аяØ%}ге̄нтыл K ;
++Du+Ins+PxDu3:%>%{аяØ%}гентыл K ;
 
 +Du+Nom+PxPl1:%>%{аяØ%}гув K ;
 +Du+Loc+PxPl1:%>%{аяØ%}гувт K ;
