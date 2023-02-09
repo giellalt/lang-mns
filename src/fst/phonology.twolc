@@ -131,7 +131,7 @@ Rules
 
 "Syncope for ы"
 !! **RULE: @RULENAME@**  
- ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
+ ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы|а|%{аяØ%}:|%{уюØ%}:|(%{тØ%}) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
   %{VA%}: %> %{аяØ%}: %> _ ;
   [%{VO%}:| %{VI%}:]  %> _ [т] ; !Plural
 !!€ ловиньт{VA}>{аяØ}>ыс
@@ -307,10 +307,12 @@ Rules
 !! __@RULENAME@__
  %{аяØ%}:а <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | щ %{VCS%}:| %{VCCH%}: | [CnsSoft | CnsAlv | CnsNonAlv| р] [%{VA%}:|%{VU%}:]]  %> _  ;
 ! Cns %> _  ;
+!<=-rule conflict between "{аяØ}:а" and "{аяØ}:я".
+!E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ӈ:ӈ ь:ь щ:щ {VCS}: >:> _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#.
 
 "%{аяØ%}:я"
 !! __@RULENAME@__
-  %{аяØ%}:я <=> [%{VI%}: | Pal | [ь: | й:] [%{VA%}:|%{VU%}:]]  %> _  ;
+  %{аяØ%}:я <=> [%{VI%}: | [ь: | й:] Pal | [ь: | й:] [%{VA%}:|%{VU%}:]]  %> _  ;
   ! [ и | ы | ь: ] %> _  ;
 
 
@@ -349,12 +351,14 @@ Rules
 "%{ЭЕLong%}:э"
 !! __@RULENAME@__
  %{ЭЕLong%}:э <=> CnsAlv %{VU%}: %> _ ;
+ [[CnsAlv - р] %{VCH%}:| [CnsAlv - р] %{VCCH%}:| %{SYNCH%}:] %> (%{тØ%}:) _  ;
  !!€ тот{VU}>{ЭЕLong}в
  !!€ тот0>эв
 
  "%{ЭЕLong%}:е"
  !! __@RULENAME@__
   %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%}: %> _ ;
+ [р %{VCH%}:| р %{VCCH%}:|Pal] %> (%{тØ%}:) _  ;
  !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
  !!€ ха̄л0%>0е̄н
 
@@ -362,9 +366,12 @@ Rules
 !! __@RULENAME@__
 %{ЭЕ%}:э <=> [ CnsAlv - р | Vow ] [%{VU%}:|%{VA%}:] %> _ ;
              Vow %{VO%}: %> %{тØ%}: _ ;
+ [[CnsAlv - р] %{VCH%}:| [CnsAlv - р] %{VCCH%}: | %{SYNCH%}:] %> (%{тØ%}:) _  ;
+
 "{ЭЕ}:е"
 !! __@RULENAME@__
  %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: | й:] [%{VU%}:|%{VA%}:] %>  _  ;
+ [р %{VCH%}:| р %{VCCH%}:|Pal| %{SYNCS%}:] %> (%{тØ%}:) _  ;
 !!€ ха̄ль%>%{тØ%}%{ЭЕ%}
 !!€ ха̄л0%>0е
 !!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
@@ -393,9 +400,9 @@ Rules
 !!€ кой{VU}>{уюØ}ӈкве
 !!€ ко00>юӈкве
 
-! "%{тØ%}:0"
-! ! __@RULENAME@__
-!  %{тØ%}:0 <=> Cns (ь: ) (%^Syncope:) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы л ]  ;
+"%{тØ%}:0"
+! __@RULENAME@__
+ %{тØ%}:0 <=> Cns (ь: ) [%{SYNCH%}:|%{SYNCS%}:|%{VCS%}:|%{VCH%}:|%{VCCS%}:|%{VCCH%}:] %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: | ы: л ]  ;
 
 ! # Cns* (Vow Cns) Vow Cns (ь: ) %> _ [ %{ЭЕ%}: | %{ЭЕLong%}: ]  ;
 !! ха̄ль+N+Sg+PxSg3+Nom

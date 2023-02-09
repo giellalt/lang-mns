@@ -59,34 +59,34 @@
 !! The stem vowel alternation is taken care of in the twolc file.
 
 !! ## The lexicon
-LEXICON N_VI_ !!≈ * @CODE@ Stems ending in и ы: а̄ви
+LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_ ;
 
-LEXICON N_VO_ !!≈ * @CODE@ Stems ending in other vowels ӯра
+LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} N1_ ;
 
-LEXICON N_SYNCH_ !!≈ * @CODE@ Stems with syncopy, hard
+LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%} N1_ ;
 
-LEXICON N_SYNCS_ !!≈ * @CODE@ Stems with syncopy, soft
+LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} N1_ ;
 
-LEXICON N_NOSYNCH_ !!≈ * @CODE@ Stems without syncopy, hard
+LEXICON N_NOSYNCH !!≈ * @CODE@ Stems without syncopy, hard
 :%{NOSYNCH%} N1_ ;
 
-LEXICON N_NOSYNCS_ !!≈ * @CODE@ Stems without syncopy, soft
+LEXICON N_NOSYNCS !!≈ * @CODE@ Stems without syncopy, soft
 :%{NOSYNCS%} N1_ ;
 
-LEXICON N_VCH_ !!≈ * @CODE@ Stems ending in single hard consonant
+LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%} N1_ ;
 
-LEXICON N_VCCH_ !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
+LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
 :%{VCCH%} N1_ ;
 
-LEXICON N_VCS_ !!≈ * @CODE@ Stems ending in single soft consonant
+LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%} N1_ ;
 
-LEXICON N_VCCS_ !!≈ * @CODE@ Stems ending in soft consonant cluster
+LEXICON N_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
 :%{VCCS%} N1_ ;
 
 
@@ -142,22 +142,22 @@ LEXICON N1_SG
 +Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
 +Sg+Ins+PxDu1+Use/NG:%>%{уюØ%}ментыл K ;
 
-+Sg+Nom+PxDu2:%>н K ;
-+Sg+Loc+PxDu2:%>нт K ;
-+Sg+Lat+PxDu2:%>нн K ;
-+Sg+Abl+PxDu2:%>нныл K ;
-+Sg+Ins+PxDu2:%>нтыл K ;
++Sg+Nom+PxDu2:%>ын K ;
++Sg+Loc+PxDu2:%>ынт K ;
++Sg+Lat+PxDu2:%>ынн K ;
++Sg+Abl+PxDu2:%>ынныл K ;
++Sg+Ins+PxDu2:%>ынтыл K ;
 
-+Sg+Nom+PxDu3:%>%{тØ%}%{ЭЕLong%}н K ;
-+Sg+Nom+PxDu3:%>%{тØ%}%{ЭЕ%}н K ;
-+Sg+Loc+PxDu3:%>%{тØ%}%{ЭЕLong%}нт K ;
-+Sg+Loc+PxDu3:%>%{тØ%}%{ЭЕ%}нт K ;
-+Sg+Lat+PxDu3:%>%{тØ%}%{ЭЕLong%}нн K ;
-+Sg+Lat+PxDu3:%>%{тØ%}%{ЭЕ%}нн K ;
-+Sg+Abl+PxDu3:%>%{тØ%}%{ЭЕLong%}нныл K ;
-+Sg+Abl+PxDu3:%>%{тØ%}%{ЭЕ%}нныл K ;
-+Sg+Ins+PxDu3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
-+Sg+Ins+PxDu3:%>%{тØ%}%{ЭЕ%}нтыл K ;
++Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ;
++Sg+Nom+PxDu3:%>%{ЭЕ%}н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:э н
++Sg+Loc+PxDu3:%>%{ЭЕLong%}нт K ;
++Sg+Loc+PxDu3:%>%{ЭЕ%}нт K ;
++Sg+Lat+PxDu3:%>%{ЭЕLong%}нн K ;
++Sg+Lat+PxDu3:%>%{ЭЕ%}нн K ;
++Sg+Abl+PxDu3:%>%{ЭЕLong%}нныл K ;
++Sg+Abl+PxDu3:%>%{ЭЕ%}нныл K ;
++Sg+Ins+PxDu3:%>%{ЭЕLong%}нтыл K ;
++Sg+Ins+PxDu3:%>%{ЭЕ%}нтыл K ;
 
 +Sg+Nom+PxPl1:%>%{уюØ%}в K ;
 +Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
@@ -225,10 +225,15 @@ LEXICON N1_DU
 +Du+Ins+PxDu1+Use/NG:%>%{аяØ%}гaментыл K ;
 
 +Du+Nom+PxDu2:%>%{аяØ%}гы̄н K ;
++Du+Nom+PxDu2:%>%{аяØ%}гын K ;
 +Du+Loc+PxDu2:%>%{аяØ%}гы̄нт K ;
++Du+Loc+PxDu2:%>%{аяØ%}гынт K ;
 +Du+Lat+PxDu2:%>%{аяØ%}гы̄нн K ;
++Du+Lat+PxDu2:%>%{аяØ%}гынн K ;
 +Du+Abl+PxDu2:%>%{аяØ%}гы̄нныл K ;
++Du+Abl+PxDu2:%>%{аяØ%}гынныл K ;
 +Du+Ins+PxDu2:%>%{аяØ%}гы̄нтыл K ;
++Du+Ins+PxDu2:%>%{аяØ%}гынтыл K ;
 
 +Du+Nom+PxDu3:%>%{аяØ%}ге̄н K ;
 +Du+Nom+PxDu3:%>%{аяØ%}ген K ;
@@ -317,10 +322,15 @@ LEXICON N1_PL
 +Pl+Ins+PxDu1+Use/NG:%>%{аяØ%}нментыл K ;
 
 +Pl+Nom+PxDu2:%>%{аяØ%}ны̄н K ;
++Pl+Nom+PxDu2:%>%{аяØ%}нын K ;
 +Pl+Loc+PxDu2:%>%{аяØ%}ны̄нт K ;
++Pl+Loc+PxDu2:%>%{аяØ%}нынт K ;
 +Pl+Lat+PxDu2:%>%{аяØ%}ны̄нн K ;
++Pl+Lat+PxDu2:%>%{аяØ%}нынн K ;
 +Pl+Abl+PxDu2:%>%{аяØ%}ны̄нныл K ;
++Pl+Abl+PxDu2:%>%{аяØ%}нынныл K ;
 +Pl+Ins+PxDu2:%>%{аяØ%}ны̄нтыл K ;
++Pl+Ins+PxDu2:%>%{аяØ%}нынтыл K ;
 
 +Pl+Nom+PxDu2:%>%{аяØ%}н K ;
 +Pl+Loc+PxDu2:%>%{аяØ%}нт K ;
@@ -329,10 +339,15 @@ LEXICON N1_PL
 +Pl+Ins+PxDu2:%>%{аяØ%}нтыл K ;
 
 +Pl+Nom+PxDu3:%>%{аяØ%}нэ̄н K ;
++Pl+Nom+PxDu3:%>%{аяØ%}нэн K ;
 +Pl+Loc+PxDu3:%>%{аяØ%}нэ̄нт K ;
++Pl+Loc+PxDu3:%>%{аяØ%}нэнт K ;
 +Pl+Lat+PxDu3:%>%{аяØ%}нэ̄нн K ;
++Pl+Lat+PxDu3:%>%{аяØ%}нэнн K ;
 +Pl+Abl+PxDu3:%>%{аяØ%}нэ̄нныл K ;
++Pl+Abl+PxDu3:%>%{аяØ%}нэнныл K ;
 +Pl+Ins+PxDu3:%>%{аяØ%}нэ̄нтыл K ;
++Pl+Ins+PxDu3:%>%{аяØ%}нэнтыл K ;
 
 +Pl+Nom+PxPl1:%>%{аяØ%}нув K ;
 +Pl+Loc+PxPl1:%>%{аяØ%}нувт K ;
