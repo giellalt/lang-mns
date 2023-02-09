@@ -38,15 +38,10 @@ GT_LEXC_SRCS_L1_L2=\
 			 affixes/propernouns.lexc \
 			 affixes/symbols.lexc     \
 			 affixes/verbs.lexc \
-			 stems/adjectives_newwords.lexc \
-			 stems/adverbs_newwords.lexc \
-			 stems/nouns_newwords.lexc \
-			 stems/numerals_newwords.lexc \
 			 stems/pronouns.lexc \
 			 stems/adjectives.lexc \
 			 stems/adverbs.lexc \
 			 stems/conjunctions.lexc \
-			 stems/exceptions.lexc \
 			 stems/nouns.lexc \
 			 stems/numerals.lexc \
 			 stems/pronouns.lexc \
