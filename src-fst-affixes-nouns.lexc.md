@@ -6,25 +6,25 @@ All Mansi nouns have the same suffixe, thus only one continuation lexica.
 The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
-* LEXICON N_VI_ Stems ending in и ы: а̄ви
+* LEXICON N_VI Stems ending in и ы: а̄ви
 
-* LEXICON N_VO_ Stems ending in other vowels ӯра
+* LEXICON N_VO Stems ending in other vowels ӯра
 
-* LEXICON N_SYNCH_ Stems with syncopy, hard
+* LEXICON N_SYNCH Stems with syncopy, hard
 
-* LEXICON N_SYNCS_ Stems with syncopy, soft
+* LEXICON N_SYNCS Stems with syncopy, soft
 
-* LEXICON N_NOSYNCH_ Stems without syncopy, hard
+* LEXICON N_NOSYNCH Stems without syncopy, hard
 
-* LEXICON N_NOSYNCS_ Stems without syncopy, soft
+* LEXICON N_NOSYNCS Stems without syncopy, soft
 
-* LEXICON N_VCH_ Stems ending in single hard consonant
+* LEXICON N_VCH Stems ending in single hard consonant
 
-* LEXICON N_VCCH_ Stems ending in hard consonant cluster: а̄вгуст
+* LEXICON N_VCCH Stems ending in hard consonant cluster: а̄вгуст
 
-* LEXICON N_VCS_ Stems ending in single soft consonant
+* LEXICON N_VCS Stems ending in single soft consonant
 
-* LEXICON N_VCCS_ Stems ending in soft consonant cluster
+* LEXICON N_VCCS Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
 ### 1. Non-possessive forms 
