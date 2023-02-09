@@ -113,11 +113,11 @@ LEXICON N1_SG
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
-+Sg+Nom+PxSg1:%>%{уØ%}м K ;
-+Sg+Loc+PxSg1:%>%{уØ%}мт K ;
-+Sg+Lat+PxSg1:%>%{уØ%}мн K ;
-+Sg+Abl+PxSg1:%>%{уØ%}мныл K ;
-+Sg+Ins+PxSg1:%>%{уØ%}мтыл K ;
++Sg+Nom+PxSg1:%>%{уюØ%}м K ;
++Sg+Loc+PxSg1:%>%{уюØ%}мт K ;
++Sg+Lat+PxSg1:%>%{уюØ%}мн K ;
++Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
++Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
 
 +Sg+Nom+PxSg2:%>ын K ;
 +Sg+Loc+PxSg2:%>ынт K ;
@@ -131,16 +131,16 @@ LEXICON N1_SG
 +Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
 +Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}тыл K ;
 
-+Sg+Nom+PxDu1:%>%{уØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н
-+Sg+Nom+PxDu1+Use/NG:%>%{уØ%}мен K ;
-+Sg+Loc+PxDu1:%>%{уØ%}ме̄нт K ;
-+Sg+Loc+PxDu1+Use/NG:%>%{уØ%}мент K ;
-+Sg+Lat+PxDu1:%>%{уØ%}ме̄нн K ;
-+Sg+Lat+PxDu1+Use/NG:%>%{уØ%}менн K ;
-+Sg+Abl+PxDu1:%>%{уØ%}ме̄нныл K ;
-+Sg+Abl+PxDu1+Use/NG:%>%{уØ%}менныл K ;
-+Sg+Ins+PxDu1:%>%{уØ%}ме̄нтыл K ;
-+Sg+Ins+PxDu1+Use/NG:%>%{уØ%}ментыл K ;
++Sg+Nom+PxDu1:%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н
++Sg+Nom+PxDu1+Use/NG:%>%{уюØ%}мен K ;
++Sg+Loc+PxDu1:%>%{уюØ%}ме̄нт K ;
++Sg+Loc+PxDu1+Use/NG:%>%{уюØ%}мент K ;
++Sg+Lat+PxDu1:%>%{уюØ%}ме̄нн K ;
++Sg+Lat+PxDu1+Use/NG:%>%{уюØ%}менн K ;
++Sg+Abl+PxDu1:%>%{уюØ%}ме̄нныл K ;
++Sg+Abl+PxDu1+Use/NG:%>%{уюØ%}менныл K ;
++Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
++Sg+Ins+PxDu1+Use/NG:%>%{уюØ%}ментыл K ;
 
 +Sg+Nom+PxDu2:%>н K ;
 +Sg+Loc+PxDu2:%>нт K ;
@@ -154,11 +154,11 @@ LEXICON N1_SG
 +Sg+Abl+PxDu3:%>тэ̄нныл K ;
 +Sg+Ins+PxDu3:%>тэ̄нтыл K ;
 
-+Sg+Nom+PxPl1:%>%{уØ%}в K ;
-+Sg+Loc+PxPl1:%>%{уØ%}вт K ;
-+Sg+Lat+PxPl1:%>%{уØ%}вн K ;
-+Sg+Abl+PxPl1:%>%{уØ%}вныл K ;
-+Sg+Ins+PxPl1:%>%{уØ%}втыл K ;
++Sg+Nom+PxPl1:%>%{уюØ%}в K ;
++Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
++Sg+Lat+PxPl1:%>%{уюØ%}вн K ;
++Sg+Abl+PxPl1:%>%{уюØ%}вныл K ;
++Sg+Ins+PxPl1:%>%{уюØ%}втыл K ;
 
 +Sg+Nom+PxPl2:%>н K ;
 +Sg+Loc+PxPl2:%>нт K ;
