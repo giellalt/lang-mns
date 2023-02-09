@@ -119,11 +119,11 @@ LEXICON N1_SG
 +Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
 +Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
 
-+Sg+Nom+PxSg2:%>ын K ;
-+Sg+Loc+PxSg2:%>ынт K ;
-+Sg+Lat+PxSg2:%>ынн K ;
-+Sg+Abl+PxSg2:%>ынныл K ;
-+Sg+Ins+PxSg2:%>ынтыл K ;
++Sg+Nom+PxSg2:%>%{ыиØ%}н K ;
++Sg+Loc+PxSg2:%>%{ыиØ%}нт K ;
++Sg+Lat+PxSg2:%>%{ыиØ%}нн K ;
++Sg+Abl+PxSg2:%>%{ыиØ%}нныл K ;
++Sg+Ins+PxSg2:%>%{ыиØ%}нтыл K ;
 
 +Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
 +Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;
@@ -160,11 +160,11 @@ LEXICON N1_SG
 +Sg+Abl+PxPl1:%>%{уюØ%}вныл K ;
 +Sg+Ins+PxPl1:%>%{уюØ%}втыл K ;
 
-+Sg+Nom+PxPl2:%>н K ;
-+Sg+Loc+PxPl2:%>нт K ;
-+Sg+Lat+PxPl2:%>нн K ;
-+Sg+Abl+PxPl2:%>нныл K ;
-+Sg+Ins+PxPl2:%>нтыл K ;
++Sg+Nom+PxPl2:%>%{ыиØ%}н K ;
++Sg+Loc+PxPl2:%>%{ыиØ%}нт K ;
++Sg+Lat+PxPl2:%>%{ыиØ%}нн K ;
++Sg+Abl+PxPl2:%>%{ыиØ%}нныл K ;
++Sg+Ins+PxPl2:%>%{ыиØ%}нтыл K ;
 
 +Sg+Nom+PxPl3:%>%{аяØ%}ныл K ;
 +Sg+Loc+PxPl3:%>%{аяØ%}нылт K ;
