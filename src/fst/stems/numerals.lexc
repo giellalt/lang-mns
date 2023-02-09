@@ -19,5 +19,37 @@ LEXICON HUNDREDSM
 со̄тыра+Num:со̄тыра # "1000" ; ! to be fixed
 
 
+! TODO!!
+
+LEXICON ARABICCASE
+# ;
+
+LEXICON ARABICCASE0
+# ;
+LEXICON ARABICCASECOLL
+# ;
+LEXICON ARABICCASEORD
+# ;
+LEXICON ARABICCASEORD-ERR
+# ;
+LEXICON ARABICCASES
+# ;
+LEXICON ARABICCOMPOUNDS
+# ;
+LEXICON DIGITCASE
+# ;
+LEXICON RNum
+# ;
+LEXICON ROMNUMTAGOBL
+# ;
+LEXICON dateyearcase
+# ;
+LEXICON dateyearcase_fullsuff
+# ;
+LEXICON dateyearcase_nullsuff_w_dot
+# ;
+LEXICON yeartagpl
+# ;
+
 
 ! vim: set ft=xfst-lexc:
