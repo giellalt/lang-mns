@@ -93,6 +93,7 @@ LIST Sg2 = Sg2 ;
 LIST Sg3 = Sg3 ;
 LIST Symbol = Symbol ;
 LIST Tra = Tra ;
+LIST Use/-PMatch = Use/-PMatch ;
 LIST Use/NG = Use/NG ;
 LIST Use/PMatch = Use/PMatch ;
 LIST V = V ;
