@@ -1096,6 +1096,9 @@ source and target part-of-speech.
 * **«7**:  Literal «
 **%[%>%]**- Literal >
 **%[%<%]**- Literal <
+* **+Use/-PMatch** = for preprocessing
+* **+Use/PMatch** = for preprocessing
+* **@P.Pmatch.Backtrack@** = for preprocessing
 
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -1139,6 +1142,10 @@ with verbs if the verb is further derived into a noun again:
 |  **@P.NeedNoun.ON@**| (Dis)allow compounds with verbs unless nominalised
 |  **@D.NeedNoun.ON@**| (Dis)allow compounds with verbs unless nominalised
 |  **@C.NeedNoun@**| (Dis)allow compounds with verbs unless nominalised
+|  **@D.ErrOrth.ON@**  | Disallow ErrOrth
+|  **@C.ErrOrth@**  | Clear ErrOrth flag
+|  **@P.ErrOrth.ON@**  | Set positive value for ErrOrth flag
+|  **@R.ErrOrth.ON@**  | Reset ErrOrth Flag
 
 For languages that allow compounding, the following flag diacritics are needed
 to control position-based compounding restrictions for nominals. Their use is
