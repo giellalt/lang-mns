@@ -1,6 +1,8 @@
 # Numerals in Northern Mansi
 
-**LEXICON Numerals** to lexicon numeral
+**LEXICON Numerals** to lexicon numera
+
+**LEXICON HUNDREDSM** shall contain all numerals, not initiated.
 
 * * *
 
