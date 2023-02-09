@@ -4,8 +4,19 @@
 ! No work on numerals so far.
 
 LEXICON Numerals
-!! **LEXICON @LEXNAME@** to lexicon numeral
-со̄тыра+Num:со̄тыра # "1000" ;
+!! **LEXICON @LEXNAME@** to lexicon numera
+HUNDREDSM ;
+! ...
+ARABICS          ; ! for the arabic numerals !
+ROMAN           ; ! for the roman numerals  !
+NUM-PREFIXES    ; ! for §34 etc.            !
+ISOLATED-NUMEXP ; ! for ½ etc.                      !
+
+
+
+LEXICON HUNDREDSM 
+!! **LEXICON @LEXNAME@** shall contain all numerals, not initiated.
+со̄тыра+Num:со̄тыра # "1000" ; ! to be fixed
 
 
 
