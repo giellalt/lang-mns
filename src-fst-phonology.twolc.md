@@ -206,7 +206,7 @@ End of alphabet definitions
 ансамбль+N+Sg+Loc: **band/yhtye**
 * *ансамбль{VCCS}>{ыиØ}т*
 * *ансамбл00>ит*
-ЧЧ+V+Inf: ****
+XX+V+Inf: ****
 
 #### Tests:
 
