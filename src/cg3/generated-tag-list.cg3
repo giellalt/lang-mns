@@ -86,6 +86,7 @@ LIST Sem/Mal = Sem/Mal ;
 LIST Sem/Measr = Sem/Measr ;
 LIST Sem/Plc = Sem/Plc ;
 LIST Sem/Sur = Sem/Sur ;
+LIST Sem/Time = Sem/Time ;
 LIST Sg = Sg ;
 LIST Sg1 = Sg1 ;
 LIST Sg2 = Sg2 ;
