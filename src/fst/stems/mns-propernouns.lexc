@@ -5,7 +5,16 @@
 !! Нё̄р PROP_ "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 
 LEXICON PROP_MANSINAMES
-!! **LEXICON @LEXNAME@** 
+!! **LEXICON @LEXNAME@**
+
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ; !!≈ @CODE@
+Лука+N+Prop+Sem/Mal:Лука N1_ ; !!≈ @CODE@
+Кристос+N+Prop+Sem/Mal:Кристос N1_ ; !!≈ @CODE@
+Ӯщуп+N+Prop+Sem/Mal:Ӯщуп N1_ ; !! ...
+Виплēем+N+Prop+Sem/Plc:Виплēем N1_ ;
+Назарет+N+Prop+Sem/Plc:Назарет N1_ ;
+
+ 
 Нё̄р+N+Prop+Sem/Plc:Нё̄р PROP "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 !! ADD PROPER NOUNS BELOW
 Арктика+N+Prop+Sem/Plc:Арктика	PROP	"Арктика"	;
