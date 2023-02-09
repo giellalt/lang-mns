@@ -762,6 +762,7 @@ End of alphabet definitions
 павыл+N+Pl+Nom:
 * *павыл{SYNCH}>ыт*
 * *пав0л0>ыт*
+* *хӯрыг{SYNCH}>ыт*
 кол+N+Pl+Nom: **house/koti**
 * *кол{VCH}>ыт*
 * *кол0>ыт*
