@@ -5,4 +5,8 @@ The present project (2023-25) has as its goal to build a Mansi language model fo
 
 ## Milestones
 
-- tbw
+
+- Vocabulary of textbook in language model and dictionary
+	- Before textbook publication
+- Project finish
+	- Goals as far as we have come. 
