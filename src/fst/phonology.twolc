@@ -133,8 +133,8 @@ Rules
 !! **RULE: @RULENAME@**  
  ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы|а|%{аяØ%}:|%{уюØ%}:|(%{тØ%}:) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
   %{VA%}: %> %{аяØ%}: %> _ ;
-  [%{VO%}:| %{VI%}:]  %> _ [т] ; !Plural
- Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %>  %{ыиØ%}: н ; !PxSg2
+  [%{VO%}:| %{VI%}:]  %> _ [т|л] ; !Plural
+!remove Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %>  %{ыиØ%}: н ; !PxSg2
 !!€ ловиньт{VA}>{аяØ}>ыс
 !!€ ловиньт0>а>0с
 !! павыл+N+Pl+Nom:
@@ -203,12 +203,12 @@ Rules
 
 !%{ыиØ%}:0
 "Vow ы in loc appears"
-%{ыиØ%}:0 <=> [%{SYNCH%}:|%{SYNCS%}:] %> _ [т] ;
+%{ыиØ%}:0 <=> [%{SYNCH%}:|%{SYNCS%}:] %> _ [т|н] ;
 
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"
 %{ыиØ%}:ы <=>
-     [%{SYNCH%}:|%{NOSYNCH%}:] %> _ [н|л|я] ;
+     [%{SYNCH%}:|%{NOSYNCH%}:] %> _ [л|я] ;
      [%{VCH%}:|%{VCCH%}:] %> _ [т|н|л|я] ;
 !! павыл+N+Sg+Loc:
 !!€ павыл{SYNCH}>{ыиØ}т
@@ -220,7 +220,7 @@ Rules
 
 "Vow и in loc appears"
 %{ыиØ%}:и <=>
-     [%{SYNCS%}:|%{NOSYNCS%}:] %> _ [н|л|я] ;
+     [%{SYNCS%}:|%{NOSYNCS%}:] %> _ [л|я] ;
      [%{VCCS%}:|%{VCS%}:] %> _ [т|н|л|я] ;
      
 !!ансамбль+N+Sg+Loc: **band/yhtye**

@@ -104,9 +104,9 @@ LEXICON N1_SG
 +Sg+Lat:%>%{ыиØ%}н K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom
 +Sg+Abl:%>ныл K ;
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
-!+Sg+Ins:%>ыл K ; ! 43 stems, no т.
-+Sg+Ins:%>%{ыиØ%}л K ; ! 43 stems, no т.
-+Sg+Tra:%>%{йØ%}ыг K ;
++Sg+Ins:%>ыл K ; ! 43 stems, no т. this is like Pl.Nom, ScSg2, Ins with syncope
+!+Sg+Ins:%>%{ыиØ%}л K ; ! 43 stems, no т.
++Sg+Tra:%>ыг K ;
 
 !+Sg+Loc:%>%{ыиØ%}т K ; ! -ыт/ _ CC, -т elsewhere
 !+Sg+Lat:%>%{ыиØ%}н K ; ! -ын as -ыт above
@@ -119,11 +119,11 @@ LEXICON N1_SG
 +Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
 +Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
 
-+Sg+Nom+PxSg2:%>%{ыиØ%}н K ;
-+Sg+Loc+PxSg2:%>%{ыиØ%}нт K ;
-+Sg+Lat+PxSg2:%>%{ыиØ%}нн K ;
-+Sg+Abl+PxSg2:%>%{ыиØ%}нныл K ;
-+Sg+Ins+PxSg2:%>%{ыиØ%}нтыл K ;
++Sg+Nom+PxSg2:%>ын K ;
++Sg+Loc+PxSg2:%>ынт K ;
++Sg+Lat+PxSg2:%>ынн K ;
++Sg+Abl+PxSg2:%>ынныл K ;
++Sg+Ins+PxSg2:%>ынтыл K ;
 
 +Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
 +Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;
@@ -179,11 +179,11 @@ LEXICON N1_SG
 
 
 LEXICON N1_DU
-+Du+Nom:%>%{ыиØ%}г K ; ! а̄ныйыг, э̄кваг
-+Du+Loc:%>%{ыиØ%}гт K ;
-+Du+Lat:%>%{ыиØ%}гн K ;
-+Du+Abl:%>%{ыиØ%}гныл K ;
-+Du+Ins:%>%{ыиØ%}гтыл K ;
++Du+Nom:%>ыг K ; ! а̄ныйыг, э̄кваг
++Du+Loc:%>ыгт K ;
++Du+Lat:%>ыгн K ;
++Du+Abl:%>ыгныл K ;
++Du+Ins:%>ыгтыл K ;
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
