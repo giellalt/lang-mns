@@ -201,11 +201,15 @@ Rules
 !!€ аки{VI}>{йØ}{ыиØ}г
 !!€ аки0>0иг
 
+!%{ыиØ%}:0
+"Vow ы in loc appears"
+%{ыиØ%}:0 <=> [%{SYNCH%}:|%{SYNCS%}:] %> _ [т] ;
 
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"
 %{ыиØ%}:ы <=>
-     [%{VCCH%}:|%{SYNCH%}:] %> _ [т|н|л|я] ;
+     [%{SYNCH%}:|%{NOSYNCH%}:] %> _ [н|л|я] ;
+     [%{VCH%}:|%{VCCH%}:] %> _ [т|н|л|я] ;
 !! павыл+N+Sg+Loc:
 !!€ павыл{SYNCH}>{ыиØ}т
 !!€ павыл0>0т
@@ -216,7 +220,8 @@ Rules
 
 "Vow и in loc appears"
 %{ыиØ%}:и <=>
-     Pal %> _ [т|н|л|я] ;
+     [%{SYNCS%}:|%{NOSYNCS%}:] %> _ [н|л|я] ;
+     [%{VCCS%}:|%{VCS%}:] %> _ [т|н|л|я] ;
      
 !!ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыиØ}т
@@ -357,19 +362,19 @@ Rules
  !!€ хӯрыг{SYNCH}>{ЭЕLong}н
  !!€ хӯр0г0>е̄н
 
-"%{ЭЕLong%}:э"
-!! __@RULENAME@__
- %{ЭЕLong%}:э <=> CnsAlv %{VU%}: %> _ ;
- [[CnsAlv - р] %{VCH%}:| [CnsAlv - р] %{VCCH%}:| %{SYNCH%}:] %> (%{тØ%}:) _  ;
- !!€ тот{VU}>{ЭЕLong}в
- !!€ тот0>эв
-
- "%{ЭЕLong%}:е"
- !! __@RULENAME@__
-  %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%}: %> _ ;
- [[р|CnsNonAlv] [%{VCH%}:|%{VCCH%}:| %{SYNCH%}:]|Pal] %> (%{тØ%}:) _  ;
- !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
- !!€ ха̄л0%>0е̄н
+!2023_02_10fixme!"%{ЭЕLong%}:э"
+!2023_02_10fixme!!! __@RULENAME@__
+!2023_02_10fixme! %{ЭЕLong%}:э <=> CnsAlv %{VU%}: %> _ ;
+!2023_02_10fixme! [[CnsAlv - р] %{VCH%}:| [CnsAlv - р] %{VCCH%}:| %{SYNCH%}:] %> (%{тØ%}:) _  ;
+!2023_02_10fixme! !!€ тот{VU}>{ЭЕLong}в
+!2023_02_10fixme! !!€ тот0>эв
+!2023_02_10fixme!
+!2023_02_10fixme! "%{ЭЕLong%}:е"
+!2023_02_10fixme! !! __@RULENAME@__
+!2023_02_10fixme!  %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%}: %> _ ;
+!2023_02_10fixme! [[р|CnsNonAlv] [%{VCH%}:|%{VCCH%}:| %{SYNCH%}:]|Pal] %> (%{тØ%}:) _  ;
+!2023_02_10fixme! !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
+!2023_02_10fixme! !!€ ха̄л0%>0е̄н
 
 "{ЭЕ}:э"
 !! __@RULENAME@__
