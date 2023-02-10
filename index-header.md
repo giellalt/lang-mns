@@ -13,22 +13,25 @@ running text and is in use in a Mansi e-dictionary.  For questions,
 contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
 
-## Grammatical issues
+## Project plans
 
-* [A list of the morphological tags used in the GiellaLT infrastructure](/lang/common/MorphologicalTags.html)
+- [Work plan](workplan.md)
+- [Project plan](projectplan.md)
 
 
-## Using the analysers
+
+## Documentation and resources
 
 ### HOWTO for developers
 
-* [How to download, set up, compile and use the language model](/tools/docu-sme-manual.html)
+- [How to download, set up, compile and use the language model](/tools/docu-sme-manual.html)
+- [A list of the morphological tags used in the GiellaLT infrastructure](/lang/common/MorphologicalTags.html)
 
 ### Resources built upon the Mansi language model
 
-* [Language technology tools for Mansi (based upon this model)](https://giellatekno.uit.no/cgi/index.mns.eng.html)
-* [xperimental Mansi spellchecker for download](https://divvun.org/proofing/proofing.html)
-* [Experimental Mansi spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose *Languages*)
+- [Language technology tools for Mansi (based upon this model)](https://giellatekno.uit.no/cgi/index.mns.eng.html)
+- [xperimental Mansi spellchecker for download](https://divvun.org/proofing/proofing.html)
+- [Experimental Mansi spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose *Languages*)
 
 # In-source documentation
 
