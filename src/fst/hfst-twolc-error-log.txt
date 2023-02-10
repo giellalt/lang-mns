@@ -21,7 +21,19 @@ Processing: "{уюØ}:ю"
 Processing: "{ЭЕLong}:э̄"
 Processing: "{ЭЕLong}:е̄"
 Processing: "{ЭЕLong}:э"
+There is a <=-rule conflict between "{ЭЕLong}:э̄" and "{ЭЕLong}:э".
+E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. т:т {VCH}: >:> {тØ}:т _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#. 
+
+There is a <=-rule conflict between "{ЭЕLong}:е̄" and "{ЭЕLong}:э".
+E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ӈ:ӈ {SYNCH}: >:> {тØ}:т _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#. 
+
 Processing: "{ЭЕLong}:е"
+There is a <=-rule conflict between "{ЭЕLong}:е̄" and "{ЭЕLong}:е".
+E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ӈ:ӈ {SYNCH}: >:> {тØ}:т _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#. 
+
+There is a <=-rule conflict between "{ЭЕLong}:э" and "{ЭЕLong}:е".
+E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ӈ:ӈ ь:ь т:т р:р {SYNCH}: >:> {тØ}:т _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#. 
+
 Processing: "{ЭЕ}:э"
 Processing: "{ЭЕ}:е"
 Processing: "{ЫИ}:ы"
