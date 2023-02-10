@@ -208,21 +208,15 @@ LEXICON N1_DU
 +Du+Ins+PxSg3:%>%{аяØ%}гетыл K ;
 
 +Du+Nom+PxDu1:%>%{аяØ%}гме̄н K ;
++Du+Nom+PxDu1+Use/NG:%>%{аяØ%}гуме̄н K ;
 +Du+Loc+PxDu1:%>%{аяØ%}гме̄нт K ;
++Du+Loc+PxDu1+Use/NG:%>%{аяØ%}гуме̄нт K ;
 +Du+Lat+PxDu1:%>%{аяØ%}гме̄нн K ;
++Du+Lat+PxDu1+Use/NG:%>%{аяØ%}гуме̄нн K ;
 +Du+Abl+PxDu1:%>%{аяØ%}гме̄нныл K ;
++Du+Abl+PxDu1+Use/NG:%>%{аяØ%}гуме̄нныл K ;
 +Du+Ins+PxDu1:%>%{аяØ%}гме̄нтыл K ;
-
-+Du+Nom+PxDu1+Use/NG:%>%{аяØ%}гмен K ;
-+Du+Loc+PxDu1+Use/NG:%>%{аяØ%}гмент K ;
-+Du+Lat+PxDu1+Use/NG:%>%{аяØ%}гменн K ;
-+Du+Abl+PxDu1+Use/NG:%>%{аяØ%}гменныл K ;
-+Du+Ins+PxDu1+Use/NG:%>%{аяØ%}гментыл K ;
-+Du+Nom+PxDu1+Use/NG:%>%{аяØ%}гaмен K ;
-+Du+Loc+PxDu1+Use/NG:%>%{аяØ%}гaмент K ;
-+Du+Lat+PxDu1+Use/NG:%>%{аяØ%}гaменн K ;
-+Du+Abl+PxDu1+Use/NG:%>%{аяØ%}гaменныл K ;
-+Du+Ins+PxDu1+Use/NG:%>%{аяØ%}гaментыл K ;
++Du+Ins+PxDu1+Use/NG:%>%{аяØ%}гуме̄нтыл K ;
 
 +Du+Nom+PxDu2:%>%{аяØ%}гы̄н K ;
 +Du+Nom+PxDu2:%>%{аяØ%}гын K ;
