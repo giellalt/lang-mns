@@ -142,10 +142,15 @@ LEXICON N1_SG
 +Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
 +Sg+Ins+PxDu1+Use/NG:%>%{уюØ%}ментыл K ;
 
++Sg+Nom+PxDu2:%>ы̄н K ;
 +Sg+Nom+PxDu2:%>ын K ;
++Sg+Loc+PxDu2:%>ы̄нт K ;
 +Sg+Loc+PxDu2:%>ынт K ;
++Sg+Lat+PxDu2:%>ы̄нн K ;
 +Sg+Lat+PxDu2:%>ынн K ;
++Sg+Abl+PxDu2:%>ы̄нныл K ;
 +Sg+Abl+PxDu2:%>ынныл K ;
++Sg+Ins+PxDu2:%>ы̄нтыл K ;
 +Sg+Ins+PxDu2:%>ынтыл K ;
 
 +Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ;
