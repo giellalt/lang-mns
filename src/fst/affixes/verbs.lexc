@@ -25,6 +25,11 @@ LEXICON Csuff
 
 
 !! ## Stems ending in C
+LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
+ V_U ;
+
+LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
+ V_U ;
 
 LEXICON V_U
 !! **LEXICON @LEXNAME@** 
