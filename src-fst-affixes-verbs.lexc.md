@@ -3,6 +3,9 @@
 ## Copula
 
 ## Stems ending in C
+LEXICON V_NSHU йинуӈкве
+
+LEXICON V_NSSU о̄ньщуӈкве
 
 **LEXICON V_U** 
 
