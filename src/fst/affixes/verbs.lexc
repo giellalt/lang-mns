@@ -10,6 +10,30 @@ LEXICON copula
 +Inf:%>ӈкве K ;
 :г Csuff ;
 
+LEXICON MINGKVE
++Inf:миӈкве K ; !!≈ @CODE@
++Ind+Prs+ScSg1:мыгум K ; !мыгӯв?
++Ind+Prs+ScSg2:маен K ;  !мае̄н? 
++Ind+Prs+ScSg3:мыг K ;  !мае̄н? 
++Ind+Prs+ScDu1:мыгме̄н K ;
++Ind+Prs+ScDu2:мае̄н K ;
++Ind+Prs+ScDu3:мыгыг K ;
++Ind+Prs+ScPl1:мыгӯв K ;
++Ind+Prs+ScPl2:мае̄н K ;
++Ind+Prs+ScPl3:мыгыт K ;
+
++Ind+Prt+ScSg1:мисум K ;
++Ind+Prt+ScSg2:мисын K ;
++Ind+Prt+ScSg3:мис K ;
++Ind+Prt+ScDu1:мисуме̄н K ;
++Ind+Prt+ScDu2:мисы̄н K ;
++Ind+Prt+ScDu3:мисы̄г K ;
++Ind+Prt+ScPl1:мисув K ;
++Ind+Prt+ScPl2:мисы̄н K ;
++Ind+Prt+ScPl3:мисыт K ;
+
+:ми V11_MUTUAL_PASS ;
+
 LEXICON Csuff
 +Ind+Prs+ScSg1:%>ум K ;
 +Ind+Prs+ScSg2:%>ын K ;
