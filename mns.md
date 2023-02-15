@@ -595,6 +595,8 @@ and Mansi-specific names.
 
 ## Copula
 
++Inf:миӈкве K ;
+
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
@@ -1392,8 +1394,6 @@ The file lists personal pronouns and their lemma + tags.
 ## The lexica themselves
 
 **LEXICON Verbs** is the list of all verbstems
-
-миӈкве+V+Inf:миӈкве K ;
 
 * а̄гмалтаӈкве+V:а̄гмалт V_A "23_even_определить" ; 
 * а̄йтынтахтуӈкве+V:а̄йтынтахт V_U "23_odd_тошнить" ;

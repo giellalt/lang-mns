@@ -2,6 +2,8 @@
 
 ## Copula
 
++Inf:миӈкве K ;
+
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
