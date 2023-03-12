@@ -119,7 +119,7 @@ LEXICON N1_SG
 +Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
 +Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
 
-+Sg+Nom+PxSg2:%>ын K ;
++Sg+Nom+PxSg2:%>ын K ;! vowel retension потырын
 +Sg+Loc+PxSg2:%>ынт K ;
 +Sg+Lat+PxSg2:%>ынн K ;
 +Sg+Abl+PxSg2:%>ынныл K ;
@@ -171,6 +171,7 @@ LEXICON N1_SG
 +Sg+Ins+PxPl1:%>%{уюØ%}втыл K ;
 
 +Sg+Nom+PxPl2:%>ын K ; ! note distinction between PxPl2 and Lat
++Sg+Nom+PxPl2:%>ы̄н K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
 +Sg+Loc+PxPl2:%>ынт K ;
 +Sg+Lat+PxPl2:%>ынн K ;
 +Sg+Abl+PxPl2:%>ынныл K ;
@@ -275,11 +276,13 @@ LEXICON N1_DU
 
 LEXICON N1_PL
 +Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
-+Pl+Loc:%>ытт K ;
++Pl+Loc:%>ытт K ;! потрытт
++Pl+Loc:%>ытыт K ;! потрытыт 2023_03_11
 +Pl+Lat:%>ытн K ;
 !+Pl+Lat:%>ытын K ; jr
 +Pl+Abl:%>ытныл K ;
-+Pl+Ins:%>ытыл K ;
++Pl+Ins:%>ытыл K ; ! потрытыл
++Pl+Ins:%>ытл K ; ! потрытл 2023_03_11
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
