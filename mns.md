@@ -997,7 +997,10 @@ language are presented in this system in terms of the following symbols.
 * **+Pos** 
 * **+Comp** 
 * **+Superl** 
-* **+Attr** 
+* **+Attr**
+* **+Coll** - Collective numeral
+* **+Arab** - Arabic numeral 
+* **+Rom** - Roman numeral
 
 ### Number, person and mod
 
@@ -1068,6 +1071,7 @@ Semantics are classified with
 * __+Sem/Edu__ 
 * __+Sem/Veh__ 
 * __+Sem/Clth__ 
+* __+Sem/ID__
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -1078,6 +1082,8 @@ source and target part-of-speech.
 * **+Der/Yshch** A» ыщ 
 * **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
 * **+Der/Ord** is this the best analysis?
+
+* **+Use/Circ** = 
 
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
