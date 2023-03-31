@@ -32,4 +32,6 @@
 # they may indicate sentence boundaries.
 #
 #
-åvtohke	åvtehke
+музейт	музеит
+музейн	музеин
+няврамыт	ня̄врамыт
