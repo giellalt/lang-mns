@@ -109,8 +109,10 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Pos      !!≈ * **@CODE@** 
  +Comp     !!≈ * **@CODE@** 
  +Superl    !!≈ * **@CODE@** 
- +Attr      !!≈ * **@CODE@** 
-
+ +Attr      !!≈ * **@CODE@**
+ +Coll	    !!≈ * **@CODE@** - Collective numeral
+ +Arab   !!≈ * **@CODE@** - Arabic numeral 
+ +Rom    !!≈ * **@CODE@** - Roman numeral
 
 !! ### Number, person and mod
 
@@ -185,7 +187,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Sem/Edu     !!≈ * __@CODE@__ 
  +Sem/Veh     !!≈ * __@CODE@__ 
  +Sem/Clth    !!≈ * __@CODE@__ 
-
+ +Sem/ID      !!≈ * __@CODE@__
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
@@ -203,6 +205,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 +Hom1
 +Hom2
 
++Use/Circ   !!≈ * **@CODE@** = 
 
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
