@@ -134,7 +134,8 @@ Rules
 !! **RULE: @RULENAME@**  
  ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы:|ы̄:|а|%{аяØ%}:|%{уюØ%}:|(%{тØ%}:) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
   %{VA%}: %> %{аяØ%}: %> _ ;
-  [%{VO%}:| %{VI%}:]  %> _ [т|л] ; !Plural
+  [%{VI%}:]  %> _ [т|л] ; !Plural
+  [%{VO%}:]  %> _ [г|т|л|н] ; !Pl, Tra, Du,PxPl2
 !remove Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %>  %{ыиØ%}: н ; !Lat
 !!€ ловиньт{VA}>{аяØ}>ыс
 !!€ ловиньт0>а>0с
@@ -204,7 +205,7 @@ Rules
 
 !%{ыиØ%}:0
 "Vow ы in loc appears"
-%{ыиØ%}:0 <=> [%{SYNCH%}:|%{SYNCS%}:] %> _ [т|н] ;
+%{ыиØ%}:0 <=> [%{SYNCH%}:|%{SYNCS%}:|%{VO%}:] %> _ [т|н] ;
 
 !%{ыиØ%}:ы this is for Loc
 "Vow ы in loc appears"

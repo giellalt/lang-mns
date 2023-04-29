@@ -205,7 +205,7 @@ LEXICON N1_DU
 +Du+Lat+PxSg2:%>%{аяØ%}гынн K ;
 +Du+Abl+PxSg2:%>%{аяØ%}гынныл K ;
 +Du+Ins+PxSg2:%>%{аяØ%}гынтыл K ;
-+Du+Nom+PxSg2+Use/NG:%>%{аяØ%}гн K ;
++Err/Orth+Du+Nom+PxSg2:%>%{аяØ%}гн K ;!2023_04_29
 
 +Du+Nom+PxSg3:%>%{аяØ%}ге K ;
 +Du+Loc+PxSg3:%>%{аяØ%}гет K ;
@@ -277,11 +277,12 @@ LEXICON N1_DU
 LEXICON N1_PL
 +Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
 +Pl+Loc:%>ытт K ;! потрытт
-+Pl+Loc:%>ытыт K ;! потрытыт 2023_03_11
 +Pl+Lat:%>ытн K ;
 !+Pl+Lat:%>ытын K ; jr
 +Pl+Abl:%>ытныл K ;
 +Pl+Ins:%>ытыл K ; ! потрытыл
+
++Pl+Loc:%>ытыт K ;! потрытыт 2023_03_11
 +Pl+Ins:%>ытл K ; ! потрытл 2023_03_11
 
 !! ### 2. Possessive forms
