@@ -60,7 +60,13 @@
 
 !! ## The lexicon
 LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
-:%{VI%} N1_ ;
+!:%{VI%} N1_ ;
+:%{VI%} N1_SG ;
+:%{VI%} N1_DU ;
+:%{VI%} N1_PL ;
+:%{VI%} N1_SG_PXDU_LONG ;
+:%{VI%} N1_DU_PXDU_LONG ;
+:%{VI%} N1_PL_PXDU_LONG ;
 
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 !!:%{VO%} N1_ ;
@@ -125,13 +131,13 @@ LEXICON N1_
 !! affixes for Nom, Loc, Lat, Abl, Ins, Tra.
 LEXICON N1_SG
 +Sg+Nom: K ;
-+Sg+Loc:%>%{ыиØ%}т K ; ! not like Pl Nom!! потрыт
-+Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын
++Sg+Loc:%>%{ыиØ%}т K ; ! not like Pl Nom!! потрыт, са̄лыт
++Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын, са̄лын
 +Sg+Abl:%>ныл K ;
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
-+Sg+Ins:%>ыл K ; ! 43 stems, no т. this is like Pl.Nom, ScSg2, Ins with syncope потрыл
++Sg+Ins:%>ыл K ; ! 43 stems, no т. this is like Pl.Nom, ScSg2, Ins with syncope потрыл, са̄лыл
 !+Sg+Ins:%>%{ыиØ%}л K ; ! 43 stems, no т.
-+Sg+Tra:%>ыг K ;!, потрыг
++Sg+Tra:%>ыг K ;!, потрыг, са̄лыиг
 
 !+Sg+Loc:%>%{ыиØ%}т K ; ! -ыт/ _ CC, -т elsewhere
 !+Sg+Lat:%>%{ыиØ%}н K ; ! -ын as -ыт above
