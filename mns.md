@@ -663,8 +663,6 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{ЫИ%}:ы**
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
-* **%{ЭЕLong%}:е** +V+Ind+Prs+ScSg1 VU
-* **%{ЭЕLong%}:э** +V+Ind+Prs+ScSg1 VU
 * **%{ЭЕ%}:е** PxSg3
 * **%{ЭЕ%}:э** PxSg3
 * **%{УЮØ%}:0**
@@ -883,6 +881,8 @@ __%{ЭЕLong%}:э̄__
 __%{ЭЕLong%}:э̄__
 
 __{ЭЕ}:э__
+* *тот{VU}>{ЭЕ}м*
+* *тот0>эм*
 
 __{ЭЕ}:е__
 * *ха̄ль%>%{тØ%}%{ЭЕ%}*
