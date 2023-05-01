@@ -35,8 +35,8 @@ Alphabet
 %{ЫИ%}:ы	!!≈ * **@CODE@**
 %{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
-%{ЭЕLong%}:е	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
-%{ЭЕLong%}:э	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
+!%{ЭЕLong%}:е	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
+!%{ЭЕLong%}:э	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
 %{ЭЕ%}:е	!!≈ * **@CODE@** PxSg3
 %{ЭЕ%}:э	!!≈ * **@CODE@** PxSg3
 %{УЮØ%}:0	!!≈ * **@CODE@**
@@ -365,11 +365,12 @@ Rules
 
 "%{ЭЕLong%}:э̄"
 !! __@RULENAME@__
- %{ЭЕLong%}:э̄ <=> CnsAlv %{VA%}: %> (%{тØ%}:) _ ;
+%{ЭЕLong%}:э̄ <=>               CnsAlv %{VA%}:   %> (%{тØ%}:) _ ;
+             [CnsAlv - р|Vow] [%{VU%}:|%{VA%}:] %>           _ ; ! from "%{ЭЕ%}:э"
 !! аки
 !!€ аки{VI}>%{тØ%}%{ЭЕLong%}н
 !!€ аки0>тэ̄н
- CnsAlv [%{VA%}:|%{VU%}:] %> (%{тØ%}:) _ [г ы т] ;
+                   CnsAlv [%{VA%}:|%{VU%}:] %> (%{тØ%}:) _ [г ы т] ;
  [ CnsAlv ] [%{SYNCH%}:|%{VCH%}:|%{VCCH%}:] %> (%{тØ%}:) _ ;
 
  "%{ЭЕLong%}:е̄"
@@ -398,9 +399,11 @@ Rules
 
 "{ЭЕ}:э"
 !! __@RULENAME@__
-%{ЭЕ%}:э <=> [ CnsAlv - р | Vow ] [%{VU%}:|%{VA%}:] %> _ ;
-             Vow %{VO%}: %> %{тØ%}: _ ;
- [CnsAlv - р] [%{VCH%}:| %{VCCH%}: | %{SYNCH%}:] %> (%{тØ%}:) _  ;
+%{ЭЕ%}:э <=> [CnsAlv - р|Vow] [%{VU%}:|%{VA%}:] %>           _ ;
+                         Vow   %{VO%}:          %>  %{тØ%}:  _ ;
+  [CnsAlv - р] [%{VCH%}:| %{VCCH%}:|%{SYNCH%}:] %> (%{тØ%}:) _ ;
+!!€ тот{VU}>{ЭЕ}м
+!!€ тот0>эм
 
 "{ЭЕ}:е"
 !! __@RULENAME@__
