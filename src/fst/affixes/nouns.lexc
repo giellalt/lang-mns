@@ -97,6 +97,8 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} PL_PXPL2_ajanyyn ;
 :%{VI%} PL_PXPL2_ajanyn ;
 :%{VI%} PL_PXPL2_ajan ;
++Sg+Nom+PxDu1:%{VI%}%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
++Sg+Nom+PxDu1:%{VI%}%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
 
 
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
@@ -125,6 +127,8 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} PL_PXDU3_ajanen ;
 :%{VO%} PL_PXPL2_ajanyn ;
 :%{VO%} PL_PXPL2_ajan ;
++Sg+Nom+PxDu1:%{VO%}%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
++Sg+Nom+PxDu1:%{VO%}%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
 
 
 LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
@@ -135,6 +139,8 @@ LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%} N1_SG_PXDU_SYNC ;
 :%{SYNCH%} N1_DU_PXDU_SYNC ;
 :%{SYNCH%} N1_PL_PXDU_SYNC ;
++Sg+Nom+PxDu1:%{SYNCH%}%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
++Sg+Nom+PxDu1:%{SYNCH%}%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
 
 LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 !:%{SYNCS%} N1_ ;
@@ -218,7 +224,53 @@ LEXICON N_NOSYNCS !!≈ * @CODE@ Stems without syncopy, soft
 :%{NOSYNCS%} N1_ ;
 
 LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
-:%{VCH%} N1_ ;
++Sg+Nom:%{VCH%} K ;
++Sg+Loc:%{VCH%}%>т K ; !
++Sg+Lat:%{VCH%}%>н K ; !
++Sg+Abl:%{VCH%}%>ныл K ;
++Sg+Ins:%{VCH%}%>ыл K ; !
++Sg+Tra:%{VCH%}%>ыг K ;!
+:%{VCH%} SG_PXSG1_ujum ;
+:%{VCH%} SG_PXSG2_yn ;
+:%{VCH%} SG_PXSG3_te ;
+:%{VCH%} SG_PXSG3_tee ;
+:%{VCH%} SG_PXPL1_ujuv ;
+:%{VCH%} SG_PXPL3_ajanyl ;
+:%{VCH%} N1_DU ;
+:%{VCH%} N1_PL ;
+
+:%{VCH%} SG_PXDU2_yyn ;
+:%{VCH%} SG_PXDU2_yn ;
+:%{VCH%} SG_PXDU3_een ;
+:%{VCH%} SG_PXDU3_en ;
+:%{VCH%} SG_PXPL2_yn ;
+:%{VCH%} SG_PXPL2_yyn ;
+
+:%{VCH%} DU_PXDU1_ajagmeen ;
+:%{VCH%} DU_PXDU2_ajagyyn ;
+:%{VCH%} DU_PXDU2_ajagyn ;
+:%{VCH%} DU_PXDU3_ajageen ;
+:%{VCH%} DU_PXDU3_ajagen ;
+:%{VCH%} DU_PXPL2_ajagyyn ;
+:%{VCH%} DU_PXPL2_ajagyn ;
+
+:%{VCH%} PL_PXDU1_ajanameen ;
+:%{VCH%} PL_PXDU1_ajanamen ;
+:%{VCH%} PL_PXDU2_ajanyyn ;
+:%{VCH%} PL_PXDU2_ajanyn ;
+:%{VCH%} PL_PXDU2_ajan ;
+:%{VCH%} PL_PXDU3_ajaneen ;
+:%{VCH%} PL_PXDU3_ajanen ;
+:%{VCH%} PL_PXPL2_ajan ;
+:%{VCH%} PL_PXPL2_ajanyn ;
+:%{VCH%} PL_PXPL2_ajanyyn ;
+
+:%{VCH%} SG_PXSG3OBLIQ_e ;
+:%{VCH%} SG_PXSG3OBLIQ_ee ;
+:%{VCH%} SG_PXDU1_meen ;
+:%{VCH%} SG_PXDU1_men ;
+:%{VCH%} DU_PXDU1_ajagameen ;
+:%{VCH%} DU_PXDU1_ajagamen ;
 
 LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
 :%{VCCH%} N1_ ;
@@ -288,8 +340,6 @@ LEXICON N1_SG
 +Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
 +Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕLong%}г K ;
 
-+Sg+Nom+PxDu1:%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
-+Sg+Nom+PxDu1:%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
 
 +Sg+Nom+PxPl1:%>%{уюØ%}в K ;
 +Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
@@ -302,6 +352,52 @@ LEXICON N1_SG
 +Sg+Lat+PxPl3:%>%{аяØ%}нылн K ;
 +Sg+Abl+PxPl3:%>%{аяØ%}нылныл K ;
 +Sg+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
+
+LEXICON SG_PXSG1_ujum
++Sg+Nom+PxSg1:%>%{уюØ%}м K ;
++Sg+Loc+PxSg1:%>%{уюØ%}мт K ;
++Sg+Lat+PxSg1:%>%{уюØ%}мн K ;
++Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
++Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
++Sg+Tra+PxSg1:%>%{уюØ%}мыг K ;
+
+LEXICON SG_PXSG2_yn
++Sg+Nom+PxSg2:%>ын K ;! vowel retension потырын, са̄лын
++Sg+Loc+PxSg2:%>ынт K ;
++Sg+Lat+PxSg2:%>ынн K ;
++Sg+Abl+PxSg2:%>ынныл K ;
++Sg+Ins+PxSg2:%>ынтыл K ;
++Sg+Tra+PxSg2:%>ыныг K ;
+
+LEXICON SG_PXSG3_te
++Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
++Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕ%}н K ;
++Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
++Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}нтыл K ;
++Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕ%}г K ;
+
+LEXICON SG_PXSG3_tee
++Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап+Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕLong%}н K ;
++Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕLong%}ныл K ;
++Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
++Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕLong%}г K ;
+
+LEXICON SG_PXPL1_ujuv
++Sg+Nom+PxPl1:%>%{уюØ%}в K ;
++Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
++Sg+Lat+PxPl1:%>%{уюØ%}вн K ;
++Sg+Abl+PxPl1:%>%{уюØ%}вныл K ;
++Sg+Ins+PxPl1:%>%{уюØ%}втыл K ;
+
+LEXICON SG_PXPL3_ajanyl
++Sg+Nom+PxPl3:%>%{аяØ%}ныл K ;
++Sg+Loc+PxPl3:%>%{аяØ%}нылт K ;
++Sg+Lat+PxPl3:%>%{аяØ%}нылн K ;
++Sg+Abl+PxPl3:%>%{аяØ%}нылныл K ;
++Sg+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
+
 
 LEXICON SG_PXSG3OBLIQ_te
 +Sg+Nom+PxSg3:%>тэ K ; ! todo: delete т for хап
@@ -318,6 +414,22 @@ LEXICON SG_PXSG3OBLIQ_tee
 +Sg+Abl+PxSg3:%>тэ̄ныл K ;
 +Sg+Ins+PxSg3:%>тэ̄нтыл K ;
 +Sg+Tra+PxSg3:%>тэ̄г K ;
+
+LEXICON SG_PXSG3OBLIQ_e
++Sg+Nom+PxSg3:%>%{ЭЕ%} K ; ! todo: delete т for хап
++Sg+Loc+PxSg3:%>%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>%{ЭЕ%}н K ;
++Sg+Abl+PxSg3:%>%{ЭЕ%}ныл K ;
++Sg+Ins+PxSg3:%>%{ЭЕ%}нтыл K ;
++Sg+Tra+PxSg3:%>%{ЭЕ%}г K ;
+
+LEXICON SG_PXSG3OBLIQ_ee
++Sg+Nom+PxSg3:%>%{ЭЕ%} K ; ! todo: delete т for хап
++Sg+Loc+PxSg3:%>%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>%{ЭЕLong%}н K ;
++Sg+Abl+PxSg3:%>%{ЭЕLong%}ныл K ;
++Sg+Ins+PxSg3:%>%{ЭЕLong%}нтыл K ;
++Sg+Tra+PxSg3:%>%{ЭЕLong%}г K ;
 
 
 LEXICON N1_SG_PXDU_SYNC
@@ -554,6 +666,20 @@ LEXICON N1_PL_PXDU_LONG
 !LEXICON SG_PXSG2_LONG
 !LEXICON SG_PXSG2_SHORT
 !LEXICON SG_PXSG3
+
+LEXICON SG_PXDU1_meen
++Sg+Nom+PxDu1:%>ме̄н K ;
++Sg+Loc+PxDu1:%>ме̄нт K ;
++Sg+Lat+PxDu1:%>ме̄нн K ;
++Sg+Abl+PxDu1:%>ме̄нныл K ;
++Sg+Ins+PxDu1:%>ме̄нтыл K ;
+
+LEXICON SG_PXDU1_men
++Sg+Nom+PxDu1:%>мен K ;
++Sg+Loc+PxDu1:%>мент K ;
++Sg+Lat+PxDu1:%>менн K ;
++Sg+Abl+PxDu1:%>менныл K ;
++Sg+Ins+PxDu1:%>ментыл K ;
 
 LEXICON SG_PXDU1_SYNC
 +Sg+Loc+PxDu1:%>%{уюØ%}ме̄нт K ;
