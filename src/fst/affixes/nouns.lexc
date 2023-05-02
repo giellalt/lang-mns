@@ -65,11 +65,16 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_DU ;
 :%{VI%} N1_PL ;
 :%{VI%} N1_SG_PXDU_LONG ;
+:%{VI%} SG_PXDU1OBLQ_ujument ;
+:%{VI%}	SG_PXDU2_yn ;
 :%{VI%} SG_PXPL2_yyn ;
 :%{VI%} N1_DU_PXDU_LONG ;
+:%{VI%} DU_PXDU1_ajagmeen ;
+:%{VI%} DU_PXDU1_ajagamen ;
 :%{VI%}  DU_PXPL2_ajagyyn ;
 !:%{VI%} N1_PL_PXDU_LONG ;
-:%{VI%} PL_PXDU1_LONG ;
+:%{VI%} PL_PXDU1_ajanmeen ;
+:%{VI%} PL_PXDU1_ajanmen ;
 :%{VI%} PL_PXDU2_ajanyn ;
 :%{VI%} PL_PXDU3_LONG ;
 :%{VI%} PL_PXPL2_ajanyn ;
@@ -82,7 +87,7 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} N1_DU ;
 :%{VO%} N1_PL ;
 :%{VO%} N1_SG_PXDU_SHORT ;
-:%{VO%} SG_PXDU1_LONG ;
+:%{VO%} SG_PXDU1OBLQ_ujumeent ;
 :%{VO%} SG_PXDU2_yyn ;
 :%{VO%} SG_PXDU3_teen ;
 :%{VO%} SG_PXPL2_yyn ;
@@ -221,14 +226,14 @@ LEXICON N1_SG_PXDU_SYNC
 
 
 LEXICON N1_SG_PXDU_LONG
- SG_PXDU1_LONG ;
+ SG_PXDU1OBLQ_ujumeent ;
  SG_PXDU2_yyn ;
  SG_PXDU3_LONG ;
  SG_PXPL2_yn ;
 
 
 LEXICON N1_SG_PXDU_SHORT
- SG_PXDU1_SHORT ;
+ SG_PXDU1OBLQ_ujument ;
  SG_PXDU2_yn ;
  SG_PXDU3_ten ;
  SG_PXPL2_yn ;
@@ -285,13 +290,13 @@ LEXICON N1_DU
 +Err/Orth+Du+Ins+PxPl3:%>%{аяØ%}га̄нылтыл K ;
 
 LEXICON N1_DU_PXDU_SYNC
- DU_PXDU1_SYNC ;
+ DU_PXDU1_ajagmeen ;
  DU_PXDU2_ajagyyn ;
  DU_PXDU3_ajageen ;
  DU_PXPL2_ajagyyn ;
 
 LEXICON N1_DU_PXDU_LONG
- DU_PXDU1_LONG ;
+ DU_PXDU1_ajagumeen ;
  DU_PXDU2_ajagyn ;
  DU_PXDU3_LONG ;
  DU_PXPL2_ajagyn ;
@@ -382,7 +387,7 @@ LEXICON N1_PL_PXDU_SYNC
 
 
 LEXICON N1_PL_PXDU_LONG
- PL_PXDU1_LONG ;
+ PL_PXDU1_ajanmeen ;
  PL_PXDU2_ajanyn ;
  PL_PXDU3_LONG ;
  PL_PXPL2_ajan ;
@@ -408,13 +413,13 @@ LEXICON SG_PXDU1_SYNC
 +Sg+Abl+PxDu1:%>%{уюØ%}ме̄нныл K ;
 +Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
 
-LEXICON SG_PXDU1_LONG
+LEXICON SG_PXDU1OBLQ_ujumeent
 +Sg+Loc+PxDu1:%>%{уюØ%}ме̄нт K ;
 +Sg+Lat+PxDu1:%>%{уюØ%}ме̄нн K ;
 +Sg+Abl+PxDu1:%>%{уюØ%}ме̄нныл K ;
 +Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
 
-LEXICON SG_PXDU1_SHORT
+LEXICON SG_PXDU1OBLQ_ujument
 +Sg+Loc+PxDu1:%>%{уюØ%}мент K ;
 +Sg+Lat+PxDu1:%>%{уюØ%}менн K ;
 +Sg+Abl+PxDu1:%>%{уюØ%}менныл K ;
@@ -483,14 +488,14 @@ LEXICON SG_PXPL2_yn
 +Sg+Abl+PxPl2:%>ынныл K ;
 +Sg+Ins+PxPl2:%>ынтыл K ;
 
-LEXICON DU_PXDU1_SYNC
+LEXICON DU_PXDU1_ajagmeen
 +Du+Nom+PxDu1:%>%{аяØ%}гме̄н K ;
 +Du+Loc+PxDu1:%>%{аяØ%}гме̄нт K ;
 +Du+Lat+PxDu1:%>%{аяØ%}гме̄нн K ;
 +Du+Abl+PxDu1:%>%{аяØ%}гме̄нныл K ;
 +Du+Ins+PxDu1:%>%{аяØ%}гме̄нтыл K ;
 
-LEXICON DU_PXDU1_LONG
+LEXICON DU_PXDU1_ajagumeen
 +Du+Nom+PxDu1:%>%{аяØ%}гуме̄н K ;
 +Du+Loc+PxDu1:%>%{аяØ%}гуме̄нт K ;
 +Du+Lat+PxDu1:%>%{аяØ%}гуме̄нн K ;
@@ -588,12 +593,19 @@ LEXICON PL_PXDU1_SYNC
 +Pl+Abl+PxDu1:%>%{аяØ%}нме̄нныл K ;
 +Pl+Ins+PxDu1:%>%{аяØ%}нме̄нтыл K ;
 
-LEXICON PL_PXDU1_LONG
+LEXICON PL_PXDU1_ajanmeen
 +Pl+Nom+PxDu1:%>%{аяØ%}нме̄н K ;
 +Pl+Loc+PxDu1:%>%{аяØ%}нме̄нт K ;
 +Pl+Lat+PxDu1:%>%{аяØ%}нме̄нн K ;
 +Pl+Abl+PxDu1:%>%{аяØ%}нме̄нныл K ;
 +Pl+Ins+PxDu1:%>%{аяØ%}нме̄нтыл K ;
+
+LEXICON PL_PXDU1_ajanmen
++Pl+Nom+PxDu1:%>%{аяØ%}нмен K ;
++Pl+Loc+PxDu1:%>%{аяØ%}нмент K ;
++Pl+Lat+PxDu1:%>%{аяØ%}нменн K ;
++Pl+Abl+PxDu1:%>%{аяØ%}нменныл K ;
++Pl+Ins+PxDu1:%>%{аяØ%}нментыл K ;
 
 LEXICON PL_PXDU1_ajanamen
 +Pl+Nom+PxDu1:%>%{аяØ%}намен K ;
