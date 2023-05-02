@@ -66,19 +66,30 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_PL ;
 :%{VI%} N1_SG_PXDU_LONG ;
 :%{VI%} SG_PXDU1OBLQ_ujument ;
+:%{VI%}	SG_PXDU2_yyn ;
 :%{VI%}	SG_PXDU2_yn ;
+:%{VI%} SG_PXDU3_teen ;
+:%{VI%} SG_PXDU3_ten ;
 :%{VI%} SG_PXPL2_yyn ;
+
 :%{VI%} N1_DU_PXDU_LONG ;
 :%{VI%} DU_PXDU1_ajagmeen ;
 :%{VI%} DU_PXDU1_ajagamen ;
+:%{VI%}	DU_PXDU2_ajagyyn ;
+:%{VI%} DU_PXDU3_ajageen ;
+
 :%{VI%}  DU_PXPL2_ajagyyn ;
-!:%{VI%} N1_PL_PXDU_LONG ;
+
+
 :%{VI%} PL_PXDU1_ajanmeen ;
 :%{VI%} PL_PXDU1_ajanmen ;
 :%{VI%} PL_PXDU2_ajanyn ;
-:%{VI%} PL_PXDU3_LONG ;
-:%{VI%} PL_PXPL2_ajanyn ;
+:%{VI%} PL_PXDU3_ajaneen ;
+:%{VI%} PL_PXDU3_ajanen ;
+
 :%{VI%} PL_PXPL2_ajanyyn ;
+:%{VI%} PL_PXPL2_ajanyn ;
+:%{VI%} PL_PXPL2_ajan ;
 
 
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
@@ -552,11 +563,7 @@ LEXICON DU_PXDU3_ajageen
 +Du+Ins+PxDu3:%>%{аяØ%}ге̄нтыл K ;
 
 LEXICON DU_PXDU3_LONG
-+Du+Nom+PxDu3:%>%{аяØ%}ген K ;
-+Du+Loc+PxDu3:%>%{аяØ%}гент K ;
-+Du+Lat+PxDu3:%>%{аяØ%}генн K ;
-+Du+Abl+PxDu3:%>%{аяØ%}генныл K ;
-+Du+Ins+PxDu3:%>%{аяØ%}гентыл K ;
+DU_PXDU3_ajagen ;!depricate
 
 LEXICON DU_PXDU3_ajagen
 +Du+Nom+PxDu3:%>%{аяØ%}ген K ;
@@ -657,11 +664,7 @@ LEXICON PL_PXDU3_ajaneen
 +Pl+Ins+PxDu3:%>%{аяØ%}нэ̄нтыл K ;
 
 LEXICON PL_PXDU3_LONG
-+Pl+Nom+PxDu3:%>%{аяØ%}нэн K ;
-+Pl+Loc+PxDu3:%>%{аяØ%}нэнт K ;
-+Pl+Lat+PxDu3:%>%{аяØ%}нэнн K ;
-+Pl+Abl+PxDu3:%>%{аяØ%}нэнныл K ;
-+Pl+Ins+PxDu3:%>%{аяØ%}нэнтыл K ;
+PL_PXDU3_ajanen ; !depricate
 
 LEXICON PL_PXDU3_ajanen
 +Pl+Nom+PxDu3:%>%{аяØ%}нэн K ;
