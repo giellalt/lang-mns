@@ -145,6 +145,7 @@ LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} N1_DU_PXDU_SYNC ;
 :%{SYNCS%} N1_PL_PXDU_SYNC ;
 
+
 LEXICON N_NOSYNCH !!≈ * @CODE@ Stems without syncopy, hard
 :%{NOSYNCH%} N1_ ;
 
@@ -181,7 +182,8 @@ LEXICON N1_
 !! affixes for Nom, Loc, Lat, Abl, Ins, Tra.
 LEXICON N1_SG
 +Sg+Nom: K ;
-+Sg+Loc:%>%{ыиØ%}т K ; ! not like Pl Nom!! потрыт, са̄лыт
+!+Sg+Loc:%>%{ыиØ%}т K ; 
++Sg+Loc:%>ыт K ; ! not like Pl Nom!! потрыт, са̄лыт, э̄кват, 
 +Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын, са̄лын
 +Sg+Abl:%>ныл K ;
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
