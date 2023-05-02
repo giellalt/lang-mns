@@ -64,6 +64,8 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_SG ;
 :%{VI%} N1_DU ;
 :%{VI%} N1_PL ;
+:%{VI%} SG_PXSG3OBLIQ_te ;
+:%{VI%} SG_PXSG3OBLIQ_tee ;
 :%{VI%} N1_SG_PXDU_LONG ;
 :%{VI%} SG_PXDU1OBLQ_ujument ;
 :%{VI%}	SG_PXDU2_yyn ;
@@ -72,7 +74,10 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} SG_PXDU3_ten ;
 :%{VI%} SG_PXPL2_yyn ;
 
-:%{VI%} N1_DU_PXDU_LONG ;
+:%{VI%} DU_PXDU1_ajagameen ;
+:%{VI%}	DU_PXDU2_ajagyn ;
+:%{VI%}	DU_PXDU3_LONG ;
+:%{VI%}	DU_PXPL2_ajagyn ;
 :%{VI%} DU_PXDU1_ajagmeen ;
 :%{VI%} DU_PXDU1_ajagamen ;
 :%{VI%}	DU_PXDU2_ajagyyn ;
@@ -230,6 +235,23 @@ LEXICON N1_SG
 +Sg+Lat+PxPl3:%>%{аяØ%}нылн K ;
 +Sg+Abl+PxPl3:%>%{аяØ%}нылныл K ;
 +Sg+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
+
+LEXICON SG_PXSG3OBLIQ_te
++Sg+Nom+PxSg3:%>тэ K ; ! todo: delete т for хап
++Sg+Loc+PxSg3:%>тэт K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>тэн K ;
++Sg+Abl+PxSg3:%>тэныл K ;
++Sg+Ins+PxSg3:%>тэнтыл K ;
++Sg+Tra+PxSg3:%>тэг K ;
+
+LEXICON SG_PXSG3OBLIQ_tee
++Sg+Nom+PxSg3:%>тэ K ; ! todo: delete т for хап
++Sg+Loc+PxSg3:%>тэ̄т K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>тэ̄н K ;
++Sg+Abl+PxSg3:%>тэ̄ныл K ;
++Sg+Ins+PxSg3:%>тэ̄нтыл K ;
++Sg+Tra+PxSg3:%>тэ̄г K ;
+
 
 LEXICON N1_SG_PXDU_SYNC
  SG_PXDU1_SYNC ;
