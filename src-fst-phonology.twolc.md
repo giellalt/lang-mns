@@ -240,6 +240,9 @@ __%{аяØ%}:я__
 __%{уюØ%}:0__ deletes а/я after VO vowel stems
 
 __%{уюØ%}:у__
+ща̄рыщ+N+Sg+Nom+PxSg1: __sea/meri__
+* *ща̄рыщ{SYNCS}>{уюØ}м*
+* *ща̄р0щ0>юм*
 
 __%{уюØ%}:ю__
 коюӈкве+V+Inf: **track/jäljittää, vuottaa**
