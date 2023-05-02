@@ -144,6 +144,8 @@ End of alphabet definitions
 vowel lengthening
 **RULE: a becomes long**
 
+**RULE: y becomes long**
+
 **RULE: long y disappears**
 
 #### Tests:
