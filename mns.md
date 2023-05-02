@@ -615,8 +615,8 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 	* **LEXICON V11_MUTUAL_PASS_PRS**  
 
-**LEXICON V11_MUTUAL_PASS_PRT** contains all forms
-**LEXICON V11_MUTUAL_PASS_PRT** contains all forms
+**LEXICON PASS_COND_VU** contains all forms
+**LEXICON PASS_COND_VU** contains all forms
 
 * * *
 
