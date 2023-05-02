@@ -157,18 +157,27 @@ LEXICON N1_SG
 +Sg+Lat+PxSg1:%>%{уюØ%}мн K ;
 +Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
 +Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
++Sg+Tra+PxSg1:%>%{уюØ%}мыг K ;
 
 +Sg+Nom+PxSg2:%>ын K ;! vowel retension потырын, са̄лын
 +Sg+Loc+PxSg2:%>ынт K ;
 +Sg+Lat+PxSg2:%>ынн K ;
 +Sg+Abl+PxSg2:%>ынныл K ;
 +Sg+Ins+PxSg2:%>ынтыл K ;
++Sg+Tra+PxSg2:%>ыныг K ;
 
 +Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
 +Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
 +Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕ%}н K ;
 +Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
 +Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}тыл K ;
++Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕ%}г K ;
+
++Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
++Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕLong%}н K ;
++Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕLong%}ныл K ;
++Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}тыл K ;
++Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕLong%}г K ;
 
 +Sg+Nom+PxDu1:%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
 +Sg+Nom+PxDu1:%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
