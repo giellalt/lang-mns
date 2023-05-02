@@ -141,9 +141,69 @@ LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} N1_SG ;
 :%{SYNCS%} N1_DU ;
 :%{SYNCS%} N1_PL ;
-:%{SYNCS%} N1_SG_PXDU_SYNC ;
-:%{SYNCS%} N1_DU_PXDU_SYNC ;
-:%{SYNCS%} N1_PL_PXDU_SYNC ;
+
+:%{SYNCS%} SG_PXDU1OBLQ_ujumeent ;
+:%{SYNCS%} SG_PXDU1OBLQ_ujument ;
+:%{SYNCS%} SG_PXDU2_SYNC ;
+:%{SYNCS%} SG_PXDU3_SYNC ;
+
+
+:%{SYNCS%} DU_PXDU1_ajagmeen ;
+:%{SYNCS%} DU_PXDU2_ajagyyn ;
+:%{SYNCS%} DU_PXDU3_ajageen ;
+
++Pl+Loc:%{SYNCS%}%>ытыт K ;! потрытыт 2023_03_11
++Pl+Ins:%{SYNCS%}%>ытл K ; ! потрытл 2023_03_11
+:%{SYNCS%} PL_PXDU1_ajanameen ;
+:%{SYNCS%} PL_PXDU1_ajanamen ;
+:%{SYNCS%} PL_PXDU2_ajanyyn ;
+:%{SYNCS%} PL_PXDU3_ajaneen ;
+:%{SYNCS%} PL_PXDU3_ajanen ;
+:%{SYNCS%} PL_PXPL2_ajan ;
+:%{SYNCS%} PL_PXPL2_ajanyyn ;
+
+
+!:%{SYNCS%} SG_PXSG3OBLIQ_te ;
+!:%{SYNCS%} SG_PXSG3OBLIQ_tee ;
+!:%{SYNCS%} N1_SG_PXDU_LONG ;
+!:%{SYNCS%} SG_PXDU1OBLQ_ujument ;
+!:%{SYNCS%}	SG_PXDU2_yyn ;
+!:%{SYNCS%}	SG_PXDU2_yn ;
+:%{SYNCS%} SG_PXDU3_een ;
+:%{SYNCS%} SG_PXDU3_en ;
+
+:%{SYNCS%} SG_PXPL2_yn ;
+
+:%{SYNCS%} DU_PXSG1_ajagum ;
+:%{SYNCS%} DU_PXSG2_ajagyn ;
+:%{SYNCS%} DU_PXDU1_ajagameen ;
+:%{SYNCS%} DU_PXDU1_ajagamen ;
+:%{SYNCS%} DU_PXDU1_ajagmeen ;
+!:%{SYNCS%}	DU_PXDU2_ajagyn ;
+!:%{SYNCS%}	DU_PXPL2_ajagyn ;
+:%{SYNCS%}	DU_PXDU2_ajagyyn ;
+:%{SYNCS%}	DU_PXDU2_ajagyn ;
+:%{SYNCS%}	DU_PXDU3_ajageen ;
+:%{SYNCS%}	DU_PXDU3_ajagen ;
+:%{SYNCS%} DU_PXPL1_ajaguv ;
+
+:%{SYNCS%}  DU_PXPL2_ajagyyn ;
+:%{SYNCS%}  DU_PXPL2_ajagyn ;
+
+:%{SYNCS%} PL_PXSG1_ajanum ;
+:%{SYNCS%} PL_PXSG2_ajanyn ;
+:%{SYNCS%} PL_PXSG2_ajan ;
+!:%{SYNCS%} PL_PXDU1_ajanmeen ;
+!:%{SYNCS%} PL_PXDU1_ajanmen ;
+:%{SYNCS%} PL_PXDU2_ajanyyn ;
+:%{SYNCS%} PL_PXDU2_ajanyn ;
+:%{SYNCS%} PL_PXDU2_ajan ;
+!:%{SYNCS%} PL_PXDU3_ajaneen ;
+!:%{SYNCS%} PL_PXDU3_ajanen ;
+
+:%{SYNCS%} PL_PXPL2_ajanyyn ;
+:%{SYNCS%} PL_PXPL2_ajanyn ;
+:%{SYNCS%} PL_PXPL2_ajan ;
 
 
 LEXICON N_NOSYNCH !!≈ * @CODE@ Stems without syncopy, hard
@@ -183,7 +243,7 @@ LEXICON N1_
 LEXICON N1_SG
 +Sg+Nom: K ;
 !+Sg+Loc:%>%{ыиØ%}т K ; 
-+Sg+Loc:%>ыт K ; ! not like Pl Nom!! потрыт, са̄лыт, э̄кват, 
++Sg+Loc:%>ыт K ; ! not like Pl Nom(only: потрыт)!! потырт/потрыт, са̄лыт, э̄кват, 
 +Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын, са̄лын
 +Sg+Abl:%>ныл K ;
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
@@ -326,6 +386,30 @@ LEXICON N1_DU
 +Du+Ins+PxPl3:%>%{аяØ%}ганылтыл K ;
 +Err/Orth+Du+Ins+PxPl3:%>%{аяØ%}га̄нылтыл K ;
 
+LEXICON DU_PXSG1_ajagum
++Du+Nom+PxSg1:%>%{аяØ%}гум K ;
++Du+Loc+PxSg1:%>%{аяØ%}гумт K ;
++Du+Lat+PxSg1:%>%{аяØ%}гумн K ;
++Du+Abl+PxSg1:%>%{аяØ%}гумныл K ;
++Du+Ins+PxSg1:%>%{аяØ%}гумтыл K ;
+
+LEXICON DU_PXSG2_ajagyn
++Du+Nom+PxSg2:%>%{аяØ%}гын K ;
++Du+Nom+PxSg2:%>%{аяØ%}гн K ;!2023_05_02
++Du+Loc+PxSg2:%>%{аяØ%}гынт K ;
++Du+Lat+PxSg2:%>%{аяØ%}гынн K ;
++Du+Abl+PxSg2:%>%{аяØ%}гынныл K ;
++Du+Ins+PxSg2:%>%{аяØ%}гынтыл K ;
+
+LEXICON DU_PXPL1_ajaguv
++Du+Nom+PxPl1:%>%{аяØ%}гув K ;
++Du+Loc+PxPl1:%>%{аяØ%}гувт K ;
++Du+Lat+PxPl1:%>%{аяØ%}гувн K ;
++Du+Abl+PxPl1:%>%{аяØ%}гувныл K ;
++Du+Ins+PxPl1:%>%{аяØ%}гувтыл K ;
+
+
+
 LEXICON N1_DU_PXDU_SYNC
  DU_PXDU1_ajagmeen ;
  DU_PXDU2_ajagyyn ;
@@ -411,6 +495,28 @@ LEXICON N1_PL
 !! This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 +Der+Der/Yng+A:%>ыӈ A_ ;
 +Der+Der/Yng+A+Der+Der/Yshch+Adv:%>ыщ ADV_ ;
+
+LEXICON PL_PXSG1_ajanum
++Pl+Nom+PxSg1:%>%{аяØ%}нум K ;
++Pl+Loc+PxSg1:%>%{аяØ%}нумт K ;
++Pl+Lat+PxSg1:%>%{аяØ%}нумн K ;
++Pl+Abl+PxSg1:%>%{аяØ%}нумныл K ;
++Pl+Ins+PxSg1:%>%{аяØ%}нумтыл K ;
+
+LEXICON PL_PXSG2_ajan
++Pl+Nom+PxSg2:%>%{аяØ%}н K ;
++Pl+Loc+PxSg2:%>%{аяØ%}нт K ;
++Pl+Lat+PxSg2:%>%{аяØ%}нн K ;
++Pl+Abl+PxSg2:%>%{аяØ%}нныл K ;
++Pl+Ins+PxSg2:%>%{аяØ%}нтыл K ;
+
+LEXICON PL_PXSG2_ajanyn
++Pl+Nom+PxSg2:%>%{аяØ%}нын K ;
++Pl+Loc+PxSg2:%>%{аяØ%}нынт K ;
++Pl+Lat+PxSg2:%>%{аяØ%}нынн K ;
++Pl+Abl+PxSg2:%>%{аяØ%}нынныл K ;
++Pl+Ins+PxSg2:%>%{аяØ%}нынтыл K ;
+
 
 LEXICON N1_PL_PXDU_SYNC
 
@@ -510,6 +616,20 @@ LEXICON SG_PXDU3_teen
 +Sg+Lat+PxDu3:%>тэ̄нн K ;
 +Sg+Abl+PxDu3:%>тэ̄нныл K ;
 +Sg+Ins+PxDu3:%>тэ̄нтыл K ;
+
+LEXICON SG_PXDU3_een
++Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
++Sg+Loc+PxDu3:%>%{ЭЕLong%}нт K ;
++Sg+Lat+PxDu3:%>%{ЭЕLong%}нн K ;
++Sg+Abl+PxDu3:%>%{ЭЕLong%}нныл K ;
++Sg+Ins+PxDu3:%>%{ЭЕLong%}нтыл K ;
+
+LEXICON SG_PXDU3_en
++Sg+Nom+PxDu3:%>%{ЭЕ%}н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
++Sg+Loc+PxDu3:%>%{ЭЕ%}нт K ;
++Sg+Lat+PxDu3:%>%{ЭЕ%}нн K ;
++Sg+Abl+PxDu3:%>%{ЭЕ%}нныл K ;
++Sg+Ins+PxDu3:%>%{ЭЕ%}нтыл K ;
 
 LEXICON SG_PXPL2_yyn
 +Sg+Nom+PxPl2:%>ы̄н K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н

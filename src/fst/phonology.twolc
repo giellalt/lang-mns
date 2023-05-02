@@ -181,7 +181,7 @@ Rules
 
 "y becomes long"
 !! **RULE: @RULENAME@**
- ы:ы̄ <=> _ %{VI%}: %> ы̄: ; 
+ ы:ы̄ <=> Cns _ %{VI%}: %> ы̄: ; 
 
 "long y disappears"
 !! **RULE: @RULENAME@**
@@ -343,7 +343,7 @@ Rules
 
 "%{аяØ%}:а"
 !! __@RULENAME@__
- %{аяØ%}:а <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | щ %{VCS%}:| %{VCCH%}: | [CnsSoft | CnsAlv | CnsNonAlv| р] [%{VA%}:|%{VU%}:]]  %> _  ;
+ %{аяØ%}:а <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | щ %{VCS%}:| щ %{SYNCS%}:| %{VCCH%}: | [CnsSoft | CnsAlv | CnsNonAlv| р] [%{VA%}:|%{VU%}:]]  %> _  ;
 ! Cns %> _  ;
 !<=-rule conflict between "{аяØ}:а" and "{аяØ}:я".
 !E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ӈ:ӈ ь:ь щ:щ {VCS}: >:> _ __HFST_TWOLC_.#.:__HFST_TWOLC_.#.
@@ -364,12 +364,17 @@ Rules
 "%{уюØ%}:у"
 !! __@RULENAME@__
  %{уюØ%}:у <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: | [CnsSoft | CnsAlv| CnsNonAlv | р] %{VU%}: ]  %> _  ;
+    [ы:0|ы] щ %{SYNCS%}: %> _  Cns ; 
 ! Cns %> _  ;
+!! ща̄рыщ+N+Sg+Nom+PxSg1: __sea/meri__
+!!€ ща̄рыщ{SYNCS}>{уюØ}м
+!!€ ща̄р0щ0>юм
 
 "%{уюØ%}:ю"
 !! __@RULENAME@__
-  %{уюØ%}:ю <=> [ Pal | [й:| ь: ] %{VU%}:]  %> _  ;
-   [%{VI%}:]  %> _  в ;
+  %{уюØ%}:ю <=> [ %{VCCS%}:|%{VCS%}:|%{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  ;
+                                   %{VI%}:  %> _  в ;
+                       CnsAlv ь: %{SYNCS%}: %> _ Cns ; 
   ! [ и | ы | ь: ] %> _  ;
 !! коюӈкве+V+Inf: **track/jäljittää, vuottaa**
 !!€ кой{VU}>{уюØ}ӈкве
@@ -392,6 +397,7 @@ Rules
  !!€ ха̄л0%>0е̄н
  [ CnsSoft | CnsNonAlv | ь: | й: | р] [%{VA%}:|%{VU%}:] %> _ [г ы т] ;
   [ CnsSoft | CnsNonAlv | ь: | й: | р] %{SYNCH%}: %> (%{тØ%}:) _ ;
+   %{SYNCS%}: %> (%{тØ%}:) _ ;
  !!€ хӯрыг{SYNCH}>{ЭЕLong}н
  !!€ хӯр0г0>е̄н
 

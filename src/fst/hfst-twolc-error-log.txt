@@ -10,9 +10,6 @@ Processing: "Syncope for и"
 Processing: "Syncope for у"
 Processing: "a becomes long"
 Processing: "y becomes long"
-There is a <=-rule conflict between "Syncope for ы" and "y becomes long".
-E.g. in context __HFST_TWOLC_.#.:__HFST_TWOLC_.#. ӈ:ӈ ы:ы {VO}: {VI}: {VA}: >:> {аяØ}:я >:> _ {VI}: >:> ы̄:ы̄ __HFST_TWOLC_.#.:__HFST_TWOLC_.#. 
-
 Processing: "long y disappears"
 Processing: "Vow ы in loc appears"
 Processing: "Vow ы in loc appears"
