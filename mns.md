@@ -775,6 +775,11 @@ End of alphabet definitions
 * *яныг{SYNCH}>{ыиØ}т*
 * *ян0г0>ыт*
 
+vowel lengthening
+**RULE: a becomes long**
+
+**RULE: long y disappears**
+
 #### Tests:
 
 * *ха̄п>{йØ}ыт*
