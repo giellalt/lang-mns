@@ -44,7 +44,7 @@ Tests:
     тотуӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: тотыяге
     тотуӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: тотыягме̄н
     тотуӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [тотыягын, тотыягы̄н]
-    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: тотыягэ̄н
+    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: тотыяге̄н
     тотуӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: тотыягув
     тотуӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [тотыягын, тотыягы̄н]
     тотуӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: тотыяганыл
@@ -105,26 +105,26 @@ Tests:
     тотуӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: тотсаныл
 
 #Active, conditional, subjective conjugation
-    тотуӈкве+V+Act+Cond+ScSg1: [тотнувум, тотнӯвум]
-    тотуӈкве+V+Act+Cond+ScSg2: [тотнувын, тотнӯвын]
+    тотуӈкве+V+Act+Cond+ScSg1: [тотнувум, тотнӯвум]
+    тотуӈкве+V+Act+Cond+ScSg2: [тотнувын, тотнӯвын]
     тотуӈкве+V+Act+Cond+ScSg3: тотнув
     тотуӈкве+V+Act+Cond+ScDu1: тотнуваме̄н
     тотуӈкве+V+Act+Cond+ScDu2: [тотнувын, тотнувы̄н]
     тотуӈкве+V+Act+Cond+ScDu3: [тотнувыг, тотнувы̄г]
-    тотуӈкве+V+Act+Cond+ScPl1: [тотнувув, тотнӯвув]
+    тотуӈкве+V+Act+Cond+ScPl1: [тотнувув, тотнӯвув]
     тотуӈкве+V+Act+Cond+ScPl2: [тотнувын, тотнувы̄н]
     тотуӈкве+V+Act+Cond+ScPl3: [тотнувыт, тотнувы̄т]
 
 #Active, conditional, objective conjugation, single object
-    тотуӈкве+V+Act+Cond+ScSg1+OcSg3: тотнувлум, тотнӯвлум
-    тотуӈкве+V+Act+Cond+ScSg2+OcSg3: тотнувлын, тотнӯвлын
-    тотуӈкве+V+Act+Cond+ScSg3+OcSg3: тотнувтэ, тотнӯвтэ
+    тотуӈкве+V+Act+Cond+ScSg1+OcSg3: [тотнувлум, тотнӯвлум]
+    тотуӈкве+V+Act+Cond+ScSg2+OcSg3: [тотнувлын, тотнӯвлын]
+    тотуӈкве+V+Act+Cond+ScSg3+OcSg3: [тотнувтэ, тотнӯвтэ]
     тотуӈкве+V+Act+Cond+ScDu1+OcSg3: тотнувламе̄н
-    тотуӈкве+V+Act+Cond+ScDu2+OcSg3: тотнувлын, тотнувлы̄н
+    тотуӈкве+V+Act+Cond+ScDu2+OcSg3: [тотнувлын, тотнувлы̄н]
     тотуӈкве+V+Act+Cond+ScDu3+OcSg3: тотнувтэ̄н
     тотуӈкве+V+Act+Cond+ScPl1+OcSg3: тотнувлув
-    тотуӈкве+V+Act+Cond+ScPl2+OcSg3: тотнувлын, тотнувлы̄н
-    тотуӈкве+V+Act+Cond+ScPl3+OcSg3: тотнуваныл, тотнува̄ныл
+    тотуӈкве+V+Act+Cond+ScPl2+OcSg3: [тотнувлын, тотнувлы̄н]
+    тотуӈкве+V+Act+Cond+ScPl3+OcSg3: [тотнуваныл, тотнува̄ныл]
 
 #Active, conditional, objective conjugation, dual object
     тотуӈкве+V+Act+Cond+ScSg1+OcDu3: [тотнувагум, тотнува̄гум]
@@ -191,15 +191,15 @@ Tests:
     тотуӈкве+V+Pass+Ind+Prt+ScPl3: тотве̄сыт
 
 #Passive, conditional
-    тотуӈкве+V+Pass+Cond+ScSg1: [тотнувем, тотнӯвем]
-    тотуӈкве+V+Pass+Cond+ScSg2: [тотнувен, тотнӯвен]
-    тотуӈкве+V+Pass+Cond+ScSg3: [тотнуве, тотнӯве]
+    тотуӈкве+V+Pass+Cond+ScSg1: [тотнувем, тотнӯвем]
+    тотуӈкве+V+Pass+Cond+ScSg2: [тотнувен, тотнӯвен]
+    тотуӈкве+V+Pass+Cond+ScSg3: [тотнуве, тотнӯве]
     тотуӈкве+V+Pass+Cond+ScDu1: тотнувеме̄н
     тотуӈкве+V+Pass+Cond+ScDu2: [тотнувен, тотнуве̄н]
     тотуӈкве+V+Pass+Cond+ScDu3: [тотнувег, тотнуве̄г]
     тотуӈкве+V+Pass+Cond+ScPl1: тотнуве̄в
     тотуӈкве+V+Pass+Cond+ScPl2: [тотнувен, тотнуве̄н]
-    тотуӈкве+V+Pass+Cond+ScPl3: [тотнувет, тотнӯвет]
+    тотуӈкве+V+Pass+Cond+ScPl3: [тотнувет, тотнӯвет]
 
 
 
