@@ -396,7 +396,7 @@ Rules
  !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
  !!€ ха̄л0%>0е̄н
  [ CnsSoft | CnsNonAlv | ь: | й: | р] [%{VA%}:|%{VU%}:] %> _ [г ы т] ;
-    CnsNonAlv  %{VCH%}: %> _ ;
+    CnsNonAlv [ %{VCH%}:|%{VCCH%}:] %> _ ;
   [ CnsSoft | CnsNonAlv | ь: | й: | р] %{SYNCH%}: %> (%{тØ%}:) _ ;
    %{SYNCS%}: %> (%{тØ%}:) _ ;
  !!€ хӯрыг{SYNCH}>{ЭЕLong}н

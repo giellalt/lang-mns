@@ -273,7 +273,53 @@ LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%} DU_PXDU1_ajagamen ;
 
 LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
-:%{VCCH%} N1_ ;
++Sg+Nom:%{VCCH%} K ;
++Sg+Loc:%{VCCH%}%>ыт K ; !
++Sg+Lat:%{VCCH%}%>ын K ; !
++Sg+Abl:%{VCCH%}%>ныл K ;
++Sg+Ins:%{VCCH%}%>ыл K ; !
++Sg+Tra:%{VCCH%}%>ыг K ;!
+:%{VCCH%} SG_PXSG1_ujum ;
+:%{VCCH%} SG_PXSG2_yn ;
+:%{VCCH%} SG_PXSG3_te ;
+:%{VCCH%} SG_PXSG3_tee ;
+:%{VCCH%} SG_PXPL1_ujuv ;
+:%{VCCH%} SG_PXPL3_ajanyl ;
+:%{VCCH%} N1_DU ;
+:%{VCCH%} N1_PL ;
+
+:%{VCCH%} SG_PXDU2_yyn ;
+:%{VCCH%} SG_PXDU2_yn ;
+:%{VCCH%} SG_PXDU3_een ;
+:%{VCCH%} SG_PXDU3_en ;
+:%{VCCH%} SG_PXPL2_yn ;
+:%{VCCH%} SG_PXPL2_yyn ;
+
+:%{VCCH%} DU_PXDU1_ajagmeen ;
+:%{VCCH%} DU_PXDU2_ajagyyn ;
+:%{VCCH%} DU_PXDU2_ajagyn ;
+:%{VCCH%} DU_PXDU3_ajageen ;
+:%{VCCH%} DU_PXDU3_ajagen ;
+:%{VCCH%} DU_PXPL2_ajagyyn ;
+:%{VCCH%} DU_PXPL2_ajagyn ;
+
+:%{VCCH%} PL_PXDU1_ajanameen ;
+:%{VCCH%} PL_PXDU1_ajanamen ;
+:%{VCCH%} PL_PXDU2_ajanyyn ;
+:%{VCCH%} PL_PXDU2_ajanyn ;
+:%{VCCH%} PL_PXDU2_ajan ;
+:%{VCCH%} PL_PXDU3_ajaneen ;
+:%{VCCH%} PL_PXDU3_ajanen ;
+:%{VCCH%} PL_PXPL2_ajan ;
+:%{VCCH%} PL_PXPL2_ajanyn ;
+:%{VCCH%} PL_PXPL2_ajanyyn ;
+
+:%{VCCH%} SG_PXSG3OBLIQ_e ;
+:%{VCCH%} SG_PXSG3OBLIQ_ee ;
+:%{VCCH%} SG_PXDU1_meen ;
+:%{VCCH%} SG_PXDU1_men ;
+:%{VCCH%} DU_PXDU1_ajagameen ;
+:%{VCCH%} DU_PXDU1_ajagamen ;
 
 LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%} N1_ ;
