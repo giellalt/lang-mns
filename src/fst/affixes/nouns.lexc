@@ -83,7 +83,9 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 
 :%{VI%} PL_PXDU1_ajanmeen ;
 :%{VI%} PL_PXDU1_ajanmen ;
+:%{VI%} PL_PXDU2_ajanyyn ;
 :%{VI%} PL_PXDU2_ajanyn ;
+:%{VI%} PL_PXDU2_ajan ;
 :%{VI%} PL_PXDU3_ajaneen ;
 :%{VI%} PL_PXDU3_ajanen ;
 
