@@ -15,7 +15,7 @@ Tests:
 # (20230502: Csilla)
 
   Verb - ловиньтаӈкве: # Verb 'translate_me' - full paradigm
-    ловиньтаӈкве+V+Inf: ловиньтаӈкве
+    тотуӈкве+V+Inf: тотуӈкве
 #Active, present tense, indicative, subjective conjugation
     тотуӈкве+V+Act+Ind+Prs+ScSg1: тотэ̄гум
     тотуӈкве+V+Act+Ind+Prs+ScSg2: тотэ̄гын

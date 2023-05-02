@@ -142,18 +142,22 @@ LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} N1_DU ;
 :%{SYNCS%} N1_PL ;
 
-:%{SYNCS%} SG_PXDU1OBLQ_ujumeent ;
-:%{SYNCS%} SG_PXDU1OBLQ_ujument ;
-:%{SYNCS%} SG_PXDU2_SYNC ;
-:%{SYNCS%} SG_PXDU3_SYNC ;
++Sg+Nom+PxDu1:%{SYNCS%}%>%{аяØ%}ме̄н K ;
++Sg+Nom+PxDu1:%{SYNCS%}%>%{аяØ%}мен K ;
+:%{SYNCS%} SG_PXDU1OBLQ_ajameent ;
+:%{SYNCS%} SG_PXDU1OBLQ_ajament ;
+:%{SYNCS%} SG_PXDU2_yyn ;
+:%{SYNCS%} SG_PXDU2_yn ;
+:%{SYNCS%} SG_PXDU3_en ;
 
 
-:%{SYNCS%} DU_PXDU1_ajagmeen ;
+:%{SYNCS%} DU_PXDU1_ajagmen ;
 :%{SYNCS%} DU_PXDU2_ajagyyn ;
 :%{SYNCS%} DU_PXDU3_ajageen ;
 
++Pl+Lat:%{SYNCS%}%>ытын K ;! 
 +Pl+Loc:%{SYNCS%}%>ытыт K ;! потрытыт 2023_03_11
-+Pl+Ins:%{SYNCS%}%>ытл K ; ! потрытл 2023_03_11
+!+Pl+Ins:%{SYNCS%}%>ытл K ; ! потрытл 2023_03_11
 :%{SYNCS%} PL_PXDU1_ajanameen ;
 :%{SYNCS%} PL_PXDU1_ajanamen ;
 :%{SYNCS%} PL_PXDU2_ajanyyn ;
@@ -173,12 +177,13 @@ LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} SG_PXDU3_en ;
 
 :%{SYNCS%} SG_PXPL2_yn ;
++Sg+Nom+PxPl2:%{SYNCS%}%>ы̄н K ;
 
 :%{SYNCS%} DU_PXSG1_ajagum ;
 :%{SYNCS%} DU_PXSG2_ajagyn ;
 :%{SYNCS%} DU_PXDU1_ajagameen ;
 :%{SYNCS%} DU_PXDU1_ajagamen ;
-:%{SYNCS%} DU_PXDU1_ajagmeen ;
+
 !:%{SYNCS%}	DU_PXDU2_ajagyn ;
 !:%{SYNCS%}	DU_PXPL2_ajagyn ;
 :%{SYNCS%}	DU_PXDU2_ajagyyn ;
@@ -318,7 +323,7 @@ LEXICON SG_PXSG3OBLIQ_tee
 LEXICON N1_SG_PXDU_SYNC
  SG_PXDU1_SYNC ;
  SG_PXDU2_SYNC ;
- SG_PXDU3_SYNC ;
+ SG_PXDU3_een ;
  SG_PXPL2_yyn ;
 
 
@@ -556,6 +561,18 @@ LEXICON SG_PXDU1_SYNC
 +Sg+Abl+PxDu1:%>%{уюØ%}ме̄нныл K ;
 +Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
 
+LEXICON SG_PXDU1OBLQ_ajameent
++Sg+Loc+PxDu1:%>%{аяØ%}ме̄нт K ;
++Sg+Lat+PxDu1:%>%{аяØ%}ме̄нн K ;
++Sg+Abl+PxDu1:%>%{аяØ%}ме̄нныл K ;
++Sg+Ins+PxDu1:%>%{аяØ%}ме̄нтыл K ;
+
+LEXICON SG_PXDU1OBLQ_ajament
++Sg+Loc+PxDu1:%>%{аяØ%}мент K ;
++Sg+Lat+PxDu1:%>%{аяØ%}менн K ;
++Sg+Abl+PxDu1:%>%{аяØ%}менныл K ;
++Sg+Ins+PxDu1:%>%{аяØ%}ментыл K ;
+
 LEXICON SG_PXDU1OBLQ_ujumeent
 +Sg+Loc+PxDu1:%>%{уюØ%}ме̄нт K ;
 +Sg+Lat+PxDu1:%>%{уюØ%}ме̄нн K ;
@@ -588,13 +605,6 @@ LEXICON SG_PXDU2_yn
 +Sg+Lat+PxDu2:%>ынн K ;
 +Sg+Abl+PxDu2:%>ынныл K ;
 +Sg+Ins+PxDu2:%>ынтыл K ;
-
-LEXICON SG_PXDU3_SYNC
-+Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ;
-+Sg+Loc+PxDu3:%>%{ЭЕLong%}нт K ;
-+Sg+Lat+PxDu3:%>%{ЭЕLong%}нн K ;
-+Sg+Abl+PxDu3:%>%{ЭЕLong%}нныл K ;
-+Sg+Ins+PxDu3:%>%{ЭЕLong%}нтыл K ;
 
 LEXICON SG_PXDU3_LONG
 +Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ;
