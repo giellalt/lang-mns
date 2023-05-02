@@ -65,15 +65,15 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_DU ;
 :%{VI%} N1_PL ;
 :%{VI%} N1_SG_PXDU_LONG ;
-:%{VI%} SG_PXPL2_LONG_PLUS ;
+:%{VI%} SG_PXPL2_yyn ;
 :%{VI%} N1_DU_PXDU_LONG ;
-:%{VI%}  DU_PXPL2_LONG_PLUS ;
+:%{VI%}  DU_PXPL2_ajagyyn ;
 !:%{VI%} N1_PL_PXDU_LONG ;
 :%{VI%} PL_PXDU1_LONG ;
-:%{VI%} PL_PXDU2_LONG ;
+:%{VI%} PL_PXDU2_ajanyn ;
 :%{VI%} PL_PXDU3_LONG ;
-:%{VI%} PL_PXPL2_LONG_PLUS ;
-:%{VI%} PL_PXPL2_LONG_PLUSPLUS ;
+:%{VI%} PL_PXPL2_ajanyn ;
+:%{VI%} PL_PXPL2_ajanyyn ;
 
 
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
@@ -82,8 +82,27 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} N1_DU ;
 :%{VO%} N1_PL ;
 :%{VO%} N1_SG_PXDU_SHORT ;
+:%{VO%} SG_PXDU1_LONG ;
+:%{VO%} SG_PXDU2_yyn ;
+:%{VO%} SG_PXDU3_teen ;
+:%{VO%} SG_PXPL2_yyn ;
+
 :%{VO%} N1_DU_PXDU_SHORT ;
-:%{VO%} N1_PL_PXDU_SHORT ;
++Du+Nom+PxPl2:%{VO%}%>%{аяØ%}гы̄н K ;
++Pl+Nom+PxPl2:%{VO%}%>%{аяØ%}ны̄н K ;
+:%{VO%} DU_PXDU1_ajagameen ;
+:%{VO%} DU_PXDU1_ajagmen ;
+:%{VO%} DU_PXDU3_ajageen ;
+:%{VO%} PL_PXDU1_ajanameen ;
+:%{VO%} PL_PXDU1_ajanamen ;
+:%{VO%} PL_PXDU2_ajan ;
+:%{VO%} PL_PXDU2_ajanyyn ;
+:%{VO%} PL_PXDU2_ajanyn ;
+:%{VO%} PL_PXDU3_ajaneen ;
+:%{VO%} PL_PXDU3_ajanen ;
+:%{VO%} PL_PXPL2_ajanyn ;
+:%{VO%} PL_PXPL2_ajan ;
+
 
 LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 !:%{SYNCH%} N1_ ;
@@ -170,13 +189,13 @@ LEXICON N1_SG
 +Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
 +Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕ%}н K ;
 +Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
-+Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}тыл K ;
++Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}нтыл K ;
 +Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕ%}г K ;
 
 +Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
 +Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕLong%}н K ;
 +Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕLong%}ныл K ;
-+Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}тыл K ;
++Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
 +Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕLong%}г K ;
 
 +Sg+Nom+PxDu1:%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
@@ -198,21 +217,21 @@ LEXICON N1_SG_PXDU_SYNC
  SG_PXDU1_SYNC ;
  SG_PXDU2_SYNC ;
  SG_PXDU3_SYNC ;
- SG_PXPL2_SYNC ;
+ SG_PXPL2_yyn ;
 
 
 LEXICON N1_SG_PXDU_LONG
  SG_PXDU1_LONG ;
- SG_PXDU2_LONG ;
+ SG_PXDU2_yyn ;
  SG_PXDU3_LONG ;
- SG_PXPL2_LONG ;
+ SG_PXPL2_yn ;
 
 
 LEXICON N1_SG_PXDU_SHORT
  SG_PXDU1_SHORT ;
- SG_PXDU2_SHORT ;
- SG_PXDU3_SHORT ;
- SG_PXPL2_SHORT ;
+ SG_PXDU2_yn ;
+ SG_PXDU3_ten ;
+ SG_PXPL2_yn ;
 
 LEXICON N1_DU
 +Du+Nom:%>ыг K ; ! а̄ныйыг, э̄кваг, потырыг
@@ -231,17 +250,22 @@ LEXICON N1_DU
 +Du+Ins+PxSg1:%>%{аяØ%}гумтыл K ;
 
 +Du+Nom+PxSg2:%>%{аяØ%}гын K ;
++Du+Nom+PxSg2:%>%{аяØ%}гн K ;!2023_05_02
 +Du+Loc+PxSg2:%>%{аяØ%}гынт K ;
 +Du+Lat+PxSg2:%>%{аяØ%}гынн K ;
 +Du+Abl+PxSg2:%>%{аяØ%}гынныл K ;
 +Du+Ins+PxSg2:%>%{аяØ%}гынтыл K ;
-+Err/Orth+Du+Nom+PxSg2:%>%{аяØ%}гн K ;!2023_04_29
 
 +Du+Nom+PxSg3:%>%{аяØ%}ге K ;
 +Du+Loc+PxSg3:%>%{аяØ%}гет K ;
 +Du+Lat+PxSg3:%>%{аяØ%}ген K ;
 +Du+Abl+PxSg3:%>%{аяØ%}геныл K ;
 +Du+Ins+PxSg3:%>%{аяØ%}гетыл K ;
+
++Du+Loc+PxSg3:%>%{аяØ%}ге̄т K ;!longer 20230502
++Du+Lat+PxSg3:%>%{аяØ%}ге̄н K ;
++Du+Abl+PxSg3:%>%{аяØ%}ге̄ныл K ;
++Du+Ins+PxSg3:%>%{аяØ%}ге̄тыл K ;
 
 +Du+Nom+PxPl1:%>%{аяØ%}гув K ;
 +Du+Loc+PxPl1:%>%{аяØ%}гувт K ;
@@ -262,22 +286,24 @@ LEXICON N1_DU
 
 LEXICON N1_DU_PXDU_SYNC
  DU_PXDU1_SYNC ;
- DU_PXDU2_SYNC ;
- DU_PXDU3_SYNC ;
- DU_PXPL2_SYNC ;
+ DU_PXDU2_ajagyyn ;
+ DU_PXDU3_ajageen ;
+ DU_PXPL2_ajagyyn ;
 
 LEXICON N1_DU_PXDU_LONG
  DU_PXDU1_LONG ;
- DU_PXDU2_LONG ;
+ DU_PXDU2_ajagyn ;
  DU_PXDU3_LONG ;
- DU_PXPL2_LONG ;
+ DU_PXPL2_ajagyn ;
 
 LEXICON N1_DU_PXDU_SHORT
- DU_PXDU1_SHORT ;
- DU_PXDU2_SHORT ;
- DU_PXDU3_SHORT ;
- DU_PXPL2_SHORT ;
-
+ DU_PXDU1_ajagamen ;
+! DU_PXDU2_SHORT ;
+ DU_PXDU2_ajagyyn ;!20230502
+ DU_PXDU2_ajagyn ;!20230502
+ DU_PXDU3_ajagen ;
+! DU_PXPL2_SHORT ;
+ DU_PXPL2_ajagyn ;
 
 LEXICON N1_PL
 +Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
@@ -315,6 +341,11 @@ LEXICON N1_PL
 +Pl+Abl+PxSg3:%>%{аяØ%}нэныл K ;
 +Pl+Ins+PxSg3:%>%{аяØ%}нэтыл K ;
 
++Pl+Loc+PxSg3:%>%{аяØ%}нэ̄т K ;!20230502
++Pl+Lat+PxSg3:%>%{аяØ%}нэ̄н K ;
++Pl+Abl+PxSg3:%>%{аяØ%}нэ̄ныл K ;
++Pl+Ins+PxSg3:%>%{аяØ%}нэ̄тыл K ;
+
 
 +Pl+Nom+PxPl1:%>%{аяØ%}нув K ;
 +Pl+Loc+PxPl1:%>%{аяØ%}нувт K ;
@@ -344,25 +375,26 @@ LEXICON N1_PL_PXDU_SYNC
 +Pl+Loc:%>ытыт K ;! потрытыт 2023_03_11
 +Pl+Ins:%>ытл K ; ! потрытл 2023_03_11
  PL_PXDU1_SYNC ;
- PL_PXDU2_SYNC ;
- PL_PXDU3_SYNC ;
- PL_PXPL2_SYNC ;
- PL_PXPL2_SYNC_PLUS ;
+ PL_PXDU2_ajanyyn ;
+ PL_PXDU3_ajaneen ;
+ PL_PXPL2_ajan ;
+ PL_PXPL2_ajanyyn ;
 
 
 LEXICON N1_PL_PXDU_LONG
  PL_PXDU1_LONG ;
- PL_PXDU2_LONG ;
+ PL_PXDU2_ajanyn ;
  PL_PXDU3_LONG ;
- PL_PXPL2_LONG ;
- PL_PXPL2_LONG_PLUS ;
+ PL_PXPL2_ajan ;
+ PL_PXPL2_ajanyn ;
 
 
-LEXICON N1_PL_PXDU_SHORT
- PL_PXDU1_SHORT ;
- PL_PXDU2_SHORT ;
- PL_PXDU3_SHORT ;
- PL_PXPL2_SHORT ;
+!LEXICON N1_PL_PXDU_SHORT
+! PL_PXDU1_ajanamen ;
+! PL_PXDU2_ajanyyn ;
+! PL_PXDU2_ajanyn ;
+! PL_PXDU3_ajanen ;
+! PL_PXPL2_ajanen ;
 
 !LEXICON SG_PXSG1
 !LEXICON SG_PXSG2_SYNC
@@ -395,14 +427,14 @@ LEXICON SG_PXDU2_SYNC
 +Sg+Abl+PxDu2:%>ы̄нныл K ;
 +Sg+Ins+PxDu2:%>ы̄нтыл K ;
 
-LEXICON SG_PXDU2_LONG
+LEXICON SG_PXDU2_yyn
 +Sg+Nom+PxDu2:%>ы̄н K ;
 +Sg+Loc+PxDu2:%>ы̄нт K ;
 +Sg+Lat+PxDu2:%>ы̄нн K ;
 +Sg+Abl+PxDu2:%>ы̄нныл K ;
 +Sg+Ins+PxDu2:%>ы̄нтыл K ;
 
-LEXICON SG_PXDU2_SHORT
+LEXICON SG_PXDU2_yn
 +Sg+Nom+PxDu2:%>ын K ;
 +Sg+Loc+PxDu2:%>ынт K ;
 +Sg+Lat+PxDu2:%>ынн K ;
@@ -423,37 +455,30 @@ LEXICON SG_PXDU3_LONG
 +Sg+Abl+PxDu3:%>%{ЭЕLong%}нныл K ;
 +Sg+Ins+PxDu3:%>%{ЭЕLong%}нтыл K ;
 
-LEXICON SG_PXDU3_SHORT
+LEXICON SG_PXDU3_ten
 +Sg+Nom+PxDu3:%>тэн K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
 +Sg+Loc+PxDu3:%>тэнт K ;
 +Sg+Lat+PxDu3:%>тэнн K ;
 +Sg+Abl+PxDu3:%>тэнныл K ;
 +Sg+Ins+PxDu3:%>тэнтыл K ;
 
-LEXICON SG_PXPL2_SYNC
+LEXICON SG_PXDU3_teen
++Sg+Nom+PxDu3:%>тэ̄н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
++Sg+Loc+PxDu3:%>тэ̄нт K ;
++Sg+Lat+PxDu3:%>тэ̄нн K ;
++Sg+Abl+PxDu3:%>тэ̄нныл K ;
++Sg+Ins+PxDu3:%>тэ̄нтыл K ;
+
+LEXICON SG_PXPL2_yyn
 +Sg+Nom+PxPl2:%>ы̄н K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
 +Sg+Loc+PxPl2:%>ы̄нт K ;
 +Sg+Lat+PxPl2:%>ы̄нн K ;
 +Sg+Abl+PxPl2:%>ы̄нныл K ;
 +Sg+Ins+PxPl2:%>ы̄нтыл K ;
 
-LEXICON SG_PXPL2_LONG
+LEXICON SG_PXPL2_yn
 +Sg+Nom+PxPl2:%>ын K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
-+Sg+Loc+PxPl2:%>ынт K ;
-+Sg+Lat+PxPl2:%>ынн K ;
-+Sg+Abl+PxPl2:%>ынныл K ;
-+Sg+Ins+PxPl2:%>ынтыл K ;
-
-LEXICON SG_PXPL2_LONG_PLUS
-+Sg+Nom+PxPl2:%>ы̄н K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
-+Sg+Loc+PxPl2:%>ы̄нт K ;
-+Sg+Lat+PxPl2:%>ы̄нн K ;
-+Sg+Abl+PxPl2:%>ы̄нныл K ;
-+Sg+Ins+PxPl2:%>ы̄нтыл K ;
-
-LEXICON SG_PXPL2_SHORT
-+Sg+Nom+PxPl2:%>ын K ; ! note distinction between PxPl2 and Lat
-+Sg+Loc+PxPl2:%>ынт K ;
++Sg+Loc+PxPl2:%>ынт K ;! note distinction between PxPl2 and Lat, really?2023_05_02
 +Sg+Lat+PxPl2:%>ынн K ;
 +Sg+Abl+PxPl2:%>ынныл K ;
 +Sg+Ins+PxPl2:%>ынтыл K ;
@@ -472,35 +497,49 @@ LEXICON DU_PXDU1_LONG
 +Du+Abl+PxDu1:%>%{аяØ%}гуме̄нныл K ;
 +Du+Ins+PxDu1:%>%{аяØ%}гуме̄нтыл K ;
 
-LEXICON DU_PXDU1_SHORT
+LEXICON DU_PXDU1_ajagamen
 +Du+Nom+PxDu1:%>%{аяØ%}гамен K ;
 +Du+Loc+PxDu1:%>%{аяØ%}гамент K ;
 +Du+Lat+PxDu1:%>%{аяØ%}гаменн K ;
 +Du+Abl+PxDu1:%>%{аяØ%}гаменныл K ;
 +Du+Ins+PxDu1:%>%{аяØ%}гаментыл K ;
 
-LEXICON DU_PXDU2_SYNC
+LEXICON DU_PXDU1_ajagameen
++Du+Nom+PxDu1:%>%{аяØ%}гаме̄н K ;
++Du+Loc+PxDu1:%>%{аяØ%}гаме̄нт K ;
++Du+Lat+PxDu1:%>%{аяØ%}гаме̄нн K ;
++Du+Abl+PxDu1:%>%{аяØ%}гаме̄нныл K ;
++Du+Ins+PxDu1:%>%{аяØ%}гаме̄нтыл K ;
+
+LEXICON DU_PXDU1_ajagmen
++Du+Nom+PxDu1:%>%{аяØ%}гмен K ;
++Du+Loc+PxDu1:%>%{аяØ%}гмент K ;
++Du+Lat+PxDu1:%>%{аяØ%}гменн K ;
++Du+Abl+PxDu1:%>%{аяØ%}гменныл K ;
++Du+Ins+PxDu1:%>%{аяØ%}гментыл K ;
+
+LEXICON DU_PXDU2_ajagyyn
 +Du+Nom+PxDu2:%>%{аяØ%}гы̄н K ;
 +Du+Loc+PxDu2:%>%{аяØ%}гы̄нт K ;
 +Du+Lat+PxDu2:%>%{аяØ%}гы̄нн K ;
 +Du+Abl+PxDu2:%>%{аяØ%}гы̄нныл K ;
 +Du+Ins+PxDu2:%>%{аяØ%}гы̄нтыл K ;
 
-LEXICON DU_PXDU2_LONG
+LEXICON DU_PXDU2_ajagyn
 +Du+Nom+PxDu2:%>%{аяØ%}гын K ;
 +Du+Loc+PxDu2:%>%{аяØ%}гынт K ;
 +Du+Lat+PxDu2:%>%{аяØ%}гынн K ;
 +Du+Abl+PxDu2:%>%{аяØ%}гынныл K ;
 +Du+Ins+PxDu2:%>%{аяØ%}гынтыл K ;
 
-LEXICON DU_PXDU2_SHORT
-+Du+Nom+PxDu2:%>%{аяØ%}ген K ;
-+Du+Loc+PxDu2:%>%{аяØ%}гент K ;
-+Du+Lat+PxDu2:%>%{аяØ%}генн K ;
-+Du+Abl+PxDu2:%>%{аяØ%}генныл K ;
-+Du+Ins+PxDu2:%>%{аяØ%}гентыл K ;
+!LEXICON DU_PXDU2_SHORT
+!+Du+Nom+PxDu2:%>%{аяØ%}ген K ;
+!+Du+Loc+PxDu2:%>%{аяØ%}гент K ;
+!+Du+Lat+PxDu2:%>%{аяØ%}генн K ;
+!+Du+Abl+PxDu2:%>%{аяØ%}генныл K ;
+!+Du+Ins+PxDu2:%>%{аяØ%}гентыл K ;
 
-LEXICON DU_PXDU3_SYNC
+LEXICON DU_PXDU3_ajageen
 +Du+Nom+PxDu3:%>%{аяØ%}ге̄н K ;
 +Du+Loc+PxDu3:%>%{аяØ%}ге̄нт K ;
 +Du+Lat+PxDu3:%>%{аяØ%}ге̄нн K ;
@@ -514,40 +553,33 @@ LEXICON DU_PXDU3_LONG
 +Du+Abl+PxDu3:%>%{аяØ%}генныл K ;
 +Du+Ins+PxDu3:%>%{аяØ%}гентыл K ;
 
-LEXICON DU_PXDU3_SHORT
+LEXICON DU_PXDU3_ajagen
 +Du+Nom+PxDu3:%>%{аяØ%}ген K ;
 +Du+Loc+PxDu3:%>%{аяØ%}гент K ;
 +Du+Lat+PxDu3:%>%{аяØ%}генн K ;
 +Du+Abl+PxDu3:%>%{аяØ%}генныл K ;
 +Du+Ins+PxDu3:%>%{аяØ%}гентыл K ;
 
-LEXICON DU_PXPL2_SYNC
+LEXICON DU_PXPL2_ajagyyn
 +Du+Nom+PxPl2:%>%{аяØ%}гы̄н K ;
 +Du+Loc+PxPl2:%>%{аяØ%}гы̄нт K ;
 +Du+Lat+PxPl2:%>%{аяØ%}гы̄нн K ;
 +Du+Abl+PxPl2:%>%{аяØ%}гы̄нныл K ;
 +Du+Ins+PxPl2:%>%{аяØ%}гы̄нтыл K ;
 
-LEXICON DU_PXPL2_LONG
+LEXICON DU_PXPL2_ajagyn
 +Du+Nom+PxPl2:%>%{аяØ%}гын K ;
 +Du+Loc+PxPl2:%>%{аяØ%}гынт K ;
 +Du+Lat+PxPl2:%>%{аяØ%}гынн K ;
 +Du+Abl+PxPl2:%>%{аяØ%}гынныл K ;
 +Du+Ins+PxPl2:%>%{аяØ%}гынтыл K ;
 
-LEXICON DU_PXPL2_LONG_PLUS
-+Du+Nom+PxPl2:%>%{аяØ%}гы̄н K ;
-+Du+Loc+PxPl2:%>%{аяØ%}гы̄нт K ;
-+Du+Lat+PxPl2:%>%{аяØ%}гы̄нн K ;
-+Du+Abl+PxPl2:%>%{аяØ%}гы̄нныл K ;
-+Du+Ins+PxPl2:%>%{аяØ%}гы̄нтыл K ;
-
-LEXICON DU_PXPL2_SHORT
-+Du+Nom+PxPl2:%>%{аяØ%}ген K ;
-+Du+Loc+PxPl2:%>%{аяØ%}гент K ;
-+Du+Lat+PxPl2:%>%{аяØ%}генн K ;
-+Du+Abl+PxPl2:%>%{аяØ%}генныл K ;
-+Du+Ins+PxPl2:%>%{аяØ%}гентыл K ;
+!LEXICON DU_PXPL2_SHORT
+!+Du+Nom+PxPl2:%>%{аяØ%}ген K ;
+!+Du+Loc+PxPl2:%>%{аяØ%}гент K ;
+!+Du+Lat+PxPl2:%>%{аяØ%}генн K ;
+!+Du+Abl+PxPl2:%>%{аяØ%}генныл K ;
+!+Du+Ins+PxPl2:%>%{аяØ%}гентыл K ;
 
 LEXICON PL_PXDU1_SYNC
 +Pl+Nom+PxDu1:%>%{аяØ%}нме̄н K ;
@@ -563,35 +595,49 @@ LEXICON PL_PXDU1_LONG
 +Pl+Abl+PxDu1:%>%{аяØ%}нме̄нныл K ;
 +Pl+Ins+PxDu1:%>%{аяØ%}нме̄нтыл K ;
 
-LEXICON PL_PXDU1_SHORT
+LEXICON PL_PXDU1_ajanamen
 +Pl+Nom+PxDu1:%>%{аяØ%}намен K ;
 +Pl+Loc+PxDu1:%>%{аяØ%}намент K ;
 +Pl+Lat+PxDu1:%>%{аяØ%}наменн K ;
 +Pl+Abl+PxDu1:%>%{аяØ%}наменныл K ;
 +Pl+Ins+PxDu1:%>%{аяØ%}наментыл K ;
 
-LEXICON PL_PXDU2_SYNC
+LEXICON PL_PXDU1_ajanameen
++Pl+Nom+PxDu1:%>%{аяØ%}наме̄н K ;
++Pl+Loc+PxDu1:%>%{аяØ%}наме̄нт K ;
++Pl+Lat+PxDu1:%>%{аяØ%}наме̄нн K ;
++Pl+Abl+PxDu1:%>%{аяØ%}наме̄нныл K ;
++Pl+Ins+PxDu1:%>%{аяØ%}наме̄нтыл K ;
+
+LEXICON PL_PXDU2_ajanyyn
 +Pl+Nom+PxDu2:%>%{аяØ%}ны̄н K ;
 +Pl+Loc+PxDu2:%>%{аяØ%}ны̄нт K ;
 +Pl+Lat+PxDu2:%>%{аяØ%}ны̄нн K ;
 +Pl+Abl+PxDu2:%>%{аяØ%}ны̄нныл K ;
 +Pl+Ins+PxDu2:%>%{аяØ%}ны̄нтыл K ;
 
-LEXICON PL_PXDU2_LONG
+LEXICON PL_PXDU2_ajanyn
 +Pl+Nom+PxDu2:%>%{аяØ%}нын K ;
 +Pl+Loc+PxDu2:%>%{аяØ%}нынт K ;
 +Pl+Lat+PxDu2:%>%{аяØ%}нынн K ;
 +Pl+Abl+PxDu2:%>%{аяØ%}нынныл K ;
 +Pl+Ins+PxDu2:%>%{аяØ%}нынтыл K ;
 
-LEXICON PL_PXDU2_SHORT
-+Pl+Nom+PxDu2:%>%{аяØ%}нэн K ;
-+Pl+Loc+PxDu2:%>%{аяØ%}нэнт K ;
-+Pl+Lat+PxDu2:%>%{аяØ%}нэнн K ;
-+Pl+Abl+PxDu2:%>%{аяØ%}нэнныл K ;
-+Pl+Ins+PxDu2:%>%{аяØ%}нэнтыл K ;
+LEXICON PL_PXDU2_ajan
++Pl+Nom+PxDu2:%>%{аяØ%}н K ;
++Pl+Loc+PxDu2:%>%{аяØ%}нт K ;
++Pl+Lat+PxDu2:%>%{аяØ%}нн K ;
++Pl+Abl+PxDu2:%>%{аяØ%}нныл K ;
++Pl+Ins+PxDu2:%>%{аяØ%}нтыл K ;
 
-LEXICON PL_PXDU3_SYNC
+!LEXICON PL_PXDU2_SHORT
+!+Pl+Nom+PxDu2:%>%{аяØ%}нэн K ;
+!+Pl+Loc+PxDu2:%>%{аяØ%}нэнт K ;
+!+Pl+Lat+PxDu2:%>%{аяØ%}нэнн K ;
+!+Pl+Abl+PxDu2:%>%{аяØ%}нэнныл K ;
+!+Pl+Ins+PxDu2:%>%{аяØ%}нэнтыл K ;
+
+LEXICON PL_PXDU3_ajaneen
 +Pl+Nom+PxDu3:%>%{аяØ%}нэ̄н K ;
 +Pl+Loc+PxDu3:%>%{аяØ%}нэ̄нт K ;
 +Pl+Lat+PxDu3:%>%{аяØ%}нэ̄нн K ;
@@ -605,52 +651,37 @@ LEXICON PL_PXDU3_LONG
 +Pl+Abl+PxDu3:%>%{аяØ%}нэнныл K ;
 +Pl+Ins+PxDu3:%>%{аяØ%}нэнтыл K ;
 
-LEXICON PL_PXDU3_SHORT
+LEXICON PL_PXDU3_ajanen
 +Pl+Nom+PxDu3:%>%{аяØ%}нэн K ;
 +Pl+Loc+PxDu3:%>%{аяØ%}нэнт K ;
 +Pl+Lat+PxDu3:%>%{аяØ%}нэнн K ;
 +Pl+Abl+PxDu3:%>%{аяØ%}нэнныл K ;
 +Pl+Ins+PxDu3:%>%{аяØ%}нэнтыл K ;
 
-LEXICON PL_PXPL2_SYNC
+LEXICON PL_PXPL2_ajan
 +Pl+Nom+PxPl2:%>%{аяØ%}н K ;
 +Pl+Loc+PxPl2:%>%{аяØ%}нт K ;
 +Pl+Lat+PxPl2:%>%{аяØ%}нн K ;
 +Pl+Abl+PxPl2:%>%{аяØ%}нныл K ;
 +Pl+Ins+PxPl2:%>%{аяØ%}нтыл K ;
 
-LEXICON PL_PXPL2_SYNC_PLUS
+LEXICON PL_PXPL2_ajanyyn
 +Pl+Nom+PxPl2:%>%{аяØ%}ны̄н K ;
 +Pl+Loc+PxPl2:%>%{аяØ%}ны̄нт K ;
 +Pl+Lat+PxPl2:%>%{аяØ%}ны̄нн K ;
 +Pl+Abl+PxPl2:%>%{аяØ%}ны̄нныл K ;
 +Pl+Ins+PxPl2:%>%{аяØ%}ны̄нтыл K ;
 
-
-LEXICON PL_PXPL2_LONG
-+Pl+Nom+PxPl2:%>%{аяØ%}н K ;
-+Pl+Loc+PxPl2:%>%{аяØ%}нт K ;
-+Pl+Lat+PxPl2:%>%{аяØ%}нн K ;
-+Pl+Abl+PxPl2:%>%{аяØ%}нныл K ;
-+Pl+Ins+PxPl2:%>%{аяØ%}нтыл K ;
-
-LEXICON PL_PXPL2_LONG_PLUS
+LEXICON PL_PXPL2_ajanyn
 +Pl+Nom+PxPl2:%>%{аяØ%}нын K ;
 +Pl+Loc+PxPl2:%>%{аяØ%}нынт K ;
 +Pl+Lat+PxPl2:%>%{аяØ%}нынн K ;
 +Pl+Abl+PxPl2:%>%{аяØ%}нынныл K ;
 +Pl+Ins+PxPl2:%>%{аяØ%}нынтыл K ;
 
-LEXICON PL_PXPL2_LONG_PLUSPLUS
-+Pl+Nom+PxPl2:%>%{аяØ%}ны̄н K ;
-+Pl+Loc+PxPl2:%>%{аяØ%}ны̄нт K ;
-+Pl+Lat+PxPl2:%>%{аяØ%}ны̄нн K ;
-+Pl+Abl+PxPl2:%>%{аяØ%}ны̄нныл K ;
-+Pl+Ins+PxPl2:%>%{аяØ%}ны̄нтыл K ;
-
-LEXICON PL_PXPL2_SHORT
-+Pl+Nom+PxPl2:%>%{аяØ%}нэн K ;
-+Pl+Loc+PxPl2:%>%{аяØ%}нэнт K ;
-+Pl+Lat+PxPl2:%>%{аяØ%}нэнн K ;
-+Pl+Abl+PxPl2:%>%{аяØ%}нэнныл K ;
-+Pl+Ins+PxPl2:%>%{аяØ%}нэнтыл K ;
+!LEXICON PL_PXPL2_ajanen
+!+Pl+Nom+PxPl2:%>%{аяØ%}нэн K ;
+!+Pl+Loc+PxPl2:%>%{аяØ%}нэнт K ;
+!+Pl+Lat+PxPl2:%>%{аяØ%}нэнн K ;
+!+Pl+Abl+PxPl2:%>%{аяØ%}нэнныл K ;
+!+Pl+Ins+PxPl2:%>%{аяØ%}нэнтыл K ;
