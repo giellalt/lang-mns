@@ -609,11 +609,19 @@ LEXICON V_NSSU о̄ньщуӈкве
 * **LEXICON V11_MUTUAL** 
 	* **LEXICON V11_MUTUAL-IND**  
 
+	* **LEXICON ACT_IND_VU**  
+
 	* **LEXICON V11_MUTUAL-COND** 
+
+	* **LEXICON ACT_COND_VU** 
 
 	* **LEXICON V11_MUTUAL-IMPRT**  
 
+	* **LEXICON ACT_IMPRT_VU**  
+
 	* **LEXICON V11_MUTUAL_PASS_PRS**  
+
+	* **LEXICON PASS_PRS_VU**  
 
 **LEXICON PASS_COND_VU** contains all forms
 **LEXICON PASS_COND_VU** contains all forms
