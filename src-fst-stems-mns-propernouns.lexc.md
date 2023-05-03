@@ -6,9 +6,9 @@ added to the xml source files.
 
 **LEXICON PROP_MANSINAMES**
 
-Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
-Лука+N+Prop+Sem/Mal:Лука N1_ ;
-Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N_VCH ;
+Лука+N+Prop+Sem/Mal:Лука N_VO ;
+Кристос+N+Prop+Sem/Mal:Кристос N_VCH ;
 ...
 
 ADD PROPER NOUNS BELOW

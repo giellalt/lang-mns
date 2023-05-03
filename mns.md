@@ -562,7 +562,7 @@ and Mansi-specific names.
 
 **LEXICON PROP_KUDO_SURFEM** 
 
-**LEXICON PROP**  The only lexicon is `PROP`, it goes to K via singular cases.
+**LEXICON PROP_KUDO_SURFEM**  The only lexicon is `PROP`, it goes to K via singular cases.
 
 **LEXICON PROP-PATR-MAL_END-IN-CH/DZ** = the content is just there to make the fst compile.
 
@@ -1278,9 +1278,9 @@ added to the xml source files.
 
 **LEXICON PROP_MANSINAMES**
 
-Ӣсус+N+Prop+Sem/Mal:Ӣсус N1_ ;
-Лука+N+Prop+Sem/Mal:Лука N1_ ;
-Кристос+N+Prop+Sem/Mal:Кристос N1_ ;
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N_VCH ;
+Лука+N+Prop+Sem/Mal:Лука N_VO ;
+Кристос+N+Prop+Sem/Mal:Кристос N_VCH ;
 ...
 
 ADD PROPER NOUNS BELOW

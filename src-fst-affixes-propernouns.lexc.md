@@ -6,7 +6,7 @@ and Mansi-specific names.
 
 **LEXICON PROP_KUDO_SURFEM** 
 
-**LEXICON PROP**  The only lexicon is `PROP`, it goes to K via singular cases.
+**LEXICON PROP_KUDO_SURFEM**  The only lexicon is `PROP`, it goes to K via singular cases.
 
 **LEXICON PROP-PATR-MAL_END-IN-CH/DZ** = the content is just there to make the fst compile.
 
