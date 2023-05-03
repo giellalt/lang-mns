@@ -83,7 +83,7 @@ language are presented in this system in terms of the following symbols.
 * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3** Verb subject conjugation
 * **+OcSg3 +OcDu3 +OcPl3** Verb object conjugation
 * **+Ind +Prs +Prt +Pot +Cond +Imprt +Evid** Verb moods 
-* **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass** infinite verbforms
+* **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass +Act** infinite verbforms
 * **+TV +IV** for transitive, intransitive
 * **+Trans** hmm, Trans and TV?
 
