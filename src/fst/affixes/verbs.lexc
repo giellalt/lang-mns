@@ -58,6 +58,7 @@ LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
 LEXICON V_U
 !! **LEXICON @LEXNAME@** 
 +Inf:%{VU%}%>%{уюØ%}ӈкве K ;
++Inf+Err/Orth:%{VU%}%>%{уюØ%}ӈкв K ;
 +PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
 +PrfPrc:%{VU%}%>%{уюØ%}м # ;
@@ -79,6 +80,7 @@ LEXICON V_U
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
 +Inf:%{VA%}%>%{аяØ%}ӈкве K ;
++Inf+Err/Orth:%{VA%}%>%{аяØ%}ӈкв K ;
 +PrsPrc:a%>нэ # ; ! This will need some variants with onset vowel.
 +PrsPrc:a%>н # ; ! This will need some variants with onset vowel.
 :%{VA%} V11_MUTUAL ;
