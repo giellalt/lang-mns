@@ -218,6 +218,7 @@ LEXICON ACT_IND_VU
 +Act+Ind+Prs+ScDu3+OcPl3:%>%{ЫИ%}янэ̄н K ;
 !ӈкве+V+Act+Ind+Prs+ScDu1+OcDu3+Act+Ind+Prs+ScDu3+OcPl3:%>%{ЫИ%}янэ̄н K ;!CHECKME2023_04_29
 +Act+Ind+Prs+ScPl1+OcPl3:%>%{ЫИ%}янув K ;
++Act+Ind+Prs+ScPl1+OcPl3:%>%{ЫИ%}янӯв K ;!тотыянӯв
 +Act+Ind+Prs+ScPl2+OcPl3:%>%{ЫИ%}яны̄н K ;
 +Act+Ind+Prs+ScPl2+OcPl3:%>%{ЫИ%}ян K ;
 +Act+Ind+Prs+ScPl2+OcPl3:%>%{ЫИ%}янын K ;
@@ -547,7 +548,7 @@ LEXICON V11_MUTUAL_PASS_PRT
 +Pass+Ind+Prt+ScPl2:%>весын K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;
 
-LEXICON PASS_PRT_VU
+LEXICON PASS_PRT_VU !this could be common to both
 +Pass+Ind+Prt+ScSg1:%>ве̄сум K ;
 +Pass+Ind+Prt+ScSg2:%>ве̄сын K ;
 +Pass+Ind+Prt+ScSg3:%>вес K ;
@@ -562,7 +563,7 @@ LEXICON PASS_PRT_VU
 +Pass+Ind+Prt+ScPl2:%>весын K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;
 
-LEXICON PASS_COND_VU
+LEXICON PASS_COND_VU !common to both
 +Pass+Cond+ScSg1:%>нувем K ;
 +Pass+Cond+ScSg1:%>нӯвем K ;
 +Pass+Cond+ScSg2:%>нӯвен K ;
