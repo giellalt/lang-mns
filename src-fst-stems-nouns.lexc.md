@@ -1,6 +1,6 @@
 # Mansi Noun stems
 
-## The continuiation lexica
+## The continuation lexica
 
 Explaining the contlex naming convention:
 - V = Vowel, C = Consonant
