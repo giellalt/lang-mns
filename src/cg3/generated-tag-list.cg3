@@ -5,6 +5,7 @@
 LIST A = A ;
 LIST Abl = Abl ;
 LIST Acc = Acc ;
+LIST Act = Act ;
 LIST Actio = Actio ;
 LIST Adv = Adv ;
 LIST Arab = Arab ;

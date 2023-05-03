@@ -122,7 +122,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3  !!≈ * **@CODE@** Verb subject conjugation
  +OcSg3 +OcDu3 +OcPl3  !!≈ * **@CODE@** Verb object conjugation
  +Ind +Prs +Prt +Pot +Cond +Imprt +Evid !!≈ * **@CODE@** Verb moods 
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass  !!≈ * **@CODE@** infinite verbforms
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass +Act  !!≈ * **@CODE@** infinite verbforms
  +TV +IV  !!≈ * **@CODE@** for transitive, intransitive
  +Trans !!≈ * **@CODE@** hmm, Trans and TV?
 
