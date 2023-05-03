@@ -274,11 +274,13 @@ LEXICON ACT_IND_PRT_SC_VU
 +Act+Ind+Prt+ScSg1:%>сум K ;
 +Act+Ind+Prt+ScSg2:%>сын K ;
 +Act+Ind+Prt+ScSg3:%>ыс K ;
-+Act+Ind+Prt+ScDu1:%>суме̄н K ;
++Act+Ind+Prt+ScDu1:%>суме̄н K ;!Distinction
 +Act+Ind+Prt+ScDu2:%>сын K ;
 +Act+Ind+Prt+ScDu2:%>сы̄н K ;
 +Act+Ind+Prt+ScDu3:%>сыг K ;
++Act+Ind+Prt+ScDu3:%>сы̄г K ;!патсы̄г
 +Act+Ind+Prt+ScPl1:%>сув K ;
++Act+Ind+Prt+ScPl1:%>сӯв K ;!хассӯв
 +Act+Ind+Prt+ScPl2:%>сын K ;
 +Act+Ind+Prt+ScPl2:%>сы̄н K ;
 +Act+Ind+Prt+ScPl3:%>сыт K ;
@@ -287,24 +289,17 @@ LEXICON V11_MUTUAL_IND_PRT_SC
 +Act+Ind+Prt+ScSg1:%>сум K ;
 +Act+Ind+Prt+ScSg2:%>сын K ;
 +Act+Ind+Prt+ScSg3:%>ыс K ;
-+Act+Ind+Prt+ScDu1:%>ысме̄н K ;
++Act+Ind+Prt+ScDu1:%>ысме̄н K ;!Distinction
 +Act+Ind+Prt+ScDu2:%>сын K ;
 +Act+Ind+Prt+ScDu2:%>сы̄н K ;
 +Act+Ind+Prt+ScDu3:%>сыг K ;
++Act+Ind+Prt+ScDu3:%>сы̄г K ;!ва̄рыгласы̄г
 +Act+Ind+Prt+ScPl1:%>сув K ;
++Act+Ind+Prt+ScPl1:%>сӯв K ;!рӯпитасӯв
 +Act+Ind+Prt+ScPl2:%>сын K ;
 +Act+Ind+Prt+ScPl2:%>сы̄н K ;
 +Act+Ind+Prt+ScPl3:%>сыт K ;
 !
-!+Act+Ind+Prt+ScSg1:%>асум K ;
-!+Act+Ind+Prt+ScSg2:%>асын K ;
-!+Act+Ind+Prt+ScSg3:%>ас K ;
-!+Act+Ind+Prt+ScDu1:%>асаме̄н K ;
-!+Act+Ind+Prt+ScDu2:%>асы̄н K ;
-!+Act+Ind+Prt+ScDu3:%>асы̄г K ;
-!+Act+Ind+Prt+ScPl1:%>асӯв K ;
-!+Act+Ind+Prt+ScPl2:%>асы̄н K ;
-!+Act+Ind+Prt+ScPl3:%>асыт K ;
 
 
 !
@@ -547,6 +542,7 @@ LEXICON V11_MUTUAL_PASS_PRT
 +Pass+Ind+Prt+ScDu2:%>весын K ;
 +Pass+Ind+Prt+ScDu3:%>весы̄г K ;
 +Pass+Ind+Prt+ScPl1:%>весув K ;
++Pass+Ind+Prt+ScPl1:%>весӯв K ;!янытлавесӯв
 +Pass+Ind+Prt+ScPl2:%>весы̄н K ;
 +Pass+Ind+Prt+ScPl2:%>весын K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;
@@ -561,6 +557,7 @@ LEXICON PASS_PRT_VU
 +Pass+Ind+Prt+ScDu2:%>весын K ;
 +Pass+Ind+Prt+ScDu3:%>весы̄г K ;
 +Pass+Ind+Prt+ScPl1:%>весув K ;
++Pass+Ind+Prt+ScPl1:%>весӯв K ;!тотвесӯв
 +Pass+Ind+Prt+ScPl2:%>весы̄н K ;
 +Pass+Ind+Prt+ScPl2:%>весын K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;
