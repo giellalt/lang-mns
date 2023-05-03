@@ -260,7 +260,8 @@ LEXICON ACT_IND_VU
 +Act+Ind+Prt+ScDu2+OcPl3:%>сан K ;
 +Act+Ind+Prt+ScDu2+OcPl3:%>санын K ;
 +Act+Ind+Prt+ScDu3+OcPl3:%>санэ̄н K ;
-+Act+Ind+Prt+ScPl1+OcPl3:%>санув K ;
++Act+Ind+Prt+ScPl1+OcPl3:%>санув K ;!
++Act+Ind+Prt+ScPl1+OcPl3:%>санӯв K ;!по̄слысанӯв
 +Act+Ind+Prt+ScPl2+OcPl3:%>саны̄н K ;
 +Act+Ind+Prt+ScPl2+OcPl3:%>санын K ;
 +Act+Ind+Prt+ScPl2+OcPl3:%>сан K ;
@@ -314,6 +315,7 @@ LEXICON V11_MUTUAL_IND_PRT_OC3
 +Act+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н K ;
 +Act+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н K ;
 +Act+Ind+Prt+ScPl1+OcSg3:%>ыслув K ;
++Act+Ind+Prt+ScPl1+OcSg3:%>ыслӯв K ;!20230503JR
 +Act+Ind+Prt+ScPl2+OcSg3:%>ыслын K ;
 +Act+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н K ;
 +Act+Ind+Prt+ScPl3+OcSg3:%>саныл K ;
@@ -341,7 +343,8 @@ LEXICON V11_MUTUAL_IND_PRT_OC3
 +Act+Ind+Prt+ScDu2+OcPl3:%>санын K ;
 +Act+Ind+Prt+ScDu2+OcPl3:%>сан K ;
 +Act+Ind+Prt+ScDu3+OcPl3:%>санэ̄н K ;
-+Act+Ind+Prt+ScPl1+OcPl3:%>санув K ;
++Act+Ind+Prt+ScPl1+OcPl3:%>санув K ;!
++Act+Ind+Prt+ScPl1+OcPl3:%>санӯв K ;!20230503 атыгласанӯв
 +Act+Ind+Prt+ScPl2+OcPl3:%>саны̄н K ;
 +Act+Ind+Prt+ScPl2+OcPl3:%>санын K ;
 +Act+Ind+Prt+ScPl2+OcPl3:%>сан K ;
@@ -356,7 +359,8 @@ LEXICON ACT_IND_PRT_OCSG3_VU
 +Act+Ind+Prt+ScDu2+OcSg3:ыслын K ;
 +Act+Ind+Prt+ScDu2+OcSg3:ыслы̄н K ;
 +Act+Ind+Prt+ScDu3+OcSg3:ыстэ̄н K ;
-+Act+Ind+Prt+ScPl1+OcSg3:ыслув K ;
++Act+Ind+Prt+ScPl1+OcSg3:ыслув K ;!
++Act+Ind+Prt+ScPl1+OcSg3:ыслӯв K ;!ва̄рыслӯв
 +Act+Ind+Prt+ScPl2+OcSg3:ыслын K ;
 +Act+Ind+Prt+ScPl2+OcSg3:ыслы̄н K ;
 +Act+Ind+Prt+ScPl3+OcSg3:саныл K ;
