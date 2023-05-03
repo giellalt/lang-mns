@@ -37,6 +37,7 @@ language are presented in this system in terms of the following symbols.
 * **+Pcle**  
 * **+Num**  
 * **+Prc**  
+* **+Det**  
 
 ### The parts of speech are further split up into:
 

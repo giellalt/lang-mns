@@ -17,6 +17,7 @@ All documents in one file
 
 * LIST N = N ;
 * LIST Sg = Sg ;
+* LIST Du = Du ;
 * LIST Pl = Pl ;
 * LIST Nom = Nom ;
 * LIST Acc = Acc ;
@@ -78,6 +79,7 @@ All documents in one file
 * LIST Pron = Pron ;
 * LIST Pers = Pers ;
 * LIST Dem = Dem ;
+* LIST Det = Det ;
 * LIST Interr = Interr ;
 * LIST Rel = Rel ;
 * LIST Po = Po ;
@@ -262,6 +264,16 @@ Still no rules written.
 ### Cycle 2: Slightly less local context
 
 Still no rules written. 
+
+## Number rules
+
+### Dual
+
+## NP rules
+
+### Attributive
+
+Determiner
 
 ### Cycle 3: Global disambiguation 
 Still no rules written. 
@@ -987,6 +999,7 @@ language are presented in this system in terms of the following symbols.
 * **+Pcle**  
 * **+Num**  
 * **+Prc**  
+* **+Det**  
 
 ### The parts of speech are further split up into:
 
@@ -1407,6 +1420,12 @@ The file lists personal pronouns and their lemma + tags.
 
 **LEXICON Pronouns** is the lexicon, pointing to
 * personal ;
+
+* LEXICON determiners
+
+* LEXICON interrogatives
+
+* LEXICON indefinites
 
 **LEXICON personal** contains the forms
 * ам+Pron+Pers+Sg1+Nom:ам # ; 

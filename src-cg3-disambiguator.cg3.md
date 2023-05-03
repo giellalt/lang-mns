@@ -13,6 +13,7 @@
 
 * LIST N = N ;
 * LIST Sg = Sg ;
+* LIST Du = Du ;
 * LIST Pl = Pl ;
 * LIST Nom = Nom ;
 * LIST Acc = Acc ;
@@ -74,6 +75,7 @@
 * LIST Pron = Pron ;
 * LIST Pers = Pers ;
 * LIST Dem = Dem ;
+* LIST Det = Det ;
 * LIST Interr = Interr ;
 * LIST Rel = Rel ;
 * LIST Po = Po ;
@@ -258,6 +260,16 @@ Still no rules written.
 ### Cycle 2: Slightly less local context
 
 Still no rules written. 
+
+## Number rules
+
+### Dual
+
+## NP rules
+
+### Attributive
+
+Determiner
 
 ### Cycle 3: Global disambiguation 
 Still no rules written. 
