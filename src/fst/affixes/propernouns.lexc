@@ -5,10 +5,13 @@
 !! It will contain two parts: A general Russian name base
 !! and Mansi-specific names.
 
+!LEXICON PROP-PLC_KUDO
+!N_VO ;
+
 LEXICON PROP_KUDO_SURFEM
 !! **LEXICON @LEXNAME@** 
-+Sem/Sur: PROP ;
-+Sem/Fem: PROP ;
++Sem/Sur: N_VO ;
++Sem/Fem: N_VO ;
 
 LEXICON PROP 
 !! **LEXICON @LEXNAME@**  The only lexicon is `PROP`, it goes to K via singular cases.
