@@ -60,7 +60,6 @@
 
 !! ## The lexicon
 LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
-!:%{VI%} N1_ ;
 :%{VI%} N1_SG ;
 :%{VI%} N1_DU ;
 :%{VI%} N1_PL ;
@@ -417,10 +416,149 @@ LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгу
 :%{VCCH%} DU_PXDU1_ajagamen ;
 
 LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
-:%{VCS%} N1_ ;
++Sg+Nom:%{VCS%} K ;
++Sg+Loc:%{VCS%}%>т K ; !
++Sg+Lat:%{VCS%}%>н K ; !
++Sg+Abl:%{VCS%}%>ныл K ;
++Sg+Ins:%{VCS%}%>ыл K ; !
++Sg+Tra:%{VCS%}%>ыг K ;!
+:%{VCS%} SG_PXSG1_ujum ;
+:%{VCS%} SG_PXSG2_yn ;
+:%{VCS%} SG_PXSG3_te ;
+:%{VCS%} SG_PXSG3_tee ;
+:%{VCS%} SG_PXPL1_ujuv ;
+:%{VCS%} SG_PXPL3_ajanyl ;
+:%{VCS%} N1_DU ;
+:%{VCS%} N1_PL ;
+
+:%{VCS%} SG_PXDU2_yyn ;
+:%{VCS%} SG_PXDU2_yn ;
+:%{VCS%} SG_PXDU3_een ;
+:%{VCS%} SG_PXDU3_en ;
+:%{VCS%} SG_PXPL2_yn ;
+:%{VCS%} SG_PXPL2_yyn ;
+
+:%{VCS%} DU_PXDU1_ajagmeen ;
+:%{VCS%} DU_PXDU2_ajagyyn ;
+:%{VCS%} DU_PXDU2_ajagyn ;
+:%{VCS%} DU_PXDU3_ajageen ;
+:%{VCS%} DU_PXDU3_ajagen ;
+:%{VCS%} DU_PXPL2_ajagyyn ;
+:%{VCS%} DU_PXPL2_ajagyn ;
+
+:%{VCS%} PL_PXDU1_ajanameen ;
+:%{VCS%} PL_PXDU1_ajanamen ;
+:%{VCS%} PL_PXDU2_ajanyyn ;
+:%{VCS%} PL_PXDU2_ajanyn ;
+:%{VCS%} PL_PXDU2_ajan ;
+:%{VCS%} PL_PXDU3_ajaneen ;
+:%{VCS%} PL_PXDU3_ajanen ;
+:%{VCS%} PL_PXPL2_ajan ;
+:%{VCS%} PL_PXPL2_ajanyn ;
+:%{VCS%} PL_PXPL2_ajanyyn ;
+
+:%{VCS%} SG_PXSG3OBLIQ_e ;
+:%{VCS%} SG_PXSG3OBLIQ_ee ;
+:%{VCS%} SG_PXDU1_meen ;
+:%{VCS%} SG_PXDU1_men ;
+:%{VCS%} DU_PXDU1_ajagameen ;
+:%{VCS%} DU_PXDU1_ajagamen ;
++Sg+Nom:%{VCS%} K ;
++Sg+Loc:%{VCS%}%>т K ; !
++Sg+Lat:%{VCS%}%>н K ; !
++Sg+Abl:%{VCS%}%>ныл K ;
++Sg+Ins:%{VCS%}%>ыл K ; !
++Sg+Tra:%{VCS%}%>ыг K ;!
+:%{VCS%} SG_PXSG1_ujum ;
+:%{VCS%} SG_PXSG2_yn ;
+:%{VCS%} SG_PXSG3_te ;
+:%{VCS%} SG_PXSG3_tee ;
+:%{VCS%} SG_PXPL1_ujuv ;
+:%{VCS%} SG_PXPL3_ajanyl ;
+:%{VCS%} N1_DU ;
+:%{VCS%} N1_PL ;
+
+:%{VCS%} SG_PXDU2_yyn ;
+:%{VCS%} SG_PXDU2_yn ;
+:%{VCS%} SG_PXDU3_een ;
+:%{VCS%} SG_PXDU3_en ;
+:%{VCS%} SG_PXPL2_yn ;
+:%{VCS%} SG_PXPL2_yyn ;
+
+:%{VCS%} DU_PXDU1_ajagmeen ;
+:%{VCS%} DU_PXDU2_ajagyyn ;
+:%{VCS%} DU_PXDU2_ajagyn ;
+:%{VCS%} DU_PXDU3_ajageen ;
+:%{VCS%} DU_PXDU3_ajagen ;
+:%{VCS%} DU_PXPL2_ajagyyn ;
+:%{VCS%} DU_PXPL2_ajagyn ;
+
+:%{VCS%} PL_PXDU1_ajanameen ;
+:%{VCS%} PL_PXDU1_ajanamen ;
+:%{VCS%} PL_PXDU2_ajanyyn ;
+:%{VCS%} PL_PXDU2_ajanyn ;
+:%{VCS%} PL_PXDU2_ajan ;
+:%{VCS%} PL_PXDU3_ajaneen ;
+:%{VCS%} PL_PXDU3_ajanen ;
+:%{VCS%} PL_PXPL2_ajan ;
+:%{VCS%} PL_PXPL2_ajanyn ;
+:%{VCS%} PL_PXPL2_ajanyyn ;
+
+:%{VCS%} SG_PXSG3OBLIQ_e ;
+:%{VCS%} SG_PXSG3OBLIQ_ee ;
+:%{VCS%} SG_PXDU1_meen ;
+:%{VCS%} SG_PXDU1_men ;
+:%{VCS%} DU_PXDU1_ajagameen ;
+:%{VCS%} DU_PXDU1_ajagamen ;
 
 LEXICON N_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
-:%{VCCS%} N1_ ;
++Sg+Nom:%{VCCS%} K ;
++Sg+Loc:%{VCCS%}%>ыт K ; !
++Sg+Lat:%{VCCS%}%>ын K ; !
++Sg+Abl:%{VCCS%}%>ныл K ;
++Sg+Ins:%{VCCS%}%>ыл K ; !
++Sg+Tra:%{VCCS%}%>ыг K ;!
+:%{VCCS%} SG_PXSG1_ujum ;
+:%{VCCS%} SG_PXSG2_yn ;
+:%{VCCS%} SG_PXSG3_te ;
+:%{VCCS%} SG_PXSG3_tee ;
+:%{VCCS%} SG_PXPL1_ujuv ;
+:%{VCCS%} SG_PXPL3_ajanyl ;
+:%{VCCS%} N1_DU ;
+:%{VCCS%} N1_PL ;
+
+:%{VCCS%} SG_PXDU2_yyn ;
+:%{VCCS%} SG_PXDU2_yn ;
+:%{VCCS%} SG_PXDU3_een ;
+:%{VCCS%} SG_PXDU3_en ;
+:%{VCCS%} SG_PXPL2_yn ;
+:%{VCCS%} SG_PXPL2_yyn ;
+
+:%{VCCS%} DU_PXDU1_ajagmeen ;
+:%{VCCS%} DU_PXDU2_ajagyyn ;
+:%{VCCS%} DU_PXDU2_ajagyn ;
+:%{VCCS%} DU_PXDU3_ajageen ;
+:%{VCCS%} DU_PXDU3_ajagen ;
+:%{VCCS%} DU_PXPL2_ajagyyn ;
+:%{VCCS%} DU_PXPL2_ajagyn ;
+
+:%{VCCS%} PL_PXDU1_ajanameen ;
+:%{VCCS%} PL_PXDU1_ajanamen ;
+:%{VCCS%} PL_PXDU2_ajanyyn ;
+:%{VCCS%} PL_PXDU2_ajanyn ;
+:%{VCCS%} PL_PXDU2_ajan ;
+:%{VCCS%} PL_PXDU3_ajaneen ;
+:%{VCCS%} PL_PXDU3_ajanen ;
+:%{VCCS%} PL_PXPL2_ajan ;
+:%{VCCS%} PL_PXPL2_ajanyn ;
+:%{VCCS%} PL_PXPL2_ajanyyn ;
+
+:%{VCCS%} SG_PXSG3OBLIQ_e ;
+:%{VCCS%} SG_PXSG3OBLIQ_ee ;
+:%{VCCS%} SG_PXDU1_meen ;
+:%{VCCS%} SG_PXDU1_men ;
+:%{VCCS%} DU_PXDU1_ajagameen ;
+:%{VCCS%} DU_PXDU1_ajagamen ;
 
 
 LEXICON N1_
