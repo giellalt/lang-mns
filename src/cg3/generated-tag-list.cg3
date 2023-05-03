@@ -13,6 +13,7 @@ LIST Attr = Attr ;
 LIST Aux = Aux ;
 LIST CC = CC ;
 LIST CLB = CLB ;
+LIST CS = CS ;
 LIST Coll = Coll ;
 LIST Comp = Comp ;
 LIST Cond = Cond ;

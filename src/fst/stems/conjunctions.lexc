@@ -8,11 +8,17 @@ LEXICON cj
 +CC: # ;
 
 
+LEXICON CS
+!! **LEXICON @LEXNAME@** for the tag +CS subjunctions, please
++CS: # ;
+
+
 !! Then comes the list of the conjunctions,
-!! so far only 3 of them.
+!! so far only 3 of them. Is is important that we distinguish CC from CS
 
 LEXICON Conjunctions
 !! **LEXICON @LEXNAME@** for the conjunctions themselves
 да cj ;
+манос cj ;
 ос cj ;
-таима̄гсыл cj ;
+таима̄гсыл CS ;
