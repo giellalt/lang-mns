@@ -48,6 +48,7 @@ LIST EOS = (<<<) (</s>); # vislcg and CG-2 together.
 
 LIST N = N ;				 #!!≈ * @CODE@
 LIST Sg = Sg ;				 #!!≈ * @CODE@
+LIST Du = Du ;				 #!!≈ * @CODE@
 LIST Pl = Pl ;				 #!!≈ * @CODE@
 LIST Nom = Nom ;			 #!!≈ * @CODE@
 LIST Acc = Acc ;			 #!!≈ * @CODE@
@@ -109,6 +110,7 @@ LIST Attr = Attr ;			 #!!≈ * @CODE@
 LIST Pron = Pron ;			 #!!≈ * @CODE@
 LIST Pers = Pers ;			 #!!≈ * @CODE@
 LIST Dem = Dem ;			 #!!≈ * @CODE@
+LIST Det = Det ;			 #!!≈ * @CODE@
 LIST Interr = Interr ;		 #!!≈ * @CODE@
 LIST Rel = Rel ;			 #!!≈ * @CODE@
 LIST Po = Po ;				 #!!≈ * @CODE@
@@ -323,6 +325,23 @@ REMOVE:Pos A + Attr IF (0 Pos)(NOT 1 A OR N)(NOT 1 CC LINK 1 A);
 
 #!! Still no rules written. 
 
+
+#!! ## Number rules
+
+#!! ### Dual
+
+REMOVE:NoDuBeforePtc Du IF (1 PrsPrc) ;
+
+#!! ## NP rules
+
+#!! ### Attributive
+
+SELECT:Attr Attr IF (NOT 0 N)(1 N) ;
+
+#!! Determiner
+
+SELECT:DetBeforeN Det IF (1 N) ;
+REMOVE:DetBeforePo Det IF (1 Po) ;
 
 #!! ### Cycle 3: Global disambiguation 
 #!! Still no rules written. 
