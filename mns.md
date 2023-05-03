@@ -938,6 +938,10 @@ __й:0__
 * *э̄ква>{тØ}ыл*
 * *э̄ква>00л*
 
+хансуӈкве+V+PrsPrc: __write/kirjoittaa__
+* *ханс{VU}>нэ*
+* *ха0с0>нэ*
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-mns/blob/main/src/fst/phonology.twolc)</small>
@@ -1245,8 +1249,10 @@ The tag is +CC
 
 **LEXICON cj** for the tag +CC
 
+**LEXICON CS** for the tag +CS subjunctions, please
+
 Then comes the list of the conjunctions,
-so far only 3 of them.
+so far only 3 of them. Is is important that we distinguish CC from CS
 
 **LEXICON Conjunctions** for the conjunctions themselves
 
