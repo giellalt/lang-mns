@@ -184,7 +184,8 @@ LEXICON ACT_IND_VU
 +Act+Ind+Prs+ScDu2+OcSg3:%>%{ЫИ%}лы̄н K ;
 +Act+Ind+Prs+ScDu3+OcSg3+Err/Orth:%>%{ЫИ%}тэн K ;
 +Act+Ind+Prs+ScDu3+OcSg3:%>%{ЫИ%}тэ̄н K ;
-+Act+Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лув K ;
++Act+Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лув K ;! 
++Act+Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лӯв K ;! JMR 20230503 and тотылӯв
 +Act+Ind+Prs+ScPl2+OcSg3:%>%{ЫИ%}лын K ;
 +Act+Ind+Prs+ScPl2+OcSg3:%>%{ЫИ%}лы̄н K ;
 +Act+Ind+Prs+ScPl3+OcSg3:%>%{ЫИ%}яныл K ;

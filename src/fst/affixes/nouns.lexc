@@ -133,7 +133,9 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 
 LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 +Sg+Nom:%{SYNCH%} K ;
++Sg+Loc:%{SYNCH%}%>т K ; !
 +Sg+Loc:%{SYNCH%}%>ыт K ; !
++Sg+Lat:%{SYNCH%}%>н K ; !
 +Sg+Lat:%{SYNCH%}%>ын K ; !
 +Sg+Abl:%{SYNCH%}%>ныл K ;
 +Sg+Ins:%{SYNCH%}%>ыл K ; !
@@ -223,8 +225,21 @@ LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 
 
 LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
-!:%{SYNCS%} N1_ ;
-:%{SYNCS%} N1_SG ;
++Sg+Nom:%{SYNCS%} K ;
++Sg+Loc:%{SYNCS%}%>т K ; !
++Sg+Loc:%{SYNCS%}%>ыт K ; !
++Sg+Lat:%{SYNCS%}%>н K ; !
++Sg+Lat:%{SYNCS%}%>ын K ; !
++Sg+Abl:%{SYNCS%}%>ныл K ;
++Sg+Ins:%{SYNCS%}%>ыл K ; !
++Sg+Tra:%{SYNCS%}%>ыг K ;!
+:%{SYNCS%} SG_PXSG1_ujum ;
+:%{SYNCS%}  SG_PXSG2_yn ;
+:%{SYNCS%}  SG_PXSG3_te ;
+:%{SYNCS%}  SG_PXSG3_tee ;
+:%{SYNCS%}  SG_PXPL1_ujuv ;
+:%{SYNCS%}  SG_PXPL3_ajanyl ;
+  
 :%{SYNCS%} N1_DU ;
 :%{SYNCS%} N1_PL ;
 
