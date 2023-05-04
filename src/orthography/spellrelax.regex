@@ -28,12 +28,12 @@
 я̄ (->) , # Luuimaa Seeripos F529
 
 # Latin look alikes have to be read because we do not use them (2019-06-14 Jaska)
-А̄ (->) Ā, #U+0100
-а̄ (->) ā, #But accepting LATIN SMALL LETTER A WITH MACRON U+0101
-Е̄ (->) Ē, #U+0112
-е̄ (->) ē, #U+0113
-О̄ (->) Ō, #U+014С
-о̄ (->) ō, #U+014В
+А̄ (->) Ā, # U+0100
+а̄ (->) ā, # But accepting LATIN SMALL LETTER A WITH MACRON U+0101
+Е̄ (->) Ē, # U+0112
+е̄ (->) ē, # U+0113
+О̄ (->) Ō, # U+014С
+о̄ (->) ō, # U+014В
 Ӣ (->) Ӣ, # precomposed (->) Cyrillic И + U+0304 
 ӣ (->) ӣ, # precomposed (->) Cyrillic и + U+0304 
 Ӯ (->) Ӯ, # precomposed (->) Cyrillic у + U+0304 
