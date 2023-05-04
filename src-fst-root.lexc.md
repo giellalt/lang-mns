@@ -156,6 +156,7 @@ source and target part-of-speech.
 * **+Der/Yshch** A» ыщ 
 * **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
 * **+Der/Ord** is this the best analysis?
+* **+Der/NomAct** м
 
 * **+Use/Circ** = 
 
