@@ -7,12 +7,15 @@
 LEXICON Adverbs
 !! **LEXICON @LEXNAME@** 
 
-а̄ти+Adv:а̄ти    ADV_ ;
+а̄ти+Adv:а̄ти    ADV_ "negative Degree adverb";
+а̄тим+Adv:а̄тим    ADV_ "Locative negation";
 воссыг+Adv:воссыг  ADV_ ;
 кон+Adv:кон     ADV_ ;
 мощща+Adv:мощща   ADV_ ;
 сака+Adv:сака    ADV_ ;
 тот+Adv:тот     ADV_ ;
+то̄внакт+v1+Adv:то̄внакт ADV_ ;
+то̄внакт+v2+Adv:то̄ванакт ADV_ ;
 туп+Adv:туп     ADV_ ;
 ул+Adv:ул      ADV_ ;
 ёмащаквег+Adv:ёмащаквег      ADV_ ;

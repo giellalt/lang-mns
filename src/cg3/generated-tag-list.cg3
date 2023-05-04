@@ -32,6 +32,7 @@ LIST Du3 = Du3 ;
 LIST Ela = Ela ;
 LIST Err/Orth = Err/Orth ;
 LIST Err/Orth-colloq = Err/Orth-colloq ;
+LIST Ger = Ger ;
 LIST Hom1 = Hom1 ;
 LIST Hom2 = Hom2 ;
 LIST Imprt = Imprt ;
