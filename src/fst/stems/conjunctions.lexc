@@ -21,5 +21,6 @@ LEXICON Conjunctions
 да cj ;
 манос cj ;
 ос cj ;
-ке CS "if" ;
+ке+v1:ке CS "if" ;
+ке+v2:те CS "if" ;
 таима̄гсыл CS ;
