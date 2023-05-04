@@ -102,7 +102,7 @@ End of alphabet definitions
  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
 * **CnsAlv = д з л н с т**
  **Д З Л Н С Т ;**
-* **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й;**
+* **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й ;**
 
 ### Definitions
 

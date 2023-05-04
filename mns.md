@@ -455,7 +455,7 @@ These were the set types.
 
 Almost no work on adjectives yet.
 
-**LEXICON A_** gets +Attr or goes to Comparisons or ADV_
+**LEXICON A_2_CMPR_ADV** gets +Attr or goes to Comparisons or ADV_
 
 **LEXICON Comparisons** gives Pos and (two!) Comp
 
@@ -760,7 +760,7 @@ End of alphabet definitions
  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
 * **CnsAlv = д з л н с т**
  **Д З Л Н С Т ;**
-* **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й;**
+* **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й ;**
 
 ### Definitions
 
@@ -1377,7 +1377,6 @@ This gives us the following stem types:
 
 * ласка+N:ласка N_VO "ласка /животное/" ;
 * ласточка+N:ласточка N_VO "ласточка" ;
-
 * тушь+N:тушь N_VCS "тушь" ; CHECKME
 
 * * *

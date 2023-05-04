@@ -58,7 +58,6 @@ This gives us the following stem types:
 
 * ласка+N:ласка N_VO "ласка /животное/" ;
 * ласточка+N:ласточка N_VO "ласточка" ;
-
 * тушь+N:тушь N_VCS "тушь" ; CHECKME
 
 * * *
