@@ -22,11 +22,35 @@ Tests:
      ам+Pron+Pers+Sg1+Abl: а̄нумныл
      ам+Pron+Pers+Sg1+Ins: а̄нумтыл
 
+     ам+Pron+Pers+Du1+Nom: ме̄н
+     ам+Pron+Pers+Du1+Acc: ме̄наме̄н
+     ам+Pron+Pers+Du1+Dat: ме̄наме̄нн
+     ам+Pron+Pers+Du1+Abl: ме̄наме̄нныл
+     ам+Pron+Pers+Du1+Ins: ме̄наме̄нтыл
+
+     ам+Pron+Pers+Pl1+Nom: ма̄н
+     ам+Pron+Pers+Pl1+Acc: ма̄нама̄н
+     ам+Pron+Pers+Pl1+Dat: ма̄нама̄нн
+     ам+Pron+Pers+Pl1+Abl: ма̄нама̄нныл
+     ам+Pron+Pers+Pl1+Ins: ма̄нама̄нтыл
+
      наӈ+Pron+Pers+Sg2+Nom: наӈ
      наӈ+Pron+Pers+Sg2+Acc: наӈын
      наӈ+Pron+Pers+Sg2+Dat: наӈынн
      наӈ+Pron+Pers+Sg2+Abl: наӈынныл
      наӈ+Pron+Pers+Sg2+Ins: наӈынтыл
+
+     наӈ+Pron+Pers+Du2+Nom: нэ̄н
+     наӈ+Pron+Pers+Du2+Acc: нэ̄нан
+     наӈ+Pron+Pers+Du2+Dat: нэ̄нанн
+     наӈ+Pron+Pers+Du2+Abl: нэ̄нанныл
+     наӈ+Pron+Pers+Du2+Ins: нэ̄нантыл
+
+     наӈ+Pron+Pers+Pl2+Nom: на̄н
+     наӈ+Pron+Pers+Pl2+Acc: на̄нан
+     наӈ+Pron+Pers+Pl2+Dat: на̄нанн
+     наӈ+Pron+Pers+Pl2+Abl: на̄нанныл
+     наӈ+Pron+Pers+Pl2+Ins: на̄нантыл
 
      тав+Pron+Pers+Sg3+Nom: тав
      тав+Pron+Pers+Sg3+Acc: таве
@@ -34,8 +58,15 @@ Tests:
      тав+Pron+Pers+Sg3+Abl: таве̄нныл
      тав+Pron+Pers+Sg3+Ins: таве̄нтыл
 
-     ам+Pron+Pers+Du1+Nom: ме̄н
-     ам+Pron+Pers+Du1+Acc: ме̄наме̄н
-     ам+Pron+Pers+Du1+Dat: ме̄наме̄нн
-     ам+Pron+Pers+Du1+Abl: ме̄наме̄нныл
-     ам+Pron+Pers+Du1+Ins: ме̄наме̄нтыл
+     тав+Pron+Pers+Sg3+Nom: тэ̄н
+     тав+Pron+Pers+Sg3+Acc: тэ̄натэ̄н
+     тав+Pron+Pers+Sg3+Dat: тэ̄натэ̄нн
+     тав+Pron+Pers+Sg3+Abl: тэ̄натэ̄нныл
+     тав+Pron+Pers+Sg3+Ins: тэ̄натэ̄нтыл
+
+     тав+Pron+Pers+Sg3+Nom: та̄н
+     тав+Pron+Pers+Sg3+Acc: та̄наныл
+     тав+Pron+Pers+Sg3+Dat: та̄нанылн
+     тав+Pron+Pers+Sg3+Abl: та̄нанылныл
+     тав+Pron+Pers+Sg3+Ins: та̄нанылтыл
+
