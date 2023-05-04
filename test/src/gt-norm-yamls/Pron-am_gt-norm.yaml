@@ -21,3 +21,21 @@ Tests:
      ам+Pron+Pers+Sg1+Dat: а̄нумн
      ам+Pron+Pers+Sg1+Abl: а̄нумныл
      ам+Pron+Pers+Sg1+Ins: а̄нумтыл
+
+     наӈ+Pron+Pers+Sg2+Nom: наӈ
+     наӈ+Pron+Pers+Sg2+Acc: наӈын
+     наӈ+Pron+Pers+Sg2+Dat: наӈынн
+     наӈ+Pron+Pers+Sg2+Abl: наӈынныл
+     наӈ+Pron+Pers+Sg2+Ins: наӈынтыл
+
+     тав+Pron+Pers+Sg3+Nom: тав
+     тав+Pron+Pers+Sg3+Acc: таве
+     тав+Pron+Pers+Sg3+Dat: таве̄н
+     тав+Pron+Pers+Sg3+Abl: таве̄нныл
+     тав+Pron+Pers+Sg3+Ins: таве̄нтыл
+
+     ам+Pron+Pers+Du1+Nom: ме̄н
+     ам+Pron+Pers+Du1+Acc: ме̄наме̄н
+     ам+Pron+Pers+Du1+Dat: ме̄наме̄нн
+     ам+Pron+Pers+Du1+Abl: ме̄наме̄нныл
+     ам+Pron+Pers+Du1+Ins: ме̄наме̄нтыл
