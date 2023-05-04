@@ -609,6 +609,12 @@ and Mansi-specific names.
 
 +Inf:миӈкве K ;
 
++Inf:виӈкве K ;
+
++Inf:лыӈкве K ;
+
++Inf:уӈкве K ;
+
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
@@ -621,7 +627,7 @@ LEXICON V_NSSU о̄ньщуӈкве
 * **LEXICON V11_MUTUAL** 
 	* **LEXICON ACT_IND_PRS_VA**  
 
-	* **LEXICON ACT_IND_VU**  
+	* **LEXICON ACT_IND_PRS_VU**  
 
 	* **LEXICON ACT_COND_VU** 
 
