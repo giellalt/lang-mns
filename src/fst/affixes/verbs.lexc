@@ -59,9 +59,10 @@ LEXICON V_U
 !! **LEXICON @LEXNAME@** 
 +Inf:%{VU%}%>%{уюØ%}ӈкве K ;
 +Inf+Err/Orth:%{VU%}%>%{уюØ%}ӈкв K ;
-+PrsPrc:%>нэ # ; ! This will need some variants with onset vowel.
++PrsPrc:%{VU%}%>нэ # ; ! This will need some variants with onset vowel.
++PrfPrc:%{VU%}%>ым # ; ! this will need Px and perhaps other things
 !:%{VU%} V11_MUTUAL ;
-+PrfPrc:%{VU%}%>%{уюØ%}м # ;
+!+PrfPrc:%{VU%}%>%{уюØ%}м # ;
 +Actio:%{VU%}%>%{ыиØ%}м # ;
 +Actio:%{VU%}%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
@@ -81,8 +82,8 @@ LEXICON V_A
 !! **LEXICON @LEXNAME@** 
 +Inf:%{VA%}%>%{аяØ%}ӈкве K ;
 +Inf+Err/Orth:%{VA%}%>%{аяØ%}ӈкв K ;
-+PrsPrc:a%>нэ # ; ! This will need some variants with onset vowel.
-+PrsPrc:a%>н # ; ! This will need some variants with onset vowel.
++PrsPrc:%{VA%}%>%{аяØ%}нэ # ; !Does this exist ?20230504 
++PrsPrc:%{VA%}%>%{аяØ%}н # ; ! This will need some variants with onset vowel.
 :%{VA%} V11_MUTUAL ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_SC ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
@@ -95,7 +96,7 @@ LEXICON V_A
 
 LEXICON V11_MUTUAL 
 !! * **LEXICON @LEXNAME@** 
-+PrfPrc:%>%{уюØ%}м # ;
++PrfPrc:%>%{аяØ%}м # ;!CHECKME 20230504 a-verbs
 +Actio:%>%{ыиØ%}м # ;
 +Actio:%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%>ап N_VCH ;

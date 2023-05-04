@@ -11,17 +11,18 @@ interrogatives ;
 indefinites ;
 
 LEXICON determiners !!≈ * @CODE@
-ты+Pron+Dem:ты N1_ ; ! this is nice
-ты+Det:ты N1_ ;      ! this hat is nice
+ты+Pron+Dem+Sg+Nom:тыи K ; ! this is nice
+ты+Pron+Dem:ты N_VI ; ! this is nice
+ты+Det:ты N_VI ;      ! this hat is nice
 
 LEXICON interrogatives !!≈ * @CODE@
-маныр+v1+Pron+Interr:ман%{ыØ%}р N1_ ; 
-маныр+v2+Pron+Interr:ма̄н%{ыØ%}р N1_ ; 
-матыр+Pron+Interr:мат%{ыØ%}р N1_ ; 
+маныр+v1+Pron+Interr:ман%{ыØ%}р N_SYNCH ; 
+маныр+v2+Pron+Interr:ма̄н%{ыØ%}р N_SYNCH ; 
+матыр+Pron+Interr:мат%{ыØ%}р N_SYNCH ; 
 
 LEXICON indefinites !!≈ * @CODE@
-хо̄тпа+Pron+Indef:хо̄тпа N1_ ;
-мощща+Pron+Indef:мощща N1_ ;
+хо̄тпа+Pron+Indef:хо̄тпа N_VO ;
+мощща+Pron+Indef:мощща N_VO ;
 
 
 LEXICON personal
