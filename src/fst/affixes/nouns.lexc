@@ -105,6 +105,7 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} N1_SG ;
 :%{VO%} N1_DU ;
 :%{VO%} N1_PL ;
++Pl+Loc:%{VO%}%>ытыт K ; ! я̄тыт
 :%{VO%} N1_SG_PXDU_SHORT ;
 :%{VO%} SG_PXDU1OBLQ_ujumeent ;
 :%{VO%} SG_PXDU2_yyn ;
