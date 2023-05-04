@@ -4,9 +4,24 @@
 !! Almost no work on adjectives yet.
 
 LEXICON A_SYNCH
-A_ ;
+N_SYNCH ;
+:%{SYNCH%} A_2_CMPR_ADV ;
+LEXICON A_VCH
+N_VCH ;
+:%{VCH%} A_2_CMPR_ADV ;
+LEXICON A_VCS
+N_VCS ;
+:%{VCS%} A_2_CMPR_ADV ;
+LEXICON A_VO
+N_VO ;
+:%{VO%} A_2_CMPR_ADV ;
+LEXICON A_VI
+N_VI ;
+:%{VI%} A_2_CMPR_ADV ;
 
 LEXICON A_
+ A_2_CMPR_ADV ;
+LEXICON A_2_CMPR_ADV
 !! **LEXICON @LEXNAME@** gets +Attr or goes to Comparisons or ADV_
 +Attr:   # ;
 : Comparisons ;
