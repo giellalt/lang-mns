@@ -10,22 +10,22 @@
 
 # RY: NB: we do *NOT* use latin pre-composed symbols for these (as per JR)
 
-А̄ (->) , # Luuimaa Seeripos F50E
-а̄ (->) , # Luuimaa Seeripos F50F
-Е̄ (->) , # Luuimaa Seeripos F510
-е̄ (->) , # Luuimaa Seeripos F511
-О̄ (->) , # Luuimaa Seeripos F518
-о̄ (->) , # Luuimaa Seeripos F519
-Ё̄ (->) , # Luuimaa Seeripos F512
-ё̄ (->) , # Luuimaa Seeripos F513
-Ы̄ (->) , # Luuimaa Seeripos F520
-ы̄ (->) , # Luuimaa Seeripos F521
-Э̄ (->) , # Luuimaa Seeripos F522
-э̄ (->) , # Luuimaa Seeripos F523
-Ю̄ (->) , # Luuimaa Seeripos F52C # upper-case letters are mainly analogous
-ю̄ (->) , # Luuimaa Seeripos F52D
-Я̄ (->) , # Luuimaa Seeripos F528
-я̄ (->) , # Luuimaa Seeripos F529
+{А̄} (->) , # Luuimaa Seeripos F50E
+{а̄} (->) , # Luuimaa Seeripos F50F
+{Е̄} (->) , # Luuimaa Seeripos F510
+{е̄} (->) , # Luuimaa Seeripos F511
+{О̄} (->) , # Luuimaa Seeripos F518
+{о̄} (->) , # Luuimaa Seeripos F519
+{Ё̄} (->) , # Luuimaa Seeripos F512
+{ё̄} (->) , # Luuimaa Seeripos F513
+{Ы̄} (->) , # Luuimaa Seeripos F520
+{ы̄} (->) , # Luuimaa Seeripos F521
+{Э̄} (->) , # Luuimaa Seeripos F522
+{э̄} (->) , # Luuimaa Seeripos F523
+{Ю̄} (->) , # Luuimaa Seeripos F52C # upper-case letters are mainly analogous
+{ю̄} (->) , # Luuimaa Seeripos F52D
+{Я̄} (->) , # Luuimaa Seeripos F528
+{я̄} (->) , # Luuimaa Seeripos F529
 
 # Latin look alikes have to be read because we do not use them (2019-06-14 Jaska)
 {А̄} (->) Ā, # U+0100
