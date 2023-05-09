@@ -615,6 +615,8 @@ and Mansi-specific names.
 
 +Inf:уӈкве K ;
 
+**LEXICON JOXTUNGKVE** 
+
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
@@ -1114,6 +1116,9 @@ Semantics are classified with
 * __+Sem/Veh__ 
 * __+Sem/Clth__ 
 * __+Sem/ID__
+
+Clitic
+* **+Qst** Question particle -а
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.

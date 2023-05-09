@@ -147,6 +147,9 @@ Semantics are classified with
 * __+Sem/Clth__ 
 * __+Sem/ID__
 
+Clitic
+* **+Qst** Question particle -а
+
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 * **+V→N +V→V +V→A** 

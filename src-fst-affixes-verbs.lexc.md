@@ -10,6 +10,8 @@
 
 +Inf:уӈкве K ;
 
+**LEXICON JOXTUNGKVE** 
+
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
