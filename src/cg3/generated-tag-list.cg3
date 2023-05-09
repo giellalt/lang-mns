@@ -76,6 +76,7 @@ LIST PxPl3 = PxPl3 ;
 LIST PxSg1 = PxSg1 ;
 LIST PxSg2 = PxSg2 ;
 LIST PxSg3 = PxSg3 ;
+LIST Qst = Qst ;
 LIST RIGHT = RIGHT ;
 LIST Refl = Refl ;
 LIST Rom = Rom ;

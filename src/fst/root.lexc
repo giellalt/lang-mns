@@ -190,6 +190,9 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Sem/Clth    !!≈ * __@CODE@__ 
  +Sem/ID      !!≈ * __@CODE@__
 
+!! Clitic
++Qst      !!≈ * **@CODE@** Question particle -а
+
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
  +V→N +V→V +V→A    !!≈ * **@CODE@** 
@@ -330,6 +333,10 @@ LEXICON Root
 
 LEXICON K 
 !! * **LEXICON @LEXNAME@** for evt. clitic (goes to #)
+ ENDLEX ;
++Qst:%-а ENDLEX ;
+
+LEXICON ENDLEX
 # ;
 
 ! vim: set ft=xfst-lexc:

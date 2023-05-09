@@ -110,6 +110,28 @@ LEXICON MINUNGKVE
 
 : V11_MUTUAL_PASS ;
 
+LEXICON JOXTUNGKVE
+!! **LEXICON @LEXNAME@** 
++Inf:%{VU%}%>%{уюØ%}ӈкве K ;
++Inf+Err/Orth:%{VU%}%>%{уюØ%}ӈкв K ;
++PrsPrc:%{VU%}%>нэ # ; ! This will need some variants with onset vowel.
++PrfPrc:%{VU%}%>ым # ; ! this will need Px and perhaps other things
+!:%{VU%} V11_MUTUAL ;
+!+PrfPrc:%{VU%}%>%{уюØ%}м # ;
++Actio:%{VU%}%>%{ыиØ%}м # ;
++Actio:%{VU%}%>%{ыиØ%}н # ;
++Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
+:%{VU%} ACT_IND_PRS_VU ;
+:%{VU%} ACT_IND_PRT_VU ;
+:%{VU%} ACT_IMPRT_VU ;!all
+:%{VU%} ACT_COND_VU ;!all
+
+:ы%{VU%} ACT_IND_PRT_SC_VU ; ! ёхтысум
+:ы%{VU%} ACT_IND_PRT_OCSG3_VU ; ! ёхтысаныл
+:%{VU%} PASS_PRT_VU ;
+:%{VU%}%>%{аяØ%} PASS_PRS_VU ;
+:%{VU%} PASS_COND_VU ;
+
 
 LEXICON Csuff
 +Act+Ind+Prs+ScSg1:%>ум K ;
