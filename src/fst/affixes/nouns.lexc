@@ -313,10 +313,10 @@ LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 
 
 LEXICON N_NOSYNCH !!≈ * @CODE@ Stems without syncopy, hard
-:%{NOSYNCH%} N1_ ;
+: N_VCH ;
 
 LEXICON N_NOSYNCS !!≈ * @CODE@ Stems without syncopy, soft
-:%{NOSYNCS%} N1_ ;
+: N_VCS ;
 
 LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 +Sg+Nom:%{VCH%} K ;
