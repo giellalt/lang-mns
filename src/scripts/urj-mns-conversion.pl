@@ -45,11 +45,14 @@ while(<>) {
 	s/ PropNameMaleDer-J-0Evich/й N_VCS/g ;
 	s/ PropNameMaleDer-IJ-I0Evich/ий N_VCS/g ;
 	s/ PropNameMaleDer-I-YEvich/и N_VI/g ;
+	s/(ь|й) PROP_KAL_MAL/$1 N_VCS/g ;
 	s/ PROP_KAL_MAL/ N_VCH/g ;
+	s/(ь|й) PROP_KAL_FEM/$1 N_VCS/g ;
 	s/ PROP_KAL_FEM/ N_VCH/g ;
 	s/ PROP_OSH_FEM/ N_VCH/g ;
 	s/ PROP_KUDO_FEM/ N_VO/g ;
 	s/ PROP-PLC_KIT/ N_VCH/g ;
+	s/(ь|й) PROP-PLC_KAL/$1 N_VCS/g ;
 	s/ PROP-PLC_KAL/ N_VCH/g ;
 	s/ PROP-PLC_KUDO/ N_VO/g ;
 	s/ PROP_KIT_SUR/ N_VCH/g ;
