@@ -14,7 +14,7 @@ LEXICON PROP_MANSINAMES
 Виплēем+N+Prop+Sem/Plc:Виплēем N_VCH ;
 Назарет+N+Prop+Sem/Plc:Назарет N_VCH ;
 Сату+N+Prop+Sem/Fem:Сату N_VO ;
-Рождество+N+Pron:Рождество N_VO ;
+Рождество+N+Prop+Sem/Time:Рождество N_VO ;
  
 Нё̄р+N+Prop+Sem/Plc:Нё̄р N_VCH "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 !! ADD PROPER NOUNS BELOW
@@ -23,11 +23,10 @@ LEXICON PROP_MANSINAMES
 Кремль+N+Prop+Sem/Plc:Кремль	N_VCS	"Кремль "	;
 Москва+N+Prop+Sem/Plc:Москва	N_VO	"Москва"	;
 Росщия+N+Prop+Sem/Plc:Росщия	N_VO	"Россия"	;
-Саранпа̄выл+N+Prop+Sem/Plc:Саранпа̄выл N_VCH ;
 Сӣбирь+N+Prop+Sem/Plc:Сӣбирь N_VCS ;
 Со̄с-я̄+N+Prop+Sem/Plc:Со̄с-я̄ N_VO ;
 Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCH ;
-То̄рум+N+Prop+Sem/Plc:То̄рум	N_VCH	"Бог"	;
+
 Ха̄льпус+N+Prop+Sem/Plc:Ха̄льпус N_VCH ;
 Ханты-Мансийск+N+Prop+Sem/Plc:Ханты-Мансийск N_VCCH ;
 Хонтаӈ+N+Prop+Sem/Plc:Хонтаӈ N_VCH ;
@@ -35,12 +34,12 @@ LEXICON PROP_MANSINAMES
 
 Ха̄льӯс+N+Prop+Sem/Plc:Ха̄льӯс N_VCH ;
 Югра+N+Prop+Sem/Plc:Югра N_VO ;
-То̄рум+N+Prop+Sem/Plc:То̄рум N_VCH ;
+То̄рум+N+Prop+Sem/Ani:То̄рум N_VCH "Бог" ;
 Сургут+N+Prop+Sem/Plc:Сургут N_VCH ;
 Югры+N+Prop+Sem/Plc:Югры N_VI ;
 Белоярский+N+Prop+Sem/Plc:Белоярский N_VCS ;
 Кульпас+N+Prop+Sem/Plc:Кульпас N_VCH ;
-Дума+N+Prop+Sem/Plc:Дума N_VO ;
+Дума+N+Prop+Sem/Org:Дума N_VO ;
 Саранпа̄выл+N+Prop+Sem/Plc:Саранпа̄выл N_VCH ;
 Меров+N+Prop+Sem/Plc:Меров N_VCH ;
 Мерова+N+Prop+Sem/Plc:Мерова N_VO ;
