@@ -1376,7 +1376,7 @@ This gives us the following stem types:
 
 * аквщос+N:аквщос N_VCH ; CHECKME
 
-* вла̄сть+N:вла̄сть N_VCCS "власть" ; CHECKME
+* вла̄сть+v1+N:вла̄сть N_VCCS "власть" ; CHECKME
 
 * голубь+N:голубь N_VCS "голубь" ; CHECKME
 
