@@ -7,6 +7,57 @@
 LEXICON PROP_MANSINAMES
 !! **LEXICON @LEXNAME@**
 
+Иоан+N+Prop:Иоан N_VCH ;
+Иерусалим+N+Prop:Иерусалим N_VCH ;
+Пилат+N+Prop:Пилат N_VCH ;
+Давид+N+Prop:Давид N_VCH ;
+Юдея+N+Prop:Юдея N_VO ;
+Вифания+N+Prop:Вифания N_VO ;
+Иордан+N+Prop:Иордан N_VCH ;
+Ле̄ви+N+Prop:Ле̄ви N_VI ;
+Капернаум+N+Prop:Капернаум N_VCH ;
+Вифсаида+N+Prop:Вифсаида N_VO ;
+Вартимей+N+Prop:Вартимей N_VCS ;
+Зеведей+N+Prop:Зеведей N_VCS ;
+Иродида+N+Prop:Иродида N_VO ;
+Сидон+N+Prop:Сидон N_VCH ;
+Елеон+N+Prop:Елеон N_VCH ;
+Тир+N+Prop:Тир N_VCH ;
+Гефсимания+N+Prop:Гефсимания N_VO ;
+Декаполис+N+Prop:Декаполис N_VCH ;
+Саломия+N+Prop:Саломия N_VO ;
+Сатана+N+Prop:Сатана N_VO ;
+Алфей+N+Prop:Алфей N_VCS ;
+Элои+N+Prop:Элои N_VI ;
+Геннисарет+N+Prop:Геннисарет N_VCH ;
+Идумея+N+Prop:Идумея N_VO ;
+Виффагия+N+Prop:Виффагия N_VO ;
+Финикия+N+Prop:Финикия N_VO ;
+Киринея+N+Prop:Киринея N_VO ;
+Кесария+N+Prop:Кесария N_VO ;
+Иерихон+N+Prop:Иерихон N_VCH ;
+Голгофа+N+Prop:Голгофа N_VO ;
+Авиафар+N+Prop:Авиафар N_VCH ;
+филипп+N+Prop:филипп N_VCCH ;
+Талифа+N+Prop:Талифа N_VO ;
+Матфей+N+Prop:Матфей N_VCS ;
+Иоанын+N+Prop:Иоанын N_VCH ;
+Еффата+N+Prop:Еффата N_VO ;
+Данийл+N+Prop:Данийл N_VCCH ;
+Гераса+N+Prop:Гераса N_VO ;
+Галилeя+N+Prop:Галилeя N_VO ;
+Тимей+N+Prop:Тимей N_VCS ;
+Пилат+N+Prop:Пилат N_VCH ;
+Руфус+N+Prop:Руфус N_VCH ;
+Иосий+N+Prop:Иосий N_VCS ;
+Ирод+N+Prop:Ирод N_VCH ;
+Юдея+N+Prop:Юдея N_VO ;
+Юсий+N+Prop:Юсий N_VCS ;
+Фома+N+Prop:Фома N_VO ;
+Яир+N+Prop:Яир N_VCH ;
+Ӣлия+N+Prop:Ӣлия N_VO ;
+Пе̄тыр+N+Prop:Пе̄тыр N_NOSYNCH ;
+
 Ӣсус+N+Prop+Sem/Mal:Ӣсус N_VCH ; !!≈ @CODE@
 Лука+N+Prop+Sem/Mal:Лука N_VO ; !!≈ @CODE@
 Кристос+N+Prop+Sem/Mal:Кристос N_VCH ; !!≈ @CODE@
