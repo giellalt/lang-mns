@@ -69,11 +69,12 @@ LEXICON PROP_MANSINAMES
  
 Нё̄р+N+Prop+Sem/Plc:Нё̄р N_VCH "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 !! ADD PROPER NOUNS BELOW
-Берёзово+N+Prop+Sem/Plc:Берёзово	N_VO	"Берёзово /селение/"	;
-Росщия+N+Prop+Sem/Plc:Росщия	N_VO	"Россия"	;
+Берёзово+N+Prop+Sem/Plc:Берёзово N_VO "Берёзово /селение/"	;
+Росщия+N+Prop+Sem/Plc:Росщия N_VO "Россия"	;
 Сӣбирь+N+Prop+Sem/Plc:Сӣбирь N_VCS ;
 Со̄с-я̄+N+Prop+Sem/Plc:Со̄с-я̄ N_VO ;
 Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCH ;
+А̄с+N+Prop+Sem/Plc:А̄с N_VCH "Обь" ;
 
 Ха̄льпус+N+Prop+Sem/Plc:Ха̄льпус N_VCH ;
 Хонтаӈ+N+Prop+Sem/Plc:Хонтаӈ N_VCH ;
