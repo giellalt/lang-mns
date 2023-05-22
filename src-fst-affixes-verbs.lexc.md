@@ -36,8 +36,10 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 	* **LEXICON PASS_PRS_VU**  
 
-**LEXICON PASS_COND_VU** contains all forms
-**LEXICON PASS_COND_VU** contains all forms
+the forms below here need studying. They are probably not what I labled them as20230521
+
+**LEXICON PRFPRC** contains all forms
+**LEXICON PRFPRC** contains all forms
 
 * * *
 

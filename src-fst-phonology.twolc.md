@@ -302,6 +302,10 @@ __й:0__
 * *ханс{VU}>нэ*
 * *ха0с0>нэ*
 
+таӈхуӈкве+V+Act+Ind+Prt+ScSg1: ____
+* *таӈх{VU}>сум*
+* *та0х0>сум*
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-mns/blob/main/src/fst/phonology.twolc)</small>

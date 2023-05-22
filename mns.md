@@ -641,8 +641,10 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 	* **LEXICON PASS_PRS_VU**  
 
-**LEXICON PASS_COND_VU** contains all forms
-**LEXICON PASS_COND_VU** contains all forms
+the forms below here need studying. They are probably not what I labled them as20230521
+
+**LEXICON PRFPRC** contains all forms
+**LEXICON PRFPRC** contains all forms
 
 * * *
 
@@ -961,6 +963,10 @@ __й:0__
 хансуӈкве+V+PrsPrc: __write/kirjoittaa__
 * *ханс{VU}>нэ*
 * *ха0с0>нэ*
+
+таӈхуӈкве+V+Act+Ind+Prt+ScSg1: ____
+* *таӈх{VU}>сум*
+* *та0х0>сум*
 
 * * *
 
