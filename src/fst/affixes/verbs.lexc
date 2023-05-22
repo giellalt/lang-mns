@@ -638,7 +638,8 @@ LEXICON V11_MUTUAL_PASS_PRT
 +Pass+Ind+Prt+ScPl1:%>весӯв K ;!янытлавесӯв
 +Pass+Ind+Prt+ScPl2:%>весы̄н K ;
 +Pass+Ind+Prt+ScPl2:%>весын K ;
-+Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;
++Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;!Luima seripos
++Pass+Ind+Prt+ScPl3:%>весыт K ;!Only in Oppikirja 
 
 LEXICON PASS_PRT_VU !this could be common to both
 +Pass+Ind+Prt+ScSg1:%>ве̄сум K ;
