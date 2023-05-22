@@ -17,11 +17,11 @@ Tests:
   Verb - сунсуӈкве: # 'eng see/fin nähdä' - full paradigm
 #
 
-! нс+CV > сCV хансуӈкве+V+Act+Ind+Prt+ScSg1: хассум 
-! ньщ+CV > щCV о̄ньщуӈкве+V+Act+Ind+Prt+ScSg1: ӧщсум
-! ӈх+CV > хCV таӈхуӈкве+V+Act+Ind+Prt+ScSg1: тахсум
+#! нс+CV > сCV хансуӈкве+V+Act+Ind+Prt+ScSg1: хассум 
+#! ньщ+CV > щCV о̄ньщуӈкве+V+Act+Ind+Prt+ScSg1: ӧщсум
+#! ӈх+CV > хCV таӈхуӈкве+V+Act+Ind+Prt+ScSg1: тахсум
 
-rb - ловиньтаӈкве: # Verb 'translate_me' - full paradigm
+
     сунсуӈкве+V+Inf: сунсуӈкве
 #Active, present tense, indicative, subjective conjugation
     сунсуӈкве+V+Act+Ind+Prs+ScSg1: сунсэ̄гум
