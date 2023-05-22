@@ -164,7 +164,7 @@ Rules
 
 "Syncope for у"
 !! **RULE: @RULENAME@**  
- у:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [%{ыиØ%}:|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
+ у:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [%{ыиØ%}:| ы т|а|%{аяØ%}:|%{уюØ%}:|%{ЭЕ%}:] ;
 
 
 !! ла̄тыӈ+N+Sg+PxPl1+Nom:  **language/kieli**
