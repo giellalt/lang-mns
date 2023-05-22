@@ -1253,6 +1253,8 @@ word classes, or optionally from prefixes:
 
 **LEXICON Adjectives**
 
+ыӈ with ыг or ыт marking Adjective detection, Csilla proofread the following
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/adjectives.lexc)</small>
@@ -1389,6 +1391,8 @@ This gives us the following stem types:
 * ласка+N:ласка N_VO "ласка /животное/" ;
 * ласточка+N:ласточка N_VO "ласточка" ;
 * тушь+N:тушь N_VCS "тушь" ; CHECKME
+
+new nouns from translative case attestation. Csilla check nouns below. 20230522
 
 * * *
 
