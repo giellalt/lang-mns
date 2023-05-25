@@ -309,6 +309,227 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  @U.Cap.Opt@        !!≈ |  **@CODE@**| Allowing downcasing of derived names: deatnulasj.
  
 
+!! Flags used to identify parts of speech
+ @P.POS.PRON@ !!≈ * @CODE@ 
+ @U.POS.N@ !!≈ * @CODE@ 
+ @U.POS.A@ !!≈ * @CODE@ 
+
+ @P.POS.N@ !!≈ * @CODE@ 
+ @R.POS.N@ !!≈ * @CODE@ 
+ @P.POS.V@ !!≈ * @CODE@ 
+ @R.POS.V@ !!≈ * @CODE@ 
+ @C.POS@ !!≈ * @CODE@ 
+
+!! Flags used with serial verbs
+! INF = Infinitive
+ @U.CONJ-INF.YES@ !!≈ * @CODE@ 
+ @U.CONJ-INF.NO@ !!≈ * @CODE@ 
+
+! TX = tense
+ @U.CONJ-TX.NONPAST@ !!≈ * @CODE@ 
+ @U.CONJ-TX.PRT1@ !!≈ * @CODE@ 
+ @U.CONJ-TX.PRT2@ !!≈ * @CODE@ 
+
+! MX = mood
+ @U.CONJ-MX.IND@ !!≈ * @CODE@ 
+ @D.CONJ-MX.IND@ !!≈ * @CODE@  2012-11-04 should this be --D-- or --N--
+ @U.CONJ-MX.IMP@ !!≈ * @CODE@ 
+ @U.CONJ-MX.OPT@ !!≈ * @CODE@ 
+ @U.CONJ-MX.PREC@ !!≈ * @CODE@ 
+ @U.CONJ-MX.DES@ !!≈ * @CODE@ 
+ @U.CONJ-MX.CONJ@ !!≈ * @CODE@ 
+ @U.CONJ-MX.COND@ !!≈ * @CODE@ 
+
+! CONNEG = negation
+ @U.CONJ-CONNEG.YES@ !!≈ * @CODE@ 
+ @U.CONJ-CONNEG.NO@ !!≈ * @CODE@ 
+
+! NX = number
+ @U.CONJ-NX.PL@ !!≈ * @CODE@ 
+ @U.CONJ-NX.SG@ !!≈ * @CODE@ 
+
+! POSS = possessive person
+ @U.CONJ-POSS.1@ !!≈ * @CODE@ 
+ @U.CONJ-POSS.2@ !!≈ * @CODE@ 
+ @U.CONJ-POSS.3@ !!≈ * @CODE@ 
+ @U.CONJ-POSS.2ACC@ !!≈ * @CODE@ 
+ @U.CONJ-POSS.3ACC@ !!≈ * @CODE@ 
+
+! PX = person
+@U.CONJ-PX.1@
+@U.CONJ-PX.2@
+@U.CONJ-PX.3@
+@U.CONJ-PX.4@
+@U.CONJ-PX.5@
+@U.CONJ-PX.6@
+
+ @U.CONJ-PX.10@ !!≈ * @CODE@ 
+ @U.CONJ-PX.12@ !!≈ * @CODE@ 
+ @U.CONJ-PX.13@ !!≈ * @CODE@ 
+ @U.CONJ-PX.15@ !!≈ * @CODE@ 
+ @U.CONJ-PX.16@ !!≈ * @CODE@ 
+ @U.CONJ-PX.20@ !!≈ * @CODE@ 
+ @U.CONJ-PX.21@ !!≈ * @CODE@ 
+ @U.CONJ-PX.23@ !!≈ * @CODE@ 
+ @U.CONJ-PX.24@ !!≈ * @CODE@ 
+ @U.CONJ-PX.26@ !!≈ * @CODE@ 
+ @U.CONJ-PX.30@ !!≈ * @CODE@ 
+ @U.CONJ-PX.31@ !!≈ * @CODE@ 
+ @U.CONJ-PX.32@ !!≈ * @CODE@ 
+ @U.CONJ-PX.33@ !!≈ * @CODE@ 
+ @U.CONJ-PX.34@ !!≈ * @CODE@ 
+ @U.CONJ-PX.35@ !!≈ * @CODE@ 
+ @U.CONJ-PX.36@ !!≈ * @CODE@ 
+
+ @U.CONJ-PX.40@ !!≈ * @CODE@ 
+ @U.CONJ-PX.42@ !!≈ * @CODE@ 
+ @U.CONJ-PX.43@ !!≈ * @CODE@ 
+ @U.CONJ-PX.45@ !!≈ * @CODE@ 
+ @U.CONJ-PX.46@ !!≈ * @CODE@ 
+
+ @U.CONJ-PX.50@ !!≈ * @CODE@ 
+ @U.CONJ-PX.51@ !!≈ * @CODE@ 
+ @U.CONJ-PX.53@ !!≈ * @CODE@ 
+ @U.CONJ-PX.54@ !!≈ * @CODE@ 
+ @U.CONJ-PX.56@ !!≈ * @CODE@ 
+
+ @U.CONJ-PX.60@ !!≈ * @CODE@ 
+ @U.CONJ-PX.61@ !!≈ * @CODE@ 
+ @U.CONJ-PX.62@ !!≈ * @CODE@ 
+ @U.CONJ-PX.63@ !!≈ * @CODE@ 
+ @U.CONJ-PX.64@ !!≈ * @CODE@ 
+ @U.CONJ-PX.65@ !!≈ * @CODE@ 
+ @U.CONJ-PX.66@ !!≈ * @CODE@ 
+
+
+ @R.CONJ-PX.13@ !!≈ * @CODE@ 
+ @R.CONJ-PX.16@ !!≈ * @CODE@ 
+ @R.CONJ-PX.23@ !!≈ * @CODE@ 
+ @R.CONJ-PX.26@ !!≈ * @CODE@ 
+ @R.CONJ-PX.33@ !!≈ * @CODE@ 
+ @R.CONJ-PX.36@ !!≈ * @CODE@ 
+
+ @R.CONJ-PX.43@ !!≈ * @CODE@ 
+ @R.CONJ-PX.46@ !!≈ * @CODE@ 
+
+ @R.CONJ-PX.53@ !!≈ * @CODE@ 
+ @R.CONJ-PX.56@ !!≈ * @CODE@ 
+
+ @R.CONJ-PX.63@ !!≈ * @CODE@ 
+ @R.CONJ-PX.66@ !!≈ * @CODE@ 
+
+
+! Object conjugation
+ @P.CONJ.ObjAll@ !!≈ * @CODE@ 
+ @R.CONJ.ObjAll@ !!≈ * @CODE@ 
+ @C.CONJ@ !!≈ * @CODE@ 
+ @P.TLOSS.ON@ !!≈ * @CODE@ 
+ @R.TLOSS.ON@ !!≈ * @CODE@ 
+
+! nominals
+ @P.PossPx.Sg1@ !!≈ * @CODE@ 
+ @P.PossPx.Sg2@ !!≈ * @CODE@ 
+ @P.PossPx.Sg3@ !!≈ * @CODE@ 
+ @P.PossPx.Du1@ !!≈ * @CODE@ 
+ @P.PossPx.Du2@ !!≈ * @CODE@ 
+ @P.PossPx.Du3@ !!≈ * @CODE@ 
+ @P.PossPx.Pl1@ !!≈ * @CODE@ 
+ @P.PossPx.Pl2@ !!≈ * @CODE@ 
+ @P.PossPx.Pl3@ !!≈ * @CODE@ 
+
+ @U.PossPx.S3@ !!≈ * @CODE@ 
+ @U.PossPx.SP3@ !!≈ * @CODE@ 
+
+ @U.PossPx.Sg1@ !!≈ * @CODE@ 
+ @U.PossPx.Sg2@ !!≈ * @CODE@ 
+ @U.PossPx.Sg3@ !!≈ * @CODE@ 
+ @U.PossPx.Du1@ !!≈ * @CODE@ 
+ @U.PossPx.Du2@ !!≈ * @CODE@ 
+ @U.PossPx.Du3@ !!≈ * @CODE@ 
+ @U.PossPx.Pl1@ !!≈ * @CODE@ 
+ @U.PossPx.Pl2@ !!≈ * @CODE@ 
+ @U.PossPx.Pl3@ !!≈ * @CODE@ 
+
+ @D.PossPx@ !!≈ * @CODE@ 
+ @C.PossPx@ !!≈ * @CODE@ 
+!!Adding Tense 2006-12-04
+ @P.TNUM.SG@ !!≈ * @CODE@ 
+ @P.TNUM.PL@ !!≈ * @CODE@ 
+ @D.TNUM.SG@ !!≈ * @CODE@ 
+ @D.TNUM.PL@ !!≈ * @CODE@ 
+ @C.TNUM@ !!≈ * @CODE@ 
+
+!! problematic
+@P.KLOSS.ON@
+@R.KLOSS.ON@
+@U.CONJ-TX.PRET1@
+@U.CONJ-TX.PRET2@
+
+
+ @P.TPERS.1@ !!≈ * @CODE@ 
+ @P.TPERS.2@ !!≈ * @CODE@ 
+ @P.TPERS.3@ !!≈ * @CODE@ 
+ @N.TPERS.1@ !!≈ * @CODE@ 
+ @N.TPERS.2@ !!≈ * @CODE@ 
+ @N.TPERS.3@ !!≈ * @CODE@ 
+ @U.TPERS.1@ !!≈ * @CODE@ 
+ @U.TPERS.2@ !!≈ * @CODE@ 
+ @U.TPERS.3@ !!≈ * @CODE@ 
+ @C.TPERS@ !!≈ * @CODE@ 
+
+!!Cases
+ @U.CX.ABL@ !!≈ * @CODE@ 
+ @U.CX.INS@ !!≈ * @CODE@ 
+ @U.CX.LAT@ !!≈ * @CODE@ 
+ @U.CX.LOC@ !!≈ * @CODE@ 
+ @U.CX.NOM@ !!≈ * @CODE@ 
+ @U.CX.TRA@ !!≈ * @CODE@ 
+
+ @N.CX.ABL@ !!≈ * @CODE@ 
+ @N.CX.INS@ !!≈ * @CODE@ 
+ @N.CX.LAT@ !!≈ * @CODE@ 
+ @N.CX.LOC@ !!≈ * @CODE@ 
+ @N.CX.NOM@ !!≈ * @CODE@ 
+ @N.CX.TRA@ !!≈ * @CODE@ 
+ @C.CX@ !!≈ * @CODE@
+
+!!Dx number ???mns
+ @P.DNUM.PL@ !!≈ * @CODE@ 
+ @P.DNUM.SG@ !!≈ * @CODE@ 
+ @U.DNUM.PL@ !!≈ * @CODE@ 
+ @U.DNUM.SG@ !!≈ * @CODE@ 
+ @C.DNUM@ !!≈ * @CODE@ 
+
+
+!??mns
+ @P.NUM.SG@ !!≈ * @CODE@ 
+ @P.NUM.PL@ !!≈ * @CODE@ 
+ @D.NUM.SG@ !!≈ * @CODE@ 
+ @D.NUM.PL@ !!≈ * @CODE@ 
+ @C.NUM@ !!≈ * @CODE@ 
+
+!! # FLAGS USED WITH COLLECTIVE NOUNS
+!! ## number
+ @U.DECL-NX.SG@ !!≈ * @CODE@
+ @U.DECL-NX.DU@ !!≈ * @CODE@
+ @U.DECL-NX.PL@ !!≈ * @CODE@
+ @R.DECL-NX.SG@ !!≈ * @CODE@
+ @R.DECL-NX.DU@ !!≈ * @CODE@
+ @R.DECL-NX.PL@ !!≈ * @CODE@
+!! ## case??mns
+ @U.DECL-CX.ABL@ !!≈ * @CODE@ 
+ @U.DECL-CX.INS@ !!≈ * @CODE@ 
+ @U.DECL-CX.LAT@ !!≈ * @CODE@ 
+ @U.DECL-CX.LOC@ !!≈ * @CODE@ 
+ @U.DECL-CX.NOM@ !!≈ * @CODE@ 
+ @U.DECL-CX.TRA@ !!≈ * @CODE@ 
+
+!! Removal
+ @C.DECL-NX@ !!≈ * @CODE@ 
+ @C.DECL-DX@ !!≈ * @CODE@ 
+ @C.DECL-CX@ !!≈ * @CODE@ 
+
+
  
 !! ## The basic lexica
 

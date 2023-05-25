@@ -38,6 +38,9 @@ while(<>) {
 	s/ PROP_OSH_MAL/ N_VCH/g ;
 	s/ PROP_KIT_MAL/ N_VCH/g ;
 	s/ PROP_KUDO_PATRFEM/ N_VO/g ;
+	s/ PROP-PLC_KEL1/ N_VCS/g ;
+	s/ PROP-PLC_VELE/ N_VO/g ;
+	s/ PROP_VELE/ N_VO/g ;
 	s/ PROP_KUDO_MAL/ N_VO/g ;
 	s/ PropNameMaleDer-Ovich/ N_VCS/g ;
 	s/ PROP_OSH_PATRMAL/ N_VCH/g ;

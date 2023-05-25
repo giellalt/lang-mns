@@ -63,253 +63,254 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_SG ;
 :%{VI%} N1_DU ;
 :%{VI%} N1_PL ;
-:%{VI%} SG_PXSG3OBLIQ_te ;
-:%{VI%} SG_PXSG3OBLIQ_tee ;
-:%{VI%} N1_SG_PXDU_LONG ;
-:%{VI%} SG_PXDU1OBLQ_ujument ;
-:%{VI%}	SG_PXDU2_yyn ;
-:%{VI%}	SG_PXDU2_yn ;
-:%{VI%} SG_PXDU3_teen ;
-:%{VI%} SG_PXDU3_ten ;
-:%{VI%} SG_PXPL2_yyn ;
+:%{VI%} SG_NOM_PXSG3_te ;
+:%{VI%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_te ;
+:%{VI%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_tee ;
+:%{VI%} N1_SG_X_PXDU_LONG ;
+:%{VI%} SG_NOM_PXDU1_ujumeen ;
+:%{VI%} SG_ABL/INS/LAT/LOC_PXDU1_ujumen ;
+:%{VI%}	SG_X_PXDU2_yyn ;
+:%{VI%}	SG_X_PXDU2_yn ;
+:%{VI%} SG_X_PXDU3_teen ;
+:%{VI%} SG_X_PXDU3_ten ;
+:%{VI%} SG_X_PXPL2_yyn ;
 
-:%{VI%} DU_PXDU1_ajagameen ;
-:%{VI%}	DU_PXDU2_ajagyn ;
-:%{VI%}	DU_PXDU3_LONG ;
-:%{VI%}	DU_PXPL2_ajagyn ;
-:%{VI%} DU_PXDU1_ajagmeen ;
-:%{VI%} DU_PXDU1_ajagamen ;
-:%{VI%}	DU_PXDU2_ajagyyn ;
-:%{VI%} DU_PXDU3_ajageen ;
+:%{VI%} DU_X_PXDU1_ajagameen ;
+:%{VI%}	DU_X_PXDU2_ajagyn ;
+:%{VI%}	DU_X_PXDU3_ajagen ;
+:%{VI%}	DU_X_PXPL2_ajagyn ;
+:%{VI%} DU_X_PXDU1_ajagmeen ;
+:%{VI%} DU_X_PXDU1_ajagamen ;
+:%{VI%}	DU_X_PXDU2_ajagyyn ;
+:%{VI%} DU_X_PXDU3_ajageen ;
 
-:%{VI%}  DU_PXPL2_ajagyyn ;
+:%{VI%}  DU_X_PXPL2_ajagyyn ;
 
 
-:%{VI%} PL_PXDU1_ajanmeen ;
-:%{VI%} PL_PXDU1_ajanmen ;
-:%{VI%} PL_PXDU2_ajanyyn ;
-:%{VI%} PL_PXDU2_ajanyn ;
-:%{VI%} PL_PXDU2_ajan ;
-:%{VI%} PL_PXDU3_ajaneen ;
-:%{VI%} PL_PXDU3_ajanen ;
+:%{VI%} PL_X_PXDU1_ajanmeen ;
+:%{VI%} PL_X_PXDU1_ajanmen ;
+:%{VI%} PL_X_PXDU2_ajanyyn ;
+:%{VI%} PL_X_PXDU2_ajanyn ;
+:%{VI%} PL_X_PXDU2_ajan ;
+:%{VI%} PL_X_PXDU3_ajaneen ;
+:%{VI%} PL_X_PXDU3_ajanen ;
 
-:%{VI%} PL_PXPL2_ajanyyn ;
-:%{VI%} PL_PXPL2_ajanyn ;
-:%{VI%} PL_PXPL2_ajan ;
-+Sg+Nom+PxDu1:%{VI%}%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
-+Sg+Nom+PxDu1:%{VI%}%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
-
+:%{VI%} PL_X_PXPL2_ajanyyn ;
+:%{VI%} PL_X_PXPL2_ajanyn ;
+:%{VI%} PL_X_PXPL2_ajan ;
+:%{VI%} SG_NOM_PXDU1_ujumeen ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
+:%{VI%} SG_NOM_PXDU1_ujumen ; !  2023_04_29 са̄лымен
+!@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@
 
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 !!:%{VO%} N1_ ;
 :%{VO%} N1_SG ;
 :%{VO%} N1_DU ;
 :%{VO%} N1_PL ;
-+Pl+Loc:%{VO%}%>ытыт K ; ! я̄тыт
-:%{VO%} N1_SG_PXDU_SHORT ;
-:%{VO%} SG_PXDU1OBLQ_ujumeent ;
-:%{VO%} SG_PXDU2_yyn ;
-:%{VO%} SG_PXDU3_teen ;
-:%{VO%} SG_PXPL2_yyn ;
+:%{VO%}%>ытыт PL_LOC_K ; ! я̄тыт
+:%{VO%} N1_SG_X_PXDU_SHORT ;
+:%{VO%} SG_ABL/INS/LAT/LOC_PXDU1_ujumeen ;
+:%{VO%} SG_X_PXDU2_yyn ;
+:%{VO%} SG_X_PXDU3_teen ;
+:%{VO%} SG_X_PXPL2_yyn ;
 
-:%{VO%} N1_DU_PXDU_SHORT ;
+:%{VO%} N1_DU_X_PXDU_SHORT ;
 +Du+Nom+PxPl2:%{VO%}%>%{аяØ%}гы̄н K ;
 +Pl+Nom+PxPl2:%{VO%}%>%{аяØ%}ны̄н K ;
-:%{VO%} DU_PXDU1_ajagameen ;
-:%{VO%} DU_PXDU1_ajagmen ;
-:%{VO%} DU_PXDU3_ajageen ;
-:%{VO%} PL_PXDU1_ajanameen ;
-:%{VO%} PL_PXDU1_ajanamen ;
-:%{VO%} PL_PXDU2_ajan ;
-:%{VO%} PL_PXDU2_ajanyyn ;
-:%{VO%} PL_PXDU2_ajanyn ;
-:%{VO%} PL_PXDU3_ajaneen ;
-:%{VO%} PL_PXDU3_ajanen ;
-:%{VO%} PL_PXPL2_ajanyn ;
-:%{VO%} PL_PXPL2_ajan ;
-+Sg+Nom+PxDu1:%{VO%}%>%{уюØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
-+Sg+Nom+PxDu1:%{VO%}%>%{уюØ%}мен K ; !  2023_04_29 са̄лымен
+:%{VO%} DU_X_PXDU1_ajagameen ;
+:%{VO%} DU_X_PXDU1_ajagmen ;
+:%{VO%} DU_X_PXDU3_ajageen ;
+:%{VO%} PL_X_PXDU1_ajanameen ;
+:%{VO%} PL_X_PXDU1_ajanamen ;
+:%{VO%} PL_X_PXDU2_ajan ;
+:%{VO%} PL_X_PXDU2_ajanyyn ;
+:%{VO%} PL_X_PXDU2_ajanyn ;
+:%{VO%} PL_X_PXDU3_ajaneen ;
+:%{VO%} PL_X_PXDU3_ajanen ;
+:%{VO%} PL_X_PXPL2_ajanyn ;
+:%{VO%} PL_X_PXPL2_ajan ;
+:%{VO%} SG_NOM_PXDU1_ujumeen ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
+:%{VO%} SG_NOM_PXDU1_ujumen ; !  2023_04_29 са̄лымен
 
 
 LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
-+Sg+Nom:%{SYNCH%} K ;
-+Sg+Loc:%{SYNCH%}%>т K ; !
-+Sg+Loc:%{SYNCH%}%>ыт K ; !
-+Sg+Lat:%{SYNCH%}%>н K ; !
-+Sg+Lat:%{SYNCH%}%>ын K ; !
-+Sg+Abl:%{SYNCH%}%>ныл K ;
-+Sg+Ins:%{SYNCH%}%>ыл K ; !
-+Sg+Tra:%{SYNCH%}%>ыг K ;!
-:%{SYNCH%} SG_PXSG1_ujum ;
-:%{SYNCH%}  SG_PXSG2_yn ;
-:%{SYNCH%}  SG_PXSG3_te ;
-:%{SYNCH%}  SG_PXSG3_tee ;
-:%{SYNCH%}  SG_PXPL1_ujuv ;
-:%{SYNCH%}  SG_PXPL3_ajanyl ;
+:%{SYNCH%}%>ныл SG_ABL_K ;
+:%{SYNCH%}%>ыл SG_INS_K ; !
+:%{SYNCH%}%>н SG_LAT_K ; !
+:%{SYNCH%}%>ын SG_LAT_K ; !
+:%{SYNCH%}%>т SG_LOC_K ; !
+:%{SYNCH%}%>ыт SG_LOC_K ; !
+:%{SYNCH%} SG_NOM_K ;
+:%{SYNCH%}%>ыг SG_TRA_K ;!
+:%{SYNCH%} SG_X_PXSG1_ujum ;
+:%{SYNCH%}  SG_X_PXSG2_yn ;
+:%{SYNCH%}  SG_X_PXSG3_te ;
+:%{SYNCH%}  SG_X_PXSG3_tee ;
+:%{SYNCH%}  SG_X_PXPL1_ujuv ;
+:%{SYNCH%}  SG_X_PXPL3_ajanyl ;
   
 
 :%{SYNCH%} N1_DU ;
 :%{SYNCH%} N1_PL ;
 
-:%{SYNCH%} SG_PXDU2_SYNC ;
-:%{SYNCH%} SG_PXDU3_een ;
-:%{SYNCH%} SG_PXPL2_yyn ;! Is the nominative differerent from the oblique cases
+:%{SYNCH%} SG_X_PXDU2_yyn ;
+:%{SYNCH%} SG_X_PXDU3_een ;
+:%{SYNCH%} SG_X_PXPL2_yyn ;! Is the nominative differerent from the oblique cases
 
-:%{SYNCH%} DU_PXDU2_ajagyyn ;
-:%{SYNCH%} DU_PXDU3_ajageen ;
-:%{SYNCH%} DU_PXPL2_ajagyyn ;
-
-
-+Pl+Loc:%{SYNCH%}%>ытыт K ;! потрытыт 2023_03_11
-:%{SYNCH%} PL_PXDU2_ajanyyn ;
-:%{SYNCH%} PL_PXDU3_ajaneen ;
-:%{SYNCH%} PL_PXPL2_ajan ;
-:%{SYNCH%} PL_PXPL2_ajanyyn ;
-
-+Sg+Nom+PxDu1:%{SYNCH%}%>%{аяØ%}ме̄н K ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
-+Sg+Nom+PxDu1:%{SYNCH%}%>%{аяØ%}мен K ; !  2023_04_29 са̄лымен
-
-:%{SYNCH%} SG_PXDU1OBLQ_ajameent ;
-:%{SYNCH%} SG_PXDU1OBLQ_ajament ;
-:%{SYNCH%} SG_PXDU2_yyn ;
-:%{SYNCH%} SG_PXDU2_yn ;
-:%{SYNCH%} SG_PXDU3_en ;
+:%{SYNCH%} DU_X_PXDU2_ajagyyn ;
+:%{SYNCH%} DU_X_PXDU3_ajageen ;
+:%{SYNCH%} DU_X_PXPL2_ajagyyn ;
 
 
-:%{SYNCH%} DU_PXDU1_ajagmen ;
-:%{SYNCH%} DU_PXDU2_ajagyyn ;
-:%{SYNCH%} DU_PXDU3_ajageen ;
+:%{SYNCH%}%>ытыт PL_LOC_K ;! потрытыт 2023_03_11
+:%{SYNCH%} PL_X_PXDU2_ajanyyn ;
+:%{SYNCH%} PL_X_PXDU3_ajaneen ;
+:%{SYNCH%} PL_X_PXPL2_ajan ;
+:%{SYNCH%} PL_X_PXPL2_ajanyyn ;
 
-+Pl+Lat:%{SYNCH%}%>ытын K ;! 
-+Pl+Loc:%{SYNCH%}%>ытыт K ;! потрытыт 2023_03_11
-!+Pl+Ins:%{SYNCH%}%>ытл K ; ! потрытл 2023_03_11
-:%{SYNCH%} PL_PXDU1_ajanameen ;
-:%{SYNCH%} PL_PXDU1_ajanamen ;
-:%{SYNCH%} PL_PXDU2_ajanyyn ;
-:%{SYNCH%} PL_PXDU3_ajaneen ;
-:%{SYNCH%} PL_PXDU3_ajanen ;
-:%{SYNCH%} PL_PXPL2_ajan ;
-:%{SYNCH%} PL_PXPL2_ajanyyn ;
+:%{SYNCH%} SG_X_PXDU1_ajameen ;
+:%{SYNCH%} SG_X_PXDU1_ajamen ;
+:%{SYNCH%} SG_X_PXDU2_yyn ;
+:%{SYNCH%} SG_X_PXDU2_yn ;
+:%{SYNCH%} SG_X_PXDU3_en ;
 
 
-:%{SYNCH%} SG_PXDU3_een ;
-:%{SYNCH%} SG_PXDU3_en ;
+:%{SYNCH%} DU_X_PXDU1_ajagmen ;
+:%{SYNCH%} DU_X_PXDU2_ajagyyn ;
+:%{SYNCH%} DU_X_PXDU3_ajageen ;
 
-:%{SYNCH%} SG_PXPL2_yn ;
+:%{SYNCH%}%>ытын PL_LAT_K ;! 
+:%{SYNCH%}%>ытыт PL_LOC_K ;! потрытыт 2023_03_11
+!:%{SYNCH%}%>ытл PL_INS_K ; ! потрытл 2023_03_11
+:%{SYNCH%} PL_X_PXDU1_ajanameen ;
+:%{SYNCH%} PL_X_PXDU1_ajanamen ;
+:%{SYNCH%} PL_X_PXDU2_ajanyyn ;
+:%{SYNCH%} PL_X_PXDU3_ajaneen ;
+:%{SYNCH%} PL_X_PXDU3_ajanen ;
+:%{SYNCH%} PL_X_PXPL2_ajan ;
+:%{SYNCH%} PL_X_PXPL2_ajanyyn ;
+
+
+:%{SYNCH%} SG_X_PXDU3_een ;
+:%{SYNCH%} SG_X_PXDU3_en ;
+
+:%{SYNCH%} SG_X_PXPL2_yn ;
 +Sg+Nom+PxPl2:%{SYNCH%}%>ы̄н K ;
 
-:%{SYNCH%} DU_PXSG1_ajagum ;
-:%{SYNCH%} DU_PXSG2_ajagyn ;
-:%{SYNCH%} DU_PXDU1_ajagameen ;
-:%{SYNCH%} DU_PXDU1_ajagamen ;
+:%{SYNCH%} DU_X_PXSG1_ajagum ;
+:%{SYNCH%} DU_X_PXSG2_ajagyn ;
+:%{SYNCH%} DU_NOM_PXSG2_ajagn ;!check
+:%{SYNCH%} DU_X_PXDU1_ajagameen ;
+:%{SYNCH%} DU_X_PXDU1_ajagamen ;
 
-:%{SYNCH%}	DU_PXDU2_ajagyyn ;
-:%{SYNCH%}	DU_PXDU2_ajagyn ;
-:%{SYNCH%}	DU_PXDU3_ajageen ;
-:%{SYNCH%}	DU_PXDU3_ajagen ;
-:%{SYNCH%} DU_PXPL1_ajaguv ;
+:%{SYNCH%}	DU_X_PXDU2_ajagyyn ;
+:%{SYNCH%}	DU_X_PXDU2_ajagyn ;
+:%{SYNCH%}	DU_X_PXDU3_ajageen ;
+:%{SYNCH%}	DU_X_PXDU3_ajagen ;
+:%{SYNCH%} DU_X_PXPL1_ajaguv ;
 
-:%{SYNCH%}  DU_PXPL2_ajagyyn ;
-:%{SYNCH%}  DU_PXPL2_ajagyn ;
+:%{SYNCH%}  DU_X_PXPL2_ajagyyn ;
+:%{SYNCH%}  DU_X_PXPL2_ajagyn ;
 
-:%{SYNCH%} PL_PXSG1_ajanum ;
-:%{SYNCH%} PL_PXSG2_ajanyn ;
-:%{SYNCH%} PL_PXSG2_ajan ;
-:%{SYNCH%} PL_PXDU2_ajanyyn ;
-:%{SYNCH%} PL_PXDU2_ajanyn ;
-:%{SYNCH%} PL_PXDU2_ajan ;
+:%{SYNCH%} PL_X_PXSG1_ajanum ;
+:%{SYNCH%} PL_X_PXSG2_ajanyn ;
+:%{SYNCH%} PL_X_PXSG2_ajan ;
+:%{SYNCH%} PL_X_PXDU2_ajanyyn ;
+:%{SYNCH%} PL_X_PXDU2_ajanyn ;
+:%{SYNCH%} PL_X_PXDU2_ajan ;
 
-:%{SYNCH%} PL_PXPL2_ajanyyn ;
-:%{SYNCH%} PL_PXPL2_ajanyn ;
-:%{SYNCH%} PL_PXPL2_ajan ;
+:%{SYNCH%} PL_X_PXPL2_ajanyyn ;
+:%{SYNCH%} PL_X_PXPL2_ajanyn ;
+:%{SYNCH%} PL_X_PXPL2_ajan ;
 
 
 LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
-+Sg+Nom:%{SYNCS%} K ;
-+Sg+Loc:%{SYNCS%}%>т K ; !
-+Sg+Loc:%{SYNCS%}%>ыт K ; !
-+Sg+Lat:%{SYNCS%}%>н K ; !
-+Sg+Lat:%{SYNCS%}%>ын K ; !
-+Sg+Abl:%{SYNCS%}%>ныл K ;
-+Sg+Ins:%{SYNCS%}%>ыл K ; !
-+Sg+Tra:%{SYNCS%}%>ыг K ;!
-:%{SYNCS%} SG_PXSG1_ujum ;
-:%{SYNCS%}  SG_PXSG2_yn ;
-:%{SYNCS%}  SG_PXSG3_te ;
-:%{SYNCS%}  SG_PXSG3_tee ;
-:%{SYNCS%}  SG_PXPL1_ujuv ;
-:%{SYNCS%}  SG_PXPL3_ajanyl ;
+:%{SYNCS%}%>ныл SG_ABL_K ;
+:%{SYNCS%}%>ыл SG_INS_K ; !
+:%{SYNCS%}%>н SG_LAT_K ; !
+:%{SYNCS%}%>ын SG_LAT_K ; !
+:%{SYNCS%}%>т SG_LOC_K ; !
+:%{SYNCS%}%>ыт SG_LOC_K ; !
+:%{SYNCS%} SG_NOM_K ;
+:%{SYNCS%}%>ыг SG_TRA_K ;!
+
+:%{SYNCS%} SG_X_PXSG1_ujum ;
+:%{SYNCS%}  SG_X_PXSG2_yn ;
+:%{SYNCS%}  SG_X_PXSG3_te ;
+:%{SYNCS%}  SG_X_PXSG3_tee ;
+:%{SYNCS%}  SG_X_PXPL1_ujuv ;
+:%{SYNCS%}  SG_X_PXPL3_ajanyl ;
   
 :%{SYNCS%} N1_DU ;
 :%{SYNCS%} N1_PL ;
 
-+Sg+Nom+PxDu1:%{SYNCS%}%>%{аяØ%}ме̄н K ;
-+Sg+Nom+PxDu1:%{SYNCS%}%>%{аяØ%}мен K ;
-:%{SYNCS%} SG_PXDU1OBLQ_ajameent ;
-:%{SYNCS%} SG_PXDU1OBLQ_ajament ;
-:%{SYNCS%} SG_PXDU2_yyn ;
-:%{SYNCS%} SG_PXDU2_yn ;
-:%{SYNCS%} SG_PXDU3_en ;
+:%{SYNCS%} SG_X_PXDU1_ajameen ;
+:%{SYNCS%} SG_X_PXDU1_ajamen ;
+:%{SYNCS%} SG_X_PXDU2_yyn ;
+:%{SYNCS%} SG_X_PXDU2_yn ;
+:%{SYNCS%} SG_X_PXDU3_en ;
 
 
-:%{SYNCS%} DU_PXDU1_ajagmen ;
-:%{SYNCS%} DU_PXDU2_ajagyyn ;
-:%{SYNCS%} DU_PXDU3_ajageen ;
+:%{SYNCS%} DU_X_PXDU1_ajagmen ;
+:%{SYNCS%} DU_X_PXDU2_ajagyyn ;
+:%{SYNCS%} DU_X_PXDU3_ajageen ;
 
-+Pl+Lat:%{SYNCS%}%>ытын K ;! 
-+Pl+Loc:%{SYNCS%}%>ытыт K ;! потрытыт 2023_03_11
-!+Pl+Ins:%{SYNCS%}%>ытл K ; ! потрытл 2023_03_11
-:%{SYNCS%} PL_PXDU1_ajanameen ;
-:%{SYNCS%} PL_PXDU1_ajanamen ;
-:%{SYNCS%} PL_PXDU2_ajanyyn ;
-:%{SYNCS%} PL_PXDU3_ajaneen ;
-:%{SYNCS%} PL_PXDU3_ajanen ;
-:%{SYNCS%} PL_PXPL2_ajan ;
-:%{SYNCS%} PL_PXPL2_ajanyyn ;
+:%{SYNCS%}%>ытын PL_LAT_K ;! 
+:%{SYNCS%}%>ытыт PL_LOC_K ;! потрытыт 2023_03_11
+!:%{SYNCS%}%>ытл PL_INS_K ; ! потрытл 2023_03_11
+:%{SYNCS%} PL_X_PXDU1_ajanameen ;
+:%{SYNCS%} PL_X_PXDU1_ajanamen ;
+:%{SYNCS%} PL_X_PXDU2_ajanyyn ;
+:%{SYNCS%} PL_X_PXDU3_ajaneen ;
+:%{SYNCS%} PL_X_PXDU3_ajanen ;
+:%{SYNCS%} PL_X_PXPL2_ajan ;
+:%{SYNCS%} PL_X_PXPL2_ajanyyn ;
 
+!:%{SYNCS%} SG_NOM_PXSG3_te ;
+!:%{SYNCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_te ;
+!:%{SYNCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_tee ;
+!:%{SYNCS%} N1_SG_X_PXDU_LONG ;
+!:%{SYNCS%} SG_NOM_PXDU1_ujumeen ;
+!:%{SYNCS%} SG_ABL/INS/LAT/LOC_PXDU1_ujumen ;
+!:%{SYNCS%}	SG_X_PXDU2_yyn ;
+!:%{SYNCS%}	SG_X_PXDU2_yn ;
+:%{SYNCS%} SG_X_PXDU3_een ;
+:%{SYNCS%} SG_X_PXDU3_en ;
 
-!:%{SYNCS%} SG_PXSG3OBLIQ_te ;
-!:%{SYNCS%} SG_PXSG3OBLIQ_tee ;
-!:%{SYNCS%} N1_SG_PXDU_LONG ;
-!:%{SYNCS%} SG_PXDU1OBLQ_ujument ;
-!:%{SYNCS%}	SG_PXDU2_yyn ;
-!:%{SYNCS%}	SG_PXDU2_yn ;
-:%{SYNCS%} SG_PXDU3_een ;
-:%{SYNCS%} SG_PXDU3_en ;
-
-:%{SYNCS%} SG_PXPL2_yn ;
+:%{SYNCS%} SG_X_PXPL2_yn ;
 +Sg+Nom+PxPl2:%{SYNCS%}%>ы̄н K ;
 
-:%{SYNCS%} DU_PXSG1_ajagum ;
-:%{SYNCS%} DU_PXSG2_ajagyn ;
-:%{SYNCS%} DU_PXDU1_ajagameen ;
-:%{SYNCS%} DU_PXDU1_ajagamen ;
+:%{SYNCS%} DU_X_PXSG1_ajagum ;
+:%{SYNCS%} DU_X_PXSG2_ajagyn ;
+:%{SYNCS%} DU_NOM_PXSG2_ajagn ;!check
+:%{SYNCS%} DU_X_PXDU1_ajagameen ;
+:%{SYNCS%} DU_X_PXDU1_ajagamen ;
 
-!:%{SYNCS%}	DU_PXDU2_ajagyn ;
-!:%{SYNCS%}	DU_PXPL2_ajagyn ;
-:%{SYNCS%}	DU_PXDU2_ajagyyn ;
-:%{SYNCS%}	DU_PXDU2_ajagyn ;
-:%{SYNCS%}	DU_PXDU3_ajageen ;
-:%{SYNCS%}	DU_PXDU3_ajagen ;
-:%{SYNCS%} DU_PXPL1_ajaguv ;
+!:%{SYNCS%}	DU_X_PXDU2_ajagyn ;
+!:%{SYNCS%}	DU_X_PXPL2_ajagyn ;
+:%{SYNCS%}	DU_X_PXDU2_ajagyyn ;
+:%{SYNCS%}	DU_X_PXDU2_ajagyn ;
+:%{SYNCS%}	DU_X_PXDU3_ajageen ;
+:%{SYNCS%}	DU_X_PXDU3_ajagen ;
+:%{SYNCS%} DU_X_PXPL1_ajaguv ;
 
-:%{SYNCS%}  DU_PXPL2_ajagyyn ;
-:%{SYNCS%}  DU_PXPL2_ajagyn ;
+:%{SYNCS%}  DU_X_PXPL2_ajagyyn ;
+:%{SYNCS%}  DU_X_PXPL2_ajagyn ;
 
-:%{SYNCS%} PL_PXSG1_ajanum ;
-:%{SYNCS%} PL_PXSG2_ajanyn ;
-:%{SYNCS%} PL_PXSG2_ajan ;
-!:%{SYNCS%} PL_PXDU1_ajanmeen ;
-!:%{SYNCS%} PL_PXDU1_ajanmen ;
-:%{SYNCS%} PL_PXDU2_ajanyyn ;
-:%{SYNCS%} PL_PXDU2_ajanyn ;
-:%{SYNCS%} PL_PXDU2_ajan ;
-!:%{SYNCS%} PL_PXDU3_ajaneen ;
-!:%{SYNCS%} PL_PXDU3_ajanen ;
+:%{SYNCS%} PL_X_PXSG1_ajanum ;
+:%{SYNCS%} PL_X_PXSG2_ajanyn ;
+:%{SYNCS%} PL_X_PXSG2_ajan ;
+!:%{SYNCS%} PL_X_PXDU1_ajanmeen ;
+!:%{SYNCS%} PL_X_PXDU1_ajanmen ;
+:%{SYNCS%} PL_X_PXDU2_ajanyyn ;
+:%{SYNCS%} PL_X_PXDU2_ajanyn ;
+:%{SYNCS%} PL_X_PXDU2_ajan ;
+!:%{SYNCS%} PL_X_PXDU3_ajaneen ;
+!:%{SYNCS%} PL_X_PXDU3_ajanen ;
 
-:%{SYNCS%} PL_PXPL2_ajanyyn ;
-:%{SYNCS%} PL_PXPL2_ajanyn ;
-:%{SYNCS%} PL_PXPL2_ajan ;
+:%{SYNCS%} PL_X_PXPL2_ajanyyn ;
+:%{SYNCS%} PL_X_PXPL2_ajanyn ;
+:%{SYNCS%} PL_X_PXPL2_ajan ;
 
 
 LEXICON N_NOSYNCH !!≈ * @CODE@ Stems without syncopy, hard
@@ -319,871 +320,1780 @@ LEXICON N_NOSYNCS !!≈ * @CODE@ Stems without syncopy, soft
 : N_VCS ;
 
 LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
-+Sg+Nom:%{VCH%} K ;
-+Sg+Loc:%{VCH%}%>т K ; !
-+Sg+Lat:%{VCH%}%>н K ; !
-+Sg+Abl:%{VCH%}%>ныл K ;
-+Sg+Ins:%{VCH%}%>ыл K ; !
-+Sg+Tra:%{VCH%}%>ыг K ;!
-:%{VCH%} SG_PXSG1_ujum ;
-:%{VCH%} SG_PXSG2_yn ;
-:%{VCH%} SG_PXSG3_te ;
-:%{VCH%} SG_PXSG3_tee ;
-:%{VCH%} SG_PXPL1_ujuv ;
-:%{VCH%} SG_PXPL3_ajanyl ;
+:%{VCH%}%>ныл SG_ABL_K ;
+:%{VCH%}%>ыл SG_INS_K ; !
+:%{VCH%}%>н SG_LAT_K ; !
+:%{VCH%}%>т SG_LOC_K ; !
+:%{VCH%} SG_NOM_K ;
+:%{VCH%}%>ыг SG_TRA_K ;!
+:%{VCH%} SG_X_PXSG1_ujum ;
+:%{VCH%} SG_X_PXSG2_yn ;
+:%{VCH%} SG_X_PXSG3_te ;
+:%{VCH%} SG_X_PXSG3_tee ;
+:%{VCH%} SG_X_PXPL1_ujuv ;
+:%{VCH%} SG_X_PXPL3_ajanyl ;
 :%{VCH%} N1_DU ;
 :%{VCH%} N1_PL ;
 
-:%{VCH%} SG_PXDU2_yyn ;
-:%{VCH%} SG_PXDU2_yn ;
-:%{VCH%} SG_PXDU3_een ;
-:%{VCH%} SG_PXDU3_en ;
-:%{VCH%} SG_PXPL2_yn ;
-:%{VCH%} SG_PXPL2_yyn ;
+:%{VCH%} SG_X_PXDU2_yyn ;
+:%{VCH%} SG_X_PXDU2_yn ;
+:%{VCH%} SG_X_PXDU3_een ;
+:%{VCH%} SG_X_PXDU3_en ;
+:%{VCH%} SG_X_PXPL2_yn ;
+:%{VCH%} SG_X_PXPL2_yyn ;
 
-:%{VCH%} DU_PXDU1_ajagmeen ;
-:%{VCH%} DU_PXDU2_ajagyyn ;
-:%{VCH%} DU_PXDU2_ajagyn ;
-:%{VCH%} DU_PXDU3_ajageen ;
-:%{VCH%} DU_PXDU3_ajagen ;
-:%{VCH%} DU_PXPL2_ajagyyn ;
-:%{VCH%} DU_PXPL2_ajagyn ;
+:%{VCH%} DU_X_PXDU1_ajagmeen ;
+:%{VCH%} DU_X_PXDU2_ajagyyn ;
+:%{VCH%} DU_X_PXDU2_ajagyn ;
+:%{VCH%} DU_X_PXDU3_ajageen ;
+:%{VCH%} DU_X_PXDU3_ajagen ;
+:%{VCH%} DU_X_PXPL2_ajagyyn ;
+:%{VCH%} DU_X_PXPL2_ajagyn ;
 
-:%{VCH%} PL_PXDU1_ajanameen ;
-:%{VCH%} PL_PXDU1_ajanamen ;
-:%{VCH%} PL_PXDU2_ajanyyn ;
-:%{VCH%} PL_PXDU2_ajanyn ;
-:%{VCH%} PL_PXDU2_ajan ;
-:%{VCH%} PL_PXDU3_ajaneen ;
-:%{VCH%} PL_PXDU3_ajanen ;
-:%{VCH%} PL_PXPL2_ajan ;
-:%{VCH%} PL_PXPL2_ajanyn ;
-:%{VCH%} PL_PXPL2_ajanyyn ;
-
-:%{VCH%} SG_PXSG3OBLIQ_e ;
-:%{VCH%} SG_PXSG3OBLIQ_ee ;
-:%{VCH%} SG_PXDU1_meen ;
-:%{VCH%} SG_PXDU1_men ;
-:%{VCH%} DU_PXDU1_ajagameen ;
-:%{VCH%} DU_PXDU1_ajagamen ;
+:%{VCH%} PL_X_PXDU1_ajanameen ;
+:%{VCH%} PL_X_PXDU1_ajanamen ;
+:%{VCH%} PL_X_PXDU2_ajanyyn ;
+:%{VCH%} PL_X_PXDU2_ajanyn ;
+:%{VCH%} PL_X_PXDU2_ajan ;
+:%{VCH%} PL_X_PXDU3_ajaneen ;
+:%{VCH%} PL_X_PXDU3_ajanen ;
+:%{VCH%} PL_X_PXPL2_ajan ;
+:%{VCH%} PL_X_PXPL2_ajanyn ;
+:%{VCH%} PL_X_PXPL2_ajanyyn ;
+:%{VCH%} SG_NOM_PXSG3_e ;
+:%{VCH%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_e ;
+:%{VCH%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee ;
+:%{VCH%} SG_X_PXDU1_meen ;
+:%{VCH%} SG_X_PXDU1_men ;
+:%{VCH%} DU_X_PXDU1_ajagameen ;
+:%{VCH%} DU_X_PXDU1_ajagamen ;
 
 LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
-+Sg+Nom:%{VCCH%} K ;
-+Sg+Loc:%{VCCH%}%>ыт K ; !
-+Sg+Lat:%{VCCH%}%>ын K ; !
-+Sg+Abl:%{VCCH%}%>ныл K ;
-+Sg+Ins:%{VCCH%}%>ыл K ; !
-+Sg+Tra:%{VCCH%}%>ыг K ;!
-:%{VCCH%} SG_PXSG1_ujum ;
-:%{VCCH%} SG_PXSG2_yn ;
-:%{VCCH%} SG_PXSG3_te ;
-:%{VCCH%} SG_PXSG3_tee ;
-:%{VCCH%} SG_PXPL1_ujuv ;
-:%{VCCH%} SG_PXPL3_ajanyl ;
+:%{VCCH%}%>ныл SG_ABL_K ;
+:%{VCCH%}%>ыл SG_INS_K ; !
+:%{VCCH%}%>ын SG_LAT_K ; !
+:%{VCCH%}%>ыт SG_LOC_K ; !
+:%{VCCH%} SG_NOM_K ;
+:%{VCCH%}%>ыг SG_TRA_K ;!
+
+:%{VCCH%} SG_X_PXSG1_ujum ;
+:%{VCCH%} SG_X_PXSG2_yn ;
+:%{VCCH%} SG_X_PXSG3_te ;
+:%{VCCH%} SG_X_PXSG3_tee ;
+:%{VCCH%} SG_X_PXPL1_ujuv ;
+:%{VCCH%} SG_X_PXPL3_ajanyl ;
 :%{VCCH%} N1_DU ;
 :%{VCCH%} N1_PL ;
 
-:%{VCCH%} SG_PXDU2_yyn ;
-:%{VCCH%} SG_PXDU2_yn ;
-:%{VCCH%} SG_PXDU3_een ;
-:%{VCCH%} SG_PXDU3_en ;
-:%{VCCH%} SG_PXPL2_yn ;
-:%{VCCH%} SG_PXPL2_yyn ;
+:%{VCCH%} SG_X_PXDU2_yyn ;
+:%{VCCH%} SG_X_PXDU2_yn ;
+:%{VCCH%} SG_X_PXDU3_een ;
+:%{VCCH%} SG_X_PXDU3_en ;
+:%{VCCH%} SG_X_PXPL2_yn ;
+:%{VCCH%} SG_X_PXPL2_yyn ;
 
-:%{VCCH%} DU_PXDU1_ajagmeen ;
-:%{VCCH%} DU_PXDU2_ajagyyn ;
-:%{VCCH%} DU_PXDU2_ajagyn ;
-:%{VCCH%} DU_PXDU3_ajageen ;
-:%{VCCH%} DU_PXDU3_ajagen ;
-:%{VCCH%} DU_PXPL2_ajagyyn ;
-:%{VCCH%} DU_PXPL2_ajagyn ;
+:%{VCCH%} DU_X_PXDU1_ajagmeen ;
+:%{VCCH%} DU_X_PXDU2_ajagyyn ;
+:%{VCCH%} DU_X_PXDU2_ajagyn ;
+:%{VCCH%} DU_X_PXDU3_ajageen ;
+:%{VCCH%} DU_X_PXDU3_ajagen ;
+:%{VCCH%} DU_X_PXPL2_ajagyyn ;
+:%{VCCH%} DU_X_PXPL2_ajagyn ;
 
-:%{VCCH%} PL_PXDU1_ajanameen ;
-:%{VCCH%} PL_PXDU1_ajanamen ;
-:%{VCCH%} PL_PXDU2_ajanyyn ;
-:%{VCCH%} PL_PXDU2_ajanyn ;
-:%{VCCH%} PL_PXDU2_ajan ;
-:%{VCCH%} PL_PXDU3_ajaneen ;
-:%{VCCH%} PL_PXDU3_ajanen ;
-:%{VCCH%} PL_PXPL2_ajan ;
-:%{VCCH%} PL_PXPL2_ajanyn ;
-:%{VCCH%} PL_PXPL2_ajanyyn ;
+:%{VCCH%} PL_X_PXDU1_ajanameen ;
+:%{VCCH%} PL_X_PXDU1_ajanamen ;
+:%{VCCH%} PL_X_PXDU2_ajanyyn ;
+:%{VCCH%} PL_X_PXDU2_ajanyn ;
+:%{VCCH%} PL_X_PXDU2_ajan ;
+:%{VCCH%} PL_X_PXDU3_ajaneen ;
+:%{VCCH%} PL_X_PXDU3_ajanen ;
+:%{VCCH%} PL_X_PXPL2_ajan ;
+:%{VCCH%} PL_X_PXPL2_ajanyn ;
+:%{VCCH%} PL_X_PXPL2_ajanyyn ;
 
-:%{VCCH%} SG_PXSG3OBLIQ_e ;
-:%{VCCH%} SG_PXSG3OBLIQ_ee ;
-:%{VCCH%} SG_PXDU1_meen ;
-:%{VCCH%} SG_PXDU1_men ;
-:%{VCCH%} DU_PXDU1_ajagameen ;
-:%{VCCH%} DU_PXDU1_ajagamen ;
+:%{VCCH%} SG_NOM_PXSG3_e ;
+:%{VCCH%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_e ;
+:%{VCCH%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee ;
+:%{VCCH%} SG_X_PXDU1_meen ;
+:%{VCCH%} SG_X_PXDU1_men ;
+:%{VCCH%} DU_X_PXDU1_ajagameen ;
+:%{VCCH%} DU_X_PXDU1_ajagamen ;
 
 LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
-+Sg+Nom:%{VCS%} K ;
-+Sg+Loc:%{VCS%}%>т K ; !
-+Sg+Lat:%{VCS%}%>н K ; !
-+Sg+Abl:%{VCS%}%>ныл K ;
-+Sg+Ins:%{VCS%}%>ыл K ; !
-+Sg+Tra:%{VCS%}%>ыг K ;!
-:%{VCS%} SG_PXSG1_ujum ;
-:%{VCS%} SG_PXSG2_yn ;
-:%{VCS%} SG_PXSG3_te ;
-:%{VCS%} SG_PXSG3_tee ;
-:%{VCS%} SG_PXPL1_ujuv ;
-:%{VCS%} SG_PXPL3_ajanyl ;
+:%{VCS%}%>ныл SG_ABL_K ;
+:%{VCS%}%>ыл SG_INS_K ; !
+:%{VCS%}%>н SG_LAT_K ; !
+:%{VCS%}%>т SG_LOC_K ; !
+:%{VCS%} SG_NOM_K ;
+:%{VCS%}%>ыг SG_TRA_K ;!
+
+:%{VCS%} SG_X_PXSG1_ujum ;
+:%{VCS%} SG_X_PXSG2_yn ;
+:%{VCS%} SG_X_PXSG3_te ;
+:%{VCS%} SG_X_PXSG3_tee ;
+:%{VCS%} SG_X_PXPL1_ujuv ;
+:%{VCS%} SG_X_PXPL3_ajanyl ;
 :%{VCS%} N1_DU ;
 :%{VCS%} N1_PL ;
 
-:%{VCS%} SG_PXDU2_yyn ;
-:%{VCS%} SG_PXDU2_yn ;
-:%{VCS%} SG_PXDU3_een ;
-:%{VCS%} SG_PXDU3_en ;
-:%{VCS%} SG_PXPL2_yn ;
-:%{VCS%} SG_PXPL2_yyn ;
+:%{VCS%} SG_X_PXDU2_yyn ;
+:%{VCS%} SG_X_PXDU2_yn ;
+:%{VCS%} SG_X_PXDU3_een ;
+:%{VCS%} SG_X_PXDU3_en ;
+:%{VCS%} SG_X_PXPL2_yn ;
+:%{VCS%} SG_X_PXPL2_yyn ;
 
-:%{VCS%} DU_PXDU1_ajagmeen ;
-:%{VCS%} DU_PXDU2_ajagyyn ;
-:%{VCS%} DU_PXDU2_ajagyn ;
-:%{VCS%} DU_PXDU3_ajageen ;
-:%{VCS%} DU_PXDU3_ajagen ;
-:%{VCS%} DU_PXPL2_ajagyyn ;
-:%{VCS%} DU_PXPL2_ajagyn ;
+:%{VCS%} DU_X_PXDU1_ajagmeen ;
+:%{VCS%} DU_X_PXDU2_ajagyyn ;
+:%{VCS%} DU_X_PXDU2_ajagyn ;
+:%{VCS%} DU_X_PXDU3_ajageen ;
+:%{VCS%} DU_X_PXDU3_ajagen ;
+:%{VCS%} DU_X_PXPL2_ajagyyn ;
+:%{VCS%} DU_X_PXPL2_ajagyn ;
 
-:%{VCS%} PL_PXDU1_ajanameen ;
-:%{VCS%} PL_PXDU1_ajanamen ;
-:%{VCS%} PL_PXDU2_ajanyyn ;
-:%{VCS%} PL_PXDU2_ajanyn ;
-:%{VCS%} PL_PXDU2_ajan ;
-:%{VCS%} PL_PXDU3_ajaneen ;
-:%{VCS%} PL_PXDU3_ajanen ;
-:%{VCS%} PL_PXPL2_ajan ;
-:%{VCS%} PL_PXPL2_ajanyn ;
-:%{VCS%} PL_PXPL2_ajanyyn ;
+:%{VCS%} PL_X_PXDU1_ajanameen ;
+:%{VCS%} PL_X_PXDU1_ajanamen ;
+:%{VCS%} PL_X_PXDU2_ajanyyn ;
+:%{VCS%} PL_X_PXDU2_ajanyn ;
+:%{VCS%} PL_X_PXDU2_ajan ;
+:%{VCS%} PL_X_PXDU3_ajaneen ;
+:%{VCS%} PL_X_PXDU3_ajanen ;
+:%{VCS%} PL_X_PXPL2_ajan ;
+:%{VCS%} PL_X_PXPL2_ajanyn ;
+:%{VCS%} PL_X_PXPL2_ajanyyn ;
 
-:%{VCS%} SG_PXSG3OBLIQ_e ;
-:%{VCS%} SG_PXSG3OBLIQ_ee ;
-:%{VCS%} SG_PXDU1_meen ;
-:%{VCS%} SG_PXDU1_men ;
-:%{VCS%} DU_PXDU1_ajagameen ;
-:%{VCS%} DU_PXDU1_ajagamen ;
-+Sg+Nom:%{VCS%} K ;
-+Sg+Loc:%{VCS%}%>т K ; !
-+Sg+Lat:%{VCS%}%>н K ; !
-+Sg+Abl:%{VCS%}%>ныл K ;
-+Sg+Ins:%{VCS%}%>ыл K ; !
-+Sg+Tra:%{VCS%}%>ыг K ;!
-:%{VCS%} SG_PXSG1_ujum ;
-:%{VCS%} SG_PXSG2_yn ;
-:%{VCS%} SG_PXSG3_te ;
-:%{VCS%} SG_PXSG3_tee ;
-:%{VCS%} SG_PXPL1_ujuv ;
-:%{VCS%} SG_PXPL3_ajanyl ;
+:%{VCS%} SG_NOM_PXSG3_e ;
+:%{VCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_e ;
+:%{VCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee ;
+:%{VCS%} SG_X_PXDU1_meen ;
+:%{VCS%} SG_X_PXDU1_men ;
+:%{VCS%} DU_X_PXDU1_ajagameen ;
+:%{VCS%} DU_X_PXDU1_ajagamen ;
+:%{VCS%}%>ныл SG_ABL_K ;
+:%{VCS%}%>ыл SG_INS_K ; !
+:%{VCS%}%>н SG_LAT_K ; !
+:%{VCS%}%>т SG_LOC_K ; !
+:%{VCS%} SG_NOM_K ;
+:%{VCS%}%>ыг SG_TRA_K ;!
+:%{VCS%} SG_X_PXSG1_ujum ;
+:%{VCS%} SG_X_PXSG2_yn ;
+:%{VCS%} SG_X_PXSG3_te ;
+:%{VCS%} SG_X_PXSG3_tee ;
+:%{VCS%} SG_X_PXPL1_ujuv ;
+:%{VCS%} SG_X_PXPL3_ajanyl ;
 :%{VCS%} N1_DU ;
 :%{VCS%} N1_PL ;
 
-:%{VCS%} SG_PXDU2_yyn ;
-:%{VCS%} SG_PXDU2_yn ;
-:%{VCS%} SG_PXDU3_een ;
-:%{VCS%} SG_PXDU3_en ;
-:%{VCS%} SG_PXPL2_yn ;
-:%{VCS%} SG_PXPL2_yyn ;
+:%{VCS%} SG_X_PXDU2_yyn ;
+:%{VCS%} SG_X_PXDU2_yn ;
+:%{VCS%} SG_X_PXDU3_een ;
+:%{VCS%} SG_X_PXDU3_en ;
+:%{VCS%} SG_X_PXPL2_yn ;
+:%{VCS%} SG_X_PXPL2_yyn ;
 
-:%{VCS%} DU_PXDU1_ajagmeen ;
-:%{VCS%} DU_PXDU2_ajagyyn ;
-:%{VCS%} DU_PXDU2_ajagyn ;
-:%{VCS%} DU_PXDU3_ajageen ;
-:%{VCS%} DU_PXDU3_ajagen ;
-:%{VCS%} DU_PXPL2_ajagyyn ;
-:%{VCS%} DU_PXPL2_ajagyn ;
+:%{VCS%} DU_X_PXDU1_ajagmeen ;
+:%{VCS%} DU_X_PXDU2_ajagyyn ;
+:%{VCS%} DU_X_PXDU2_ajagyn ;
+:%{VCS%} DU_X_PXDU3_ajageen ;
+:%{VCS%} DU_X_PXDU3_ajagen ;
+:%{VCS%} DU_X_PXPL2_ajagyyn ;
+:%{VCS%} DU_X_PXPL2_ajagyn ;
 
-:%{VCS%} PL_PXDU1_ajanameen ;
-:%{VCS%} PL_PXDU1_ajanamen ;
-:%{VCS%} PL_PXDU2_ajanyyn ;
-:%{VCS%} PL_PXDU2_ajanyn ;
-:%{VCS%} PL_PXDU2_ajan ;
-:%{VCS%} PL_PXDU3_ajaneen ;
-:%{VCS%} PL_PXDU3_ajanen ;
-:%{VCS%} PL_PXPL2_ajan ;
-:%{VCS%} PL_PXPL2_ajanyn ;
-:%{VCS%} PL_PXPL2_ajanyyn ;
+:%{VCS%} PL_X_PXDU1_ajanameen ;
+:%{VCS%} PL_X_PXDU1_ajanamen ;
+:%{VCS%} PL_X_PXDU2_ajanyyn ;
+:%{VCS%} PL_X_PXDU2_ajanyn ;
+:%{VCS%} PL_X_PXDU2_ajan ;
+:%{VCS%} PL_X_PXDU3_ajaneen ;
+:%{VCS%} PL_X_PXDU3_ajanen ;
+:%{VCS%} PL_X_PXPL2_ajan ;
+:%{VCS%} PL_X_PXPL2_ajanyn ;
+:%{VCS%} PL_X_PXPL2_ajanyyn ;
 
-:%{VCS%} SG_PXSG3OBLIQ_e ;
-:%{VCS%} SG_PXSG3OBLIQ_ee ;
-:%{VCS%} SG_PXDU1_meen ;
-:%{VCS%} SG_PXDU1_men ;
-:%{VCS%} DU_PXDU1_ajagameen ;
-:%{VCS%} DU_PXDU1_ajagamen ;
+:%{VCS%} SG_NOM_PXSG3_e ;
+:%{VCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_e ;
+:%{VCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee ;
+:%{VCS%} SG_X_PXDU1_meen ;
+:%{VCS%} SG_X_PXDU1_men ;
+:%{VCS%} DU_X_PXDU1_ajagameen ;
+:%{VCS%} DU_X_PXDU1_ajagamen ;
 
 LEXICON N_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
-+Sg+Nom:%{VCCS%} K ;
-+Sg+Loc:%{VCCS%}%>ыт K ; !
-+Sg+Lat:%{VCCS%}%>ын K ; !
-+Sg+Abl:%{VCCS%}%>ныл K ;
-+Sg+Ins:%{VCCS%}%>ыл K ; !
-+Sg+Tra:%{VCCS%}%>ыг K ;!
-:%{VCCS%} SG_PXSG1_ujum ;
-:%{VCCS%} SG_PXSG2_yn ;
-:%{VCCS%} SG_PXSG3_te ;
-:%{VCCS%} SG_PXSG3_tee ;
-:%{VCCS%} SG_PXPL1_ujuv ;
-:%{VCCS%} SG_PXPL3_ajanyl ;
+:%{VCCS%}%>ныл SG_ABL_K ;
+:%{VCCS%}%>ыл SG_INS_K ; !
+:%{VCCS%}%>ын SG_LAT_K ; !
+:%{VCCS%}%>ыт SG_LOC_K ; !
+:%{VCCS%} SG_NOM_K ;
+:%{VCCS%}%>ыг SG_TRA_K ;!
+:%{VCCS%} SG_X_PXSG1_ujum ;
+:%{VCCS%} SG_X_PXSG2_yn ;
+:%{VCCS%} SG_X_PXSG3_te ;
+:%{VCCS%} SG_X_PXSG3_tee ;
+:%{VCCS%} SG_X_PXPL1_ujuv ;
+:%{VCCS%} SG_X_PXPL3_ajanyl ;
 :%{VCCS%} N1_DU ;
 :%{VCCS%} N1_PL ;
 
-:%{VCCS%} SG_PXDU2_yyn ;
-:%{VCCS%} SG_PXDU2_yn ;
-:%{VCCS%} SG_PXDU3_een ;
-:%{VCCS%} SG_PXDU3_en ;
-:%{VCCS%} SG_PXPL2_yn ;
-:%{VCCS%} SG_PXPL2_yyn ;
+:%{VCCS%} SG_X_PXDU2_yyn ;
+:%{VCCS%} SG_X_PXDU2_yn ;
+:%{VCCS%} SG_X_PXDU3_een ;
+:%{VCCS%} SG_X_PXDU3_en ;
+:%{VCCS%} SG_X_PXPL2_yn ;
+:%{VCCS%} SG_X_PXPL2_yyn ;
 
-:%{VCCS%} DU_PXDU1_ajagmeen ;
-:%{VCCS%} DU_PXDU2_ajagyyn ;
-:%{VCCS%} DU_PXDU2_ajagyn ;
-:%{VCCS%} DU_PXDU3_ajageen ;
-:%{VCCS%} DU_PXDU3_ajagen ;
-:%{VCCS%} DU_PXPL2_ajagyyn ;
-:%{VCCS%} DU_PXPL2_ajagyn ;
+:%{VCCS%} DU_X_PXDU1_ajagmeen ;
+:%{VCCS%} DU_X_PXDU2_ajagyyn ;
+:%{VCCS%} DU_X_PXDU2_ajagyn ;
+:%{VCCS%} DU_X_PXDU3_ajageen ;
+:%{VCCS%} DU_X_PXDU3_ajagen ;
+:%{VCCS%} DU_X_PXPL2_ajagyyn ;
+:%{VCCS%} DU_X_PXPL2_ajagyn ;
 
-:%{VCCS%} PL_PXDU1_ajanameen ;
-:%{VCCS%} PL_PXDU1_ajanamen ;
-:%{VCCS%} PL_PXDU2_ajanyyn ;
-:%{VCCS%} PL_PXDU2_ajanyn ;
-:%{VCCS%} PL_PXDU2_ajan ;
-:%{VCCS%} PL_PXDU3_ajaneen ;
-:%{VCCS%} PL_PXDU3_ajanen ;
-:%{VCCS%} PL_PXPL2_ajan ;
-:%{VCCS%} PL_PXPL2_ajanyn ;
-:%{VCCS%} PL_PXPL2_ajanyyn ;
+:%{VCCS%} PL_X_PXDU1_ajanameen ;
+:%{VCCS%} PL_X_PXDU1_ajanamen ;
+:%{VCCS%} PL_X_PXDU2_ajanyyn ;
+:%{VCCS%} PL_X_PXDU2_ajanyn ;
+:%{VCCS%} PL_X_PXDU2_ajan ;
+:%{VCCS%} PL_X_PXDU3_ajaneen ;
+:%{VCCS%} PL_X_PXDU3_ajanen ;
+:%{VCCS%} PL_X_PXPL2_ajan ;
+:%{VCCS%} PL_X_PXPL2_ajanyn ;
+:%{VCCS%} PL_X_PXPL2_ajanyyn ;
 
-:%{VCCS%} SG_PXSG3OBLIQ_e ;
-:%{VCCS%} SG_PXSG3OBLIQ_ee ;
-:%{VCCS%} SG_PXDU1_meen ;
-:%{VCCS%} SG_PXDU1_men ;
-:%{VCCS%} DU_PXDU1_ajagameen ;
-:%{VCCS%} DU_PXDU1_ajagamen ;
+:%{VCCS%} SG_NOM_PXSG3_e ;
+:%{VCCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_e ;
+:%{VCCS%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee ;
+:%{VCCS%} SG_X_PXDU1_meen ;
+:%{VCCS%} SG_X_PXDU1_men ;
+:%{VCCS%} DU_X_PXDU1_ajagameen ;
+:%{VCCS%} DU_X_PXDU1_ajagamen ;
 
 
 LEXICON N1_
  N1_SG ;
  N1_DU ;
  N1_PL ;
- N1_SG_PXDU_LONG ;
- N1_DU_PXDU_LONG ;
- N1_PL_PXDU_LONG ;
-! N1_SG_PXDU_SHORT ;
-! N1_DU_PXDU_SHORT ;
-! N1_PL_PXDU_SHORT ;
+ N1_SG_X_PXDU_LONG ;
+ N1_DU_X_PXDU_LONG ;
+ N1_PL_X_PXDU_LONG ;
+! N1_SG_X_PXDU_SHORT ;
+! N1_DU_X_PXDU_SHORT ;
+! N1_PL_X_PXDU_SHORT ;
 
 !! **LEXICON @LEXNAME@** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
 ! noun in ь + ыт
 !! ### 1. Non-possessive forms 
 !! affixes for Nom, Loc, Lat, Abl, Ins, Tra.
 LEXICON N1_SG
-+Sg+Nom: K ;
-!+Sg+Loc:%>%{ыиØ%}т K ; 
-+Sg+Loc:%>ыт K ; ! not like Pl Nom(only: потрыт)!! потырт/потрыт, са̄лыт, э̄кват, 
-+Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын, са̄лын
-+Sg+Abl:%>ныл K ;
+:%>ныл SG_ABL_K ;
+:%>ыл SG_INS_K ; !
+:%>ын SG_LAT_K ; !
+:%>ыт SG_LOC_K ; !
+: SG_NOM_K ;
+:%>ыг SG_TRA_K ;!потрыг, са̄лыиг
+!+Sg+Loc:%>ыт K ; ! not like Pl Nom(only: потрыт)!! потырт/потрыт, са̄лыт, э̄кват, 
+!+Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын, са̄лын
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
-+Sg+Ins:%>ыл K ; ! 43 stems, no т. this is like Pl.Nom, ScSg2, Ins with syncope потрыл, са̄лыл
 !+Sg+Ins:%>%{ыиØ%}л K ; ! 43 stems, no т.
-+Sg+Tra:%>ыг K ;!, потрыг, са̄лыиг
-
 !+Sg+Loc:%>%{ыиØ%}т K ; ! -ыт/ _ CC, -т elsewhere
 !+Sg+Lat:%>%{ыиØ%}н K ; ! -ын as -ыт above
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
-+Sg+Nom+PxSg1:%>%{уюØ%}м K ;
-+Sg+Loc+PxSg1:%>%{уюØ%}мт K ;
-+Sg+Lat+PxSg1:%>%{уюØ%}мн K ;
-+Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
-+Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
-+Sg+Tra+PxSg1:%>%{уюØ%}мыг K ;
+ SG_X_PXSG1_ujum ;
+ SG_X_PXSG2_yn ;! vowel retension потырын, са̄лын
 
-+Sg+Nom+PxSg2:%>ын K ;! vowel retension потырын, са̄лын
-+Sg+Loc+PxSg2:%>ынт K ;
-+Sg+Lat+PxSg2:%>ынн K ;
-+Sg+Abl+PxSg2:%>ынныл K ;
-+Sg+Ins+PxSg2:%>ынтыл K ;
-+Sg+Tra+PxSg2:%>ыныг K ;
+ SG_X_PXSG3_te ;
+ SG_ABL_PXSG3_tee ;
+ SG_INS_PXSG3_tee ;
+ SG_LAT_PXSG3_tee ;
+ SG_LOC_PXSG3_tee ;
+ SG_TRA_PXSG3_tee ;
 
-+Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕ%}н K ;
-+Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
-+Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}нтыл K ;
-+Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕ%}г K ;
-
-+Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕLong%}н K ;
-+Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕLong%}ныл K ;
-+Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
-+Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕLong%}г K ;
+ SG_X_PXPL1_ujuv ;
+ SG_X_PXPL3_ajanyl ;
 
 
-+Sg+Nom+PxPl1:%>%{уюØ%}в K ;
-+Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
-+Sg+Lat+PxPl1:%>%{уюØ%}вн K ;
-+Sg+Abl+PxPl1:%>%{уюØ%}вныл K ;
-+Sg+Ins+PxPl1:%>%{уюØ%}втыл K ;
-
-+Sg+Nom+PxPl3:%>%{аяØ%}ныл K ;
-+Sg+Loc+PxPl3:%>%{аяØ%}нылт K ;
-+Sg+Lat+PxPl3:%>%{аяØ%}нылн K ;
-+Sg+Abl+PxPl3:%>%{аяØ%}нылныл K ;
-+Sg+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
-
-LEXICON SG_PXSG1_ujum
-+Sg+Nom+PxSg1:%>%{уюØ%}м K ;
-+Sg+Loc+PxSg1:%>%{уюØ%}мт K ;
-+Sg+Lat+PxSg1:%>%{уюØ%}мн K ;
-+Sg+Abl+PxSg1:%>%{уюØ%}мныл K ;
-+Sg+Ins+PxSg1:%>%{уюØ%}мтыл K ;
-+Sg+Tra+PxSg1:%>%{уюØ%}мыг K ;
-
-LEXICON SG_PXSG2_yn
-+Sg+Nom+PxSg2:%>ын K ;! vowel retension потырын, са̄лын
-+Sg+Loc+PxSg2:%>ынт K ;
-+Sg+Lat+PxSg2:%>ынн K ;
-+Sg+Abl+PxSg2:%>ынныл K ;
-+Sg+Ins+PxSg2:%>ынтыл K ;
-+Sg+Tra+PxSg2:%>ыныг K ;
-
-LEXICON SG_PXSG3_te
-+Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕ%}н K ;
-+Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕ%}ныл K ;
-+Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕ%}нтыл K ;
-+Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕ%}г K ;
-
-LEXICON SG_PXSG3_tee
-+Sg+Nom+PxSg3:%>%{тØ%}%{ЭЕ%} K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>%{тØ%}%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>%{тØ%}%{ЭЕLong%}н K ;
-+Sg+Abl+PxSg3:%>%{тØ%}%{ЭЕLong%}ныл K ;
-+Sg+Ins+PxSg3:%>%{тØ%}%{ЭЕLong%}нтыл K ;
-+Sg+Tra+PxSg3:%>%{тØ%}%{ЭЕLong%}г K ;
-
-LEXICON SG_PXPL1_ujuv
-+Sg+Nom+PxPl1:%>%{уюØ%}в K ;
-+Sg+Loc+PxPl1:%>%{уюØ%}вт K ;
-+Sg+Lat+PxPl1:%>%{уюØ%}вн K ;
-+Sg+Abl+PxPl1:%>%{уюØ%}вныл K ;
-+Sg+Ins+PxPl1:%>%{уюØ%}втыл K ;
-
-LEXICON SG_PXPL3_ajanyl
-+Sg+Nom+PxPl3:%>%{аяØ%}ныл K ;
-+Sg+Loc+PxPl3:%>%{аяØ%}нылт K ;
-+Sg+Lat+PxPl3:%>%{аяØ%}нылн K ;
-+Sg+Abl+PxPl3:%>%{аяØ%}нылныл K ;
-+Sg+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
+LEXICON N1_SG_X_PXDU_LONG
+ SG_ABL/INS/LAT/LOC_PXDU1_ujumeen ;
+ SG_X_PXDU2_yyn ;
+ SG_X_PXDU3_een ;
+ SG_X_PXPL2_yn ;
 
 
-LEXICON SG_PXSG3OBLIQ_te
-+Sg+Nom+PxSg3:%>тэ K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>тэт K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>тэн K ;
-+Sg+Abl+PxSg3:%>тэныл K ;
-+Sg+Ins+PxSg3:%>тэнтыл K ;
-+Sg+Tra+PxSg3:%>тэг K ;
-
-LEXICON SG_PXSG3OBLIQ_tee
-+Sg+Nom+PxSg3:%>тэ K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>тэ̄т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>тэ̄н K ;
-+Sg+Abl+PxSg3:%>тэ̄ныл K ;
-+Sg+Ins+PxSg3:%>тэ̄нтыл K ;
-+Sg+Tra+PxSg3:%>тэ̄г K ;
-
-LEXICON SG_PXSG3OBLIQ_e
-+Sg+Nom+PxSg3:%>%{ЭЕ%} K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>%{ЭЕ%}т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>%{ЭЕ%}н K ;
-+Sg+Abl+PxSg3:%>%{ЭЕ%}ныл K ;
-+Sg+Ins+PxSg3:%>%{ЭЕ%}нтыл K ;
-+Sg+Tra+PxSg3:%>%{ЭЕ%}г K ;
-
-LEXICON SG_PXSG3OBLIQ_ee
-+Sg+Nom+PxSg3:%>%{ЭЕ%} K ; ! todo: delete т for хап
-+Sg+Loc+PxSg3:%>%{ЭЕLong%}т K ;! потре̄т but э̄кватэт, са̄лытэт
-+Sg+Lat+PxSg3:%>%{ЭЕLong%}н K ;
-+Sg+Abl+PxSg3:%>%{ЭЕLong%}ныл K ;
-+Sg+Ins+PxSg3:%>%{ЭЕLong%}нтыл K ;
-+Sg+Tra+PxSg3:%>%{ЭЕLong%}г K ;
-
-
-LEXICON N1_SG_PXDU_LONG
- SG_PXDU1OBLQ_ujumeent ;
- SG_PXDU2_yyn ;
- SG_PXDU3_LONG ;
- SG_PXPL2_yn ;
-
-
-LEXICON N1_SG_PXDU_SHORT
- SG_PXDU1OBLQ_ujument ;
- SG_PXDU2_yn ;
- SG_PXDU3_ten ;
- SG_PXPL2_yn ;
+LEXICON N1_SG_X_PXDU_SHORT
+ SG_ABL/INS/LAT/LOC_PXDU1_ujumen ;
+ SG_X_PXDU2_yn ;
+ SG_X_PXDU3_ten ;
+ SG_X_PXPL2_yn ;
 
 LEXICON N1_DU
-+Du+Nom:%>ыг K ; ! а̄ныйыг, э̄кваг, потырыг
-+Du+Loc:%>ыгт K ;
-+Du+Lat:%>ыгн K ;
-+Du+Abl:%>ыгныл K ;
-+Du+Ins:%>ыгтыл K ;
+:%>ыгныл DU_ABL_K ;
+:%>ыгтыл DU_INS_K ;
+:%>ыгн DU_LAT_K ;
+:%>ыгт DU_LOC_K ;
+:%>ыг DU_NOM_K ; ! а̄ныйыг, э̄кваг, потырыг
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
+ DU_X_PXSG1_ajagum ;
+ DU_X_PXSG2_ajagyn ;
+ DU_NOM_PXSG2_ajagn ;!2023_05_02
 
-+Du+Nom+PxSg1:%>%{аяØ%}гум K ;
-+Du+Loc+PxSg1:%>%{аяØ%}гумт K ;
-+Du+Lat+PxSg1:%>%{аяØ%}гумн K ;
-+Du+Abl+PxSg1:%>%{аяØ%}гумныл K ;
-+Du+Ins+PxSg1:%>%{аяØ%}гумтыл K ;
+ DU_X_PXSG3_ajage ;
+ DU_ABL/INS/LAT/LOC_PXSG3_ajagee ;
 
-+Du+Nom+PxSg2:%>%{аяØ%}гын K ;
-+Du+Nom+PxSg2:%>%{аяØ%}гн K ;!2023_05_02
-+Du+Loc+PxSg2:%>%{аяØ%}гынт K ;
-+Du+Lat+PxSg2:%>%{аяØ%}гынн K ;
-+Du+Abl+PxSg2:%>%{аяØ%}гынныл K ;
-+Du+Ins+PxSg2:%>%{аяØ%}гынтыл K ;
-
-+Du+Nom+PxSg3:%>%{аяØ%}ге K ;
-+Du+Loc+PxSg3:%>%{аяØ%}гет K ;
-+Du+Lat+PxSg3:%>%{аяØ%}ген K ;
-+Du+Abl+PxSg3:%>%{аяØ%}геныл K ;
-+Du+Ins+PxSg3:%>%{аяØ%}гетыл K ;
-
-+Du+Loc+PxSg3:%>%{аяØ%}ге̄т K ;!longer 20230502
-+Du+Lat+PxSg3:%>%{аяØ%}ге̄н K ;
-+Du+Abl+PxSg3:%>%{аяØ%}ге̄ныл K ;
-+Du+Ins+PxSg3:%>%{аяØ%}ге̄тыл K ;
-
-+Du+Nom+PxPl1:%>%{аяØ%}гув K ;
-+Du+Loc+PxPl1:%>%{аяØ%}гувт K ;
-+Du+Lat+PxPl1:%>%{аяØ%}гувн K ;
-+Du+Abl+PxPl1:%>%{аяØ%}гувныл K ;
-+Du+Ins+PxPl1:%>%{аяØ%}гувтыл K ;
-
-+Du+Nom+PxPl3:%>%{аяØ%}ганыл K ;
-+Err/Orth+Du+Nom+PxPl3:%>%{аяØ%}га̄ныл K ;
-+Du+Loc+PxPl3:%>%{аяØ%}ганылт K ;
-+Err/Orth+Du+Loc+PxPl3:%>%{аяØ%}га̄нылт K ;
-+Du+Lat+PxPl3:%>%{аяØ%}ганылн K ;
-+Err/Orth+Du+Lat+PxPl3:%>%{аяØ%}га̄нылн K ;
-+Du+Abl+PxPl3:%>%{аяØ%}ганылныл K ;
-+Err/Orth+Du+Abl+PxPl3:%>%{аяØ%}га̄нылныл K ;
-+Du+Ins+PxPl3:%>%{аяØ%}ганылтыл K ;
-+Err/Orth+Du+Ins+PxPl3:%>%{аяØ%}га̄нылтыл K ;
-
-LEXICON DU_PXSG1_ajagum
-+Du+Nom+PxSg1:%>%{аяØ%}гум K ;
-+Du+Loc+PxSg1:%>%{аяØ%}гумт K ;
-+Du+Lat+PxSg1:%>%{аяØ%}гумн K ;
-+Du+Abl+PxSg1:%>%{аяØ%}гумныл K ;
-+Du+Ins+PxSg1:%>%{аяØ%}гумтыл K ;
-
-LEXICON DU_PXSG2_ajagyn
-+Du+Nom+PxSg2:%>%{аяØ%}гын K ;
-+Du+Nom+PxSg2:%>%{аяØ%}гн K ;!2023_05_02
-+Du+Loc+PxSg2:%>%{аяØ%}гынт K ;
-+Du+Lat+PxSg2:%>%{аяØ%}гынн K ;
-+Du+Abl+PxSg2:%>%{аяØ%}гынныл K ;
-+Du+Ins+PxSg2:%>%{аяØ%}гынтыл K ;
-
-LEXICON DU_PXPL1_ajaguv
-+Du+Nom+PxPl1:%>%{аяØ%}гув K ;
-+Du+Loc+PxPl1:%>%{аяØ%}гувт K ;
-+Du+Lat+PxPl1:%>%{аяØ%}гувн K ;
-+Du+Abl+PxPl1:%>%{аяØ%}гувныл K ;
-+Du+Ins+PxPl1:%>%{аяØ%}гувтыл K ;
+ DU_X_PXPL1_ajaguv ;
+ DU_X_PXPL3_aganyl ;
++Err/Orth: DU_X_PXPL3_agaanyl ;
 
 
+LEXICON N1_DU_X_PXDU_LONG
+ DU_X_PXDU1_ajagumeen ;
+ DU_X_PXDU2_ajagyn ;
+ DU_X_PXDU3_ajagen ;
+ DU_X_PXPL2_ajagyn ;
 
-LEXICON N1_DU_PXDU_LONG
- DU_PXDU1_ajagumeen ;
- DU_PXDU2_ajagyn ;
- DU_PXDU3_LONG ;
- DU_PXPL2_ajagyn ;
-
-LEXICON N1_DU_PXDU_SHORT
- DU_PXDU1_ajagamen ;
-! DU_PXDU2_SHORT ;
- DU_PXDU2_ajagyyn ;!20230502
- DU_PXDU2_ajagyn ;!20230502
- DU_PXDU3_ajagen ;
-! DU_PXPL2_SHORT ;
- DU_PXPL2_ajagyn ;
+LEXICON N1_DU_X_PXDU_SHORT
+ DU_X_PXDU1_ajagamen ;
+! DU_X_PXDU2_SHORT ;
+ DU_X_PXDU2_ajagyyn ;!20230502
+ DU_X_PXDU2_ajagyn ;!20230502
+ DU_X_PXDU3_ajagen ;
+! DU_X_PXPL2_SHORT ;
+ DU_X_PXPL2_ajagyn ;
 
 LEXICON N1_PL
-+Pl+Nom:%>ыт K ; ! а̄ныт, акит, па̄ртыт
-+Pl+Loc:%>ытт K ;! потрытт
-+Pl+Lat:%>ытн K ;
-!+Pl+Lat:%>ытын K ; jr
-+Pl+Abl:%>ытныл K ;
-+Pl+Ins:%>ытыл K ; ! потрытыл
+:%>ыт PL_NOM_K ; ! а̄ныт, акит, па̄ртыт
+:%>ытт PL_LOC_K ;! потрытт
+:%>ытн PL_LAT_K ;
+!:%>ытын PL_LAT_K ; jr
+:%>ытныл PL_ABL_K ;
+:%>ытыл PL_INS_K ; ! потрытыл
 
 
 !! ### 2. Possessive forms
 !! Affixes for pissessive suffixes + case forms.
+ PL_X_PXSG1_ajanum ;
+  PL_X_PXSG2_ajan ;
+  PL_X_PXSG2_ajanyn ;
+ PL_X_PXSG3_ajane ;
+ PL_ABL/INS/LAT/LOC_PXSG3_ajanee ;
+ PL_X_PXPL1_ajanuv ;
+ PL_X_PXPL3_ajananyl ;
+ PL_X_PXPL3_ajanyl ;
 
-+Pl+Nom+PxSg1:%>%{аяØ%}нум K ;
-+Pl+Loc+PxSg1:%>%{аяØ%}нумт K ;
-+Pl+Lat+PxSg1:%>%{аяØ%}нумн K ;
-+Pl+Abl+PxSg1:%>%{аяØ%}нумныл K ;
-+Pl+Ins+PxSg1:%>%{аяØ%}нумтыл K ;
-
-+Pl+Nom+PxSg2:%>%{аяØ%}н K ;
-+Pl+Loc+PxSg2:%>%{аяØ%}нт K ;
-+Pl+Lat+PxSg2:%>%{аяØ%}нн K ;
-+Pl+Abl+PxSg2:%>%{аяØ%}нныл K ;
-+Pl+Ins+PxSg2:%>%{аяØ%}нтыл K ;
-
-+Pl+Nom+PxSg2:%>%{аяØ%}нын K ;
-+Pl+Loc+PxSg2:%>%{аяØ%}нынт K ;
-+Pl+Lat+PxSg2:%>%{аяØ%}нынн K ;
-+Pl+Abl+PxSg2:%>%{аяØ%}нынныл K ;
-+Pl+Ins+PxSg2:%>%{аяØ%}нынтыл K ;
-
-+Pl+Nom+PxSg3:%>%{аяØ%}нэ K ;
-+Pl+Loc+PxSg3:%>%{аяØ%}нэт K ;
-+Pl+Lat+PxSg3:%>%{аяØ%}нэн K ;
-+Pl+Abl+PxSg3:%>%{аяØ%}нэныл K ;
-+Pl+Ins+PxSg3:%>%{аяØ%}нэтыл K ;
-
-+Pl+Loc+PxSg3:%>%{аяØ%}нэ̄т K ;!20230502
-+Pl+Lat+PxSg3:%>%{аяØ%}нэ̄н K ;
-+Pl+Abl+PxSg3:%>%{аяØ%}нэ̄ныл K ;
-+Pl+Ins+PxSg3:%>%{аяØ%}нэ̄тыл K ;
-
-
-+Pl+Nom+PxPl1:%>%{аяØ%}нув K ;
-+Pl+Loc+PxPl1:%>%{аяØ%}нувт K ;
-+Pl+Lat+PxPl1:%>%{аяØ%}нувн K ;
-+Pl+Abl+PxPl1:%>%{аяØ%}нувныл K ;
-+Pl+Ins+PxPl1:%>%{аяØ%}нувтыл K ;
-
-+Pl+Nom+PxPl3:%>%{аяØ%}наныл K ;
-+Pl+Loc+PxPl3:%>%{аяØ%}нанылт K ;
-+Pl+Lat+PxPl3:%>%{аяØ%}нанылн K ;
-+Pl+Abl+PxPl3:%>%{аяØ%}нанылныл K ;
-+Pl+Ins+PxPl3:%>%{аяØ%}нанылтыл K ;
-
-+Pl+Nom+PxPl3:%>%{аяØ%}ныл K ;
-+Pl+Loc+PxPl3:%>%{аяØ%}нылт K ;
-+Pl+Lat+PxPl3:%>%{аяØ%}нылн K ;
-+Pl+Abl+PxPl3:%>%{аяØ%}нылныл K ;
-+Pl+Ins+PxPl3:%>%{аяØ%}нылтыл K ;
 
 !! ### 3. Derivation forms
 !! This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 +Der+Der/Yng+A:%>ыӈ A_ ;
 +Der+Der/Yng+A+Der+Der/Yshch+Adv:%>ыщ ADV_ ;
 
-LEXICON PL_PXSG1_ajanum
-+Pl+Nom+PxSg1:%>%{аяØ%}нум K ;
-+Pl+Loc+PxSg1:%>%{аяØ%}нумт K ;
-+Pl+Lat+PxSg1:%>%{аяØ%}нумн K ;
-+Pl+Abl+PxSg1:%>%{аяØ%}нумныл K ;
-+Pl+Ins+PxSg1:%>%{аяØ%}нумтыл K ;
-
-LEXICON PL_PXSG2_ajan
-+Pl+Nom+PxSg2:%>%{аяØ%}н K ;
-+Pl+Loc+PxSg2:%>%{аяØ%}нт K ;
-+Pl+Lat+PxSg2:%>%{аяØ%}нн K ;
-+Pl+Abl+PxSg2:%>%{аяØ%}нныл K ;
-+Pl+Ins+PxSg2:%>%{аяØ%}нтыл K ;
-
-LEXICON PL_PXSG2_ajanyn
-+Pl+Nom+PxSg2:%>%{аяØ%}нын K ;
-+Pl+Loc+PxSg2:%>%{аяØ%}нынт K ;
-+Pl+Lat+PxSg2:%>%{аяØ%}нынн K ;
-+Pl+Abl+PxSg2:%>%{аяØ%}нынныл K ;
-+Pl+Ins+PxSg2:%>%{аяØ%}нынтыл K ;
 
 
 
-LEXICON N1_PL_PXDU_LONG
- PL_PXDU1_ajanmeen ;
- PL_PXDU2_ajanyn ;
- PL_PXDU3_LONG ;
- PL_PXPL2_ajan ;
- PL_PXPL2_ajanyn ;
+LEXICON N1_PL_X_PXDU_LONG
+ PL_X_PXDU1_ajanmeen ;
+ PL_X_PXDU2_ajanyn ;
+ PL_X_PXDU3_ajanen ;
+ PL_X_PXPL2_ajan ;
+ PL_X_PXPL2_ajanyn ;
 
 
-LEXICON SG_PXDU1_meen
-+Sg+Nom+PxDu1:%>ме̄н K ;
-+Sg+Loc+PxDu1:%>ме̄нт K ;
-+Sg+Lat+PxDu1:%>ме̄нн K ;
-+Sg+Abl+PxDu1:%>ме̄нныл K ;
-+Sg+Ins+PxDu1:%>ме̄нтыл K ;
 
-LEXICON SG_PXDU1_men
-+Sg+Nom+PxDu1:%>мен K ;
-+Sg+Loc+PxDu1:%>мент K ;
-+Sg+Lat+PxDu1:%>менн K ;
-+Sg+Abl+PxDu1:%>менныл K ;
-+Sg+Ins+PxDu1:%>ментыл K ;
+!!!!msn
+!! sg x pxsg1
+LEXICON SG_X_PXSG1_ujum
+ SG_ABL_PXSG1_K ;
+ SG_INS_PXSG1_K ;
+ SG_LAT_PXSG1_K ;
+ SG_LOC_PXSG1_K ;
+ SG_NOM_PXSG1_K ;
+ SG_TRA_PXSG1_K ;
 
-LEXICON SG_PXDU1OBLQ_ajameent
-+Sg+Loc+PxDu1:%>%{аяØ%}ме̄нт K ;
-+Sg+Lat+PxDu1:%>%{аяØ%}ме̄нн K ;
-+Sg+Abl+PxDu1:%>%{аяØ%}ме̄нныл K ;
-+Sg+Ins+PxDu1:%>%{аяØ%}ме̄нтыл K ;
+!! sg x pxsg2
+LEXICON SG_X_PXSG2_yn
+ SG_ABL_PXSG2_K ;
+ SG_INS_PXSG2_K ;
+ SG_LAT_PXSG2_K ;
+ SG_LOC_PXSG2_K ;
+ SG_NOM_PXSG2_K ;
+ SG_TRA_PXSG2_K ;
 
-LEXICON SG_PXDU1OBLQ_ajament
-+Sg+Loc+PxDu1:%>%{аяØ%}мент K ;
-+Sg+Lat+PxDu1:%>%{аяØ%}менн K ;
-+Sg+Abl+PxDu1:%>%{аяØ%}менныл K ;
-+Sg+Ins+PxDu1:%>%{аяØ%}ментыл K ;
+!! sg x pxsg3
+LEXICON SG_X_PXSG3_te
+ SG_ABL_PXSG3_te ;
+ SG_INS_PXSG3_te ;
+ SG_LAT_PXSG3_te ;
+ SG_LOC_PXSG3_te ;
+ SG_NOM_PXSG3_te ;
+ SG_TRA_PXSG3_te ;
+LEXICON SG_ABL_PXSG3_te
+:%>%{тØ%}%{ЭЕ%}ныл SG_ABL_PXSG3_K ;
+LEXICON SG_INS_PXSG3_te
+:%>%{тØ%}%{ЭЕ%}нтыл SG_INS_PXSG3_K ;
+LEXICON SG_LAT_PXSG3_te
+:%>%{тØ%}%{ЭЕ%}н SG_LAT_PXSG3_K ;
+LEXICON SG_LOC_PXSG3_te
+:%>%{тØ%}%{ЭЕ%}т SG_LOC_PXSG3_K ;! потре̄т but э̄кватэт, са̄лытэт
+LEXICON SG_NOM_PXSG3_te
+:%>%{тØ%}%{ЭЕ%} SG_NOM_PXSG3_K ; ! todo: delete т for хап
+LEXICON SG_TRA_PXSG3_te
+:%>%{тØ%}%{ЭЕ%}г SG_TRA_PXSG3_K ;
 
-LEXICON SG_PXDU1OBLQ_ujumeent
-+Sg+Loc+PxDu1:%>%{уюØ%}ме̄нт K ;
-+Sg+Lat+PxDu1:%>%{уюØ%}ме̄нн K ;
-+Sg+Abl+PxDu1:%>%{уюØ%}ме̄нныл K ;
-+Sg+Ins+PxDu1:%>%{уюØ%}ме̄нтыл K ;
+LEXICON SG_X_PXSG3_tee
+ SG_ABL_PXSG3_tee ;
+ SG_INS_PXSG3_tee ;
+ SG_LAT_PXSG3_tee ;
+ SG_LOC_PXSG3_tee ;
+ SG_NOM_PXSG3_tee ;
+ SG_TRA_PXSG3_tee ;
+LEXICON SG_ABL_PXSG3_tee
+:%>%{тØ%}%{ЭЕLong%}ныл SG_ABL_PXSG3_K ;
+LEXICON SG_INS_PXSG3_tee
+:%>%{тØ%}%{ЭЕLong%}нтыл SG_INS_PXSG3_K ;
+LEXICON SG_LAT_PXSG3_tee
+:%>%{тØ%}%{ЭЕLong%}н SG_LAT_PXSG3_K ;
+LEXICON SG_LOC_PXSG3_tee
+:%>%{тØ%}%{ЭЕLong%}т SG_LOC_PXSG3_K ;! потре̄т but э̄кватэт, са̄лытэт
+LEXICON SG_NOM_PXSG3_tee
+:%>%{тØ%}%{ЭЕLong%} SG_NOM_PXSG3_K ; ! todo: delete т for хап
+LEXICON SG_TRA_PXSG3_tee
+:%>%{тØ%}%{ЭЕLong%}г SG_TRA_PXSG3_K ;
 
-LEXICON SG_PXDU1OBLQ_ujument
-+Sg+Loc+PxDu1:%>%{уюØ%}мент K ;
-+Sg+Lat+PxDu1:%>%{уюØ%}менн K ;
-+Sg+Abl+PxDu1:%>%{уюØ%}менныл K ;
-+Sg+Ins+PxDu1:%>%{уюØ%}ментыл K ;
+LEXICON SG_ABL/INS/LAT/LOC/TRA_PXSG3_te
+ SG_ABL_PXSG3_te ;
+ SG_INS_PXSG3_te ;
+ SG_LAT_PXSG3_te ;
+ SG_LOC_PXSG3_te ;
+ SG_TRA_PXSG3_te ;
 
-LEXICON SG_PXDU2_SYNC
-+Sg+Nom+PxDu2:%>ы̄н K ;
-+Sg+Loc+PxDu2:%>ы̄нт K ;
-+Sg+Lat+PxDu2:%>ы̄нн K ;
-+Sg+Abl+PxDu2:%>ы̄нныл K ;
-+Sg+Ins+PxDu2:%>ы̄нтыл K ;
+LEXICON SG_ABL/INS/LAT/LOC/TRA_PXSG3_tee
+ SG_ABL_PXSG3_tee ;
+ SG_INS_PXSG3_tee ;
+ SG_LAT_PXSG3_tee ;
+ SG_LOC_PXSG3_tee ;
+ SG_TRA_PXSG3_tee ;
 
-LEXICON SG_PXDU2_yyn
-+Sg+Nom+PxDu2:%>ы̄н K ;
-+Sg+Loc+PxDu2:%>ы̄нт K ;
-+Sg+Lat+PxDu2:%>ы̄нн K ;
-+Sg+Abl+PxDu2:%>ы̄нныл K ;
-+Sg+Ins+PxDu2:%>ы̄нтыл K ;
+LEXICON SG_ABL/INS/LAT/LOC/TRA_PXSG3_e
+ SG_ABL_PXSG3_e ;
+ SG_INS_PXSG3_e ;
+ SG_LAT_PXSG3_e ;
+ SG_LOC_PXSG3_e ;
+ SG_TRA_PXSG3_e ;
+LEXICON SG_ABL_PXSG3_e
+:%>%{ЭЕ%}ныл SG_ABL_PXSG3_K ;
+LEXICON SG_INS_PXSG3_e
+:%>%{ЭЕ%}нтыл SG_INS_PXSG3_K ;
+LEXICON SG_LAT_PXSG3_e
+:%>%{ЭЕ%}н SG_LAT_PXSG3_K ;
+LEXICON SG_LOC_PXSG3_e
+:%>%{ЭЕ%}т SG_LOC_PXSG3_K ;! потре̄т but э̄кватэт, са̄лытэт
+LEXICON SG_NOM_PXSG3_e
+:%>%{ЭЕ%} SG_NOM_PXSG3_K ; ! todo: delete т for хап
+LEXICON SG_TRA_PXSG3_e
+:%>%{ЭЕ%}г SG_TRA_PXSG3_K ;
 
-LEXICON SG_PXDU2_yn
-+Sg+Nom+PxDu2:%>ын K ;
-+Sg+Loc+PxDu2:%>ынт K ;
-+Sg+Lat+PxDu2:%>ынн K ;
-+Sg+Abl+PxDu2:%>ынныл K ;
-+Sg+Ins+PxDu2:%>ынтыл K ;
+LEXICON SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee
+ SG_ABL_PXSG3_ee ;
+ SG_INS_PXSG3_ee ;
+ SG_LAT_PXSG3_ee ;
+ SG_LOC_PXSG3_ee ;
+ SG_TRA_PXSG3_ee ;
+LEXICON SG_ABL_PXSG3_ee
+:%>%{ЭЕLong%}ныл SG_ABL_PXSG3_K ;
+LEXICON SG_INS_PXSG3_ee
+:%>%{ЭЕLong%}нтыл SG_INS_PXSG3_K ;
+LEXICON SG_LAT_PXSG3_ee
+:%>%{ЭЕLong%}н SG_LAT_PXSG3_K ;
+LEXICON SG_LOC_PXSG3_ee
+:%>%{ЭЕLong%}т SG_LOC_PXSG3_K ;! потре̄т but э̄кватэт, са̄лытэт
+LEXICON SG_TRA_PXSG3_ee
+:%>%{ЭЕLong%}г SG_TRA_PXSG3_K ;
 
-LEXICON SG_PXDU3_LONG
-+Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ;
-+Sg+Loc+PxDu3:%>%{ЭЕLong%}нт K ;
-+Sg+Lat+PxDu3:%>%{ЭЕLong%}нн K ;
-+Sg+Abl+PxDu3:%>%{ЭЕLong%}нныл K ;
-+Sg+Ins+PxDu3:%>%{ЭЕLong%}нтыл K ;
+!! sg x pxdu1
+LEXICON SG_X_PXDU1_meen
+ SG_ABL_PXDU1_meen ;
+ SG_INS_PXDU1_meen ;
+ SG_LAT_PXDU1_meen ;
+ SG_LOC_PXDU1_meen ;
+ SG_NOM_PXDU1_meen ;
+LEXICON SG_ABL_PXDU1_meen
+:%>ме̄нныл SG_ABL_PXDU1_K ;
+LEXICON SG_INS_PXDU1_meen
+:%>ме̄нтыл SG_INS_PXDU1_K ;
+LEXICON SG_LAT_PXDU1_meen
+:%>ме̄нн SG_LAT_PXDU1_K ;
+LEXICON SG_LOC_PXDU1_meen
+:%>ме̄нт SG_LOC_PXDU1_K ;
+LEXICON SG_NOM_PXDU1_meen
+:%>ме̄н SG_NOM_PXDU1_K ;
 
-LEXICON SG_PXDU3_ten
-+Sg+Nom+PxDu3:%>тэн K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
-+Sg+Loc+PxDu3:%>тэнт K ;
-+Sg+Lat+PxDu3:%>тэнн K ;
-+Sg+Abl+PxDu3:%>тэнныл K ;
-+Sg+Ins+PxDu3:%>тэнтыл K ;
+LEXICON SG_X_PXDU1_men
+ SG_ABL_PXDU1_men ;
+ SG_INS_PXDU1_men ;
+ SG_LAT_PXDU1_men ;
+ SG_LOC_PXDU1_men ;
+ SG_NOM_PXDU1_men ;
+LEXICON SG_ABL_PXDU1_men
+:%>менныл SG_ABL_PXDU1_K ;
+LEXICON SG_INS_PXDU1_men
+:%>ментыл SG_INS_PXDU1_K ;
+LEXICON SG_LAT_PXDU1_men
+:%>менн SG_LAT_PXDU1_K ;
+LEXICON SG_LOC_PXDU1_men
+:%>мент SG_LOC_PXDU1_K ;
+LEXICON SG_NOM_PXDU1_men
+:%>мен SG_NOM_PXDU1_K ;
 
-LEXICON SG_PXDU3_teen
-+Sg+Nom+PxDu3:%>тэ̄н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
-+Sg+Loc+PxDu3:%>тэ̄нт K ;
-+Sg+Lat+PxDu3:%>тэ̄нн K ;
-+Sg+Abl+PxDu3:%>тэ̄нныл K ;
-+Sg+Ins+PxDu3:%>тэ̄нтыл K ;
+LEXICON SG_X_PXDU1_ajameen
+ SG_ABL_PXDU1_ajameen ;
+ SG_INS_PXDU1_ajameen ;
+ SG_LAT_PXDU1_ajameen ;
+ SG_LOC_PXDU1_ajameen ;
+ SG_NOM_PXDU1_ajameen ;
 
-LEXICON SG_PXDU3_een
-+Sg+Nom+PxDu3:%>%{ЭЕLong%}н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
-+Sg+Loc+PxDu3:%>%{ЭЕLong%}нт K ;
-+Sg+Lat+PxDu3:%>%{ЭЕLong%}нн K ;
-+Sg+Abl+PxDu3:%>%{ЭЕLong%}нныл K ;
-+Sg+Ins+PxDu3:%>%{ЭЕLong%}нтыл K ;
+LEXICON SG_ABL_PXDU1_ajameen
+:%>%{аяØ%}ме̄нныл SG_ABL_PXDU1_K ;
+LEXICON SG_INS_PXDU1_ajameen
+:%>%{аяØ%}ме̄нтыл SG_INS_PXDU1_K ;
+LEXICON SG_LAT_PXDU1_ajameen
+:%>%{аяØ%}ме̄нн SG_LAT_PXDU1_K ;
+LEXICON SG_LOC_PXDU1_ajameen
+:%>%{аяØ%}ме̄нт SG_LOC_PXDU1_K ;
+LEXICON SG_NOM_PXDU1_ajameen
+:%>%{аяØ%}ме̄н SG_NOM_PXDU1_K ;
 
-LEXICON SG_PXDU3_en
-+Sg+Nom+PxDu3:%>%{ЭЕ%}н K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
-+Sg+Loc+PxDu3:%>%{ЭЕ%}нт K ;
-+Sg+Lat+PxDu3:%>%{ЭЕ%}нн K ;
-+Sg+Abl+PxDu3:%>%{ЭЕ%}нныл K ;
-+Sg+Ins+PxDu3:%>%{ЭЕ%}нтыл K ;
+LEXICON SG_X_PXDU1_ajamen
+ SG_ABL_PXDU1_ajamen ;
+ SG_INS_PXDU1_ajamen ;
+ SG_LAT_PXDU1_ajamen ;
+ SG_LOC_PXDU1_ajamen ;
+ SG_NOM_PXDU1_ajamen ;
 
-LEXICON SG_PXPL2_yyn
-+Sg+Nom+PxPl2:%>ы̄н K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
-+Sg+Loc+PxPl2:%>ы̄нт K ;
-+Sg+Lat+PxPl2:%>ы̄нн K ;
-+Sg+Abl+PxPl2:%>ы̄нныл K ;
-+Sg+Ins+PxPl2:%>ы̄нтыл K ;
+LEXICON SG_ABL_PXDU1_ajamen
+:%>%{аяØ%}менныл SG_ABL_PXDU1_K ;
+LEXICON SG_INS_PXDU1_ajamen
+:%>%{аяØ%}ментыл SG_INS_PXDU1_K ;
+LEXICON SG_LAT_PXDU1_ajamen
+:%>%{аяØ%}менн SG_LAT_PXDU1_K ;
+LEXICON SG_LOC_PXDU1_ajamen
+:%>%{аяØ%}мент SG_LOC_PXDU1_K ;
+LEXICON SG_NOM_PXDU1_ajamen
+:%>%{аяØ%}мен SG_NOM_PXDU1_K ;
 
-LEXICON SG_PXPL2_yn
-+Sg+Nom+PxPl2:%>ын K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
-+Sg+Loc+PxPl2:%>ынт K ;! note distinction between PxPl2 and Lat, really?2023_05_02
-+Sg+Lat+PxPl2:%>ынн K ;
-+Sg+Abl+PxPl2:%>ынныл K ;
-+Sg+Ins+PxPl2:%>ынтыл K ;
+LEXICON SG_ABL/INS/LAT/LOC_PXDU1_ujumeen
+ SG_ABL_PXDU1_ujumeen ;
+ SG_INS_PXDU1_ujumeen ;
+ SG_LAT_PXDU1_ujumeen ;
+ SG_LOC_PXDU1_ujumeen ;
 
-LEXICON DU_PXDU1_ajagmeen
-+Du+Nom+PxDu1:%>%{аяØ%}гме̄н K ;
-+Du+Loc+PxDu1:%>%{аяØ%}гме̄нт K ;
-+Du+Lat+PxDu1:%>%{аяØ%}гме̄нн K ;
-+Du+Abl+PxDu1:%>%{аяØ%}гме̄нныл K ;
-+Du+Ins+PxDu1:%>%{аяØ%}гме̄нтыл K ;
+LEXICON SG_ABL_PXDU1_ujumeen
+:%>%{уюØ%}ме̄нныл SG_ABL_PXDU1_K ;
+LEXICON SG_INS_PXDU1_ujumeen
+:%>%{уюØ%}ме̄нтыл SG_INS_PXDU1_K ;
+LEXICON SG_LAT_PXDU1_ujumeen
+:%>%{уюØ%}ме̄нн SG_LAT_PXDU1_K ;
+LEXICON SG_LOC_PXDU1_ujumeen
+:%>%{уюØ%}ме̄нт SG_LOC_PXDU1_K ;
+LEXICON SG_NOM_PXDU1_ujumeen
+:%>%{уюØ%}ме̄н SG_NOM_PXDU1_K ;
 
-LEXICON DU_PXDU1_ajagumeen
-+Du+Nom+PxDu1:%>%{аяØ%}гуме̄н K ;
-+Du+Loc+PxDu1:%>%{аяØ%}гуме̄нт K ;
-+Du+Lat+PxDu1:%>%{аяØ%}гуме̄нн K ;
-+Du+Abl+PxDu1:%>%{аяØ%}гуме̄нныл K ;
-+Du+Ins+PxDu1:%>%{аяØ%}гуме̄нтыл K ;
+LEXICON SG_ABL/INS/LAT/LOC_PXDU1_ujumen
+ SG_ABL_PXDU1_ujumen ;
+ SG_INS_PXDU1_ujumen ;
+ SG_LAT_PXDU1_ujumen ;
+ SG_LOC_PXDU1_ujumen ;
 
-LEXICON DU_PXDU1_ajagamen
-+Du+Nom+PxDu1:%>%{аяØ%}гамен K ;
-+Du+Loc+PxDu1:%>%{аяØ%}гамент K ;
-+Du+Lat+PxDu1:%>%{аяØ%}гаменн K ;
-+Du+Abl+PxDu1:%>%{аяØ%}гаменныл K ;
-+Du+Ins+PxDu1:%>%{аяØ%}гаментыл K ;
+LEXICON SG_ABL_PXDU1_ujumen
+:%>%{уюØ%}менныл SG_ABL_PXDU1_K ;
+LEXICON SG_INS_PXDU1_ujumen
+:%>%{уюØ%}ментыл SG_INS_PXDU1_K ;
+LEXICON SG_LAT_PXDU1_ujumen
+:%>%{уюØ%}менн SG_LAT_PXDU1_K ;
+LEXICON SG_LOC_PXDU1_ujumen
+:%>%{уюØ%}мент SG_LOC_PXDU1_K ;
+LEXICON SG_NOM_PXDU1_ujumen
+:%>%{уюØ%}мен SG_NOM_PXDU1_K ;
 
-LEXICON DU_PXDU1_ajagameen
-+Du+Nom+PxDu1:%>%{аяØ%}гаме̄н K ;
-+Du+Loc+PxDu1:%>%{аяØ%}гаме̄нт K ;
-+Du+Lat+PxDu1:%>%{аяØ%}гаме̄нн K ;
-+Du+Abl+PxDu1:%>%{аяØ%}гаме̄нныл K ;
-+Du+Ins+PxDu1:%>%{аяØ%}гаме̄нтыл K ;
 
-LEXICON DU_PXDU1_ajagmen
-+Du+Nom+PxDu1:%>%{аяØ%}гмен K ;
-+Du+Loc+PxDu1:%>%{аяØ%}гмент K ;
-+Du+Lat+PxDu1:%>%{аяØ%}гменн K ;
-+Du+Abl+PxDu1:%>%{аяØ%}гменныл K ;
-+Du+Ins+PxDu1:%>%{аяØ%}гментыл K ;
+!! sg x pxdu2
+LEXICON SG_X_PXDU2_yyn
+ SG_ABL_PXDU2_yyn ;
+ SG_INS_PXDU2_yyn ;
+ SG_LAT_PXDU2_yyn ;
+ SG_LOC_PXDU2_yyn ;
+ SG_NOM_PXDU2_yyn ;
+LEXICON SG_ABL_PXDU2_yyn
+:%>ы̄нныл SG_ABL_PXDU2_K ;
+LEXICON SG_INS_PXDU2_yyn
+:%>ы̄нтыл SG_INS_PXDU2_K ;
+LEXICON SG_LAT_PXDU2_yyn
+:%>ы̄нн SG_LAT_PXDU2_K ;
+LEXICON SG_LOC_PXDU2_yyn
+:%>ы̄нт SG_LOC_PXDU2_K ;
+LEXICON SG_NOM_PXDU2_yyn
+:%>ы̄н SG_NOM_PXDU2_K ;
 
-LEXICON DU_PXDU2_ajagyyn
-+Du+Nom+PxDu2:%>%{аяØ%}гы̄н K ;
-+Du+Loc+PxDu2:%>%{аяØ%}гы̄нт K ;
-+Du+Lat+PxDu2:%>%{аяØ%}гы̄нн K ;
-+Du+Abl+PxDu2:%>%{аяØ%}гы̄нныл K ;
-+Du+Ins+PxDu2:%>%{аяØ%}гы̄нтыл K ;
+LEXICON SG_X_PXDU2_yn
+ SG_ABL_PXDU2_yn ;
+ SG_INS_PXDU2_yn ;
+ SG_LAT_PXDU2_yn ;
+ SG_LOC_PXDU2_yn ;
+ SG_NOM_PXDU2_yn ;
+LEXICON SG_ABL_PXDU2_yn
+:%>ынныл SG_ABL_PXDU2_K ;
+LEXICON SG_INS_PXDU2_yn
+:%>ынтыл SG_INS_PXDU2_K ;
+LEXICON SG_LAT_PXDU2_yn
+:%>ынн SG_LAT_PXDU2_K ;
+LEXICON SG_LOC_PXDU2_yn
+:%>ынт SG_LOC_PXDU2_K ;
+LEXICON SG_NOM_PXDU2_yn
+:%>ын SG_NOM_PXDU2_K ;
 
-LEXICON DU_PXDU2_ajagyn
-+Du+Nom+PxDu2:%>%{аяØ%}гын K ;
-+Du+Loc+PxDu2:%>%{аяØ%}гынт K ;
-+Du+Lat+PxDu2:%>%{аяØ%}гынн K ;
-+Du+Abl+PxDu2:%>%{аяØ%}гынныл K ;
-+Du+Ins+PxDu2:%>%{аяØ%}гынтыл K ;
 
-LEXICON DU_PXDU3_ajageen
-+Du+Nom+PxDu3:%>%{аяØ%}ге̄н K ;
-+Du+Loc+PxDu3:%>%{аяØ%}ге̄нт K ;
-+Du+Lat+PxDu3:%>%{аяØ%}ге̄нн K ;
-+Du+Abl+PxDu3:%>%{аяØ%}ге̄нныл K ;
-+Du+Ins+PxDu3:%>%{аяØ%}ге̄нтыл K ;
+!! sg x pxdu3
+LEXICON SG_X_PXDU3_ten
+ SG_ABL_PXDU3_ten ;
+ SG_INS_PXDU3_ten ;
+ SG_LAT_PXDU3_ten ;
+ SG_LOC_PXDU3_ten ;
+ SG_NOM_PXDU3_ten ;
 
-LEXICON DU_PXDU3_LONG
-DU_PXDU3_ajagen ;!depricate
+LEXICON SG_ABL_PXDU3_ten
+:%>тэнныл SG_ABL_PXDU3_K ;
+LEXICON SG_INS_PXDU3_ten
+:%>тэнтыл SG_INS_PXDU3_K ;
+LEXICON SG_LAT_PXDU3_ten
+:%>тэнн SG_LAT_PXDU3_K ;
+LEXICON SG_LOC_PXDU3_ten
+:%>тэнт SG_LOC_PXDU3_K ;
+LEXICON SG_NOM_PXDU3_ten
+:%>тэн SG_NOM_PXDU3_K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
 
-LEXICON DU_PXDU3_ajagen
-+Du+Nom+PxDu3:%>%{аяØ%}ген K ;
-+Du+Loc+PxDu3:%>%{аяØ%}гент K ;
-+Du+Lat+PxDu3:%>%{аяØ%}генн K ;
-+Du+Abl+PxDu3:%>%{аяØ%}генныл K ;
-+Du+Ins+PxDu3:%>%{аяØ%}гентыл K ;
+LEXICON SG_X_PXDU3_teen
+ SG_ABL_PXDU3_teen ;
+ SG_INS_PXDU3_teen ;
+ SG_LAT_PXDU3_teen ;
+ SG_LOC_PXDU3_teen ;
+ SG_NOM_PXDU3_teen ;
 
-LEXICON DU_PXPL2_ajagyyn
-+Du+Nom+PxPl2:%>%{аяØ%}гы̄н K ;
-+Du+Loc+PxPl2:%>%{аяØ%}гы̄нт K ;
-+Du+Lat+PxPl2:%>%{аяØ%}гы̄нн K ;
-+Du+Abl+PxPl2:%>%{аяØ%}гы̄нныл K ;
-+Du+Ins+PxPl2:%>%{аяØ%}гы̄нтыл K ;
+LEXICON SG_ABL_PXDU3_teen
+:%>тэ̄нныл SG_ABL_PXDU3_K ;
+LEXICON SG_INS_PXDU3_teen
+:%>тэ̄нтыл SG_INS_PXDU3_K ;
+LEXICON SG_LAT_PXDU3_teen
+:%>тэ̄нн SG_LAT_PXDU3_K ;
+LEXICON SG_LOC_PXDU3_teen
+:%>тэ̄нт SG_LOC_PXDU3_K ;
+LEXICON SG_NOM_PXDU3_teen
+:%>тэ̄н SG_NOM_PXDU3_K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
 
-LEXICON DU_PXPL2_ajagyn
-+Du+Nom+PxPl2:%>%{аяØ%}гын K ;
-+Du+Loc+PxPl2:%>%{аяØ%}гынт K ;
-+Du+Lat+PxPl2:%>%{аяØ%}гынн K ;
-+Du+Abl+PxPl2:%>%{аяØ%}гынныл K ;
-+Du+Ins+PxPl2:%>%{аяØ%}гынтыл K ;
+LEXICON SG_X_PXDU3_een
+ SG_ABL_PXDU3_een ;
+ SG_INS_PXDU3_een ;
+ SG_LAT_PXDU3_een ;
+ SG_LOC_PXDU3_een ;
+ SG_NOM_PXDU3_een ;
 
-LEXICON PL_PXDU1_ajanmeen
-+Pl+Nom+PxDu1:%>%{аяØ%}нме̄н K ;
-+Pl+Loc+PxDu1:%>%{аяØ%}нме̄нт K ;
-+Pl+Lat+PxDu1:%>%{аяØ%}нме̄нн K ;
-+Pl+Abl+PxDu1:%>%{аяØ%}нме̄нныл K ;
-+Pl+Ins+PxDu1:%>%{аяØ%}нме̄нтыл K ;
+LEXICON SG_ABL_PXDU3_een
+:%>%{ЭЕLong%}нныл SG_ABL_PXDU3_K ;
+LEXICON SG_INS_PXDU3_een
+:%>%{ЭЕLong%}нтыл SG_INS_PXDU3_K ;
+LEXICON SG_LAT_PXDU3_een
+:%>%{ЭЕLong%}нн SG_LAT_PXDU3_K ;
+LEXICON SG_LOC_PXDU3_een
+:%>%{ЭЕLong%}нт SG_LOC_PXDU3_K ;
+LEXICON SG_NOM_PXDU3_een
+:%>%{ЭЕLong%}н SG_NOM_PXDU3_K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
 
-LEXICON PL_PXDU1_ajanmen
-+Pl+Nom+PxDu1:%>%{аяØ%}нмен K ;
-+Pl+Loc+PxDu1:%>%{аяØ%}нмент K ;
-+Pl+Lat+PxDu1:%>%{аяØ%}нменн K ;
-+Pl+Abl+PxDu1:%>%{аяØ%}нменныл K ;
-+Pl+Ins+PxDu1:%>%{аяØ%}нментыл K ;
+LEXICON SG_X_PXDU3_en
+ SG_ABL_PXDU3_en ;
+ SG_INS_PXDU3_en ;
+ SG_LAT_PXDU3_en ;
+ SG_LOC_PXDU3_en ;
+ SG_NOM_PXDU3_en ;
 
-LEXICON PL_PXDU1_ajanamen
-+Pl+Nom+PxDu1:%>%{аяØ%}намен K ;
-+Pl+Loc+PxDu1:%>%{аяØ%}намент K ;
-+Pl+Lat+PxDu1:%>%{аяØ%}наменн K ;
-+Pl+Abl+PxDu1:%>%{аяØ%}наменныл K ;
-+Pl+Ins+PxDu1:%>%{аяØ%}наментыл K ;
+LEXICON SG_ABL_PXDU3_en
+:%>%{ЭЕ%}нныл SG_ABL_PXDU3_K ;
+LEXICON SG_INS_PXDU3_en
+:%>%{ЭЕ%}нтыл SG_INS_PXDU3_K ;
+LEXICON SG_LAT_PXDU3_en
+:%>%{ЭЕ%}нн SG_LAT_PXDU3_K ;
+LEXICON SG_LOC_PXDU3_en
+:%>%{ЭЕ%}нт SG_LOC_PXDU3_K ;
+LEXICON SG_NOM_PXDU3_en
+:%>%{ЭЕ%}н SG_NOM_PXDU3_K ; !х ӯ р ы:0 г {SYNCH}:0 > {ЭЕ}:е н
 
-LEXICON PL_PXDU1_ajanameen
-+Pl+Nom+PxDu1:%>%{аяØ%}наме̄н K ;
-+Pl+Loc+PxDu1:%>%{аяØ%}наме̄нт K ;
-+Pl+Lat+PxDu1:%>%{аяØ%}наме̄нн K ;
-+Pl+Abl+PxDu1:%>%{аяØ%}наме̄нныл K ;
-+Pl+Ins+PxDu1:%>%{аяØ%}наме̄нтыл K ;
 
-LEXICON PL_PXDU2_ajanyyn
-+Pl+Nom+PxDu2:%>%{аяØ%}ны̄н K ;
-+Pl+Loc+PxDu2:%>%{аяØ%}ны̄нт K ;
-+Pl+Lat+PxDu2:%>%{аяØ%}ны̄нн K ;
-+Pl+Abl+PxDu2:%>%{аяØ%}ны̄нныл K ;
-+Pl+Ins+PxDu2:%>%{аяØ%}ны̄нтыл K ;
+!!sg x pxpl1
+LEXICON SG_X_PXPL1_ujuv
+ SG_ABL_PXPL1_K ;
+ SG_INS_PXPL1_K ;
+ SG_LAT_PXPL1_K ;
+ SG_LOC_PXPL1_K ;
+ SG_NOM_PXPL1_K ;
+!!sg x pxpl2
+LEXICON SG_X_PXPL2_yyn
+ SG_ABL_PXPL2_yyn ;
+ SG_INS_PXPL2_yyn ;
+ SG_INS_PXPL2_yyn ;
+ SG_LAT_PXPL2_yyn ;
+ SG_LOC_PXPL2_yyn ;
+ SG_NOM_PXPL2_yyn ;
+LEXICON SG_ABL_PXPL2_yyn
+:%>ы̄нныл SG_ABL_PXPL2_K ;
+LEXICON SG_INS_PXPL2_yyn
+:%>ы̄нтыл SG_INS_PXPL2_K ;
+LEXICON SG_LAT_PXPL2_yyn
+:%>ы̄нн SG_LAT_PXPL2_K ;
+LEXICON SG_LOC_PXPL2_yyn
+:%>ы̄нт SG_LOC_PXPL2_K ;
+LEXICON SG_NOM_PXPL2_yyn
+:%>ы̄н SG_NOM_PXPL2_K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
 
-LEXICON PL_PXDU2_ajanyn
-+Pl+Nom+PxDu2:%>%{аяØ%}нын K ;
-+Pl+Loc+PxDu2:%>%{аяØ%}нынт K ;
-+Pl+Lat+PxDu2:%>%{аяØ%}нынн K ;
-+Pl+Abl+PxDu2:%>%{аяØ%}нынныл K ;
-+Pl+Ins+PxDu2:%>%{аяØ%}нынтыл K ;
+LEXICON SG_X_PXPL2_yn
+ SG_ABL_PXPL2_yn ;
+ SG_INS_PXPL2_yn ;
+ SG_INS_PXPL2_yn ;
+ SG_LAT_PXPL2_yn ;
+ SG_LOC_PXPL2_yn ;
+ SG_NOM_PXPL2_yn ;
+LEXICON SG_ABL_PXPL2_yn
+:%>ынныл SG_ABL_PXPL2_K ;
+LEXICON SG_INS_PXPL2_yn
+:%>ынтыл SG_INS_PXPL2_K ;
+LEXICON SG_LAT_PXPL2_yn
+:%>ынн SG_LAT_PXPL2_K ;
+LEXICON SG_LOC_PXPL2_yn
+:%>ынт SG_LOC_PXPL2_K ;
+LEXICON SG_NOM_PXPL2_yn
+:%>ын SG_NOM_PXPL2_K ; ! 2023_03_11 long but causes loss of vowel ы потры̄н
 
-LEXICON PL_PXDU2_ajan
-+Pl+Nom+PxDu2:%>%{аяØ%}н K ;
-+Pl+Loc+PxDu2:%>%{аяØ%}нт K ;
-+Pl+Lat+PxDu2:%>%{аяØ%}нн K ;
-+Pl+Abl+PxDu2:%>%{аяØ%}нныл K ;
-+Pl+Ins+PxDu2:%>%{аяØ%}нтыл K ;
+!!sg x pxpl3
+LEXICON SG_X_PXPL3_ajanyl
+ SG_ABL_PXPL3_K ;
+ SG_INS_PXPL3_K ;
+ SG_LAT_PXPL3_K ;
+ SG_LOC_PXPL3_K ;
+ SG_NOM_PXPL3_K ;
 
-LEXICON PL_PXDU3_ajaneen
-+Pl+Nom+PxDu3:%>%{аяØ%}нэ̄н K ;
-+Pl+Loc+PxDu3:%>%{аяØ%}нэ̄нт K ;
-+Pl+Lat+PxDu3:%>%{аяØ%}нэ̄нн K ;
-+Pl+Abl+PxDu3:%>%{аяØ%}нэ̄нныл K ;
-+Pl+Ins+PxDu3:%>%{аяØ%}нэ̄нтыл K ;
+!! du x pxsg1
+LEXICON DU_X_PXSG1_ajagum
+ DU_ABL_PXSG1_K ;
+ DU_INS_PXSG1_K ;
+ DU_LAT_PXSG1_K ;
+ DU_LOC_PXSG1_K ;
+ DU_NOM_PXSG1_K ;
 
-LEXICON PL_PXDU3_LONG
-PL_PXDU3_ajanen ; !depricate
+!! du x pxsg2
+LEXICON DU_X_PXSG2_ajagyn
+ DU_ABL_PXSG2_ajagyn ;
+ DU_INS_PXSG2_ajagyn ;
+ DU_LAT_PXSG2_ajagyn ;
+ DU_LOC_PXSG2_ajagyn ;
+ DU_NOM_PXSG2_ajagyn ;
+LEXICON DU_ABL_PXSG2_ajagyn
+:%>%{аяØ%}гынныл DU_ABL_PXSG2_K ;
+LEXICON DU_INS_PXSG2_ajagyn
+:%>%{аяØ%}гынтыл DU_INS_PXSG2_K ;
+LEXICON DU_LAT_PXSG2_ajagyn
+:%>%{аяØ%}гынн DU_LAT_PXSG2_K ;
+LEXICON DU_LOC_PXSG2_ajagyn
+:%>%{аяØ%}гынт DU_LOC_PXSG2_K ;
+LEXICON DU_NOM_PXSG2_ajagyn
+:%>%{аяØ%}гын DU_NOM_PXSG2_K ;
 
-LEXICON PL_PXDU3_ajanen
-+Pl+Nom+PxDu3:%>%{аяØ%}нэн K ;
-+Pl+Loc+PxDu3:%>%{аяØ%}нэнт K ;
-+Pl+Lat+PxDu3:%>%{аяØ%}нэнн K ;
-+Pl+Abl+PxDu3:%>%{аяØ%}нэнныл K ;
-+Pl+Ins+PxDu3:%>%{аяØ%}нэнтыл K ;
+LEXICON DU_NOM_PXSG2_ajagn
+:%>%{аяØ%}гн DU_NOM_PXSG2_K ;
 
-LEXICON PL_PXPL2_ajan
-+Pl+Nom+PxPl2:%>%{аяØ%}н K ;
-+Pl+Loc+PxPl2:%>%{аяØ%}нт K ;
-+Pl+Lat+PxPl2:%>%{аяØ%}нн K ;
-+Pl+Abl+PxPl2:%>%{аяØ%}нныл K ;
-+Pl+Ins+PxPl2:%>%{аяØ%}нтыл K ;
+!! du x pxsg3
+LEXICON DU_X_PXSG3_ajage
+ DU_ABL_PXSG3_ajage ;
+ DU_INS_PXSG3_ajage ;
+ DU_LAT_PXSG3_ajage ;
+ DU_LOC_PXSG3_ajage ;
+ DU_NOM_PXSG3_ajage ;
+LEXICON DU_ABL_PXSG3_ajage
+:%>%{аяØ%}геныл DU_ABL_PXSG3_K ;
+LEXICON DU_INS_PXSG3_ajage
+:%>%{аяØ%}гетыл DU_INS_PXSG3_K ;
+LEXICON DU_LAT_PXSG3_ajage
+:%>%{аяØ%}ген DU_LAT_PXSG3_K ;
+LEXICON DU_LOC_PXSG3_ajage
+:%>%{аяØ%}гет DU_LOC_PXSG3_K ;
+LEXICON DU_NOM_PXSG3_ajage
+:%>%{аяØ%}ге DU_NOM_PXSG3_K ;
 
-LEXICON PL_PXPL2_ajanyyn
-+Pl+Nom+PxPl2:%>%{аяØ%}ны̄н K ;
-+Pl+Loc+PxPl2:%>%{аяØ%}ны̄нт K ;
-+Pl+Lat+PxPl2:%>%{аяØ%}ны̄нн K ;
-+Pl+Abl+PxPl2:%>%{аяØ%}ны̄нныл K ;
-+Pl+Ins+PxPl2:%>%{аяØ%}ны̄нтыл K ;
+LEXICON DU_ABL/INS/LAT/LOC_PXSG3_ajagee
+ DU_ABL_PXSG3_ajagee ;
+ DU_INS_PXSG3_ajagee ;
+ DU_LAT_PXSG3_ajagee ;
+ DU_LOC_PXSG3_ajagee ;
+LEXICON DU_ABL_PXSG3_ajagee
+:%>%{аяØ%}ге̄ныл DU_ABL_PXSG3_K ;
+LEXICON DU_INS_PXSG3_ajagee
+:%>%{аяØ%}ге̄тыл DU_INS_PXSG3_K ;
+LEXICON DU_LAT_PXSG3_ajagee
+:%>%{аяØ%}ге̄н DU_LAT_PXSG3_K ;
+LEXICON DU_LOC_PXSG3_ajagee
+:%>%{аяØ%}ге̄т DU_LOC_PXSG3_K ;!longer 20230502
 
-LEXICON PL_PXPL2_ajanyn
-+Pl+Nom+PxPl2:%>%{аяØ%}нын K ;
-+Pl+Loc+PxPl2:%>%{аяØ%}нынт K ;
-+Pl+Lat+PxPl2:%>%{аяØ%}нынн K ;
-+Pl+Abl+PxPl2:%>%{аяØ%}нынныл K ;
-+Pl+Ins+PxPl2:%>%{аяØ%}нынтыл K ;
+!! du x pxdu1
+LEXICON DU_X_PXDU1_ajagmeen
+ DU_ABL_PXDU1_ajagmeen ;
+ DU_INS_PXDU1_ajagmeen ;
+ DU_LAT_PXDU1_ajagmeen ;
+ DU_LOC_PXDU1_ajagmeen ;
+ DU_NOM_PXDU1_ajagmeen ;
+LEXICON DU_ABL_PXDU1_ajagmeen
+:%>%{аяØ%}гме̄нныл DU_ABL_PXDU1_K ;
+LEXICON DU_INS_PXDU1_ajagmeen
+:%>%{аяØ%}гме̄нтыл DU_INS_PXDU1_K ;
+LEXICON DU_LAT_PXDU1_ajagmeen
+:%>%{аяØ%}гме̄нн DU_LAT_PXDU1_K ;
+LEXICON DU_LOC_PXDU1_ajagmeen
+:%>%{аяØ%}гме̄нт DU_LOC_PXDU1_K ;
+LEXICON DU_NOM_PXDU1_ajagmeen
+:%>%{аяØ%}гме̄н DU_NOM_PXDU1_K ;
+
+LEXICON DU_X_PXDU1_ajagmen
+ DU_ABL_PXDU1_ajagmen ;
+ DU_INS_PXDU1_ajagmen ;
+ DU_LAT_PXDU1_ajagmen ;
+ DU_LOC_PXDU1_ajagmen ;
+ DU_NOM_PXDU1_ajagmen ;
+LEXICON DU_ABL_PXDU1_ajagmen
+:%>%{аяØ%}гменныл DU_ABL_PXDU1_K ;
+LEXICON DU_INS_PXDU1_ajagmen
+:%>%{аяØ%}гментыл DU_INS_PXDU1_K ;
+LEXICON DU_LAT_PXDU1_ajagmen
+:%>%{аяØ%}гменн DU_LAT_PXDU1_K ;
+LEXICON DU_LOC_PXDU1_ajagmen
+:%>%{аяØ%}гмент DU_LOC_PXDU1_K ;
+LEXICON DU_NOM_PXDU1_ajagmen
+:%>%{аяØ%}гмен DU_NOM_PXDU1_K ;
+
+LEXICON DU_X_PXDU1_ajagumeen
+ DU_ABL_PXDU1_ajagumeen ;
+ DU_INS_PXDU1_ajagumeen ;
+ DU_LAT_PXDU1_ajagumeen ;
+ DU_LOC_PXDU1_ajagumeen ;
+ DU_NOM_PXDU1_ajagumeen ;
+LEXICON DU_ABL_PXDU1_ajagumeen
+:%>%{аяØ%}гуме̄нныл DU_ABL_PXDU1_K ;
+LEXICON DU_INS_PXDU1_ajagumeen
+:%>%{аяØ%}гуме̄нтыл DU_INS_PXDU1_K ;
+LEXICON DU_LAT_PXDU1_ajagumeen
+:%>%{аяØ%}гуме̄нн DU_LAT_PXDU1_K ;
+LEXICON DU_LOC_PXDU1_ajagumeen
+:%>%{аяØ%}гуме̄нт DU_LOC_PXDU1_K ;
+LEXICON DU_NOM_PXDU1_ajagumeen
+:%>%{аяØ%}гуме̄н DU_NOM_PXDU1_K ;
+
+LEXICON DU_X_PXDU1_ajagameen
+ DU_ABL_PXDU1_ajagameen ;
+ DU_INS_PXDU1_ajagameen ;
+ DU_LAT_PXDU1_ajagameen ;
+ DU_LOC_PXDU1_ajagameen ;
+ DU_NOM_PXDU1_ajagameen ;
+LEXICON DU_ABL_PXDU1_ajagameen
+:%>%{аяØ%}гаме̄нныл DU_ABL_PXDU1_K ;
+LEXICON DU_INS_PXDU1_ajagameen
+:%>%{аяØ%}гаме̄нтыл DU_INS_PXDU1_K ;
+LEXICON DU_LAT_PXDU1_ajagameen
+:%>%{аяØ%}гаме̄нн DU_LAT_PXDU1_K ;
+LEXICON DU_LOC_PXDU1_ajagameen
+:%>%{аяØ%}гаме̄нт DU_LOC_PXDU1_K ;
+LEXICON DU_NOM_PXDU1_ajagameen
+:%>%{аяØ%}гаме̄н DU_NOM_PXDU1_K ;
+
+LEXICON DU_X_PXDU1_ajagamen
+ DU_ABL_PXDU1_ajagamen ;
+ DU_INS_PXDU1_ajagamen ;
+ DU_LAT_PXDU1_ajagamen ;
+ DU_LOC_PXDU1_ajagamen ;
+ DU_NOM_PXDU1_ajagamen ;
+LEXICON DU_ABL_PXDU1_ajagamen
+:%>%{аяØ%}гаменныл DU_ABL_PXDU1_K ;
+LEXICON DU_INS_PXDU1_ajagamen
+:%>%{аяØ%}гаментыл DU_INS_PXDU1_K ;
+LEXICON DU_LAT_PXDU1_ajagamen
+:%>%{аяØ%}гаменн DU_LAT_PXDU1_K ;
+LEXICON DU_LOC_PXDU1_ajagamen
+:%>%{аяØ%}гамент DU_LOC_PXDU1_K ;
+LEXICON DU_NOM_PXDU1_ajagamen
+:%>%{аяØ%}гамен DU_NOM_PXDU1_K ;
+
+!! du x pxdu2
+LEXICON DU_X_PXDU2_ajagyyn
+ DU_ABL_PXDU2_ajagyyn ;
+ DU_INS_PXDU2_ajagyyn ;
+ DU_LAT_PXDU2_ajagyyn ;
+ DU_LOC_PXDU2_ajagyyn ;
+ DU_NOM_PXDU2_ajagyyn ;
+LEXICON DU_ABL_PXDU2_ajagyyn
++Du+Abl+PxDu2:%>%{аяØ%}гы̄нныл DU_ABL_PXDU2_K ;
+LEXICON DU_INS_PXDU2_ajagyyn
++Du+Ins+PxDu2:%>%{аяØ%}гы̄нтыл DU_INS_PXDU2_K ;
+LEXICON DU_LAT_PXDU2_ajagyyn
++Du+Lat+PxDu2:%>%{аяØ%}гы̄нн DU_LAT_PXDU2_K ;
+LEXICON DU_LOC_PXDU2_ajagyyn
++Du+Loc+PxDu2:%>%{аяØ%}гы̄нт DU_LOC_PXDU2_K ;
+LEXICON DU_NOM_PXDU2_ajagyyn
++Du+Nom+PxDu2:%>%{аяØ%}гы̄н DU_NOM_PXDU2_K ;
+
+LEXICON DU_X_PXDU2_ajagyn
+ DU_ABL_PXDU2_ajagyn ;
+ DU_INS_PXDU2_ajagyn ;
+ DU_LAT_PXDU2_ajagyn ;
+ DU_LOC_PXDU2_ajagyn ;
+ DU_NOM_PXDU2_ajagyn ;
+LEXICON DU_ABL_PXDU2_ajagyn
++Du+Abl+PxDu2:%>%{аяØ%}гынныл DU_ABL_PXDU2_K ;
+LEXICON DU_INS_PXDU2_ajagyn
++Du+Ins+PxDu2:%>%{аяØ%}гынтыл DU_INS_PXDU2_K ;
+LEXICON DU_LAT_PXDU2_ajagyn
++Du+Lat+PxDu2:%>%{аяØ%}гынн DU_LAT_PXDU2_K ;
+LEXICON DU_LOC_PXDU2_ajagyn
++Du+Loc+PxDu2:%>%{аяØ%}гынт DU_LOC_PXDU2_K ;
+LEXICON DU_NOM_PXDU2_ajagyn
++Du+Nom+PxDu2:%>%{аяØ%}гын DU_NOM_PXDU2_K ;
+
+!! du x pxdu3
+LEXICON DU_X_PXDU3_ajageen
+ DU_ABL_PXDU3_ajageen ;
+ DU_INS_PXDU3_ajageen ;
+ DU_LAT_PXDU3_ajageen ;
+ DU_LOC_PXDU3_ajageen ;
+ DU_NOM_PXDU3_ajageen ;
+LEXICON DU_ABL_PXDU3_ajageen
+:%>%{аяØ%}ге̄нныл DU_ABL_PXDU3_K ;
+LEXICON DU_INS_PXDU3_ajageen
+:%>%{аяØ%}ге̄нтыл DU_INS_PXDU3_K ;
+LEXICON DU_LAT_PXDU3_ajageen
+:%>%{аяØ%}ге̄нн DU_LAT_PXDU3_K ;
+LEXICON DU_LOC_PXDU3_ajageen
+:%>%{аяØ%}ге̄нт DU_LOC_PXDU3_K ;
+LEXICON DU_NOM_PXDU3_ajageen
+:%>%{аяØ%}ге̄н DU_NOM_PXDU3_K ;
+
+LEXICON DU_X_PXDU3_ajagen
+ DU_ABL_PXDU3_ajagen ;
+ DU_INS_PXDU3_ajagen ;
+ DU_LAT_PXDU3_ajagen ;
+ DU_LOC_PXDU3_ajagen ;
+ DU_NOM_PXDU3_ajagen ;
+LEXICON DU_ABL_PXDU3_ajagen
+:%>%{аяØ%}генныл DU_ABL_PXDU3_K ;
+LEXICON DU_INS_PXDU3_ajagen
+:%>%{аяØ%}гентыл DU_INS_PXDU3_K ;
+LEXICON DU_LAT_PXDU3_ajagen
+:%>%{аяØ%}генн DU_LAT_PXDU3_K ;
+LEXICON DU_LOC_PXDU3_ajagen
+:%>%{аяØ%}гент DU_LOC_PXDU3_K ;
+LEXICON DU_NOM_PXDU3_ajagen
+:%>%{аяØ%}ген DU_NOM_PXDU3_K ;
+
+!! du x pxpl1
+LEXICON DU_X_PXPL1_ajaguv
+ DU_ABL_PXPL1_ajaguv ;
+ DU_INS_PXPL1_ajaguv ;
+ DU_LAT_PXPL1_ajaguv ;
+ DU_LOC_PXPL1_ajaguv ;
+ DU_NOM_PXPL1_ajaguv ;
+LEXICON DU_ABL_PXPL1_ajaguv
+:%>%{аяØ%}гувныл DU_ABL_PXPL1_K ;
+LEXICON DU_INS_PXPL1_ajaguv
+:%>%{аяØ%}гувтыл DU_INS_PXPL1_K ;
+LEXICON DU_LAT_PXPL1_ajaguv
+:%>%{аяØ%}гувн DU_LAT_PXPL1_K ;
+LEXICON DU_LOC_PXPL1_ajaguv
+:%>%{аяØ%}гувт DU_LOC_PXPL1_K ;
+LEXICON DU_NOM_PXPL1_ajaguv
+:%>%{аяØ%}гув DU_NOM_PXPL1_K ;
+
+!! du x pxpl2
+LEXICON DU_X_PXPL2_ajagyyn
+ DU_ABL_PXPL2_ajagyyn ;
+ DU_INS_PXPL2_ajagyyn ;
+ DU_LAT_PXPL2_ajagyyn ;
+ DU_LOC_PXPL2_ajagyyn ;
+ DU_NOM_PXPL2_ajagyyn ;
+LEXICON DU_ABL_PXPL2_ajagyyn
+:%>%{аяØ%}гы̄нныл DU_ABL_PXPL2_K ;
+LEXICON DU_INS_PXPL2_ajagyyn
+:%>%{аяØ%}гы̄нтыл DU_INS_PXPL2_K ;
+LEXICON DU_LAT_PXPL2_ajagyyn
+:%>%{аяØ%}гы̄нн DU_LAT_PXPL2_K ;
+LEXICON DU_LOC_PXPL2_ajagyyn
+:%>%{аяØ%}гы̄нт DU_LOC_PXPL2_K ;
+LEXICON DU_NOM_PXPL2_ajagyyn
+:%>%{аяØ%}гы̄н DU_NOM_PXPL2_K ;
+
+LEXICON DU_X_PXPL2_ajagyn
+ DU_ABL_PXPL2_ajagyn ;
+ DU_INS_PXPL2_ajagyn ;
+ DU_LAT_PXPL2_ajagyn ;
+ DU_LOC_PXPL2_ajagyn ;
+ DU_NOM_PXPL2_ajagyn ;
+LEXICON DU_ABL_PXPL2_ajagyn
+:%>%{аяØ%}гынныл DU_ABL_PXPL2_K ;
+LEXICON DU_INS_PXPL2_ajagyn
+:%>%{аяØ%}гынтыл DU_INS_PXPL2_K ;
+LEXICON DU_LAT_PXPL2_ajagyn
+:%>%{аяØ%}гынн DU_LAT_PXPL2_K ;
+LEXICON DU_LOC_PXPL2_ajagyn
+:%>%{аяØ%}гынт DU_LOC_PXPL2_K ;
+LEXICON DU_NOM_PXPL2_ajagyn
+:%>%{аяØ%}гын DU_NOM_PXPL2_K ;
+
+!! du x pxpl3
+LEXICON DU_X_PXPL3_agaanyl
+ DU_ABL_PXPL3_agaanyl ;
+ DU_INS_PXPL3_agaanyl ;
+ DU_LAT_PXPL3_agaanyl ;
+ DU_LOC_PXPL3_agaanyl ;
+ DU_NOM_PXPL3_agaanyl ;
+LEXICON DU_ABL_PXPL3_agaanyl
+:%>%{аяØ%}га̄нылныл DU_ABL_PXPL3_K ;
+LEXICON DU_INS_PXPL3_agaanyl
+:%>%{аяØ%}га̄нылтыл DU_INS_PXPL3_K ;
+LEXICON DU_LAT_PXPL3_agaanyl
+:%>%{аяØ%}га̄нылн DU_LAT_PXPL3_K ;
+LEXICON DU_LOC_PXPL3_agaanyl
+:%>%{аяØ%}га̄нылт DU_LOC_PXPL3_K ;
+LEXICON DU_NOM_PXPL3_agaanyl
+:%>%{аяØ%}га̄ныл DU_NOM_PXPL3_K ;
+
+LEXICON DU_X_PXPL3_aganyl
+ DU_ABL_PXPL3_aganyl ;
+ DU_INS_PXPL3_aganyl ;
+ DU_LAT_PXPL3_aganyl ;
+ DU_LOC_PXPL3_aganyl ;
+ DU_NOM_PXPL3_aganyl ;
+LEXICON DU_ABL_PXPL3_aganyl
+:%>%{аяØ%}ганылныл DU_ABL_PXPL3_K ;
+LEXICON DU_INS_PXPL3_aganyl
+:%>%{аяØ%}ганылтыл DU_INS_PXPL3_K ;
+LEXICON DU_LAT_PXPL3_aganyl
+:%>%{аяØ%}ганылн DU_LAT_PXPL3_K ;
+LEXICON DU_LOC_PXPL3_aganyl
+:%>%{аяØ%}ганылт DU_LOC_PXPL3_K ;
+LEXICON DU_NOM_PXPL3_aganyl
+:%>%{аяØ%}ганыл DU_NOM_PXPL3_K ;
+
+!! pl x pxsg1
+LEXICON PL_X_PXSG1_ajanum
+ PL_ABL_PXSG1_K ;
+ PL_INS_PXSG1_K ;
+ PL_LAT_PXSG1_K ;
+ PL_LOC_PXSG1_K ;
+ PL_NOM_PXSG1_K ;
+
+!! pl x pxsg2
+LEXICON PL_X_PXSG2_ajanyn
+ PL_ABL_PXSG2_ajanyn ;
+ PL_INS_PXSG2_ajanyn ;
+ PL_LAT_PXSG2_ajanyn ;
+ PL_LOC_PXSG2_ajanyn ;
+ PL_NOM_PXSG2_ajanyn ;
+LEXICON PL_ABL_PXSG2_ajanyn
++Pl+Abl+PxSg2:%>%{аяØ%}нынныл PL_ABL_PXSG2_K ;
+LEXICON PL_INS_PXSG2_ajanyn
++Pl+Ins+PxSg2:%>%{аяØ%}нынтыл PL_INS_PXSG2_K ;
+LEXICON PL_LAT_PXSG2_ajanyn
++Pl+Lat+PxSg2:%>%{аяØ%}нынн PL_LAT_PXSG2_K ;
+LEXICON PL_LOC_PXSG2_ajanyn
++Pl+Loc+PxSg2:%>%{аяØ%}нынт PL_LOC_PXSG2_K ;
+LEXICON PL_NOM_PXSG2_ajanyn
++Pl+Nom+PxSg2:%>%{аяØ%}нын PL_NOM_PXSG2_K ;
+
+LEXICON PL_X_PXSG2_ajan
+ PL_ABL_PXSG2_ajan ;
+ PL_INS_PXSG2_ajan ;
+ PL_LAT_PXSG2_ajan ;
+ PL_LOC_PXSG2_ajan ;
+ PL_NOM_PXSG2_ajan ;
+LEXICON PL_ABL_PXSG2_ajan
++Pl+Abl+PxSg2:%>%{аяØ%}нныл PL_ABL_PXSG2_K ;
+LEXICON PL_INS_PXSG2_ajan
++Pl+Ins+PxSg2:%>%{аяØ%}нтыл PL_INS_PXSG2_K ;
+LEXICON PL_LAT_PXSG2_ajan
++Pl+Lat+PxSg2:%>%{аяØ%}нн PL_LAT_PXSG2_K ;
+LEXICON PL_LOC_PXSG2_ajan
++Pl+Loc+PxSg2:%>%{аяØ%}нт PL_LOC_PXSG2_K ;
+LEXICON PL_NOM_PXSG2_ajan
++Pl+Nom+PxSg2:%>%{аяØ%}н PL_NOM_PXSG2_K ;
+
+
+!! pl x pxsg3
+LEXICON PL_X_PXSG3_ajane
+PL_ABL_PXSG3_ajane ;
+PL_INS_PXSG3_ajane ;
+PL_LAT_PXSG3_ajane ;
+PL_LOC_PXSG3_ajane ;
+PL_NOM_PXSG3_ajane ;
+LEXICON PL_ABL_PXSG3_ajane
+:%>%{аяØ%}нэныл PL_ABL_PXSG3_K ;
+LEXICON PL_INS_PXSG3_ajane
+:%>%{аяØ%}нэтыл PL_INS_PXSG3_K ;
+LEXICON PL_LAT_PXSG3_ajane
+:%>%{аяØ%}нэн PL_LAT_PXSG3_K ;
+LEXICON PL_LOC_PXSG3_ajane
+:%>%{аяØ%}нэт PL_LOC_PXSG3_K ;
+LEXICON PL_NOM_PXSG3_ajane
+:%>%{аяØ%}нэ PL_NOM_PXSG3_K ;
+
+LEXICON PL_ABL/INS/LAT/LOC_PXSG3_ajanee
+PL_ABL_PXSG3_ajanee ;
+PL_INS_PXSG3_ajanee ;
+PL_LAT_PXSG3_ajanee ;
+PL_LOC_PXSG3_ajanee ;
+
+LEXICON PL_ABL_PXSG3_ajanee
+:%>%{аяØ%}нэ̄ныл PL_ABL_PXSG3_K ;
+LEXICON PL_INS_PXSG3_ajanee
+:%>%{аяØ%}нэ̄тыл PL_INS_PXSG3_K ;
+LEXICON PL_LAT_PXSG3_ajanee
+:%>%{аяØ%}нэ̄н PL_LAT_PXSG3_K ;
+LEXICON PL_LOC_PXSG3_ajanee
+:%>%{аяØ%}нэ̄т PL_LOC_PXSG3_K ;!20230502
+
+
+!! pl x pxdu1
+LEXICON PL_X_PXDU1_ajanmeen
+ PL_ABL_PXDU1_ajanmeen ;
+ PL_INS_PXDU1_ajanmeen ;
+ PL_LAT_PXDU1_ajanmeen ;
+ PL_LOC_PXDU1_ajanmeen ;
+ PL_NOM_PXDU1_ajanmeen ;
+LEXICON PL_ABL_PXDU1_ajanmeen
+:%>%{аяØ%}нме̄нныл PL_ABL_PXDU1_K ;
+LEXICON PL_INS_PXDU1_ajanmeen
+:%>%{аяØ%}нме̄нтыл PL_INS_PXDU1_K ;
+LEXICON PL_LAT_PXDU1_ajanmeen
+:%>%{аяØ%}нме̄нн PL_LAT_PXDU1_K ;
+LEXICON PL_LOC_PXDU1_ajanmeen
+:%>%{аяØ%}нме̄нт PL_LOC_PXDU1_K ;
+LEXICON PL_NOM_PXDU1_ajanmeen
+:%>%{аяØ%}нме̄н PL_NOM_PXDU1_K ;
+
+LEXICON PL_X_PXDU1_ajanmen
+ PL_ABL_PXDU1_ajanmen ;
+ PL_INS_PXDU1_ajanmen ;
+ PL_LAT_PXDU1_ajanmen ;
+ PL_LOC_PXDU1_ajanmen ;
+ PL_NOM_PXDU1_ajanmen ;
+LEXICON PL_ABL_PXDU1_ajanmen
+:%>%{аяØ%}нменныл PL_ABL_PXDU1_K ;
+LEXICON PL_INS_PXDU1_ajanmen
+:%>%{аяØ%}нментыл PL_INS_PXDU1_K ;
+LEXICON PL_LAT_PXDU1_ajanmen
+:%>%{аяØ%}нменн PL_LAT_PXDU1_K ;
+LEXICON PL_LOC_PXDU1_ajanmen
+:%>%{аяØ%}нмент PL_LOC_PXDU1_K ;
+LEXICON PL_NOM_PXDU1_ajanmen
+:%>%{аяØ%}нмен PL_NOM_PXDU1_K ;
+
+LEXICON PL_X_PXDU1_ajanameen
+ PL_ABL_PXDU1_ajanameen ;
+ PL_INS_PXDU1_ajanameen ;
+ PL_LAT_PXDU1_ajanameen ;
+ PL_LOC_PXDU1_ajanameen ;
+ PL_NOM_PXDU1_ajanameen ;
+LEXICON PL_ABL_PXDU1_ajanameen
+:%>%{аяØ%}наме̄нныл PL_ABL_PXDU1_K ;
+LEXICON PL_INS_PXDU1_ajanameen
+:%>%{аяØ%}наме̄нтыл PL_INS_PXDU1_K ;
+LEXICON PL_LAT_PXDU1_ajanameen
+:%>%{аяØ%}наме̄нн PL_LAT_PXDU1_K ;
+LEXICON PL_LOC_PXDU1_ajanameen
+:%>%{аяØ%}наме̄нт PL_LOC_PXDU1_K ;
+LEXICON PL_NOM_PXDU1_ajanameen
+:%>%{аяØ%}наме̄н PL_NOM_PXDU1_K ;
+
+LEXICON PL_X_PXDU1_ajanamen
+ PL_ABL_PXDU1_ajanamen ;
+ PL_INS_PXDU1_ajanamen ;
+ PL_LAT_PXDU1_ajanamen ;
+ PL_LOC_PXDU1_ajanamen ;
+ PL_NOM_PXDU1_ajanamen ;
+LEXICON PL_ABL_PXDU1_ajanamen
+:%>%{аяØ%}наменныл PL_ABL_PXDU1_K ;
+LEXICON PL_INS_PXDU1_ajanamen
+:%>%{аяØ%}наментыл PL_INS_PXDU1_K ;
+LEXICON PL_LAT_PXDU1_ajanamen
+:%>%{аяØ%}наменн PL_LAT_PXDU1_K ;
+LEXICON PL_LOC_PXDU1_ajanamen
+:%>%{аяØ%}намент PL_LOC_PXDU1_K ;
+LEXICON PL_NOM_PXDU1_ajanamen
+:%>%{аяØ%}намен PL_NOM_PXDU1_K ;
+
+!! pl x pxdu2
+LEXICON PL_X_PXDU2_ajanyyn
+ PL_ABL_PXDU2_ajanyyn ;
+ PL_INS_PXDU2_ajanyyn ;
+ PL_LAT_PXDU2_ajanyyn ;
+ PL_LOC_PXDU2_ajanyyn ;
+ PL_NOM_PXDU2_ajanyyn ;
+LEXICON PL_ABL_PXDU2_ajanyyn
+:%>%{аяØ%}ны̄нныл PL_ABL_PXDU2_K ;
+LEXICON PL_INS_PXDU2_ajanyyn
+:%>%{аяØ%}ны̄нтыл PL_INS_PXDU2_K ;
+LEXICON PL_LAT_PXDU2_ajanyyn
+:%>%{аяØ%}ны̄нн PL_LAT_PXDU2_K ;
+LEXICON PL_LOC_PXDU2_ajanyyn
+:%>%{аяØ%}ны̄нт PL_LOC_PXDU2_K ;
+LEXICON PL_NOM_PXDU2_ajanyyn
+:%>%{аяØ%}ны̄н PL_NOM_PXDU2_K ;
+
+LEXICON PL_X_PXDU2_ajanyn
+ PL_ABL_PXDU2_ajanyn ;
+ PL_INS_PXDU2_ajanyn ;
+ PL_LAT_PXDU2_ajanyn ;
+ PL_LOC_PXDU2_ajanyn ;
+ PL_NOM_PXDU2_ajanyn ;
+LEXICON PL_ABL_PXDU2_ajanyn
+:%>%{аяØ%}нынныл PL_ABL_PXDU2_K ;
+LEXICON PL_INS_PXDU2_ajanyn
+:%>%{аяØ%}нынтыл PL_INS_PXDU2_K ;
+LEXICON PL_LAT_PXDU2_ajanyn
+:%>%{аяØ%}нынн PL_LAT_PXDU2_K ;
+LEXICON PL_LOC_PXDU2_ajanyn
+:%>%{аяØ%}нынт PL_LOC_PXDU2_K ;
+LEXICON PL_NOM_PXDU2_ajanyn
+:%>%{аяØ%}нын PL_NOM_PXDU2_K ;
+
+LEXICON PL_X_PXDU2_ajan
+ PL_ABL_PXDU2_ajan ;
+ PL_INS_PXDU2_ajan ;
+ PL_LAT_PXDU2_ajan ;
+ PL_LOC_PXDU2_ajan ;
+ PL_NOM_PXDU2_ajan ;
+LEXICON PL_ABL_PXDU2_ajan
+:%>%{аяØ%}нныл PL_ABL_PXDU2_K ;
+LEXICON PL_INS_PXDU2_ajan
+:%>%{аяØ%}нтыл PL_INS_PXDU2_K ;
+LEXICON PL_LAT_PXDU2_ajan
+:%>%{аяØ%}нн PL_LAT_PXDU2_K ;
+LEXICON PL_LOC_PXDU2_ajan
+:%>%{аяØ%}нт PL_LOC_PXDU2_K ;
+LEXICON PL_NOM_PXDU2_ajan
+:%>%{аяØ%}н PL_NOM_PXDU2_K ;
+
+!! pl x pxdu3
+LEXICON PL_X_PXDU3_ajanen
+ PL_ABL_PXDU3_ajanen ;
+ PL_INS_PXDU3_ajanen ;
+ PL_LAT_PXDU3_ajanen ;
+ PL_LOC_PXDU3_ajanen ;
+ PL_NOM_PXDU3_ajanen ;
+LEXICON PL_ABL_PXDU3_ajanen
+:%>%{аяØ%}нэнныл PL_ABL_PXDU3_K ;
+LEXICON PL_INS_PXDU3_ajanen
+:%>%{аяØ%}нэнтыл PL_INS_PXDU3_K ;
+LEXICON PL_LAT_PXDU3_ajanen
+:%>%{аяØ%}нэнн PL_LAT_PXDU3_K ;
+LEXICON PL_LOC_PXDU3_ajanen
+:%>%{аяØ%}нэнт PL_LOC_PXDU3_K ;
+LEXICON PL_NOM_PXDU3_ajanen
+:%>%{аяØ%}нэн PL_NOM_PXDU3_K ;
+
+LEXICON PL_X_PXDU3_ajaneen
+ PL_ABL_PXDU3_ajaneen ;
+ PL_INS_PXDU3_ajaneen ;
+ PL_LAT_PXDU3_ajaneen ;
+ PL_LOC_PXDU3_ajaneen ;
+ PL_NOM_PXDU3_ajaneen ;
+LEXICON PL_ABL_PXDU3_ajaneen
+:%>%{аяØ%}нэ̄нныл PL_ABL_PXDU3_K ;
+LEXICON PL_INS_PXDU3_ajaneen
+:%>%{аяØ%}нэ̄нтыл PL_INS_PXDU3_K ;
+LEXICON PL_LAT_PXDU3_ajaneen
+:%>%{аяØ%}нэ̄нн PL_LAT_PXDU3_K ;
+LEXICON PL_LOC_PXDU3_ajaneen
+:%>%{аяØ%}нэ̄нт PL_LOC_PXDU3_K ;
+LEXICON PL_NOM_PXDU3_ajaneen
+:%>%{аяØ%}нэ̄н PL_NOM_PXDU3_K ;
+
+!! pl x pxpl1
+LEXICON PL_X_PXPL1_ajanuv
+ PL_ABL_PXPL1_ajanuv ;
+ PL_INS_PXPL1_ajanuv ;
+ PL_LAT_PXPL1_ajanuv ;
+ PL_LOC_PXPL1_ajanuv ;
+ PL_NOM_PXPL1_ajanuv ;
+LEXICON PL_ABL_PXPL1_ajanuv
+:%>%{аяØ%}нувныл PL_ABL_PXPL1_K ;
+LEXICON PL_INS_PXPL1_ajanuv
+:%>%{аяØ%}нувтыл PL_INS_PXPL1_K ;
+LEXICON PL_LAT_PXPL1_ajanuv
+:%>%{аяØ%}нувн PL_LAT_PXPL1_K ;
+LEXICON PL_LOC_PXPL1_ajanuv
+:%>%{аяØ%}нувт PL_LOC_PXPL1_K ;
+LEXICON PL_NOM_PXPL1_ajanuv
+:%>%{аяØ%}нув PL_NOM_PXPL1_K ;
+
+!! pl x pxpl2
+
+LEXICON PL_X_PXPL2_ajanyyn
+ PL_ABL_PXPL2_ajanyyn ;
+ PL_INS_PXPL2_ajanyyn ;
+ PL_LAT_PXPL2_ajanyyn ;
+ PL_LOC_PXPL2_ajanyyn ;
+ PL_NOM_PXPL2_ajanyyn ;
+LEXICON PL_ABL_PXPL2_ajanyyn
++Pl+Abl+PxPl2:%>%{аяØ%}ны̄нныл PL_ABL_PXPL2_K ;
+LEXICON PL_INS_PXPL2_ajanyyn
++Pl+Ins+PxPl2:%>%{аяØ%}ны̄нтыл PL_INS_PXPL2_K ;
+LEXICON PL_LAT_PXPL2_ajanyyn
++Pl+Lat+PxPl2:%>%{аяØ%}ны̄нн PL_LAT_PXPL2_K ;
+LEXICON PL_LOC_PXPL2_ajanyyn
++Pl+Loc+PxPl2:%>%{аяØ%}ны̄нт PL_LOC_PXPL2_K ;
+LEXICON PL_NOM_PXPL2_ajanyyn
++Pl+Nom+PxPl2:%>%{аяØ%}ны̄н PL_NOM_PXPL2_K ;
+
+
+LEXICON PL_X_PXPL2_ajanyn
+ PL_ABL_PXPL2_ajanyn ;
+ PL_INS_PXPL2_ajanyn ;
+ PL_LAT_PXPL2_ajanyn ;
+ PL_LOC_PXPL2_ajanyn ;
+ PL_NOM_PXPL2_ajanyn ;
+LEXICON PL_ABL_PXPL2_ajanyn
++Pl+Abl+PxPl2:%>%{аяØ%}нынныл PL_ABL_PXPL2_K ;
+LEXICON PL_INS_PXPL2_ajanyn
++Pl+Ins+PxPl2:%>%{аяØ%}нынтыл PL_INS_PXPL2_K ;
+LEXICON PL_LAT_PXPL2_ajanyn
++Pl+Lat+PxPl2:%>%{аяØ%}нынн PL_LAT_PXPL2_K ;
+LEXICON PL_LOC_PXPL2_ajanyn
++Pl+Loc+PxPl2:%>%{аяØ%}нынт PL_LOC_PXPL2_K ;
+LEXICON PL_NOM_PXPL2_ajanyn
++Pl+Nom+PxDu2:%>%{аяØ%}нын PL_NOM_PXDU2_K ;
+
+LEXICON PL_X_PXPL2_ajan
+ PL_ABL_PXPL2_ajan ;
+ PL_INS_PXPL2_ajan ;
+ PL_LAT_PXPL2_ajan ;
+ PL_LOC_PXPL2_ajan ;
+ PL_NOM_PXPL2_ajan ;
+LEXICON PL_ABL_PXPL2_ajan
+:%>%{аяØ%}нныл PL_ABL_PXPL2_K ;
+LEXICON PL_INS_PXPL2_ajan
+:%>%{аяØ%}нтыл PL_INS_PXPL2_K ;
+LEXICON PL_LAT_PXPL2_ajan
+:%>%{аяØ%}нн PL_LAT_PXPL2_K ;
+LEXICON PL_LOC_PXPL2_ajan
+:%>%{аяØ%}нт PL_LOC_PXPL2_K ;
+LEXICON PL_NOM_PXPL2_ajan
+:%>%{аяØ%}н PL_NOM_PXDU2_K ;
+
+!! pl x pxpl3
+LEXICON PL_X_PXPL3_ajananyl
+ PL_ABL_PXPL3_ajananyl ;
+ PL_INS_PXPL3_ajananyl ;
+ PL_LAT_PXPL3_ajananyl ;
+ PL_LOC_PXPL3_ajananyl ;
+ PL_NOM_PXPL3_ajananyl ;
+LEXICON PL_ABL_PXPL3_ajananyl
+:%>%{аяØ%}нанылныл PL_ABL_PXPL3_K ;
+LEXICON PL_INS_PXPL3_ajananyl
+:%>%{аяØ%}нанылтыл PL_INS_PXPL3_K ;
+LEXICON PL_LAT_PXPL3_ajananyl
+:%>%{аяØ%}нанылн PL_LAT_PXPL3_K ;
+LEXICON PL_LOC_PXPL3_ajananyl
+:%>%{аяØ%}нанылт PL_LOC_PXPL3_K ;
+LEXICON PL_NOM_PXPL3_ajananyl
+:%>%{аяØ%}наныл PL_NOM_PXPL3_K ;
+
+LEXICON PL_X_PXPL3_ajanyl
+ PL_ABL_PXPL3_ajanyl ;
+ PL_INS_PXPL3_ajanyl ;
+ PL_LAT_PXPL3_ajanyl ;
+ PL_LOC_PXPL3_ajanyl ;
+ PL_NOM_PXPL3_ajanyl ;
+LEXICON PL_ABL_PXPL3_ajanyl
+:%>%{аяØ%}нылныл PL_ABL_PXPL3_K ;
+LEXICON PL_INS_PXPL3_ajanyl
+:%>%{аяØ%}нылтыл PL_INS_PXPL3_K ;
+LEXICON PL_LAT_PXPL3_ajanyl
+:%>%{аяØ%}нылн PL_LAT_PXPL3_K ;
+LEXICON PL_LOC_PXPL3_ajanyl
+:%>%{аяØ%}нылт PL_LOC_PXPL3_K ;
+LEXICON PL_NOM_PXPL3_ajanyl
+:%>%{аяØ%}ныл PL_NOM_PXPL3_K ;
+
+!! tags-n-flags
+!! Sg X
+LEXICON SG_ABL_K
+@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl:@U.DECL-NX.SG@@U.CX.ABL@ K ;
+LEXICON SG_INS_K
+@U.DECL-NX.SG@@U.CX.INS@+Sg+Ins:@U.DECL-NX.SG@@U.CX.INS@ K ;
+LEXICON SG_LAT_K
+@U.DECL-NX.SG@@U.CX.LAT@+Sg+Lat:@U.DECL-NX.SG@@U.CX.LAT@ K ;
+LEXICON SG_LOC_K
+@U.DECL-NX.SG@@U.CX.LOC@+Sg+Loc:@U.DECL-NX.SG@@U.CX.LOC@ K ;
+LEXICON SG_NOM_K
+@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+LEXICON SG_TRA_K
+@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra:@U.DECL-NX.SG@@U.CX.TRA@ K ;
+
+!! Du X 
+LEXICON DU_ABL_K
+@U.DECL-NX.DU@@U.CX.ABL@+Du+Abl:@U.DECL-NX.DU@@U.CX.ABL@ K ;
+LEXICON DU_INS_K
+@U.DECL-NX.DU@@U.CX.INS@+Du+Ins:@U.DECL-NX.DU@@U.CX.INS@ K ;
+LEXICON DU_LAT_K
+@U.DECL-NX.DU@@U.CX.LAT@+Du+Lat:@U.DECL-NX.DU@@U.CX.LAT@ K ;
+LEXICON DU_LOC_K
+@U.DECL-NX.DU@@U.CX.LOC@+Du+Loc:@U.DECL-NX.DU@@U.CX.LOC@ K ;
+LEXICON DU_NOM_K
+@U.DECL-NX.DU@@U.CX.NOM@+Du+Nom:@U.DECL-NX.DU@@U.CX.NOM@ K ;
+
+!! Pl X 
+LEXICON PL_ABL_K
+@U.DECL-NX.PL@@U.CX.ABL@+Pl+Abl:@U.DECL-NX.PL@@U.CX.ABL@ K ;
+LEXICON PL_INS_K
+@U.DECL-NX.PL@@U.CX.INS@+Pl+Ins:@U.DECL-NX.PL@@U.CX.INS@ K ;
+LEXICON PL_LAT_K
+@U.DECL-NX.PL@@U.CX.LAT@+Pl+Lat:@U.DECL-NX.PL@@U.CX.LAT@ K ;
+LEXICON PL_LOC_K
+@U.DECL-NX.PL@@U.CX.LOC@+Pl+Loc:@U.DECL-NX.PL@@U.CX.LOC@ K ;
+LEXICON PL_NOM_K
+@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom:@U.DECL-NX.PL@@U.CX.NOM@ K ;
+
+!! Sg X PxSg1 has no variation
+LEXICON SG_ABL_PXSG1_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg1@%>%{уюØ%}мныл K ;
+LEXICON SG_INS_PXSG1_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg1@%>%{уюØ%}мтыл K ;
+LEXICON SG_LAT_PXSG1_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg1@%>%{уюØ%}мн K ;
+LEXICON SG_LOC_PXSG1_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg1@%>%{уюØ%}мт K ;
+LEXICON SG_NOM_PXSG1_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg1@%>%{уюØ%}м K ;
+LEXICON SG_TRA_PXSG1_K
+@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg1@+Sg+Tra+PxSg1:@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg1@%>%{уюØ%}мыг K ;
+
+!! Sg X PxSg2 has no variation
+LEXICON SG_ABL_PXSG2_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg2@%>ынныл K ;
+LEXICON SG_INS_PXSG2_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg2@%>ынтыл K ;
+LEXICON SG_LAT_PXSG2_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg2@%>ынн K ;
+LEXICON SG_LOC_PXSG2_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg2@%>ынт K ;
+LEXICON SG_NOM_PXSG2_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg2@%>ын K ;
+LEXICON SG_TRA_PXSG2_K
+@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg2@+Sg+Tra+PxSg2:@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg2@%>ыныг K ;
+
+!! Sg X PxSg3
+LEXICON SG_ABL_PXSG3_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg3@ K ;
+LEXICON SG_INS_PXSG3_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg3@ K ;
+LEXICON SG_LAT_PXSG3_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg3@ K ;
+LEXICON SG_LOC_PXSG3_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg3@ K ;
+LEXICON SG_NOM_PXSG3_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg3@ K ;
+LEXICON SG_TRA_PXSG3_K
+@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg3@+Sg+Tra+PxSg3:@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg3@ K ;
+
+
+LEXICON SG_ABL_PXDU1_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du1@ K ;
+LEXICON SG_INS_PXDU1_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du1@ K ;
+LEXICON SG_LAT_PXDU1_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du1@ K ;
+LEXICON SG_LOC_PXDU1_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du1@ K ;
+LEXICON SG_NOM_PXDU1_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@ K ;
+
+
+LEXICON SG_ABL_PXDU2_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du2@ K ;
+LEXICON SG_INS_PXDU2_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du2@ K ;
+LEXICON SG_LAT_PXDU2_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du2@ K ;
+LEXICON SG_LOC_PXDU2_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du2@ K ;
+LEXICON SG_NOM_PXDU2_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du2@ K ;
+
+
+LEXICON SG_ABL_PXDU3_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du3@ K ;
+LEXICON SG_INS_PXDU3_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du3@ K ;
+LEXICON SG_LAT_PXDU3_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du3@ K ;
+LEXICON SG_LOC_PXDU3_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du3@ K ;
+LEXICON SG_NOM_PXDU3_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du3@ K ;
+
+
+LEXICON SG_ABL_PXPL1_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl1@%>%{уюØ%}вныл K ;
+LEXICON SG_INS_PXPL1_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl1@%>%{уюØ%}втыл K ;
+LEXICON SG_LAT_PXPL1_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl1@%>%{уюØ%}вн K ;
+LEXICON SG_LOC_PXPL1_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl1@%>%{уюØ%}вт K ;
+LEXICON SG_NOM_PXPL1_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl1@%>%{уюØ%}в K ;
+
+
+LEXICON SG_ABL_PXPL2_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl2@ K ;
+LEXICON SG_INS_PXPL2_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl2@ K ;
+LEXICON SG_LAT_PXPL2_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl2@ K ;
+LEXICON SG_LOC_PXPL2_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl2@ K ;
+LEXICON SG_NOM_PXPL2_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl2@ K ;
+
+!! Sg X PxPl3 has no variation
+LEXICON SG_ABL_PXPL3_K
+@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl3@%>%{аяØ%}нылныл K ;
+LEXICON SG_INS_PXPL3_K
+@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl3@%>%{аяØ%}нылтыл K ;
+LEXICON SG_LAT_PXPL3_K
+@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl3@%>%{аяØ%}нылн K ;
+LEXICON SG_LOC_PXPL3_K
+@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl3@%>%{аяØ%}нылт K ;
+LEXICON SG_NOM_PXPL3_K
+@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl3@%>%{аяØ%}ныл K ;
+
+!#! du x pxsg1 has no variation
+LEXICON DU_ABL_PXSG1_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg1@%>%{аяØ%}гумныл K ;
+LEXICON DU_INS_PXSG1_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg1@%>%{аяØ%}гумтыл K ;
+LEXICON DU_LAT_PXSG1_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg1@%>%{аяØ%}гумн K ;
+LEXICON DU_LOC_PXSG1_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg1@%>%{аяØ%}гумт K ;
+LEXICON DU_NOM_PXSG1_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg1@%>%{аяØ%}гум K ;
+
+
+LEXICON DU_ABL_PXSG2_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg2@ K ;
+LEXICON DU_INS_PXSG2_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg2@ K ;
+LEXICON DU_LAT_PXSG2_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg2@ K ;
+LEXICON DU_LOC_PXSG2_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg2@ K ;
+LEXICON DU_NOM_PXSG2_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg2@ K ;
+
+
+LEXICON DU_ABL_PXSG3_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg3@ K ;
+LEXICON DU_INS_PXSG3_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg3@ K ;
+LEXICON DU_LAT_PXSG3_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg3@ K ;
+LEXICON DU_LOC_PXSG3_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg3@ K ;
+LEXICON DU_NOM_PXSG3_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg3@ K ;
+
+
+LEXICON DU_ABL_PXDU1_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du1@ K ;
+LEXICON DU_INS_PXDU1_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du1@ K ;
+LEXICON DU_LAT_PXDU1_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du1@ K ;
+LEXICON DU_LOC_PXDU1_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du1@ K ;
+LEXICON DU_NOM_PXDU1_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du1@ K ;
+
+
+LEXICON DU_ABL_PXDU2_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du2@ K ;
+LEXICON DU_INS_PXDU2_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du2@ K ;
+LEXICON DU_LAT_PXDU2_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du2@ K ;
+LEXICON DU_LOC_PXDU2_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du2@ K ;
+LEXICON DU_NOM_PXDU2_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du2@ K ;
+
+
+LEXICON DU_ABL_PXDU3_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du3@ K ;
+LEXICON DU_INS_PXDU3_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du3@ K ;
+LEXICON DU_LAT_PXDU3_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du3@ K ;
+LEXICON DU_LOC_PXDU3_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du3@ K ;
+LEXICON DU_NOM_PXDU3_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du3@ K ;
+
+
+LEXICON DU_ABL_PXPL1_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl1@ K ;
+LEXICON DU_INS_PXPL1_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl1@ K ;
+LEXICON DU_LAT_PXPL1_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl1@ K ;
+LEXICON DU_LOC_PXPL1_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl1@ K ;
+LEXICON DU_NOM_PXPL1_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl1@ K ;
+
+
+LEXICON DU_ABL_PXPL2_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl2@ K ;
+LEXICON DU_INS_PXPL2_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl2@ K ;
+LEXICON DU_LAT_PXPL2_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl2@ K ;
+LEXICON DU_LOC_PXPL2_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl2@ K ;
+LEXICON DU_NOM_PXPL2_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl2@ K ;
+
+
+LEXICON DU_ABL_PXPL3_K
+@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl3@ K ;
+LEXICON DU_INS_PXPL3_K
+@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl3@ K ;
+LEXICON DU_LAT_PXPL3_K
+@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl3@ K ;
+LEXICON DU_LOC_PXPL3_K
+@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl3@ K ;
+LEXICON DU_NOM_PXPL3_K
+@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl3@ K ;
+
+!! pl x pxsg1
+LEXICON PL_ABL_PXSG1_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg1@ K ;
+LEXICON PL_INS_PXSG1_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg1@ K ;
+LEXICON PL_LAT_PXSG1_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg1@ K ;
+LEXICON PL_LOC_PXSG1_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg1@ K ;
+LEXICON PL_NOM_PXSG1_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg1@ K ;
+
+!! pl x pxsg2
+LEXICON PL_ABL_PXSG2_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg2@ K ;
+LEXICON PL_INS_PXSG2_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg2@ K ;
+LEXICON PL_LAT_PXSG2_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg2@ K ;
+LEXICON PL_LOC_PXSG2_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg2@ K ;
+LEXICON PL_NOM_PXSG2_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg2@ K ;
+
+!! pl x pxsg3
+LEXICON PL_ABL_PXSG3_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg3@ K ;
+LEXICON PL_INS_PXSG3_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg3@ K ;
+LEXICON PL_LAT_PXSG3_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg3@ K ;
+LEXICON PL_LOC_PXSG3_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg3@ K ;
+LEXICON PL_NOM_PXSG3_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg3@ K ;
+
+!! pl x pxdu1
+LEXICON PL_ABL_PXDU1_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du1@ K ;
+LEXICON PL_INS_PXDU1_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du1@ K ;
+LEXICON PL_LAT_PXDU1_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du1@ K ;
+LEXICON PL_LOC_PXDU1_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du1@ K ;
+LEXICON PL_NOM_PXDU1_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du1@ K ;
+
+
+!! pl x pxdu2
+LEXICON PL_ABL_PXDU2_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du2@ K ;
+LEXICON PL_INS_PXDU2_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du2@ K ;
+LEXICON PL_LAT_PXDU2_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du2@ K ;
+LEXICON PL_LOC_PXDU2_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du2@ K ;
+LEXICON PL_NOM_PXDU2_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du2@ K ;
+
+!! pl x pxdu3
+LEXICON PL_ABL_PXDU3_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du3@ K ;
+LEXICON PL_INS_PXDU3_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du3@ K ;
+LEXICON PL_LAT_PXDU3_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du3@ K ;
+LEXICON PL_LOC_PXDU3_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du3@ K ;
+LEXICON PL_NOM_PXDU3_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du3@ K ;
+
+!! pl x pxpl1 has no variation
+LEXICON PL_ABL_PXPL1_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl1@%>%{аяØ%}нумныл K ;
+LEXICON PL_INS_PXPL1_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl1@%>%{аяØ%}нумтыл K ;
+LEXICON PL_LAT_PXPL1_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl1@%>%{аяØ%}нумн K ;
+LEXICON PL_LOC_PXPL1_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl1@%>%{аяØ%}нумт K ;
+LEXICON PL_NOM_PXPL1_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl1@%>%{аяØ%}нум K ;
+
+
+LEXICON PL_ABL_PXPL2_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl2@ K ;
+LEXICON PL_INS_PXPL2_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl2@ K ;
+LEXICON PL_LAT_PXPL2_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl2@ K ;
+LEXICON PL_LOC_PXPL2_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl2@ K ;
+LEXICON PL_NOM_PXPL2_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl2@ K ;
+
+
+LEXICON PL_ABL_PXPL3_K
+@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl3@ K ;
+LEXICON PL_INS_PXPL3_K
+@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl3@ K ;
+LEXICON PL_LAT_PXPL3_K
+@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl3@ K ;
+LEXICON PL_LOC_PXPL3_K
+@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl3@ K ;
+LEXICON PL_NOM_PXPL3_K
+@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl3@ K ;
+
+
 
