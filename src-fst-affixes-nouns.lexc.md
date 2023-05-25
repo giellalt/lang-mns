@@ -42,6 +42,83 @@ Affixes for pissessive suffixes + case forms.
 ### 3. Derivation forms
 This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 
+sg x pxsg1
+
+sg x pxsg2
+
+sg x pxsg3
+
+sg x pxdu1
+
+sg x pxdu2
+
+sg x pxdu3
+
+du x pxsg1
+
+du x pxsg2
+
+du x pxsg3
+
+du x pxdu1
+
+du x pxdu2
+
+du x pxdu3
+
+du x pxpl1
+
+du x pxpl2
+
+du x pxpl3
+
+pl x pxsg1
+
+pl x pxsg2
+
+pl x pxsg3
+
+pl x pxdu1
+
+pl x pxdu2
+
+pl x pxdu3
+
+pl x pxpl1
+
+pl x pxpl2
+
+pl x pxpl3
+
+tags-n-flags
+Sg X
+
+Du X 
+
+Pl X 
+
+Sg X PxSg1 has no variation
+
+Sg X PxSg2 has no variation
+
+Sg X PxSg3
+
+Sg X PxPl3 has no variation
+
+pl x pxsg1
+
+pl x pxsg2
+
+pl x pxsg3
+
+pl x pxdu1
+
+pl x pxdu2
+
+pl x pxdu3
+
+pl x pxpl1 has no variation
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/nouns.lexc)</small>

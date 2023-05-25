@@ -523,6 +523,83 @@ Affixes for pissessive suffixes + case forms.
 ### 3. Derivation forms
 This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 
+sg x pxsg1
+
+sg x pxsg2
+
+sg x pxsg3
+
+sg x pxdu1
+
+sg x pxdu2
+
+sg x pxdu3
+
+du x pxsg1
+
+du x pxsg2
+
+du x pxsg3
+
+du x pxdu1
+
+du x pxdu2
+
+du x pxdu3
+
+du x pxpl1
+
+du x pxpl2
+
+du x pxpl3
+
+pl x pxsg1
+
+pl x pxsg2
+
+pl x pxsg3
+
+pl x pxdu1
+
+pl x pxdu2
+
+pl x pxdu3
+
+pl x pxpl1
+
+pl x pxpl2
+
+pl x pxpl3
+
+tags-n-flags
+Sg X
+
+Du X 
+
+Pl X 
+
+Sg X PxSg1 has no variation
+
+Sg X PxSg2 has no variation
+
+Sg X PxSg3
+
+Sg X PxPl3 has no variation
+
+pl x pxsg1
+
+pl x pxsg2
+
+pl x pxsg3
+
+pl x pxdu1
+
+pl x pxdu2
+
+pl x pxdu3
+
+pl x pxpl1 has no variation
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/nouns.lexc)</small>
@@ -1220,6 +1297,198 @@ given the proper use of these flags.
 | ---- | -----------
 |  **@U.Cap.Obl@**| Allowing downcasing of derived names: deatnulasj.
 |  **@U.Cap.Opt@**| Allowing downcasing of derived names: deatnulasj.
+
+Flags used to identify parts of speech
+* @P.POS.PRON@ 
+* @U.POS.N@ 
+* @U.POS.A@ 
+
+* @P.POS.N@ 
+* @R.POS.N@ 
+* @P.POS.V@ 
+* @R.POS.V@ 
+* @C.POS@ 
+
+Flags used with serial verbs
+* @U.CONJ-INF.YES@ 
+* @U.CONJ-INF.NO@ 
+
+* @U.CONJ-TX.NONPAST@ 
+* @U.CONJ-TX.PRT1@ 
+* @U.CONJ-TX.PRT2@ 
+
+* @U.CONJ-MX.IND@ 
+* @D.CONJ-MX.IND@  2012-11-04 should this be --D-- or --N--
+* @U.CONJ-MX.IMP@ 
+* @U.CONJ-MX.OPT@ 
+* @U.CONJ-MX.PREC@ 
+* @U.CONJ-MX.DES@ 
+* @U.CONJ-MX.CONJ@ 
+* @U.CONJ-MX.COND@ 
+
+* @U.CONJ-CONNEG.YES@ 
+* @U.CONJ-CONNEG.NO@ 
+
+* @U.CONJ-NX.PL@ 
+* @U.CONJ-NX.SG@ 
+
+* @U.CONJ-POSS.1@ 
+* @U.CONJ-POSS.2@ 
+* @U.CONJ-POSS.3@ 
+* @U.CONJ-POSS.2ACC@ 
+* @U.CONJ-POSS.3ACC@ 
+
+* @U.CONJ-PX.10@ 
+* @U.CONJ-PX.12@ 
+* @U.CONJ-PX.13@ 
+* @U.CONJ-PX.15@ 
+* @U.CONJ-PX.16@ 
+* @U.CONJ-PX.20@ 
+* @U.CONJ-PX.21@ 
+* @U.CONJ-PX.23@ 
+* @U.CONJ-PX.24@ 
+* @U.CONJ-PX.26@ 
+* @U.CONJ-PX.30@ 
+* @U.CONJ-PX.31@ 
+* @U.CONJ-PX.32@ 
+* @U.CONJ-PX.33@ 
+* @U.CONJ-PX.34@ 
+* @U.CONJ-PX.35@ 
+* @U.CONJ-PX.36@ 
+
+* @U.CONJ-PX.40@ 
+* @U.CONJ-PX.42@ 
+* @U.CONJ-PX.43@ 
+* @U.CONJ-PX.45@ 
+* @U.CONJ-PX.46@ 
+
+* @U.CONJ-PX.50@ 
+* @U.CONJ-PX.51@ 
+* @U.CONJ-PX.53@ 
+* @U.CONJ-PX.54@ 
+* @U.CONJ-PX.56@ 
+
+* @U.CONJ-PX.60@ 
+* @U.CONJ-PX.61@ 
+* @U.CONJ-PX.62@ 
+* @U.CONJ-PX.63@ 
+* @U.CONJ-PX.64@ 
+* @U.CONJ-PX.65@ 
+* @U.CONJ-PX.66@ 
+
+* @R.CONJ-PX.13@ 
+* @R.CONJ-PX.16@ 
+* @R.CONJ-PX.23@ 
+* @R.CONJ-PX.26@ 
+* @R.CONJ-PX.33@ 
+* @R.CONJ-PX.36@ 
+
+* @R.CONJ-PX.43@ 
+* @R.CONJ-PX.46@ 
+
+* @R.CONJ-PX.53@ 
+* @R.CONJ-PX.56@ 
+
+* @R.CONJ-PX.63@ 
+* @R.CONJ-PX.66@ 
+
+* @P.CONJ.ObjAll@ 
+* @R.CONJ.ObjAll@ 
+* @C.CONJ@ 
+* @P.TLOSS.ON@ 
+* @R.TLOSS.ON@ 
+
+* @P.PossPx.Sg1@ 
+* @P.PossPx.Sg2@ 
+* @P.PossPx.Sg3@ 
+* @P.PossPx.Du1@ 
+* @P.PossPx.Du2@ 
+* @P.PossPx.Du3@ 
+* @P.PossPx.Pl1@ 
+* @P.PossPx.Pl2@ 
+* @P.PossPx.Pl3@ 
+
+* @U.PossPx.S3@ 
+* @U.PossPx.SP3@ 
+
+* @U.PossPx.Sg1@ 
+* @U.PossPx.Sg2@ 
+* @U.PossPx.Sg3@ 
+* @U.PossPx.Du1@ 
+* @U.PossPx.Du2@ 
+* @U.PossPx.Du3@ 
+* @U.PossPx.Pl1@ 
+* @U.PossPx.Pl2@ 
+* @U.PossPx.Pl3@ 
+
+* @D.PossPx@ 
+* @C.PossPx@ 
+* @P.TNUM.SG@ 
+* @P.TNUM.PL@ 
+* @D.TNUM.SG@ 
+* @D.TNUM.PL@ 
+* @C.TNUM@ 
+
+problematic
+
+* @P.TPERS.1@ 
+* @P.TPERS.2@ 
+* @P.TPERS.3@ 
+* @N.TPERS.1@ 
+* @N.TPERS.2@ 
+* @N.TPERS.3@ 
+* @U.TPERS.1@ 
+* @U.TPERS.2@ 
+* @U.TPERS.3@ 
+* @C.TPERS@ 
+
+* @U.CX.ABL@ 
+* @U.CX.INS@ 
+* @U.CX.LAT@ 
+* @U.CX.LOC@ 
+* @U.CX.NOM@ 
+* @U.CX.TRA@ 
+
+* @N.CX.ABL@ 
+* @N.CX.INS@ 
+* @N.CX.LAT@ 
+* @N.CX.LOC@ 
+* @N.CX.NOM@ 
+* @N.CX.TRA@ 
+* @C.CX@
+
+* @P.DNUM.PL@ 
+* @P.DNUM.SG@ 
+* @U.DNUM.PL@ 
+* @U.DNUM.SG@ 
+* @C.DNUM@ 
+
+* @P.NUM.SG@ 
+* @P.NUM.PL@ 
+* @D.NUM.SG@ 
+* @D.NUM.PL@ 
+* @C.NUM@ 
+
+# FLAGS USED WITH COLLECTIVE NOUNS
+## number
+* @U.DECL-NX.SG@
+* @U.DECL-NX.DU@
+* @U.DECL-NX.PL@
+* @R.DECL-NX.SG@
+* @R.DECL-NX.DU@
+* @R.DECL-NX.PL@
+## case??mns
+* @U.DECL-CX.ABL@ 
+* @U.DECL-CX.INS@ 
+* @U.DECL-CX.LAT@ 
+* @U.DECL-CX.LOC@ 
+* @U.DECL-CX.NOM@ 
+* @U.DECL-CX.TRA@ 
+
+Removal
+* @C.DECL-NX@ 
+* @C.DECL-DX@ 
+* @C.DECL-CX@ 
 
 ## The basic lexica
 
