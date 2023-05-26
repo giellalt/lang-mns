@@ -112,6 +112,8 @@ LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ; !!≈ * **@CODE@**
  CnsSoft = щ Щ  ;  !!≈ * **@CODE@**
  CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ   !!≈ * **@CODE@**
              Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ  ; !!≈  **@CODE@**
+ CnsNoReqFront = б в г к м п ф х ӈ   !!≈ * **@CODE@**
+                 Б В Г К М П Ф Х Ӈ  ; !!≈  **@CODE@**
  CnsAlv = д з л н с т !!≈ * **@CODE@**
           Д З Л Н С Т ; !!≈  **@CODE@**
  Cns = CnsSoft CnsNonAlv CnsAlv  р Р й Й ;  !!≈ * **@CODE@**
@@ -228,6 +230,7 @@ Rules
      [%{SYNCH%}:] %> _ [т|л|я] ;
      [%{NOSYNCH%}:] %> _ [л|я] ;
      [%{VCH%}:|%{VCCH%}:] %> _ [т|н|л|я] ;
+     [CnsAlv:] %{VU%}: %> _ м ;
 !! павыл+N+Sg+Loc:
 !!€ павыл{SYNCH}>{ыиØ}т
 !!€ павыл0>0т

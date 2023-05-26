@@ -102,6 +102,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Loc !!≈ * **@CODE@** Ыт
  +Tra !!≈ * **@CODE@** Ыг
 
+
 +Dat
 +Ela
 
@@ -127,16 +128,21 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +TV +IV  !!≈ * **@CODE@** for transitive, intransitive
  +Trans !!≈ * **@CODE@** hmm, Trans and TV?
 
+!! ### Compounded words
+ +CollN  !!≈ * **@CODE@** collective noun with inflection in two stems а̄гирищит-пы̄грищит
+ +Cmp  !!≈ * **@CODE@** compounding
+
 !! ### Abbreviated words are classified with:
  +ABBR +ACR  !!≈ * **@CODE@** 
  +Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 
 !! ### Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT  !!≈ * **@CODE@** 
++CLB +PUNCT +LEFT +RIGHT  !!≈ * **@CODE@**
  +Multi  !!≈ * **@CODE@** multiword units
  +Guess  !!≈ * **@CODE@** Non-dictionary words (not in use)
 
  +Qst +Foc  !!≈ * **@CODE@** Question and Focus particles
+
 
 !!! !Tags usually not visible outside the code:
 
@@ -516,18 +522,12 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  @R.DECL-NX.SG@ !!≈ * @CODE@
  @R.DECL-NX.DU@ !!≈ * @CODE@
  @R.DECL-NX.PL@ !!≈ * @CODE@
-!! ## case??mns
- @U.DECL-CX.ABL@ !!≈ * @CODE@ 
- @U.DECL-CX.INS@ !!≈ * @CODE@ 
- @U.DECL-CX.LAT@ !!≈ * @CODE@ 
- @U.DECL-CX.LOC@ !!≈ * @CODE@ 
- @U.DECL-CX.NOM@ !!≈ * @CODE@ 
- @U.DECL-CX.TRA@ !!≈ * @CODE@ 
+
 
 !! Removal
  @C.DECL-NX@ !!≈ * @CODE@ 
  @C.DECL-DX@ !!≈ * @CODE@ 
- @C.DECL-CX@ !!≈ * @CODE@ 
+ @C.CX@ !!≈ * @CODE@ 
 
 
  
@@ -552,10 +552,18 @@ LEXICON Root
    Punctuation ;           !!≈ **@CODE@** 
    Symbols     ;           !!≈ **@CODE@** 
 
+LEXICON COLLECTIVES
+@U.POS.N@+CollN+Use/Circ+Cmp#:@U.POS.N@%- Nouns ; 
+@U.POS.N@+CollN+Use/Circ+Cmp#:@U.POS.N@%- PROP_MANSINAMES ; 
+@U.POS.N@+CollN+Use/Circ+Cmp#:@U.POS.N@%- urj-Cyrl-ProperNouns ; 
+
+
 LEXICON K 
 !! * **LEXICON @LEXNAME@** for evt. clitic (goes to #)
- ENDLEX ;
+COLLECTIVES ;
+ENDLEX ;
 +Qst:%-а ENDLEX ;
+
 
 LEXICON ENDLEX
 # ;

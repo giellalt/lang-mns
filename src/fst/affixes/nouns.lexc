@@ -1728,372 +1728,372 @@ LEXICON PL_NOM_PXPL3_ajanyl
 !! tags-n-flags
 !! Sg X
 LEXICON SG_ABL_K
-@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl:@U.DECL-NX.SG@@U.CX.ABL@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.ABL@+Sg+Abl:@D.PossPx@@U.DECL-NX.SG@@U.CX.ABL@ K ;
 LEXICON SG_INS_K
-@U.DECL-NX.SG@@U.CX.INS@+Sg+Ins:@U.DECL-NX.SG@@U.CX.INS@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.INS@+Sg+Ins:@D.PossPx@@U.DECL-NX.SG@@U.CX.INS@ K ;
 LEXICON SG_LAT_K
-@U.DECL-NX.SG@@U.CX.LAT@+Sg+Lat:@U.DECL-NX.SG@@U.CX.LAT@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.LAT@+Sg+Lat:@D.PossPx@@U.DECL-NX.SG@@U.CX.LAT@ K ;
 LEXICON SG_LOC_K
-@U.DECL-NX.SG@@U.CX.LOC@+Sg+Loc:@U.DECL-NX.SG@@U.CX.LOC@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.LOC@+Sg+Loc:@D.PossPx@@U.DECL-NX.SG@@U.CX.LOC@ K ;
 LEXICON SG_NOM_K
-@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom:@U.DECL-NX.SG@@U.CX.NOM@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom:@D.PossPx@@U.DECL-NX.SG@@U.CX.NOM@ K ;
 LEXICON SG_TRA_K
-@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra:@U.DECL-NX.SG@@U.CX.TRA@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra:@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@ K ;
 
 !! Du X 
 LEXICON DU_ABL_K
-@U.DECL-NX.DU@@U.CX.ABL@+Du+Abl:@U.DECL-NX.DU@@U.CX.ABL@ K ;
+@D.PossPx@@U.DECL-NX.DU@@U.CX.ABL@+Du+Abl:@D.PossPx@@U.DECL-NX.DU@@U.CX.ABL@ K ;
 LEXICON DU_INS_K
-@U.DECL-NX.DU@@U.CX.INS@+Du+Ins:@U.DECL-NX.DU@@U.CX.INS@ K ;
+@D.PossPx@@U.DECL-NX.DU@@U.CX.INS@+Du+Ins:@D.PossPx@@U.DECL-NX.DU@@U.CX.INS@ K ;
 LEXICON DU_LAT_K
-@U.DECL-NX.DU@@U.CX.LAT@+Du+Lat:@U.DECL-NX.DU@@U.CX.LAT@ K ;
+@D.PossPx@@U.DECL-NX.DU@@U.CX.LAT@+Du+Lat:@D.PossPx@@U.DECL-NX.DU@@U.CX.LAT@ K ;
 LEXICON DU_LOC_K
-@U.DECL-NX.DU@@U.CX.LOC@+Du+Loc:@U.DECL-NX.DU@@U.CX.LOC@ K ;
+@D.PossPx@@U.DECL-NX.DU@@U.CX.LOC@+Du+Loc:@D.PossPx@@U.DECL-NX.DU@@U.CX.LOC@ K ;
 LEXICON DU_NOM_K
-@U.DECL-NX.DU@@U.CX.NOM@+Du+Nom:@U.DECL-NX.DU@@U.CX.NOM@ K ;
+@D.PossPx@@U.DECL-NX.DU@@U.CX.NOM@+Du+Nom:@D.PossPx@@U.DECL-NX.DU@@U.CX.NOM@ K ;
 
 !! Pl X 
 LEXICON PL_ABL_K
-@U.DECL-NX.PL@@U.CX.ABL@+Pl+Abl:@U.DECL-NX.PL@@U.CX.ABL@ K ;
+@D.PossPx@@U.DECL-NX.PL@@U.CX.ABL@+Pl+Abl:@D.PossPx@@U.DECL-NX.PL@@U.CX.ABL@ K ;
 LEXICON PL_INS_K
-@U.DECL-NX.PL@@U.CX.INS@+Pl+Ins:@U.DECL-NX.PL@@U.CX.INS@ K ;
+@D.PossPx@@U.DECL-NX.PL@@U.CX.INS@+Pl+Ins:@D.PossPx@@U.DECL-NX.PL@@U.CX.INS@ K ;
 LEXICON PL_LAT_K
-@U.DECL-NX.PL@@U.CX.LAT@+Pl+Lat:@U.DECL-NX.PL@@U.CX.LAT@ K ;
+@D.PossPx@@U.DECL-NX.PL@@U.CX.LAT@+Pl+Lat:@D.PossPx@@U.DECL-NX.PL@@U.CX.LAT@ K ;
 LEXICON PL_LOC_K
-@U.DECL-NX.PL@@U.CX.LOC@+Pl+Loc:@U.DECL-NX.PL@@U.CX.LOC@ K ;
+@D.PossPx@@U.DECL-NX.PL@@U.CX.LOC@+Pl+Loc:@D.PossPx@@U.DECL-NX.PL@@U.CX.LOC@ K ;
 LEXICON PL_NOM_K
-@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom:@U.DECL-NX.PL@@U.CX.NOM@ K ;
+@D.PossPx@@U.DECL-NX.PL@@U.CX.NOM@+Pl+Nom:@D.PossPx@@U.DECL-NX.PL@@U.CX.NOM@ K ;
 
 !! Sg X PxSg1 has no variation
 LEXICON SG_ABL_PXSG1_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg1@%>%{уюØ%}мныл K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Sg1@%>%{уюØ%}мныл K ;
 LEXICON SG_INS_PXSG1_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg1@%>%{уюØ%}мтыл K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Sg1@%>%{уюØ%}мтыл K ;
 LEXICON SG_LAT_PXSG1_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg1@%>%{уюØ%}мн K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Sg1@%>%{уюØ%}мн K ;
 LEXICON SG_LOC_PXSG1_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg1@%>%{уюØ%}мт K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Sg1@%>%{уюØ%}мт K ;
 LEXICON SG_NOM_PXSG1_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg1@%>%{уюØ%}м K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Sg1@%>%{уюØ%}м K ;
 LEXICON SG_TRA_PXSG1_K
-@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg1@+Sg+Tra+PxSg1:@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg1@%>%{уюØ%}мыг K ;
+@U.DECL-NX.SG@@U.CX.TRA@@U.PossPx.Sg1@+Sg+Tra+PxSg1:@U.DECL-NX.SG@@U.CX.TRA@@U.PossPx.Sg1@%>%{уюØ%}мыг K ;
 
 !! Sg X PxSg2 has no variation
 LEXICON SG_ABL_PXSG2_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg2@%>ынныл K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Sg2@%>ынныл K ;
 LEXICON SG_INS_PXSG2_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg2@%>ынтыл K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Sg2@%>ынтыл K ;
 LEXICON SG_LAT_PXSG2_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg2@%>ынн K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Sg2@%>ынн K ;
 LEXICON SG_LOC_PXSG2_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg2@%>ынт K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Sg2@%>ынт K ;
 LEXICON SG_NOM_PXSG2_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg2@%>ын K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Sg2@%>ын K ;
 LEXICON SG_TRA_PXSG2_K
-@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg2@+Sg+Tra+PxSg2:@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg2@%>ыныг K ;
+@U.DECL-NX.SG@@U.CX.TRA@@U.PossPx.Sg2@+Sg+Tra+PxSg2:@U.DECL-NX.SG@@U.CX.TRA@@U.PossPx.Sg2@%>ыныг K ;
 
 !! Sg X PxSg3
 LEXICON SG_ABL_PXSG3_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Sg3@ K ;
 LEXICON SG_INS_PXSG3_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Sg3@ K ;
 LEXICON SG_LAT_PXSG3_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Sg3@ K ;
 LEXICON SG_LOC_PXSG3_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Sg3@ K ;
 LEXICON SG_NOM_PXSG3_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Sg3@ K ;
 LEXICON SG_TRA_PXSG3_K
-@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg3@+Sg+Tra+PxSg3:@U.DECL-NX.SG@@U.CX.TRA@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.SG@@U.CX.TRA@@U.PossPx.Sg3@+Sg+Tra+PxSg3:@U.DECL-NX.SG@@U.CX.TRA@@U.PossPx.Sg3@ K ;
 
 
 LEXICON SG_ABL_PXDU1_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du1@ K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Du1@ K ;
 LEXICON SG_INS_PXDU1_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du1@ K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Du1@ K ;
 LEXICON SG_LAT_PXDU1_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du1@ K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Du1@ K ;
 LEXICON SG_LOC_PXDU1_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du1@ K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Du1@ K ;
 LEXICON SG_NOM_PXDU1_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@ K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Du1@ K ;
 
 
 LEXICON SG_ABL_PXDU2_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du2@ K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Du2@ K ;
 LEXICON SG_INS_PXDU2_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du2@ K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Du2@ K ;
 LEXICON SG_LAT_PXDU2_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du2@ K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Du2@ K ;
 LEXICON SG_LOC_PXDU2_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du2@ K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Du2@ K ;
 LEXICON SG_NOM_PXDU2_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du2@ K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Du2@ K ;
 
 
 LEXICON SG_ABL_PXDU3_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Du3@ K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Du3@ K ;
 LEXICON SG_INS_PXDU3_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Du3@ K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Du3@ K ;
 LEXICON SG_LAT_PXDU3_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Du3@ K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Du3@ K ;
 LEXICON SG_LOC_PXDU3_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Du3@ K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Du3@ K ;
 LEXICON SG_NOM_PXDU3_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du3@ K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Du3@ K ;
 
 
 LEXICON SG_ABL_PXPL1_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl1@%>%{уюØ%}вныл K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl1@%>%{уюØ%}вныл K ;
 LEXICON SG_INS_PXPL1_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl1@%>%{уюØ%}втыл K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl1@%>%{уюØ%}втыл K ;
 LEXICON SG_LAT_PXPL1_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl1@%>%{уюØ%}вн K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl1@%>%{уюØ%}вн K ;
 LEXICON SG_LOC_PXPL1_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl1@%>%{уюØ%}вт K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl1@%>%{уюØ%}вт K ;
 LEXICON SG_NOM_PXPL1_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl1@%>%{уюØ%}в K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl1@%>%{уюØ%}в K ;
 
 
 LEXICON SG_ABL_PXPL2_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl2@ K ;
 LEXICON SG_INS_PXPL2_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl2@ K ;
 LEXICON SG_LAT_PXPL2_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl2@ K ;
 LEXICON SG_LOC_PXPL2_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl2@ K ;
 LEXICON SG_NOM_PXPL2_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl2@ K ;
 
 !! Sg X PxPl3 has no variation
 LEXICON SG_ABL_PXPL3_K
-@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.SG@@U.CX.ABL@@P.PossPx.Pl3@%>%{аяØ%}нылныл K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl3@%>%{аяØ%}нылныл K ;
 LEXICON SG_INS_PXPL3_K
-@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.SG@@U.CX.INS@@P.PossPx.Pl3@%>%{аяØ%}нылтыл K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl3@%>%{аяØ%}нылтыл K ;
 LEXICON SG_LAT_PXPL3_K
-@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.SG@@U.CX.LAT@@P.PossPx.Pl3@%>%{аяØ%}нылн K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl3@%>%{аяØ%}нылн K ;
 LEXICON SG_LOC_PXPL3_K
-@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.SG@@U.CX.LOC@@P.PossPx.Pl3@%>%{аяØ%}нылт K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@%>%{аяØ%}нылт K ;
 LEXICON SG_NOM_PXPL3_K
-@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Pl3@%>%{аяØ%}ныл K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@%>%{аяØ%}ныл K ;
 
 !#! du x pxsg1 has no variation
 LEXICON DU_ABL_PXSG1_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg1@%>%{аяØ%}гумныл K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Sg1@+Du+Abl+PxSg1:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Sg1@%>%{аяØ%}гумныл K ;
 LEXICON DU_INS_PXSG1_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg1@%>%{аяØ%}гумтыл K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Sg1@+Du+Ins+PxSg1:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Sg1@%>%{аяØ%}гумтыл K ;
 LEXICON DU_LAT_PXSG1_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg1@%>%{аяØ%}гумн K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg1@+Du+Lat+PxSg1:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg1@%>%{аяØ%}гумн K ;
 LEXICON DU_LOC_PXSG1_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg1@%>%{аяØ%}гумт K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg1@+Du+Loc+PxSg1:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg1@%>%{аяØ%}гумт K ;
 LEXICON DU_NOM_PXSG1_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg1@%>%{аяØ%}гум K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg1@+Du+Nom+PxSg1:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg1@%>%{аяØ%}гум K ;
 
 
 LEXICON DU_ABL_PXSG2_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Sg2@+Du+Abl+PxSg2:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Sg2@ K ;
 LEXICON DU_INS_PXSG2_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Sg2@+Du+Ins+PxSg2:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Sg2@ K ;
 LEXICON DU_LAT_PXSG2_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg2@+Du+Lat+PxSg2:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg2@ K ;
 LEXICON DU_LOC_PXSG2_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg2@+Du+Loc+PxSg2:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg2@ K ;
 LEXICON DU_NOM_PXSG2_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg2@+Du+Nom+PxSg2:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg2@ K ;
 
 
 LEXICON DU_ABL_PXSG3_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Sg3@+Du+Abl+PxSg3:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Sg3@ K ;
 LEXICON DU_INS_PXSG3_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Sg3@+Du+Ins+PxSg3:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Sg3@ K ;
 LEXICON DU_LAT_PXSG3_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg3@+Du+Lat+PxSg3:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg3@ K ;
 LEXICON DU_LOC_PXSG3_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg3@+Du+Loc+PxSg3:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg3@ K ;
 LEXICON DU_NOM_PXSG3_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg3@+Du+Nom+PxSg3:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg3@ K ;
 
 
 LEXICON DU_ABL_PXDU1_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du1@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Du1@+Du+Abl+PxDu1:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Du1@ K ;
 LEXICON DU_INS_PXDU1_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du1@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Du1@+Du+Ins+PxDu1:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Du1@ K ;
 LEXICON DU_LAT_PXDU1_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du1@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Du1@+Du+Lat+PxDu1:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Du1@ K ;
 LEXICON DU_LOC_PXDU1_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du1@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Du1@+Du+Loc+PxDu1:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Du1@ K ;
 LEXICON DU_NOM_PXDU1_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du1@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Du1@+Du+Nom+PxDu1:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Du1@ K ;
 
 
 LEXICON DU_ABL_PXDU2_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du2@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Du2@+Du+Abl+PxDu2:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Du2@ K ;
 LEXICON DU_INS_PXDU2_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du2@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Du2@+Du+Ins+PxDu2:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Du2@ K ;
 LEXICON DU_LAT_PXDU2_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du2@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Du2@+Du+Lat+PxDu2:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Du2@ K ;
 LEXICON DU_LOC_PXDU2_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du2@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Du2@+Du+Loc+PxDu2:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Du2@ K ;
 LEXICON DU_NOM_PXDU2_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du2@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Du2@+Du+Nom+PxDu2:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Du2@ K ;
 
 
 LEXICON DU_ABL_PXDU3_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Du3@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Du3@+Du+Abl+PxDu3:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Du3@ K ;
 LEXICON DU_INS_PXDU3_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Du3@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Du3@+Du+Ins+PxDu3:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Du3@ K ;
 LEXICON DU_LAT_PXDU3_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Du3@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Du3@+Du+Lat+PxDu3:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Du3@ K ;
 LEXICON DU_LOC_PXDU3_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Du3@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Du3@+Du+Loc+PxDu3:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Du3@ K ;
 LEXICON DU_NOM_PXDU3_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Du3@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Du3@+Du+Nom+PxDu3:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Du3@ K ;
 
 
 LEXICON DU_ABL_PXPL1_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl1@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Pl1@+Du+Abl+PxPl1:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Pl1@ K ;
 LEXICON DU_INS_PXPL1_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl1@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Pl1@+Du+Ins+PxPl1:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Pl1@ K ;
 LEXICON DU_LAT_PXPL1_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl1@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Pl1@+Du+Lat+PxPl1:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Pl1@ K ;
 LEXICON DU_LOC_PXPL1_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl1@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Pl1@+Du+Loc+PxPl1:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Pl1@ K ;
 LEXICON DU_NOM_PXPL1_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl1@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Pl1@+Du+Nom+PxPl1:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Pl1@ K ;
 
 
 LEXICON DU_ABL_PXPL2_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Pl2@+Du+Abl+PxPl2:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Pl2@ K ;
 LEXICON DU_INS_PXPL2_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Pl2@+Du+Ins+PxPl2:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Pl2@ K ;
 LEXICON DU_LAT_PXPL2_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Pl2@+Du+Lat+PxPl2:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Pl2@ K ;
 LEXICON DU_LOC_PXPL2_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Pl2@+Du+Loc+PxPl2:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Pl2@ K ;
 LEXICON DU_NOM_PXPL2_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Pl2@+Du+Nom+PxPl2:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Pl2@ K ;
 
 
 LEXICON DU_ABL_PXPL3_K
-@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.DU@@U.CX.ABL@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Pl3@+Du+Abl+PxPl3:@U.DECL-NX.DU@@U.CX.ABL@@U.PossPx.Pl3@ K ;
 LEXICON DU_INS_PXPL3_K
-@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.DU@@U.CX.INS@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Pl3@+Du+Ins+PxPl3:@U.DECL-NX.DU@@U.CX.INS@@U.PossPx.Pl3@ K ;
 LEXICON DU_LAT_PXPL3_K
-@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.DU@@U.CX.LAT@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Pl3@+Du+Lat+PxPl3:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Pl3@ K ;
 LEXICON DU_LOC_PXPL3_K
-@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.DU@@U.CX.LOC@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Pl3@+Du+Loc+PxPl3:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Pl3@ K ;
 LEXICON DU_NOM_PXPL3_K
-@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.DU@@U.CX.NOM@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Pl3@+Du+Nom+PxPl3:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Pl3@ K ;
 
-!! pl x pxsg1
+!! pl x pxsg1 has no variation
 LEXICON PL_ABL_PXSG1_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg1@+Sg+Abl+PxSg1:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg1@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Sg1@+Pl+Abl+PxSg1:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Sg1@%>%{аяØ%}нумныл K ;
 LEXICON PL_INS_PXSG1_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg1@+Sg+Ins+PxSg1:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg1@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Sg1@+Pl+Ins+PxSg1:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Sg1@%>%{аяØ%}нумтыл K ;
 LEXICON PL_LAT_PXSG1_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg1@+Sg+Lat+PxSg1:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg1@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Sg1@+Pl+Lat+PxSg1:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Sg1@%>%{аяØ%}нумн K ;
 LEXICON PL_LOC_PXSG1_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg1@+Sg+Loc+PxSg1:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg1@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Sg1@+Pl+Loc+PxSg1:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Sg1@%>%{аяØ%}нумт K ;
 LEXICON PL_NOM_PXSG1_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg1@+Sg+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg1@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Sg1@+Pl+Nom+PxSg1:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Sg1@%>%{аяØ%}нум K ;
 
 !! pl x pxsg2
 LEXICON PL_ABL_PXSG2_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg2@+Sg+Abl+PxSg2:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Sg2@+Pl+Abl+PxSg2:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Sg2@ K ;
 LEXICON PL_INS_PXSG2_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg2@+Sg+Ins+PxSg2:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Sg2@+Pl+Ins+PxSg2:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Sg2@ K ;
 LEXICON PL_LAT_PXSG2_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg2@+Sg+Lat+PxSg2:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Sg2@+Pl+Lat+PxSg2:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Sg2@ K ;
 LEXICON PL_LOC_PXSG2_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg2@+Sg+Loc+PxSg2:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Sg2@+Pl+Loc+PxSg2:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Sg2@ K ;
 LEXICON PL_NOM_PXSG2_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg2@+Sg+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg2@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Sg2@+Pl+Nom+PxSg2:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Sg2@ K ;
 
 !! pl x pxsg3
 LEXICON PL_ABL_PXSG3_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg3@+Sg+Abl+PxSg3:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Sg3@+Pl+Abl+PxSg3:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Sg3@ K ;
 LEXICON PL_INS_PXSG3_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg3@+Sg+Ins+PxSg3:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Sg3@+Pl+Ins+PxSg3:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Sg3@ K ;
 LEXICON PL_LAT_PXSG3_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg3@+Sg+Lat+PxSg3:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Sg3@+Pl+Lat+PxSg3:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Sg3@ K ;
 LEXICON PL_LOC_PXSG3_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg3@+Sg+Loc+PxSg3:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Sg3@+Pl+Loc+PxSg3:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Sg3@ K ;
 LEXICON PL_NOM_PXSG3_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg3@+Sg+Nom+PxSg3:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Sg3@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Sg3@+Pl+Nom+PxSg3:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Sg3@ K ;
 
 !! pl x pxdu1
 LEXICON PL_ABL_PXDU1_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du1@+Sg+Abl+PxDu1:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du1@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Du1@+Pl+Abl+PxDu1:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Du1@ K ;
 LEXICON PL_INS_PXDU1_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du1@+Sg+Ins+PxDu1:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du1@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Du1@+Pl+Ins+PxDu1:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Du1@ K ;
 LEXICON PL_LAT_PXDU1_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du1@+Sg+Lat+PxDu1:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du1@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Du1@+Pl+Lat+PxDu1:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Du1@ K ;
 LEXICON PL_LOC_PXDU1_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du1@+Sg+Loc+PxDu1:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du1@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Du1@+Pl+Loc+PxDu1:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Du1@ K ;
 LEXICON PL_NOM_PXDU1_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du1@+Sg+Nom+PxDu1:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du1@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Du1@+Pl+Nom+PxDu1:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Du1@ K ;
 
 
 !! pl x pxdu2
 LEXICON PL_ABL_PXDU2_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du2@+Sg+Abl+PxDu2:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du2@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Du2@+Pl+Abl+PxDu2:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Du2@ K ;
 LEXICON PL_INS_PXDU2_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du2@+Sg+Ins+PxDu2:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du2@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Du2@+Pl+Ins+PxDu2:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Du2@ K ;
 LEXICON PL_LAT_PXDU2_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du2@+Sg+Lat+PxDu2:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du2@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Du2@+Pl+Lat+PxDu2:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Du2@ K ;
 LEXICON PL_LOC_PXDU2_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du2@+Sg+Loc+PxDu2:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du2@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Du2@+Pl+Loc+PxDu2:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Du2@ K ;
 LEXICON PL_NOM_PXDU2_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du2@+Sg+Nom+PxDu2:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du2@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Du2@+Pl+Nom+PxDu2:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Du2@ K ;
 
 !! pl x pxdu3
 LEXICON PL_ABL_PXDU3_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du3@+Sg+Abl+PxDu3:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Du3@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Du3@+Pl+Abl+PxDu3:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Du3@ K ;
 LEXICON PL_INS_PXDU3_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du3@+Sg+Ins+PxDu3:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Du3@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Du3@+Pl+Ins+PxDu3:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Du3@ K ;
 LEXICON PL_LAT_PXDU3_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du3@+Sg+Lat+PxDu3:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Du3@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Du3@+Pl+Lat+PxDu3:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Du3@ K ;
 LEXICON PL_LOC_PXDU3_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du3@+Sg+Loc+PxDu3:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Du3@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Du3@+Pl+Loc+PxDu3:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Du3@ K ;
 LEXICON PL_NOM_PXDU3_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du3@+Sg+Nom+PxDu3:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Du3@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Du3@+Pl+Nom+PxDu3:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Du3@ K ;
 
 !! pl x pxpl1 has no variation
 LEXICON PL_ABL_PXPL1_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl1@+Sg+Abl+PxPl1:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl1@%>%{аяØ%}нумныл K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl1@+Pl+Abl+PxPl1:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl1@%>%{аяØ%}нумныл K ;
 LEXICON PL_INS_PXPL1_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl1@+Sg+Ins+PxPl1:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl1@%>%{аяØ%}нумтыл K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl1@+Pl+Ins+PxPl1:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl1@%>%{аяØ%}нумтыл K ;
 LEXICON PL_LAT_PXPL1_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl1@+Sg+Lat+PxPl1:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl1@%>%{аяØ%}нумн K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl1@+Pl+Lat+PxPl1:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl1@%>%{аяØ%}нумн K ;
 LEXICON PL_LOC_PXPL1_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl1@+Sg+Loc+PxPl1:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl1@%>%{аяØ%}нумт K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl1@+Pl+Loc+PxPl1:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl1@%>%{аяØ%}нумт K ;
 LEXICON PL_NOM_PXPL1_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl1@+Sg+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl1@%>%{аяØ%}нум K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl1@%>%{аяØ%}нум K ;
 
 
 LEXICON PL_ABL_PXPL2_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl2@+Sg+Abl+PxPl2:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl2@+Pl+Abl+PxPl2:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl2@ K ;
 LEXICON PL_INS_PXPL2_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl2@+Sg+Ins+PxPl2:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl2@+Pl+Ins+PxPl2:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl2@ K ;
 LEXICON PL_LAT_PXPL2_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl2@+Sg+Lat+PxPl2:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl2@+Pl+Lat+PxPl2:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl2@ K ;
 LEXICON PL_LOC_PXPL2_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl2@+Sg+Loc+PxPl2:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl2@+Pl+Loc+PxPl2:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl2@ K ;
 LEXICON PL_NOM_PXPL2_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl2@+Sg+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl2@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl2@+Pl+Nom+PxPl2:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl2@ K ;
 
 
 LEXICON PL_ABL_PXPL3_K
-@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.PL@@U.CX.ABL@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl3@+Pl+Abl+PxPl3:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl3@ K ;
 LEXICON PL_INS_PXPL3_K
-@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.PL@@U.CX.INS@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl3@+Pl+Ins+PxPl3:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl3@ K ;
 LEXICON PL_LAT_PXPL3_K
-@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.PL@@U.CX.LAT@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl3@+Pl+Lat+PxPl3:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl3@ K ;
 LEXICON PL_LOC_PXPL3_K
-@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.PL@@U.CX.LOC@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl3@+Pl+Loc+PxPl3:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl3@ K ;
 LEXICON PL_NOM_PXPL3_K
-@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@P.PossPx.Pl3@ K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl3@+Pl+Nom+PxPl3:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl3@ K ;
 
 
 
