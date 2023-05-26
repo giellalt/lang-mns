@@ -30,8 +30,9 @@ This gives us the following stem types:
 * а̄ви+N:а̄ви N_VI "вход /место/" ;
 * а̄врах+N:а̄врах N_VCH "обрыв" ;
 * а̄втор+N:а̄втор N_VCH "автор" ;
-* а̄ги+N:а̄ги N_VI "дочь" ;
-* а̄гирищ+N:а̄гирищ N_NOSYNCS "девочка" ; CHECKME
+* а̄ги+v1+N:а̄ги N_VI "дочь" ;
+* а̄ги+v2+N:аги N_VI "дочь" ;
+* а̄гирищ+v1+N:а̄гирищ N_NOSYNCS "девочка" ; CHECKME
 
 * а̄гм+N:а̄гм N_VCCH "боль" ; CHECKME
 * а̄гум+N:а̄гум N_SYNCH "болезнь" ;

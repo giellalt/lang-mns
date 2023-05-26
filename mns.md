@@ -586,7 +586,7 @@ Sg X PxSg3
 
 Sg X PxPl3 has no variation
 
-pl x pxsg1
+pl x pxsg1 has no variation
 
 pl x pxsg2
 
@@ -839,6 +839,8 @@ End of alphabet definitions
 * **CnsSoft = щ Щ ;**
 * **CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ**
  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
+* **CnsNoReqFront = б в г к м п ф х ӈ**
+ **Б В Г К М П Ф Х Ӈ ;**
 * **CnsAlv = д з л н с т**
  **Д З Л Н С Т ;**
 * **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й ;**
@@ -1141,12 +1143,16 @@ language are presented in this system in terms of the following symbols.
 * **+TV +IV** for transitive, intransitive
 * **+Trans** hmm, Trans and TV?
 
+### Compounded words
+* **+CollN** collective noun with inflection in two stems а̄гирищит-пы̄грищит
+* **+Cmp** compounding
+
 ### Abbreviated words are classified with:
 * **+ABBR +ACR** 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 
 ### Special symbols are classified with:
-* **+CLB +PUNCT +LEFT +RIGHT** 
+* **+CLB +PUNCT +LEFT +RIGHT**
 * **+Multi** multiword units
 * **+Guess** Non-dictionary words (not in use)
 
@@ -1477,18 +1483,11 @@ problematic
 * @R.DECL-NX.SG@
 * @R.DECL-NX.DU@
 * @R.DECL-NX.PL@
-## case??mns
-* @U.DECL-CX.ABL@ 
-* @U.DECL-CX.INS@ 
-* @U.DECL-CX.LAT@ 
-* @U.DECL-CX.LOC@ 
-* @U.DECL-CX.NOM@ 
-* @U.DECL-CX.TRA@ 
 
 Removal
 * @C.DECL-NX@ 
 * @C.DECL-DX@ 
-* @C.DECL-CX@ 
+* @C.CX@ 
 
 ## The basic lexica
 
@@ -1631,8 +1630,9 @@ This gives us the following stem types:
 * а̄ви+N:а̄ви N_VI "вход /место/" ;
 * а̄врах+N:а̄врах N_VCH "обрыв" ;
 * а̄втор+N:а̄втор N_VCH "автор" ;
-* а̄ги+N:а̄ги N_VI "дочь" ;
-* а̄гирищ+N:а̄гирищ N_NOSYNCS "девочка" ; CHECKME
+* а̄ги+v1+N:а̄ги N_VI "дочь" ;
+* а̄ги+v2+N:аги N_VI "дочь" ;
+* а̄гирищ+v1+N:а̄гирищ N_NOSYNCS "девочка" ; CHECKME
 
 * а̄гм+N:а̄гм N_VCCH "боль" ; CHECKME
 * а̄гум+N:а̄гум N_SYNCH "болезнь" ;

@@ -100,6 +100,8 @@ End of alphabet definitions
 * **CnsSoft = щ Щ ;**
 * **CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ**
  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
+* **CnsNoReqFront = б в г к м п ф х ӈ**
+ **Б В Г К М П Ф Х Ӈ ;**
 * **CnsAlv = д з л н с т**
  **Д З Л Н С Т ;**
 * **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й ;**

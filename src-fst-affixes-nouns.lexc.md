@@ -105,7 +105,7 @@ Sg X PxSg3
 
 Sg X PxPl3 has no variation
 
-pl x pxsg1
+pl x pxsg1 has no variation
 
 pl x pxsg2
 

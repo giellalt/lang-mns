@@ -88,12 +88,16 @@ language are presented in this system in terms of the following symbols.
 * **+TV +IV** for transitive, intransitive
 * **+Trans** hmm, Trans and TV?
 
+### Compounded words
+* **+CollN** collective noun with inflection in two stems а̄гирищит-пы̄грищит
+* **+Cmp** compounding
+
 ### Abbreviated words are classified with:
 * **+ABBR +ACR** 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 
 ### Special symbols are classified with:
-* **+CLB +PUNCT +LEFT +RIGHT** 
+* **+CLB +PUNCT +LEFT +RIGHT**
 * **+Multi** multiword units
 * **+Guess** Non-dictionary words (not in use)
 
@@ -424,18 +428,11 @@ problematic
 * @R.DECL-NX.SG@
 * @R.DECL-NX.DU@
 * @R.DECL-NX.PL@
-## case??mns
-* @U.DECL-CX.ABL@ 
-* @U.DECL-CX.INS@ 
-* @U.DECL-CX.LAT@ 
-* @U.DECL-CX.LOC@ 
-* @U.DECL-CX.NOM@ 
-* @U.DECL-CX.TRA@ 
 
 Removal
 * @C.DECL-NX@ 
 * @C.DECL-DX@ 
-* @C.DECL-CX@ 
+* @C.CX@ 
 
 ## The basic lexica
 
