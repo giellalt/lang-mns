@@ -7,11 +7,11 @@
 тэ̄ӈкве+V:тэ̄ copula ;
 
 LEXICON copula
-+Inf:%>ӈкве K ;
+ INF ;
 :г Csuff ;
 
 LEXICON MINGKVE
-+Inf:миӈкве K ; !!≈ @CODE@
+:ми INF ; !!≈ @CODE@
 :ми PRSPRC ;
 +Act+Ind+Prs+ScSg1:мыгум K ; !мыгӯв?
 +Act+Ind+Prs+ScSg2:маен K ;  !мае̄н? 
@@ -36,7 +36,7 @@ LEXICON MINGKVE
 :ми V11_MUTUAL_PASS ;
 
 LEXICON VINGKVE
-+Inf:виӈкве K ; !!≈ @CODE@
+:ви INF ; !!≈ @CODE@
 :ви PRSPRC ;
 +Act+Ind+Prs+ScSg1:выгум K ; !мыгӯв?
 +Act+Ind+Prs+ScSg2:выгын K ;  !мае̄н? 
@@ -64,7 +64,7 @@ LEXICON VINGKVE
 :ви V11_MUTUAL_PASS ;
 
 LEXICON LYNGKVE
-+Inf:лыӈкве K ; !!≈ @CODE@
+:лы INF ; !!≈ @CODE@
 :лы PRSPRC ;
 +Act+Ind+Prs+ScSg1:лыгум K ; !мыгӯв?
 +Act+Ind+Prs+ScSg2:лаен K ;  !мае̄н? 
@@ -92,10 +92,10 @@ LEXICON LYNGKVE
 :лы V11_MUTUAL_PASS ;
 
 LEXICON MINUNGKVE
-+Inf:уӈкве K ; !!≈ @CODE@
+:у INF ; !!≈ @CODE@
  PRSPRC ;
 :%>%{аяØ%} PRFPRC ;
-+Ger:%>ым K ;
++Ger:%{VU%}%>ым K ;
 :%{VU%} ACT_IND_PRS_VU ;
 
 +Act+Ind+Prt+ScSg1:асум K ;
@@ -105,6 +105,7 @@ LEXICON MINUNGKVE
 +Act+Ind+Prt+ScDu2:асы̄н K ;
 +Act+Ind+Prt+ScDu3:асы̄г K ;
 +Act+Ind+Prt+ScPl1:асув K ;
++Act+Ind+Prt+ScPl1:асӯв K ;
 +Act+Ind+Prt+ScPl2:асы̄н K ;
 +Act+Ind+Prt+ScPl3:асыт K ;
 
@@ -112,8 +113,7 @@ LEXICON MINUNGKVE
 
 LEXICON JOXTUNGKVE
 !! **LEXICON @LEXNAME@** 
-+Inf:%{VU%}%>%{уюØ%}ӈкве K ;
-+Inf+Err/Orth:%{VU%}%>%{уюØ%}ӈкв K ;
+:%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; 
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
@@ -155,8 +155,7 @@ LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
 
 LEXICON V_U
 !! **LEXICON @LEXNAME@** 
-+Inf:%{VU%}%>%{уюØ%}ӈкве K ;
-+Inf+Err/Orth:%{VU%}%>%{уюØ%}ӈкв K ;
+:%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
@@ -175,10 +174,13 @@ LEXICON V_U
 +Еrr/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VU%} PASS_COND_VU ;
 
+LEXICON INF
++Inf:ӈкве K ;
++Inf+Err/Orth:ӈкв K ;
+
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
-+Inf:%{VA%}%>%{аяØ%}ӈкве K ;
-+Inf+Err/Orth:%{VA%}%>%{аяØ%}ӈкв K ;
+:%{VA%}%>%{аяØ%} INF ;
 :%{VA%}%>%{аяØ%} PRSPRC ; !Does this exist ?20230504 
 +PrsPrc:%{VA%}%>%{аяØ%}н # ; ! This will need some variants with onset vowel.
 :%{VA%} V11_MUTUAL ;
