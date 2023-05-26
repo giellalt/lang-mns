@@ -684,13 +684,13 @@ and Mansi-specific names.
 
 ## Copula
 
-+Inf:миӈкве K ;
+:ми INF ;
 
-+Inf:виӈкве K ;
+:ви INF ;
 
-+Inf:лыӈкве K ;
+:лы INF ;
 
-+Inf:уӈкве K ;
+:у INF ;
 
 **LEXICON JOXTUNGKVE** 
 
