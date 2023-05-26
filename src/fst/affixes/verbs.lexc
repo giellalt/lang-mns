@@ -117,7 +117,7 @@ LEXICON JOXTUNGKVE
 :%{VU%} PRSPRC ; 
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
-+Actio:%{VU%}%>%{ыиØ%}м # ;!+Ger
++Ger:%{VU%}%>%{ыиØ%}м # ;!+Actio
 +Actio:%{VU%}%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_PRS_VU ;
@@ -160,7 +160,7 @@ LEXICON V_U
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
-+Actio:%{VU%}%>%{ыиØ%}м # ;!+Ger?
++Ger:%{VU%}%>%{ыиØ%}м # ;!+Ger?+Actio
 +Actio:%{VU%}%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_VU ;
@@ -194,7 +194,7 @@ LEXICON V_A
 LEXICON V11_MUTUAL 
 !! * **LEXICON @LEXNAME@** 
 :%>%{аяØ%} PRFPRC ;
-+Actio:%>%{ыиØ%}м # ;!ым +Ger?
++Ger:%>%{ыиØ%}м # ;!ым +Ger?+Actio
 +Actio:%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%>ап N_VCH ;
  ACT_IND_PRS_VA ;
@@ -706,75 +706,3 @@ LEXICON PRFPRC
 +PrfPrc+PxPl3:%>маныл K ;!?о̄лманыл, ва̄рманыл, А̄стуманыл, Ханищтахтаманыл
 
 
-!2023_02_09a!LEXICON V27_odd
-!! **LEXICON @LEXNAME@** contains all forms
-!2023_02_09a!+Inf:%>нсуӈкве K ;
-!2023_02_09a!
-!2023_02_09a!+Act+Ind+Prt+ScSg1:%>ссум K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg2:%>ссын K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg3:%>нсыс K ;Lookee
-!2023_02_09a!+Act+Ind+Prt+ScDu1:%>ссаме̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu2:%>ссы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu3:%>ссы̄г K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl1:%>ссӯв K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl2:%>ссы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3:%>ссыт K ;
-!2023_02_09a!
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcSg3:%>сса̄ныл K ;
-!2023_02_09a!
-!2023_02_09a!+Act+Ind+Prt+ScSg1+OcDu3:%>ссагум K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg2+OcDu3:%>ссагын K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg3+OcDu3:%>ссаге K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu1+OcDu3:%>ссагме̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu2+OcDu3:%>ссагы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu3+OcDu3:%>ссаге̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl1+OcDu3:%>ссагув K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl2+OcDu3:%>ссагы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcDu3:%>сса̄ныл K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcDu3:%>ссаганыл K ;
-!2023_02_09a!
-!2023_02_09a!+Act+Ind+Prt+ScSg1+OcPl3:%>ссанум K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg2+OcPl3:%>ссан K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg3+OcPl3:%>ссанэ K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu1+OcPl3:%>ссанме̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu2+OcPl3:%>ссаны̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu3+OcPl3:%>ссанэ̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl1+OcPl3:%>ссанув K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl2+OcPl3:%>ссаны̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcPl3:%>ссаныл K ;
-!2023_02_09a!LEXICON V28_odd
-!! **LEXICON @LEXNAME@** contains all forms
-!2023_02_09a!+Inf:%>ньщуӈкве K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg1:%>щсум K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg2:%>щсын K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg3:%>ньщис K ; LOOKEE
-!2023_02_09a!+Act+Ind+Prt+ScDu1:%>щсаме̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu2:%>щсы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu3:%>щсы̄г K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl1:%>щсӯв K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl2:%>щсы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3:%>щсыт K ;
-! нщ > щс
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcSg3:%>щса̄ныл K ;
-!2023_02_09a!
-!2023_02_09a!+Act+Ind+Prt+ScSg1+OcDu3:%>щсагум K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg2+OcDu3:%>щсагын K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg3+OcDu3:%>щсаге K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu1+OcDu3:%>щсагме̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu2+OcDu3:%>щсагы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu3+OcDu3:%>щсаге̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl1+OcDu3:%>щсагув K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl2+OcDu3:%>щсагы̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcDu3:%>щса̄ныл K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcDu3:%>щсаганыл K ;
-!2023_02_09a!
-!2023_02_09a!+Act+Ind+Prt+ScSg1+OcPl3:%>щсанум K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg2+OcPl3:%>щсан K ;
-!2023_02_09a!+Act+Ind+Prt+ScSg3+OcPl3:%>щсанэ K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu1+OcPl3:%>щсанме̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu2+OcPl3:%>щсаны̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScDu3+OcPl3:%>щсанэ̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl1+OcPl3:%>щсанув K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl2+OcPl3:%>щсаны̄н K ;
-!2023_02_09a!+Act+Ind+Prt+ScPl3+OcPl3:%>щсаныл K ;
-!2023_02_09a!

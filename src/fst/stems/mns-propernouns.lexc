@@ -10,6 +10,7 @@ LEXICON PROP_MANSINAMES
 Иоан+N+Prop:Иоан N_VCH ;
 Иерусалим+N+Prop:Иерусалим N_VCH ;
 Пилат+N+Prop:Пилат N_VCH ;
+
 Давид+N+Prop:Давид N_VCH ;
 Юдея+N+Prop:Юдея N_VO ;
 Вифания+N+Prop:Вифания N_VO ;
@@ -76,6 +77,7 @@ LEXICON PROP_MANSINAMES
 Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCH ;
 А̄с+N+Prop+Sem/Plc:А̄с N_VCH "Обь" ;
 
+
 Ха̄льпус+N+Prop+Sem/Plc:Ха̄льпус N_VCH ;
 Хонтаӈ+N+Prop+Sem/Plc:Хонтаӈ N_VCH ;
 
@@ -88,6 +90,8 @@ LEXICON PROP_MANSINAMES
 Дума+N+Prop+Sem/Org:Дума N_VO ;
 Саранпа̄выл+N+Prop+Sem/Plc:Саранпа̄выл N_VCH "села" ;
 Ягрим+N+Prop+Sem/Plc:Ягрим N_VCH ;
+Геращимова+N+Prop:Геращимова N_VO ;
+Митрипан+N+Prop:Митрипан N_VCH ;
 Юван+N+Prop+Sem/Plc:Юван N_VCH ;
 Ло̄пмус+N+Prop+Sem/Plc:Ло̄пмус N_VCH ;
 Сӯкыръя+N+Prop+Sem/Plc:Сӯкыръя N_VO ;

@@ -11,9 +11,9 @@ LEXICON NUM_
 LEXICON NUM-2-9_
 !! **LEXICON @LEXNAME@** 
 +Num:        NUM-OR-ORD_   ;
-+Num:хойплов NUM-OR-ORD_ "teens" ;
++Num:хуйплов NUM-OR-ORD_ "teens" ;!most frequent?
++Use/NG+Num:хойплов NUM-OR-ORD_ "teens" ;
 +Use/NG+Num:хуйпулув NUM-OR-ORD_ "teens" ;
-+Use/NG+Num:хуйплов NUM-OR-ORD_ "teens" ;
 +Num:са̄т NUM-OR-ORD_ "hundreds" ;
 
 LEXICON NUM-OR-ORD_
