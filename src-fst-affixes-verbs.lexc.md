@@ -38,9 +38,6 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 the forms below here need studying. They are probably not what I labled them as20230521
 
-**LEXICON PRFPRC** contains all forms
-**LEXICON PRFPRC** contains all forms
-
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/verbs.lexc)</small>
