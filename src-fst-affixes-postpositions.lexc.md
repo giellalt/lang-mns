@@ -1,7 +1,7 @@
 
 # Postposition morphology
 
-**LEXICON PO_** going to K (check, perhaps bad idea) and to Px forms.
+**LEXICON PO_ZERO_OR_PX** going to K (check, perhaps bad idea) and to Px forms.
 
 * * *
 

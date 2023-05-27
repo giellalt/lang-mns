@@ -625,7 +625,7 @@ No much work on numerals yet.
 
 # Postposition morphology
 
-**LEXICON PO_** going to K (check, perhaps bad idea) and to Px forms.
+**LEXICON PO_ZERO_OR_PX** going to K (check, perhaps bad idea) and to Px forms.
 
 * * *
 
@@ -1694,6 +1694,8 @@ Just a dummy file.
 # Postpositions
 
 **LEXICON Postpositions** is the lexicon, containing 3 Po so far.
+
+Relator nouns
 
 * * *
 
