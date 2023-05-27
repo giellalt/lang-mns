@@ -12,6 +12,7 @@ indefinites ;
 
 LEXICON determiners !!≈ * @CODE@
 ты+Pron+Dem+Sg+Nom:тыи K ; ! this is nice
+ты+Pron+Dem+Sg+Nom:тый K ; ! used only by Cs & S?
 ты+Pron+Dem:ты N_VI ; ! this is nice
 ты+Det:ты N_VI ;      ! this hat is nice
 

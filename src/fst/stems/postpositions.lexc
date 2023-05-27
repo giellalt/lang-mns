@@ -2,12 +2,27 @@
 
 LEXICON Postpositions
 !! **LEXICON @LEXNAME@** is the lexicon, containing 3 Po so far.
-кастыл+Po:кастыл PO_ ;
+кастыл+Po:кастыл PO_ZERO_OR_PX ;
+
 ма̄гыс+Po:ма̄гыс PO_ ;
-ма̄гсыл+Po:ма̄гсыл PO_ ;
 нупыл+Po:нупыл PO_ ;
-щирыл+Po:щирыл PO_ ;
-тармыл+Po:тармыл PO_ ;
-урыл+Po:урыл PO_ ;
-ёт+Po:ёт PO_ ;
+
+ма̄гсыл+Po:ма̄гсыл PO_ZERO_OR_PX ;
+ёт+Po:ёт PO_ZERO_OR_PX ;
+
 мус+Po:мус PO_ ;
+тармыл+Po:тармыл PO_ ;
+ултта+Po:ултта PO_ ;
+урыл+Po:урыл PO_ ;
+
+!! Relator nouns
+щирыл+Po:щирыл PO_ "Relator noun щир" ;
+
+ёлы-па̄лныл+Po:ёлы PO_ABL_paalnyl ;
+ёлы-па̄лт+Po:ёлы PO_LOC_paalt ;
+ёлы-па̄лын+Po:ёлы PO_LAT_paalyn ;
+
+коны-па̄лныл+Po:коны PO_ABL_paalnyl ;
+коны-па̄лт+Po:коны PO_LOC_paalt ;
+коны-па̄лын+Po:коны PO_LAT_paalyn ;
+

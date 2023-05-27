@@ -666,6 +666,7 @@ LEXICON N1_DU_X_PXDU_SHORT
 LEXICON N1_PL
 :%>ыт PL_NOM_K ; ! а̄ныт, акит, па̄ртыт
 :%>ытт PL_LOC_K ;! потрытт
+:%>ытыт PL_LOC_K ;! павлытыт, ӯсытыт, CHECKME 20230527 should these be limited to a few stems?
 :%>ытн PL_LAT_K ;
 !:%>ытын PL_LAT_K ; jr
 :%>ытныл PL_ABL_K ;

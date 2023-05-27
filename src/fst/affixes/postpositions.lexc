@@ -2,6 +2,9 @@
 !! # Postposition morphology
 
 LEXICON PO_
+: K ;
+
+LEXICON PO_ZERO_OR_PX
 !! **LEXICON @LEXNAME@** going to K (check, perhaps bad idea) and to Px forms.
 : K ;
 +PxSg1:%>%{уØ%}м K ;
@@ -13,3 +16,19 @@ LEXICON PO_
 +PxPl1:%>%{уØ%}в K ;
 +PxPl2:%>%{ыØ%}н K ;
 +PxPl3:%>аныл K ;
+
+LEXICON PO_ABL_paalnyl
++Abl:%-па̄лныл K ;
++Err/Orth+Abl:па̄лныл K ;
++Err/Orth+Abl:палныл K ;
++Err/Orth+Abl:%-палныл K ;
+LEXICON PO_LAT_paalyn
++Lat:%-па̄лын K ;
++Err/Orth+Lat:па̄лын K ;
++Err/Orth+Lat:палын K ;
++Err/Orth+Lat:%-палын K ;
+LEXICON PO_LOC_paalt
++Loc:%-па̄лт K ;
++Err/Orth+Loc:па̄лт K ;
++Err/Orth+Loc:палт K ;
++Err/Orth+Loc:%-палт K ;
