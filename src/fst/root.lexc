@@ -138,7 +138,9 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! ### Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT  !!≈ * **@CODE@**
- +Multi  !!≈ * **@CODE@** multiword units
+ +CLBfinal !!≈ * **@CODE@** Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
+
++Multi  !!≈ * **@CODE@** multiword units
  +Guess  !!≈ * **@CODE@** Non-dictionary words (not in use)
 
  +Qst +Foc  !!≈ * **@CODE@** Question and Focus particles
