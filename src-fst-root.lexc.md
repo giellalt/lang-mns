@@ -98,6 +98,8 @@ language are presented in this system in terms of the following symbols.
 
 ### Special symbols are classified with:
 * **+CLB +PUNCT +LEFT +RIGHT**
+* **+CLBfinal** Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
+
 * **+Multi** multiword units
 * **+Guess** Non-dictionary words (not in use)
 
