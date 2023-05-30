@@ -182,6 +182,7 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+__%{аяLong%}__ ScPl3+OcSg3 %{аяLong%}ныл
 __%{ыиØ%}__ Loc and Ins
 * **%{уюØ%}** suffix onset vowel
 

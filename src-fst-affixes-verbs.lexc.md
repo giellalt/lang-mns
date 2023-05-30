@@ -28,7 +28,7 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 	* **LEXICON ACT_COND_VU** 
 
-	* **LEXICON V11_MUTUAL-IMPRT**  
+	* **LEXICON ACT_IMPRT**  
 
 	* **LEXICON ACT_IMPRT_VU**  
 

@@ -710,7 +710,7 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 	* **LEXICON ACT_COND_VU** 
 
-	* **LEXICON V11_MUTUAL-IMPRT**  
+	* **LEXICON ACT_IMPRT**  
 
 	* **LEXICON ACT_IMPRT_VU**  
 
@@ -763,6 +763,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{уюØ%}:0** suffix onset vowel
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
+* **%{аяLong%}:а̄** ScPl3+OcSg3 %{аяLong%}ныл
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕ%}:е** PxSg3
@@ -986,6 +987,10 @@ __%{уюØ%}:ю__
 коюӈкве+V+Inf: **track/jäljittää, vuottaa**
 * *кой{VU}>{уюØ}ӈкве*
 * *ко00>юӈкве*
+
+__%{аяLong%}:а̄__
+
+__%{аяLong%}:я̄__
 
 __%{ЭЕLong%}:э̄__
 аки
@@ -1234,6 +1239,7 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
+__%{аяLong%}__ ScPl3+OcSg3 %{аяLong%}ныл
 __%{ыиØ%}__ Loc and Ins
 * **%{уюØ%}** suffix onset vowel
 

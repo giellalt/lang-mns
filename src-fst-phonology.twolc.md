@@ -27,6 +27,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{уюØ%}:0** suffix onset vowel
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
+* **%{аяLong%}:а̄** ScPl3+OcSg3 %{аяLong%}ныл
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕ%}:е** PxSg3
@@ -250,6 +251,10 @@ __%{уюØ%}:ю__
 коюӈкве+V+Inf: **track/jäljittää, vuottaa**
 * *кой{VU}>{уюØ}ӈкве*
 * *ко00>юӈкве*
+
+__%{аяLong%}:а̄__
+
+__%{аяLong%}:я̄__
 
 __%{ЭЕLong%}:э̄__
 аки
