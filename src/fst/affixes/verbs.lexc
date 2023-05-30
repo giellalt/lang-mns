@@ -657,13 +657,13 @@ LEXICON PRSPRC
 +PrsPrc+PxSg3:%>нэ̄тэ K ;
 +PrsPrc+PxDu1:%>нэмэ̄н K ;
 +PrsPrc+PxDu2:%>нэнэ̄н K ;
-+PrsPrc+PxDu3:%>нувег K ;
-+PrsPrc+PxDu3:%>нуве̄г K ;!
-+PrsPrc+PxPl1:%>нуве̄в K ;
-+PrsPrc+PxPl2:%>нувен K ;
-+PrsPrc+PxPl2:%>нуве̄н K ;!
-+PrsPrc+PxPl3:%>нувет K ;
-+PrsPrc+PxPl3:%>нӯвет K ;!
++PrsPrc+PxDu3:%>нег K ;
++PrsPrc+PxDu3:%>не̄г K ;!
++PrsPrc+PxPl1:%>не̄в K ;
++PrsPrc+PxPl2:%>нэн K ;
++PrsPrc+PxPl2:%>нэ̄н K ;!
++PrsPrc+PxPl3:%>нэныл K ;
++PrsPrc+PxPl3:%>нэ̄ныл K ;!
 
 LEXICON PRFPRC
 +PrfPrc:%>м K ;
