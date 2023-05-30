@@ -1,0 +1,204 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# Proofreadf, is correct.
+# 20230530
+
+  Verb - ва̄ӈкве: # 'eng FIXME' - full paradigm
+#
+
+#Active, present tense, indicative, subjective conjugation
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg1: ва̄гум
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg2: ва̄гын
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg3: ва̄г
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu1: ва̄гме̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu2: [ва̄гын, ва̄гы̄н]
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu3: ва̄гыг
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl1: [ва̄гув, ва̄гӯв]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl2: [ва̄гын, ва̄гы̄н]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl3: ва̄гыт
+
+#Active, present tense, indicative, objective conjugation, single object
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg1+OcSg3: ва̄глум
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg2+OcSg3: ва̄глын
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg3+OcSg3: ва̄гтэ
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu1+OcSg3: ва̄глуме̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu2+OcSg3: [ва̄глын, ва̄глы̄н]
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu3+OcSg3: ва̄гтэ̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl1+OcSg3: [ва̄глув, ва̄глӯв]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl2+OcSg3: [ва̄глын, ва̄глы̄н]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl3+OcSg3: ва̄ганыл
+
+#Active, present tense, indicative, objective conjugation, dual object
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg1+OcDu3: ва̄гагум
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg2+OcDu3: ва̄гагын
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: ва̄гаге
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: ва̄гагме̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [ва̄гагын, ва̄гагы̄н]
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: ва̄гаге̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: [ва̄гагув, ва̄гагӯв]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [ва̄гагын, ва̄гагы̄н]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: ва̄гаганыл
+
+#Active, present tense, indicative, objective conjugation, plural object
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg1+OcPl3: ва̄ганум
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [ва̄ганын, ва̄ган]
+     ва̄ӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: ва̄ганэ
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: ва̄ганаме̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [ва̄ганын, ва̄ганы̄н, ва̄ган]
+     ва̄ӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: ва̄ганэ̄н
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: [ва̄ганув, ва̄ганӯв]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [ва̄ганын, ва̄ганы̄н, ва̄ган]
+     ва̄ӈкве+V+Act+Ind+Prs+ScPl3+OcPl3: ва̄ганыл
+
+#Active, past tense, indicative, subjective conjugation
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg1: ва̄сум
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg2: ва̄сын
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg3: ва̄с
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu1: ва̄суме̄н
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu2: [ва̄сын, ва̄сы̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu3: ва̄сыг
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl1: [ва̄сув, ва̄сӯв]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl2: [ва̄сын, ва̄сы̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl3: ва̄сыт
+
+#Active, past tense, indicative, objective conjugation, single object
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: ва̄слум
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg2+OcSg3: ва̄слын
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg3+OcSg3: ва̄стэ
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu1+OcSg3: ва̄слуме̄н
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu2+OcSg3: [ва̄слын, ва̄слы̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu3+OcSg3: ва̄стэ̄н
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl1+OcSg3: [ва̄слув, ва̄слӯв]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl2+OcSg3: [ва̄слын, ва̄слы̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl3+OcSg3: ва̄саныл
+
+#Active, past tense, indicative, objective conjugation, dual object
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg1+OcDu3: ва̄сагум
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg2+OcDu3: ва̄сагын
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg3+OcDu3: ва̄саге
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu1+OcDu3: ва̄сагме̄н
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu2+OcDu3: [ва̄сагын, ва̄сагы̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu3+OcDu3: ва̄саге̄н
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl1+OcDu3: [ва̄сагув, ва̄сагӯв]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl2+OcDu3: [ва̄сагын, ва̄сагы̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl3+OcDu3: ва̄саганыл
+
+#Active, past tense, indicative, objective conjugation, plural object
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg1+OcPl3: ва̄санум
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg2+OcPl3: [ва̄са̄нын, ва̄сан]
+     ва̄ӈкве+V+Act+Ind+Prt+ScSg3+OcPl3: ва̄санэ
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu1+OcPl3: [ва̄санаме̄н, ва̄санаме̄н, ва̄санме̄н]
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu2+OcPl3: [ва̄санын, ва̄саны̄н, ва̄сан]
+     ва̄ӈкве+V+Act+Ind+Prt+ScDu3+OcPl3: ва̄санэ̄н
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl1+OcPl3: ва̄санув
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl2+OcPl3: [ва̄санын, ва̄саны̄н, ва̄сан]
+     ва̄ӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: ва̄саныл
+
+#Active, conditional, subjective conjugation
+     ва̄ӈкве+V+Act+Cond+ScSg1: [ва̄нувум, ва̄нӯвум]
+     ва̄ӈкве+V+Act+Cond+ScSg2: [ва̄нувын, ва̄нӯвын]
+     ва̄ӈкве+V+Act+Cond+ScSg3: ва̄нув
+     ва̄ӈкве+V+Act+Cond+ScDu1: ва̄нуваме̄н
+     ва̄ӈкве+V+Act+Cond+ScDu2: [ва̄нувын, ва̄нувы̄н]
+     ва̄ӈкве+V+Act+Cond+ScDu3: [ва̄нувыг, ва̄нувы̄г]
+     ва̄ӈкве+V+Act+Cond+ScPl1: [ва̄нувув, ва̄нӯвӯв]
+     ва̄ӈкве+V+Act+Cond+ScPl2: [ва̄нувын, ва̄нувы̄н]
+     ва̄ӈкве+V+Act+Cond+ScPl3: [ва̄нувыт, ва̄нувы̄т]
+
+#Active, conditional, objective conjugation, single object
+     ва̄ӈкве+V+Act+Cond+ScSg1+OcSg3: ва̄нувлум
+     ва̄ӈкве+V+Act+Cond+ScSg2+OcSg3: ва̄нувлын
+     ва̄ӈкве+V+Act+Cond+ScSg3+OcSg3: ва̄нувтэ
+     ва̄ӈкве+V+Act+Cond+ScDu1+OcSg3: ва̄нувламе̄н
+     ва̄ӈкве+V+Act+Cond+ScDu2+OcSg3: [ва̄нувлын, ва̄нувлы̄н]
+     ва̄ӈкве+V+Act+Cond+ScDu3+OcSg3: ва̄нувтэ̄н
+     ва̄ӈкве+V+Act+Cond+ScPl1+OcSg3: ва̄нувлув
+     ва̄ӈкве+V+Act+Cond+ScPl2+OcSg3: [ва̄нувлын, ва̄нувлы̄н]
+     ва̄ӈкве+V+Act+Cond+ScPl3+OcSg3: [ва̄нуваныл, ва̄нува̄ныл]
+
+#Active, conditional, objective conjugation, dual object
+     ва̄ӈкве+V+Act+Cond+ScSg1+OcDu3: [ва̄нувагум, ва̄нува̄гум]
+     ва̄ӈкве+V+Act+Cond+ScSg2+OcDu3: [ва̄нувагын, ва̄нува̄гын]
+     ва̄ӈкве+V+Act+Cond+ScSg3+OcDu3: [ва̄нуваге, ва̄нува̄ге]
+     ва̄ӈкве+V+Act+Cond+ScDu1+OcDu3: ва̄нувагме̄н
+     ва̄ӈкве+V+Act+Cond+ScDu2+OcDu3: [ва̄нувагын, ва̄нувагы̄н]
+     ва̄ӈкве+V+Act+Cond+ScDu3+OcDu3: ва̄нуваге̄н
+     ва̄ӈкве+V+Act+Cond+ScPl1+OcDu3: ва̄нувагув
+     ва̄ӈкве+V+Act+Cond+ScPl2+OcDu3: [ва̄нувагын, ва̄нувагы̄н]
+     ва̄ӈкве+V+Act+Cond+ScPl3+OcDu3: [ва̄нуваганыл, ва̄нувага̄ныл]
+
+#Active, conditional, objective conjugation, plural object
+     ва̄ӈкве+V+Act+Cond+ScSg1+OcPl3: [ва̄нуванум, ва̄нува̄нум]
+     ва̄ӈкве+V+Act+Cond+ScSg2+OcPl3: [ва̄нуванын, ва̄нува̄нын]
+     ва̄ӈкве+V+Act+Cond+ScSg3+OcPl3: [ва̄нуванэ, ва̄нува̄нэ]
+     ва̄ӈкве+V+Act+Cond+ScDu1+OcPl3: ва̄нуванме̄н
+     ва̄ӈкве+V+Act+Cond+ScDu2+OcPl3: [ва̄нуванын, ва̄нуваны̄н]
+     ва̄ӈкве+V+Act+Cond+ScDu3+OcPl3: ва̄нуванэ̄н
+     ва̄ӈкве+V+Act+Cond+ScPl1+OcPl3: ва̄нуванув
+     ва̄ӈкве+V+Act+Cond+ScPl2+OcPl3: [ва̄нуванын, ва̄нуваны̄н]
+     ва̄ӈкве+V+Act+Cond+ScPl3+OcPl3: [ва̄нуваныл, ва̄нува̄ныл]
+
+#Active, imeperative, subjective conjugation
+     ва̄ӈкве+V+Act+Imp+Sg2: ва̄ен
+     ва̄ӈкве+V+Act+Imp+Du2: [ва̄ен, вае̄н]
+     ва̄ӈкве+V+Act+Imp+Pl2: [ваен, ва̄е̄н]
+
+#Active, imeperative,  objective conjugation, single object
+     ва̄ӈкве+V+Act+Imp+Sg2+OcSg3: [ва̄елн, ва̄елн]
+     ва̄ӈкве+V+Act+Imp+Du2+OcSg3: [ва̄елн, ва̄елы̄н]
+     ва̄ӈкве+V+Act+Imp+Pl2+OcSg3: [ва̄елн, ва̄елы̄н]
+
+#Active, imeperative,  objective conjugation, dual object
+     ва̄ӈкве+V+Act+Imp+Sg2+OcDu3: [ва̄егын, ва̄егн]
+     ва̄ӈкве+V+Act+Imp+Du2+OcDu3: [ва̄егын, ва̄егы̄н]
+     ва̄ӈкве+V+Act+Imp+Pl2+OcDu3: [ва̄егын, ва̄егы̄н]
+
+#Active, imeperative,  objective conjugation, plural object
+     ва̄ӈкве+V+Act+Imp+Sg2+OcPl3: [ва̄ен, ва̄е̄н]
+     ва̄ӈкве+V+Act+Imp+Du2+OcPl3: [ва̄ен, ва̄е̄н]
+     ва̄ӈкве+V+Act+Imp+Pl2+OcPl3: [ва̄ен, ва̄е̄н]
+
+#Passive, present tense, indicative
+     ва̄ӈкве+V+Pass+Ind+Prs+ScSg1: ва̄вем
+     ва̄ӈкве+V+Pass+Ind+Prs+ScSg2: ва̄вен
+     ва̄ӈкве+V+Pass+Ind+Prs+ScSg3: ва̄ве
+     ва̄ӈкве+V+Pass+Ind+Prs+ScDu1: ва̄веме̄н
+     ва̄ӈкве+V+Pass+Ind+Prs+ScDu2: [ва̄вен, ва̄ве̄н]
+     ва̄ӈкве+V+Pass+Ind+Prs+ScDu3: ва̄ве̄г
+     ва̄ӈкве+V+Pass+Ind+Prs+ScPl1: ва̄ве̄в
+     ва̄ӈкве+V+Pass+Ind+Prs+ScPl2: [ва̄вен, ва̄ве̄н]
+     ва̄ӈкве+V+Pass+Ind+Prs+ScPl3: ва̄вет
+
+#Passive, past tense, indicative
+     ва̄ӈкве+V+Pass+Ind+Prt+ScSg1: ва̄йве̄сум
+     ва̄ӈкве+V+Pass+Ind+Prt+ScSg2: ва̄йве̄сын
+     ва̄ӈкве+V+Pass+Ind+Prt+ScSg3: [ва̄йвес, вайве̄с]
+     ва̄ӈкве+V+Pass+Ind+Prt+ScDu1: ва̄йвесаме̄н
+     ва̄ӈкве+V+Pass+Ind+Prt+ScDu2: [ва̄йвесын, ва̄йвесы̄н]
+     ва̄ӈкве+V+Pass+Ind+Prt+ScDu3: ва̄йвесы̄г
+     ва̄ӈкве+V+Pass+Ind+Prt+ScPl1: ва̄йвесув
+     ва̄ӈкве+V+Pass+Ind+Prt+ScPl2: [ва̄йвесын, ва̄йвесы̄н]
+     ва̄ӈкве+V+Pass+Ind+Prt+ScPl3: ва̄йве̄сыт
+
+#Passive, conditional
+     ва̄ӈкве+V+Pass+Cond+ScSg1: [ва̄нувем, ва̄нӯвем]
+     ва̄ӈкве+V+Pass+Cond+ScSg2: [ва̄нувен, ва̄нӯвен]
+     ва̄ӈкве+V+Pass+Cond+ScSg3: [ва̄нуве, ва̄нӯве]
+     ва̄ӈкве+V+Pass+Cond+ScDu1: ва̄нувеме̄н
+     ва̄ӈкве+V+Pass+Cond+ScDu2: [ва̄нувен, ва̄нуве̄н]
+     ва̄ӈкве+V+Pass+Cond+ScDu3: [ва̄нувег, ва̄нуве̄г]
+     ва̄ӈкве+V+Pass+Cond+ScPl1: ва̄нуве̄в
+     ва̄ӈкве+V+Pass+Cond+ScPl2: [ва̄нувен, ва̄нуве̄н]
+     ва̄ӈкве+V+Pass+Cond+ScPl3: [ва̄нувет, ва̄нӯвет]
+
