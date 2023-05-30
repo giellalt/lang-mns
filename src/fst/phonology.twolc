@@ -33,6 +33,7 @@ Alphabet
 %{уюØ%}:0	!!≈ * **@CODE@** suffix onset vowel
 %{ЫИ%}:и	!!≈ * **@CODE@**
 %{ЫИ%}:ы	!!≈ * **@CODE@**
+%{аяLong%}:а̄	!!≈ * **@CODE@** ScPl3+OcSg3 %{аяLong%}ныл
 %{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 !%{ЭЕLong%}:е	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
@@ -383,6 +384,15 @@ Rules
 !! коюӈкве+V+Inf: **track/jäljittää, vuottaa**
 !!€ кой{VU}>{уюØ}ӈкве
 !!€ ко00>юӈкве
+
+"%{аяLong%}:а̄"
+!! __@RULENAME@__
+%{аяLong%}:а̄ <=>   г %> _ ;
+
+"%{аяLong%}:я̄"
+!! __@RULENAME@__
+%{аяLong%}:я̄ <=>   %{ЫИ%}: %> _ ;
+!+Act+Ind+Prs+ScPl3+OcSg3+Err/Orth
 
 "%{ЭЕLong%}:э̄"
 !! __@RULENAME@__
