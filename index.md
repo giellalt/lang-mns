@@ -13,12 +13,6 @@ running text and is in use in a Mansi e-dictionary.  For questions,
 contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
 
-## Project plans
-
-- [Work plan](workplan.md)
-- [Project plan](projectplan.md)
-
-
 
 ## Documentation and resources
 
@@ -32,6 +26,17 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 - [Language technology tools for Mansi (based upon this model)](https://giellatekno.uit.no/cgi/index.mns.eng.html)
 - [xperimental Mansi spellchecker for download](https://divvun.org/proofing/proofing.html)
 - [Experimental Mansi spellchecker online](https://divvun.org/proofing/online-speller.html) (click **ABC** and choose *Languages*)
+
+
+## The mns project 
+
+### Documents
+- [Work plan](workplan.md)
+- [Project plan](projectplan.md)
+
+### Meeting memos
+
+- 2023: [2.6.](meetings/230602.md)
 
 # In-source documentation
 
