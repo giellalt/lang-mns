@@ -33,7 +33,7 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 ### Documents
 - [Work plan](workplan.md)
 - [Project plan](projectplan.md)
-
+- [Open issues concerning participles](participles.md)
 ### Meeting memos
 
 - 2023: [2.6.](meetings/230602.md)
