@@ -1878,6 +1878,7 @@ LEXICON SG_LOC_PXPL3_K
 @U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@%>%{аяØ%}нылт K ;
 LEXICON SG_NOM_PXPL3_K
 @U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@%>%{аяØ%}ныл K ;
+@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@+Sg+Nom+PxPl3+Err/Orth-long-v:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@%>%{аяLong%}ныл K ;
 
 !#! du x pxsg1 has no variation
 LEXICON DU_ABL_PXSG1_K

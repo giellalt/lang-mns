@@ -88,6 +88,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! ### The Usage extents are marked using following tags:
  +Err/Orth  	    !!≈ * **@CODE@**  do not accept, but recognize
+ +Err/Orth-long-v  	    !!≈ * **@CODE@**  do not accept, but recognize vowel is long
  +Use/NG 	    !!≈ * **@CODE@** do not generate, but accept
  +Use/-Spell 	    !!≈ * **@CODE@** do not use in speller 
 

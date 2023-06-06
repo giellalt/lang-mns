@@ -387,7 +387,9 @@ Rules
 
 "%{аяLong%}:а̄"
 !! __@RULENAME@__
-%{аяLong%}:а̄ <=>   г %> _ ;
+%{аяLong%}:а̄ <=>  [ Cns (%{SYNCH%}:|%{NOSYNCH%}:|%{VCH%}:|%{VCCH%}:)| г] %> _ ;
+!   г %> _ ;
+!коскер+N+Sg+Nom+PxPl3+Err/Orth:
 
 "%{аяLong%}:я̄"
 !! __@RULENAME@__
