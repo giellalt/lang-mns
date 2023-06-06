@@ -1110,6 +1110,7 @@ language are presented in this system in terms of the following symbols.
 
 ### The Usage extents are marked using following tags:
 * **+Err/Orth**  do not accept, but recognize
+* **+Err/Orth-long-v**  do not accept, but recognize vowel is long
 * **+Use/NG** do not generate, but accept
 * **+Use/-Spell** do not use in speller 
 
