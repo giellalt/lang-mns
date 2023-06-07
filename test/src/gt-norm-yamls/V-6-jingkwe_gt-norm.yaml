@@ -1,0 +1,139 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (20230602: Csilla)
+
+  Verb - йиӈкве: # Verb 'to come' - full paradigm
+    йиӈкве+V+Inf: йиӈкве
+#Active, present tense, indicative, subjective conjugation
+    йиӈкве+V+Act+Ind+Prs+ScSg1: ювум
+    йиӈкве+V+Act+Ind+Prs+ScSg2: ювын
+    йиӈкве+V+Act+Ind+Prs+ScSg3: юв
+    йиӈкве+V+Act+Ind+Prs+ScDu1: ювме̄н
+    йиӈкве+V+Act+Ind+Prs+ScDu2: [ювын, ювы̄н]
+    йиӈкве+V+Act+Ind+Prs+ScDu3: ювыг
+    йиӈкве+V+Act+Ind+Prs+ScPl1: ювув, ювӯв
+    йиӈкве+V+Act+Ind+Prs+ScPl2: [ювын, ювы̄н]
+    йиӈкве+V+Act+Ind+Prs+ScPl3: ювыт
+
+
+#Active, past tense, indicative, subjective conjugation
+    йиӈкве+V+Act+Ind+Prt+ScSg1: йисум
+    йиӈкве+V+Act+Ind+Prt+ScSg2: йисын
+    йиӈкве+V+Act+Ind+Prt+ScSg3: йис
+    йиӈкве+V+Act+Ind+Prt+ScDu1: йисуме̄н
+    йиӈкве+V+Act+Ind+Prt+ScDu2: [йисын, йисы̄н]
+    йиӈкве+V+Act+Ind+Prt+ScDu3: йисыг
+    йиӈкве+V+Act+Ind+Prt+ScPl1: йисув, йисӯв
+    йиӈкве+V+Act+Ind+Prt+ScPl2: [йисын, йисы̄н]
+    йиӈкве+V+Act+Ind+Prt+ScPl3: йисыт
+
+
+#Active, conditional, subjective conjugation
+    йиӈкве+V+Act+Cond+ScSg1: [йинувум, йинӯвум]
+    йиӈкве+V+Act+Cond+ScSg2: [йинувын, йинӯвын]
+    йиӈкве+V+Act+Cond+ScSg3: йинув
+    йиӈкве+V+Act+Cond+ScDu1: йинуваме̄н
+    йиӈкве+V+Act+Cond+ScDu2: [йинувын, йинувы̄н]
+    йиӈкве+V+Act+Cond+ScDu3: [йинувыг, йинувы̄г]
+    йиӈкве+V+Act+Cond+ScPl1: [йинувув, йинӯвӯв]
+    йиӈкве+V+Act+Cond+ScPl2: [йинувын, йинувы̄н]
+    йиӈкве+V+Act+Cond+ScPl3: [йинувыт, йинувы̄т]
+
+
+#Active, imeperative, subjective conjugation
+    йиӈкве+V+Act+Imprt+ScSg2: яен
+    йиӈкве+V+Act+Imprt+ScDu2: [яен, яе̄н]
+    йиӈкве+V+Act+Imprt+ScPl2: [яен, яе̄н]
+
+
+#Passive, present tense, indicative
+    йиӈкве+V+Pass+Ind+Prs+ScSg1: йивем
+    йиӈкве+V+Pass+Ind+Prs+ScSg2: йивен
+    йиӈкве+V+Pass+Ind+Prs+ScSg3: йиве
+    йиӈкве+V+Pass+Ind+Prs+ScDu1: йивеме̄н
+    йиӈкве+V+Pass+Ind+Prs+ScDu2: [йивен, йиве̄н]
+    йиӈкве+V+Pass+Ind+Prs+ScDu3: йиве̄г
+    йиӈкве+V+Pass+Ind+Prs+ScPl1: йиве̄в
+    йиӈкве+V+Pass+Ind+Prs+ScPl2: [йивен, йиве̄н]
+    йиӈкве+V+Pass+Ind+Prs+ScPl3: йивет
+
+#Passive, past tense, indicative
+    йиӈкве+V+Pass+Ind+Prt+ScSg1: яйве̄сум
+    йиӈкве+V+Pass+Ind+Prt+ScSg2: яйве̄сын
+    йиӈкве+V+Pass+Ind+Prt+ScSg3: [яйвес, яйве̄с]
+    йиӈкве+V+Pass+Ind+Prt+ScDu1: яйвесеме̄н
+    йиӈкве+V+Pass+Ind+Prt+ScDu2: [яйвесын, яйвесы̄н]
+    йиӈкве+V+Pass+Ind+Prt+ScDu3: яйвесы̄г
+    йиӈкве+V+Pass+Ind+Prt+ScPl1: яйвесув, яйвесӯв
+    йиӈкве+V+Pass+Ind+Prt+ScPl2: [яйвесын, яйвесы̄н]
+    йиӈкве+V+Pass+Ind+Prt+ScPl3: яйве̄сыт
+
+#Passive, conditional
+    йиӈкве+V+Pass+Cond+ScSg1: [йинувем, йинӯвем]
+    йиӈкве+V+Pass+Cond+ScSg2: [йинувен, йинӯвен]
+    йиӈкве+V+Pass+Cond+ScSg3: [йинуве, йинӯве]
+    йиӈкве+V+Pass+Cond+ScDu1: йинувеме̄н
+    йиӈкве+V+Pass+Cond+ScDu2: [йинувен, йинуве̄н]
+    йиӈкве+V+Pass+Cond+ScDu3: [йинувег, йинуве̄г]
+    йиӈкве+V+Pass+Cond+ScPl1: йинуве̄в
+    йиӈкве+V+Pass+Cond+ScPl2: [йинувен, йинуве̄н]
+    йиӈкве+V+Pass+Cond+ScPl3: [йинувет, йинӯвет]
+
+#Passive, imperative conjugation
+    йиӈкве+V+Pass+Imp+Sg2: йивен, йиен
+    йиӈкве+V+Pass+Imp+Du2: [йивен, йиве̄н, йиен, йие̄н]
+    йиӈкве+V+Pass+Imp+Pl2: [йивен, йиве̄н, йиен, йие̄н]
+
+#Present participle
+    йиӈкве+V+PrsPrc: йинэ
+    йиӈкве+V+PrsPrc+PxSg1: йинэм
+    йиӈкве+V+PrsPrc+PxSg2: йинэн
+    йиӈкве+V+PrsPrc+PxSg3: йинэ̄тэ
+    йиӈкве+V+PrsPrc+PxDu1: йинэме̄н
+    йиӈкве+V+PrsPrc+PxDu2: йинэнэ̄н
+    йиӈкве+V+PrsPrc+PxDu3: [йинэг, йинэ̄г]
+    йиӈкве+V+PrsPrc+PxPl1: йинэ̄в
+    йиӈкве+V+PrsPrc+PxPl2: [йинэн, йинэ̄н]
+    йиӈкве+V+PrsPrc+PxPl3: [йинэныл, йинэ̄ныл]
+
+#Past participle
+    йиӈкве+V+PrfPrc: йим
+    йиӈкве+V+PrfPrc+PxSg1: йимум
+    йиӈкве+V+PrfPrc+PxSg2: йимын
+    йиӈкве+V+PrfPrc+PxSg3: йиме
+    йиӈкве+V+PrfPrc+PxDu1: йимме̄н
+    йиӈкве+V+PrfPrc+PxDu2: йимын, йимы̄н
+    йиӈкве+V+PrfPrc+PxDu3: [йимег, йиме̄г]
+    йиӈкве+V+PrfPrc+PxPl1: [йимув, йимӯв]
+    йиӈкве+V+PrfPrc+PxPl2: [йимын, йимы̄н]
+    йиӈкве+V+PrfPrc+PxPl3: [йимыт]
+
+#Gerund
+    йиӈкве+V+Ger: йийим
+    йиӈкве+V+Ger+PxSg1: йийимам
+    йиӈкве+V+Ger+PxSg2: йийиман
+    йиӈкве+V+Ger+PxSg3: [йийима, йийиматэ]
+    йиӈкве+V+Ger+PxDu1: йийимаме̄н
+    йиӈкве+V+Ger+PxDu2: йийиман
+    йиӈкве+V+Ger+PxDu3: йийимаг
+    йиӈкве+V+Ger+PxPl1: йийимав
+    йиӈкве+V+Ger+PxPl2: йийиман
+    йиӈкве+V+Ger+PxPl3: йийимат
+
+#Privative
+    йиӈкве+V+Ger: йимтал
+
+
+
