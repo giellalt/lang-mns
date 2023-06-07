@@ -1,0 +1,313 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (20230505: Csilla)
+
+  Verb - миӈкве: # Verb 'to give' - full paradigm
+    миӈкве+V+Inf: миӈкве
+#Active, present tense, indicative, subjective conjugation
+    миӈкве+V+Act+Ind+Prs+ScSg1: мыгум
+    миӈкве+V+Act+Ind+Prs+ScSg2: маен
+    миӈкве+V+Act+Ind+Prs+ScSg3: мыг
+    миӈкве+V+Act+Ind+Prs+ScDu1: мыгме̄н
+    миӈкве+V+Act+Ind+Prs+ScDu2: [маен, мае̄н]
+    миӈкве+V+Act+Ind+Prs+ScDu3: мыгыг
+    миӈкве+V+Act+Ind+Prs+ScPl1: [мыгув, мыгӯв]
+    миӈкве+V+Act+Ind+Prs+ScPl2: [маен, ма̄е̄н]
+    миӈкве+V+Act+Ind+Prs+ScPl3: мыгыт
+
+#Active, present tense, indicative, objective conjugation, single object
+    миӈкве+V+Act+Ind+Prs+ScSg1+OcSg3: мыглум
+    миӈкве+V+Act+Ind+Prs+ScSg2+OcSg3: мыглын
+    миӈкве+V+Act+Ind+Prs+ScSg3+OcSg3: мыгтэ
+    миӈкве+V+Act+Ind+Prs+ScDu1+OcSg3: мыглуме̄н
+    миӈкве+V+Act+Ind+Prs+ScDu2+OcSg3: [мыглын, мыглы̄н]
+    миӈкве+V+Act+Ind+Prs+ScDu3+OcSg3: мыгтэ̄н
+    миӈкве+V+Act+Ind+Prs+ScPl1+OcSg3: [мыглув, мыглӯв]
+    миӈкве+V+Act+Ind+Prs+ScPl2+OcSg3: [мыглын, мыглы̄н]
+    миӈкве+V+Act+Ind+Prs+ScPl3+OcSg3: мыганыл
+
+#Active, present tense, indicative, objective conjugation, dual object
+    миӈкве+V+Act+Ind+Prs+ScSg1+OcDu3: мыгагум
+    миӈкве+V+Act+Ind+Prs+ScSg2+OcDu3: мыгагын
+    миӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: мыгаге
+    миӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: мыгагме̄н
+    миӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [мыгагын, мыгагы̄н]
+    миӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: мыгаге̄н
+    миӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: [мыгагув, мыгагӯв]
+    миӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [мынагын, мыгагы̄н]
+    миӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: мыгаганыл
+
+#Active, present tense, indicative, objective conjugation, plural object
+    миӈкве+V+Act+Ind+Prs+ScSg1+OcPl3: мыганум
+    миӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [мыганын, мыган]
+    миӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: мыганэ
+    миӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: мыганаме̄н
+    миӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [мынанын, мыганы̄н, мыган]
+    миӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: мыганэ̄н
+    миӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: [мыганув, мыганӯв]
+    миӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [мыганын, мыганы̄н, мыган]
+    миӈкве+V+Act+Ind+Prs+ScPl3+OcPl3: мыганыл
+
+#Active, past tense, indicative, subjective conjugation
+    миӈкве+V+Act+Ind+Prt+ScSg1: мисум
+    миӈкве+V+Act+Ind+Prt+ScSg2: мисын
+    миӈкве+V+Act+Ind+Prt+ScSg3: мис
+    миӈкве+V+Act+Ind+Prt+ScDu1: мисме̄н
+    миӈкве+V+Act+Ind+Prt+ScDu2: [мисын, мисы̄н]
+    миӈкве+V+Act+Ind+Prt+ScDu3: мисыг мисы̄г
+    миӈкве+V+Act+Ind+Prt+ScPl1: [мисув, мисӯв]
+    миӈкве+V+Act+Ind+Prt+ScPl2: [мисын, мисы̄н]
+    миӈкве+V+Act+Ind+Prt+ScPl3: мисыт
+
+#Active, past tense, indicative, objective conjugation, single object
+    миӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: мислум
+    миӈкве+V+Act+Ind+Prt+ScSg2+OcSg3: мислын
+    миӈкве+V+Act+Ind+Prt+ScSg3+OcSg3: мистэ
+    миӈкве+V+Act+Ind+Prt+ScDu1+OcSg3: мислуме̄н
+    миӈкве+V+Act+Ind+Prt+ScDu2+OcSg3: [мислын, мислы̄н]
+    миӈкве+V+Act+Ind+Prt+ScDu3+OcSg3: мистэ̄н
+    миӈкве+V+Act+Ind+Prt+ScPl1+OcSg3: [мислув, мислӯв]
+    миӈкве+V+Act+Ind+Prt+ScPl2+OcSg3: [мислын, мислы̄н]
+    миӈкве+V+Act+Ind+Prt+ScPl3+OcSg3: мисаныл
+
+#Active, past tense, indicative, objective conjugation, dual object
+    миӈкве+V+Act+Ind+Prt+ScSg1+OcDu3: мисагум
+    миӈкве+V+Act+Ind+Prt+ScSg2+OcDu3: мисагын
+    миӈкве+V+Act+Ind+Prt+ScSg3+OcDu3: мисаге
+    миӈкве+V+Act+Ind+Prt+ScDu1+OcDu3: мисагме̄н
+    миӈкве+V+Act+Ind+Prt+ScDu2+OcDu3: [мисагын, мисагы̄н]
+    миӈкве+V+Act+Ind+Prt+ScDu3+OcDu3: мисаге̄н
+    миӈкве+V+Act+Ind+Prt+ScPl1+OcDu3: [мисагув, мисагӯв]
+    миӈкве+V+Act+Ind+Prt+ScPl2+OcDu3: [мисагын, мисагы̄н]
+    миӈкве+V+Act+Ind+Prt+ScPl3+OcDu3: мисаганыл
+
+#Active, past tense, indicative, objective conjugation, plural object
+    миӈкве+V+Act+Ind+Prt+ScSg1+OcPl3: мисанум
+    миӈкве+V+Act+Ind+Prt+ScSg2+OcPl3: [миса̄нын, мисан]
+    миӈкве+V+Act+Ind+Prt+ScSg3+OcPl3: мисанэ
+    миӈкве+V+Act+Ind+Prt+ScDu1+OcPl3: [мисанаме̄н, мисанаме̄н, мисанме̄н]
+    миӈкве+V+Act+Ind+Prt+ScDu2+OcPl3: [мисанын, мисаны̄н, мисан]
+    миӈкве+V+Act+Ind+Prt+ScDu3+OcPl3: мисанэ̄н
+    миӈкве+V+Act+Ind+Prt+ScPl1+OcPl3: мисанув
+    миӈкве+V+Act+Ind+Prt+ScPl2+OcPl3: [мисанын, мисаны̄н, мисан]
+    миӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: мисаныл
+
+#Active, conditional, subjective conjugation
+    миӈкве+V+Act+Cond+ScSg1: [минувум, минӯвум]
+    миӈкве+V+Act+Cond+ScSg2: [минувын, минӯвын]
+    миӈкве+V+Act+Cond+ScSg3: минув
+    миӈкве+V+Act+Cond+ScDu1: минуваме̄н
+    миӈкве+V+Act+Cond+ScDu2: [минувын, минувы̄н]
+    миӈкве+V+Act+Cond+ScDu3: [минувыг, минувы̄г]
+    миӈкве+V+Act+Cond+ScPl1: [минувув, минувӯв]
+    миӈкве+V+Act+Cond+ScPl2: [минувын, минувы̄н]
+    миӈкве+V+Act+Cond+ScPl3: [минувыт, минувы̄т]
+
+#Active, conditional, objective conjugation, single object
+    миӈкве+V+Act+Cond+ScSg1+OcSg3: минувлум
+    миӈкве+V+Act+Cond+ScSg2+OcSg3: минувлын
+    миӈкве+V+Act+Cond+ScSg3+OcSg3: минувтэ
+    миӈкве+V+Act+Cond+ScDu1+OcSg3: минувламе̄н
+    миӈкве+V+Act+Cond+ScDu2+OcSg3: [минувлын, минувлы̄н]
+    миӈкве+V+Act+Cond+ScDu3+OcSg3: минувтэ̄н
+    миӈкве+V+Act+Cond+ScPl1+OcSg3: [минувлув, минувлӯв]
+    миӈкве+V+Act+Cond+ScPl2+OcSg3: [минувлын, минувлы̄н]
+    миӈкве+V+Act+Cond+ScPl3+OcSg3: [минуваныл, минува̄ныл]
+
+#Active, conditional, objective conjugation, dual object
+    миӈкве+V+Act+Cond+ScSg1+OcDu3: [минувагум, минува̄гум]
+    миӈкве+V+Act+Cond+ScSg2+OcDu3: [минувагын, минува̄гын]
+    миӈкве+V+Act+Cond+ScSg3+OcDu3: [минуваге, минува̄ге]
+    миӈкве+V+Act+Cond+ScDu1+OcDu3: минувагме̄н
+    миӈкве+V+Act+Cond+ScDu2+OcDu3: [минувагын, минувагы̄н]
+    миӈкве+V+Act+Cond+ScDu3+OcDu3: минуваге̄н
+    миӈкве+V+Act+Cond+ScPl1+OcDu3: [минувагув, минувагӯв]
+    миӈкве+V+Act+Cond+ScPl2+OcDu3: [минувагын, минувагы̄н]
+    миӈкве+V+Act+Cond+ScPl3+OcDu3: [минуваганыл, минувага̄ныл]
+
+#Active, conditional, objective conjugation, plural object
+    миӈкве+V+Act+Cond+ScSg1+OcPl3: [минуванум, минува̄нум]
+    миӈкве+V+Act+Cond+ScSg2+OcPl3: [минуванын, минува̄нын]
+    миӈкве+V+Act+Cond+ScSg3+OcPl3: [минуванэ, минува̄нэ]
+    миӈкве+V+Act+Cond+ScDu1+OcPl3: минуванме̄н
+    миӈкве+V+Act+Cond+ScDu2+OcPl3: [минуванын, минуваны̄н]
+    миӈкве+V+Act+Cond+ScDu3+OcPl3: минуванэ̄н
+    миӈкве+V+Act+Cond+ScPl1+OcPl3: минуванув
+    миӈкве+V+Act+Cond+ScPl2+OcPl3: [минуванын, минуваны̄н]
+    миӈкве+V+Act+Cond+ScPl3+OcPl3: [минуваныл, минува̄ныл]
+
+#Active, imeperative, subjective conjugation
+    миӈкве+V+Act+Imprt+ScSg2: маен
+    миӈкве+V+Act+Imprt+ScDu2: [маен, мае̄н]
+    миӈкве+V+Act+Imprt+ScPl2: [маен, мае̄н]
+
+#Active, imeperative,  objective conjugation, single object
+    миӈкве+V+Act+Imprt+ScSg2+OcSg3: [маелн, мае̄лн]
+    миӈкве+V+Act+Imprt+ScDu2+OcSg3: [мае̄лн, мае̄лы̄н]
+    миӈкве+V+Act+Imprt+ScPl2+OcSg3: [мае̄лн, мае̄лы̄н]
+
+#Active, imeperative,  objective conjugation, dual object
+    миӈкве+V+Act+Imprt+ScSg2+OcDu3: [маегын, мае̄гн]
+    миӈкве+V+Act+Imprt+ScDu2+OcDu3: [маегын, маегы̄н]
+    миӈкве+V+Act+Imprt+ScPl2+OcDu3: [маегын, маегы̄н]
+
+#Active, imeperative,  objective conjugation, plural object
+    миӈкве+V+Act+Imprt+ScSg2+OcPl3: [маен, мае̄н мае̄нын]
+    миӈкве+V+Act+Imprt+ScDu2+OcPl3: [маен, мае̄н мае̄ны̄н]
+    миӈкве+V+Act+Imprt+ScPl2+OcPl3: [маен, мае̄н мае̄ны̄н]
+
+#Passive, present tense, indicative
+    миӈкве+V+Pass+Ind+Prs+ScSg1: мивем
+    миӈкве+V+Pass+Ind+Prs+ScSg2: мивен
+    миӈкве+V+Pass+Ind+Prs+ScSg3: миве
+    миӈкве+V+Pass+Ind+Prs+ScDu1: мивеме̄н
+    миӈкве+V+Pass+Ind+Prs+ScDu2: [мивен, миве̄н]
+    миӈкве+V+Pass+Ind+Prs+ScDu3: миве̄г
+    миӈкве+V+Pass+Ind+Prs+ScPl1: миве̄в
+    миӈкве+V+Pass+Ind+Prs+ScPl2: [мивен, миве̄н]
+    миӈкве+V+Pass+Ind+Prs+ScPl3: мивет
+
+#Passive, past tense, indicative
+    миӈкве+V+Pass+Ind+Prt+ScSg1: миве̄сум
+    миӈкве+V+Pass+Ind+Prt+ScSg2: миве̄сын
+    миӈкве+V+Pass+Ind+Prt+ScSg3: [мивес, миве̄с]
+    миӈкве+V+Pass+Ind+Prt+ScDu1: мивесаме̄н
+    миӈкве+V+Pass+Ind+Prt+ScDu2: [мивесын, мивесы̄н]
+    миӈкве+V+Pass+Ind+Prt+ScDu3: мивесы̄г
+    миӈкве+V+Pass+Ind+Prt+ScPl1: [мивесув, мивесув]
+    миӈкве+V+Pass+Ind+Prt+ScPl2: [мивесын, мивесы̄н]
+    миӈкве+V+Pass+Ind+Prt+ScPl3: миве̄сыт
+
+#Passive, conditional
+    миӈкве+V+Pass+Cond+ScSg1: [минувем, минӯвем]
+    миӈкве+V+Pass+Cond+ScSg2: [минувен, минӯвен]
+    миӈкве+V+Pass+Cond+ScSg3: [минуве, минӯве]
+    миӈкве+V+Pass+Cond+ScDu1: минувеме̄н
+    миӈкве+V+Pass+Cond+ScDu2: [минувен, минуве̄н]
+    миӈкве+V+Pass+Cond+ScDu3: [минувег, минуве̄г]
+    миӈкве+V+Pass+Cond+ScPl1: минуве̄в
+    миӈкве+V+Pass+Cond+ScPl2: [минувен, минуве̄н]
+    миӈкве+V+Pass+Cond+ScPl3: [минувет, минӯвет]
+
+#Passive, imeperative conjugation
+    миӈкве+V+Act+Imp+Sg2: мигвен
+    миӈкве+V+Act+Imp+Du2: [мигвен, мигве̄н]
+    миӈкве+V+Act+Imp+Pl2: [мигвен, мигве̄н]
+
+#Present participle
+    миӈкве+V+PrsPrc: минэ
+    миӈкве+V+PrsPrc+PxSg1: минэм
+    миӈкве+V+PrsPrc+PxSg2: минэн
+    миӈкве+V+PrsPrc+PxSg3: минэ̄тэ
+    миӈкве+V+PrsPrc+PxDu1: минэме̄н
+    миӈкве+V+PrsPrc+PxDu2: минэнэ̄н
+    миӈкве+V+PrsPrc+PxDu3: [минэг, минэ̄г]
+    миӈкве+V+PrsPrc+PxPl1: минэ̄в
+    миӈкве+V+PrsPrc+PxPl2: [минэн, минэ̄н]
+    миӈкве+V+PrsPrc+PxPl3: [минэныл, минэ̄ныл]
+
+#Present participle, single object
+    миӈкве+V+PrsPrc+PxSg1: минэ̄лум
+    миӈкве+V+PrsPrc+PxSg2: минэ̄лн
+    миӈкве+V+PrsPrc+PxSg3: минэ̄тэ
+    миӈкве+V+PrsPrc+PxDu1: минэламе̄н
+    миӈкве+V+PrsPrc+PxDu2: минэлы̄н
+    миӈкве+V+PrsPrc+PxDu3: минэтэ̄н
+    миӈкве+V+PrsPrc+PxPl1: [минэлув, минэлӯв]
+    миӈкве+V+PrsPrc+PxPl2: минэлы̄н
+    миӈкве+V+PrsPrc+PxPl3: минӭнл
+
+#Present participle, dual object
+    миӈкве+V+PrsPrc+PxSg1: минэ̄гум
+    миӈкве+V+PrsPrc+PxSg2: минэ̄гн
+    миӈкве+V+PrsPrc+PxSg3: минэ̄гэ
+    миӈкве+V+PrsPrc+PxDu1: минэгаме̄н
+    миӈкве+V+PrsPrc+PxDu2: минэгы̄н
+    миӈкве+V+PrsPrc+PxDu3: минэгэ̄н
+    миӈкве+V+PrsPrc+PxPl1: [минэгув, минэгӯв]
+    миӈкве+V+PrsPrc+PxPl2: минэгагы̄н
+    миӈкве+V+PrsPrc+PxPl3: минэгаганыл
+
+#Present participle, plural object
+    миӈкве+V+PrsPrc+PxSg1: минэ̄нум
+    миӈкве+V+PrsPrc+PxSg2: минэ̄н
+    миӈкве+V+PrsPrc+PxSg3: минэ̄нэ
+    миӈкве+V+PrsPrc+PxDu1: [минэнаме̄н, минэнанме̄н]
+    миӈкве+V+PrsPrc+PxDu2: [минэны̄н, минэныны̄н, минэнаны̄н] 
+    миӈкве+V+PrsPrc+PxDu3: [минэнэ̄н, минэнанэ̄н]
+    миӈкве+V+PrsPrc+PxPl1: [минэнув, минэнӯв, минэнанув, минэнанӯв]
+    миӈкве+V+PrsPrc+PxPl2: [минэны̄н, минэнаны̄н]
+    миӈкве+V+PrsPrc+PxPl3: [минэ̄нл, минэ̄наныл]
+
+#Past participle
+    миӈкве+V+PrfPrc: мим
+    миӈкве+V+PrfPrc+PxSg1: мимум
+    миӈкве+V+PrfPrc+PxSg2: мимын
+    миӈкве+V+PrfPrc+PxSg3: миме
+    миӈкве+V+PrfPrc+PxDu1: мимаме̄н
+    миӈкве+V+PrfPrc+PxDu2: [мимын, мимы̄н]
+    миӈкве+V+PrfPrc+PxDu3: мимыг
+    миӈкве+V+PrfPrc+PxPl1: [мимув, мимӯв]
+    миӈкве+V+PrfPrc+PxPl2: [мимын, миммы̄н]
+    миӈкве+V+PrfPrc+PxPl3: мимыт
+
+#Past participle, single object
+    миӈкве+V+PrfPrc+PxSg1: мимлум
+    миӈкве+V+PrfPrc+PxSg2: мимлын
+    миӈкве+V+PrfPrc+PxSg3: мимтэ
+    миӈкве+V+PrfPrc+PxDu1: мимламе̄н
+    миӈкве+V+PrfPrc+PxDu2: мимлы̄н
+    миӈкве+V+PrfPrc+PxDu3: мимтэ̄н
+    миӈкве+V+PrfPrc+PxPl1: [мимлув, мимлӯв]
+    миӈкве+V+PrfPrc+PxPl2: мимлы̄н
+    миӈкве+V+PrfPrc+PxPl3: миманыл
+
+#Past participle, dual object
+    миӈкве+V+PrfPrc+PxSg1: мимагум
+    миӈкве+V+PrfPrc+PxSg2: мимагын
+    миӈкве+V+PrfPrc+PxSg3: мимаге
+    миӈкве+V+PrfPrc+PxDu1: [мимагаме̄н, мимагагме̄н]
+    миӈкве+V+PrfPrc+PxDu2: [мимагы̄н, мимагагы̄н]
+    миӈкве+V+PrfPrc+PxDu3: [мимагы̄н, мимагагы̄н]
+    миӈкве+V+PrfPrc+PxPl1: [мимагув, мимвгӯв]
+    миӈкве+V+PrfPrc+PxPl2: [мимагы̄н, мимагагы̄н]
+    миӈкве+V+PrfPrc+PxPl3: [мимагагыл, мимагаганыл]
+
+#Past participle, plural object
+    миӈкве+V+PrfPrc+PxSg1: [миманум, мимананум]
+    миӈкве+V+PrfPrc+PxSg2: [миман, мима̄нын]
+    миӈкве+V+PrfPrc+PxSg3: [мима̄нэ, мимана̄нэ]
+    миӈкве+V+PrfPrc+PxDu1: [миманаме̄н, мимананме̄н]
+    миӈкве+V+PrfPrc+PxDu2: [миманн, миманы̄н, мимананы̄н]
+    миӈкве+V+PrfPrc+PxDu3: [миманэ̄н, мимананэ̄н]
+    миӈкве+V+PrfPrc+PxPl1: [миманув, миманӯв, мимананув, мимананӯв]
+    миӈкве+V+PrfPrc+PxPl2: [миманы̄н, мимананы̄н]
+    миӈкве+V+PrfPrc+PxPl3: [мима̄ныл, мимана̄ныл]
+
+#Gerund
+    миӈкве+V+Ger: ма̄им
+    миӈкве+V+PrsPrc+PxSg1: ма̄имам
+    миӈкве+V+PrsPrc+PxSg2: ма̄иман
+    миӈкве+V+PrsPrc+PxSg3: ма̄има
+    миӈкве+V+PrsPrc+PxDu1: ма̄имаме̄н
+    миӈкве+V+PrsPrc+PxDu2: ма̄иман
+    миӈкве+V+PrsPrc+PxDu3: ма̄имаг
+    миӈкве+V+PrsPrc+PxPl1: ма̄имав
+    миӈкве+V+PrsPrc+PxPl2: ма̄иман
+    миӈкве+V+PrsPrc+PxPl3: ма̄имат
+
+#Privative
+    миӈкве+V+Ger: ма̄гтал
+
