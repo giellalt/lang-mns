@@ -1,0 +1,313 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (20230507: Csilla)
+
+  Verb - лыӈкве: # Verb 'to throw' - full paradigm
+    лыӈкве+V+Inf: лыӈкве
+#Active, present tense, indicative, subjective conjugation
+    лыӈкве+V+Act+Ind+Prs+ScSg1: лыгум
+    лыӈкве+V+Act+Ind+Prs+ScSg2: лыгын
+    лыӈкве+V+Act+Ind+Prs+ScSg3: лыг
+    лыӈкве+V+Act+Ind+Prs+ScDu1: лыгме̄н
+    лыӈкве+V+Act+Ind+Prs+ScDu2: [лыгын, лыгы̄н]
+    лыӈкве+V+Act+Ind+Prs+ScDu3: лыгыг
+    лыӈкве+V+Act+Ind+Prs+ScPl1: [лыгув, лыгӯв]
+    лыӈкве+V+Act+Ind+Prs+ScPl2: [лыгын, лыгы̄н]
+    лыӈкве+V+Act+Ind+Prs+ScPl3: лыгыт
+
+#Active, present tense, indicative, objective conjugation, single object
+    лыӈкве+V+Act+Ind+Prs+ScSg1+OcSg3: лыглум
+    лыӈкве+V+Act+Ind+Prs+ScSg2+OcSg3: лыглын
+    лыӈкве+V+Act+Ind+Prs+ScSg3+OcSg3: лыгтэ
+    лыӈкве+V+Act+Ind+Prs+ScDu1+OcSg3: лыглуме̄н
+    лыӈкве+V+Act+Ind+Prs+ScDu2+OcSg3: [лыглын, лыглы̄н]
+    лыӈкве+V+Act+Ind+Prs+ScDu3+OcSg3: лыгтэ̄н
+    лыӈкве+V+Act+Ind+Prs+ScPl1+OcSg3: [лыглув, лыглӯв]
+    лыӈкве+V+Act+Ind+Prs+ScPl2+OcSg3: [лыглын, лыглы̄н]
+    лыӈкве+V+Act+Ind+Prs+ScPl3+OcSg3: лыганыл
+
+#Active, present tense, indicative, objective conjugation, dual object
+    лыӈкве+V+Act+Ind+Prs+ScSg1+OcDu3: лыгагум
+    лыӈкве+V+Act+Ind+Prs+ScSg2+OcDu3: лыгагын
+    лыӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: лыгаге
+    лыӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: лыгагме̄н
+    лыӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [лыгагын, лыгагы̄н]
+    лыӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: лыгаге̄н
+    лыӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: [лыгагув, лыгагӯв]
+    лыӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [лынагын, лыгагы̄н]
+    лыӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: лыгаганыл
+
+#Active, present tense, indicative, objective conjugation, plural object
+    лыӈкве+V+Act+Ind+Prs+ScSg1+OcPl3: лыганум
+    лыӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [лыганын, лыган]
+    лыӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: лыганэ
+    лыӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: лыганаме̄н
+    лыӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [лынанын, лыганы̄н, лыган]
+    лыӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: лыганэ̄н
+    лыӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: [лыганув, лыганӯв]
+    лыӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [лыганын, лыганы̄н, лыган]
+    лыӈкве+V+Act+Ind+Prs+ScPl3+OcPl3: лыганыл
+
+#Active, past tense, indicative, subjective conjugation
+    лыӈкве+V+Act+Ind+Prt+ScSg1: лысум
+    лыӈкве+V+Act+Ind+Prt+ScSg2: лысын
+    лыӈкве+V+Act+Ind+Prt+ScSg3: лыс
+    лыӈкве+V+Act+Ind+Prt+ScDu1: лысме̄н
+    лыӈкве+V+Act+Ind+Prt+ScDu2: [лысын, лысы̄н]
+    лыӈкве+V+Act+Ind+Prt+ScDu3: [лысыг, лысы̄г]
+    лыӈкве+V+Act+Ind+Prt+ScPl1: [лысув, лысӯв]
+    лыӈкве+V+Act+Ind+Prt+ScPl2: [лысын, лысы̄н]
+    лыӈкве+V+Act+Ind+Prt+ScPl3: лысыт
+
+#Active, past tense, indicative, objective conjugation, single object
+    лыӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: лыслум
+    лыӈкве+V+Act+Ind+Prt+ScSg2+OcSg3: лыслын
+    лыӈкве+V+Act+Ind+Prt+ScSg3+OcSg3: лыстэ
+    лыӈкве+V+Act+Ind+Prt+ScDu1+OcSg3: лыслуме̄н
+    лыӈкве+V+Act+Ind+Prt+ScDu2+OcSg3: [лыслын, лыслы̄н]
+    лыӈкве+V+Act+Ind+Prt+ScDu3+OcSg3: лыстэ̄н
+    лыӈкве+V+Act+Ind+Prt+ScPl1+OcSg3: [лыслув, лыслӯв]
+    лыӈкве+V+Act+Ind+Prt+ScPl2+OcSg3: [лыслын, лыслы̄н]
+    лыӈкве+V+Act+Ind+Prt+ScPl3+OcSg3: лысаныл
+
+#Active, past tense, indicative, objective conjugation, dual object
+    лыӈкве+V+Act+Ind+Prt+ScSg1+OcDu3: лысагум
+    лыӈкве+V+Act+Ind+Prt+ScSg2+OcDu3: лысагын
+    лыӈкве+V+Act+Ind+Prt+ScSg3+OcDu3: лысаге
+    лыӈкве+V+Act+Ind+Prt+ScDu1+OcDu3: лысагме̄н
+    лыӈкве+V+Act+Ind+Prt+ScDu2+OcDu3: [лысагын, лысагы̄н]
+    лыӈкве+V+Act+Ind+Prt+ScDu3+OcDu3: лысаге̄н
+    лыӈкве+V+Act+Ind+Prt+ScPl1+OcDu3: [лысагув, лысагӯв]
+    лыӈкве+V+Act+Ind+Prt+ScPl2+OcDu3: [лысагын, лысагы̄н]
+    лыӈкве+V+Act+Ind+Prt+ScPl3+OcDu3: лысаганыл
+
+#Active, past tense, indicative, objective conjugation, plural object
+    лыӈкве+V+Act+Ind+Prt+ScSg1+OcPl3: лысанум
+    лыӈкве+V+Act+Ind+Prt+ScSg2+OcPl3: [лыса̄нын, лысан]
+    лыӈкве+V+Act+Ind+Prt+ScSg3+OcPl3: лысанэ
+    лыӈкве+V+Act+Ind+Prt+ScDu1+OcPl3: [лысанаме̄н, лысанаме̄н, лысанме̄н]
+    лыӈкве+V+Act+Ind+Prt+ScDu2+OcPl3: [лысанын, лысаны̄н, лысан]
+    лыӈкве+V+Act+Ind+Prt+ScDu3+OcPl3: лысанэ̄н
+    лыӈкве+V+Act+Ind+Prt+ScPl1+OcPl3: лысанув
+    лыӈкве+V+Act+Ind+Prt+ScPl2+OcPl3: [лысанын, лысаны̄н, лысан]
+    лыӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: лысаныл
+
+#Active, conditional, subjective conjugation
+    лыӈкве+V+Act+Cond+ScSg1: [лынувум, лынӯвум]
+    лыӈкве+V+Act+Cond+ScSg2: [лынувын, лынӯвын]
+    лыӈкве+V+Act+Cond+ScSg3: лынув
+    лыӈкве+V+Act+Cond+ScDu1: лынуваме̄н
+    лыӈкве+V+Act+Cond+ScDu2: [лынувын, лынувы̄н]
+    лыӈкве+V+Act+Cond+ScDu3: [лынувыг, лынувы̄г]
+    лыӈкве+V+Act+Cond+ScPl1: [лынувув, лынувӯв]
+    лыӈкве+V+Act+Cond+ScPl2: [лынувын, лынувы̄н]
+    лыӈкве+V+Act+Cond+ScPl3: [лынувыт, лынувы̄т]
+
+#Active, conditional, objective conjugation, single object
+    лыӈкве+V+Act+Cond+ScSg1+OcSg3: лынувлум
+    лыӈкве+V+Act+Cond+ScSg2+OcSg3: лынувлын
+    лыӈкве+V+Act+Cond+ScSg3+OcSg3: лынувтэ
+    лыӈкве+V+Act+Cond+ScDu1+OcSg3: лынувламе̄н
+    лыӈкве+V+Act+Cond+ScDu2+OcSg3: [лынувлын, лынувлы̄н]
+    лыӈкве+V+Act+Cond+ScDu3+OcSg3: лынувтэ̄н
+    лыӈкве+V+Act+Cond+ScPl1+OcSg3: [лынувлув, лынувлӯв]
+    лыӈкве+V+Act+Cond+ScPl2+OcSg3: [лынувлын, лынувлы̄н]
+    лыӈкве+V+Act+Cond+ScPl3+OcSg3: [лынуваныл, лынува̄ныл]
+
+#Active, conditional, objective conjugation, dual object
+    лыӈкве+V+Act+Cond+ScSg1+OcDu3: [лынувагум, лынува̄гум]
+    лыӈкве+V+Act+Cond+ScSg2+OcDu3: [лынувагын, лынува̄гын]
+    лыӈкве+V+Act+Cond+ScSg3+OcDu3: [лынуваге, лынува̄ге]
+    лыӈкве+V+Act+Cond+ScDu1+OcDu3: лынувагме̄н
+    лыӈкве+V+Act+Cond+ScDu2+OcDu3: [лынувагын, лынувагы̄н]
+    лыӈкве+V+Act+Cond+ScDu3+OcDu3: лынуваге̄н
+    лыӈкве+V+Act+Cond+ScPl1+OcDu3: [лынувагув, лынувагӯв]
+    лыӈкве+V+Act+Cond+ScPl2+OcDu3: [лынувагын, лынувагы̄н]
+    лыӈкве+V+Act+Cond+ScPl3+OcDu3: [лынуваганыл, лынувага̄ныл]
+
+#Active, conditional, objective conjugation, plural object
+    лыӈкве+V+Act+Cond+ScSg1+OcPl3: [лынуванум, лынува̄нум]
+    лыӈкве+V+Act+Cond+ScSg2+OcPl3: [лынуванын, лынува̄нын]
+    лыӈкве+V+Act+Cond+ScSg3+OcPl3: [лынуванэ, лынува̄нэ]
+    лыӈкве+V+Act+Cond+ScDu1+OcPl3: лынуванме̄н
+    лыӈкве+V+Act+Cond+ScDu2+OcPl3: [лынуванын, лынуваны̄н]
+    лыӈкве+V+Act+Cond+ScDu3+OcPl3: лынуванэ̄н
+    лыӈкве+V+Act+Cond+ScPl1+OcPl3: лынуванув
+    лыӈкве+V+Act+Cond+ScPl2+OcPl3: [лынуванын, лынуваны̄н]
+    лыӈкве+V+Act+Cond+ScPl3+OcPl3: [лынуваныл, лынува̄ныл]
+
+#Active, imeperative, subjective conjugation
+    лыӈкве+V+Act+Imprt+ScSg2: лаен
+    лыӈкве+V+Act+Imprt+ScDu2: [лаен, лае̄н]
+    лыӈкве+V+Act+Imprt+ScPl2: [лаен, лае̄н]
+
+#Active, imeperative,  objective conjugation, single object
+    лыӈкве+V+Act+Imprt+ScSg2+OcSg3: [лаелн, лае̄лн]
+    лыӈкве+V+Act+Imprt+ScDu2+OcSg3: [лае̄лн, лае̄лы̄н]
+    лыӈкве+V+Act+Imprt+ScPl2+OcSg3: [лае̄лн, лае̄лы̄н]
+
+#Active, imeperative,  objective conjugation, dual object
+    лыӈкве+V+Act+Imprt+ScSg2+OcDu3: [лаегын, лае̄гн]
+    лыӈкве+V+Act+Imprt+ScDu2+OcDu3: [лаегын, лаегы̄н]
+    лыӈкве+V+Act+Imprt+ScPl2+OcDu3: [лаегын, лаегы̄н]
+
+#Active, imeperative,  objective conjugation, plural object
+    лыӈкве+V+Act+Imprt+ScSg2+OcPl3: [лаен, лае̄н, лае̄нын]
+    лыӈкве+V+Act+Imprt+ScDu2+OcPl3: [лаен, лае̄н, лае̄ны̄н]
+    лыӈкве+V+Act+Imprt+ScPl2+OcPl3: [лаен, лае̄н, лае̄ны̄н]
+
+#Passive, present tense, indicative
+    лыӈкве+V+Pass+Ind+Prs+ScSg1: лывем
+    лыӈкве+V+Pass+Ind+Prs+ScSg2: лывен
+    лыӈкве+V+Pass+Ind+Prs+ScSg3: лыве
+    лыӈкве+V+Pass+Ind+Prs+ScDu1: лывеме̄н
+    лыӈкве+V+Pass+Ind+Prs+ScDu2: [лывен, лыве̄н]
+    лыӈкве+V+Pass+Ind+Prs+ScDu3: лыве̄г
+    лыӈкве+V+Pass+Ind+Prs+ScPl1: лыве̄в
+    лыӈкве+V+Pass+Ind+Prs+ScPl2: [лывен, лыве̄н]
+    лыӈкве+V+Pass+Ind+Prs+ScPl3: лывет
+
+#Passive, past tense, indicative
+    лыӈкве+V+Pass+Ind+Prt+ScSg1: лайве̄сум
+    лыӈкве+V+Pass+Ind+Prt+ScSg2: лайве̄сын
+    лыӈкве+V+Pass+Ind+Prt+ScSg3: [лайвес, лайве̄с]
+    лыӈкве+V+Pass+Ind+Prt+ScDu1: лайвесаме̄н
+    лыӈкве+V+Pass+Ind+Prt+ScDu2: [лайвесын, лайвесы̄н]
+    лыӈкве+V+Pass+Ind+Prt+ScDu3: лайвесы̄г
+    лыӈкве+V+Pass+Ind+Prt+ScPl1: [лайвесув, лайвесув]
+    лыӈкве+V+Pass+Ind+Prt+ScPl2: [лайвесын, лайвесы̄н]
+    лыӈкве+V+Pass+Ind+Prt+ScPl3: лайве̄сыт
+
+#Passive, conditional
+    лыӈкве+V+Pass+Cond+ScSg1: [лынувем, лынӯвем]
+    лыӈкве+V+Pass+Cond+ScSg2: [лынувен, лынӯвен]
+    лыӈкве+V+Pass+Cond+ScSg3: [лынуве, лынӯве]
+    лыӈкве+V+Pass+Cond+ScDu1: лынувеме̄н
+    лыӈкве+V+Pass+Cond+ScDu2: [лынувен, лынуве̄н]
+    лыӈкве+V+Pass+Cond+ScDu3: [лынувег, лынуве̄г]
+    лыӈкве+V+Pass+Cond+ScPl1: лынуве̄в
+    лыӈкве+V+Pass+Cond+ScPl2: [лынувен, лынуве̄н]
+    лыӈкве+V+Pass+Cond+ScPl3: [лынувет, лынӯвет]
+
+#Passive, imeperative conjugation
+    лыӈкве+V+Act+Imp+Sg2: лыгвен
+    лыӈкве+V+Act+Imp+Du2: [лыгвен, лыгве̄н]
+    лыӈкве+V+Act+Imp+Pl2: [лыгвен, лыгве̄н]
+
+#Present participle
+    лыӈкве+V+PrsPrc: лынэ
+    лыӈкве+V+PrsPrc+PxSg1: лынэм
+    лыӈкве+V+PrsPrc+PxSg2: лынэн
+    лыӈкве+V+PrsPrc+PxSg3: лынэ̄тэ
+    лыӈкве+V+PrsPrc+PxDu1: лынэме̄н
+    лыӈкве+V+PrsPrc+PxDu2: лынэнэ̄н
+    лыӈкве+V+PrsPrc+PxDu3: [лынэг, лынэ̄г]
+    лыӈкве+V+PrsPrc+PxPl1: лынэ̄в
+    лыӈкве+V+PrsPrc+PxPl2: [лынэн, лынэ̄н]
+    лыӈкве+V+PrsPrc+PxPl3: [лынэныл, лынэ̄ныл]
+
+#Present participle, single object
+    лыӈкве+V+PrsPrc+PxSg1: лынэ̄лум
+    лыӈкве+V+PrsPrc+PxSg2: [лынэ̄лн, лынэ̄лын]
+    лыӈкве+V+PrsPrc+PxSg3: лынэ̄тэ
+    лыӈкве+V+PrsPrc+PxDu1: лынэламе̄н
+    лыӈкве+V+PrsPrc+PxDu2: лынэлы̄н
+    лыӈкве+V+PrsPrc+PxDu3: лынэтэ̄н
+    лыӈкве+V+PrsPrc+PxPl1: [лынэлув, лынэлӯв]
+    лыӈкве+V+PrsPrc+PxPl2: лынэлы̄н
+    лыӈкве+V+PrsPrc+PxPl3: [лынэ̄нл, лынэ̄ныл]
+
+#Present participle, dual object
+    лыӈкве+V+PrsPrc+PxSg1: лынэ̄гум
+    лыӈкве+V+PrsPrc+PxSg2: [лынэ̄гн, лынэ̄гын]
+    лыӈкве+V+PrsPrc+PxSg3: лынэ̄гэ
+    лыӈкве+V+PrsPrc+PxDu1: лынэгаме̄н
+    лыӈкве+V+PrsPrc+PxDu2: лынэгы̄н
+    лыӈкве+V+PrsPrc+PxDu3: лынэгэ̄н
+    лыӈкве+V+PrsPrc+PxPl1: [лынэгув, лынэгӯв]
+    лыӈкве+V+PrsPrc+PxPl2: лынэгагы̄н
+    лыӈкве+V+PrsPrc+PxPl3: лынэгаганыл
+
+#Present participle, plural object
+    лыӈкве+V+PrsPrc+PxSg1: лынэ̄нум
+    лыӈкве+V+PrsPrc+PxSg2: лынэ̄н
+    лыӈкве+V+PrsPrc+PxSg3: лынэ̄нэ
+    лыӈкве+V+PrsPrc+PxDu1: [лынэнаме̄н, лынэнанме̄н]
+    лыӈкве+V+PrsPrc+PxDu2: [лынэны̄н, лынэныны̄н, лынэнаны̄н] 
+    лыӈкве+V+PrsPrc+PxDu3: [лынэнэ̄н, лынэнанэ̄н]
+    лыӈкве+V+PrsPrc+PxPl1: [лынэнув, лынэнӯв, лынэнанув, лынэнанӯв]
+    лыӈкве+V+PrsPrc+PxPl2: [лынэны̄н, лынэнаны̄н]
+    лыӈкве+V+PrsPrc+PxPl3: [лынэ̄нл, лынэ̄наныл]
+
+#Past participle
+    лыӈкве+V+PrfPrc: лым
+    лыӈкве+V+PrfPrc+PxSg1: лымум
+    лыӈкве+V+PrfPrc+PxSg2: лымын
+    лыӈкве+V+PrfPrc+PxSg3: лыме
+    лыӈкве+V+PrfPrc+PxDu1: лымаме̄н
+    лыӈкве+V+PrfPrc+PxDu2: [лымын, лымы̄н]
+    лыӈкве+V+PrfPrc+PxDu3: лымыг
+    лыӈкве+V+PrfPrc+PxPl1: [лымув, лымӯв]
+    лыӈкве+V+PrfPrc+PxPl2: [лымын, лыммы̄н]
+    лыӈкве+V+PrfPrc+PxPl3: лымыт
+
+#Past participle, single object
+    лыӈкве+V+PrfPrc+PxSg1: лымлум
+    лыӈкве+V+PrfPrc+PxSg2: лымлын
+    лыӈкве+V+PrfPrc+PxSg3: лымтэ
+    лыӈкве+V+PrfPrc+PxDu1: лымламе̄н
+    лыӈкве+V+PrfPrc+PxDu2: лымлы̄н
+    лыӈкве+V+PrfPrc+PxDu3: лымтэ̄н
+    лыӈкве+V+PrfPrc+PxPl1: [лымлув, лымлӯв]
+    лыӈкве+V+PrfPrc+PxPl2: лымлы̄н
+    лыӈкве+V+PrfPrc+PxPl3: лыманыл
+
+#Past participle, dual object
+    лыӈкве+V+PrfPrc+PxSg1: лымагум
+    лыӈкве+V+PrfPrc+PxSg2: лымагын
+    лыӈкве+V+PrfPrc+PxSg3: лымаге
+    лыӈкве+V+PrfPrc+PxDu1: [лымагаме̄н, лымагагме̄н]
+    лыӈкве+V+PrfPrc+PxDu2: [лымагы̄н, лымагагы̄н]
+    лыӈкве+V+PrfPrc+PxDu3: [лымагы̄г, лымагагы̄г]
+    лыӈкве+V+PrfPrc+PxPl1: [лымагув, лымагӯв]
+    лыӈкве+V+PrfPrc+PxPl2: [лымагы̄н, лымагагы̄н]
+    лыӈкве+V+PrfPrc+PxPl3: [лымагагыл, лымагаганыл]
+
+#Past participle, plural object
+    лыӈкве+V+PrfPrc+PxSg1: [лыманум, лымананум]
+    лыӈкве+V+PrfPrc+PxSg2: [лыман, лыма̄нын]
+    лыӈкве+V+PrfPrc+PxSg3: [лыма̄нэ, лымана̄нэ]
+    лыӈкве+V+PrfPrc+PxDu1: [лыманаме̄н, лымананме̄н]
+    лыӈкве+V+PrfPrc+PxDu2: [лыманн, лыманы̄н, лымананы̄н]
+    лыӈкве+V+PrfPrc+PxDu3: [лыманэ̄н, лымананэ̄н]
+    лыӈкве+V+PrfPrc+PxPl1: [лыманув, лыманӯв, лымананув, лымананӯв]
+    лыӈкве+V+PrfPrc+PxPl2: [лыманы̄н, лымананы̄н]
+    лыӈкве+V+PrfPrc+PxPl3: [лыма̄ныл, лымана̄ныл]
+
+#Gerund
+    лыӈкве+V+Ger: ла̄им
+    лыӈкве+V+PrsPrc+PxSg1: ла̄имам
+    лыӈкве+V+PrsPrc+PxSg2: ла̄иман
+    лыӈкве+V+PrsPrc+PxSg3: ла̄има
+    лыӈкве+V+PrsPrc+PxDu1: ла̄имаме̄н
+    лыӈкве+V+PrsPrc+PxDu2: ла̄иман
+    лыӈкве+V+PrsPrc+PxDu3: ла̄имаг
+    лыӈкве+V+PrsPrc+PxPl1: ла̄имав
+    лыӈкве+V+PrsPrc+PxPl2: ла̄иман
+    лыӈкве+V+PrsPrc+PxPl3: ла̄имат
+
+#Privative
+    лыӈкве+V+Ger: лыгтал
+
