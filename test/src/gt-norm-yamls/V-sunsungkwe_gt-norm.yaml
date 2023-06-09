@@ -73,7 +73,7 @@ Tests:
     сунсуӈкве+V+Act+Ind+Prt+ScSg3: сунсыс
     сунсуӈкве+V+Act+Ind+Prt+ScDu1: суссуме̄н
     сунсуӈкве+V+Act+Ind+Prt+ScDu2: [суссын, суссы̄н]
-    сунсуӈкве+V+Act+Ind+Prt+ScDu3: суссыг
+    сунсуӈкве+V+Act+Ind+Prt+ScDu3: [суссыг, суссы̄г]
     сунсуӈкве+V+Act+Ind+Prt+ScPl1: [суссув, суссӯв]
     сунсуӈкве+V+Act+Ind+Prt+ScPl2: [суссын, суссы̄н]
     сунсуӈкве+V+Act+Ind+Prt+ScPl3: суссыт
@@ -207,7 +207,12 @@ Tests:
     сунсуӈкве+V+Pass+Cond+ScPl1: суснуве̄в
     сунсуӈкве+V+Pass+Cond+ScPl2: [суснувен, сунснуве̄н]
     сунсуӈкве+V+Pass+Cond+ScPl3: [суснувет, сунснӯвет]
-    
+
+#Passive, imperative conjugation
+    сунсуӈкве+V+Pass+Imp+Sg2: сунсавен
+    сунсуӈкве+V+Pass+Imp+Du2: [сунсавен, сунсаве̄н]
+    сунсуӈкве+V+Pass+Imp+Pl2: [сунсавен, сунсаве̄н]
+
 #Present participle
     сунсуӈкве+V+PrsPrc: суснэ
     сунсуӈкве+V+PrsPrc+PxSg1: суснэм
@@ -215,15 +220,100 @@ Tests:
     сунсуӈкве+V+PrsPrc+PxSg3: суснэ̄тэ
     сунсуӈкве+V+PrsPrc+PxDu1: суснэме̄н
     сунсуӈкве+V+PrsPrc+PxDu2: суснэнэ̄н
-    сунсуӈкве+V+PrsPrc+PxDu3: суснувег, сунснуве̄г]
-    сунсуӈкве+V+PrsPrc+PxPl1: сунснуве̄в
-    сунсуӈкве+V+PrsPrc+PxPl2: [сунснувен, сунснуве̄н]
-    сунсуӈкве+V+PrsPrc+PxPl3: [сунснувет, сунснӯвет]
+    сунсуӈкве+V+PrsPrc+PxDu3: [суснэг, сунсэ̄г]
+    сунсуӈкве+V+PrsPrc+PxPl1: [сунснэв, суснэ̄в]
+    сунсуӈкве+V+PrsPrc+PxPl2: [сунснэнэн, сунснэ̄нэ̄н]
+    сунсуӈкве+V+PrsPrc+PxPl3: [сунснэт, сунснэ̄т]
+
+#Present participle, single object
+    сунсуӈкве+V+PrsPrc+PxSg1: суснэ̄лум
+    сунсуӈкве+V+PrsPrc+PxSg2: суснэ̄лн
+    сунсуӈкве+V+PrsPrc+PxSg3: суснэ̄тэ
+    сунсуӈкве+V+PrsPrc+PxDu1: суснэламе̄н
+    сунсуӈкве+V+PrsPrc+PxDu2: суснэлы̄н
+    сунсуӈкве+V+PrsPrc+PxDu3: суснэтэ̄н
+    сунсуӈкве+V+PrsPrc+PxPl1: [суснэлув, суснэлӯв]
+    сунсуӈкве+V+PrsPrc+PxPl2: суснэлы̄н
+    сунсуӈкве+V+PrsPrc+PxPl3: [суснэ̄нл, суснэ̄ныл]
+
+#Present participle, dual object
+    сунсуӈкве+V+PrsPrc+PxSg1: суснэ̄гум
+    сунсуӈкве+V+PrsPrc+PxSg2: суснэ̄гн
+    сунсуӈкве+V+PrsPrc+PxSg3: суснэ̄гэ
+    сунсуӈкве+V+PrsPrc+PxDu1: суснэгаме̄н
+    сунсуӈкве+V+PrsPrc+PxDu2: суснэгы̄н
+    сунсуӈкве+V+PrsPrc+PxDu3: суснэгэ̄н
+    сунсуӈкве+V+PrsPrc+PxPl1: [суснэгув, суснэгӯв]
+    сунсуӈкве+V+PrsPrc+PxPl2: суснэгагы̄н
+    сунсуӈкве+V+PrsPrc+PxPl3: суснэгаганыл
+
+#Present participle, plural object
+    сунсуӈкве+V+PrsPrc+PxSg1: суснэ̄нум
+    сунсуӈкве+V+PrsPrc+PxSg2: суснэ̄н
+    сунсуӈкве+V+PrsPrc+PxSg3: суснэ̄нэ
+    сунсуӈкве+V+PrsPrc+PxDu1: [суснэнаме̄н, суснэнанме̄н]
+    сунсуӈкве+V+PrsPrc+PxDu2: [суснэны̄н, суснэныны̄н, суснэнаны̄н] 
+    сунсуӈкве+V+PrsPrc+PxDu3: [суснэнэ̄н, суснэнанэ̄н]
+    сунсуӈкве+V+PrsPrc+PxPl1: [суснэнув, суснэнӯв, суснэнанув, суснэнанӯв]
+    сунсуӈкве+V+PrsPrc+PxPl2: [суснэны̄н, суснэнаны̄н]
+    сунсуӈкве+V+PrsPrc+PxPl3: [суснэ̄нл, суснэ̄наныл]
 
 #Past participle
     сунсуӈкве+V+PrfPrc: сунсум
+    сунсуӈкве+V+PrfPrc+PxSg1: сусмум
+    сунсуӈкве+V+PrfPrc+PxSg2: сусмын
+    сунсуӈкве+V+PrfPrc+PxSg3: сусме
+    сунсуӈкве+V+PrfPrc+PxDu1: сусмаме̄н
+    сунсуӈкве+V+PrfPrc+PxDu2: [сусмын, сусмы̄н]
+    сунсуӈкве+V+PrfPrc+PxDu3: сусмыг
+    сунсуӈкве+V+PrfPrc+PxPl1: [сусмув, сусӯв]
+    сунсуӈкве+V+PrfPrc+PxPl2: [сусмын, сусмы̄н]
+    сунсуӈкве+V+PrfPrc+PxPl3: сусмыт
+
+#Past participle, single object
+    сунсуӈкве+V+PrfPrc+PxSg1: сусмылум
+    сунсуӈкве+V+PrfPrc+PxSg2: сусмылын
+    сунсуӈкве+V+PrfPrc+PxSg3: сусмытэ
+    сунсуӈкве+V+PrfPrc+PxDu1: сусмыламе̄н
+    сунсуӈкве+V+PrfPrc+PxDu2: сусмылы̄н
+    сунсуӈкве+V+PrfPrc+PxDu3: сусмытэ̄н
+    сунсуӈкве+V+PrfPrc+PxPl1: [сусмылув, сусмылӯв]
+    сунсуӈкве+V+PrfPrc+PxPl2: сусмылы̄н
+    сунсуӈкве+V+PrfPrc+PxPl3: сусманыл
+
+#Past participle, dual object
+    сунсуӈкве+V+PrfPrc+PxSg1: сусмагум
+    сунсуӈкве+V+PrfPrc+PxSg2: сусмагын
+    сунсуӈкве+V+PrfPrc+PxSg3: сусмаге
+    сунсуӈкве+V+PrfPrc+PxDu1: [сусмагаме̄н, сусмагагме̄н]
+    сунсуӈкве+V+PrfPrc+PxDu2: [сусмагы̄н, сусмагагы̄н]
+    сунсуӈкве+V+PrfPrc+PxDu3: [сусмагы̄г, сусмагагы̄г]
+    сунсуӈкве+V+PrfPrc+PxPl1: [сусмагув, сусмвгӯв]
+    сунсуӈкве+V+PrfPrc+PxPl2: [сусмагы̄н, сусмагагы̄н]
+    сунсуӈкве+V+PrfPrc+PxPl3: [сусмагагыл, сусмагаганыл]
+
+#Past participle, plural object
+    сунсуӈкве+V+PrfPrc+PxSg1: [сусманум, сусмананум]
+    сунсуӈкве+V+PrfPrc+PxSg2: [сусман, сусма̄нын]
+    сунсуӈкве+V+PrfPrc+PxSg3: [сусма̄нэ, сусмана̄нэ]
+    сунсуӈкве+V+PrfPrc+PxDu1: [сусманаме̄н, сусмананме̄н]
+    сунсуӈкве+V+PrfPrc+PxDu2: [сусманн, сусманы̄н, сусмананы̄н]
+    сунсуӈкве+V+PrfPrc+PxDu3: [сусманэ̄н, сусмананэ̄н]
+    сунсуӈкве+V+PrfPrc+PxPl1: [сусманув, сусманӯв, сусмананув, сусмананӯв]
+    сунсуӈкве+V+PrfPrc+PxPl2: [сусманы̄н, сусмананы̄н]
+    сунсуӈкве+V+PrfPrc+PxPl3: [сусма̄ныл, сусмана̄ныл]
 
 #Gerund
     сунсуӈкве+V+Ger: сунсым
+    сунсуӈкве+V+PrsPrc+PxSg1: сунсымам
+    сунсуӈкве+V+PrsPrc+PxSg2: сунсыман
+    сунсуӈкве+V+PrsPrc+PxSg3: сунсыма
+    сунсуӈкве+V+PrsPrc+PxDu1: сунсымаме̄н
+    сунсуӈкве+V+PrsPrc+PxDu2: сунсыман
+    сунсуӈкве+V+PrsPrc+PxDu3: суснсымаг
+    сунсуӈкве+V+PrsPrc+PxPl1: сунсымав
+    сунсуӈкве+V+PrsPrc+PxPl2: сунсыман
+    сунсуӈкве+V+PrsPrc+PxPl3: сунсымат
 
-
+#Privative
+    сунсуӈкве+V+Ger: сустал
