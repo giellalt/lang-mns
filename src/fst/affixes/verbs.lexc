@@ -76,6 +76,47 @@ LEXICON VINGKVE
 
 :ви V11_MUTUAL_PASS ;
 
+LEXICON JINGKVE
+:йи INF ; !!≈ @CODE@
+:йи PRSPRC ;
++Act+Ind+Prs+ScSg1:ювум K ; !мыгӯв?
++Act+Ind+Prs+ScSg2:ювын K ;  !мае̄н? 
++Act+Ind+Prs+ScSg3:юв K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:ювме̄н K ;
++Act+Ind+Prs+ScDu2:ювын K ;
++Act+Ind+Prs+ScDu2:ювы̄н K ;
++Act+Ind+Prs+ScDu3:ювыг K ;
++Act+Ind+Prs+ScPl1:ювув K ;
++Act+Ind+Prs+ScPl1:ювӯв K ;
++Act+Ind+Prs+ScPl2:ювын K ;
++Act+Ind+Prs+ScPl2:ювы̄н K ;
++Act+Ind+Prs+ScPl3:ювыт K ;
+
++Act+Ind+Prt+ScSg1:йисум K ;
++Act+Ind+Prt+ScSg2:йисын K ;
++Act+Ind+Prt+ScSg3:йис K ;
++Act+Ind+Prt+ScDu1:йисуме̄н K ;
++Act+Ind+Prt+ScDu2:йисын K ;
++Act+Ind+Prt+ScDu2:йисы̄н K ;
++Act+Ind+Prt+ScDu3:йисыг K ;
++Act+Ind+Prt+ScDu3:йисы̄г K ;
++Act+Ind+Prt+ScPl1:йисув K ;
++Act+Ind+Prt+ScPl1:йисӯв K ;!
++Act+Ind+Prt+ScPl2:йисын K ;
++Act+Ind+Prt+ScPl2:йисы̄н K ;
++Act+Ind+Prt+ScPl3:йисыт K ;
+
+!Cond
+:йи ACT_COND_VU ;
+:яй ACT_IMPRT ;
+
+:йи V11_MUTUAL_PASS_PRS ;
+:яй PASS_PRT ;
+:йи PASS_COND ;
+:йи PASS_IMPRT ;
+:йи GER ;
+:йи VABE ;
+
 LEXICON LYNGKVE
 :лы INF ; !!≈ @CODE@
 :лы PRSPRC ;
@@ -650,6 +691,18 @@ LEXICON PASS_COND
 +Pass+Cond+ScPl3:%>нувет K ;
 +Pass+Cond+ScPl3:%>нӯвет K ;
 
+LEXICON PASS_IMPRT
++Pass+Imprt+Sg2:%>вен K ;
++Pass+Imprt+Sg2:%>ен K ;
++Pass+Imprt+Du2:%>вен K ;
++Pass+Imprt+Du2:%>ве̄н K ;
++Pass+Imprt+Du2:%>ен K ;
++Pass+Imprt+Du2:%>е̄н K ;
++Pass+Imprt+Pl2:%>вен K ;
++Pass+Imprt+Pl2:%>ве̄н K ;
++Pass+Imprt+Pl2:%>ен K ;
++Pass+Imprt+Pl2:%>е̄н K ;
+
 LEXICON PRSPRC
 +PrsPrc:%>нэ K ; !Does this exist ?20230504
 +PrsPrc+PxSg1:%>нэм K ;
@@ -668,17 +721,35 @@ LEXICON PRSPRC
 LEXICON PRFPRC
 +PrfPrc:%>м K ;
 !! the forms below here need studying. They are probably not what I labled them as20230521
-+PrfPrc+PxSg1:%>мум K ;!?о̄лмум, а̄стумум, Ханищтахтамум
-+PrfPrc+PxSg2:%>мын K ;!?ханищтахтамын
-+PrfPrc+PxSg3:%>ме K ;!?ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
-+PrfPrc+PxDu1:%>мамен K ;!?ва̄рмуме̄н, ханищтахтамуме̄н
-+PrfPrc+PxDu1:%>маме̄н K ;!?о̄лмуме̄н
++PrfPrc+PxSg1:%>мум K ;!о̄лмум, а̄стумум, Ханищтахтамум
++PrfPrc+PxSg2:%>мын K ;!ханищтахтамын
++PrfPrc+PxSg3:%>ме K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
++PrfPrc+PxDu1:%>мме̄н K ;!йимме̄н
+!+PrfPrc+PxDu1:%>муме̄н K ;!?о̄лмуме̄н
 +PrfPrc+PxDu2:%>мын K ;!?
 +PrfPrc+PxDu2:%>мы̄н K ;!?
-+PrfPrc+PxDu3:%>ме̄н K ;!?
-+PrfPrc+PxPl1:%>мув K ;!?о̄лмувт, о̄лмув, ханищтахтамув
++PrfPrc+PxDu3:%>мег K ;!?
++PrfPrc+PxDu3:%>ме̄г K ;!?
++PrfPrc+PxPl1:%>мув K ;!о̄лмувт, о̄лмув, ханищтахтамув
++PrfPrc+PxPl1:%>мӯв K ;!
 +PrfPrc+PxPl2:%>мын K ;!?
 +PrfPrc+PxPl2:%>мы̄н K ;!?
-+PrfPrc+PxPl3:%>маныл K ;!?о̄лманыл, ва̄рманыл, А̄стуманыл, Ханищтахтаманыл
++PrfPrc+PxPl3:%>мыт K ;!
 
+LEXICON GER
++Ger:%>йим K ;
++Ger+PxSg1:%>йимам K ;
++Ger+PxSg2:%>йиман K ;
++Ger+PxSg3:%>йима K ;
++Ger+PxSg3:%>йиматэ K ;
++Ger+PxDu1:%>йимаме̄н K ;
++Ger+PxDu2:%>йиман K ;
++Ger+PxDu3:%>йимаг K ;
++Ger+PxPl1:%>йимав K ;
++Ger+PxPl2:%>йиман K ;
++Ger+PxPl3:%>йимат K ;
+
+!#Privative
+LEXICON VABE
++VAbe:%>мтал K ;
 
