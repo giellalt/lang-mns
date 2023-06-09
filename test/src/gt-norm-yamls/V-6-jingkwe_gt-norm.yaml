@@ -23,7 +23,7 @@ Tests:
     йиӈкве+V+Act+Ind+Prs+ScDu1: ювме̄н
     йиӈкве+V+Act+Ind+Prs+ScDu2: [ювын, ювы̄н]
     йиӈкве+V+Act+Ind+Prs+ScDu3: ювыг
-    йиӈкве+V+Act+Ind+Prs+ScPl1: ювув, ювӯв
+    йиӈкве+V+Act+Ind+Prs+ScPl1: [ювув, ювӯв]
     йиӈкве+V+Act+Ind+Prs+ScPl2: [ювын, ювы̄н]
     йиӈкве+V+Act+Ind+Prs+ScPl3: ювыт
 
@@ -92,9 +92,9 @@ Tests:
     йиӈкве+V+Pass+Cond+ScPl3: [йинувет, йинӯвет]
 
 #Passive, imperative conjugation
-    йиӈкве+V+Pass+Imp+Sg2: йивен, йиен
-    йиӈкве+V+Pass+Imp+Du2: [йивен, йиве̄н, йиен, йие̄н]
-    йиӈкве+V+Pass+Imp+Pl2: [йивен, йиве̄н, йиен, йие̄н]
+    йиӈкве+V+Pass+Imprt+Sg2: [йивен, йиен]
+    йиӈкве+V+Pass+Imprt+Du2: [йивен, йиве̄н, йиен, йие̄н]
+    йиӈкве+V+Pass+Imprt+Pl2: [йивен, йиве̄н, йиен, йие̄н]
 
 #Present participle
     йиӈкве+V+PrsPrc: йинэ
@@ -114,7 +114,7 @@ Tests:
     йиӈкве+V+PrfPrc+PxSg2: йимын
     йиӈкве+V+PrfPrc+PxSg3: йиме
     йиӈкве+V+PrfPrc+PxDu1: йимме̄н
-    йиӈкве+V+PrfPrc+PxDu2: йимын, йимы̄н
+    йиӈкве+V+PrfPrc+PxDu2: [йимын, йимы̄н]
     йиӈкве+V+PrfPrc+PxDu3: [йимег, йиме̄г]
     йиӈкве+V+PrfPrc+PxPl1: [йимув, йимӯв]
     йиӈкве+V+PrfPrc+PxPl2: [йимын, йимы̄н]
@@ -133,7 +133,7 @@ Tests:
     йиӈкве+V+Ger+PxPl3: йийимат
 
 #Privative
-    йиӈкве+V+Ger: йимтал
+    йиӈкве+V+VAbess: йимтал
 
 
 
