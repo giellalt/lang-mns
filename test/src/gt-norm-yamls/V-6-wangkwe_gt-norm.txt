@@ -66,7 +66,7 @@ Tests:
     ва̄ӈкве+V+Act+Ind+Prt+ScSg3: ва̄с
     ва̄ӈкве+V+Act+Ind+Prt+ScDu1: ва̄сме̄н
     ва̄ӈкве+V+Act+Ind+Prt+ScDu2: [ва̄сын, ва̄сы̄н]
-    ва̄ӈкве+V+Act+Ind+Prt+ScDu3: ва̄сыг ва̄сы̄г
+    ва̄ӈкве+V+Act+Ind+Prt+ScDu3: [ва̄сыг, ва̄сы̄г]
     ва̄ӈкве+V+Act+Ind+Prt+ScPl1: [ва̄сув, ва̄сӯв]
     ва̄ӈкве+V+Act+Ind+Prt+ScPl2: [ва̄сын, ва̄сы̄н]
     ва̄ӈкве+V+Act+Ind+Prt+ScPl3: ва̄сыт
@@ -180,15 +180,15 @@ Tests:
     ва̄ӈкве+V+Pass+Ind+Prs+ScPl3: ва̄вет
 
 #Passive, past tense, indicative
-    ва̄ӈкве+V+Pass+Ind+Prt+ScSg1: ва̄ве̄сум
-    ва̄ӈкве+V+Pass+Ind+Prt+ScSg2: ва̄ве̄сын
-    ва̄ӈкве+V+Pass+Ind+Prt+ScSg3: [ва̄вес, ва̄ве̄с]
-    ва̄ӈкве+V+Pass+Ind+Prt+ScDu1: ва̄весаме̄н
-    ва̄ӈкве+V+Pass+Ind+Prt+ScDu2: [ва̄весын, ва̄весы̄н]
-    ва̄ӈкве+V+Pass+Ind+Prt+ScDu3: ва̄весы̄г
-    ва̄ӈкве+V+Pass+Ind+Prt+ScPl1: [ва̄весув, ва̄весув]
-    ва̄ӈкве+V+Pass+Ind+Prt+ScPl2: [ва̄весын, ва̄весы̄н]
-    ва̄ӈкве+V+Pass+Ind+Prt+ScPl3: ва̄ве̄сыт
+    ва̄ӈкве+V+Pass+Ind+Prt+ScSg1: ва̄йве̄сум
+    ва̄ӈкве+V+Pass+Ind+Prt+ScSg2: ва̄йве̄сын
+    ва̄ӈкве+V+Pass+Ind+Prt+ScSg3: [ва̄йвес, ва̄йве̄с]
+    ва̄ӈкве+V+Pass+Ind+Prt+ScDu1: ва̄йвесаме̄н
+    ва̄ӈкве+V+Pass+Ind+Prt+ScDu2: [ва̄йвесын, ва̄йвесы̄н]
+    ва̄ӈкве+V+Pass+Ind+Prt+ScDu3: ва̄йвесы̄г
+    ва̄ӈкве+V+Pass+Ind+Prt+ScPl1: [ва̄йвесув, ва̄йвесув]
+    ва̄ӈкве+V+Pass+Ind+Prt+ScPl2: [ва̄йвесын, ва̄йвесы̄н]
+    ва̄ӈкве+V+Pass+Ind+Prt+ScPl3: ва̄йве̄сыт
 
 #Passive, conditional
     ва̄ӈкве+V+Pass+Cond+ScSg1: [ва̄нувем, ва̄нӯвем]
@@ -220,18 +220,18 @@ Tests:
 
 #Present participle, single object
     ва̄ӈкве+V+PrsPrc+PxSg1: ва̄нэ̄лум
-    ва̄ӈкве+V+PrsPrc+PxSg2: ва̄нэ̄лн
+    ва̄ӈкве+V+PrsPrc+PxSg2: [ва̄нэ̄лн, ва̄нэ̄лын]
     ва̄ӈкве+V+PrsPrc+PxSg3: ва̄нэ̄тэ
     ва̄ӈкве+V+PrsPrc+PxDu1: ва̄нэламе̄н
     ва̄ӈкве+V+PrsPrc+PxDu2: ва̄нэлы̄н
     ва̄ӈкве+V+PrsPrc+PxDu3: ва̄нэтэ̄н
     ва̄ӈкве+V+PrsPrc+PxPl1: [ва̄нэлув, ва̄нэлӯв]
     ва̄ӈкве+V+PrsPrc+PxPl2: ва̄нэлы̄н
-    ва̄ӈкве+V+PrsPrc+PxPl3: ва̄нӭнл
+    ва̄ӈкве+V+PrsPrc+PxPl3: [ва̄нэ̄нл, ва̄нэ̄ныл]
 
 #Present participle, dual object
     ва̄ӈкве+V+PrsPrc+PxSg1: ва̄нэ̄гум
-    ва̄ӈкве+V+PrsPrc+PxSg2: ва̄нэ̄гн
+    ва̄ӈкве+V+PrsPrc+PxSg2: [ва̄нэ̄гн, ва̄нэ̄гын]
     ва̄ӈкве+V+PrsPrc+PxSg3: ва̄нэ̄гэ
     ва̄ӈкве+V+PrsPrc+PxDu1: ва̄нэгаме̄н
     ва̄ӈкве+V+PrsPrc+PxDu2: ва̄нэгы̄н
@@ -280,7 +280,7 @@ Tests:
     ва̄ӈкве+V+PrfPrc+PxSg3: ва̄маге
     ва̄ӈкве+V+PrfPrc+PxDu1: [ва̄магаме̄н, ва̄магагме̄н]
     ва̄ӈкве+V+PrfPrc+PxDu2: [ва̄магы̄н, ва̄магагы̄н]
-    ва̄ӈкве+V+PrfPrc+PxDu3: [ва̄магы̄н, ва̄магагы̄н]
+    ва̄ӈкве+V+PrfPrc+PxDu3: [ва̄магы̄г, ва̄магагы̄г]
     ва̄ӈкве+V+PrfPrc+PxPl1: [ва̄магув, ва̄мвгӯв]
     ва̄ӈкве+V+PrfPrc+PxPl2: [ва̄магы̄н, ва̄магагы̄н]
     ва̄ӈкве+V+PrfPrc+PxPl3: [ва̄магагыл, ва̄магаганыл]
