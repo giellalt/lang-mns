@@ -1,0 +1,313 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (20230507: Csilla)
+
+  Verb - тэ̄ӈкве: # Verb 'to eat, to burn' - full paradigm
+    тэ̄ӈкве+V+Inf: тэ̄ӈкве
+#Active, present tense, indicative, subjective conjugation
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg1: тэ̄гум
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg2: тэ̄гын
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg3: тэ̄г
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu1: тэ̄гме̄н
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu2: [тэ̄гын, тэ̄гы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu3: тэ̄гыг
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl1: [тэ̄гув, тэ̄гӯв]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl2: [тэ̄гын, тэ̄гы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl3: тэ̄гыт
+
+#Active, present tense, indicative, objective conjugation, single object
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg1+OcSg3: тэ̄глум
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg2+OcSg3: тэ̄глын
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg3+OcSg3: тэ̄гтэ
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu1+OcSg3: тэ̄глуме̄н
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu2+OcSg3: [тэ̄глын, тэ̄глы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu3+OcSg3: тэ̄гтэ̄н
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl1+OcSg3: [тэ̄глув, тэ̄глӯв]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl2+OcSg3: [тэ̄глын, тэ̄глы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl3+OcSg3: тэ̄ганыл
+
+#Active, present tense, indicative, objective conjugation, dual object
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg1+OcDu3: тэ̄гагум
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg2+OcDu3: [тэ̄гагын, тэ̄гагн, тэ̄гагнын]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: тэ̄гаге
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: [тэ̄гагме̄н, тэ̄гагаме̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [тэ̄гагын, тэ̄гагы̄н, тэ̄гагагы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: [тэ̄гаге̄н, тэ̄гагаге̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: [тэ̄гагув, тэ̄гагӯв]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [тэ̄нагын, тэ̄гагы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: тэ̄гаганыл
+
+#Active, present tense, indicative, objective conjugation, plural object
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg1+OcPl3: тэ̄ганум
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [тэ̄ганын, тэ̄ган]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: тэ̄ганэ 
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: [тэ̄ганаме̄н, тэ̄гананме̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [тэ̄нанын, тэ̄ганы̄н, тэ̄ган]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: [тэ̄ганэ̄н, тэ̄гананэ̄н]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: [тэ̄ганув, тэ̄ганӯв, тэ̄гананув, тэ̄гананӯв]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [тэ̄ганын, тэ̄ганы̄н, тэ̄ган]
+    тэ̄ӈкве+V+Act+Ind+Prs+ScPl3+OcPl3: тэ̄ганыл
+
+#Active, past tense, indicative, subjective conjugation
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg1: тэ̄сум
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg2: [тэ̄сын, тэ̄сн, тэ̄снын]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg3: тэ̄с
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu1: тэ̄сме̄н
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu2: [тэ̄сын, тэ̄сы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu3: [тэ̄сыг, тэ̄сы̄г]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl1: [тэ̄сув, тэ̄сӯв]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl2: [тэ̄сын, тэ̄сы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl3: тэ̄сыт
+
+#Active, past tense, indicative, objective conjugation, single object
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: тэ̄слум
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg2+OcSg3: тэ̄слын
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg3+OcSg3: тэ̄стэ
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu1+OcSg3: тэ̄слуме̄н
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu2+OcSg3: [тэ̄слын, тэ̄слы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu3+OcSg3: тэ̄стэ̄н
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl1+OcSg3: [тэ̄слув, тэ̄слӯв]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl2+OcSg3: [тэ̄слын, тэ̄слы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl3+OcSg3: тэ̄саныл
+
+#Active, past tense, indicative, objective conjugation, dual object
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcDu3: тэ̄сагум
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg2+OcDu3: тэ̄сагын
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg3+OcDu3: тэ̄саге
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu1+OcDu3: тэ̄сагме̄н
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu2+OcDu3: [тэ̄сагын, тэ̄сагы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu3+OcDu3: тэ̄саге̄н
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl1+OcDu3: [тэ̄сагув, тэ̄сагӯв]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl2+OcDu3: [тэ̄сагын, тэ̄сагы̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl3+OcDu3: тэ̄саганыл
+
+#Active, past tense, indicative, objective conjugation, plural object
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcPl3: тэ̄санум
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg2+OcPl3: [тэ̄са̄нын, тэ̄сан]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScSg3+OcPl3: тэ̄санэ
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu1+OcPl3: [тэ̄санаме̄н, тэ̄санаме̄н, тэ̄санме̄н]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu2+OcPl3: [тэ̄санын, тэ̄саны̄н, тэ̄сан]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScDu3+OcPl3: тэ̄санэ̄н
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl1+OcPl3: тэ̄санув
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl2+OcPl3: [тэ̄санын, тэ̄саны̄н, тэ̄сан]
+    тэ̄ӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: тэ̄саныл
+
+#Active, conditional, subjective conjugation
+    тэ̄ӈкве+V+Act+Cond+ScSg1: [тэ̄нувум, тэ̄нӯвум]
+    тэ̄ӈкве+V+Act+Cond+ScSg2: [тэ̄нутэ̄н, тэ̄нӯтэ̄н]
+    тэ̄ӈкве+V+Act+Cond+ScSg3: тэ̄нув
+    тэ̄ӈкве+V+Act+Cond+ScDu1: тэ̄нуваме̄н
+    тэ̄ӈкве+V+Act+Cond+ScDu2: [тэ̄нувын, тэ̄нувы̄н]
+    тэ̄ӈкве+V+Act+Cond+ScDu3: [тэ̄нутыг, тэ̄нуты̄г]
+    тэ̄ӈкве+V+Act+Cond+ScPl1: [тэ̄нувув, тэ̄нувӯв]
+    тэ̄ӈкве+V+Act+Cond+ScPl2: [тэ̄нувын, тэ̄нувы̄н]
+    тэ̄ӈкве+V+Act+Cond+ScPl3: [тэ̄нувыт, тэ̄нувы̄т]
+
+#Active, conditional, objective conjugation, single object
+    тэ̄ӈкве+V+Act+Cond+ScSg1+OcSg3: тэ̄нувлум
+    тэ̄ӈкве+V+Act+Cond+ScSg2+OcSg3: тэ̄нувлын
+    тэ̄ӈкве+V+Act+Cond+ScSg3+OcSg3: тэ̄нувтэ
+    тэ̄ӈкве+V+Act+Cond+ScDu1+OcSg3: тэ̄нувламе̄н
+    тэ̄ӈкве+V+Act+Cond+ScDu2+OcSg3: [тэ̄нувлын, тэ̄нувлы̄н]
+    тэ̄ӈкве+V+Act+Cond+ScDu3+OcSg3: тэ̄нувтэ̄н
+    тэ̄ӈкве+V+Act+Cond+ScPl1+OcSg3: [тэ̄нувлув, тэ̄нувлӯв]
+    тэ̄ӈкве+V+Act+Cond+ScPl2+OcSg3: [тэ̄нувлын, тэ̄нувлы̄н]
+    тэ̄ӈкве+V+Act+Cond+ScPl3+OcSg3: [тэ̄нуваныл, тэ̄нува̄ныл]
+
+#Active, conditional, objective conjugation, dual object
+    тэ̄ӈкве+V+Act+Cond+ScSg1+OcDu3: [тэ̄нувагум, тэ̄нува̄гум]
+    тэ̄ӈкве+V+Act+Cond+ScSg2+OcDu3: [тэ̄нувагын, тэ̄нува̄гын]
+    тэ̄ӈкве+V+Act+Cond+ScSg3+OcDu3: [тэ̄нуваге, тэ̄нува̄ге]
+    тэ̄ӈкве+V+Act+Cond+ScDu1+OcDu3: тэ̄нувагме̄н
+    тэ̄ӈкве+V+Act+Cond+ScDu2+OcDu3: [тэ̄нувагын, тэ̄нувагы̄н]
+    тэ̄ӈкве+V+Act+Cond+ScDu3+OcDu3: тэ̄нуваге̄н
+    тэ̄ӈкве+V+Act+Cond+ScPl1+OcDu3: [тэ̄нувагув, тэ̄нувагӯв]
+    тэ̄ӈкве+V+Act+Cond+ScPl2+OcDu3: [тэ̄нувагын, тэ̄нувагы̄н]
+    тэ̄ӈкве+V+Act+Cond+ScPl3+OcDu3: [тэ̄нуваганыл, тэ̄нувага̄ныл]
+
+#Active, conditional, objective conjugation, plural object
+    тэ̄ӈкве+V+Act+Cond+ScSg1+OcPl3: [тэ̄нуванум, тэ̄нува̄нум]
+    тэ̄ӈкве+V+Act+Cond+ScSg2+OcPl3: [тэ̄нуванын, тэ̄нува̄нын]
+    тэ̄ӈкве+V+Act+Cond+ScSg3+OcPl3: [тэ̄нуванэ, тэ̄нува̄нэ]
+    тэ̄ӈкве+V+Act+Cond+ScDu1+OcPl3: тэ̄нуванме̄н
+    тэ̄ӈкве+V+Act+Cond+ScDu2+OcPl3: [тэ̄нуванын, тэ̄нуваны̄н]
+    тэ̄ӈкве+V+Act+Cond+ScDu3+OcPl3: тэ̄нуванэ̄ни
+    тэ̄ӈкве+V+Act+Cond+ScPl1+OcPl3: тэ̄нуванув
+    тэ̄ӈкве+V+Act+Cond+ScPl2+OcPl3: [тэ̄нуванын, тэ̄нуваны̄н]
+    тэ̄ӈкве+V+Act+Cond+ScPl3+OcPl3: [тэ̄нуваныл, тэ̄нува̄ныл]
+
+#Active, imeperative, subjective conjugation
+    тэ̄ӈкве+V+Act+Imprt+ScSg2: та̄ен
+    тэ̄ӈкве+V+Act+Imprt+ScDu2: [та̄ен, та̄е̄н]
+    тэ̄ӈкве+V+Act+Imprt+ScPl2: [та̄ен, та̄е̄н]
+
+#Active, imeperative,  objective conjugation, single object
+    тэ̄ӈкве+V+Act+Imprt+ScSg2+OcSg3: [та̄елн, та̄е̄лн]
+    тэ̄ӈкве+V+Act+Imprt+ScDu2+OcSg3: [та̄е̄лн, та̄е̄лы̄н]
+    тэ̄ӈкве+V+Act+Imprt+ScPl2+OcSg3: [та̄е̄лн, та̄е̄лы̄н]
+
+#Active, imeperative,  objective conjugation, dual object
+    тэ̄ӈкве+V+Act+Imprt+ScSg2+OcDu3: [та̄егын, та̄е̄гн]
+    тэ̄ӈкве+V+Act+Imprt+ScDu2+OcDu3: [та̄егын, та̄егы̄н]
+    тэ̄ӈкве+V+Act+Imprt+ScPl2+OcDu3: [та̄егын, та̄егы̄н]
+
+#Active, imeperative,  objective conjugation, plural object
+    тэ̄ӈкве+V+Act+Imprt+ScSg2+OcPl3: [та̄ен, та̄е̄н]
+    тэ̄ӈкве+V+Act+Imprt+ScDu2+OcPl3: [та̄ен, та̄е̄н]
+    тэ̄ӈкве+V+Act+Imprt+ScPl2+OcPl3: [та̄ен, та̄е̄н]
+
+#Passive, present tense, indicative
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScSg1: тэ̄вем
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScSg2: тэ̄вен
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScSg3: тэ̄ве
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScDu1: тэ̄веме̄н
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScDu2: [тэ̄вен, тэ̄ве̄н]
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScDu3: тэ̄ве̄г
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScPl1: тэ̄ве̄в
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScPl2: [тэ̄вен, тэ̄ве̄н]
+    тэ̄ӈкве+V+Pass+Ind+Prs+ScPl3: тэ̄вет
+
+#Passive, past tense, indicative
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScSg1: та̄йве̄сум
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScSg2: та̄йве̄сын
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScSg3: [та̄йвес, та̄йве̄с]
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScDu1: та̄йвесаме̄н
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScDu2: [та̄йвесын, та̄йвесы̄н]
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScDu3: та̄йвесы̄г
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScPl1: [та̄йвесув, та̄йвесув]
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScPl2: [та̄йвесын, та̄йвесы̄н]
+    тэ̄ӈкве+V+Pass+Ind+Prt+ScPl3: та̄йве̄сыт
+
+#Passive, conditional
+    тэ̄ӈкве+V+Pass+Cond+ScSg1: [тэ̄нувем, тэ̄нӯвем]
+    тэ̄ӈкве+V+Pass+Cond+ScSg2: [тэ̄нувен, тэ̄нӯвен]
+    тэ̄ӈкве+V+Pass+Cond+ScSg3: [тэ̄нуве, тэ̄нӯве]
+    тэ̄ӈкве+V+Pass+Cond+ScDu1: тэ̄нувеме̄н
+    тэ̄ӈкве+V+Pass+Cond+ScDu2: [тэ̄нувен, тэ̄нуве̄н]
+    тэ̄ӈкве+V+Pass+Cond+ScDu3: [тэ̄нувег, тэ̄нуве̄г]
+    тэ̄ӈкве+V+Pass+Cond+ScPl1: тэ̄нуве̄в
+    тэ̄ӈкве+V+Pass+Cond+ScPl2: [тэ̄нувен, тэ̄нуве̄н]
+    тэ̄ӈкве+V+Pass+Cond+ScPl3: [тэ̄нувет, тэ̄нӯвет]
+
+#Passive, imeperative conjugation
+    тэ̄ӈкве+V+Act+Imp+Sg2: тэ̄гвен
+    тэ̄ӈкве+V+Act+Imp+Du2: [тэ̄гвен, тэ̄гве̄н]
+    тэ̄ӈкве+V+Act+Imp+Pl2: [тэ̄гвен, тэ̄гве̄н]
+
+#Present participle
+    тэ̄ӈкве+V+PrsPrc: тэ̄нэ
+    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэм
+    тэ̄ӈкве+V+PrsPrc+PxSg2: тэ̄нэн
+    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄тэ
+    тэ̄ӈкве+V+PrsPrc+PxDu1: тэ̄нэме̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu2: тэ̄нэнэ̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu3: [тэ̄нэг, тэ̄нэ̄г]
+    тэ̄ӈкве+V+PrsPrc+PxPl1: тэ̄нэ̄в
+    тэ̄ӈкве+V+PrsPrc+PxPl2: [тэ̄нэн, тэ̄нэ̄н]
+    тэ̄ӈкве+V+PrsPrc+PxPl3: [тэ̄нэныл, тэ̄нэ̄ныл]
+
+#Present participle, single object
+    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэ̄лум
+    тэ̄ӈкве+V+PrsPrc+PxSg2: [тэ̄нэ̄лн, тэ̄нэ̄лын]
+    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄тэ
+    тэ̄ӈкве+V+PrsPrc+PxDu1: тэ̄нэламе̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu2: тэ̄нэлы̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu3: тэ̄нэтэ̄н
+    тэ̄ӈкве+V+PrsPrc+PxPl1: [тэ̄нэлув, тэ̄нэлӯв]
+    тэ̄ӈкве+V+PrsPrc+PxPl2: тэ̄нэлы̄н
+    тэ̄ӈкве+V+PrsPrc+PxPl3: [тэ̄нӭнл, тэ̄нэ̄ныл]
+
+#Present participle, dual object
+    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэ̄гум
+    тэ̄ӈкве+V+PrsPrc+PxSg2: [тэ̄нэ̄гн, тӭнэ̄гын]
+    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄гэ
+    тэ̄ӈкве+V+PrsPrc+PxDu1: тэ̄нэгаме̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu2: тэ̄нэгы̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu3: тэ̄нэгэ̄н
+    тэ̄ӈкве+V+PrsPrc+PxPl1: [тэ̄нэгув, тэ̄нэгӯв]
+    тэ̄ӈкве+V+PrsPrc+PxPl2: тэ̄нэгагы̄н
+    тэ̄ӈкве+V+PrsPrc+PxPl3: тэ̄нэгаганыл
+
+#Present participle, plural object
+    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэ̄нум
+    тэ̄ӈкве+V+PrsPrc+PxSg2: тэ̄нэ̄н
+    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄нэ
+    тэ̄ӈкве+V+PrsPrc+PxDu1: [тэ̄нэнаме̄н, тэ̄нэнанме̄н]
+    тэ̄ӈкве+V+PrsPrc+PxDu2: [тэ̄нэны̄н, тэ̄нэныны̄н, тэ̄нэнаны̄н] 
+    тэ̄ӈкве+V+PrsPrc+PxDu3: [тэ̄нэнэ̄н, тэ̄нэнанэ̄н]
+    тэ̄ӈкве+V+PrsPrc+PxPl1: [тэ̄нэнув, тэ̄нэнӯв, тэ̄нэнанув, тэ̄нэнанӯв]
+    тэ̄ӈкве+V+PrsPrc+PxPl2: [тэ̄нэны̄н, тэ̄нэнаны̄н]
+    тэ̄ӈкве+V+PrsPrc+PxPl3: [тэ̄нэ̄нл, тэ̄нэ̄наныл]
+
+#Past participle
+    тэ̄ӈкве+V+PrfPrc: тэ̄м
+    тэ̄ӈкве+V+PrfPrc+PxSg1: тэ̄мум
+    тэ̄ӈкве+V+PrfPrc+PxSg2: тэ̄мын
+    тэ̄ӈкве+V+PrfPrc+PxSg3: тэ̄ме
+    тэ̄ӈкве+V+PrfPrc+PxDu1: тэ̄маме̄н
+    тэ̄ӈкве+V+PrfPrc+PxDu2: [тэ̄мын, тэ̄мы̄н]
+    тэ̄ӈкве+V+PrfPrc+PxDu3: тэ̄мыг
+    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄мув, тэ̄мӯв]
+    тэ̄ӈкве+V+PrfPrc+PxPl2: [тэ̄мын, тэ̄ммы̄н]
+    тэ̄ӈкве+V+PrfPrc+PxPl3: тэ̄мыт
+
+#Past participle, single object
+    тэ̄ӈкве+V+PrfPrc+PxSg1: тэ̄млум
+    тэ̄ӈкве+V+PrfPrc+PxSg2: тэ̄млын
+    тэ̄ӈкве+V+PrfPrc+PxSg3: тэ̄мтэ
+    тэ̄ӈкве+V+PrfPrc+PxDu1: тэ̄мламе̄н
+    тэ̄ӈкве+V+PrfPrc+PxDu2: тэ̄млы̄н
+    тэ̄ӈкве+V+PrfPrc+PxDu3: тэ̄мтэ̄н
+    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄млув, тэ̄млӯв]
+    тэ̄ӈкве+V+PrfPrc+PxPl2: тэ̄млы̄н
+    тэ̄ӈкве+V+PrfPrc+PxPl3: тэ̄маныл
+
+#Past participle, dual object
+    тэ̄ӈкве+V+PrfPrc+PxSg1: тэ̄магум
+    тэ̄ӈкве+V+PrfPrc+PxSg2: тэ̄магын
+    тэ̄ӈкве+V+PrfPrc+PxSg3: тэ̄маге
+    тэ̄ӈкве+V+PrfPrc+PxDu1: [тэ̄магаме̄н, тэ̄магагме̄н]
+    тэ̄ӈкве+V+PrfPrc+PxDu2: [тэ̄магы̄н, тэ̄магагы̄н]
+    тэ̄ӈкве+V+PrfPrc+PxDu3: [тэ̄магы̄г, тэ̄магагы̄г]
+    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄магув, тэ̄магӯв]
+    тэ̄ӈкве+V+PrfPrc+PxPl2: [тэ̄магы̄н, тэ̄магагы̄н]
+    тэ̄ӈкве+V+PrfPrc+PxPl3: [тэ̄магагыл, тэ̄магаганыл]
+
+#Past participle, plural object
+    тэ̄ӈкве+V+PrfPrc+PxSg1: [тэ̄манум, тэ̄мананум]
+    тэ̄ӈкве+V+PrfPrc+PxSg2: [тэ̄ман, тэ̄ма̄нын]
+    тэ̄ӈкве+V+PrfPrc+PxSg3: [тэ̄ма̄нэ, тэ̄мана̄нэ]
+    тэ̄ӈкве+V+PrfPrc+PxDu1: [тэ̄манаме̄н, тэ̄мананме̄н]
+    тэ̄ӈкве+V+PrfPrc+PxDu2: [тэ̄манн, тэ̄маны̄н, тэ̄мананы̄н]
+    тэ̄ӈкве+V+PrfPrc+PxDu3: [тэ̄манэ̄н, тэ̄мананэ̄н]
+    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄манув, тэ̄манӯв, тэ̄мананув, тэ̄мананӯв]
+    тэ̄ӈкве+V+PrfPrc+PxPl2: [тэ̄маны̄н, тэ̄мананы̄н]
+    тэ̄ӈкве+V+PrfPrc+PxPl3: [тэ̄ма̄ныл, тэ̄мана̄ныл]
+
+#Gerund
+    тэ̄ӈкве+V+Ger: та̄им
+    тэ̄ӈкве+V+PrsPrc+PxSg1: та̄имам
+    тэ̄ӈкве+V+PrsPrc+PxSg2: та̄иман
+    тэ̄ӈкве+V+PrsPrc+PxSg3: та̄има
+    тэ̄ӈкве+V+PrsPrc+PxDu1: та̄имаме̄н
+    тэ̄ӈкве+V+PrsPrc+PxDu2: та̄иман
+    тэ̄ӈкве+V+PrsPrc+PxDu3: та̄имаг
+    тэ̄ӈкве+V+PrsPrc+PxPl1: та̄имав
+    тэ̄ӈкве+V+PrsPrc+PxPl2: та̄иман
+    тэ̄ӈкве+V+PrsPrc+PxPl3: та̄имат
+
+#Privative
+    тэ̄ӈкве+V+Ger: тэ̄гтал
+
