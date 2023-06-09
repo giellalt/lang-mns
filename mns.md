@@ -688,6 +688,8 @@ and Mansi-specific names.
 
 :ви INF ;
 
+:йи INF ;
+
 :лы INF ;
 
 :у INF ;
@@ -1147,7 +1149,7 @@ language are presented in this system in terms of the following symbols.
 * **+Trans** hmm, Trans and TV?
 
 ### Compounded words
-* **+CollN** collective noun with inflection in two stems а̄гирищит-пы̄грищит
+* **+Cmp/Coll** collective noun with inflection in two stems а̄гирищит-пы̄грищит
 * **+Cmp** compounding
 
 ### Abbreviated words are classified with:
