@@ -130,7 +130,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Trans !!≈ * **@CODE@** hmm, Trans and TV?
 
 !! ### Compounded words
- +CollN  !!≈ * **@CODE@** collective noun with inflection in two stems а̄гирищит-пы̄грищит
+ +Cmp/Coll  !!≈ * **@CODE@** collective noun with inflection in two stems а̄гирищит-пы̄грищит
  +Cmp  !!≈ * **@CODE@** compounding
 
 !! ### Abbreviated words are classified with:
@@ -557,9 +557,9 @@ LEXICON Root
    Symbols     ;           !!≈ **@CODE@** 
 
 LEXICON COLLECTIVES
-@U.POS.N@+CollN+Use/Circ+Cmp#:@U.POS.N@%- Nouns ; 
-@U.POS.N@+CollN+Use/Circ+Cmp#:@U.POS.N@%- PROP_MANSINAMES ; 
-@U.POS.N@+CollN+Use/Circ+Cmp#:@U.POS.N@%- urj-Cyrl-ProperNouns ; 
+@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- Nouns ; 
+@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- PROP_MANSINAMES ; 
+@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- urj-Cyrl-ProperNouns ; 
 
 
 LEXICON K 
