@@ -34,8 +34,8 @@ Tests:
     йиӈкве+V+Act+Ind+Prt+ScSg3: йис
     йиӈкве+V+Act+Ind+Prt+ScDu1: йисуме̄н
     йиӈкве+V+Act+Ind+Prt+ScDu2: [йисын, йисы̄н]
-    йиӈкве+V+Act+Ind+Prt+ScDu3: йисыг
-    йиӈкве+V+Act+Ind+Prt+ScPl1: йисув, йисӯв
+    йиӈкве+V+Act+Ind+Prt+ScDu3: [йисыг, йисы̄г]
+    йиӈкве+V+Act+Ind+Prt+ScPl1: [йисув, йисӯв]
     йиӈкве+V+Act+Ind+Prt+ScPl2: [йисын, йисы̄н]
     йиӈкве+V+Act+Ind+Prt+ScPl3: йисыт
 
@@ -118,7 +118,7 @@ Tests:
     йиӈкве+V+PrfPrc+PxDu3: [йимег, йиме̄г]
     йиӈкве+V+PrfPrc+PxPl1: [йимув, йимӯв]
     йиӈкве+V+PrfPrc+PxPl2: [йимын, йимы̄н]
-    йиӈкве+V+PrfPrc+PxPl3: [йимыт]
+    йиӈкве+V+PrfPrc+PxPl3: йимыт
 
 #Gerund
     йиӈкве+V+Ger: йийим
