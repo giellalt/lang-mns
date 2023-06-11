@@ -181,6 +181,12 @@ Rules
 "a becomes long"
 !! **RULE: @RULENAME@**
  а:а̄ <=> _ %{VO%}: %> ы̄: ; 
+     _ %{VO%}: %> %{аяLong%}: ;
+
+"ja becomes long"
+!! **RULE: @RULENAME@**
+ я:я̄ <=> _ %{VO%}: %> ы̄: ; 
+     _ %{VO%}: %> %{аяLong%}: ;
 
 "y becomes long"
 !! **RULE: @RULENAME@**
@@ -395,6 +401,13 @@ Rules
 !! __@RULENAME@__
 %{аяLong%}:я̄ <=>   %{ЫИ%}: %> _ ;
 !+Act+Ind+Prs+ScPl3+OcSg3+Err/Orth
+
+"%{аяLong%}:0"
+!! __@RULENAME@__
+%{аяLong%}:0 <=> [ я: | а: ]  %{VO%}: %> _ ;
+
+
+
 
 "%{ЭЕLong%}:э̄"
 !! __@RULENAME@__
