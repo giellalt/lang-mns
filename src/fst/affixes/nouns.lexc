@@ -218,7 +218,7 @@ LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%} PL_X_PXDU2_ajanyyn ;
 :%{SYNCH%} PL_X_PXDU2_ajanyn ;
 :%{SYNCH%} PL_X_PXDU2_ajan ;
-
+:%{SYNCH%} PL_X_PXPL1_ynuv ;
 :%{SYNCH%} PL_X_PXPL2_ajanyyn ;
 :%{SYNCH%} PL_X_PXPL2_ajanyn ;
 :%{SYNCH%} PL_X_PXPL2_ajan ;
@@ -263,6 +263,7 @@ LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%} PL_X_PXDU2_ajanyyn ;
 :%{SYNCS%} PL_X_PXDU3_ajaneen ;
 :%{SYNCS%} PL_X_PXDU3_ajanen ;
+:%{SYNCS%} PL_X_PXPL1_ynuv ;
 :%{SYNCS%} PL_X_PXPL2_ajan ;
 :%{SYNCS%} PL_X_PXPL2_ajanyyn ;
 
@@ -1626,16 +1627,38 @@ LEXICON PL_X_PXPL1_ajanuv
  PL_LAT_PXPL1_ajanuv ;
  PL_LOC_PXPL1_ajanuv ;
  PL_NOM_PXPL1_ajanuv ;
+LEXICON PL_X_PXPL1_ynuv
+ PL_ABL_PXPL1_ynuv ;
+ PL_INS_PXPL1_ynuv ;
+ PL_LAT_PXPL1_ynuv ;
+ PL_LOC_PXPL1_ynuv ;
+ PL_NOM_PXPL1_ynuv ;
+
 LEXICON PL_ABL_PXPL1_ajanuv
 :%>%{аяØ%}нувныл PL_ABL_PXPL1_K ;
+LEXICON PL_ABL_PXPL1_ynuv
+:%>ынувныл PL_ABL_PXPL1_K ;
+
 LEXICON PL_INS_PXPL1_ajanuv
 :%>%{аяØ%}нувтыл PL_INS_PXPL1_K ;
+LEXICON PL_INS_PXPL1_ynuv
+:%>ынувтыл PL_INS_PXPL1_K ;
+:%>ынувл PL_INS_PXPL1_K ;!CHECKME
+
 LEXICON PL_LAT_PXPL1_ajanuv
 :%>%{аяØ%}нувн PL_LAT_PXPL1_K ;
+LEXICON PL_LAT_PXPL1_ynuv
+:%>ынувн PL_LAT_PXPL1_K ;
+
 LEXICON PL_LOC_PXPL1_ajanuv
 :%>%{аяØ%}нувт PL_LOC_PXPL1_K ;
+LEXICON PL_LOC_PXPL1_ynuv
+:%>ынувт PL_LOC_PXPL1_K ;
+
 LEXICON PL_NOM_PXPL1_ajanuv
 :%>%{аяØ%}нув PL_NOM_PXPL1_K ;
+LEXICON PL_NOM_PXPL1_ynuv
+:%>ынув PL_NOM_PXPL1_K ;
 
 !! pl x pxpl2
 
@@ -1717,14 +1740,19 @@ LEXICON PL_X_PXPL3_ajanyl
  PL_NOM_PXPL3_ajanyl ;
 LEXICON PL_ABL_PXPL3_ajanyl
 :%>%{аяØ%}нылныл PL_ABL_PXPL3_K ;
++Err/Orth-long-v:%>%{аяLong%}нылныл PL_ABL_PXPL3_K ;
 LEXICON PL_INS_PXPL3_ajanyl
 :%>%{аяØ%}нылтыл PL_INS_PXPL3_K ;
++Err/Orth-long-v:%>%{аяLong%}нылтыл PL_INS_PXPL3_K ;
 LEXICON PL_LAT_PXPL3_ajanyl
 :%>%{аяØ%}нылн PL_LAT_PXPL3_K ;
++Err/Orth-long-v:%>%{аяLong%}нылн PL_LAT_PXPL3_K ;
 LEXICON PL_LOC_PXPL3_ajanyl
 :%>%{аяØ%}нылт PL_LOC_PXPL3_K ;
++Err/Orth-long-v:%>%{аяLong%}нылт PL_LOC_PXPL3_K ;
 LEXICON PL_NOM_PXPL3_ajanyl
 :%>%{аяØ%}ныл PL_NOM_PXPL3_K ;
++Err/Orth-long-v:%>%{аяLong%}ныл PL_NOM_PXPL3_K ;
 
 !! tags-n-flags
 !! Sg X
@@ -1870,12 +1898,20 @@ LEXICON SG_NOM_PXPL2_K
 !! Sg X PxPl3 has no variation
 LEXICON SG_ABL_PXPL3_K
 @U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl3@+Sg+Abl+PxPl3:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl3@%>%{аяØ%}нылныл K ;
+@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl3@+Sg+Abl+PxPl3+Err/Orth-long-v:@U.DECL-NX.SG@@U.CX.ABL@@U.PossPx.Pl3@%>%{аяLong%}нылныл K ;
+
 LEXICON SG_INS_PXPL3_K
 @U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl3@+Sg+Ins+PxPl3:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl3@%>%{аяØ%}нылтыл K ;
+@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl3@+Sg+Ins+PxPl3+Err/Orth-long-v:@U.DECL-NX.SG@@U.CX.INS@@U.PossPx.Pl3@%>%{аяLong%}нылтыл K ;
+
 LEXICON SG_LAT_PXPL3_K
 @U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl3@+Sg+Lat+PxPl3:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl3@%>%{аяØ%}нылн K ;
+@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl3@+Sg+Lat+PxPl3+Err/Orth-long-v:@U.DECL-NX.SG@@U.CX.LAT@@U.PossPx.Pl3@%>%{аяLong%}нылн K ;
+
 LEXICON SG_LOC_PXPL3_K
 @U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@+Sg+Loc+PxPl3:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@%>%{аяØ%}нылт K ;
+@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@+Sg+Loc+PxPl3+Err/Orth-long-v:@U.DECL-NX.SG@@U.CX.LOC@@U.PossPx.Pl3@%>%{аяLong%}нылт K ;
+
 LEXICON SG_NOM_PXPL3_K
 @U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@+Sg+Nom+PxPl3:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@%>%{аяØ%}ныл K ;
 @U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@+Sg+Nom+PxPl3+Err/Orth-long-v:@U.DECL-NX.SG@@U.CX.NOM@@U.PossPx.Pl3@%>%{аяLong%}ныл K ;
@@ -1889,8 +1925,10 @@ LEXICON DU_LAT_PXSG1_K
 @U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg1@+Du+Lat+PxSg1:@U.DECL-NX.DU@@U.CX.LAT@@U.PossPx.Sg1@%>%{аяØ%}гумн K ;
 LEXICON DU_LOC_PXSG1_K
 @U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg1@+Du+Loc+PxSg1:@U.DECL-NX.DU@@U.CX.LOC@@U.PossPx.Sg1@%>%{аяØ%}гумт K ;
+
 LEXICON DU_NOM_PXSG1_K
 @U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg1@+Du+Nom+PxSg1:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg1@%>%{аяØ%}гум K ;
+@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg1@+Du+Nom+PxSg1+Err/Orth-long-v:@U.DECL-NX.DU@@U.CX.NOM@@U.PossPx.Sg1@%>%{аяLong%}гум K ;
 
 
 LEXICON DU_ABL_PXSG2_K
@@ -2063,15 +2101,15 @@ LEXICON PL_NOM_PXDU3_K
 
 !! pl x pxpl1 has no variation
 LEXICON PL_ABL_PXPL1_K
-@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl1@+Pl+Abl+PxPl1:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl1@%>%{аяØ%}нумныл K ;
+@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl1@+Pl+Abl+PxPl1:@U.DECL-NX.PL@@U.CX.ABL@@U.PossPx.Pl1@ K ;
 LEXICON PL_INS_PXPL1_K
-@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl1@+Pl+Ins+PxPl1:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl1@%>%{аяØ%}нумтыл K ;
+@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl1@+Pl+Ins+PxPl1:@U.DECL-NX.PL@@U.CX.INS@@U.PossPx.Pl1@ K ;
 LEXICON PL_LAT_PXPL1_K
-@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl1@+Pl+Lat+PxPl1:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl1@%>%{аяØ%}нумн K ;
+@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl1@+Pl+Lat+PxPl1:@U.DECL-NX.PL@@U.CX.LAT@@U.PossPx.Pl1@ K ;
 LEXICON PL_LOC_PXPL1_K
-@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl1@+Pl+Loc+PxPl1:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl1@%>%{аяØ%}нумт K ;
+@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl1@+Pl+Loc+PxPl1:@U.DECL-NX.PL@@U.CX.LOC@@U.PossPx.Pl1@ K ;
 LEXICON PL_NOM_PXPL1_K
-@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl1@%>%{аяØ%}нум K ;
+@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl1@+Pl+Nom+PxPl1:@U.DECL-NX.PL@@U.CX.NOM@@U.PossPx.Pl1@ K ;
 
 
 LEXICON PL_ABL_PXPL2_K
