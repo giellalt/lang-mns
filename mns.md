@@ -722,6 +722,10 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 the forms below here need studying. They are probably not what I labled them as20230521
 
+Active Indicative Presence
+
+Active Indicative Preterite
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/verbs.lexc)</small>
@@ -885,6 +889,8 @@ End of alphabet definitions
 vowel lengthening
 **RULE: a becomes long**
 
+**RULE: ja becomes long**
+
 **RULE: y becomes long**
 
 **RULE: long y disappears**
@@ -993,6 +999,8 @@ __%{уюØ%}:ю__
 __%{аяLong%}:а̄__
 
 __%{аяLong%}:я̄__
+
+__%{аяLong%}:0__
 
 __%{ЭЕLong%}:э̄__
 аки

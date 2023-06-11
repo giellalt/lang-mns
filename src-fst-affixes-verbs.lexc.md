@@ -40,6 +40,10 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 the forms below here need studying. They are probably not what I labled them as20230521
 
+Active Indicative Presence
+
+Active Indicative Preterite
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/verbs.lexc)</small>

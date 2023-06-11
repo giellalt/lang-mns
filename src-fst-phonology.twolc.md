@@ -147,6 +147,8 @@ End of alphabet definitions
 vowel lengthening
 **RULE: a becomes long**
 
+**RULE: ja becomes long**
+
 **RULE: y becomes long**
 
 **RULE: long y disappears**
@@ -255,6 +257,8 @@ __%{уюØ%}:ю__
 __%{аяLong%}:а̄__
 
 __%{аяLong%}:я̄__
+
+__%{аяLong%}:0__
 
 __%{ЭЕLong%}:э̄__
 аки
