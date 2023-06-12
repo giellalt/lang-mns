@@ -199,7 +199,7 @@ LEXICON IND_PRES_TEENGKVE
 +Act+Ind+Prs+ScPl1:%>ӯв K ;
 +Act+Ind+Prs+ScPl2:%>ын K ;
 +Act+Ind+Prs+ScPl2+Use/NG:%>ы̄н K ;!2017: 134
-+Act+Ind+Prs+ScPl3:%>ыт K ;
+ ACT_IND_PRS_SCPL3_yt ;
  ACT_IND_PRS_OCSG3_lumeen ;
  ACT_IND_PRS_OCDU3 ;
  ACT_IND_PRS_OCPL3 ;
@@ -375,8 +375,8 @@ LEXICON ACT_IND_PRS_VU
 +Err/Orth+Act+Ind+Prs+ScPl1:%>%{ЭЕ%}в K ;
 +Act+Ind+Prs+ScPl2:%>%{ЭЕLong%}гын K ;
 +Use/NG+Act+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
- ACT_IND_PRT_SCPL3_eegyt ;!CHECKME йӣкве̄гыт
- ACT_IND_PRT_SCPL3_yt ;!CHECKME йӣквыт
+ ACT_IND_PRS_SCPL3_eegyt ;!CHECKME йӣкве̄гыт
+
 !
 :%>%{ЫИ%} ACT_IND_PRS_OCSG3_lumeen ;
 
@@ -768,9 +768,9 @@ LEXICON VABE
 
 !! Active Indicative Presence
 
-LEXICON ACT_IND_PRT_SCPL3_yt
+LEXICON ACT_IND_PRS_SCPL3_yt
 +Act+Ind+Prs+ScPl3:%>ыт K ;
-LEXICON ACT_IND_PRT_SCPL3_eegyt
+LEXICON ACT_IND_PRS_SCPL3_eegyt
 +Act+Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт K ;
 
 
