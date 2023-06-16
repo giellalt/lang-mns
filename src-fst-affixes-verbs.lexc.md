@@ -1,7 +1,5 @@
 # Verb inflection for Mansi
 
-## Copula
-
 :ми INF ;
 
 :ви INF ;

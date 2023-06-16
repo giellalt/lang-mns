@@ -682,8 +682,6 @@ and Mansi-specific names.
 
 # Verb inflection for Mansi
 
-## Copula
-
 :ми INF ;
 
 :ви INF ;
@@ -1602,8 +1600,8 @@ added to the xml source files.
 **LEXICON PROP_MANSINAMES**
 
 Ӣсус+N+Prop+Sem/Mal:Ӣсус N_VCH ;
-Лука+N+Prop+Sem/Mal:Лука N_VO ;
 Кристос+N+Prop+Sem/Mal:Кристос N_VCH ;
+Лука+N+Prop+Sem/Mal:Лука N_VO ;
 ...
 
 ADD PROPER NOUNS BELOW
