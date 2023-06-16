@@ -26,6 +26,7 @@ LEXICON TEENGKVE !тэ̄ӈкве+V:тэ̄
  V11_MUTUAL_PASS_PRS ;
 :й PASS_PRT ;
  PASS_COND ;
+
 LEXICON MINGKVE
 :ми INF ; !!≈ @CODE@
 :ми PRSPRC ;
@@ -118,7 +119,7 @@ LEXICON JINGKVE
 :йи PASS_COND ;
 :йи PASS_IMPRT ;
 :йи GER ;
-:йи VABE ;
+:йим VABESS ;
 
 LEXICON LYNGKVE
 :лы INF ; !!≈ @CODE@
@@ -766,8 +767,8 @@ LEXICON GER
 +Ger+PxPl3:%>йимат K ;
 
 !#Privative
-LEXICON VABE
-+VAbe:%>мтал K ;
+LEXICON VABESS
++VAbess:%>тал K ;
 
 !! Active Indicative Presence
 

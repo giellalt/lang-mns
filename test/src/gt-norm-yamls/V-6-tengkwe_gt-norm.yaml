@@ -202,9 +202,9 @@ Tests:
     тэ̄ӈкве+V+Pass+Cond+ScPl3: [тэ̄нувет, тэ̄нӯвет]
 
 #Passive, imeperative conjugation
-    тэ̄ӈкве+V+Act+Imp+Sg2: тэ̄гвен
-    тэ̄ӈкве+V+Act+Imp+Du2: [тэ̄гвен, тэ̄гве̄н]
-    тэ̄ӈкве+V+Act+Imp+Pl2: [тэ̄гвен, тэ̄гве̄н]
+    тэ̄ӈкве+V+Act+Imprt+Sg2: тэ̄гвен
+    тэ̄ӈкве+V+Act+Imprt+Du2: [тэ̄гвен, тэ̄гве̄н]
+    тэ̄ӈкве+V+Act+Imprt+Pl2: [тэ̄гвен, тэ̄гве̄н]
 
 #Present participle
     тэ̄ӈкве+V+PrsPrc: тэ̄нэ
@@ -298,16 +298,16 @@ Tests:
 
 #Gerund
     тэ̄ӈкве+V+Ger: та̄им
-    тэ̄ӈкве+V+PrsPrc+PxSg1: та̄имам
-    тэ̄ӈкве+V+PrsPrc+PxSg2: та̄иман
-    тэ̄ӈкве+V+PrsPrc+PxSg3: та̄има
-    тэ̄ӈкве+V+PrsPrc+PxDu1: та̄имаме̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu2: та̄иман
-    тэ̄ӈкве+V+PrsPrc+PxDu3: та̄имаг
-    тэ̄ӈкве+V+PrsPrc+PxPl1: та̄имав
-    тэ̄ӈкве+V+PrsPrc+PxPl2: та̄иман
-    тэ̄ӈкве+V+PrsPrc+PxPl3: та̄имат
+    тэ̄ӈкве+V+Ger+PxSg1: та̄имам
+    тэ̄ӈкве+V+Ger+PxSg2: та̄иман
+    тэ̄ӈкве+V+Ger+PxSg3: та̄има
+    тэ̄ӈкве+V+Ger+PxDu1: та̄имаме̄н
+    тэ̄ӈкве+V+Ger+PxDu2: та̄иман
+    тэ̄ӈкве+V+Ger+PxDu3: та̄имаг
+    тэ̄ӈкве+V+Ger+PxPl1: та̄имав
+    тэ̄ӈкве+V+Ger+PxPl2: та̄иман
+    тэ̄ӈкве+V+Ger+PxPl3: та̄имат
 
 #Privative
-    тэ̄ӈкве+V+Ger: тэ̄гтал
+    тэ̄ӈкве+V+VAbess: тэ̄гтал
 
