@@ -38,6 +38,8 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 the forms below here need studying. They are probably not what I labled them as20230521
 
+the forms below here need studying. They are probably not what I labled them as20230521
+
 Active Indicative Presence
 
 Active Indicative Preterite

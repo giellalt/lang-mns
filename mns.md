@@ -720,6 +720,8 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 the forms below here need studying. They are probably not what I labled them as20230521
 
+the forms below here need studying. They are probably not what I labled them as20230521
+
 Active Indicative Presence
 
 Active Indicative Preterite
@@ -854,6 +856,9 @@ End of alphabet definitions
 ## Rules
 
 **RULE: Syncope for ы**  
+тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: __eat/syödä__
+* *тэ̄>ыслум*
+* *тэ̄>0слум*
 * *ловиньт{VA}>{аяØ}>ыс*
 * *ловиньт0>а>0с*
 павыл+N+Pl+Nom:
