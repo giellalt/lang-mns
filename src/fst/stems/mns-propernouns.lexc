@@ -7,175 +7,187 @@
 LEXICON PROP_MANSINAMES
 !! **LEXICON @LEXNAME@**
 
-Иоан+N+Prop:Иоан N_VCH ;
 Иерусалим+N+Prop:Иерусалим N_VCH ;
-Пилат+N+Prop:Пилат N_VCH ;
 
-Давид+N+Prop:Давид N_VCH ;
-Юдея+N+Prop:Юдея N_VO ;
-Вифания+N+Prop:Вифания N_VO ;
-Иордан+N+Prop:Иордан N_VCH ;
-Ле̄ви+N+Prop:Ле̄ви N_VI ;
-Капернаум+N+Prop:Капернаум N_VCH ;
-Вифсаида+N+Prop:Вифсаида N_VO ;
-Вартимей+N+Prop:Вартимей N_VCS ;
-Зеведей+N+Prop:Зеведей N_VCS ;
-Иродида+N+Prop:Иродида N_VO ;
-Сидон+N+Prop:Сидон N_VCH ;
-Елеон+N+Prop:Елеон N_VCH ;
-Тир+N+Prop:Тир N_VCH ;
-Гефсимания+N+Prop:Гефсимания N_VO ;
-Декаполис+N+Prop:Декаполис N_VCH ;
-Саломия+N+Prop:Саломия N_VO ;
-Сатана+N+Prop:Сатана N_VO ;
-Алфей+N+Prop:Алфей N_VCS ;
-Элои+N+Prop:Элои N_VI ;
-Геннисарет+N+Prop:Геннисарет N_VCH ;
-Идумея+N+Prop:Идумея N_VO ;
-Виффагия+N+Prop:Виффагия N_VO ;
-Финикия+N+Prop:Финикия N_VO ;
-Киринея+N+Prop:Киринея N_VO ;
-Кесария+N+Prop:Кесария N_VO ;
-Иерихон+N+Prop:Иерихон N_VCH ;
-Голгофа+N+Prop:Голгофа N_VO ;
+
+ 
 Авиафар+N+Prop:Авиафар N_VCH ;
-филипп+N+Prop:филипп N_VCCH ;
-Талифа+N+Prop:Талифа N_VO ;
-Матфей+N+Prop:Матфей N_VCS ;
-Иоанын+N+Prop:Иоанын N_VCH ;
-Еффата+N+Prop:Еффата N_VO ;
-Данийл+N+Prop:Данийл N_VCCH ;
-Гераса+N+Prop:Гераса N_VO ;
+Алфей+N+Prop:Алфей N_VCS ;
+Вартимей+N+Prop:Вартимей N_VCS ;
+Виплēем+N+Prop+Sem/Plc:Виплēем N_VCH ;
+Вифания+N+Prop:Вифания N_VO ;
+Вифсаида+N+Prop:Вифсаида N_VO ;
+Виффагия+N+Prop:Виффагия N_VO ;
 Галилeя+N+Prop:Галилeя N_VO ;
-Тимей+N+Prop:Тимей N_VCS ;
-Пилат+N+Prop:Пилат N_VCH ;
-Руфус+N+Prop:Руфус N_VCH ;
+Геннисарет+N+Prop:Геннисарет N_VCH ;
+Гераса+N+Prop:Гераса N_VO ;
+Гефсимания+N+Prop:Гефсимания N_VO ;
+Голгофа+N+Prop:Голгофа N_VO ;
+Давид+N+Prop:Давид N_VCH ;
+Данийл+N+Prop:Данийл N_VCCH ;
+Декаполис+N+Prop:Декаполис N_VCH ;
+Елеон+N+Prop:Елеон N_VCH ;
+Еффата+N+Prop:Еффата N_VO ;
+Зеведей+N+Prop:Зеведей N_VCS ;
+Идумея+N+Prop:Идумея N_VO ;
+Иерихон+N+Prop:Иерихон N_VCH ;
+Ӣлия+N+Prop:Ӣлия N_VO ;
+Иоан+N+Prop:Иоан N_VCH ;
+Иоанын+N+Prop:Иоанын N_VCH ;
+Иордан+N+Prop:Иордан N_VCH ;
 Иосий+N+Prop:Иосий N_VCS ;
 Ирод+N+Prop:Ирод N_VCH ;
+Иродида+N+Prop:Иродида N_VO ;
+Ӣсус+N+Prop+Sem/Mal:Ӣсус N_VCH ; !!≈ @CODE@
+Капернаум+N+Prop:Капернаум N_VCH ;
+Кесария+N+Prop:Кесария N_VO ;
+Киринея+N+Prop:Киринея N_VO ;
+Кристос+N+Prop+Sem/Mal:Кристос N_VCH ; !!≈ @CODE@
+Ле̄ви+N+Prop:Ле̄ви N_VI ;
+Лука+N+Prop+Sem/Mal:Лука N_VO ; !!≈ @CODE@
+Матфей+N+Prop:Матфей N_VCS ;
+Назарет+N+Prop+Sem/Plc:Назарет N_VCH ;
+Пе̄тыр+N+Prop:Пе̄тыр N_NOSYNCH ;
+Пилат+N+Prop:Пилат N_VCH ;
+Пилат+N+Prop:Пилат N_VCH ;
+Рождество+N+Prop+Sem/Time:Рождество N_VO ;
+Руфус+N+Prop:Руфус N_VCH ;
+Саломия+N+Prop:Саломия N_VO ;
+Сатана+N+Prop:Сатана N_VO ;
+Сату+N+Prop+Sem/Fem:Сату N_VO ;
+Сидон+N+Prop:Сидон N_VCH ;
+Талифа+N+Prop:Талифа N_VO ;
+Тимей+N+Prop:Тимей N_VCS ;
+Тир+N+Prop:Тир N_VCH ;
+Ӯщуп+N+Prop+Sem/Mal:Ӯщуп N_VCH ; !! ...
+филипп+N+Prop:филипп N_VCCH ;
+Финикия+N+Prop:Финикия N_VO ;
+Фома+N+Prop:Фома N_VO ;
+Элои+N+Prop:Элои N_VI ;
+Юдея+N+Prop:Юдея N_VO ;
 Юдея+N+Prop:Юдея N_VO ;
 Юсий+N+Prop:Юсий N_VCS ;
-Фома+N+Prop:Фома N_VO ;
 Яир+N+Prop:Яир N_VCH ;
-Ӣлия+N+Prop:Ӣлия N_VO ;
-Пе̄тыр+N+Prop:Пе̄тыр N_NOSYNCH ;
+Митрипан+N+Prop:Митрипан N_VCH ;
+Пе̄тр+N+Prop:Пе̄тр N_VCCH ;
+Антал+N+Prop:Антал N_VCH ;
+Данил+N+Prop:Данил N_VCH ;
 
-Ӣсус+N+Prop+Sem/Mal:Ӣсус N_VCH ; !!≈ @CODE@
-Лука+N+Prop+Sem/Mal:Лука N_VO ; !!≈ @CODE@
-Кристос+N+Prop+Sem/Mal:Кристос N_VCH ; !!≈ @CODE@
-Ӯщуп+N+Prop+Sem/Mal:Ӯщуп N_VCH ; !! ...
-Виплēем+N+Prop+Sem/Plc:Виплēем N_VCH ;
-Назарет+N+Prop+Sem/Plc:Назарет N_VCH ;
-Сату+N+Prop+Sem/Fem:Сату N_VO ;
-Рождество+N+Prop+Sem/Time:Рождество N_VO ;
- 
+
 Нё̄р+N+Prop+Sem/Plc:Нё̄р N_VCH "(eng) the Urals/(hun) Urál/(rus) Урал" ;
 !! ADD PROPER NOUNS BELOW
-Берёзово+N+Prop+Sem/Plc:Берёзово N_VO "Берёзово /селение/"	;
-Росщия+N+Prop+Sem/Plc:Росщия N_VO "Россия"	;
-Сӣбирь+N+Prop+Sem/Plc:Сӣбирь N_VCS ;
-Со̄с-я̄+N+Prop+Sem/Plc:Со̄с-я̄ N_VO ;
-Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCH ;
-А̄с+N+Prop+Sem/Plc:А̄с N_VCH "Обь" ;
 
 
-Ха̄льпус+N+Prop+Sem/Plc:Ха̄льпус N_VCH ;
-Хонтаӈ+N+Prop+Sem/Plc:Хонтаӈ N_VCH ;
 
-Ха̄льӯс+N+Prop+Sem/Plc:Ха̄льӯс N_VCH ;
-Югра+N+Prop+Sem/Plc:Югра N_VO ;
-То̄рум+N+Prop+Sem/Ani:То̄рум N_VCH "Бог" ;
-Югры+N+Prop+Sem/Plc:Югры N_VI ;
-Белоярский+N+Prop+Sem/Plc:Белоярский N_VCS ;
-Кульпас+N+Prop+Sem/Plc:Кульпас N_VCH ;
-Дума+N+Prop+Sem/Org:Дума N_VO ;
-Саранпа̄выл+N+Prop+Sem/Plc:Саранпа̄выл N_VCH "села" ;
-Ягрим+N+Prop+Sem/Plc:Ягрим N_VCH ;
-Геращимова+N+Prop:Геращимова N_VO ;
-Митрипан+N+Prop:Митрипан N_VCH ;
-Юван+N+Prop+Sem/Plc:Юван N_VCH ;
-Ло̄пмус+N+Prop+Sem/Plc:Ло̄пмус N_VCH ;
-Сӯкыръя+N+Prop+Sem/Plc:Сӯкыръя N_VO ;
-Ня̄хщамво̄ль+N+Prop+Sem/Plc:Ня̄хщамво̄ль N_VCS ;
-Кондинский+N+Prop+Sem/Plc:Кондинский N_VCS ;
-Тэ̄к+N+Prop+Sem/Plc:Тэ̄к N_VCH ;
-Нягань+N+Prop+Sem/Plc:Нягань N_VCS ;
-Хулюмсӯнт+N+Prop+Sem/Plc:Хулюмсӯнт N_VCH ;
-А̄нъя+N+Prop+Sem/Plc:А̄нъя N_VO ;
-Восыӈтӯр+N+Prop+Sem/Plc:Восыӈтӯр N_VCH ;
-Салехард+N+Prop+Sem/Plc:Салехард N_VCCH ;
-Ха̄льӯсн+N+Prop+Sem/Plc:Ха̄льӯсн N_VCCH ;
-Нефтеюганск+N+Prop+Sem/Plc:Нефтеюганск N_VCCH ;
-Во̄ртур+N+Prop+Sem/Plc:Во̄ртур N_VCH ;
-Я̄сунт+N+Prop+Sem/Plc:Я̄сунт N_VCCH ;
-Кондина+N+Prop+Sem/Plc:Кондина N_VO ;
-Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCCH ;
-Думат+N+Prop+Sem/Plc:Думат N_VCH ;
-Мегион+N+Prop+Sem/Plc:Мегион N_VCH ;
-Кышик+N+Prop+Sem/Plc:Кышик N_VCH ;
-Когалым+N+Prop+Sem/Plc:Когалым N_VCH ;
-Кимкъясӯй+N+Prop+Sem/Plc:Кимкъясӯй N_VCS ;
-Хо̄нтаӈ+N+Prop+Sem/Plc:Хо̄нтаӈ N_VCH ;
-Юграт+N+Prop+Sem/Plc:Юграт N_VCH ;
-Сайнахова+N+Prop+Sem/Plc:Сайнахова N_VO ;
-Нумто+N+Prop+Sem/Plc:Нумто N_VO ;
-Нефтеюганский+N+Prop+Sem/Plc:Нефтеюганский N_VCS ;
-Узель+N+Prop+Sem/Plc:Узель N_VCS ;
-Хо̄сло̄х+N+Prop+Sem/Plc:Хо̄сло̄х N_VCH ;
-Лянтор+N+Prop+Sem/Plc:Лянтор N_VCH ;
-Тӯрва̄т+N+Prop+Sem/Plc:Тӯрва̄т N_VCH ;
-Русскинская+N+Prop+Sem/Plc:Русскинская N_VO ;
-Кимкъясуй+N+Prop+Sem/Plc:Кимкъясуй N_VCS ;
-Полноват+N+Prop+Sem/Plc:Полноват N_VCH ;
-Данил+N+Prop+Sem/Plc:Данил N_VCH ;
-Леуши+N+Prop+Sem/Plc:Леуши N_VI ;
-Шугур+N+Prop+Sem/Plc:Шугур N_VCH ;
-Ванзеват+N+Prop+Sem/Plc:Ванзеват N_VCH ;
-Антал+N+Prop+Sem/Plc:Антал N_VCH ;
-Няхлаӈ+N+Prop+Sem/Plc:Няхлаӈ N_VCH ;
-Пыть-Ях+N+Prop+Sem/Plc:Пыть-Ях N_VCH ;
-Станиславец+N+Prop+Sem/Plc:Станиславец N_VCH ;
-Лангепас+N+Prop+Sem/Plc:Лангепас N_VCH ;
-Таёжный+N+Prop+Sem/Plc:Таёжный N_VCS ;
-Э̄ква-Пыгрищ+N+Prop+Sem/Plc:Э̄ква-Пыгрищ N_VCS ;
-Тугияны+N+Prop+Sem/Plc:Тугияны N_VI ;
-Пе̄тр+N+Prop+Sem/Plc:Пе̄тр N_VCCH ;
+
 Айваседа+N+Prop+Sem/Plc:Айваседа N_VO ;
-Сортыӈъя+N+Prop+Sem/Plc:Сортыӈъя N_VO ;
-Рахтынья+N+Prop+Sem/Plc:Рахтынья N_VO ;
-Лэ̄пла+N+Prop+Sem/Plc:Лэ̄пла N_VO ;
-Ушма+N+Prop+Sem/Plc:Ушма N_VO ;
+А̄нъя+N+Prop+Sem/Plc:А̄нъя N_VO ;
+А̄с+N+Prop+Sem/Plc:А̄с N_VCH "Обь" ;
+Белоярский+N+Prop+Sem/Plc:Белоярский N_VCS ;
+Берёзово+N+Prop+Sem/Plc:Берёзово N_VO "Берёзово /селение/"	;
+Ванзеват+N+Prop+Sem/Plc:Ванзеват N_VCH ;
 Варъёган+N+Prop+Sem/Plc:Варъёган N_VCH ;
-Савва+N+Prop+Sem/Plc:Савва N_VO ;
-Хо̄рыӈпа̄выл+N+Prop+Sem/Plc:Хо̄рыӈпа̄выл N_VCH ;
-Шеркалы+N+Prop+Sem/Plc:Шеркалы N_VI ;
-Юильск+N+Prop+Sem/Plc:Юильск N_VCCH ;
-Приобье+N+Prop+Sem/Plc:Приобье N_VO ;
-Са̄пса+N+Prop+Sem/Plc:Са̄пса N_VO ;
-Ивдель+N+Prop+Sem/Plc:Ивдель N_VCS ;
-Пума+N+Prop+Sem/Plc:Пума N_VO ;
-Ке̄расколыӈъя+N+Prop+Sem/Plc:Ке̄расколыӈъя N_VO ;
-Солнечный+N+Prop+Sem/Plc:Солнечный N_VCS ;
+Во̄ртур+N+Prop+Sem/Plc:Во̄ртур N_VCH ;
+Восыӈтӯр+N+Prop+Sem/Plc:Восыӈтӯр N_VCH ;
 Вэлла+N+Prop+Sem/Plc:Вэлла N_VO ;
+Геращимова+N+Prop:Геращимова N_VO ; !CHECKME
+Дума+N+Prop+Sem/Org:Дума N_VO ;
+Думат+N+Prop+Sem/Plc:Думат N_VCH ;
+Ивдель+N+Prop+Sem/Plc:Ивдель N_VCS ;
 Карымкары+N+Prop+Sem/Plc:Карымкары N_VI ;
-Радужный+N+Prop+Sem/Plc:Радужный N_VCS ;
-Улякщи+N+Prop+Sem/Plc:Улякщи N_VI ;
-Хмао+N+Prop+Sem/Plc:Хмао N_VO ;
-СССР+N+Prop+Sem/Plc:СССР N_VCCH ; !СССРыт
-Покачи+N+Prop+Sem/Plc:Покачи N_VI ;
-Ма̄нья+N+Prop+Sem/Plc:Ма̄нья N_VO ;
+Ке̄расколыӈъя+N+Prop+Sem/Plc:Ке̄расколыӈъя N_VO ;
+
+Кимкъясуй+N+Prop+Sem/Plc:Кимкъясуй N_VCS ; !CHECKME primary?
+Кимкъясӯй+N+Prop+Sem/Plc:Кимкъясӯй N_VCS ; !CHECKME
+
+Когалым+N+Prop+Sem/Plc:Когалым N_VCH ;
+Кондина+N+Prop+Sem/Plc:Кондина N_VO ;
+Кондинский+N+Prop+Sem/Plc:Кондинский N_VCS ;
+Кульпас+N+Prop+Sem/Plc:Кульпас N_VCH ;
+Кышик+N+Prop+Sem/Plc:Кышик N_VCH ;
+Лангепас+N+Prop+Sem/Plc:Лангепас N_VCH ;
+Леуши+N+Prop+Sem/Plc:Леуши N_VI ;
+Ло̄пмус+N+Prop+Sem/Plc:Ло̄пмус N_VCH ;
+Лэ̄пла+N+Prop+Sem/Plc:Лэ̄пла N_VO ;
+Лянтор+N+Prop+Sem/Plc:Лянтор N_VCH ;
 Маина+N+Prop+Sem/Plc:Маина N_VO ;
+Ма̄нья+N+Prop+Sem/Plc:Ма̄нья N_VO ;
+Мегион+N+Prop+Sem/Plc:Мегион N_VCH ;
+Нефтеюганск+N+Prop+Sem/Plc:Нефтеюганск N_VCCH ;
+Нефтеюганский+N+Prop+Sem/Plc:Нефтеюганский N_VCS ;
+Нумто+N+Prop+Sem/Plc:Нумто N_VO ;
+Нягань+N+Prop+Sem/Plc:Нягань N_VCS ;
+Няхлаӈ+N+Prop+Sem/Plc:Няхлаӈ N_VCH ;
+Ня̄хщамво̄ль+N+Prop+Sem/Plc:Ня̄хщамво̄ль N_VCS ;
+Покачи+N+Prop+Sem/Plc:Покачи N_VI ;
+Полноват+N+Prop+Sem/Plc:Полноват N_VCH ;
 Полуночный+N+Prop+Sem/Plc:Полуночный N_VCS ;
-Шапша+N+Prop+Sem/Plc:Шапша N_VO ;
-Ха̄ӈла+N+Prop+Sem/Plc:Ха̄ӈла N_VO ;
-Угут+N+Prop+Sem/Plc:Угут N_VCH ;
+Приобье+N+Prop+Sem/Plc:Приобье N_VO ;
+Пума+N+Prop+Sem/Plc:Пума N_VO ;
+Пыть-Ях+N+Prop+Sem/Plc:Пыть-Ях N_VCH ;
+Радужный+N+Prop+Sem/Plc:Радужный N_VCS ;
+Рахтынья+N+Prop+Sem/Plc:Рахтынья N_VO ;
+Росщия+N+Prop+Sem/Plc:Росщия N_VO "Россия"	;
+Русскинская+N+Prop+Sem/Plc:Русскинская N_VO ;
+
+Савва+N+Prop+Sem/Plc:Савва N_VO ; !CHECKME male name
+Сайнахова+N+Prop+Sem/Plc:Сайнахова N_VO ;
+Са̄пса+N+Prop+Sem/Plc:Са̄пса N_VO ;
+Саранпа̄выл+N+Prop+Sem/Plc:Саранпа̄выл N_VCH "села" ;
+Сӣбирь+N+Prop+Sem/Plc:Сӣбирь N_VCS ;
 Силава+N+Prop+Sem/Plc:Силава N_VO ;
-Иртыш+N+Prop+Sem/Plc:Иртыш N_VCH ;
-Москва+N+Prop+Sem/Plc:Москва	N_VO	"Москва"	;
-Сургут+N+Prop+Sem/Plc:Сургут N_VCH ;
-А̄ля+N+Prop+Sem/Plc:А̄ля N_VO ;
-Ӣля+N+Prop+Sem/Plc:Ӣля N_VO ;
-Ромбандеева+N+Prop+Sem/Plc:Ромбандеева N_VO ;
-Хозумова+N+Prop+Sem/Plc:Хозумова N_VO ;
+Солнечный+N+Prop+Sem/Plc:Солнечный N_VCS ;
+Сортыӈъя+N+Prop+Sem/Plc:Сортыӈъя N_VO ;
+Со̄с-я̄+N+Prop+Sem/Plc:Со̄с-я̄ N_VO ;
+Станиславец+N+Prop+Sem/Plc:Станиславец N_VCH ;
+Сӯкыръя+N+Prop+Sem/Plc:Сӯкыръя N_VO ;
+Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCCH ;
+Та̄гт+N+Prop+Sem/Plc:Та̄гт N_VCH ;
+Таёжный+N+Prop+Sem/Plc:Таёжный N_VCS ;
+То̄рум+N+Prop+Sem/Ani:То̄рум N_VCH "Бог" ;
+Тугияны+N+Prop+Sem/Plc:Тугияны N_VI ;
+Тӯрва̄т+N+Prop+Sem/Plc:Тӯрва̄т N_VCH ;
+Тэ̄к+N+Prop+Sem/Plc:Тэ̄к N_VCH ;
+Угут+N+Prop+Sem/Plc:Угут N_VCH ;
+Узель+N+Prop+Sem/Plc:Узель N_VCS ;
+Улякщи+N+Prop+Sem/Plc:Улякщи N_VI ;
+Ушма+N+Prop+Sem/Plc:Ушма N_VO ;
+Ха̄льпус+N+Prop+Sem/Plc:Ха̄льпус N_VCH ;
+Ха̄льӯс+N+Prop+Sem/Plc:Ха̄льӯс N_VCH ;
+Ха̄льӯсн+N+Prop+Sem/Plc:Ха̄льӯсн N_VCCH ;
+Ха̄ӈла+N+Prop+Sem/Plc:Ха̄ӈла N_VO ;
+Хмао+N+Prop+Sem/Plc:Хмао N_VO ;
+
+Хонтаӈ+N+Prop+Sem/Plc:Хонтаӈ N_VCH ; !CHECKME
+Хо̄нтаӈ+N+Prop+Sem/Plc:Хо̄нтаӈ N_VCH ; !CHECKME
+
+Хо̄рыӈпа̄выл+N+Prop+Sem/Plc:Хо̄рыӈпа̄выл N_VCH ;
+Хо̄сло̄х+N+Prop+Sem/Plc:Хо̄сло̄х N_VCH ;
+Хулюмсӯнт+N+Prop+Sem/Plc:Хулюмсӯнт N_VCH ;
+Шапша+N+Prop+Sem/Plc:Шапша N_VO ;
+Шеркалы+N+Prop+Sem/Plc:Шеркалы N_VI ;
+Шугур+N+Prop+Sem/Plc:Шугур N_VCH ;
+Э̄ква-Пыгрищ+N+Prop+Sem/Plc:Э̄ква-Пыгрищ N_VCS ;
+Юван+N+Prop+Sem/Plc:Юван N_VCH ;
+Югра+N+Prop+Sem/Plc:Югра N_VO ;
+Юграт+N+Prop+Sem/Plc:Юграт N_VCH ;
+Югры+N+Prop+Sem/Plc:Югры N_VI ;
+Юильск+N+Prop+Sem/Plc:Юильск N_VCCH ;
+Ягрим+N+Prop+Sem/Plc:Ягрим N_VCH ;
+Я̄сунт+N+Prop+Sem/Plc:Я̄сунт N_VCCH ;
+
+Салехард+N+Prop+Sem/Plc:Салехард N_VCCH ; !CHECKME
+СССР+N+Prop+Sem/Plc:СССР N_VCCH ; !СССРыт CHECKME
+
+!Иртыш+N+Prop+Sem/Plc:Иртыш N_VCH ;
+!Москва+N+Prop+Sem/Plc:Москва	N_VO	"Москва"	;
+!Сургут+N+Prop+Sem/Plc:Сургут N_VCH ;
+
+А̄ля+N+Prop:А̄ля N_VO ;
+Ӣля+N+Prop:Ӣля N_VO ;
+Ӣлья+N+Prop:Ӣлья N_VO ;
+
+!Хозумова+N+Prop+Sem/Plc:Хозумова N_VO ;
 
 
 
