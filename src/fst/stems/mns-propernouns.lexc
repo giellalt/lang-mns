@@ -176,18 +176,12 @@ LEXICON PROP_MANSINAMES
 Ягрим+N+Prop+Sem/Plc:Ягрим N_VCH ;
 Я̄сунт+N+Prop+Sem/Plc:Я̄сунт N_VCCH ;
 
-Салехард+N+Prop+Sem/Plc:Салехард N_VCCH ; !CHECKME
 СССР+N+Prop+Sem/Plc:СССР N_VCCH ; !СССРыт CHECKME
-
-!Иртыш+N+Prop+Sem/Plc:Иртыш N_VCH ;
-!Москва+N+Prop+Sem/Plc:Москва	N_VO	"Москва"	;
-!Сургут+N+Prop+Sem/Plc:Сургут N_VCH ;
 
 А̄ля+N+Prop:А̄ля N_VO ;
 Ӣля+N+Prop:Ӣля N_VO ;
 Ӣлья+N+Prop:Ӣлья N_VO ;
 
-!Хозумова+N+Prop+Sem/Plc:Хозумова N_VO ;
 
 
 
