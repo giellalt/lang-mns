@@ -141,6 +141,10 @@ Rules
   ы [%{VI%}:]  %> _ [н] ; ! PxSg2
   [%{VO%}:]  %> _ [г|т|л|н|м] ; !Pl, Tra, Du,PxPl2
  Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %>  %{ыиØ%}: т ; !Loc
+  [э̄] %> _ ;
+!! тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: __eat/syödä__
+!!€ тэ̄>ыслум
+!!€ тэ̄>0слум
 !!€ ловиньт{VA}>{аяØ}>ыс
 !!€ ловиньт0>а>0с
 !! павыл+N+Pl+Nom:
@@ -424,6 +428,7 @@ Rules
   %{ЭЕLong%}:е̄ <=> [ CnsSoft | CnsNonAlv | ь: | й: | р] %{VA%}: %> _ ;
  !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
  !!€ ха̄л0%>0е̄н
+ а̄ %> _ ;
  [ CnsSoft | CnsNonAlv | ь: | й: | р] [%{VA%}:|%{VU%}:] %> _ [г | в ] ;
     CnsNonAlv [ %{VCH%}:|%{VCCH%}:] %> _ ;
   [ CnsSoft | CnsNonAlv | ь: | й: | р] %{SYNCH%}: %> (%{тØ%}:) _ ;
@@ -457,6 +462,7 @@ Rules
 !! __@RULENAME@__
  %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: | й:] [%{VU%}:|%{VA%}:] %>  _  ;
  [ [р| CnsNonAlv] [%{VCH%}:|%{VCCH%}:|%{SYNCH%}:] |Pal| %{SYNCS%}:] %> (%{тØ%}:) _  ;
+             	     а̄ %>  _ ;
 !!€ ха̄ль%>%{тØ%}%{ЭЕ%}
 !!€ ха̄л0%>0е
 !!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
