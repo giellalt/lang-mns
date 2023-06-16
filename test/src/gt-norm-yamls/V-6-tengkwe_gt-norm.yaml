@@ -201,10 +201,10 @@ Tests:
     тэ̄ӈкве+V+Pass+Cond+ScPl2: [тэ̄нувен, тэ̄нуве̄н]
     тэ̄ӈкве+V+Pass+Cond+ScPl3: [тэ̄нувет, тэ̄нӯвет]
 
-#Passive, imeperative conjugation
-    тэ̄ӈкве+V+Act+Imprt+Sg2: тэ̄гвен
-    тэ̄ӈкве+V+Act+Imprt+Du2: [тэ̄гвен, тэ̄гве̄н]
-    тэ̄ӈкве+V+Act+Imprt+Pl2: [тэ̄гвен, тэ̄гве̄н]
+#Passive, imperative conjugation
+    тэ̄ӈкве+V+Pass+Imprt+Sg2: тэ̄гвен
+    тэ̄ӈкве+V+Pass+Imprt+Du2: [тэ̄гвен, тэ̄гве̄н]
+    тэ̄ӈкве+V+Pass+Imprt+Pl2: [тэ̄гвен, тэ̄гве̄н]
 
 #Present participle
     тэ̄ӈкве+V+PrsPrc: тэ̄нэ
