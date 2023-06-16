@@ -8,13 +8,13 @@
 
 LEXICON VAANGKVE
 : INF ;
-:г IND_PRES_TEENGKVE ;
+:г IND_PRS_TEENGKVE ;
 : ACT_IND_PRT_SC_VU ;
 : ACT_IND_PRT_SCSG2_sn ;
 : ACT_IND_PRT_SCSG2_snyn ;
-! ACT_IND_PRS_OCSG3_lumeen ;
-! ACT_IND_PRS_OCDU3 ;
-! ACT_IND_PRS_OCPL3 ;
+:г ACT_IND_PRS_OCSG3_lumeen ;
+:г%{VU%} ACT_IND_PRS_OCDU3 ;
+:г%{VU%} ACT_IND_PRS_OCPL3 ;
 : ACT_IND_PRT_OCSG3_slumeen ;
 : ACT_IND_PRT_OCDU3 ;
 : ACT_IND_PRT_OCPL3 ;
@@ -32,13 +32,13 @@ LEXICON VAANGKVE
 
 LEXICON TEENGKVE !тэ̄ӈкве+V:т
 :э̄ INF ;
-:э̄г IND_PRES_TEENGKVE ;
-:э̄ ACT_IND_PRT_SC_VU ;
+:э̄г IND_PRS_TEENGKVE ;
+:э̄ ACT_IND_PRT_SC_VA ;
 :э̄ ACT_IND_PRT_SCSG2_sn ;
 :э̄ ACT_IND_PRT_SCSG2_snyn ;
-! ACT_IND_PRS_OCSG3_lumeen ;
-! ACT_IND_PRS_OCDU3 ;
-! ACT_IND_PRS_OCPL3 ;
+:э̄г ACT_IND_PRS_OCSG3_lumeen ;
+:э̄г%{VU%} ACT_IND_PRS_OCDU3 ;
+:э̄г%{VU%} ACT_IND_PRS_OCPL3 ;
 :э̄ ACT_IND_PRT_OCSG3_slumeen ;
 :э̄ ACT_IND_PRT_OCDU3 ;
 :э̄ ACT_IND_PRT_OCPL3 ;
@@ -215,7 +215,7 @@ LEXICON JOXTUNGKVE
 :%{VU%} PASS_COND ;
 
 
-LEXICON IND_PRES_TEENGKVE
+LEXICON IND_PRS_TEENGKVE
 +Act+Ind+Prs+ScSg1:%>ум K ;
 +Act+Ind+Prs+ScSg2:%>ын K ;
 !+Act+Ind+Prs+ScSg2:%>нын K ;
@@ -230,9 +230,6 @@ LEXICON IND_PRES_TEENGKVE
 +Act+Ind+Prs+ScPl2:%>ын K ;
 +Act+Ind+Prs+ScPl2+Use/NG:%>ы̄н K ;!2017: 134
  ACT_IND_PRS_SCPL3_yt ;
- ACT_IND_PRS_OCSG3_lumeen ;
- ACT_IND_PRS_OCDU3 ;
- ACT_IND_PRS_OCPL3 ;
 
 !! ## Stems ending in C
 LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
@@ -548,11 +545,11 @@ LEXICON ACT_COND_VU
 +Act+Cond+ScPl3:%>нувы̄т K ;
 !
 +Act+Cond+ScSg1+OcSg3:%>нувлум K ;
-+Act+Cond+ScSg1+OcSg3+Use/NG:%>нӯвлум K ;
++Act+Cond+ScSg1+OcSg3+Use/NG:%>нӯвлум K ;!CHECKME Err/Orth
 +Act+Cond+ScSg2+OcSg3:%>нувлын K ;
-+Act+Cond+ScSg2+OcSg3+Use/NG:%>нӯвлын K ;
++Act+Cond+ScSg2+OcSg3+Use/NG:%>нӯвлын K ;!CHECKME Err/Orth
 +Act+Cond+ScSg3+OcSg3:%>нувтэ K ;
-+Act+Cond+ScSg3+OcSg3+Use/NG:%>нӯвтэ K ;
++Act+Cond+ScSg3+OcSg3+Use/NG:%>нӯвтэ K ;!CHECKME Err/Orth
 +Act+Cond+ScDu1+OcSg3:%>нувламе̄н K ;
 +Act+Cond+ScDu2+OcSg3:%>нувлын K ;
 +Act+Cond+ScDu2+OcSg3:%>нувлы̄н K ;
@@ -590,7 +587,8 @@ LEXICON ACT_COND_VU
 +Act+Cond+ScDu1+OcPl3:%>нуванме̄н K ;
 +Act+Cond+ScDu2+OcPl3:%>нуванын K ;
 +Act+Cond+ScDu2+OcPl3:%>нуваны̄н K ;
-+Act+Cond+ScDu3+OcPl3:%>нуванэ̄ни K ;!CHECKME тэ̄нуванэ̄н[и]
++Act+Cond+ScDu3+OcPl3:%>нуванэ̄н K ;!CHECKME ва̄нуванэ̄н
++Act+Cond+ScDu3+OcPl3:%>нуванэ̄ни K ;!CHECKME тэ̄нуванэ̄ни
 +Act+Cond+ScPl1+OcPl3:%>нуванув K ;
 +Act+Cond+ScPl2+OcPl3:%>нуванын K ;
 +Act+Cond+ScPl2+OcPl3:%>нуваны̄н K ;
@@ -638,10 +636,10 @@ LEXICON ACT_IMPRT_VU
 !
 +Act+Imprt+ScSg2+OcSg3:%>%{ЭЕ%}лн K ;
 +Act+Imprt+ScSg2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScDu2+OcSg3:%>%{ЭЕ%}лн K ;
-+Act+Imprt+ScDu2+OcSg3:%>%{ЭЕ%}лы̄н K ;
-+Act+Imprt+ScPl2+OcSg3:%>%{ЭЕ%}лн K ;
-+Act+Imprt+ScPl2+OcSg3:%>%{ЭЕ%}лы̄н K ;
++Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лн K ;
++Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лы̄н K ;
++Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лн K ;
++Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лы̄н K ;
 !
 +Act+Imprt+ScSg2+OcDu3:%>%{ЭЕ%}гын K ;
 +Act+Imprt+ScSg2+OcDu3:%>%{ЭЕLong%}гн K ;
@@ -715,7 +713,7 @@ LEXICON PASS_PRT
 +Pass+Ind+Prt+ScPl2:%>весы̄н K ;
 +Pass+Ind+Prt+ScPl2:%>весын K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;!Luima seripos
-+Pass+Ind+Prt+ScPl3+Use/NG:%>весыт K ;!Only in Oppikirja 
++Pass+Ind+Prt+ScPl3+Err/Orth:%>весыт K ;!Only in Oppikirja 
 
 LEXICON PASS_COND
 +Pass+Cond+ScSg1:%>нувем K ;
@@ -824,7 +822,7 @@ LEXICON GER
 +Ger+PxSg1:%>мам K ;
 +Ger+PxSg2:%>ман K ;
 +Ger+PxSg3:%>ма K ;
-+Ger+PxSg3:%>матэ K ;
++Ger+PxSg3+Err/Orth:%>матэ K ;!CHECKME
 +Ger+PxDu1:%>маме̄н K ;
 +Ger+PxDu2:%>ман K ;
 +Ger+PxDu3:%>маг K ;
