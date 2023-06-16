@@ -2,12 +2,14 @@
 ! ---------------
 
 
-!! ## Copula
 
-!тэ̄ӈкве+V:тэ̄ copula ;
 
-!LEXICON copula
-LEXICON TEENGKVE
+
+
+LEXICON VAANGKVE
+TEENGKVE ;
+
+LEXICON TEENGKVE !тэ̄ӈкве+V:тэ̄ 
  INF ;
 :г IND_PRES_TEENGKVE ;
  ACT_IND_PRT_SC_VU ;
@@ -48,6 +50,7 @@ LEXICON MINGKVE
 :ми ACT_IND_PRT_SCPL3_syt ;
 
 :ми V11_MUTUAL_PASS ;
+
 
 LEXICON VINGKVE
 :ви INF ; !!≈ @CODE@
