@@ -186,7 +186,7 @@ LEXICON VINGKVE
 :ви ACT_IND_PRT_SCSG1_sum ;
 :ви ACT_IND_PRT_SCSG2_syn ;
 :ви ACT_IND_PRT_SCSG3_ys ;
-:ви ACT_IND_PRT_SCDU1_sumeen ;
+:ви ACT_IND_PRT_SCDU1_ysmeen ;
 :ви ACT_IND_PRT_SCDU2_syyn ;
 :ви ACT_IND_PRT_SCDU3_syyg ;
 :ви ACT_IND_PRT_SCPL1_suv ;
@@ -217,7 +217,7 @@ LEXICON VINGKVE
 
 !Cond
 :ви ACT_COND_VU ;
-:вой%{VU%} ACT_IMPRT ;
+:вой%{VU%} ACT_IMPRT_VU ;
 
 :ви V11_MUTUAL_PASS_PRS ;
 
@@ -604,11 +604,11 @@ LEXICON ACT_COND_VU
 +Act+Cond+ScPl3:%>нувы̄т K ;
 !
 +Act+Cond+ScSg1+OcSg3:%>нувлум K ;
-+Act+Cond+ScSg1+OcSg3+Use/NG:%>нӯвлум K ;!CHECKME Err/Orth
++Act+Cond+ScSg1+OcSg3+Err/Orth-long-v:%>нӯвлум K ;!CHECKME Err/Orth
 +Act+Cond+ScSg2+OcSg3:%>нувлын K ;
-+Act+Cond+ScSg2+OcSg3+Use/NG:%>нӯвлын K ;!CHECKME Err/Orth
++Act+Cond+ScSg2+OcSg3+Err/Orth-long-v:%>нӯвлын K ;!CHECKME Err/Orth
 +Act+Cond+ScSg3+OcSg3:%>нувтэ K ;
-+Act+Cond+ScSg3+OcSg3+Use/NG:%>нӯвтэ K ;!CHECKME Err/Orth
++Act+Cond+ScSg3+OcSg3+Err/Orth-long-v:%>нӯвтэ K ;!CHECKME Err/Orth
 +Act+Cond+ScDu1+OcSg3:%>нувламе̄н K ;
 +Act+Cond+ScDu2+OcSg3:%>нувлын K ;
 +Act+Cond+ScDu2+OcSg3:%>нувлы̄н K ;
