@@ -148,22 +148,22 @@ Tests:
     тэ̄ӈкве+V+Act+Cond+ScPl2+OcPl3: [тэ̄нуванын, тэ̄нуваны̄н]
     тэ̄ӈкве+V+Act+Cond+ScPl3+OcPl3: [тэ̄нуваныл, тэ̄нува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     тэ̄ӈкве+V+Act+Imprt+ScSg2: та̄ен
     тэ̄ӈкве+V+Act+Imprt+ScDu2: [та̄ен, та̄е̄н]
     тэ̄ӈкве+V+Act+Imprt+ScPl2: [та̄ен, та̄е̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     тэ̄ӈкве+V+Act+Imprt+ScSg2+OcSg3: [та̄елн, та̄е̄лн]
     тэ̄ӈкве+V+Act+Imprt+ScDu2+OcSg3: [та̄е̄лн, та̄е̄лы̄н]
     тэ̄ӈкве+V+Act+Imprt+ScPl2+OcSg3: [та̄е̄лн, та̄е̄лы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     тэ̄ӈкве+V+Act+Imprt+ScSg2+OcDu3: [та̄егын, та̄е̄гн]
     тэ̄ӈкве+V+Act+Imprt+ScDu2+OcDu3: [та̄егын, та̄егы̄н]
     тэ̄ӈкве+V+Act+Imprt+ScPl2+OcDu3: [та̄егын, та̄егы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     тэ̄ӈкве+V+Act+Imprt+ScSg2+OcPl3: [та̄ен, та̄е̄н]
     тэ̄ӈкве+V+Act+Imprt+ScDu2+OcPl3: [та̄ен, та̄е̄н]
     тэ̄ӈкве+V+Act+Imprt+ScPl2+OcPl3: [та̄ен, та̄е̄н]

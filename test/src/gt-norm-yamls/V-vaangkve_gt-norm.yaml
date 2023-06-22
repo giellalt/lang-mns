@@ -149,22 +149,22 @@ Tests:
      ва̄ӈкве+V+Act+Cond+ScPl2+OcPl3: [ва̄нуванын, ва̄нуваны̄н]
      ва̄ӈкве+V+Act+Cond+ScPl3+OcPl3: [ва̄нуваныл, ва̄нува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
      ва̄ӈкве+V+Act+Imprt+ScSg2: ва̄ен
      ва̄ӈкве+V+Act+Imprt+ScDu2: [ва̄ен, вае̄н]
      ва̄ӈкве+V+Act+Imprt+ScPl2: [ваен, ва̄е̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
      ва̄ӈкве+V+Act+Imprt+ScSg2+OcSg3: [ва̄елн, ва̄елн]
      ва̄ӈкве+V+Act+Imprt+ScDu2+OcSg3: [ва̄елн, ва̄елы̄н]
      ва̄ӈкве+V+Act+Imprt+ScPl2+OcSg3: [ва̄елн, ва̄елы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
      ва̄ӈкве+V+Act+Imprt+ScSg2+OcDu3: [ва̄егын, ва̄егн]
      ва̄ӈкве+V+Act+Imprt+ScDu2+OcDu3: [ва̄егын, ва̄егы̄н]
      ва̄ӈкве+V+Act+Imprt+ScPl2+OcDu3: [ва̄егын, ва̄егы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
      ва̄ӈкве+V+Act+Imprt+ScSg2+OcPl3: [ва̄ен, ва̄е̄н]
      ва̄ӈкве+V+Act+Imprt+ScDu2+OcPl3: [ва̄ен, ва̄е̄н]
      ва̄ӈкве+V+Act+Imprt+ScPl2+OcPl3: [ва̄ен, ва̄е̄н]
