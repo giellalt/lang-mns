@@ -73,7 +73,7 @@ Tests:
     йиӈкве+V+Pass+Ind+Prt+ScSg1: яйве̄сум
     йиӈкве+V+Pass+Ind+Prt+ScSg2: яйве̄сын
     йиӈкве+V+Pass+Ind+Prt+ScSg3: [яйвес, яйве̄с]
-    йиӈкве+V+Pass+Ind+Prt+ScDu1: яйвесеме̄н
+    йиӈкве+V+Pass+Ind+Prt+ScDu1: яйвесаме̄н # was яйвесеме̄н, but весеме̄н segment does not occur in corpus
     йиӈкве+V+Pass+Ind+Prt+ScDu2: [яйвесын, яйвесы̄н]
     йиӈкве+V+Pass+Ind+Prt+ScDu3: яйвесы̄г
     йиӈкве+V+Pass+Ind+Prt+ScPl1: [яйвесув, яйвесӯв]
