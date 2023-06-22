@@ -194,7 +194,41 @@ LEXICON VINGKVE
 :ви ACT_IND_PRT_SCPL2_syyn ;
 :ви ACT_IND_PRT_SCPL3_syt ;
 
-:ви V11_MUTUAL_PASS ;
+
+
+:ви ACT_IND_PRT_SC_VA ;
+!:лы ACT_IND_PRT_SCSG1_sum ;
+!:лы ACT_IND_PRT_SCSG2_syn ;
+!:лы ACT_IND_PRT_SCSG3_ys ;
+!:лы ACT_IND_PRT_SCDU1_ysmeen ;
+!:лы ACT_IND_PRT_SCDU2_syyn ;
+!:лы ACT_IND_PRT_SCDU3_syyg ;
+!:лы ACT_IND_PRT_SCPL1_suv ;
+!:лы ACT_IND_PRT_SCPL1_suuv ;
+!:лы ACT_IND_PRT_SCPL2_syyn ;
+!:лы ACT_IND_PRT_SCPL3_syt ;
+
+:выг ACT_IND_PRS_OCSG3_lumeen ;
+:выг%{VU%} ACT_IND_PRS_OCDU3 ;
+:выг%{VU%} ACT_IND_PRS_OCPL3 ;
+:ви ACT_IND_PRT_OCSG3_slumeen ;
+:ви ACT_IND_PRT_OCDU3 ;
+:ви ACT_IND_PRT_OCPL3 ;
+
+!Cond
+:ви ACT_COND_VU ;
+:вой%{VU%} ACT_IMPRT ;
+
+:ви V11_MUTUAL_PASS_PRS ;
+
+:вой PASS_PRT ;
+:ви PASS_COND ;
+:выг PASS_IMPRT_teegveen ;
+:ви PRFPRC_teemanum ;!Will need more 20230622
+:вои GER ;
+:выг VABESS ;
+
+
 
 LEXICON MINUNGKVE
 :у INF ; !!≈ @CODE@
