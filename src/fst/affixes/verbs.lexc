@@ -53,6 +53,95 @@ LEXICON TEENGKVE !тэ̄ӈкве+V:т
 :э̄ PRSPRC ;
 :э̄ PRFPRC_teemanum ;
 
+
+LEXICON JINGKVE
+:йи INF ; !!≈ @CODE@
+:йи PRSPRC_jingkve ;
++Act+Ind+Prs+ScSg1:ювум K ; !мыгӯв?
++Act+Ind+Prs+ScSg2:ювын K ;  !мае̄н? 
++Act+Ind+Prs+ScSg3:юв K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:ювме̄н K ;
++Act+Ind+Prs+ScDu2:ювын K ;
++Act+Ind+Prs+ScDu2:ювы̄н K ;
++Act+Ind+Prs+ScDu3:ювыг K ;
++Act+Ind+Prs+ScPl1:ювув K ;
++Act+Ind+Prs+ScPl1:ювӯв K ;
++Act+Ind+Prs+ScPl2:ювын K ;
++Act+Ind+Prs+ScPl2:ювы̄н K ;
++Act+Ind+Prs+ScPl3:ювыт K ;
+:йи ACT_IND_PRT_SCSG1_sum ;
+:йи ACT_IND_PRT_SCSG2_syn ;
+:йи ACT_IND_PRT_SCSG3_ys ;
+:йи ACT_IND_PRT_SCDU1_sumeen ;
+:йи ACT_IND_PRT_SCDU2_syn ;
+:йи ACT_IND_PRT_SCDU2_syyn ;
+:йи ACT_IND_PRT_SCDU3_syg ;
+:йи ACT_IND_PRT_SCDU3_syyg ;
+:йи ACT_IND_PRT_SCPL1_suv ;
+:йи ACT_IND_PRT_SCPL1_suuv ;
+:йи ACT_IND_PRT_SCPL2_syn ;
+:йи ACT_IND_PRT_SCPL2_syyn ;
+:йи ACT_IND_PRT_SCPL3_syt ;
+
+!Cond
+:йи ACT_COND_VU ;
+:яй%{VU%} ACT_IMPRT ;
+
+:йи V11_MUTUAL_PASS_PRS ;
+:яй PASS_PRT ;
+:йи PASS_COND ;
+:йи PASS_IMPRT ;
+:йи PRFPRC ;
+:йийи GER ;
+:йим VABESS ;
+
+LEXICON LYNGKVE
+:лы INF ; !!≈ @CODE@
+:лы PRSPRC ;
++Act+Ind+Prs+ScSg1:лыгум K ; !мыгӯв?
++Act+Ind+Prs+ScSg2:лаен K ;  !мае̄н? 
++Act+Ind+Prs+ScSg3:лыг K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:лыгме̄н K ;
++Act+Ind+Prs+ScDu2:лае̄н K ;
+!+Act+Ind+Prs+ScDu2:лыгын K ;
++Act+Ind+Prs+ScDu3:лыгыг K ;
++Act+Ind+Prs+ScPl1:лыгӯв K ;
++Act+Ind+Prs+ScPl1:лыгув K ;
++Act+Ind+Prs+ScPl2:лае̄н K ;
++Act+Ind+Prs+ScPl3:лыгыт K ;
+
+:лы ACT_IND_PRT_SC_VA ;
+!:лы ACT_IND_PRT_SCSG1_sum ;
+!:лы ACT_IND_PRT_SCSG2_syn ;
+!:лы ACT_IND_PRT_SCSG3_ys ;
+!:лы ACT_IND_PRT_SCDU1_ysmeen ;
+!:лы ACT_IND_PRT_SCDU2_syyn ;
+!:лы ACT_IND_PRT_SCDU3_syyg ;
+!:лы ACT_IND_PRT_SCPL1_suv ;
+!:лы ACT_IND_PRT_SCPL1_suuv ;
+!:лы ACT_IND_PRT_SCPL2_syyn ;
+!:лы ACT_IND_PRT_SCPL3_syt ;
+
+:лыг ACT_IND_PRS_OCSG3_lumeen ;
+:лыг%{VU%} ACT_IND_PRS_OCDU3 ;
+:лыг%{VU%} ACT_IND_PRS_OCPL3 ;
+:лы ACT_IND_PRT_OCSG3_slumeen ;
+:лы ACT_IND_PRT_OCDU3 ;
+:лы ACT_IND_PRT_OCPL3 ;
+
+!Cond
+:лы ACT_COND_VU ;
+:лай%{VU%} ACT_IMPRT ;
+
+:лы V11_MUTUAL_PASS_PRS ;
+
+:лай PASS_PRT ;
+:лы PASS_COND ;
+:лыг PASS_IMPRT_teegveen ;
+:лы PRFPRC_teemanum ;!Will need more 20230622
+:ла̄и GER ;
+:лыг VABESS ;
+
 LEXICON MINGKVE
 :ми INF ; !!≈ @CODE@
 :ми PRSPRC ;
@@ -107,73 +196,6 @@ LEXICON VINGKVE
 
 :ви V11_MUTUAL_PASS ;
 
-LEXICON JINGKVE
-:йи INF ; !!≈ @CODE@
-:йи PRSPRC ;
-+Act+Ind+Prs+ScSg1:ювум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:ювын K ;  !мае̄н? 
-+Act+Ind+Prs+ScSg3:юв K ;  !мае̄н? 
-+Act+Ind+Prs+ScDu1:ювме̄н K ;
-+Act+Ind+Prs+ScDu2:ювын K ;
-+Act+Ind+Prs+ScDu2:ювы̄н K ;
-+Act+Ind+Prs+ScDu3:ювыг K ;
-+Act+Ind+Prs+ScPl1:ювув K ;
-+Act+Ind+Prs+ScPl1:ювӯв K ;
-+Act+Ind+Prs+ScPl2:ювын K ;
-+Act+Ind+Prs+ScPl2:ювы̄н K ;
-+Act+Ind+Prs+ScPl3:ювыт K ;
-:йи ACT_IND_PRT_SCSG1_sum ;
-:йи ACT_IND_PRT_SCSG2_syn ;
-:йи ACT_IND_PRT_SCSG3_ys ;
-:йи ACT_IND_PRT_SCDU1_sumeen ;
-:йи ACT_IND_PRT_SCDU2_syn ;
-:йи ACT_IND_PRT_SCDU2_syyn ;
-:йи ACT_IND_PRT_SCDU3_syg ;
-:йи ACT_IND_PRT_SCDU3_syyg ;
-:йи ACT_IND_PRT_SCPL1_suv ;
-:йи ACT_IND_PRT_SCPL1_suuv ;
-:йи ACT_IND_PRT_SCPL2_syn ;
-:йи ACT_IND_PRT_SCPL2_syyn ;
-:йи ACT_IND_PRT_SCPL3_syt ;
-
-!Cond
-:йи ACT_COND_VU ;
-:яй ACT_IMPRT ;
-
-:йи V11_MUTUAL_PASS_PRS ;
-:яй PASS_PRT ;
-:йи PASS_COND ;
-:йи PASS_IMPRT ;
-:йи GER ;
-:йим VABESS ;
-
-LEXICON LYNGKVE
-:лы INF ; !!≈ @CODE@
-:лы PRSPRC ;
-+Act+Ind+Prs+ScSg1:лыгум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:лаен K ;  !мае̄н? 
-+Act+Ind+Prs+ScSg3:лыг K ;  !мае̄н? 
-+Act+Ind+Prs+ScDu1:лыгме̄н K ;
-+Act+Ind+Prs+ScDu2:лае̄н K ;
-!+Act+Ind+Prs+ScDu2:лыгын K ;
-+Act+Ind+Prs+ScDu3:лыгыг K ;
-+Act+Ind+Prs+ScPl1:лыгӯв K ;
-+Act+Ind+Prs+ScPl1:лыгув K ;
-+Act+Ind+Prs+ScPl2:лае̄н K ;
-+Act+Ind+Prs+ScPl3:лыгыт K ;
-:лы ACT_IND_PRT_SCSG1_sum ;
-:лы ACT_IND_PRT_SCSG2_syn ;
-:лы ACT_IND_PRT_SCSG3_ys ;
-:лы ACT_IND_PRT_SCDU1_ysmeen ;
-:лы ACT_IND_PRT_SCDU2_syyn ;
-:лы ACT_IND_PRT_SCDU3_syyg ;
-:лы ACT_IND_PRT_SCPL1_suv ;
-:лы ACT_IND_PRT_SCPL1_suuv ;
-:лы ACT_IND_PRT_SCPL2_syyn ;
-:лы ACT_IND_PRT_SCPL3_syt ;
-
-:лы V11_MUTUAL_PASS ;
-
 LEXICON MINUNGKVE
 :у INF ; !!≈ @CODE@
  PRSPRC ;
@@ -186,10 +208,13 @@ LEXICON MINUNGKVE
 +Act+Ind+Prt+ScSg3:ас K ;
 +Act+Ind+Prt+ScDu1:асаме̄н K ;
 +Act+Ind+Prt+ScDu2:асы̄н K ;
++Act+Ind+Prt+ScDu2:асын K ;
 +Act+Ind+Prt+ScDu3:асы̄г K ;
++Act+Ind+Prt+ScDu3:асыг K ;
 +Act+Ind+Prt+ScPl1:асув K ;
 +Act+Ind+Prt+ScPl1:асӯв K ;
 +Act+Ind+Prt+ScPl2:асы̄н K ;
++Act+Ind+Prt+ScPl2:асын K ;
 +Act+Ind+Prt+ScPl3:асыт K ;
 
 : V11_MUTUAL_PASS ;
@@ -773,6 +798,21 @@ LEXICON PRSPRC
 +PrsPrc+PxPl2:%>нэны̄н K ;!
 +PrsPrc+PxPl3:%>нэ̄наныл K ;
 +PrsPrc+PxPl3:%>нэ̄нл K ;!
+
+LEXICON PRSPRC_jingkve
++PrsPrc:%>нэ K ; !Does this exist ?20230504
++PrsPrc+PxSg1:%>нэм K ;
++PrsPrc+PxSg2:%>нэн K ;
++PrsPrc+PxSg3:%>нэ̄тэ K ;
++PrsPrc+PxDu1:%>нэме̄н K ;
++PrsPrc+PxDu2:%>нэнэ̄н K ;
++PrsPrc+PxDu3:%>нэ̄г K ;
++PrsPrc+PxDu3:%>нэг K ;!
++PrsPrc+PxPl1:%>нэ̄в K ;
++PrsPrc+PxPl2:%>нэн K ;
++PrsPrc+PxPl2:%>нэ̄н K ;!
++PrsPrc+PxPl3:%>нэ̄ныл K ;
++PrsPrc+PxPl3:%>нэныл K ;!
 
 LEXICON PRFPRC
 +PrfPrc:%>м K ;
