@@ -298,16 +298,16 @@ Tests:
 
 #Gerund
     виӈкве+V+Ger: воим
-    виӈкве+V+PrsPrc+PxSg1: воимам
-    виӈкве+V+PrsPrc+PxSg2: воиман
-    виӈкве+V+PrsPrc+PxSg3: воима
-    виӈкве+V+PrsPrc+PxDu1: воимаме̄н
-    виӈкве+V+PrsPrc+PxDu2: воиман
-    виӈкве+V+PrsPrc+PxDu3: воимаг
-    виӈкве+V+PrsPrc+PxPl1: воимав
-    виӈкве+V+PrsPrc+PxPl2: воиман
-    виӈкве+V+PrsPrc+PxPl3: воимат
+    виӈкве+V+Ger+PxSg1: воимам
+    виӈкве+V+Ger+PxSg2: воиман
+    виӈкве+V+Ger+PxSg3: воима
+    виӈкве+V+Ger+PxDu1: воимаме̄н
+    виӈкве+V+Ger+PxDu2: воиман
+    виӈкве+V+Ger+PxDu3: воимаг
+    виӈкве+V+Ger+PxPl1: воимав
+    виӈкве+V+Ger+PxPl2: воиман
+    виӈкве+V+Ger+PxPl3: воимат
 
 #Privative
-    виӈкве+V+Ger: выгтал
+    виӈкве+V+VAbess: выгтал
 
