@@ -298,16 +298,16 @@ Tests:
 
 #Gerund
     лыӈкве+V+Ger: ла̄им
-    лыӈкве+V+PrsPrc+PxSg1: ла̄имам
-    лыӈкве+V+PrsPrc+PxSg2: ла̄иман
-    лыӈкве+V+PrsPrc+PxSg3: ла̄има
-    лыӈкве+V+PrsPrc+PxDu1: ла̄имаме̄н
-    лыӈкве+V+PrsPrc+PxDu2: ла̄иман
-    лыӈкве+V+PrsPrc+PxDu3: ла̄имаг
-    лыӈкве+V+PrsPrc+PxPl1: ла̄имав
-    лыӈкве+V+PrsPrc+PxPl2: ла̄иман
-    лыӈкве+V+PrsPrc+PxPl3: ла̄имат
+    лыӈкве+V+Ger+PxSg1: ла̄имам
+    лыӈкве+V+Ger+PxSg2: ла̄иман
+    лыӈкве+V+Ger+PxSg3: ла̄има
+    лыӈкве+V+Ger+PxDu1: ла̄имаме̄н
+    лыӈкве+V+Ger+PxDu2: ла̄иман
+    лыӈкве+V+Ger+PxDu3: ла̄имаг
+    лыӈкве+V+Ger+PxPl1: ла̄имав
+    лыӈкве+V+Ger+PxPl2: ла̄иман
+    лыӈкве+V+Ger+PxPl3: ла̄имат
 
 #Privative
-    лыӈкве+V+Ger: лыгтал
+    лыӈкве+V+VAbess: лыгтал
 
