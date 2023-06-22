@@ -1,12 +1,12 @@
 # Verb inflection for Mansi
 
-:ми INF ;
-
-:ви INF ;
-
 :йи INF ;
 
 :лы INF ;
+
+:ми INF ;
+
+:ви INF ;
 
 :у INF ;
 
