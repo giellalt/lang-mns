@@ -155,22 +155,22 @@ Tests:
     сунсуӈкве+V+Act+Cond+ScPl2+OcPl3: [суснуванын, суснуваны̄н]
     сунсуӈкве+V+Act+Cond+ScPl3+OcPl3: [суснуваныл, снснува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     сунсуӈкве+V+Act+Imprt+ScSg2: сунсэн
     сунсуӈкве+V+Act+Imprt+ScDu2: [сунсэн, сунсэ̄н]
     сунсуӈкве+V+Act+Imprt+ScPl2: [сунсэн, сунсэ̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     сунсуӈкве+V+Act+Imprt+ScSg2+OcSg3: [сунсэлн, сунсэ̄лн]
     сунсуӈкве+V+Act+Imprt+ScDu2+OcSg3: [сунсэлн, сунсэлы̄н]
     сунсуӈкве+V+Act+Imprt+ScPl2+OcSg3: [сунсэлн, сунсэлы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     сунсуӈкве+V+Act+Imprt+ScSg2+OcDu3: [сунсэгын, сунсэ̄гн]
     сунсуӈкве+V+Act+Imprt+ScDu2+OcDu3: [сунсэгын, сунсэгы̄н]
     сунсуӈкве+V+Act+Imprt+ScPl2+OcDu3: [сунсэгын, сунсэгы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     сунсуӈкве+V+Act+Imprt+ScSg2+OcPl3: [сунсэн, сунсэ̄н]
     сунсуӈкве+V+Act+Imprt+ScDu2+OcPl3: [сунсэн, сунсэ̄н]
     сунсуӈкве+V+Act+Imprt+ScPl2+OcPl3: [сунсэн, сунсэ̄н]
@@ -209,9 +209,9 @@ Tests:
     сунсуӈкве+V+Pass+Cond+ScPl3: [суснувет, сунснӯвет]
 
 #Passive, imperative conjugation
-    сунсуӈкве+V+Pass+Imp+Sg2: сунсавен
-    сунсуӈкве+V+Pass+Imp+Du2: [сунсавен, сунсаве̄н]
-    сунсуӈкве+V+Pass+Imp+Pl2: [сунсавен, сунсаве̄н]
+    сунсуӈкве+V+Pass+Imprt+Sg2: сунсавен
+    сунсуӈкве+V+Pass+Imprt+Du2: [сунсавен, сунсаве̄н]
+    сунсуӈкве+V+Pass+Imprt+Pl2: [сунсавен, сунсаве̄н]
 
 #Present participle
     сунсуӈкве+V+PrsPrc: суснэ

@@ -148,22 +148,22 @@ Tests:
     лыӈкве+V+Act+Cond+ScPl2+OcPl3: [лынуванын, лынуваны̄н]
     лыӈкве+V+Act+Cond+ScPl3+OcPl3: [лынуваныл, лынува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     лыӈкве+V+Act+Imprt+ScSg2: лаен
     лыӈкве+V+Act+Imprt+ScDu2: [лаен, лае̄н]
     лыӈкве+V+Act+Imprt+ScPl2: [лаен, лае̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     лыӈкве+V+Act+Imprt+ScSg2+OcSg3: [лаелн, лае̄лн]
     лыӈкве+V+Act+Imprt+ScDu2+OcSg3: [лае̄лн, лае̄лы̄н]
     лыӈкве+V+Act+Imprt+ScPl2+OcSg3: [лае̄лн, лае̄лы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     лыӈкве+V+Act+Imprt+ScSg2+OcDu3: [лаегын, лае̄гн]
     лыӈкве+V+Act+Imprt+ScDu2+OcDu3: [лаегын, лаегы̄н]
     лыӈкве+V+Act+Imprt+ScPl2+OcDu3: [лаегын, лаегы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     лыӈкве+V+Act+Imprt+ScSg2+OcPl3: [лаен, лае̄н, лае̄нын]
     лыӈкве+V+Act+Imprt+ScDu2+OcPl3: [лаен, лае̄н, лае̄ны̄н]
     лыӈкве+V+Act+Imprt+ScPl2+OcPl3: [лаен, лае̄н, лае̄ны̄н]
@@ -201,10 +201,10 @@ Tests:
     лыӈкве+V+Pass+Cond+ScPl2: [лынувен, лынуве̄н]
     лыӈкве+V+Pass+Cond+ScPl3: [лынувет, лынӯвет]
 
-#Passive, imeperative conjugation
-    лыӈкве+V+Act+Imp+Sg2: лыгвен
-    лыӈкве+V+Act+Imp+Du2: [лыгвен, лыгве̄н]
-    лыӈкве+V+Act+Imp+Pl2: [лыгвен, лыгве̄н]
+#Passive, imperative conjugation
+    лыӈкве+V+Pass+Imprt+Sg2: лыгвен
+    лыӈкве+V+Pass+Imprt+Du2: [лыгвен, лыгве̄н]
+    лыӈкве+V+Pass+Imprt+Pl2: [лыгвен, лыгве̄н]
 
 #Present participle
     лыӈкве+V+PrsPrc: лынэ

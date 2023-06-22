@@ -148,22 +148,22 @@ Tests:
     виӈкве+V+Act+Cond+ScPl2+OcPl3: [винуванын, винуваны̄н]
     виӈкве+V+Act+Cond+ScPl3+OcPl3: [винуваныл, винува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     виӈкве+V+Act+Imprt+ScSg2: воен
     виӈкве+V+Act+Imprt+ScDu2: [воен, вое̄н]
     виӈкве+V+Act+Imprt+ScPl2: [воен, вое̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     виӈкве+V+Act+Imprt+ScSg2+OcSg3: [воелн, вое̄лн]
     виӈкве+V+Act+Imprt+ScDu2+OcSg3: [вое̄лн, вое̄лы̄н]
     виӈкве+V+Act+Imprt+ScPl2+OcSg3: [вое̄лн, вое̄лы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     виӈкве+V+Act+Imprt+ScSg2+OcDu3: [воегын, вое̄гн]
     виӈкве+V+Act+Imprt+ScDu2+OcDu3: [воегын, воегы̄н]
     виӈкве+V+Act+Imprt+ScPl2+OcDu3: [воегын, воегы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     виӈкве+V+Act+Imprt+ScSg2+OcPl3: [воен, вое̄н, вое̄нын]
     виӈкве+V+Act+Imprt+ScDu2+OcPl3: [воен, вое̄н, вое̄ны̄н]
     виӈкве+V+Act+Imprt+ScPl2+OcPl3: [воен, вое̄н, вое̄ны̄н]
@@ -201,10 +201,10 @@ Tests:
     виӈкве+V+Pass+Cond+ScPl2: [винувен, винуве̄н]
     виӈкве+V+Pass+Cond+ScPl3: [винувет, винӯвет]
 
-#Passive, imeperative conjugation
-    виӈкве+V+Act+Imp+Sg2: выгвен
-    виӈкве+V+Act+Imp+Du2: [выгвен, выгве̄н]
-    виӈкве+V+Act+Imp+Pl2: [выгвен, выгве̄н]
+#Passive, imperative conjugation
+    виӈкве+V+Pass+Imprt+Sg2: выгвен
+    виӈкве+V+Pass+Imprt+Du2: [выгвен, выгве̄н]
+    виӈкве+V+Pass+Imprt+Pl2: [выгвен, выгве̄н]
 
 #Present participle
     виӈкве+V+PrsPrc: винэ

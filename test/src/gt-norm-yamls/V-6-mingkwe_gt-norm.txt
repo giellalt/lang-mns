@@ -148,22 +148,22 @@ Tests:
     миӈкве+V+Act+Cond+ScPl2+OcPl3: [минуванын, минуваны̄н]
     миӈкве+V+Act+Cond+ScPl3+OcPl3: [минуваныл, минува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     миӈкве+V+Act+Imprt+ScSg2: маен
     миӈкве+V+Act+Imprt+ScDu2: [маен, мае̄н]
     миӈкве+V+Act+Imprt+ScPl2: [маен, мае̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     миӈкве+V+Act+Imprt+ScSg2+OcSg3: [маелн, мае̄лн]
     миӈкве+V+Act+Imprt+ScDu2+OcSg3: [мае̄лн, мае̄лы̄н]
     миӈкве+V+Act+Imprt+ScPl2+OcSg3: [мае̄лн, мае̄лы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     миӈкве+V+Act+Imprt+ScSg2+OcDu3: [маегын, мае̄гн]
     миӈкве+V+Act+Imprt+ScDu2+OcDu3: [маегын, маегы̄н]
     миӈкве+V+Act+Imprt+ScPl2+OcDu3: [маегын, маегы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     миӈкве+V+Act+Imprt+ScSg2+OcPl3: [маен, мае̄н, мае̄нын]
     миӈкве+V+Act+Imprt+ScDu2+OcPl3: [маен, мае̄н, мае̄ны̄н]
     миӈкве+V+Act+Imprt+ScPl2+OcPl3: [маен, мае̄н, мае̄ны̄н]
@@ -201,10 +201,10 @@ Tests:
     миӈкве+V+Pass+Cond+ScPl2: [минувен, минуве̄н]
     миӈкве+V+Pass+Cond+ScPl3: [минувет, минӯвет]
 
-#Passive, imeperative conjugation
-    миӈкве+V+Act+Imp+Sg2: мигвен
-    миӈкве+V+Act+Imp+Du2: [мигвен, мигве̄н]
-    миӈкве+V+Act+Imp+Pl2: [мигвен, мигве̄н]
+#Passive, imperative conjugation
+    миӈкве+V+Pass+Imprt+Sg2: мигвен
+    миӈкве+V+Pass+Imprt+Du2: [мигвен, мигве̄н]
+    миӈкве+V+Pass+Imprt+Pl2: [мигвен, мигве̄н]
 
 #Present participle
     миӈкве+V+PrsPrc: минэ

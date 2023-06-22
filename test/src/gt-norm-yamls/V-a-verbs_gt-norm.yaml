@@ -148,22 +148,22 @@ Tests:
     рӯпитаӈкве+V+Act+Cond+ScPl2+OcPl3: [рӯпитануванын, рӯпитануваны̄н]
     рӯпитаӈкве+V+Act+Cond+ScPl3+OcPl3: [рӯпитануваныл, рӯпитанува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     рӯпитаӈкве+V+Act+Imprt+ScSg2: рӯпитэн
     рӯпитаӈкве+V+Act+Imprt+ScDu2: [рӯпитэн, рӯпитэ̄н]
     рӯпитаӈкве+V+Act+Imprt+ScPl2: [рӯпитэн, рӯпитэ̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     рӯпитаӈкве+V+Act+Imprt+ScSg2+OcSg3: [рӯпитэлн, рӯпитэ̄лн]
     рӯпитаӈкве+V+Act+Imprt+ScDu2+OcSg3: [рӯпитэлн, рӯпитэлы̄н]
     рӯпитаӈкве+V+Act+Imprt+ScPl2+OcSg3: [рӯпитэлн, рӯпитэлы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     рӯпитаӈкве+V+Act+Imprt+ScSg2+OcDu3: [рӯпитэгын, рӯпитэ̄гн]
     рӯпитаӈкве+V+Act+Imprt+ScDu2+OcDu3: [рӯпитэгын, рӯпитэгы̄н]
     рӯпитаӈкве+V+Act+Imprt+ScPl2+OcDu3: [рӯпитэгын, рӯпитэгы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     рӯпитаӈкве+V+Act+Imprt+ScSg2+OcPl3: [рӯпитэн, рӯпитэ̄н]
     рӯпитаӈкве+V+Act+Imprt+ScDu2+OcPl3: [рӯпитэн, рӯпитэ̄н]
     рӯпитаӈкве+V+Act+Imprt+ScPl2+OcPl3: [рӯпитэн, рӯпитэ̄н]
@@ -202,9 +202,9 @@ Tests:
     рӯпитаӈкве+V+Pass+Cond+ScPl3: [рӯпитанувет, рӯпитанӯвет]
 
 #Passive, imperative conjugation
-    рӯпитаӈкве+V+Pass+Imp+Sg2: рӯпитавен
-    рӯпитаӈкве+V+Pass+Imp+Du2: [рӯпитавен, рӯпитаве̄н]
-    рӯпитаӈкве+V+Pass+Imp+Pl2: [рӯпитавен, рӯпитаве̄н]
+    рӯпитаӈкве+V+Pass+Imprt+Sg2: рӯпитавен
+    рӯпитаӈкве+V+Pass+Imprt+Du2: [рӯпитавен, рӯпитаве̄н]
+    рӯпитаӈкве+V+Pass+Imprt+Pl2: [рӯпитавен, рӯпитаве̄н]
 
 #Present participle
     рӯпитаӈкве+V+PrsPrc: рӯпитнэ

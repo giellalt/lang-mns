@@ -148,22 +148,22 @@ Tests:
     тотуӈкве+V+Act+Cond+ScPl2+OcPl3: [тотнуванын, тотнуваны̄н]
     тотуӈкве+V+Act+Cond+ScPl3+OcPl3: [тотнуваныл, тотнува̄ныл]
 
-#Active, imeperative, subjective conjugation
+#Active, imperative, subjective conjugation
     тотуӈкве+V+Act+Imprt+ScSg2: тотэн
     тотуӈкве+V+Act+Imprt+ScDu2: [тотэн, тотэ̄н]
     тотуӈкве+V+Act+Imprt+ScPl2: [тотэн, тотэ̄н]
 
-#Active, imeperative,  objective conjugation, single object
+#Active, imperative,  objective conjugation, single object
     тотуӈкве+V+Act+Imprt+ScSg2+OcSg3: [тотэлн, тотэ̄лн]
     тотуӈкве+V+Act+Imprt+ScDu2+OcSg3: [тотэлн, тотэлы̄н]
     тотуӈкве+V+Act+Imprt+ScPl2+OcSg3: [тотэлн, тотэлы̄н]
 
-#Active, imeperative,  objective conjugation, dual object
+#Active, imperative,  objective conjugation, dual object
     тотуӈкве+V+Act+Imprt+ScSg2+OcDu3: [тотэгын, тотэ̄гн]
     тотуӈкве+V+Act+Imprt+ScDu2+OcDu3: [тотэгын, тотэгы̄н]
     тотуӈкве+V+Act+Imprt+ScPl2+OcDu3: [тотэгын, тотэгы̄н]
 
-#Active, imeperative,  objective conjugation, plural object
+#Active, imperative,  objective conjugation, plural object
     тотуӈкве+V+Act+Imprt+ScSg2+OcPl3: [тотэн, тотэ̄н]
     тотуӈкве+V+Act+Imprt+ScDu2+OcPl3: [тотэн, тотэ̄н]
     тотуӈкве+V+Act+Imprt+ScPl2+OcPl3: [тотэн, тотэ̄н]
@@ -202,9 +202,9 @@ Tests:
     тотуӈкве+V+Pass+Cond+ScPl3: [тотнувет, тотнӯвет]
  
 #Passive, imperative conjugation
-    тотуӈкве+V+Pass+Imp+Sg2: тотавен
-    тотуӈкве+V+Pass+Imp+Du2: [тотавен, тотаве̄н]
-    тотуӈкве+V+Pass+Imp+Pl2: [тотавен, тотаве̄н]
+    тотуӈкве+V+Pass+Imprt+Sg2: тотавен
+    тотуӈкве+V+Pass+Imprt+Du2: [тотавен, тотаве̄н]
+    тотуӈкве+V+Pass+Imprt+Pl2: [тотавен, тотаве̄н]
 
 #Present participle
     тотуӈкве+V+PrsPrc: тотнэ
