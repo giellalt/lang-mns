@@ -33,7 +33,7 @@ LEXICON Adverbs
 !! ADD ADVERBS BELOW
 
 ! These are derived from words/dicts/mnshun/src/..xml
-вос+Adv:вос ADV-AUX_ ;
+вос+Adv:вос ADV_AUX ;
 ла̄тӈе+Adv:ла̄тӈе ADV_ ;
 
 а̄ла+Adv:а̄ла ADV_ ;
@@ -209,7 +209,29 @@ LEXICON Adverbs
 ё̄мим+Adv:ё̄мим ADV_ ;
 ёл-ротумта̄л+Adv:ёл-ротумта̄л ADV_ ;
 ёлыл+Adv:ёлыл ADV_ ;
-ёмаспа̄лт+Adv:ёмаспа̄лт ADV_ ;
+ёмаспа̄лн+Adv:ёмас#па̄лн ADV_LAT "oikealle puolelle" ;
+ёлы-па̄лн+v1+Adv:ёлы-#па̄лн ADV_LAT "alapuolelle" ;
+ёлы-па̄лн+v2+Adv:ёлы#па̄лн ADV_LAT "alapuolelle" ;
+коны-па̄лн+v1+Adv:коны-#па̄лн ADV_LAT "ulkopuolelle" ;
+коны-па̄лн+v2+Adv:коны#па̄лн ADV_LAT "ulkopuolelle" ;
+сыс-па̄лн+v1+Adv:сыс-#па̄лн ADV_LAT "taakse" ;
+сыс-па̄лн+v2+Adv:сыс#па̄лн ADV_LAT "taakse" ;
+э̄лы-па̄лн+v1+Adv:э̄лы-#па̄лн ADV_LAT "eteen" ;
+э̄лы-па̄лн+v2+Adv:э̄лы#па̄лн ADV_LAT "eteen" ;
+юи-па̄лн+v1+Adv:юи-#па̄лн ADV_LAT "?peräkkäin/вслед" ;
+юи-па̄лн+v2+Adv:юи#па̄лн ADV_LAT "?peräkkäin/вслед" ;
+
+ёмаспа̄лт+Adv:ёмас#па̄лт ADV_LOC "oikealla puolella" ;
+ёлы-па̄лт+v1+Adv:ёлы-#па̄лт ADV_LOC "alapuolella" ;
+ёлы-па̄лт+v2+Adv:ёлы#па̄лт ADV_LOC "alapuolella" ;
+коны-па̄лт+v1+Adv:коны-#па̄лт ADV_LOC "ulkopuolella" ;
+коны-па̄лт+v2+Adv:коны#па̄лт ADV_LOC "ulkopuolella" ;
+сыс-па̄лт+v1+Adv:сыс-#па̄лт ADV_LOC "takana" ;
+сыс-па̄лт+v2+Adv:сыс#па̄лт ADV_LOC "takana" ;
+э̄лы-па̄лт+v1+Adv:э̄лы-#па̄лт ADV_LOC "edessä" ;
+э̄лы-па̄лт+v2+Adv:э̄лы#па̄лт ADV_LOC "edessä" ;
+юи-па̄лт+v1+Adv:юи-#па̄лт ADV_LOC "?peräkkäin/вслед" ;
+юи-па̄лт+v2+Adv:юи#па̄лт ADV_LOC "?peräkkäin/вслед" ;
 
 торыӈыщ+Adv:торыӈыщ ADV_ ;
 э̄рпыӈыщ+Adv:э̄рпыӈыщ ADV_ ;
