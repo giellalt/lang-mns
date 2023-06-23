@@ -165,7 +165,27 @@ LEXICON MINGKVE
 :ми ACT_IND_PRT_SCPL2_syyn ;
 :ми ACT_IND_PRT_SCPL3_syt ;
 
-:ми V11_MUTUAL_PASS ;
+:ми ACT_IND_PRT_SC_VA ;
+
+:мыг ACT_IND_PRS_OCSG3_lumeen ;
+:мыг%{VU%} ACT_IND_PRS_OCDU3 ;
+:мыг%{VU%} ACT_IND_PRS_OCPL3 ;
+:ми ACT_IND_PRT_OCSG3_slumeen ;
+:ми ACT_IND_PRT_OCDU3 ;
+:ми ACT_IND_PRT_OCPL3 ;
+
+!Cond
+:ми ACT_COND_VU ;
+:май%{VU%} ACT_IMPRT_VU ;
+
+:ми V11_MUTUAL_PASS_PRS ;
+
+:май PASS_PRT ;
+:ми PASS_COND ;
+:мыг PASS_IMPRT_teegveen ;
+:ми PRFPRC_teemanum ;!Will need more 20230622
+:маи GER ;
+:мыг VABESS ;
 
 
 LEXICON VINGKVE
@@ -197,16 +217,6 @@ LEXICON VINGKVE
 
 
 :ви ACT_IND_PRT_SC_VA ;
-!:лы ACT_IND_PRT_SCSG1_sum ;
-!:лы ACT_IND_PRT_SCSG2_syn ;
-!:лы ACT_IND_PRT_SCSG3_ys ;
-!:лы ACT_IND_PRT_SCDU1_ysmeen ;
-!:лы ACT_IND_PRT_SCDU2_syyn ;
-!:лы ACT_IND_PRT_SCDU3_syyg ;
-!:лы ACT_IND_PRT_SCPL1_suv ;
-!:лы ACT_IND_PRT_SCPL1_suuv ;
-!:лы ACT_IND_PRT_SCPL2_syyn ;
-!:лы ACT_IND_PRT_SCPL3_syt ;
 
 :выг ACT_IND_PRS_OCSG3_lumeen ;
 :выг%{VU%} ACT_IND_PRS_OCDU3 ;
