@@ -45,10 +45,17 @@ cat test/data/Mansi_readings.txt | hfst-tokenise tools/tokenisers/tokeniser-disa
 cat Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
-Number of unknown words:
+Number of unknown words (working command):
 
 ```
-cat test/data/Mansi_readings.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
+cat test/data/Mansi_readings.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |cut -d'"' -f2|grep " ?"|wc -l
+
+cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |cut -d'"' -f2|hfst-lookup src/analyser-gt-desc.hfstol |grep "+?"|wc -l
+```
+
+Flawed command for Luima Seripos:
+
+```
 cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
 ```
 
@@ -69,6 +76,7 @@ Luima Seripos 2013-2017 (`test/data/Luima_Seripos_2013-2017.txt`).
 Coverage:
 
 - 230616: 1-118186/709615 = 0.833
-- 230627: 1-110000/713183 = 0.846
+- 230627: 1-110000/713183 = 0.846 # without long fix
+- 230627: 1-81715/713183 = 0.885 # with long vowel fix
 
 
