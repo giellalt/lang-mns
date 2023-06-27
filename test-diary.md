@@ -34,24 +34,37 @@ SUMMARY for the gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
 ## Lexical coverage 
 
-- cat file | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
-- cat file | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
+Number of words (standing in `lang-mns`):
 
-### textbook
+```
+cat test/data/Mansi_readings.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+```
 
-Mansi readings
+Number of unknown words:
+
+```
+cat test/data/Mansi_readings.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
+cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
+```
+
+### Textbook
+
+Mansi readings (`test/data/Mansi_readings.txt`)
 
 Coverage:
 
 - 230616: 1-557/3997 = 0.861
+- 230627: 1-381/3997 = 0.902
 
 
 ## Lexical coverage Luima Seripos in test/data
 
-Luima Seripos 2013-2017.
+Luima Seripos 2013-2017 (`test/data/Luima_Seripos_2013-2017.txt`).
 
 Coverage:
 
 - 230616: 1-118186/709615 = 0.833
+- 230627: 1-110000/713183 = 0.846
 
 
