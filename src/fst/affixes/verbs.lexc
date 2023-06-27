@@ -657,7 +657,6 @@ LEXICON ACT_COND_VU
 +Act+Cond+ScDu2+OcPl3:%>нуванын K ;
 +Act+Cond+ScDu2+OcPl3:%>нуваны̄н K ;
 +Act+Cond+ScDu3+OcPl3:%>нуванэ̄н K ;!CHECKME ва̄нуванэ̄н
-+Act+Cond+ScDu3+OcPl3:%>нуванэ̄ни K ;!CHECKME тэ̄нуванэ̄ни
 +Act+Cond+ScPl1+OcPl3:%>нуванув K ;
 +Act+Cond+ScPl2+OcPl3:%>нуванын K ;
 +Act+Cond+ScPl2+OcPl3:%>нуваны̄н K ;
@@ -690,10 +689,13 @@ LEXICON ACT_IMPRT
 !
 +Act+Imprt+ScSg2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}нын K ;
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}нын K ;
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н K ;
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}нын K ;
 
 LEXICON ACT_IMPRT_VU
 !! 	* **LEXICON @LEXNAME@**  
