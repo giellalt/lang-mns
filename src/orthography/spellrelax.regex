@@ -40,10 +40,10 @@
 #е̄ (->) ē, # U+0113
 #О̄ (->) Ō, # U+014С
 #о̄ (->) ō, # U+014В
-Ӣ (->) Ӣ, # precomposed (->) Cyrillic И + U+0304 
-ӣ (->) ӣ, # precomposed (->) Cyrillic и + U+0304 
-Ӯ (->) Ӯ, # precomposed (->) Cyrillic у + U+0304 
-ӯ (->) ӯ, # precomposed (->) Cyrillic у + U+0304 
+Ӣ (->) {Ӣ}, # precomposed (->) Cyrillic И + U+0304 
+ӣ (->) {ӣ}, # precomposed (->) Cyrillic и + U+0304 
+Ӯ (->) {Ӯ}, # precomposed (->) Cyrillic у + U+0304 
+ӯ (->) {ӯ}, # precomposed (->) Cyrillic у + U+0304 
 
 
 # New vs. old orthography (move this to spellrelax-mobile?
