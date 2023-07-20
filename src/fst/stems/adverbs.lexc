@@ -254,4 +254,10 @@ LEXICON Adverbs
 тыӈыщ+Adv:тыӈыщ ADV_ ;
 cымыӈыщ+Adv:cымыӈыщ ADV_ ;
 
+ва̄тихал+Adv:ва̄тихал ADV_ ;
+
 ! vim: set ft=xfst-lexc:
+
+ӯльтта+Adv:ӯльтта ADV_ "через" ;
+аквтох+Adv:ӯльтта ADV_ "также" ;
+а̄туп+Adv:а̄туп ADV_ "также" ;
