@@ -1390,3 +1390,5 @@ LEXICON Adjectives
 а̄гиӈ+A:а̄гиӈ A_VCH ;
 
 ! vim: set ft=xfst-lexc:
+
+хатань+A:хатань A_VCS ;
