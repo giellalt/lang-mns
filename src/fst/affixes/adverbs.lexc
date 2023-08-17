@@ -8,6 +8,9 @@ LEXICON ADV_
 :        #   ;
 +Comp:%>нув        #   ;
 
+LEXICON ADV_ABL
++Abl: K ;
+
 LEXICON ADV_LAT
 +Lat: K ;
 
