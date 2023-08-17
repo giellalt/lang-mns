@@ -184,7 +184,7 @@ LEXICON PROP_MANSINAMES
 Сӯкыръя+N+Prop:Сӯкыръя N_VO ;
 Тагт-#я̄+N+Prop:Тагт-#я̄ N_VO ;
 Москва+N+Prop+Sem/Plc:Москва N_VO ;
-Торум#Маа+N+Prop:Торум#Маа N_VO ;
+Торум #Маа+N+Prop:Торум#Маа N_VO ;
 Мань#Ӯскве+N+Prop:Мань#Ӯскве N_VO ;
 Новороссийск+N+Prop+Sem/Plc:Новороссийск N_VCCH ;
 Ханты-#Мансйиск+N+Prop+Sem/Plc:Ханты-#Мансйиск N_VCCH ;
@@ -193,5 +193,9 @@ LEXICON PROP_MANSINAMES
 Самотлор+N+Prop+Sem/Plc:Самотлор N_VCH ;
 Хайдар+N+Prop:Хайдар N_VCH ;
 Казань+N+Prop+Sem/Plc:Казань N_VCS ;
-Санта#Клаус+N+Prop:Санта#Клаус N_VCH ;
-Новый#Уренгой+N+Prop+Sem/Plc:Новый#Уренгой N_VCS ;
+Санта #Клаус+N+Prop:Санта#Клаус N_VCH ;
+Новый #Уренгой+N+Prop+Sem/Plc:Новый#Уренгой N_VCS ;
+То̄рум% маа+N+Prop:То̄рум% маа N_VO ;
+Дом% народного% творчества+N+Prop:Дом% народного% творчества N_VO ;
+Ма̄нь% ӯскве+N+Prop:Ма̄нь% ӯскве N_VO ;
+Лӯима̄% Сэ̄рипос+N+Prop:Лӯима̄% Сэ̄рипос N_VCH "заря" ;
