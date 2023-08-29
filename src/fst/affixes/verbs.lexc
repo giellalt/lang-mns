@@ -99,15 +99,19 @@ LEXICON LYNGKVE
 :лы INF ; !!≈ @CODE@
 :лы PRSPRC ;
 +Act+Ind+Prs+ScSg1:лыгум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:лаен K ;  !мае̄н? 
+!+Act+Ind+Prs+ScSg2:лаен K ;  !мае̄н? 
++Act+Ind+Prs+ScSg2:лыгын K ;
 +Act+Ind+Prs+ScSg3:лыг K ;  !мае̄н? 
 +Act+Ind+Prs+ScDu1:лыгме̄н K ;
-+Act+Ind+Prs+ScDu2:лае̄н K ;
-!+Act+Ind+Prs+ScDu2:лыгын K ;
+!+Act+Ind+Prs+ScDu2:лае̄н K ;
++Act+Ind+Prs+ScDu2:лыгын K ;
++Act+Ind+Prs+ScDu2:лыгы̄н K ;
 +Act+Ind+Prs+ScDu3:лыгыг K ;
 +Act+Ind+Prs+ScPl1:лыгӯв K ;
 +Act+Ind+Prs+ScPl1:лыгув K ;
-+Act+Ind+Prs+ScPl2:лае̄н K ;
+!+Act+Ind+Prs+ScPl2:лае̄н K ;
++Act+Ind+Prs+ScPl2:лыгын K ;
++Act+Ind+Prs+ScPl2:лыгы̄н K ;
 +Act+Ind+Prs+ScPl3:лыгыт K ;
 
 :лы ACT_IND_PRT_SC_VA ;
