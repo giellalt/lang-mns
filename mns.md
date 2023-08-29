@@ -856,6 +856,7 @@ End of alphabet definitions
 ## Rules
 
 **RULE: Syncope for ы**  
+
 тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: __eat/syödä__
 * *тэ̄>ыслум*
 * *тэ̄>0слум*
