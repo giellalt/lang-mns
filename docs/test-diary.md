@@ -33,6 +33,11 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 7274 / FAILS: 1680 / TOTAL: 8954
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
+230901
+gt-norm fst(s): PASSES: 7286 / FAILS: 1676 / TOTAL: 8962
+gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
+
+
 ```
 
 
@@ -78,5 +83,6 @@ Coverage:
 - 230616: 1-118186/709615 = 0.833
 - 230627: 1-110000/713183 = 0.846 # without long fix
 - 230627: 1-81715/713183 = 0.885 # with long vowel fix
+- 230901: 1-70868/711211 = 0.900 # without long fix
 
 
