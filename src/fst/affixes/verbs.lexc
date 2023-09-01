@@ -200,11 +200,12 @@ LEXICON VINGKVE
 +Act+Ind+Prs+ScSg3:выг K ;  !мае̄н? 
 +Act+Ind+Prs+ScDu1:выгме̄н K ;
 +Act+Ind+Prs+ScDu2:выгы̄н K ;
-!+Act+Ind+Prs+ScDu2:выгын K ;
++Act+Ind+Prs+ScDu2:выгын K ;!Jaska 20230901, V-6-wingkwe
 +Act+Ind+Prs+ScDu3:выгыг K ;
 +Act+Ind+Prs+ScPl1:выгӯв K ;
 +Act+Ind+Prs+ScPl1:выгув K ;
 +Act+Ind+Prs+ScPl2:выгы̄н K ;
++Act+Ind+Prs+ScPl2:выгын K ;!Jaska 20230901, V-6-wingkwe
 +Act+Ind+Prs+ScPl3:выгыт K ;
 
 :ви ACT_IND_PRT_SCSG1_sum ;
@@ -222,7 +223,7 @@ LEXICON VINGKVE
 
 :ви ACT_IND_PRT_SC_VA ;
 
-:выг ACT_IND_PRS_OCSG3_lumeen ;
+:выг%{VU%} ACT_IND_PRS_OCSG3_lumeen ;
 :выг%{VU%} ACT_IND_PRS_OCDU3 ;
 :выг%{VU%} ACT_IND_PRS_OCPL3 ;
 :ви ACT_IND_PRT_OCSG3_slumeen ;
@@ -727,9 +728,12 @@ LEXICON ACT_IMPRT_VU
 !
 +Act+Imprt+ScSg2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}нын K ;! Jaska 20230901 V-6-wingkwe
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}ны̄н K ;! Jaska	20230901 V-6-wingkwe
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}ны̄н K ;! Jaska	20230901 V-6-wingkwe
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н K ;
 
 LEXICON ACT_IMPRT_for_V_A
@@ -914,7 +918,7 @@ LEXICON GER
 +Ger+PxSg1:%>мам K ;
 +Ger+PxSg2:%>ман K ;
 +Ger+PxSg3:%>ма K ;
-+Ger+PxSg3:%>матэ K ;!Jaska 20230901 V-6-jingkwe, but not in V-6-lingkwe, yet.
++Ger+PxSg3:%>матэ K ;!Jaska 20230901 V-6-jingkwe, but not in V-6-lingkwe, V-6-wingkwe, yet.
 +Ger+PxDu1:%>маме̄н K ;
 +Ger+PxDu2:%>ман K ;
 +Ger+PxDu3:%>маг K ;
