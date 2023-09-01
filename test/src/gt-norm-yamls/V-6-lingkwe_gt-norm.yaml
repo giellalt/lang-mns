@@ -165,8 +165,8 @@ Tests:
 
 #Active, imperative,  objective conjugation, plural object
     лыӈкве+V+Act+Imprt+ScSg2+OcPl3: [лаен, лае̄н, лае̄нын]
-    лыӈкве+V+Act+Imprt+ScDu2+OcPl3: [лаен, лае̄н, лае̄ны̄н]
-    лыӈкве+V+Act+Imprt+ScPl2+OcPl3: [лаен, лае̄н, лае̄ны̄н]
+    лыӈкве+V+Act+Imprt+ScDu2+OcPl3: [лаен, лае̄н, лае̄нын, лае̄ны̄н]
+    лыӈкве+V+Act+Imprt+ScPl2+OcPl3: [лаен, лае̄н, лае̄нын, лае̄ны̄н]
 
 #Passive, present tense, indicative
     лыӈкве+V+Pass+Ind+Prs+ScSg1: лывем
