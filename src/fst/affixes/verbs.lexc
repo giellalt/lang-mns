@@ -126,7 +126,7 @@ LEXICON LYNGKVE
 !:лы ACT_IND_PRT_SCPL2_syyn ;
 !:лы ACT_IND_PRT_SCPL3_syt ;
 
-:лыг ACT_IND_PRS_OCSG3_lumeen ;
+:лыг%{VU%} ACT_IND_PRS_OCSG3_lumeen ;
 :лыг%{VU%} ACT_IND_PRS_OCDU3 ;
 :лыг%{VU%} ACT_IND_PRS_OCPL3 ;
 :лы ACT_IND_PRT_OCSG3_slumeen ;
@@ -405,7 +405,7 @@ LEXICON ACT_IND_PRS_OCSG3_lumeen
 +Act+Ind+Prs+ScDu3+OcSg3:тэ̄н K ;
 +Act+Ind+Prs+ScDu3+OcSg3+Err/Orth:тэн K ;
 +Act+Ind+Prs+ScPl1+OcSg3:лув K ;
-+Act+Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лӯв K ;! JMR 20230503 and тотылӯв but лыглӯв
++Act+Ind+Prs+ScPl1+OcSg3:лӯв K ;! JMR 20230503 and тотылӯв and лыглӯв 20230901
 +Act+Ind+Prs+ScPl2+OcSg3:лын K ;
 +Act+Ind+Prs+ScPl2+OcSg3:лы̄н K ;
 +Act+Ind+Prs+ScPl3+OcSg3:%>%{аяØ%}ныл K ;
@@ -416,7 +416,7 @@ LEXICON ACT_IND_PRS_OCDU3
 +Act+Ind+Prs+ScSg1+OcDu3:%>%{аяØ%}гум K ;
 +Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гын K ;
 +Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гн K ;!Jaska 20230901 V-6-lingkwe
-+Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гнын K ;
++Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гнын K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScSg3+OcDu3:%>%{аяØ%}ге K ;
 +Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гмен K ;
 +Act+Ind+Prs+ScDu1+OcDu3:%>%{аяØ%}гме̄н K ;
@@ -914,7 +914,7 @@ LEXICON GER
 +Ger+PxSg1:%>мам K ;
 +Ger+PxSg2:%>ман K ;
 +Ger+PxSg3:%>ма K ;
-+Ger+PxSg3+Err/Orth:%>матэ K ;!CHECKME
++Ger+PxSg3:%>матэ K ;!Jaska 20230901 V-6-jingkwe, but not in V-6-lingkwe, yet.
 +Ger+PxDu1:%>маме̄н K ;
 +Ger+PxDu2:%>ман K ;
 +Ger+PxDu3:%>маг K ;
