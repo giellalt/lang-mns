@@ -24,7 +24,7 @@ Tests:
     миӈкве+V+Act+Ind+Prs+ScDu2: [мыгын, мыгы̄н]
     миӈкве+V+Act+Ind+Prs+ScDu3: мыгыг
     миӈкве+V+Act+Ind+Prs+ScPl1: [мыгув, мыгӯв]
-    миӈкве+V+Act+Ind+Prs+ScPl2: [магын, мыгы̄н]
+    миӈкве+V+Act+Ind+Prs+ScPl2: [мыгын, мыгы̄н]
     миӈкве+V+Act+Ind+Prs+ScPl3: мыгыт
 
 #Active, present tense, indicative, objective conjugation, single object
@@ -46,7 +46,7 @@ Tests:
     миӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [мыгагын, мыгагы̄н]
     миӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: мыгаге̄н
     миӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: [мыгагув, мыгагӯв]
-    миӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [мынагын, мыгагы̄н]
+    миӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [мыгагын, мыгагы̄н]
     миӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: мыгаганыл
 
 #Active, present tense, indicative, objective conjugation, plural object
@@ -54,7 +54,7 @@ Tests:
     миӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [мыганын, мыган]
     миӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: мыганэ
     миӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: мыганаме̄н
-    миӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [мынанын, мыганы̄н, мыган]
+    миӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [мыганын, мыганы̄н, мыган]
     миӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: мыганэ̄н
     миӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: [мыганув, мыганӯв]
     миӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [мыганын, мыганы̄н, мыган]
@@ -202,9 +202,9 @@ Tests:
     миӈкве+V+Pass+Cond+ScPl3: [минувет, минӯвет]
 
 #Passive, imperative conjugation
-    миӈкве+V+Pass+Imprt+Sg2: мигвен
-    миӈкве+V+Pass+Imprt+Du2: [мигвен, мигве̄н]
-    миӈкве+V+Pass+Imprt+Pl2: [мигвен, мигве̄н]
+    миӈкве+V+Pass+Imprt+Sg2: мыгвен
+    миӈкве+V+Pass+Imprt+Du2: [мыгвен, мыгве̄н]
+    миӈкве+V+Pass+Imprt+Pl2: [мыгвен, мыгве̄н]
 
 #Present participle
     миӈкве+V+PrsPrc: минэ
@@ -298,16 +298,16 @@ Tests:
 
 #Gerund
     миӈкве+V+Ger: ма̄им
-    миӈкве+V+PrsPrc+PxSg1: ма̄имам
-    миӈкве+V+PrsPrc+PxSg2: ма̄иман
-    миӈкве+V+PrsPrc+PxSg3: ма̄има
-    миӈкве+V+PrsPrc+PxDu1: ма̄имаме̄н
-    миӈкве+V+PrsPrc+PxDu2: ма̄иман
-    миӈкве+V+PrsPrc+PxDu3: ма̄имаг
-    миӈкве+V+PrsPrc+PxPl1: ма̄имав
-    миӈкве+V+PrsPrc+PxPl2: ма̄иман
-    миӈкве+V+PrsPrc+PxPl3: ма̄имат
+    миӈкве+V+Ger+PxSg1: ма̄имам
+    миӈкве+V+Ger+PxSg2: ма̄иман
+    миӈкве+V+Ger+PxSg3: ма̄има
+    миӈкве+V+Ger+PxDu1: ма̄имаме̄н
+    миӈкве+V+Ger+PxDu2: ма̄иман
+    миӈкве+V+Ger+PxDu3: ма̄имаг
+    миӈкве+V+Ger+PxPl1: ма̄имав
+    миӈкве+V+Ger+PxPl2: ма̄иман
+    миӈкве+V+Ger+PxPl3: ма̄имат
 
 #Privative
-    миӈкве+V+Ger: мыгтал
+    миӈкве+V+VAbess: мыгтал
 
