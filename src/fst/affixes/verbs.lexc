@@ -150,19 +150,22 @@ LEXICON MINGKVE
 :ми INF ; !!≈ @CODE@
 :ми PRSPRC ;
 +Act+Ind+Prs+ScSg1:мыгум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:маен K ;  !мае̄н? 
++Act+Ind+Prs+ScSg2:мыгын K ;  !мае̄н? 
 +Act+Ind+Prs+ScSg3:мыг K ;  !мае̄н? 
 +Act+Ind+Prs+ScDu1:мыгме̄н K ;
-+Act+Ind+Prs+ScDu2:мае̄н K ;
++Act+Ind+Prs+ScDu2:мыгы̄н K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScDu2:мыгын K ;!Jaska 20230901, V-6-mingkwe
 +Act+Ind+Prs+ScDu3:мыгыг K ;
 +Act+Ind+Prs+ScPl1:мыгӯв K ;
-+Act+Ind+Prs+ScPl2:мае̄н K ;
++Act+Ind+Prs+ScPl1:мыгув K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScPl2:мыгы̄н K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScPl2:мыгын K ;!Jaska 20230901, V-6-mingkwe
 +Act+Ind+Prs+ScPl3:мыгыт K ;
 
 :ми ACT_IND_PRT_SCSG1_sum ;
 :ми ACT_IND_PRT_SCSG2_syn ;
 :ми ACT_IND_PRT_SCSG3_ys ;
-:ми ACT_IND_PRT_SCDU1_sumeen ;
+:ми ACT_IND_PRT_SCDU1_ysmeen ;
 :ми ACT_IND_PRT_SCDU2_syyn ;
 :ми ACT_IND_PRT_SCDU3_syyg ;
 :ми ACT_IND_PRT_SCPL1_suv ;
@@ -171,7 +174,7 @@ LEXICON MINGKVE
 
 :ми ACT_IND_PRT_SC_VA ;
 
-:мыг ACT_IND_PRS_OCSG3_lumeen ;
+:мыг%{VU%} ACT_IND_PRS_OCSG3_lumeen ;
 :мыг%{VU%} ACT_IND_PRS_OCDU3 ;
 :мыг%{VU%} ACT_IND_PRS_OCPL3 ;
 :ми ACT_IND_PRT_OCSG3_slumeen ;
@@ -188,7 +191,7 @@ LEXICON MINGKVE
 :ми PASS_COND ;
 :мыг PASS_IMPRT_teegveen ;
 :ми PRFPRC_teemanum ;!Will need more 20230622
-:маи GER ;
+:ма̄и GER ;
 :мыг VABESS ;
 
 
@@ -512,7 +515,7 @@ LEXICON ACT_IND_PRT_SC_VA
 : ACT_IND_PRT_SCSG1_sum ;
 : ACT_IND_PRT_SCSG2_syn ;
 : ACT_IND_PRT_SCSG3_ys ;
-: ACT_IND_PRT_SCDU1_ysmeen ;
++Err/Orth: ACT_IND_PRT_SCDU1_ysmeen ;!Jaska 20230901 mingkwe
 : ACT_IND_PRT_SCDU2_syn ;
 : ACT_IND_PRT_SCDU2_syyn ;
 : ACT_IND_PRT_SCDU3_syg ;
