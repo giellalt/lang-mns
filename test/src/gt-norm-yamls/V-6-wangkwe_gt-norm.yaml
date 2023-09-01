@@ -202,9 +202,9 @@ Tests:
     ва̄ӈкве+V+Pass+Cond+ScPl3: [ва̄нувет, ва̄нӯвет]
 
 #Passive, imeperative conjugation
-    ва̄ӈкве+V+Act+Imp+Sg2: ва̄гвен
-    ва̄ӈкве+V+Act+Imp+Du2: [ва̄гвен, ва̄гве̄н]
-    ва̄ӈкве+V+Act+Imp+Pl2: [ва̄гвен, ва̄гве̄н]
+    ва̄ӈкве+V+Pass+Imprt+ScSg2: ва̄гвен
+    ва̄ӈкве+V+Pass+Imprt+ScDu2: [ва̄гвен, ва̄гве̄н]
+    ва̄ӈкве+V+Pass+Imprt+ScPl2: [ва̄гвен, ва̄гве̄н]
 
 #Present participle
     ва̄ӈкве+V+PrsPrc: ва̄нэ
@@ -298,16 +298,16 @@ Tests:
 
 #Gerund
     ва̄ӈкве+V+Ger: ва̄им
-    ва̄ӈкве+V+PrsPrc+PxSg1: ва̄имам
-    ва̄ӈкве+V+PrsPrc+PxSg2: ва̄иман
-    ва̄ӈкве+V+PrsPrc+PxSg3: ва̄има
-    ва̄ӈкве+V+PrsPrc+PxDu1: ва̄имаме̄н
-    ва̄ӈкве+V+PrsPrc+PxDu2: ва̄иман
-    ва̄ӈкве+V+PrsPrc+PxDu3: ва̄имаг
-    ва̄ӈкве+V+PrsPrc+PxPl1: ва̄имав
-    ва̄ӈкве+V+PrsPrc+PxPl2: ва̄иман
-    ва̄ӈкве+V+PrsPrc+PxPl3: ва̄имат
+    ва̄ӈкве+V+Ger+PxSg1: ва̄имам
+    ва̄ӈкве+V+Ger+PxSg2: ва̄иман
+    ва̄ӈкве+V+Ger+PxSg3: ва̄има
+    ва̄ӈкве+V+Ger+PxDu1: ва̄имаме̄н
+    ва̄ӈкве+V+Ger+PxDu2: ва̄иман
+    ва̄ӈкве+V+Ger+PxDu3: ва̄имаг
+    ва̄ӈкве+V+Ger+PxPl1: ва̄имав
+    ва̄ӈкве+V+Ger+PxPl2: ва̄иман
+    ва̄ӈкве+V+Ger+PxPl3: ва̄имат
 
 #Privative
-    ва̄ӈкве+V+Ger: ва̄гтал
+    ва̄ӈкве+V+VAbess: ва̄гтал
 
