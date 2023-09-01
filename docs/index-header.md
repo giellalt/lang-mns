@@ -41,7 +41,11 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
 ### Meeting memos
 
-- 2023: [2.6.](meetings/230602.md) ◊  [9.6.](meetings/230609.md) ◊  [16.6.](meetings/230616.md) ◊  [27.6.](meetings/230627.md)
+- 2023: [2.6.](meetings/230602.md)
+ ◊  [9.6.](meetings/230609.md) 
+ ◊  [16.6.](meetings/230616.md) 
+ ◊  [27.6.](meetings/230627.md)
+ ◊  [1.9.](meetings/230901.md)
 
 # In-source documentation
 
