@@ -405,7 +405,7 @@ LEXICON ACT_IND_PRS_OCSG3_lumeen
 +Act+Ind+Prs+ScDu3+OcSg3:тэ̄н K ;
 +Act+Ind+Prs+ScDu3+OcSg3+Err/Orth:тэн K ;
 +Act+Ind+Prs+ScPl1+OcSg3:лув K ;
-+Act+Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лӯв K ;! JMR 20230503 and тотылӯв
++Act+Ind+Prs+ScPl1+OcSg3:%>%{ЫИ%}лӯв K ;! JMR 20230503 and тотылӯв but лыглӯв
 +Act+Ind+Prs+ScPl2+OcSg3:лын K ;
 +Act+Ind+Prs+ScPl2+OcSg3:лы̄н K ;
 +Act+Ind+Prs+ScPl3+OcSg3:%>%{аяØ%}ныл K ;
@@ -415,17 +415,17 @@ LEXICON ACT_IND_PRS_OCDU3
 !
 +Act+Ind+Prs+ScSg1+OcDu3:%>%{аяØ%}гум K ;
 +Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гын K ;
-+Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гн K ;
++Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гн K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гнын K ;
 +Act+Ind+Prs+ScSg3+OcDu3:%>%{аяØ%}ге K ;
 +Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гмен K ;
 +Act+Ind+Prs+ScDu1+OcDu3:%>%{аяØ%}гме̄н K ;
-+Act+Ind+Prs+ScDu1+OcDu3:%>%{аяØ%}гаме̄н K ;
++Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гаме̄н K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гын K ;
 +Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гы̄н K ;
-+Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гагы̄н K ;
++Act+Ind+Prs+ScDu2+OcDu3+Err/Orth:%>%{аяØ%}гагы̄н K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScDu3+OcDu3:%>%{аяØ%}ге̄н K ;
-+Act+Ind+Prs+ScDu3+OcDu3:%>%{аяØ%}гаге̄н K ;
++Act+Ind+Prs+ScDu3+OcDu3+Err/Orth:%>%{аяØ%}гаге̄н K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScDu3+OcDu3+Err/Orth:%>%{аяØ%}ген K ;
 +Act+Ind+Prs+ScPl1+OcDu3:%>%{аяØ%}гув K ;
 +Act+Ind+Prs+ScPl1+OcDu3:%>%{аяØ%}гӯв K ;
@@ -440,15 +440,15 @@ LEXICON ACT_IND_PRS_OCPL3
 +Act+Ind+Prs+ScSg2+OcPl3:%>%{аяØ%}н K ;
 +Act+Ind+Prs+ScSg3+OcPl3:%>%{аяØ%}нэ K ;
 +Act+Ind+Prs+ScDu1+OcPl3:%>%{аяØ%}наме̄н K ;
-+Act+Ind+Prs+ScDu1+OcPl3:%>%{аяØ%}нанме̄н K ;
++Act+Ind+Prs+ScDu1+OcPl3+Err/Orth:%>%{аяØ%}нанме̄н K ;!Jaska 20230901  V-6-lingkwe
 +Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}нын K ;
 +Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}ны̄н K ;
 +Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}н K ;
 +Act+Ind+Prs+ScDu3+OcPl3:%>%{аяØ%}нэ̄н K ;
-+Act+Ind+Prs+ScDu3+OcPl3:%>%{аяØ%}нанэ̄н K ;
++Act+Ind+Prs+ScDu3+OcPl3+Err/Orth:%>%{аяØ%}нанэ̄н K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нув K ;
 +Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нӯв K ;
-+Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нанӯв K ;
++Act+Ind+Prs+ScPl1+OcPl3+Err/Orth:%>%{аяØ%}нанӯв K ;!Jaska 20230901 V-6-lingkwe
 +Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}нын K ;
 +Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}ны̄н K ;
 +Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}н K ;
@@ -697,9 +697,11 @@ LEXICON ACT_IMPRT
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}нын K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}ны̄н K ;!Jaska 20230901
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}нын K ;
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}ны̄н K ;!Jaska 20230901
 
 LEXICON ACT_IMPRT_VU
 !! 	* **LEXICON @LEXNAME@**  
