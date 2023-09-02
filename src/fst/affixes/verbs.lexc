@@ -9,9 +9,9 @@
 LEXICON VAANGKVE
 : INF ;
 :г IND_PRS_TEENGKVE ;
-: ACT_IND_PRT_SC_VU ;
-: ACT_IND_PRT_SCSG2_sn ;
-: ACT_IND_PRT_SCSG2_snyn ;
+: ACT_IND_PRT_SC_VA ;
+!20230901: ACT_IND_PRT_SCSG2_sn ;
+!20230901: ACT_IND_PRT_SCSG2_snyn ;
 :г%{VU%} ACT_IND_PRS_OCSG3_lumeen ;
 :г%{VU%} ACT_IND_PRS_OCDU3 ;
 :г%{VU%} ACT_IND_PRS_OCPL3 ;
@@ -99,7 +99,7 @@ LEXICON JINGKVE
 
 :йи V11_MUTUAL_PASS_PRS ;
 :яй PASS_PRT ;
-+Pass+Ind+Prt+ScPl1:яй%>весӯв K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
+!+Pass+Ind+Prt+ScPl1:яй%>весӯв K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
 :йи PASS_COND ;
 :йи PASS_IMPRT ;
 :йи PRFPRC ;
@@ -147,8 +147,8 @@ LEXICON LYNGKVE
 !Cond
 :лы ACT_COND_VU ;
 :лай%{VU%} ACT_IMPRT_VU ;
-+Act+Imprt+ScDu2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-mingkwe, wingkwe ; FOR V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-mingkwe, wingkwe ; FOR V-6-lingkwe
++Act+Imprt+ScDu2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 
 :лы V11_MUTUAL_PASS_PRS ;
 
@@ -197,7 +197,8 @@ LEXICON MINGKVE
 !Cond
 :ми ACT_COND_VU ;
 :май%{VU%} ACT_IMPRT_VU ;
-
++Act+Imprt+ScDu2+OcPl3:май%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:май%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 :ми V11_MUTUAL_PASS_PRS ;
 
 :май PASS_PRT ;
@@ -249,6 +250,8 @@ LEXICON VINGKVE
 !Cond
 :ви ACT_COND_VU ;
 :вой%{VU%} ACT_IMPRT_VU ;
++Act+Imprt+ScDu2+OcPl3:вой%{VU%}%>%{ЭЕLong%}нын K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:вой%{VU%}%>%{ЭЕLong%}нын K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 
 :ви V11_MUTUAL_PASS_PRS ;
 
@@ -518,10 +521,6 @@ ACT_IND_PRT_SCDU1_sumeen ;
  ACT_IND_PRT_SCPL1_suuv ;
  ACT_IND_PRT_SCPL2_syn ;
  ACT_IND_PRT_SCPL2_syyn ;
- ACT_IND_PRT_SCPL1_suv ;
- ACT_IND_PRT_SCPL1_suuv ;
- ACT_IND_PRT_SCPL2_syn ;
- ACT_IND_PRT_SCPL2_syyn ;
  ACT_IND_PRT_SCPL3_syt ;
 
 LEXICON ACT_IND_PRT_SC_VA
@@ -713,11 +712,11 @@ LEXICON ACT_IMPRT
 +Act+Imprt+ScSg2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901, not in V-6-tengkwe
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н K ;
 +Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901, but not in V-6-tengkwe
++Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 +Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}ны̄н K ;!Jaska 20230901, but not in V-6-tengkwe
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
 +Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901, but not in V-6-tengkwe
++Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901,  AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 +Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}ны̄н K ;!Jaska 20230901, but not in V-6-tengkwe
 
 LEXICON ACT_IMPRT_VU
@@ -808,7 +807,7 @@ LEXICON PASS_PRT
 +Pass+Ind+Prt+ScDu2:%>весын K ;
 +Pass+Ind+Prt+ScDu3:%>весы̄г K ;
 +Pass+Ind+Prt+ScPl1:%>весув K ;
-+Pass+Ind+Prt+ScPl1+Err/Orth:%>весӯв K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
++Pass+Ind+Prt+ScPl1:%>весӯв K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
 +Pass+Ind+Prt+ScPl2:%>весы̄н K ;
 +Pass+Ind+Prt+ScPl2:%>весын K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;!Luima seripos
@@ -833,23 +832,23 @@ LEXICON PASS_COND
 +Pass+Cond+ScPl3:%>нӯвет K ;
 
 LEXICON PASS_IMPRT
-+Pass+Imprt+Sg2:%>вен K ;
-+Pass+Imprt+Sg2:%>ен K ;
-+Pass+Imprt+Du2:%>вен K ;
-+Pass+Imprt+Du2:%>ве̄н K ;
-+Pass+Imprt+Du2:%>ен K ;
-+Pass+Imprt+Du2:%>е̄н K ;
-+Pass+Imprt+Pl2:%>вен K ;
-+Pass+Imprt+Pl2:%>ве̄н K ;
-+Pass+Imprt+Pl2:%>ен K ;
-+Pass+Imprt+Pl2:%>е̄н K ;
++Pass+Imprt+ScSg2:%>вен K ;
++Pass+Imprt+ScSg2:%>ен K ;
++Pass+Imprt+ScDu2:%>вен K ;
++Pass+Imprt+ScDu2:%>ве̄н K ;
++Pass+Imprt+ScDu2:%>ен K ;
++Pass+Imprt+ScDu2:%>е̄н K ;
++Pass+Imprt+ScPl2:%>вен K ;
++Pass+Imprt+ScPl2:%>ве̄н K ;
++Pass+Imprt+ScPl2:%>ен K ;
++Pass+Imprt+ScPl2:%>е̄н K ;
 
 LEXICON PASS_IMPRT_teegveen
-+Pass+Imprt+Sg2:%>вен K ;
-+Pass+Imprt+Du2:%>вен K ;
-+Pass+Imprt+Du2:%>ве̄н K ;
-+Pass+Imprt+Pl2:%>вен K ;
-+Pass+Imprt+Pl2:%>ве̄н K ;
++Pass+Imprt+ScSg2:%>вен K ;
++Pass+Imprt+ScDu2:%>вен K ;
++Pass+Imprt+ScDu2:%>ве̄н K ;
++Pass+Imprt+ScPl2:%>вен K ;
++Pass+Imprt+ScPl2:%>ве̄н K ;
 
 LEXICON PRSPRC
 +PrsPrc:%>нэ K ; !Does this exist ?20230504
