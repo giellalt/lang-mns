@@ -72,7 +72,7 @@ Coverage:
 
 - 230616: 1-557/3997 = 0.861
 - 230627: 1-381/3997 = 0.902
-
+- 230901: 1.0
 
 ## Lexical coverage Luima Seripos in test/data
 
