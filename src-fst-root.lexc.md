@@ -178,6 +178,8 @@ source and target part-of-speech.
 * **+Use/-PMatch** = for preprocessing
 * **+Use/PMatch** = for preprocessing
 * **@P.Pmatch.Backtrack@** = for preprocessing
+* **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
 ## Morphophonology
 To represent phonologic variations in word forms we use the following
