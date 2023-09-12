@@ -47,7 +47,7 @@ Number of words (standing in `lang-mns`):
 
 ```
 cat test/data/Mansi_readings.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
-cat Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words (working command):
@@ -83,6 +83,8 @@ Coverage:
 - 230616: 1-118186/709615 = 0.833
 - 230627: 1-110000/713183 = 0.846 # without long fix
 - 230627: 1-81715/713183 = 0.885 # with long vowel fix
-- 230901: 1-70868/711211 = 0.900 # without long fix
+- 230901: 1-70868/711211 = 0.900 
+- 230901: 1-69861/711211 = 0.901 
+
 
 
