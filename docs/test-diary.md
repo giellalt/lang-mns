@@ -37,6 +37,10 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 7286 / FAILS: 1676 / TOTAL: 8962
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
+230926
+gt-norm fst(s): PASSES: 8406 / FAILS: 1668 / TOTAL: 10074
+gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
+
 
 ```
 
@@ -80,11 +84,12 @@ Luima Seripos 2013-2017 (`test/data/Luima_Seripos_2013-2017.txt`).
 
 Coverage:
 
-- 230616: 1-118186/709615 = 0.833
-- 230627: 1-110000/713183 = 0.846 # without long fix
-- 230627: 1-81715/713183 = 0.885 # with long vowel fix
-- 230901: 1-70868/711211 = 0.900 
-- 230901: 1-69861/711211 = 0.901 
+- 230616: 1-(118186/709615) = 0.833
+- 230627: 1-(110000/713183) = 0.846 # without long fix
+- 230627: 1-(81715/713183) = 0.885 # with long vowel fix
+- 230901: 1-(70868/711211) = 0.900 
+- 230901: 1-(69861/711211) = 0.901 
+- 230926: 1-(75672/711211) = 0.894 
 
 
 
