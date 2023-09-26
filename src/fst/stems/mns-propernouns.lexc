@@ -130,7 +130,7 @@ LEXICON PROP_MANSINAMES
 Сайнахова+N+Prop:Сайнахова N_VO ;
 Са̄пса+N+Prop+Sem/Plc:Са̄пса N_VO ;
 Саранпа̄выл+N+Prop+Sem/Plc:Саранпа̄выл N_VCH "Саранпауль" ;
-Сӣбирь+N+Prop+Sem/Plc:Сӣбирь N_VCS ;
+Сӣбирь+N+Prop+Sem/Plc:Сӣбирь N_VCS ;
 Силава+N+Prop+Sem/Plc:Силава N_VO ;
 Солнечный+N+Prop+Sem/Plc:Солнечный N_VCS ;
 Сортыӈъя+N+Prop+Sem/Plc:Сортыӈъя N_VO ;
@@ -191,9 +191,9 @@ LEXICON PROP_MANSINAMES
 Дом% народного% творчества+N+Prop:Дом% народного% творчества N_VO ;
 Ма̄нь% ӯскве+N+Prop:Ма̄нь% ӯскве N_VO ;
 Лӯима̄% Сэ̄рипос+N+Prop:Лӯима̄% Сэ̄рипос N_VCH "заря" ;
-Ӯнтари+N+Prop:Ӯнтари N_VI ;
+ӯнтари+N+Prop:ӯнтари N_VI ;
 Щерки+N+Prop:Щерки N_VI ;
-Лӯски++N+Prop:Лӯски N_VI ;
+Лӯски++N+Prop:Лӯски N_VI ;
 Чемаши+N+Prop:Чемаши N_VI ;
 Бубновене+N+Prop:Бубновене N_VO ;
 Аннэ+N+Prop:Аннэ N_VO ;
@@ -204,7 +204,7 @@ LEXICON PROP_MANSINAMES
 Венька+N+Prop:Венька N_VO ;
 Микита+N+Prop:Микита N_VO ;
 Чилла+N+Prop:Чилла N_VO ;
-Кӯринька+N+Prop:Кӯринька N_VO ;
+Кӯринька+N+Prop:Кӯринька N_VO ;
 Танья+N+Prop:Танья N_VO ;
 Селивёрстовна+N+Prop:Селивёрстовна N_VO ;
 Витальевна+N+Prop:Витальевна N_VO ;
@@ -299,10 +299,10 @@ LEXICON PROP_MANSINAMES
 Хулюмсӯнт+v1+N+Prop+Sem/Plc:Хулюмсӯнт N_VCCH ;
 Хулюмсунт+v2+N+Prop+Sem/Plc:Хулюмсунт N_VCCH ;
 Тӯрва̄т+v1+N+Prop+Sem/Plc:Тӯрва̄т N_VCH ;
-Тӯрват+v2+N+Prop+Sem/Plc:Тӯрват N_VCH ;
+Тӯрват+v2+N+Prop+Sem/Plc:Тӯрват N_VCH ;
 Будапешт+N+Prop+Sem/Plc:Я̄сунт N_VCCH ;
-Сӯйва̄т+N+Prop+Sem/Plc:Сӯйва̄т N_VCH ;
-Сӯева̄т+N+Prop+Sem/Plc:Сӯева̄т N_VCH ;
+Сӯйва̄т+N+Prop+Sem/Plc:Сӯйва̄т N_VCH ;
+Сӯева̄т+N+Prop+Sem/Plc:Сӯева̄т N_VCH ;
 Ма̄ньясунт+N+Prop+Sem/Plc:Я̄сунт N_VCCH ;
 Ялпус+N+Prop+Sem/Plc:Ялпус N_VCH ;
 Ялъю̄с+N+Prop+Sem/Plc:Ялъю̄с N_VCH ;
