@@ -1,0 +1,714 @@
+! ============================= !
+! File containing abbreviations !
+! ============================= !
+
+! Lexica for adding tags and periods
+! ----------------------------------
+
+! Splitting in 3 groups, because of the preprocessor
+! - - - - - - - - - - - - - - - - - - - - - - - - -
+
+LEXICON Abbreviation
+noperiod ;
+ITRAB ;
+TRNUMAB ;
+TRAB ;
+
+! Now splitting according to POS, and according to dot or not
+! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+! First collecting POS info, *-noun, *-adv, etc.
+! Also splitting when in doubt: -noun-adj => -noun and -adj
+! Then pointing to two contlexes, a dot-one and a non-dot-one.
+
+LEXICON ab ! No POS, don't know what pos
+ab-nodot ;
+ab-dot ;
+
+LEXICON ab-noun
+ab-nodot-noun ;
+ab-dot-noun ;
+
+!LEXICON ab-adj
+!ab-nodot-adj ;
+!ab-dot-adj ;
+
+!LEXICON ab-adv
+!ab-nodot-adv ;
+!ab-dot-adv ;
+
+!LEXICON ab-num
+!ab-nodot-num ;
+!ab-dot-num;
+
+! Here come POS and Case tags, and no period.
+
+LEXICON ab-nodot-noun ! The bulk
++N+ABBR: # ;  ! no period, that is.
++N+ABBR:%- ab-cases ; 
+
+LEXICON ab-cases
++Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
++Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
+
++Der/са+A:%>са A_ ;
+
+LEXICON ab-nodot ! default
++ABBR: # ;  ! no period, that is.
+
+! Here come POS and Case tags, with the period added.
+
+LEXICON ab-dot ! Default
++ABBR:%. # ;
+
+LEXICON ab-dot-noun ! This is the lexicon for abbrs that must have a period.
++N+ABBR:%. # ;
+
+! The idea is that the nominal ones may have case, like e.g. P.E.N.
+
+
+! The abbreviation lexicon itself
+! -------------------------------
+
+! The ones without final period are listed first. They do not
+! need the transitivity division.
+
+LEXICON noperiod
+км² ab-nodot-noun ;
+км ab-nodot-noun ;
+см ab-nodot-noun ;
+гг ab-nodot-noun ;
+м3/с ab-nodot-noun ;
+кв  ab-nodot-noun ;
+лб  ab-nodot-noun ;
+
+!ААНИИ ACRON-F ;
+!АвтоВАЗ ACRON-F ;
+!АККОР ACRON-F ;
+!АН  ACRON-F ;
+!АМР ACRON-F ;
+!АО  ACRON-F ;
+!АПК ACRON-F ;
+!АПП ACRON-F ;
+!АсПУр ACRON-F ;
+!АСРОС ACRON-F ;
+!АССР ACRON-F ;
+!АТК  ACRON-F ;
+!АТО ACRON-F ;
+!АТОС ACRON-F ;
+!АТП ACRON-F ;
+!АТС ACRON-F ;
+!АУ  ACRON-F ;
+!АФУН ACRON-F ;
+!БАМ ACRON-F ;
+!БАО ACRON-F ;
+!БЕАР ACRON-F ;
+!БКП ACRON-F ;
+!БМВ ACRON-F ;
+!БМП ACRON-F ;
+!БНР ACRON-F ;
+!БРИЗ ACRON-F ;
+!БРИКС ACRON-F ;
+!БССР ACRON-F ;
+!БТИ ACRON-F ;
+!БТР ACRON-F ;
+!ВАД ACRON-F ;
+!ВАДА ACRON-F ;
+!ВАЗ ACRON-F ;
+!ВАИ ACRON-F ;
+!ВАК ACRON-F ;
+!ВАСХНИЛ ACRON-F ;
+!ВАСХНИИЛ ACRON-F ;
+!ВВК ACRON-F ;
+!ВВС ACRON-F ;
+!ВГИК ACRON-F ;
+!ВГТРК ACRON-F ;
+!ВДВ ACRON-F ;
+!ВДК ACRON-F ;
+!ВДНХ ACRON-F ;
+!ВДПО ACRON-F ;
+!ВЗУ ACRON-F ;
+!ВИА  ACRON-F ;
+!ВКСШ ACRON-F ;
+!ВЛКСМ  ACRON-F ;
+!ВМП  ACRON-F ;
+!ВМС ACRON-F ;
+!ВМФ  ACRON-F ;
+!ВНИГРИ ACRON-F ;
+!ВНИИ ACRON-F ;
+!ВОБ ACRON-F ;
+!ВОВ ACRON-F ;
+!ВОЗ ACRON-F ;
+!ВОИ ACRON-F ;
+!ВОИР  ACRON-F ;
+!ВООПИК  ACRON-F ;
+!ВОХР  ACRON-F ;
+!ВСНХ ACRON-F ;
+!ВСУ ACRON-F ;
+!ВСХВ ACRON-F ;
+!ВТБ ACRON-F ;
+!ВТО ACRON-F ;
+!ВЦИОМ ACRON-F ;
+!ВЦИОМС ACRON-F ;
+!ВУЗ ACRON-F ;
+!ВЦИК ACRON-F ;
+!ВЦСПС ACRON-F ;
+!ВЧК ACRON-F ;
+!ГАИ  ACRON-F ;
+!ГАУ ACRON-F ;
+!ГБУ ACRON-F ;
+!ГДР  ACRON-F ;
+!ГИБДД ACRON-F ;
+!ГИЗ ACRON-F ;
+!ГИМС ACRON-F ;
+!ГИТИС ACRON-F ;
+!ГИХЛ ACRON-F ;
+!ГКЧП ACRON-F ;
+!ГлавПУР ACRON-F ;
+!ГОМ  ACRON-F ;
+!ГПС ACRON-F ;
+!ГПТУ  ACRON-F ;
+!ГПУ  ACRON-F ;
+!ГРП  ACRON-F ;
+!ГРПП ACRON-F ;
+!ГРУ ACRON-F ;
+!ГРЭС ACRON-F ;
+!ГСВГ ACRON-F ;
+!ГСМ ACRON-F ;
+!ГСО ACRON-F ;
+!ГТО ACRON-F ;
+!ГТРК ACRON-F ;
+!ГУ ACRON-F ;
+!ГУЛАГ  ACRON-F ;
+!ГУП ACRON-F ;
+!ГУФСИН ACRON-F ;
+!ГЭС  ACRON-F ;
+!ДВП  ACRON-F ;
+!ДЗОТ  ACRON-F ;
+!ДИНА ACRON-F ;
+!ДИП  ACRON-F ;
+!ДКБ ACRON-F ;
+!ДНД ACRON-F ;
+!ДНР ACRON-F ;
+!ДНТ ACRON-F ;
+!ДОСААФ  ACRON-F ;
+!ДПД  ACRON-F ;
+!ДПМК ACRON-F ;
+!ДПП ACRON-F ;
+!ДПС ACRON-F ;
+!ДРБ  ACRON-F ;
+!ДРВ ACRON-F ;
+!ДРСУ ACRON-F ;
+!ДСК ACRON-F ;
+!ДСО ACRON-F ;
+!ДСУ ACRON-F ;
+!ДТ  ACRON-F ;
+!ДХС ACRON-F ;
+!ДЭУ ACRON-F ;
+!ДЮКФП ACRON-F ;
+!ДЮСШ ACRON-F ;
+!ДЮФКП ACRON-F ;
+!ДЮШС ACRON-F ;
+!ЕС ACRON-F ;
+!ЕГЭ ACRON-F ;
+!ЕТС ACRON-F ;
+!ЖКО ACRON-F ;
+!ЖКХ ACRON-F ;
+!ЖЭС ACRON-F ;
+!ЖЭУ  ACRON-F ;
+!ЗАГС  ACRON-F ;
+!ЗАО   ACRON-F ;
+!ЗЖБИ ACRON-F ;
+!ЗИЛ  ACRON-F ;
+!ИВС ACRON-F ;
+!ИГИЛ ACRON-F ;
+!ИГИЛС ACRON-F ;
+!ИК ACRON-F ;
+!ИКП ACRON-F ;
+!ИМЦП ACRON-F ;
+!ИНО ACRON-F ;
+!ИПК ACRON-F ;
+!ИПККНО ACRON-F ;
+!ИТК ACRON-F ;
+!ИТР ACRON-F ;
+!ИУУ  ACRON-F ;
+!ИЯЛИ ACRON-F ;
+!КамАЗ ACRON-F ;
+!КАМАЗ ACRON-F ;
+!КАПП  ACRON-F ;
+!КАССР ACRON-F ;
+!КБО  ACRON-F ;
+!КВЖД ACRON-F ;
+!КВН  ACRON-F ;
+!КВЧ ACRON-F ;
+!КГБ  ACRON-F ;
+!КГПИ ACRON-F ;
+!КИМ  ACRON-F ;
+!КИП ACRON-F ;
+!КИППТ  ACRON-F ;
+!КИПТ ACRON-F ;
+!КИР  ACRON-F ;
+!ККОВ ACRON-F ;
+!КМЕТ ACRON-F ;
+!КНВ ACRON-F ;
+!КНГ ACRON-F ;
+!КНДР ACRON-F ;
+!КНР  ACRON-F ;
+!КНЦ ACRON-F ;
+!КНШ ACRON-F ;
+!КП  ACRON-F ;
+!КПГ ACRON-F ;
+!КПДН ACRON-F ;
+!КПЗ  ACRON-F ;
+!КПП ACRON-F ;
+!КПРФ ACRON-F ;
+!КПСС  ACRON-F ;
+!КПТ ACRON-F ;
+!КПУ ACRON-F ;
+!КР ACRON ;
+!КРАГСиУ ACRON-F ;
+!КРАПТ ACRON-F ;
+!КРБ ACRON-F ;
+!КРИРО ACRON-F ;
+!КРИРОиПК ACRON-F ;
+!КРО ACRON-F ;
+!КРОО ACRON-F ;
+!КРТК ACRON-F ;
+!КРЦДОД ACRON-F ;
+!КТП ACRON-F ;
+!КФХ ACRON-F ;
+!КЭБ  ACRON-F ;
+!ЛГУ ACRON-F ;
+!ЛДК ACRON-F ;
+!ЛДПР ACRON-F ;
+!ЛЗУ ACRON-F ;
+!ЛНР ACRON-F ;
+!ЛПК  ACRON-F ;
+!ЛПО ACRON-F ;
+!ЛПХ ACRON-F ;
+!ЛСГ ACRON-F ;
+!ЛТО ACRON-F ;
+!ЛУАД ACRON-F ;
+!ЛУКОЙЛ ACRON-F ;
+!ЛФК ACRON-F ;
+!МА  ACRON-F ;
+!МАГАТЭ ACRON-F ;
+!МАЗ  ACRON-F ;
+!МАФУН ACRON-F ;
+!МВД  ACRON-F ;
+!МВФ ACRON-F ;
+!МГБ ACRON-F ;
+!МГУ  ACRON-F ;
+!МЖКХ ACRON-F ;
+!МИД ACRON-F ;
+!МКС ACRON-F ;
+!ММС  ACRON-F ;
+!МОД ACRON-F ;
+!МОК  ACRON-F ;
+!МОУ ACRON-F ;
+!МП ACRON-F ;
+!МПС  ACRON-F ;
+!МР ACRON-F ;
+!МРСК ACRON-F ;
+!МСНК ACRON-F ;
+!МТС  ACRON-F ;
+!МТФ  ACRON-F ;
+!МУК ACRON-F ;
+!МУП ACRON-F ;
+!МФЦ ACRON-F ;
+!МХАТ ACRON-F ;
+!МЧС ACRON-F ;
+!МЭИ ACRON-F ;
+!НА ACRON-F ;
+!НАКЮ ACRON-F ;
+!НАО ACRON-F ;
+!НАСА ACRON-F ;
+!НАТО ACRON-F ;
+!НВХО ACRON-F ;
+!НГДУ ACRON-F ;
+!НИИ ACRON-F ;
+!НИИУ ACRON-F ;
+!НИЛ ACRON-F ;
+!НИПТИ ACRON-F ;
+!НКВД  ACRON-F ;
+!НКГБ ACRON-F ;
+!НКСД ACRON-F ;
+!НКФ ACRON-F ;
+!НЛО  ACRON-F ;
+!НПЗ  ACRON-F ;
+!НРБ ACRON-F ;
+!НСШ ACRON-F ;
+!НТВ ACRON-F ;
+!НТР ACRON-F ;
+!НХЛ ACRON-F ;
+!ОАО ACRON-F ;
+!ОАР ACRON-F ;
+!ОАЭ ACRON-F ;
+!ОблОНО ACRON-F ;
+!ОбОНО ACRON-F ;
+!ОБСЕ ACRON-F ;
+!ОБЭП ACRON-F ;
+!ОБХСС  ACRON-F ;
+!ОВД ACRON-F ;
+!ОВС  ACRON-F ;
+!ОГИПТАД ACRON-F ;
+!ОГПН ACRON-F ;
+!ОГПУ  ACRON-F ;
+!ОДВФ ACRON-F ;
+!ОИКК ACRON-F ;
+!ОК  ACRON-F ;
+!ОКК-РКИ ACRON-F ;
+!ОЛП ACRON-F ;
+!ОМВД ACRON-F ;
+!ОМОН ACRON-F ;
+!ОМСН ACRON-F ;
+!ОНО ACRON-F ;
+!ОНФ ACRON-F ;
+!ООН  ACRON-F ;
+!ООО  ACRON-F ;
+!ОРС  ACRON-F ;
+!ОСВОД ACRON-F ;
+!ОТК  ACRON-F ;
+!ОТФ  ACRON-F ;
+!ОУН ACRON-F ;
+!ОУН-УПА ACRON-F ;
+!ОУПД ACRON-F ;
+!ПАК ACRON-F ;
+!ПАО ACRON-F ;
+!ПАТП ACRON-F ;
+!ПВО ACRON-F ;
+!ПДД ACRON-F ;
+!ПечорНИУИ ACRON-F ;
+!ПЛ ACRON-F ;
+!ПМК  ACRON-F ;
+!ПО ACRON-F ;
+!ППС ACRON-F ;
+!ПСК ACRON-F ;
+!ПТО  ACRON-F ;
+!ПТУ  ACRON-F ;
+!ПУ ACRON-F ;
+!ПУРП  ACRON-F ;
+!ПЭВМ ACRON-F ;
+!ПЭС  ACRON-F ;
+!РАЕН ACRON-F ;
+!РАМН ACRON-F ;
+!РАН ACRON-F ;
+!РАПО  ACRON-F ;
+!РАПП  ACRON-F ;
+!РАФУЖ ACRON-F ;
+!РВА ACRON-F ;
+!РГД  ACRON-F ;
+!РГПУ ACRON-F ;
+!РГУ ACRON-F ;
+!РДК ACRON-F ;
+!РДЮСШ ACRON-F ;
+!РЖД ACRON-F ;
+!РИА ACRON-F ;
+!РИК  ACRON-F ;
+!РИПКРО ACRON-F ;
+!РК   ACRON-F ;
+!РКИ ACRON-F ;
+!РККА  ACRON-F ;
+!РКП  ACRON-F ;
+!РКСМ  ACRON-F ;
+!РКЦ ACRON-F ;
+!РМЗ ACRON-F ;
+!РММ  ACRON-F ;
+!РМЦ  ACRON-F ;
+!РНА ACRON-F ;
+!РО ACRON-F ;
+!РОА ACRON-F ;
+!РОВД ACRON-F ;
+!РОНО ACRON-F ;
+!РПД  ACRON-F ;
+!РПП ACRON-F ;
+!РПЦ ACRON-F ;
+!РРМЦ ACRON-F ;
+!РСДПР ACRON-F ;
+!РСДРП  ACRON-F ;
+!РСТ ACRON-F ;
+!РСУ ACRON-F ;
+!РСФРС ACRON-F ;
+!РСФР ACRON-F ;
+!РСФСР  ACRON-F ;
+!РТ ACRON-F ;
+!РТПЦ ACRON-F ;
+!РТС  ACRON-F ;
+!РУДН ACRON-F ;
+!РУНО ACRON-F ;
+!РФ   ACRON-F ;
+!РЭБ ACRON-F ;
+!РЭС ACRON-F ;
+!РЭУ ACRON-F ;
+!СБЕР ACRON-F ;
+!СБУ ACRON-F ;
+!СГУ  ACRON-F ;
+!СД  ACRON-F ;
+!СЕПГ ACRON-F ;
+!СЗФО ACRON-F ;
+!СИЗО ACRON-F ;
+!СКА ACRON-F ;
+!СКУ ACRON-F ;
+!СЛВЗ ACRON-F ;
+!СЛДК ACRON-F ;
+!СЛИ ACRON-F ;
+!СЛПК ACRON-F ;
+!СМЕРШ ACRON-F ;
+!СМЗ  ACRON-F ;
+!СМИ ACRON-F ;
+!СМУ  ACRON-F ;
+!СНГ ACRON-F ;
+!СНК  ACRON-F ;
+!СОБР ACRON-F ;
+!СОФИН ACRON-F ;
+!СОЦ ACRON-F ;
+!СП ACRON-F ;
+!СПб ACRON-F ;
+!СПбГУ ACRON-F ;
+!СПбГУСЭ ACRON-F ;
+!СПК ACRON-F ;
+!СПОГАТ ACRON-F ;
+!СПТУ  ACRON-F ;
+!СС ACRON-F ;
+!ССО  ACRON-F ;
+!ССП  ACRON-F ;
+!ССР  ACRON-F ;
+!СССР  ACRON-F ;
+!СТО ACRON-F ;
+!СТФ   ACRON-F ;
+!СТЭК ACRON-F ;
+!СУ ACRON-F ;
+!СУАЛ ACRON-F ;
+!СУС  ACRON-F ;
+!СЦБТ ACRON-F ;
+!США  ACRON-F ;
+!СыктГУ ACRON-F ;
+!СЭВ ACRON-F ;
+!ТАП  ACRON-F ;
+!ТАСС  ACRON-F ;
+!ТАССР ACRON-F ;
+!ТГУ ACRON-F ;
+!ТИК ACRON-F ;
+!ТКЗХ ACRON-F ;
+!ТКУ ACRON-F ;
+!ТНТ ACRON-F ;
+!ТОЗ   ACRON-F ;
+!ТОО ACRON-F ;
+!ТОС ACRON-F ;
+!ТПК ACRON-F ;
+!ТПП ACRON-F ;
+!ТСЖ ACRON-F ;
+!ТУ  ACRON-F ;
+!ТЭФИ ACRON-F ;
+!ТЭЦ  ACRON-F ;
+!УАЗ  ACRON-F ;
+!УАССР ACRON-F ;
+!УБОП ACRON-F ;
+!УВД ACRON-F ;
+!УВД-ОВД ACRON-F ;
+!УГБ ACRON-F ;
+!УГИБДД ACRON-F ;
+!УГТУ ACRON-F ;
+!УдГУ ACRON-F ;
+!УЖД ACRON-F ;
+!УЗИ  ACRON-F ;
+!УИИ ACRON-F ;
+!УИК ACRON-F ;
+!УИН ACRON-F ;
+!УКОМ ACRON-F ;
+!УКП ACRON-F ;
+!УКС ACRON-F ;
+!УМВД ACRON-F ;
+!УНА-УПА ACRON-F ;
+!УНКВД ACRON-F ;
+!УОНО  ACRON-F ;
+!УПА ACRON-F ;
+!УПН ACRON-F ;
+!УР ACRON-F ;
+!УРБ ACRON-F ;
+!УРС  ACRON-F ;
+!УСЕВЛОН ACRON-F ;
+!УССР  ACRON-F ;
+!УФМС ACRON-F ;
+!УФПС ACRON-F ;
+!УФСБ ACRON-F ;
+!УФСИН ACRON-F ;
+!УФССП ACRON-F ;
+!УЧК  ACRON-F ;
+!ФАП ACRON-F ;
+!ФГУ ACRON-F ;
+!ФГУП ACRON-F ;
+!ФЗД ACRON-F ;
+!ФЗО  ACRON-F ;
+!ФЗУ  ACRON-F ;
+!ФИФА ACRON-F ;
+!ФЛГР ACRON-F ;
+!ФНС ACRON-F ;
+!ФОМС ACRON-F ;
+!ФРГ  ACRON-F ;
+!ФСБ ACRON-F ;
+!ФСКН ACRON-F ;
+!ФССП ACRON-F ;
+!ЦБ ACRON-F ;
+!ЦБТИ ACRON-F ;
+!ЦВР ACRON-F ;
+!ЦГА  ACRON-F ;
+!ЦДТ ACRON-F ;
+!ЦЗН ACRON-F ;
+!ЦИК  ACRON-F ;
+!ЦК  ACRON-F ;
+!ЦНИИМЭ ACRON-F ;
+!ЦРБ ACRON-F ;
+!ЦРМ  ACRON-F ;
+!ЦРУ ACRON-F ;
+!ЦСКА ACRON-F ;
+!ЦСУ  ACRON-F ;
+!ЦУМ ACRON-F ;
+!ЧК  ACRON-F ;
+!ЧП  ACRON-F ;
+!ШКМ  ACRON-F ;
+!ШСУ  ACRON-F ;
+!ХАД ACRON-F ;
+!ЧАЭС ACRON-F ;
+!ЧГТРК ACRON-F ;
+!ЧОН ACRON-F ;
+!ЧОС ACRON-F ;
+!ЧССР ACRON-F ;
+!ШВК ACRON-F ;
+!ШИК ACRON-F ;
+!ЭВМ ACRON-F ;
+!ЭССР ACRON-F ;
+!ЮАР ACRON-F ;
+!ЮПС ACRON-F ;
+!ЮЭС ACRON-F ;
+!ЮКОС ACRON-F ;
+!ЮНЕСКО ACRON-F ;
+
+! =============================================== !
+!            Intransitive abbreviations           !
+! =============================================== !
+
+! These give clause boundaries before capital letters
+! and numbers, but not elsewhere.
+! Vi bor i Sth. CLB 10 av oss er innflyttere.
+! Vi bor i Sth. CLB Saara er også innflytter.
+! Vi vet at Sth. er en fin by.
+
+
+LEXICON ITRAB
+
+
+в ab ;
+г ab ;
+гг ab ;
+
+
+! =============================================== !
+!    Transitive number-related abbreviations      !
+! =============================================== !
+
+! These ones are transitive when followed by numbers or
+! singleton letters, and intransitive elsewhere.
+! Gården har Gnr. 10.
+! Gården har Gnr. 5. a.
+! Alle gårder har ikke Gnr. CLB Det er et problem.
+! Alle gårder har ikke Gnr. og det er et problem.
+
+LEXICON TRNUMAB
+
+Apd		ab-dot ;                                      !
+Вып ab-dot ;
+
+
+! =============================================== !
+!              Transitive abbreviations           !
+! =============================================== !
+
+LEXICON TRAB
+
+! dot% noStb.db
+! Abbreviations that never induce sentence boundaries
+
+досл ab-dot ;
+
+! fenr. 10.
+! fenr. 5. a.
+! fenr. Ståhl.
+! fenr. stål.
+! They simply do never give CLB.
+
+! Capital
+А ab-dot-noun ;
+Б ab-dot-noun ;
+В ab-dot-noun ;
+Г ab-dot-noun ;
+Д ab-dot-noun ;
+Е ab-dot-noun ;
+Ж ab-dot-noun ;
+З ab-dot-noun ;
+И ab-dot-noun ;
+Й ab-dot-noun ;
+К ab-dot-noun ;
+Л ab-dot-noun ;
+М ab-dot-noun ;
+Н ab-dot-noun ;
+О ab-dot-noun ;
+П ab-dot-noun ;
+Р ab-dot-noun ;
+С ab-dot-noun ;
+Т ab-dot-noun ;
+У ab-dot-noun ;
+Ф ab-dot-noun ;
+Х ab-dot-noun ;
+Ц ab-dot-noun ;
+Ч ab-dot-noun ;
+Ш ab-dot-noun ;
+Щ ab-dot-noun ;
+Ъ ab-dot-noun ;
+Ы ab-dot-noun ;
+Ь ab-dot-noun ;
+Э ab-dot-noun ;
+Ю ab-dot-noun ;
+Я ab-dot-noun ;
+Ё ab-dot-noun ;
+І ab-dot-noun ;
+Ӧ ab-dot-noun ;
+
+! Small
+а ab-noun ;
+б ab-noun ;
+в ab-noun ;
+г ab-noun ;
+д ab-noun ;
+е ab-noun ;
+ж ab-noun ;
+з ab-noun ;
+и ab-noun ;
+й ab-noun ;
+к ab-noun ;
+л ab-noun ;
+м ab-noun ;
+н ab-noun ;
+о ab-noun ;
+п ab-noun ;
+р ab-noun ;
+с ab-noun ;
+т ab-noun ;
+у ab-noun ;
+ф ab-noun ;
+х ab-noun ;
+ц ab-noun ;
+ч ab-noun ;
+ш ab-noun ;
+щ ab-noun ;
+ъ ab-noun ;
+ы ab-noun ;
+ь ab-noun ;
+э ab-noun ;
+ю ab-noun ;
+я ab-noun ;
+ё ab-noun ;
+і ab-noun ;
+ӧ ab-noun ;
+
+
