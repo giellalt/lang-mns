@@ -1530,6 +1530,7 @@ word classes, or optionally from prefixes:
 **urj-Cyrl-ProperNouns ;** common cyrillic proper nouns
 **Punctuation ;** 
 **Symbols ;** 
+**Abbreviation ;** 
 
 * **LEXICON K** for evt. clitic (goes to #)
 
