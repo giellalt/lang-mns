@@ -557,6 +557,7 @@ LEXICON Root
    urj-Cyrl-ProperNouns ;  !!≈ **@CODE@** common cyrillic proper nouns
    Punctuation ;           !!≈ **@CODE@** 
    Symbols     ;           !!≈ **@CODE@** 
+   Abbreviation     ;           !!≈ **@CODE@** 
 
 LEXICON COLLECTIVES
 @U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- Nouns ; 
