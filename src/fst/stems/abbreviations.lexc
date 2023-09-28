@@ -48,8 +48,8 @@ LEXICON ab-nodot-noun ! The bulk
 +N+ABBR:%- ab-cases ; 
 
 LEXICON ab-cases
-+Sg: CASEPOSSLEX-AFTERDERIVATION_CNS/END-MINUS-ZERO-END ;
-+Sg: CASEPOSSLEX-AFTERDERIVATION_VOW ;
++Sg: # ; ! fix
++Sg: # ; ! fix 
 
 +Der/са+A:%>са A_ ;
 
