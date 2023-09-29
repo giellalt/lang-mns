@@ -68,9 +68,9 @@ Mansi readings (`test/data/Mansi_readings.txt`)
 
 Coverage:
 
-- 230616: 1-557/3997 = 0.861
-- 230627: 1-381/3997 = 0.902
-- 230901: 1.0
+- 230616: 1-(557/3997) = 0.861
+- 230627: 1-(381/3997) = 0.902
+- 230929: 1-(74//3985) = 0.981
 
 ## Lexical coverage Luima Seripos in test/data
 
