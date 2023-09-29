@@ -41,7 +41,6 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 8406 / FAILS: 1668 / TOTAL: 10074
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
-
 ```
 
 
@@ -50,19 +49,18 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 Number of words (standing in `lang-mns`):
 
 ```
-cat test/data/Mansi_readings.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat test/data/Readings_20230901.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
-Number of unknown words (Mansi_readings.txt gives 0 unknown):
+Number of unknown words:
 
 ```
-cat test/data/Mansi_readings.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |cut -d'"' -f2|grep " ?"|wc -l
-
-cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|wc -l
+cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
+cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
 ```
 
-### Textbook
+### Textbook 1. version
 
 Mansi readings (`test/data/Mansi_readings.txt`)
 
@@ -70,9 +68,17 @@ Coverage:
 
 - 230616: 1-(557/3997) = 0.861
 - 230627: 1-(381/3997) = 0.902
+
+
+### Textbook 2. version
+
+Mansi readings (`test/data/Readings_20230901.txt`)
+
+Coverage:
+
 - 230929: 1-(255/3985) = 0.936
 
-## Lexical coverage Luima Seripos in test/data
+### Lexical coverage Luima Seripos in test/data
 
 Luima Seripos 2013-2017 (`test/data/Luima_Seripos_2013-2017.txt`).
 
