@@ -1,9 +1,10 @@
 # Mansi documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
+![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-mns%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-mns/main/badge.svg)](https://github.com/giellalt/lang-mns/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-mns/main/badge.svg)](https://github.com/giellalt/lang-mns/actions)
 
 These pages document the work on the [Mansi language model](https://github.com/giellalt/lang-mns).
 
