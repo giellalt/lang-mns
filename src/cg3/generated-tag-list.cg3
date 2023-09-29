@@ -3,6 +3,7 @@
 ### IT WILL BE OVERWRITTEN ON NEXT MAKE!!
 ###
 LIST A = A ;
+LIST ABBR = ABBR ;
 LIST Abl = Abl ;
 LIST Acc = Acc ;
 LIST Act = Act ;
