@@ -1,6 +1,7 @@
 The Northern Mansi morphology and tools
 ==========================================
 
+![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-mns%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-mns/main/badge.svg)](https://github.com/giellalt/lang-mns/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/blob/main/LICENSE)
