@@ -340,7 +340,7 @@ LEXICON PROP_MANSINAMES
 Ненецкий+N+Prop+Sem/Plc:Ненецкий N_VCS ;
 Кировский+N+Prop+Sem/Plc:Кировский N_VCS ;
 Алтайский+N+Prop+Sem/Plc:Алтайский N_VCS ; 
-Долгано-#Ненецкий+N+Prop+Sem/Plc:Долгано-#Ненецкий ;
+Долгано-#Ненецкий+N+Prop+Sem/Plc:Долгано-#Ненецкий N_VCS ;
 Иркутский+N+Prop+Sem/Plc:Иркутский N_VCS ;
 СарымоРусскинской+N+Prop=:СарымоРусскинской N_VCS ;
 Сибирь+N+Prop+Sem/Plc:Сибирь N_VCS ;
