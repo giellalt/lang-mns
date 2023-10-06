@@ -16,8 +16,6 @@ It comes right after the stem, it is followed by personal suffixes, than case en
 войканыг-сэ̄млыг
 
 3. Comparison
-
-
 ре̄гыӈнувыг: comparative+trsl form of ре̄гыӈ
 хосанувыг: comparative+trsl form of хоса
 
@@ -31,16 +29,17 @@ It comes right after the stem, it is followed by personal suffixes, than case en
 5. Ordinals
 ловит
 
-6. Changes in the text
-атыянум: changed this to тах пинэ̄гум in the text
-то̄влынэ̄г: changed this into то̄влы in the text
-хольт: аквта хольт was changed to тыщир-тащир in the text
-кем: э̄тпос кем was changed into пуссын э̄тпост in the text
-местат: this was deleted form the text
 
-7. I don't know what to do with this
+6. I don't know what to do with this
 DVD
+кг
+мл
+мин
 матъёмас "ой, как хорошо""ой, как хорошо, что"
+хумна: this can be a dialectal form of хумн. I'd like to have it accepted, but not generated.
+областьт: appears almost as often as областит 
+тӯрытын: can be тӯрытын as well as тӯрытн
+нё̄тнэ̄г: the э in adjectives ending in нэ can become э̄ before transitive г
 
 
 I'll work on solving these ones:
@@ -56,14 +55,3 @@ This is the next thing I have to work on.
 но̄х-вуим
 нох-выгыт
 ва̄рим
-янытлыяныт
-таӈхиянум
-во̄вияныл
-а̄стланэм
-ра̄тэ̄гыт
-са̄литым
-та̄ртавет
-э̄ргиянэ
-пиныянум
-хаснэ̄г: ма̄ньщи ла̄тӊыл хаснэ 'being able to speak Mansi
-ла̄виламе̄н
