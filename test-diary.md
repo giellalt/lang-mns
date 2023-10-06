@@ -76,7 +76,7 @@ Mansi readings (`test/data/Readings_20230901.txt`)
 
 Coverage:
 
-- 230929: 1-(255/3985) = 0.936
+- 231006: 1-(503/7594) = 0.934
 
 ### Lexical coverage Luima Seripos in test/data
 
