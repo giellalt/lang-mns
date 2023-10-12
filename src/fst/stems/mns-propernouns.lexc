@@ -342,7 +342,7 @@ LEXICON PROP_MANSINAMES
 Алтайский+N+Prop+Sem/Plc:Алтайский N_VCS ; 
 Долгано-Ненецкий+N+Prop+Sem/Plc:Долгано-#Ненецкий N_VCS ;
 Иркутский+N+Prop+Sem/Plc:Иркутский N_VCS ;
-СарымоРусскинской+N+Prop=:СарымоРусскинской N_VCS ;
+Сарымо-Русскинское+N+Prop:Сарымо-Русскинское N_VCS ;
 Сибирь+N+Prop+Sem/Plc:Сибирь N_VCS ;
 Нюрм-Во̄ль+N+Prop+Sem/Plc:Нюрм-Во̄ль N_VCS ;
 Ханты-Мансийск+N+Prop+Sem/Plc:Ханты-#Мансийск N_VCCH ; 
@@ -362,3 +362,5 @@ LEXICON PROP_MANSINAMES
 Со̄рни-Корыс+N+Prop+Sem/Ani:Со̄рни-#Корыс N_SYNCH ;
 Нуми-То̄рум+N+Prop+Sem/Ani:Нуми-#То̄рум N_SYNCH ;
 Гринпис+N+Prop+Sem/Org:Гринпис N_VCH ;
+Урай+N+Prop:Урай N_VCS ;
+Тюменский+N+Prop+Sem/Plc:Тюменский N_VCS ;
