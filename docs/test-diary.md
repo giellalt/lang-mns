@@ -50,14 +50,12 @@ Number of words (standing in `lang-mns`):
 
 ```
 cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
-cat test/data/Readings_20230901.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words:
 
 ```
 cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
-cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
 ```
 
 
@@ -76,18 +74,32 @@ Coverage:
 - 230926: 1-(68707/711211) = 0.903 
 - 230928: 1-(66345/709454) = 0.906 
 - 231006: 1-(66046/709355) = 0.907
-- 231012: 1-(66046/709355) = 0.907
+- 231012: 1-(62881/709355) = 0.911
 
 
 
 ### Lexical coverage of Textbook 2. version
+
+
+Number of words (standing in `lang-mns`):
+
+```
+cat test/data/Readings_20230901.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+```
+
+Number of unknown words:
+
+```
+cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
+```
+
 
 The file is: *Mansi readings* (`test/data/Readings_20230901.txt`)
 
 Coverage:
 
 - 231006: 1-(503/7594) = 0.934
-- 231012: 1-(503/7594) = 0.934
+- 231012: 1-(471/7594) = 0.938
 
 ### Lexical coverage of Textbook 1. version
 
