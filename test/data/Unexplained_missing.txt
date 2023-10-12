@@ -6,6 +6,7 @@
 я̄тем: я̄+diminutive suffix+PxSg1
 нэ̄квен: нэ̄+diminutive suffix+PxSg2
 ӯскве: ӯс+diminutive suffix
+а̄щкем: а̄щ+diminutive suffix+PxSg1
 
 Diminutive suffix forms: кве, ке, те
 It comes right after the stem, it is followed by personal suffixes, than case endings
@@ -14,6 +15,9 @@ It comes right after the stem, it is followed by personal suffixes, than case en
 Ане̄квагын-а̄що̄йкагын
 ща̄наге-а̄щаге
 войканыг-сэ̄млыг
+о̄лнэ-хӯлнэ
+тэ̄нэ-айнэ
+о̄лэ̄гыт-хӯлэ̄гыт
 
 3. Comparison
 ре̄гыӈнувыг: comparative+trsl form of ре̄гыӈ
@@ -21,24 +25,38 @@ It comes right after the stem, it is followed by personal suffixes, than case en
 
 4. Exceptional noun stems
 педучилищат: for some reason педучилище is agglutinated педучилищан, педучилищат and педучилищанвл
-ма̄ньта̄гыл
 сэ̄млыг: translative form of сэ̄мыл "black", it's a syncopating stem
 о̄тырен, о̄тыре: it is not a syncopating stem
 а̄тпаг: that is the translative form of the adjective а̄туп, which is derived from the noun а̄т 'hair'
+областьт: locative of область
 
 5. Ordinals
 ловит
 
+6. Correct verb forms, still not working
+ла̄выс: past 3Sg form of ла̄вуӈкве
+э̄рыс: past 3Sg form of э̄руӈкве
 
-6. I don't know what to do with this
+
+7. Verbal prefix
+хот appears twice in the reading. Once it is a typo for хо̄т 6, but once it is a verbal prefix, separated from the verb by the pronoun та, in the phrase хот та са̄грапасаге. This will happen very often, with та or ты.
+
+8. I don't know what to do with this
+
 DVD
 кг
+гр
 мл
+млн
+млрд
 мин
 матъёмас "ой, как хорошо""ой, как хорошо, что"
 хумна: this can be a dialectal form of хумн. I'd like to have it accepted, but not generated.
+Ханты-Мансийскат: apparently the city name can have a similar variant as well
 областьт: appears almost as often as областит 
 тӯрытын: can be тӯрытын as well as тӯрытн
+конференциятын
+суссылтапытын
 нё̄тнэ̄г: the э in adjectives ending in нэ can become э̄ before transitive г
 
 
@@ -55,3 +73,6 @@ This is the next thing I have to work on.
 но̄х-вуим
 нох-выгыт
 ва̄рим
+та̄рата̄лыяныл
+са̄грапналаныл
+щё̄пита̄лавет
