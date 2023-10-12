@@ -49,38 +49,21 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 Number of words (standing in `lang-mns`):
 
 ```
-cat test/data/Readings_20230901.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat test/data/Readings_20230901.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words:
 
 ```
-cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
 cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
+cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
 ```
 
-### Textbook 1. version
 
-Mansi readings (`test/data/Mansi_readings.txt`)
+### Lexical coverage of Luima Seripos
 
-Coverage:
-
-- 230616: 1-(557/3997) = 0.861
-- 230627: 1-(381/3997) = 0.902
-
-
-### Textbook 2. version
-
-Mansi readings (`test/data/Readings_20230901.txt`)
-
-Coverage:
-
-- 231006: 1-(503/7594) = 0.934
-
-### Lexical coverage Luima Seripos in test/data
-
-Luima Seripos 2013-2017 (`test/data/Luima_Seripos_2013-2017.txt`).
+The file is: *Luima Seripos 2013-2017* (`test/data/Luima_Seripos_2013-2017.txt`).
 
 Coverage:
 
@@ -93,6 +76,39 @@ Coverage:
 - 230926: 1-(68707/711211) = 0.903 
 - 230928: 1-(66345/709454) = 0.906 
 - 231006: 1-(66046/709355) = 0.907
+- 231012: 1-(66046/709355) = 0.907
+
+
+
+### Lexical coverage of Textbook 2. version
+
+The file is: *Mansi readings* (`test/data/Readings_20230901.txt`)
+
+Coverage:
+
+- 231006: 1-(503/7594) = 0.934
+- 231012: 1-(503/7594) = 0.934
+
+### Lexical coverage of Textbook 1. version
+
+The file was: Mansi readings (`test/data/Mansi_readings.txt`). This is an old version of the textbook, data kept here for reference.
+
+Coverage:
+
+- 230616: 1-(557/3997) = 0.861
+- 230627: 1-(381/3997) = 0.902
+
+
+
+## Dictinoary coverage of the textbook
+
+```
+cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3 |grep -v '^[:]'|cut -d'"' -f2|uniq|grep -v '^<'|sort|uniq -c|sort -nr|cut -c6-|grep '[яшертыуиопюжасдфгчйкльъэщзхцвбнмм]'|mnshun|grep "+?"|cut -f1|wc -l
+```
+
+### Lemma not in Mansi - Hungarian dictionary:
+
+321012: 1193
 
 
 
