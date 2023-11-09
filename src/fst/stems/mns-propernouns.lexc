@@ -364,3 +364,6 @@ LEXICON PROP_MANSINAMES
 Гринпис+N+Prop+Sem/Org:Гринпис N_VCH ;
 Урай+N+Prop:Урай N_VCS ;
 Тюменский+N+Prop+Sem/Plc:Тюменский N_VCS ;
+Швейцария+N:Швейцария N_VO ;
+Танил+N+Prop:Танил N_VCH ;
+Ка̄тя+N+Prop:Ка̄тя N_VO ; 
