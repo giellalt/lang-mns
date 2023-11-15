@@ -162,11 +162,12 @@ source and target part-of-speech.
 * **+V→N +V→V +V→A** 
 * **+Der/xxx** 
 * **+Der** 
-* **+Der/Yng** N» ыӈ Proprietive as in kpv -а
-* **+Der/Yshch** A» ыщ 
 * **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
+* **+Der/Dimin** Diminutives in -кве (older)/-ке (~ Sosva)/-те (~ Ljapin)
 * **+Der/Ord** is this the best analysis?
 * **+Der/NomAct** м
+* **+Der/Yng** N» ыӈ Proprietive as in kpv -а
+* **+Der/Yshch** A» ыщ 
 
 * **+Use/Circ** = 
 

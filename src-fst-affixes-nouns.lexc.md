@@ -10,6 +10,9 @@ The stem vowel alternation is taken care of in the twolc file.
 
 * LEXICON N_VO Stems ending in other vowels ӯра
 
+* ма̄ # examples:*
+* *ма̄тем:* `ма̄+N+Der+Der/Dimin+Sg+Nom+PxSg1`
+
 * LEXICON N_SYNCH Stems with syncopy, hard
 
 * LEXICON N_SYNCS Stems with syncopy, soft
