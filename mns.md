@@ -1237,6 +1237,7 @@ source and target part-of-speech.
 * **+Der/xxx** 
 * **+Der** 
 * **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
+* **+Der/Comp** Comparitive -нув-
 * **+Der/Dimin** Diminutives in -кве (older)/-ке (~ Sosva)/-те (~ Ljapin)
 * **+Der/Ord** is this the best analysis?
 * **+Der/NomAct** м
