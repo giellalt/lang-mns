@@ -6,10 +6,13 @@
 LEXICON ADV_
 !! **LEXICON @LEXNAME@** either to # or via Comp нув to #
 :        #   ;
-+Comp:%>нув        #   ;
++Der+Der/Comp:%>нув        #   ;
 
 LEXICON ADV_ABL
 +Abl: K ;
+
+LEXICON ADV_DEG
++Deg: K ;
 
 LEXICON ADV_LAT
 +Lat: K ;
