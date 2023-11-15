@@ -19,12 +19,12 @@ LEXICON determiners !!≈ * @CODE@
 LEXICON interrogatives !!≈ * @CODE@
 маныр+v1+Pron+Interr:ман%{ыØ%}р N_SYNCH ; 
 маныр+v2+Pron+Interr:ма̄н%{ыØ%}р N_SYNCH ; 
-матыр+Pron+Interr:мат%{ыØ%}р N_SYNCH ; 
+
 
 LEXICON indefinites !!≈ * @CODE@
 хо̄тпа+Pron+Indef:хо̄тпа N_VO ;
-мощща+Pron+Indef:мощща N_VO ;
-
+мощща+Adv+Indef:мощща N_VO ;
+матыр+Pron+Indef:мат%{ыØ%}р N_SYNCH ; 
 
 LEXICON personal
 !! **LEXICON @LEXNAME@** contains the forms
@@ -138,7 +138,53 @@ LEXICON personal
 
 ! vim: set ft=xfst-lexc:
 
-хотьют+Pron+Interr:хотьют N_VCH ;
 хо̄ӈха+Pron+Interr:хо̄ӈха N_VO ;
+нэ̄мхо̄тпа+Pron:нэ̄мхо̄тпа N_VO "никто"; 
+хо̄тпа-та+Pron:хо̄тпа-та N_VO "кто-то";
+аквта+Pron:аквта N_VO "тот самый";
+то̄ва+Pron:то̄ва N_VO "некоторый, иной"; 
 та+Pron+Dem+Sg+Nom:таи K ; ! that is nice
+ты+Pron+Dem+Sg+Nom:тыи K ;
 сас+Pron:сас N_VCH "оба";
+хумус+Pron:хумус N_VCH "как";
+хотмус+Pron:хотмус N_VCH "как-нибудь"; 
+нэ̄мхотмус+Pron:нэ̄мхотмус N_VCH "никак"; 
+манкем+Pron:манкем N_VCH "какой";
+маткем+Pron:маткем N_VCH "несколько"; 
+матахкем+Pron:матахкем N_VCH "несколько";
+такем+Pron:такем N_VCH "такой"; 
+татем+Pron:татем N_VCH "такой"; 
+таилтем+Pron:таилтем N_VCH "";
+хо̄т-а̄ти+Pron:хо̄т-а̄ти N_VI "где-либо"; 
+матыр-а̄ти+Pron:хо̄т-а̄ти N_VI "что-либо";
+хоталь-а̄ти+Pron:хоталь-а̄ти N_VI ""; 
+хоты+Pron:хоты N_VI "который"; 
+хотты+Pron:хотты N_VI "некоторый"; 
+хотты+Pron:хотты N_VI "кто-нибудь, что-нибудь";
+нэ̄мхоты+Pron:нэ̄мхоты N_VI "";
+нэ̄мхотты+Pron:нэ̄мхотты N_VI "";
+хотьют+Pron:хотьют N_VCH "кто";
+хотъют+Pron:хотъют N_VCH "который";
+нэ̄мхотьют+Pron:нэ̄мхотьют N_VCH "никто";
+хуньт+Pron:хуньт N_VCH "когда";
+нэ̄мхуньт+Pron:нэ̄мхуньт N_VCH "никогда";
+матахмат+Pron:матахмат N_VCH "несколько";
+нэ̄мат+Pron:нэ̄мат N_VCH "никакой";
+матса̄вит+Pron:матса̄вит N_VCH "несколько";
+таса̄вит+Pron:матса̄вит N_VCH "столько"; 
+хо̄т+Pron:хо̄т N_VCH "который";
+нэ̄мхо̄т+Pron:нэ̄мхо̄т N_VCH "нигде";
+маныр+Pron:маныр N_VCH "что"; 
+матыр+Pron:матыр N_VCH "что-то"; 
+нэ̄матыр+Pron:нэ̄матыр N_VCH "ничего";
+манырсыр+Pron:манырсыр N_VCH "какой"; 
+матырсыр+Pron:матырсыр N_VCH "какой-нибудь"; 
+нэ̄матырсыр+Pron:нэ̄матырсыр N_VCH "никакой"; 
+хотталь+Pron:хотталь N_VCS "куда"; 
+нэ̄мхотталь+Pron:нэ̄мхотталь N_VCS "никуда"; 
+хотыл+Pron:хотыл N_VCH "откуда";  
+нэ̄мхотыл+Pron:нэ̄мхотыл N_VCH "";
+манхурип+Pron:манхурип N_VCH "какой";  
+матхурип+Pron:матхурип N_VCH "какой-то"; 
+манъяныт+Pron:манъяныт N_VCH "какой величины"; 
+манах+Pron:манах N_VCH "сколько"; 
