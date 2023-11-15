@@ -1117,6 +1117,7 @@ language are presented in this system in terms of the following symbols.
 
 * **+Prop** 
 * **+Pers** 
+* **+Deg** degree мощща
 * **+Dem** 
 * **+Interr** 
 * **+Refl** this is also used for +Nom intensfier
@@ -1144,7 +1145,7 @@ language are presented in this system in terms of the following symbols.
 
 ### The comparative forms are:
 * **+Pos** 
-* **+Comp** 
+* **!+Comp** 
 * **+Superl** 
 * **+Attr**
 * **+Coll** - Collective numeral
