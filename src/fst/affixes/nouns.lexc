@@ -103,6 +103,10 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 !@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@
 
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
+! Test data:
+!!€gt-norm: ма̄ #
+!!€ ма̄тем:       ма̄+N+Der+Der/Dimin+Sg+Nom+PxSg1
+
 !!:%{VO%} N1_ ;
 :%{VO%} N1_SG ;
 :%{VO%} N1_DU ;
