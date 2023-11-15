@@ -77,6 +77,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 				
  +Prop 	    !!≈ * **@CODE@** 
  +Pers 	    !!≈ * **@CODE@** 
+ +Deg		!!≈ * **@CODE@** degree мощща
  +Dem 	    !!≈ * **@CODE@** 
  +Interr    !!≈ * **@CODE@** 
  +Refl 	    !!≈ * **@CODE@** this is also used for +Nom intensfier
@@ -110,7 +111,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! ### The comparative forms are:
  +Pos      !!≈ * **@CODE@** 
- +Comp     !!≈ * **@CODE@** 
+ !+Comp     !!≈ * **@CODE@** 
  +Superl    !!≈ * **@CODE@** 
  +Attr      !!≈ * **@CODE@**
  +Coll	    !!≈ * **@CODE@** - Collective numeral
