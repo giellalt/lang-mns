@@ -1,47 +1,91 @@
-1. Diminutive suffix
+1. те, ке ~ ти, ки alternation
+
+2. Diminutive suffix on nouns
+
+Diminutive suffix forms: кве, ке, те
+It comes right after the stem, it can be followed by personal suffixes, than case endings
 
 ма̄тем: ма̄+diminutive suffix+PxSg1
+ма̄те̄в: ма̄+diminutive suffix+PxPl1
 нё̄ртем: нё̄р+diminutive suffix+PxSg1
 во̄ртем: во̄р+diminutive suffix+PxSg1
 я̄тем: я̄+diminutive suffix+PxSg1
 нэ̄квен: нэ̄+diminutive suffix+PxSg2
 ӯскве: ӯс+diminutive suffix
 а̄щкем: а̄щ+diminutive suffix+PxSg1
+хо̄птыкем: хо̄пт+diminutive suffix+PxSg1
+хо̄пт-пыгкем: хо̄пт-пыг+diminutive suffix+PxSg1
+ха̄пквет: ха̄п+diminutive suffix+Pl
+нэ̄квен: нэ̄+diminutive suffix+Dat
+а̄щкем: а̄щ+diminutive suffix+PxSg1
+а̄ныкветн: а̄ны+diminutive suffix+PxSg1
+а̄гикве:а̄ги+diminutive suffix+PxSg1
 
-Diminutive suffix forms: кве, ке, те
-It comes right after the stem, it is followed by personal suffixes, than case endings
 
-2. Twin-words
-Ане̄квагын-а̄що̄йкагын
+3. Twin words
 ща̄наге-а̄щаге
-войканыг-сэ̄млыг
+Ане̄квагын-а̄що̄йкагын
+о̄лэ̄гыт-хӯлэ̄гыт
 о̄лнэ-хӯлнэ
 тэ̄нэ-айнэ
-о̄лэ̄гыт-хӯлэ̄гыт
+тэ̄н-айнут
+войканыг-сэ̄млыг
+Хулахыг-саквалякыг
+тыналахтан-ва̄талахтан
 
-3. Comparison
+4. Comparison
 ре̄гыӈнувыг: comparative+trsl form of ре̄гыӈ
 хосанувыг: comparative+trsl form of хоса
+хосанувыг
+ащирмаӈнуве̄г
+хорамыӈнувег
+мо̄тсырнуве̄г
 
-4. Exceptional noun stems
+5. Exceptional noun stems
 педучилищат: for some reason педучилище is agglutinated педучилищан, педучилищат and педучилищанвл
+хумна: this can be a dialectal form of хумн. I'd like to have it accepted, but not generated.
+пуӈкумна: пуӈк+PxSg1+lat 
+Ханты-Мансийскат: apparently the city name can have a similar variant as well
 сэ̄млыг: translative form of сэ̄мыл "black", it's a syncopating stem
+пумщыг
+то̄рмув
 о̄тырен, о̄тыре: it is not a syncopating stem
-а̄тпаг: that is the translative form of the adjective а̄туп, which is derived from the noun а̄т 'hair'
-областьт: locative of область
+атпаг: that is the translative form of the adjective атуп, which is derived from the noun ат 'hair'
+областьт: locative of область, appears almost as often as областит 
+тӯрытын: can be тӯрытын as well as тӯрытн
+суссылтапытын
+хо̄талытын
+фруктытыл
+фруктыт
+конференциятын
+павлытн
+писалил 
+питьмийыг: doesn't look good, but I found a similar example in the corpus
 
-5. Ordinals
+6. Exceptional adjectives
+нё̄тнэ̄г: the э in adjectives ending in нэ can become э̄ before transitive г
+хаснэ̄г
+ка̄миньтаг: trsl of the adjective ка̄миньт
+
+
+7. Ordinals
 ловит
+хотыт
 
-6. Correct verb forms, still not working
+8. Correct forms, still not working
 ла̄выс: past 3Sg form of ла̄вуӈкве
 э̄рыс: past 3Sg form of э̄руӈкве
+ма̄хмыг: trsl of ма̄хум
+а̄щум: а̄щ+PxSg1
 
 
-7. Verbal prefix
+9. Verbal prefix
 хот appears twice in the reading. Once it is a typo for хо̄т 6, but once it is a verbal prefix, separated from the verb by the pronoun та, in the phrase хот та са̄грапасаге. This will happen very often, with та or ты.
 
-8. I don't know what to do with this
+10. а̄тимыг е̄мтуӈкве
+
+
+11. I don't know what to do with these
 
 DVD
 кг
@@ -50,29 +94,96 @@ DVD
 млн
 млрд
 мин
+
 матъёмас "ой, как хорошо""ой, как хорошо, что"
-хумна: this can be a dialectal form of хумн. I'd like to have it accepted, but not generated.
-Ханты-Мансийскат: apparently the city name can have a similar variant as well
-областьт: appears almost as often as областит 
-тӯрытын: can be тӯрытын as well as тӯрытн
-конференциятын
-суссылтапытын
-нё̄тнэ̄г: the э in adjectives ending in нэ can become э̄ before transitive г
 
 
 I'll work on solving these ones:
 
 +1 Pronouns
-This is the next thing I have to work on.
 тавкинатэ̄н
 А̄нумн
+та̄нти
+на̄нти
+котьлил
+котьле̄н
+коны-па̄лнэ
+коны-па̄л
 
 +2 Verbal paradigms
 та̄ратыяныл
-сунсаве̄гыт: the passive of сунсуӈкве
+сунсаве̄гыт
 но̄х-вуим
 нох-выгыт
 ва̄рим
 та̄рата̄лыяныл
 са̄грапналаныл
 щё̄пита̄лавет
+хайтэ̄гыт
+хайтыс
+ха̄сэгум
+хонтсаныл
+ханищтыянэ
+тэ̄лыгтыянэ
+тыналыяныл
+тотыяныл
+тагмахтыяныл
+сыстамтыянӯв
+сыстамлылӯв
+суссыс
+суссылтыяныл
+суссылтапытын
+сунсыглыянӯв
+сунсаве̄гыт
+равтэ̄лын
+пувлысӯв
+потыртыянэ
+поргысыт
+по̄лясаве
+пиныянӯв
+патсэ̄в
+патмум
+па̄хвтысыт
+па̄йтнэ̄тэ
+о̄лгӣн
+ня̄влыгтастэ
+номыянум
+но̄х-ха̄хнэ
+но̄х-те̄лыс
+но̄х-сайкалы
+но̄х-во̄вве̄сыт
+на̄ӈкэ̄гыт
+мӯйлуптсаныл
+минамувт
+массэгыт
+лю̄льнэ
+луйгинэ̄ныл
+ловтыянӯв
+лап-ма̄нигтэлын
+ла̄виламе̄н
+ла̄ве
+ла̄ввесын
+исылтахтасӯв
+вӯен
+во̄вияныл
+во̄виньта̄лаве
+висанэ
+ве̄рмувес
+ве̄рмияныл
+ва̄рыс
+ва̄рияныл
+атхатыгла̄лсэгыт
+акван-тэ̄лыглылӯв
+акван-атхатыгласыт
+а̄стысыт
+а̄стланэм
+
++3 diminutive suffixes in other parts of speech
+атса̄ткем
+таилтем
+
+
+
+
+
+
