@@ -37,7 +37,7 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 7286 / FAILS: 1676 / TOTAL: 8962
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
-230926
+230926, 231116
 gt-norm fst(s): PASSES: 8406 / FAILS: 1668 / TOTAL: 10074
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
@@ -75,6 +75,7 @@ Coverage:
 - 230928: 1-(66345/709454) = 0.906 
 - 231006: 1-(66046/709355) = 0.907
 - 231012: 1-(62881/709355) = 0.911
+- 231116: 1-(55607/709017) = 0.922
 
 
 
@@ -100,6 +101,7 @@ Coverage:
 
 - 231006: 1-(503/7594) = 0.934
 - 231012: 1-(471/7594) = 0.938
+- 231012: 1-(348/7584) = 0.954
 
 ### Lexical coverage of Textbook 1. version
 
@@ -109,7 +111,7 @@ Coverage:
 
 - 230616: 1-(557/3997) = 0.861
 - 230627: 1-(381/3997) = 0.902
-
+- No more testing on this version
 
 
 ## Dictinoary coverage of the textbook
@@ -121,6 +123,6 @@ cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokenis
 ### Lemma not in Mansi - Hungarian dictionary:
 
 321012: 1193
-
+321116: 1178
 
 
