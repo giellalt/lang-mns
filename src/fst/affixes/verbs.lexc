@@ -38,17 +38,17 @@ LEXICON TEENGKVE !тэ̄ӈкве+V:т
 :э̄ ACT_IND_PRT_SCSG2_snyn ;
 :э̄г%{VU%} ACT_IND_PRS_OCSG3_lumeen ;
 :э̄г%{VU%} ACT_IND_PRS_OCDU3 ;
-+Act+Ind+Prs+ScSg2+OcDu3:э̄г%{VU%}%>%{аяØ%}гн K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScSg2+OcDu3:э̄г%{VU%}%>%{аяØ%}гнын K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScDu1+OcDu3:э̄г%{VU%}%>%{аяØ%}гаме̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScDu2+OcDu3:э̄г%{VU%}%>%{аяØ%}гагы̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScDu3+OcDu3:э̄г%{VU%}%>%{аяØ%}гаге̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScSg2+OcDu3:э̄г%{VU%}%>%{аяØ%}гн VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScSg2+OcDu3:э̄г%{VU%}%>%{аяØ%}гнын VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScDu1+OcDu3:э̄г%{VU%}%>%{аяØ%}гаме̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScDu2+OcDu3:э̄г%{VU%}%>%{аяØ%}гагы̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScDu3+OcDu3:э̄г%{VU%}%>%{аяØ%}гаге̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
 
 :э̄г%{VU%} ACT_IND_PRS_OCPL3 ;
-+Act+Ind+Prs+ScDu1+OcPl3:э̄г%{VU%}%>%{аяØ%}нанме̄н K ;!Jaska 20230901
-+Act+Ind+Prs+ScDu3+OcPl3:э̄г%{VU%}%>%{аяØ%}нанэ̄н K ;!Jaska 20230901
-+Act+Ind+Prs+ScPl1+OcPl3:э̄г%{VU%}%>%{аяØ%}нанув K ;!Jaska 20230901
-+Act+Ind+Prs+ScPl1+OcPl3:э̄г%{VU%}%>%{аяØ%}нанӯв K ;!Jaska 20230901
++Act+Ind+Prs+ScDu1+OcPl3:э̄г%{VU%}%>%{аяØ%}нанме̄н VERB_K ;!Jaska 20230901
++Act+Ind+Prs+ScDu3+OcPl3:э̄г%{VU%}%>%{аяØ%}нанэ̄н VERB_K ;!Jaska 20230901
++Act+Ind+Prs+ScPl1+OcPl3:э̄г%{VU%}%>%{аяØ%}нанув VERB_K ;!Jaska 20230901
++Act+Ind+Prs+ScPl1+OcPl3:э̄г%{VU%}%>%{аяØ%}нанӯв VERB_K ;!Jaska 20230901
 :э̄ ACT_IND_PRT_OCSG3_slumeen ;
 :э̄ ACT_IND_PRT_OCDU3 ;
 :э̄ ACT_IND_PRT_OCPL3 ;
@@ -67,18 +67,18 @@ LEXICON TEENGKVE !тэ̄ӈкве+V:т
 LEXICON JINGKVE
 :йи INF ; !!≈ @CODE@
 :йи PRSPRC_jingkve ;
-+Act+Ind+Prs+ScSg1:ювум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:ювын K ;  !мае̄н? 
-+Act+Ind+Prs+ScSg3:юв K ;  !мае̄н? 
-+Act+Ind+Prs+ScDu1:ювме̄н K ;
-+Act+Ind+Prs+ScDu2:ювын K ;
-+Act+Ind+Prs+ScDu2:ювы̄н K ;
-+Act+Ind+Prs+ScDu3:ювыг K ;
-+Act+Ind+Prs+ScPl1:ювув K ;
-+Act+Ind+Prs+ScPl1:ювӯв K ;
-+Act+Ind+Prs+ScPl2:ювын K ;
-+Act+Ind+Prs+ScPl2:ювы̄н K ;
-+Act+Ind+Prs+ScPl3:ювыт K ;
++Act+Ind+Prs+ScSg1:ювум VERB_K ; !мыгӯв?
++Act+Ind+Prs+ScSg2:ювын VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScSg3:юв VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:ювме̄н VERB_K ;
++Act+Ind+Prs+ScDu2:ювын VERB_K ;
++Act+Ind+Prs+ScDu2:ювы̄н VERB_K ;
++Act+Ind+Prs+ScDu3:ювыг VERB_K ;
++Act+Ind+Prs+ScPl1:ювув VERB_K ;
++Act+Ind+Prs+ScPl1:ювӯв VERB_K ;
++Act+Ind+Prs+ScPl2:ювын VERB_K ;
++Act+Ind+Prs+ScPl2:ювы̄н VERB_K ;
++Act+Ind+Prs+ScPl3:ювыт VERB_K ;
 :йи ACT_IND_PRT_SCSG1_sum ;
 :йи ACT_IND_PRT_SCSG2_syn ;
 :йи ACT_IND_PRT_SCSG3_ys ;
@@ -99,7 +99,7 @@ LEXICON JINGKVE
 
 :йи V11_MUTUAL_PASS_PRS ;
 :яй PASS_PRT ;
-!+Pass+Ind+Prt+ScPl1:яй%>весӯв K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
+!+Pass+Ind+Prt+ScPl1:яй%>весӯв VERB_K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
 :йи PASS_COND ;
 :йи PASS_IMPRT ;
 :йи PRFPRC ;
@@ -109,21 +109,21 @@ LEXICON JINGKVE
 LEXICON LYNGKVE
 :лы INF ; !!≈ @CODE@
 :лы PRSPRC ;
-+Act+Ind+Prs+ScSg1:лыгум K ; !мыгӯв?
-!+Act+Ind+Prs+ScSg2:лаен K ;  !мае̄н? 
-+Act+Ind+Prs+ScSg2:лыгын K ;
-+Act+Ind+Prs+ScSg3:лыг K ;  !мае̄н? 
-+Act+Ind+Prs+ScDu1:лыгме̄н K ;
-!+Act+Ind+Prs+ScDu2:лае̄н K ;
-+Act+Ind+Prs+ScDu2:лыгын K ;
-+Act+Ind+Prs+ScDu2:лыгы̄н K ;
-+Act+Ind+Prs+ScDu3:лыгыг K ;
-+Act+Ind+Prs+ScPl1:лыгӯв K ;
-+Act+Ind+Prs+ScPl1:лыгув K ;
-!+Act+Ind+Prs+ScPl2:лае̄н K ;
-+Act+Ind+Prs+ScPl2:лыгын K ;
-+Act+Ind+Prs+ScPl2:лыгы̄н K ;
-+Act+Ind+Prs+ScPl3:лыгыт K ;
++Act+Ind+Prs+ScSg1:лыгум VERB_K ; !мыгӯв?
+!+Act+Ind+Prs+ScSg2:лаен VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScSg2:лыгын VERB_K ;
++Act+Ind+Prs+ScSg3:лыг VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:лыгме̄н VERB_K ;
+!+Act+Ind+Prs+ScDu2:лае̄н VERB_K ;
++Act+Ind+Prs+ScDu2:лыгын VERB_K ;
++Act+Ind+Prs+ScDu2:лыгы̄н VERB_K ;
++Act+Ind+Prs+ScDu3:лыгыг VERB_K ;
++Act+Ind+Prs+ScPl1:лыгӯв VERB_K ;
++Act+Ind+Prs+ScPl1:лыгув VERB_K ;
+!+Act+Ind+Prs+ScPl2:лае̄н VERB_K ;
++Act+Ind+Prs+ScPl2:лыгын VERB_K ;
++Act+Ind+Prs+ScPl2:лыгы̄н VERB_K ;
++Act+Ind+Prs+ScPl3:лыгыт VERB_K ;
 
 :лы ACT_IND_PRT_SC_VA ;
 !:лы ACT_IND_PRT_SCSG1_sum ;
@@ -147,8 +147,8 @@ LEXICON LYNGKVE
 !Cond
 :лы ACT_COND_VU ;
 :лай%{VU%} ACT_IMPRT_VU ;
-+Act+Imprt+ScDu2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScDu2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:лай%{VU%}%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 
 :лы V11_MUTUAL_PASS_PRS ;
 
@@ -162,18 +162,18 @@ LEXICON LYNGKVE
 LEXICON MINGKVE
 :ми INF ; !!≈ @CODE@
 :ми PRSPRC ;
-+Act+Ind+Prs+ScSg1:мыгум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:мыгын K ;  !мае̄н? 
-+Act+Ind+Prs+ScSg3:мыг K ;  !мае̄н? 
-+Act+Ind+Prs+ScDu1:мыгме̄н K ;
-+Act+Ind+Prs+ScDu2:мыгы̄н K ;!Jaska 20230901, V-6-mingkwe
-+Act+Ind+Prs+ScDu2:мыгын K ;!Jaska 20230901, V-6-mingkwe
-+Act+Ind+Prs+ScDu3:мыгыг K ;
-+Act+Ind+Prs+ScPl1:мыгӯв K ;
-+Act+Ind+Prs+ScPl1:мыгув K ;!Jaska 20230901, V-6-mingkwe
-+Act+Ind+Prs+ScPl2:мыгы̄н K ;!Jaska 20230901, V-6-mingkwe
-+Act+Ind+Prs+ScPl2:мыгын K ;!Jaska 20230901, V-6-mingkwe
-+Act+Ind+Prs+ScPl3:мыгыт K ;
++Act+Ind+Prs+ScSg1:мыгум VERB_K ; !мыгӯв?
++Act+Ind+Prs+ScSg2:мыгын VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScSg3:мыг VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:мыгме̄н VERB_K ;
++Act+Ind+Prs+ScDu2:мыгы̄н VERB_K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScDu2:мыгын VERB_K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScDu3:мыгыг VERB_K ;
++Act+Ind+Prs+ScPl1:мыгӯв VERB_K ;
++Act+Ind+Prs+ScPl1:мыгув VERB_K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScPl2:мыгы̄н VERB_K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScPl2:мыгын VERB_K ;!Jaska 20230901, V-6-mingkwe
++Act+Ind+Prs+ScPl3:мыгыт VERB_K ;
 
 :ми ACT_IND_PRT_SCSG1_sum ;
 :ми ACT_IND_PRT_SCSG2_syn ;
@@ -197,8 +197,8 @@ LEXICON MINGKVE
 !Cond
 :ми ACT_COND_VU ;
 :май%{VU%} ACT_IMPRT_VU ;
-+Act+Imprt+ScDu2+OcPl3:май%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3:май%{VU%}%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScDu2+OcPl3:май%{VU%}%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:май%{VU%}%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 :ми V11_MUTUAL_PASS_PRS ;
 
 :май PASS_PRT ;
@@ -212,18 +212,18 @@ LEXICON MINGKVE
 LEXICON VINGKVE
 :ви INF ; !!≈ @CODE@
 :ви PRSPRC ;
-+Act+Ind+Prs+ScSg1:выгум K ; !мыгӯв?
-+Act+Ind+Prs+ScSg2:выгын K ;  !мае̄н? 
-+Act+Ind+Prs+ScSg3:выг K ;  !мае̄н? 
-+Act+Ind+Prs+ScDu1:выгме̄н K ;
-+Act+Ind+Prs+ScDu2:выгы̄н K ;
-+Act+Ind+Prs+ScDu2:выгын K ;!Jaska 20230901, V-6-wingkwe
-+Act+Ind+Prs+ScDu3:выгыг K ;
-+Act+Ind+Prs+ScPl1:выгӯв K ;
-+Act+Ind+Prs+ScPl1:выгув K ;
-+Act+Ind+Prs+ScPl2:выгы̄н K ;
-+Act+Ind+Prs+ScPl2:выгын K ;!Jaska 20230901, V-6-wingkwe
-+Act+Ind+Prs+ScPl3:выгыт K ;
++Act+Ind+Prs+ScSg1:выгум VERB_K ; !мыгӯв?
++Act+Ind+Prs+ScSg2:выгын VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScSg3:выг VERB_K ;  !мае̄н? 
++Act+Ind+Prs+ScDu1:выгме̄н VERB_K ;
++Act+Ind+Prs+ScDu2:выгы̄н VERB_K ;
++Act+Ind+Prs+ScDu2:выгын VERB_K ;!Jaska 20230901, V-6-wingkwe
++Act+Ind+Prs+ScDu3:выгыг VERB_K ;
++Act+Ind+Prs+ScPl1:выгӯв VERB_K ;
++Act+Ind+Prs+ScPl1:выгув VERB_K ;
++Act+Ind+Prs+ScPl2:выгы̄н VERB_K ;
++Act+Ind+Prs+ScPl2:выгын VERB_K ;!Jaska 20230901, V-6-wingkwe
++Act+Ind+Prs+ScPl3:выгыт VERB_K ;
 
 :ви ACT_IND_PRT_SCSG1_sum ;
 :ви ACT_IND_PRT_SCSG2_syn ;
@@ -250,8 +250,8 @@ LEXICON VINGKVE
 !Cond
 :ви ACT_COND_VU ;
 :вой%{VU%} ACT_IMPRT_VU ;
-+Act+Imprt+ScDu2+OcPl3:вой%{VU%}%>%{ЭЕLong%}нын K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3:вой%{VU%}%>%{ЭЕLong%}нын K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScDu2+OcPl3:вой%{VU%}%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:вой%{VU%}%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 
 :ви V11_MUTUAL_PASS_PRS ;
 
@@ -268,22 +268,22 @@ LEXICON MINUNGKVE
 :у INF ; !!≈ @CODE@
  PRSPRC ;
 :%>%{аяØ%} PRFPRC ;
-+Ger:%{VU%}%>ым K ;
++Ger:%{VU%}%>ым VERB_K ;
 :%{VU%} ACT_IND_PRS_VU ;
 
-+Act+Ind+Prt+ScSg1:асум K ;
-+Act+Ind+Prt+ScSg2:асын K ;
-+Act+Ind+Prt+ScSg3:ас K ;
-+Act+Ind+Prt+ScDu1:асаме̄н K ;
-+Act+Ind+Prt+ScDu2:асы̄н K ;
-+Act+Ind+Prt+ScDu2:асын K ;
-+Act+Ind+Prt+ScDu3:асы̄г K ;
-+Act+Ind+Prt+ScDu3:асыг K ;
-+Act+Ind+Prt+ScPl1:асув K ;
-+Act+Ind+Prt+ScPl1:асӯв K ;
-+Act+Ind+Prt+ScPl2:асы̄н K ;
-+Act+Ind+Prt+ScPl2:асын K ;
-+Act+Ind+Prt+ScPl3:асыт K ;
++Act+Ind+Prt+ScSg1:асум VERB_K ;
++Act+Ind+Prt+ScSg2:асын VERB_K ;
++Act+Ind+Prt+ScSg3:ас VERB_K ;
++Act+Ind+Prt+ScDu1:асаме̄н VERB_K ;
++Act+Ind+Prt+ScDu2:асы̄н VERB_K ;
++Act+Ind+Prt+ScDu2:асын VERB_K ;
++Act+Ind+Prt+ScDu3:асы̄г VERB_K ;
++Act+Ind+Prt+ScDu3:асыг VERB_K ;
++Act+Ind+Prt+ScPl1:асув VERB_K ;
++Act+Ind+Prt+ScPl1:асӯв VERB_K ;
++Act+Ind+Prt+ScPl2:асы̄н VERB_K ;
++Act+Ind+Prt+ScPl2:асын VERB_K ;
++Act+Ind+Prt+ScPl3:асыт VERB_K ;
 
 : V11_MUTUAL_PASS ;
 
@@ -309,19 +309,19 @@ LEXICON JOXTUNGKVE
 
 
 LEXICON IND_PRS_TEENGKVE
-+Act+Ind+Prs+ScSg1:%>ум K ;
-+Act+Ind+Prs+ScSg2:%>ын K ;
-!+Act+Ind+Prs+ScSg2:%>нын K ;
-+Act+Ind+Prs+ScSg3: K ;
-+Act+Ind+Prs+ScDu1:%>ме̄н K ;
-+Act+Ind+Prs+ScDu2:%>ын K ;
-+Act+Ind+Prs+ScDu2+Use/NG:%>ы̄н K ;!2017: 134
-+Act+Ind+Prs+ScDu3:%>ыг K ;
-+Act+Ind+Prs+ScDu3+Err/Orth:%>ы̄г K ;!2017: 134, but Jaska 20230901, AGAINST tengkwe
-+Act+Ind+Prs+ScPl1:%>ув K ;
-+Act+Ind+Prs+ScPl1:%>ӯв K ;
-+Act+Ind+Prs+ScPl2:%>ын K ;
-+Act+Ind+Prs+ScPl2+Use/NG:%>ы̄н K ;!2017: 134
++Act+Ind+Prs+ScSg1:%>ум VERB_K ;
++Act+Ind+Prs+ScSg2:%>ын VERB_K ;
+!+Act+Ind+Prs+ScSg2:%>нын VERB_K ;
++Act+Ind+Prs+ScSg3: VERB_K ;
++Act+Ind+Prs+ScDu1:%>ме̄н VERB_K ;
++Act+Ind+Prs+ScDu2:%>ын VERB_K ;
++Act+Ind+Prs+ScDu2+Use/NG:%>ы̄н VERB_K ;!2017: 134
++Act+Ind+Prs+ScDu3:%>ыг VERB_K ;
++Act+Ind+Prs+ScDu3+Err/Orth:%>ы̄г VERB_K ;!2017: 134, but Jaska 20230901, AGAINST tengkwe
++Act+Ind+Prs+ScPl1:%>ув VERB_K ;
++Act+Ind+Prs+ScPl1:%>ӯв VERB_K ;
++Act+Ind+Prs+ScPl2:%>ын VERB_K ;
++Act+Ind+Prs+ScPl2+Use/NG:%>ы̄н VERB_K ;!2017: 134
  ACT_IND_PRS_SCPL3_yt ;
 
 !! ## Stems ending in C
@@ -353,8 +353,8 @@ LEXICON V_U
 :%{VU%} PASS_COND ;
 
 LEXICON INF
-+Inf:ӈкве K ;
-+Inf+Err/Orth:ӈкв K ;
++Inf:ӈкве VERB_K ;
++Inf+Err/Orth:ӈкв VERB_K ;
 
 LEXICON V_A
 !! **LEXICON @LEXNAME@** 
@@ -383,96 +383,96 @@ LEXICON V11_MUTUAL
 !
 LEXICON ACT_IND_PRS_VA 
 !! 	* **LEXICON @LEXNAME@**  
-+Act+Ind+Prs+ScSg1:%>%{ЭЕLong%}гум K ;
-+Err/Orth+Act+Ind+Prs+ScSg2:%>%{ЭЕ%}гын K ;
-+Act+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын K ;
-+Act+Ind+Prs+ScSg3:%>%{ЫИ%} K ;
-+Act+Ind+Prs+ScDu1:%>%{ЫИ%}ме̄н K ;
-+Act+Ind+Prs+ScDu2:%>%{ЭЕLong%}гын K ;
-+Act+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
-+Act+Ind+Prs+ScDu3:%>%{ЭЕLong%}г K ;
-+Act+Ind+Prs+ScPl1:%>%{ЭЕLong%}в K ;
-+Err/Orth+Act+Ind+Prs+ScPl1:%>%{ЭЕ%}в K ;
-+Act+Ind+Prs+ScPl2:%>%{ЭЕLong%}гын K ;
-+Act+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
-+Act+Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт K ;
++Act+Ind+Prs+ScSg1:%>%{ЭЕLong%}гум VERB_K ;
++Err/Orth+Act+Ind+Prs+ScSg2:%>%{ЭЕ%}гын VERB_K ;
++Act+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын VERB_K ;
++Act+Ind+Prs+ScSg3:%>%{ЫИ%} VERB_K ;
++Act+Ind+Prs+ScDu1:%>%{ЫИ%}ме̄н VERB_K ;
++Act+Ind+Prs+ScDu2:%>%{ЭЕLong%}гын VERB_K ;
++Act+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Ind+Prs+ScDu3:%>%{ЭЕLong%}г VERB_K ;
++Act+Ind+Prs+ScPl1:%>%{ЭЕLong%}в VERB_K ;
++Err/Orth+Act+Ind+Prs+ScPl1:%>%{ЭЕ%}в VERB_K ;
++Act+Ind+Prs+ScPl2:%>%{ЭЕLong%}гын VERB_K ;
++Act+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт VERB_K ;
 !
 :%>%{ЫИ%} ACT_IND_PRS_OCSG3_lameen ;
 :%>%{ЫИ%} ACT_IND_PRS_OCDU3 ;
 :%>%{ЫИ%} ACT_IND_PRS_OCPL3 ;
 
 LEXICON ACT_IND_PRS_OCSG3_lameen
-+Act+Ind+Prs+ScSg1+OcSg3:лум K ;
-+Act+Ind+Prs+ScSg2+OcSg3:лын K ;
-+Act+Ind+Prs+ScSg3+OcSg3:тэ K ; ! XXX Long ? тотытэ vs. тоты̄тэ
-+Act+Ind+Prs+ScDu1+OcSg3:ламе̄н K ;!distinction
-+Act+Ind+Prs+ScDu2+OcSg3:лын K ;
-+Act+Ind+Prs+ScDu2+OcSg3:лы̄н K ;
-+Act+Ind+Prs+ScDu3+OcSg3:тэ̄н K ;
-+Act+Ind+Prs+ScPl1+OcSg3:лув K ;
-+Act+Ind+Prs+ScPl2+OcSg3:лын K ;
-+Act+Ind+Prs+ScPl2+OcSg3:лы̄н K ;
-+Act+Ind+Prs+ScPl3+OcSg3:%>%{аяØ%}ныл K ;
-+Act+Ind+Prs+ScPl3+OcSg3+Err/Orth:%>%{аяLong%}ныл K ;
++Act+Ind+Prs+ScSg1+OcSg3:лум VERB_K ;
++Act+Ind+Prs+ScSg2+OcSg3:лын VERB_K ;
++Act+Ind+Prs+ScSg3+OcSg3:тэ VERB_K ; ! XXX Long ? тотытэ vs. тоты̄тэ
++Act+Ind+Prs+ScDu1+OcSg3:ламе̄н VERB_K ;!distinction
++Act+Ind+Prs+ScDu2+OcSg3:лын VERB_K ;
++Act+Ind+Prs+ScDu2+OcSg3:лы̄н VERB_K ;
++Act+Ind+Prs+ScDu3+OcSg3:тэ̄н VERB_K ;
++Act+Ind+Prs+ScPl1+OcSg3:лув VERB_K ;
++Act+Ind+Prs+ScPl2+OcSg3:лын VERB_K ;
++Act+Ind+Prs+ScPl2+OcSg3:лы̄н VERB_K ;
++Act+Ind+Prs+ScPl3+OcSg3:%>%{аяØ%}ныл VERB_K ;
++Act+Ind+Prs+ScPl3+OcSg3+Err/Orth:%>%{аяLong%}ныл VERB_K ;
 
 LEXICON ACT_IND_PRS_OCSG3_lumeen
-+Act+Ind+Prs+ScSg1+OcSg3:лум K ;
-+Act+Ind+Prs+ScSg2+OcSg3:лын K ;
-+Act+Ind+Prs+ScSg3+OcSg3:тэ K ; ! XXX Long ? тотытэ vs. тоты̄тэ
-+Act+Ind+Prs+ScDu1+OcSg3:луме̄н K ;!distinction
-+Act+Ind+Prs+ScDu2+OcSg3:лын K ;
-+Act+Ind+Prs+ScDu2+OcSg3:лы̄н K ;
-+Act+Ind+Prs+ScDu3+OcSg3:тэ̄н K ;
-+Act+Ind+Prs+ScDu3+OcSg3+Err/Orth:тэн K ;
-+Act+Ind+Prs+ScPl1+OcSg3:лув K ;
-+Act+Ind+Prs+ScPl1+OcSg3:лӯв K ;! JMR 20230503 and тотылӯв and лыглӯв 20230901
-+Act+Ind+Prs+ScPl2+OcSg3:лын K ;
-+Act+Ind+Prs+ScPl2+OcSg3:лы̄н K ;
-+Act+Ind+Prs+ScPl3+OcSg3:%>%{аяØ%}ныл K ;
-+Act+Ind+Prs+ScPl3+OcSg3+Err/Orth:%>%{аяLong%}ныл K ;
++Act+Ind+Prs+ScSg1+OcSg3:лум VERB_K ;
++Act+Ind+Prs+ScSg2+OcSg3:лын VERB_K ;
++Act+Ind+Prs+ScSg3+OcSg3:тэ VERB_K ; ! XXX Long ? тотытэ vs. тоты̄тэ
++Act+Ind+Prs+ScDu1+OcSg3:луме̄н VERB_K ;!distinction
++Act+Ind+Prs+ScDu2+OcSg3:лын VERB_K ;
++Act+Ind+Prs+ScDu2+OcSg3:лы̄н VERB_K ;
++Act+Ind+Prs+ScDu3+OcSg3:тэ̄н VERB_K ;
++Act+Ind+Prs+ScDu3+OcSg3+Err/Orth:тэн VERB_K ;
++Act+Ind+Prs+ScPl1+OcSg3:лув VERB_K ;
++Act+Ind+Prs+ScPl1+OcSg3:лӯв VERB_K ;! JMR 20230503 and тотылӯв and лыглӯв 20230901
++Act+Ind+Prs+ScPl2+OcSg3:лын VERB_K ;
++Act+Ind+Prs+ScPl2+OcSg3:лы̄н VERB_K ;
++Act+Ind+Prs+ScPl3+OcSg3:%>%{аяØ%}ныл VERB_K ;
++Act+Ind+Prs+ScPl3+OcSg3+Err/Orth:%>%{аяLong%}ныл VERB_K ;
 
 LEXICON ACT_IND_PRS_OCDU3
 !
-+Act+Ind+Prs+ScSg1+OcDu3:%>%{аяØ%}гум K ;
-+Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гын K ;
-+Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гн K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гнын K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScSg3+OcDu3:%>%{аяØ%}ге K ;
-+Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гмен K ;
-+Act+Ind+Prs+ScDu1+OcDu3:%>%{аяØ%}гме̄н K ;
-+Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гаме̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гын K ;
-+Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гы̄н K ;
-+Act+Ind+Prs+ScDu2+OcDu3+Err/Orth:%>%{аяØ%}гагы̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScDu3+OcDu3:%>%{аяØ%}ге̄н K ;
-+Act+Ind+Prs+ScDu3+OcDu3+Err/Orth:%>%{аяØ%}гаге̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
-+Act+Ind+Prs+ScDu3+OcDu3+Err/Orth:%>%{аяØ%}ген K ;
-+Act+Ind+Prs+ScPl1+OcDu3:%>%{аяØ%}гув K ;
-+Act+Ind+Prs+ScPl1+OcDu3:%>%{аяØ%}гӯв K ;
-+Act+Ind+Prs+ScPl2+OcDu3:%>%{аяØ%}гын K ;
-+Act+Ind+Prs+ScPl2+OcDu3:%>%{аяØ%}гы̄н K ;
-+Act+Ind+Prs+ScPl3+OcDu3:%>%{аяØ%}ганыл K ;
++Act+Ind+Prs+ScSg1+OcDu3:%>%{аяØ%}гум VERB_K ;
++Act+Ind+Prs+ScSg2+OcDu3:%>%{аяØ%}гын VERB_K ;
++Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гн VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScSg2+OcDu3+Err/Orth:%>%{аяØ%}гнын VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScSg3+OcDu3:%>%{аяØ%}ге VERB_K ;
++Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гмен VERB_K ;
++Act+Ind+Prs+ScDu1+OcDu3:%>%{аяØ%}гме̄н VERB_K ;
++Act+Ind+Prs+ScDu1+OcDu3+Err/Orth:%>%{аяØ%}гаме̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гын VERB_K ;
++Act+Ind+Prs+ScDu2+OcDu3:%>%{аяØ%}гы̄н VERB_K ;
++Act+Ind+Prs+ScDu2+OcDu3+Err/Orth:%>%{аяØ%}гагы̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScDu3+OcDu3:%>%{аяØ%}ге̄н VERB_K ;
++Act+Ind+Prs+ScDu3+OcDu3+Err/Orth:%>%{аяØ%}гаге̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR V-6-tengkwe
++Act+Ind+Prs+ScDu3+OcDu3+Err/Orth:%>%{аяØ%}ген VERB_K ;
++Act+Ind+Prs+ScPl1+OcDu3:%>%{аяØ%}гув VERB_K ;
++Act+Ind+Prs+ScPl1+OcDu3:%>%{аяØ%}гӯв VERB_K ;
++Act+Ind+Prs+ScPl2+OcDu3:%>%{аяØ%}гын VERB_K ;
++Act+Ind+Prs+ScPl2+OcDu3:%>%{аяØ%}гы̄н VERB_K ;
++Act+Ind+Prs+ScPl3+OcDu3:%>%{аяØ%}ганыл VERB_K ;
 
 LEXICON ACT_IND_PRS_OCPL3
 !
-+Act+Ind+Prs+ScSg1+OcPl3:%>%{аяØ%}нум K ;
-+Act+Ind+Prs+ScSg2+OcPl3:%>%{аяØ%}нын K ;
-+Act+Ind+Prs+ScSg2+OcPl3:%>%{аяØ%}н K ;
-+Act+Ind+Prs+ScSg3+OcPl3:%>%{аяØ%}нэ K ;
-+Act+Ind+Prs+ScDu1+OcPl3:%>%{аяØ%}наме̄н K ;
-+Act+Ind+Prs+ScDu1+OcPl3+Err/Orth:%>%{аяØ%}нанме̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR: V-6-tengkwe
-+Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}нын K ;
-+Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}ны̄н K ;
-+Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}н K ;
-+Act+Ind+Prs+ScDu3+OcPl3:%>%{аяØ%}нэ̄н K ;
-+Act+Ind+Prs+ScDu3+OcPl3+Err/Orth:%>%{аяØ%}нанэ̄н K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR: V-6-tengkwe
-+Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нув K ;
-+Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нӯв K ;
-+Act+Ind+Prs+ScPl1+OcPl3+Err/Orth:%>%{аяØ%}нанӯв K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR: V-6-tengkwe
-+Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}нын K ;
-+Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}ны̄н K ;
-+Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}н K ;
-+Act+Ind+Prs+ScPl3+OcPl3:%>%{аяØ%}ныл K ;
++Act+Ind+Prs+ScSg1+OcPl3:%>%{аяØ%}нум VERB_K ;
++Act+Ind+Prs+ScSg2+OcPl3:%>%{аяØ%}нын VERB_K ;
++Act+Ind+Prs+ScSg2+OcPl3:%>%{аяØ%}н VERB_K ;
++Act+Ind+Prs+ScSg3+OcPl3:%>%{аяØ%}нэ VERB_K ;
++Act+Ind+Prs+ScDu1+OcPl3:%>%{аяØ%}наме̄н VERB_K ;
++Act+Ind+Prs+ScDu1+OcPl3+Err/Orth:%>%{аяØ%}нанме̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR: V-6-tengkwe
++Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}нын VERB_K ;
++Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}ны̄н VERB_K ;
++Act+Ind+Prs+ScDu2+OcPl3:%>%{аяØ%}н VERB_K ;
++Act+Ind+Prs+ScDu3+OcPl3:%>%{аяØ%}нэ̄н VERB_K ;
++Act+Ind+Prs+ScDu3+OcPl3+Err/Orth:%>%{аяØ%}нанэ̄н VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR: V-6-tengkwe
++Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нув VERB_K ;
++Act+Ind+Prs+ScPl1+OcPl3:%>%{аяØ%}нӯв VERB_K ;
++Act+Ind+Prs+ScPl1+OcPl3+Err/Orth:%>%{аяØ%}нанӯв VERB_K ;!Jaska 20230901 AGAINST V-6-lingkwe; FOR: V-6-tengkwe
++Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}нын VERB_K ;
++Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}ны̄н VERB_K ;
++Act+Ind+Prs+ScPl2+OcPl3:%>%{аяØ%}н VERB_K ;
++Act+Ind+Prs+ScPl3+OcPl3:%>%{аяØ%}ныл VERB_K ;
 
 
 !
@@ -483,18 +483,18 @@ LEXICON ACT_IND_VU
 
 LEXICON ACT_IND_PRS_VU
 !! 	* **LEXICON @LEXNAME@**  
-+Act+Ind+Prs+ScSg1:%>%{ЭЕLong%}гум K ;
-+Err/Orth+Act+Ind+Prs+ScSg2:%>%{ЭЕ%}гын K ;
-+Act+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын K ;
-+Act+Ind+Prs+ScSg3:%>%{ЫИ%} K ;
-+Act+Ind+Prs+ScDu1:%>%{ЫИ%}ме̄н K ;
-+Act+Ind+Prs+ScDu2:%>%{ЭЕLong%}гын K ;
-+Use/NG+Act+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н K ;
-+Act+Ind+Prs+ScDu3:%>%{ЭЕLong%}г K ;
-+Act+Ind+Prs+ScPl1:%>%{ЭЕLong%}в K ;
-+Err/Orth+Act+Ind+Prs+ScPl1:%>%{ЭЕ%}в K ;
-+Act+Ind+Prs+ScPl2:%>%{ЭЕLong%}гын K ;
-+Use/NG+Act+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н K ;
++Act+Ind+Prs+ScSg1:%>%{ЭЕLong%}гум VERB_K ;
++Err/Orth+Act+Ind+Prs+ScSg2:%>%{ЭЕ%}гын VERB_K ;
++Act+Ind+Prs+ScSg2:%>%{ЭЕLong%}гын VERB_K ;
++Act+Ind+Prs+ScSg3:%>%{ЫИ%} VERB_K ;
++Act+Ind+Prs+ScDu1:%>%{ЫИ%}ме̄н VERB_K ;
++Act+Ind+Prs+ScDu2:%>%{ЭЕLong%}гын VERB_K ;
++Use/NG+Act+Ind+Prs+ScDu2:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Ind+Prs+ScDu3:%>%{ЭЕLong%}г VERB_K ;
++Act+Ind+Prs+ScPl1:%>%{ЭЕLong%}в VERB_K ;
++Err/Orth+Act+Ind+Prs+ScPl1:%>%{ЭЕ%}в VERB_K ;
++Act+Ind+Prs+ScPl2:%>%{ЭЕLong%}гын VERB_K ;
++Use/NG+Act+Ind+Prs+ScPl2:%>%{ЭЕ%}гы̄н VERB_K ;
  ACT_IND_PRS_SCPL3_eegyt ;!CHECKME йӣкве̄гыт
 
 !
@@ -551,456 +551,499 @@ LEXICON ACT_IND_PRT_OCDU/PL_VU
 
 
 LEXICON ACT_IND_PRT_OCSG3_slameen
-+Act+Ind+Prt+ScSg1+OcSg3:%>ыслум K ;
-+Act+Ind+Prt+ScSg2+OcSg3:%>ыслын K ;
-+Act+Ind+Prt+ScSg3+OcSg3:%>ыстэ K ;
-+Act+Ind+Prt+ScDu1+OcSg3:%>ысламе̄н K ;!distinction
-+Act+Ind+Prt+ScDu2+OcSg3:%>ыслын K ;
-+Act+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н K ;
-+Act+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н K ;
-+Act+Ind+Prt+ScPl1+OcSg3:%>ыслув K ;!
-+Act+Ind+Prt+ScPl1+OcSg3:%>ыслӯв K ;!ва̄рыслӯв
-+Act+Ind+Prt+ScPl2+OcSg3:%>ыслын K ;
-+Act+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н K ;
-+Act+Ind+Prt+ScPl3+OcSg3:%>саныл K ;
++Act+Ind+Prt+ScSg1+OcSg3:%>ыслум VERB_K ;
++Act+Ind+Prt+ScSg2+OcSg3:%>ыслын VERB_K ;
++Act+Ind+Prt+ScSg3+OcSg3:%>ыстэ VERB_K ;
++Act+Ind+Prt+ScDu1+OcSg3:%>ысламе̄н VERB_K ;!distinction
++Act+Ind+Prt+ScDu2+OcSg3:%>ыслын VERB_K ;
++Act+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н VERB_K ;
++Act+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н VERB_K ;
++Act+Ind+Prt+ScPl1+OcSg3:%>ыслув VERB_K ;!
++Act+Ind+Prt+ScPl1+OcSg3:%>ыслӯв VERB_K ;!ва̄рыслӯв
++Act+Ind+Prt+ScPl2+OcSg3:%>ыслын VERB_K ;
++Act+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н VERB_K ;
++Act+Ind+Prt+ScPl3+OcSg3:%>саныл VERB_K ;
 
 LEXICON ACT_IND_PRT_OCSG3_slumeen
-+Act+Ind+Prt+ScSg1+OcSg3:%>ыслум K ;
-+Act+Ind+Prt+ScSg2+OcSg3:%>ыслын K ;
-+Act+Ind+Prt+ScSg3+OcSg3:%>ыстэ K ;
-+Act+Ind+Prt+ScDu1+OcSg3:%>ыслуме̄н K ;
-+Act+Ind+Prt+ScDu2+OcSg3:%>ыслын K ;
-+Act+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н K ;
-+Act+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н K ;
-+Act+Ind+Prt+ScPl1+OcSg3:%>ыслув K ;!
-+Act+Ind+Prt+ScPl1+OcSg3:%>ыслӯв K ;!ва̄рыслӯв
-+Act+Ind+Prt+ScPl2+OcSg3:%>ыслын K ;
-+Act+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н K ;
-+Act+Ind+Prt+ScPl3+OcSg3:%>саныл K ;
++Act+Ind+Prt+ScSg1+OcSg3:%>ыслум VERB_K ;
++Act+Ind+Prt+ScSg2+OcSg3:%>ыслын VERB_K ;
++Act+Ind+Prt+ScSg3+OcSg3:%>ыстэ VERB_K ;
++Act+Ind+Prt+ScDu1+OcSg3:%>ыслуме̄н VERB_K ;
++Act+Ind+Prt+ScDu2+OcSg3:%>ыслын VERB_K ;
++Act+Ind+Prt+ScDu2+OcSg3:%>ыслы̄н VERB_K ;
++Act+Ind+Prt+ScDu3+OcSg3:%>ыстэ̄н VERB_K ;
++Act+Ind+Prt+ScPl1+OcSg3:%>ыслув VERB_K ;!
++Act+Ind+Prt+ScPl1+OcSg3:%>ыслӯв VERB_K ;!ва̄рыслӯв
++Act+Ind+Prt+ScPl2+OcSg3:%>ыслын VERB_K ;
++Act+Ind+Prt+ScPl2+OcSg3:%>ыслы̄н VERB_K ;
++Act+Ind+Prt+ScPl3+OcSg3:%>саныл VERB_K ;
 
 !
 LEXICON ACT_IND_PRT_OCDU3
-+Act+Ind+Prt+ScSg1+OcDu3:%>сагум K ;
-+Act+Ind+Prt+ScSg2+OcDu3:%>сагын K ;
-+Act+Ind+Prt+ScSg3+OcDu3:%>саге K ;
-+Act+Ind+Prt+ScDu1+OcDu3:%>сагме̄н K ;
-+Act+Ind+Prt+ScDu2+OcDu3:%>сагын K ;
-+Act+Ind+Prt+ScDu2+OcDu3:%>сагы̄н K ;
-+Act+Ind+Prt+ScDu3+OcDu3:%>саге̄н K ;
-+Act+Ind+Prt+ScPl1+OcDu3:%>сагув K ;
-+Act+Ind+Prt+ScPl1+OcDu3:%>сагӯв K ;
-+Act+Ind+Prt+ScPl2+OcDu3:%>сагын K ;
-+Act+Ind+Prt+ScPl2+OcDu3:%>сагы̄н K ;
-+Err/Orth+Act+Ind+Prt+ScPl3+OcDu3:%>саныл K ;
-+Act+Ind+Prt+ScPl3+OcDu3:%>саганыл K ;
++Act+Ind+Prt+ScSg1+OcDu3:%>сагум VERB_K ;
++Act+Ind+Prt+ScSg2+OcDu3:%>сагын VERB_K ;
++Act+Ind+Prt+ScSg3+OcDu3:%>саге VERB_K ;
++Act+Ind+Prt+ScDu1+OcDu3:%>сагме̄н VERB_K ;
++Act+Ind+Prt+ScDu2+OcDu3:%>сагын VERB_K ;
++Act+Ind+Prt+ScDu2+OcDu3:%>сагы̄н VERB_K ;
++Act+Ind+Prt+ScDu3+OcDu3:%>саге̄н VERB_K ;
++Act+Ind+Prt+ScPl1+OcDu3:%>сагув VERB_K ;
++Act+Ind+Prt+ScPl1+OcDu3:%>сагӯв VERB_K ;
++Act+Ind+Prt+ScPl2+OcDu3:%>сагын VERB_K ;
++Act+Ind+Prt+ScPl2+OcDu3:%>сагы̄н VERB_K ;
++Err/Orth+Act+Ind+Prt+ScPl3+OcDu3:%>саныл VERB_K ;
++Act+Ind+Prt+ScPl3+OcDu3:%>саганыл VERB_K ;
 !
 LEXICON ACT_IND_PRT_OCPL3
-+Act+Ind+Prt+ScSg1+OcPl3:%>санум K ;
-+Act+Ind+Prt+ScSg2+OcPl3:%>са̄нын K ;
-+Act+Ind+Prt+ScSg2+OcPl3:%>сан K ;
-+Act+Ind+Prt+ScSg3+OcPl3:%>санэ K ;
-+Act+Ind+Prt+ScDu1+OcPl3:%>санаме̄н K ;
-+Act+Ind+Prt+ScDu1+OcPl3:%>санме̄н K ;
-+Act+Ind+Prt+ScDu2+OcPl3:%>санын K ;
-+Act+Ind+Prt+ScDu2+OcPl3:%>саны̄н K ;
-+Act+Ind+Prt+ScDu2+OcPl3:%>сан K ;
-+Act+Ind+Prt+ScDu3+OcPl3:%>санэ̄н K ;
-+Act+Ind+Prt+ScPl1+OcPl3:%>санув K ;!
-+Act+Ind+Prt+ScPl1+OcPl3+Err/Orth-long-v:%>санӯв K ;!по̄слысанӯв
-+Act+Ind+Prt+ScPl2+OcPl3:%>санын K ;
-+Act+Ind+Prt+ScPl2+OcPl3:%>саны̄н K ;
-+Act+Ind+Prt+ScPl2+OcPl3:%>сан K ;
-+Act+Ind+Prt+ScPl3+OcPl3:%>саныл K ;
++Act+Ind+Prt+ScSg1+OcPl3:%>санум VERB_K ;
++Act+Ind+Prt+ScSg2+OcPl3:%>са̄нын VERB_K ;
++Act+Ind+Prt+ScSg2+OcPl3:%>сан VERB_K ;
++Act+Ind+Prt+ScSg3+OcPl3:%>санэ VERB_K ;
++Act+Ind+Prt+ScDu1+OcPl3:%>санаме̄н VERB_K ;
++Act+Ind+Prt+ScDu1+OcPl3:%>санме̄н VERB_K ;
++Act+Ind+Prt+ScDu2+OcPl3:%>санын VERB_K ;
++Act+Ind+Prt+ScDu2+OcPl3:%>саны̄н VERB_K ;
++Act+Ind+Prt+ScDu2+OcPl3:%>сан VERB_K ;
++Act+Ind+Prt+ScDu3+OcPl3:%>санэ̄н VERB_K ;
++Act+Ind+Prt+ScPl1+OcPl3:%>санув VERB_K ;!
++Act+Ind+Prt+ScPl1+OcPl3+Err/Orth-long-v:%>санӯв VERB_K ;!по̄слысанӯв
++Act+Ind+Prt+ScPl2+OcPl3:%>санын VERB_K ;
++Act+Ind+Prt+ScPl2+OcPl3:%>саны̄н VERB_K ;
++Act+Ind+Prt+ScPl2+OcPl3:%>сан VERB_K ;
++Act+Ind+Prt+ScPl3+OcPl3:%>саныл VERB_K ;
 
 !
 
 LEXICON ACT_COND_VU 
 !! 	* **LEXICON @LEXNAME@** 
-+Act+Cond+ScSg1:%>нувум K ;
-+Act+Cond+ScSg1:%>нӯвум K ;
-+Act+Cond+ScSg2:%>нувын K ;
-+Act+Cond+ScSg2:%>нӯвын K ;
-+Act+Cond+ScSg3:%>нув K ;
-+Act+Cond+ScDu1:%>нуваме̄н K ;
-+Act+Cond+ScDu2:%>нувын K ;
-+Act+Cond+ScDu2:%>нувы̄н K ;
-+Act+Cond+ScDu3:%>нувыг K ;
-+Act+Cond+ScDu3:%>нувы̄г K ;
-+Act+Cond+ScPl1:%>нувув K ;
-+Act+Cond+ScPl1:%>нувӯв K ;
-+Act+Cond+ScPl2:%>нувын K ;
-+Act+Cond+ScPl2:%>нувы̄н K ;
-+Act+Cond+ScPl3:%>нувыт K ;
-+Act+Cond+ScPl3:%>нувы̄т K ;
++Act+Cond+ScSg1:%>нувум VERB_K ;
++Act+Cond+ScSg1:%>нӯвум VERB_K ;
++Act+Cond+ScSg2:%>нувын VERB_K ;
++Act+Cond+ScSg2:%>нӯвын VERB_K ;
++Act+Cond+ScSg3:%>нув VERB_K ;
++Act+Cond+ScDu1:%>нуваме̄н VERB_K ;
++Act+Cond+ScDu2:%>нувын VERB_K ;
++Act+Cond+ScDu2:%>нувы̄н VERB_K ;
++Act+Cond+ScDu3:%>нувыг VERB_K ;
++Act+Cond+ScDu3:%>нувы̄г VERB_K ;
++Act+Cond+ScPl1:%>нувув VERB_K ;
++Act+Cond+ScPl1:%>нувӯв VERB_K ;
++Act+Cond+ScPl2:%>нувын VERB_K ;
++Act+Cond+ScPl2:%>нувы̄н VERB_K ;
++Act+Cond+ScPl3:%>нувыт VERB_K ;
++Act+Cond+ScPl3:%>нувы̄т VERB_K ;
 !
-+Act+Cond+ScSg1+OcSg3:%>нувлум K ;
-+Act+Cond+ScSg1+OcSg3+Err/Orth-long-v:%>нӯвлум K ;!CHECKME Err/Orth
-+Act+Cond+ScSg2+OcSg3:%>нувлын K ;
-+Act+Cond+ScSg2+OcSg3+Err/Orth-long-v:%>нӯвлын K ;!CHECKME Err/Orth
-+Act+Cond+ScSg3+OcSg3:%>нувтэ K ;
-+Act+Cond+ScSg3+OcSg3+Err/Orth-long-v:%>нӯвтэ K ;!CHECKME Err/Orth
-+Act+Cond+ScDu1+OcSg3:%>нувламе̄н K ;
-+Act+Cond+ScDu2+OcSg3:%>нувлын K ;
-+Act+Cond+ScDu2+OcSg3:%>нувлы̄н K ;
-+Act+Cond+ScDu3+OcSg3:%>нувтэ̄н K ;
-+Act+Cond+ScPl1+OcSg3:%>нувлув K ;
-+Act+Cond+ScPl1+OcSg3:%>нувлӯв K ;
-+Act+Cond+ScPl2+OcSg3:%>нувлын K ;
-+Act+Cond+ScPl2+OcSg3:%>нувлы̄н K ;
-+Act+Cond+ScPl3+OcSg3:%>нуваныл K ;
-+Act+Cond+ScPl3+OcSg3:%>нува̄ныл K ;
++Act+Cond+ScSg1+OcSg3:%>нувлум VERB_K ;
++Act+Cond+ScSg1+OcSg3+Err/Orth-long-v:%>нӯвлум VERB_K ;!CHECKME Err/Orth
++Act+Cond+ScSg2+OcSg3:%>нувлын VERB_K ;
++Act+Cond+ScSg2+OcSg3+Err/Orth-long-v:%>нӯвлын VERB_K ;!CHECKME Err/Orth
++Act+Cond+ScSg3+OcSg3:%>нувтэ VERB_K ;
++Act+Cond+ScSg3+OcSg3+Err/Orth-long-v:%>нӯвтэ VERB_K ;!CHECKME Err/Orth
++Act+Cond+ScDu1+OcSg3:%>нувламе̄н VERB_K ;
++Act+Cond+ScDu2+OcSg3:%>нувлын VERB_K ;
++Act+Cond+ScDu2+OcSg3:%>нувлы̄н VERB_K ;
++Act+Cond+ScDu3+OcSg3:%>нувтэ̄н VERB_K ;
++Act+Cond+ScPl1+OcSg3:%>нувлув VERB_K ;
++Act+Cond+ScPl1+OcSg3:%>нувлӯв VERB_K ;
++Act+Cond+ScPl2+OcSg3:%>нувлын VERB_K ;
++Act+Cond+ScPl2+OcSg3:%>нувлы̄н VERB_K ;
++Act+Cond+ScPl3+OcSg3:%>нуваныл VERB_K ;
++Act+Cond+ScPl3+OcSg3:%>нува̄ныл VERB_K ;
 !
-+Act+Cond+ScSg1+OcDu3:%>нувагум K ;
-+Act+Cond+ScSg1+OcDu3:%>нува̄гум K ;
-+Act+Cond+ScSg2+OcDu3:%>нувагын K ;
-+Act+Cond+ScSg2+OcDu3:%>нува̄гын K ;
-+Act+Cond+ScSg3+OcDu3:%>нуваге K ;
-+Act+Cond+ScSg3+OcDu3:%>нува̄ге K ;
-+Act+Cond+ScDu1+OcDu3:%>нувагме̄н K ;
-+Act+Cond+ScDu2+OcDu3:%>нувагын K ;
-+Act+Cond+ScDu2+OcDu3:%>нувагы̄н K ;
-+Act+Cond+ScDu3+OcDu3:%>нуваге̄н K ;
-+Act+Cond+ScPl1+OcDu3:%>нувагув K ;
-+Act+Cond+ScPl1+OcDu3:%>нувагӯв K ;
-+Act+Cond+ScPl2+OcDu3:%>нувагын K ;
-+Act+Cond+ScPl2+OcDu3:%>нувагы̄н K ;
-+Act+Cond+ScPl3+OcDu3:%>нуваганыл K ;
-+Act+Cond+ScPl3+OcDu3:%>нувага̄ныл K ;
++Act+Cond+ScSg1+OcDu3:%>нувагум VERB_K ;
++Act+Cond+ScSg1+OcDu3:%>нува̄гум VERB_K ;
++Act+Cond+ScSg2+OcDu3:%>нувагын VERB_K ;
++Act+Cond+ScSg2+OcDu3:%>нува̄гын VERB_K ;
++Act+Cond+ScSg3+OcDu3:%>нуваге VERB_K ;
++Act+Cond+ScSg3+OcDu3:%>нува̄ге VERB_K ;
++Act+Cond+ScDu1+OcDu3:%>нувагме̄н VERB_K ;
++Act+Cond+ScDu2+OcDu3:%>нувагын VERB_K ;
++Act+Cond+ScDu2+OcDu3:%>нувагы̄н VERB_K ;
++Act+Cond+ScDu3+OcDu3:%>нуваге̄н VERB_K ;
++Act+Cond+ScPl1+OcDu3:%>нувагув VERB_K ;
++Act+Cond+ScPl1+OcDu3:%>нувагӯв VERB_K ;
++Act+Cond+ScPl2+OcDu3:%>нувагын VERB_K ;
++Act+Cond+ScPl2+OcDu3:%>нувагы̄н VERB_K ;
++Act+Cond+ScPl3+OcDu3:%>нуваганыл VERB_K ;
++Act+Cond+ScPl3+OcDu3:%>нувага̄ныл VERB_K ;
 !
-+Act+Cond+ScSg1+OcPl3:%>нуванум K ;
-+Act+Cond+ScSg1+OcPl3:%>нува̄нум K ;
-+Act+Cond+ScSg2+OcPl3:%>нуванын K ;
-+Act+Cond+ScSg2+OcPl3:%>нува̄нын K ;
-+Act+Cond+ScSg3+OcPl3:%>нуванэ K ;
-+Act+Cond+ScSg3+OcPl3:%>нува̄нэ K ;
-+Act+Cond+ScDu1+OcPl3:%>нуванме̄н K ;
-+Act+Cond+ScDu2+OcPl3:%>нуванын K ;
-+Act+Cond+ScDu2+OcPl3:%>нуваны̄н K ;
-+Act+Cond+ScDu3+OcPl3:%>нуванэ̄н K ;!CHECKME ва̄нуванэ̄н
-+Act+Cond+ScPl1+OcPl3:%>нуванув K ;
-+Act+Cond+ScPl2+OcPl3:%>нуванын K ;
-+Act+Cond+ScPl2+OcPl3:%>нуваны̄н K ;
-+Act+Cond+ScPl3+OcPl3:%>нуваныл K ;
-+Act+Cond+ScPl3+OcPl3:%>нува̄ныл K ;
++Act+Cond+ScSg1+OcPl3:%>нуванум VERB_K ;
++Act+Cond+ScSg1+OcPl3:%>нува̄нум VERB_K ;
++Act+Cond+ScSg2+OcPl3:%>нуванын VERB_K ;
++Act+Cond+ScSg2+OcPl3:%>нува̄нын VERB_K ;
++Act+Cond+ScSg3+OcPl3:%>нуванэ VERB_K ;
++Act+Cond+ScSg3+OcPl3:%>нува̄нэ VERB_K ;
++Act+Cond+ScDu1+OcPl3:%>нуванме̄н VERB_K ;
++Act+Cond+ScDu2+OcPl3:%>нуванын VERB_K ;
++Act+Cond+ScDu2+OcPl3:%>нуваны̄н VERB_K ;
++Act+Cond+ScDu3+OcPl3:%>нуванэ̄н VERB_K ;!CHECKME ва̄нуванэ̄н
++Act+Cond+ScPl1+OcPl3:%>нуванув VERB_K ;
++Act+Cond+ScPl2+OcPl3:%>нуванын VERB_K ;
++Act+Cond+ScPl2+OcPl3:%>нуваны̄н VERB_K ;
++Act+Cond+ScPl3+OcPl3:%>нуваныл VERB_K ;
++Act+Cond+ScPl3+OcPl3:%>нува̄ныл VERB_K ;
 
 
 !
 LEXICON ACT_IMPRT  
 !! 	* **LEXICON @LEXNAME@**  
-+Act+Imprt+ScSg2:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScDu2:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScDu2:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScPl2:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScPl2:%>%{ЭЕ%}н K ;
++Act+Imprt+ScSg2:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2:%>%{ЭЕ%}н VERB_K ;
 !
-+Act+Imprt+ScSg2+OcSg3:%>%{ЭЕ%}лн K ;
-+Act+Imprt+ScSg2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лы̄н K ;
-+Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лы̄н K ;
++Act+Imprt+ScSg2+OcSg3:%>%{ЭЕ%}лн VERB_K ;
++Act+Imprt+ScSg2+OcSg3:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лы̄н VERB_K ;
++Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лы̄н VERB_K ;
 !
-+Act+Imprt+ScSg2+OcDu3:%>%{ЭЕ%}гын K ;
-+Act+Imprt+ScSg2+OcDu3:%>%{ЭЕLong%}гн K ;
-+Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гын K ;
-+Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гы̄н K ;
-+Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гын K ;
-+Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гы̄н K ;
++Act+Imprt+ScSg2+OcDu3:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScSg2+OcDu3:%>%{ЭЕLong%}гн VERB_K ;
++Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гы̄н VERB_K ;
 !
-+Act+Imprt+ScSg2+OcPl3:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScSg2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901, not in V-6-tengkwe
-+Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
-+Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}ны̄н K ;!Jaska 20230901, but not in V-6-tengkwe
-+Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;!Jaska 20230901,  AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}ны̄н K ;!Jaska 20230901, but not in V-6-tengkwe
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, not in V-6-tengkwe
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}ны̄н VERB_K ;!Jaska 20230901, but not in V-6-tengkwe
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901,  AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}ны̄н VERB_K ;!Jaska 20230901, but not in V-6-tengkwe
 
 LEXICON ACT_IMPRT_VU
 !! 	* **LEXICON @LEXNAME@**  
-+Act+Imprt+ScSg2:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScDu2:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScDu2:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScPl2:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScPl2:%>%{ЭЕ%}н K ;
++Act+Imprt+ScSg2:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2:%>%{ЭЕ%}н VERB_K ;
 !
-+Act+Imprt+ScSg2+OcSg3:%>%{ЭЕ%}лн K ;
-+Act+Imprt+ScSg2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лы̄н K ;
-+Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лн K ;
-+Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лы̄н K ;
++Act+Imprt+ScSg2+OcSg3:%>%{ЭЕ%}лн VERB_K ;
++Act+Imprt+ScSg2+OcSg3:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScDu2+OcSg3:%>%{ЭЕLong%}лы̄н VERB_K ;
++Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScPl2+OcSg3:%>%{ЭЕLong%}лы̄н VERB_K ;
 !
-+Act+Imprt+ScSg2+OcDu3:%>%{ЭЕ%}гын K ;
-+Act+Imprt+ScSg2+OcDu3:%>%{ЭЕLong%}гн K ;
-+Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гын K ;
-+Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гы̄н K ;
-+Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гын K ;
-+Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гы̄н K ;
++Act+Imprt+ScSg2+OcDu3:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScSg2+OcDu3:%>%{ЭЕLong%}гн VERB_K ;
++Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScDu2+OcDu3:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScPl2+OcDu3:%>%{ЭЕ%}гы̄н VERB_K ;
 !
-+Act+Imprt+ScSg2+OcPl3:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}нын K ;! Jaska 20230901 V-6-wingkwe
-+Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н K ;
-+Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}ны̄н K ;! Jaska	20230901 V-6-wingkwe
-+Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-mingkwe, wingkwe ; FOR V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}ны̄н K ;! Jaska	20230901  V-6-wingkwe
-+Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын K ;! Jaska 20230901 AGAINST V-6-mingkwe, wingkwe ; FOR V-6-lingkwe
-+Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 V-6-wingkwe
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}ны̄н VERB_K ;! Jaska	20230901 V-6-wingkwe
++Act+Imprt+ScDu2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 AGAINST V-6-mingkwe, wingkwe ; FOR V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕLong%}ны̄н VERB_K ;! Jaska	20230901  V-6-wingkwe
++Act+Imprt+ScPl2+OcPl3+Err/Orth:%>%{ЭЕLong%}нын VERB_K ;! Jaska 20230901 AGAINST V-6-mingkwe, wingkwe ; FOR V-6-lingkwe
++Act+Imprt+ScPl2+OcPl3:%>%{ЭЕ%}н VERB_K ;
 
 LEXICON ACT_IMPRT_for_V_A
-+Act+Imprt+ScDu2:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н K ;
-+Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н K ;
++Act+Imprt+ScDu2:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl3:%>%{ЭЕLong%}н VERB_K ;
 !
 LEXICON V11_MUTUAL_PASS
  V11_MUTUAL_PASS_PRS ;
  PASS_PRT ;
 LEXICON V11_MUTUAL_PASS_PRS
 !! 	* **LEXICON @LEXNAME@**  
-+Pass+Ind+Prs+ScSg1:%>вем K ;
-+Pass+Ind+Prs+ScSg2:%>вен K ;
-+Pass+Ind+Prs+ScSg3:%>ве K ;
-+Pass+Ind+Prs+ScDu1:%>веме̄н K ;
-+Pass+Ind+Prs+ScDu2:%>ве̄н K ;!2023 ловиньтаӈкве
-+Pass+Ind+Prs+ScDu2:%>вен K ;
-+Pass+Ind+Prs+ScDu3:%>ве̄г K ;
-+Pass+Ind+Prs+ScPl1:%>ве̄в K ;
-+Pass+Ind+Prs+ScPl2:%>ве̄н K ;!2023 ловиньтаӈкве
-+Pass+Ind+Prs+ScPl2:%>вен K ;
-+Pass+Ind+Prs+ScPl3:%>вет K ;
-+Err/Orth+Pass+Ind+Prs+ScDu1:%>вемена K ;!2023 ловиньтаӈкве
-+Err/Orth+Pass+Ind+Prs+ScDu2:%>вена K ;!2023 ловиньтаӈкве
-+Err/Orth+Pass+Ind+Prs+ScDu3:%>вега K ;!2023 ловиньтаӈкве
-+Err/Orth+Pass+Ind+Prs+ScPl1:%>вева K ;!2023 ловиньтаӈкве
-+Err/Orth+Pass+Ind+Prs+ScPl2:%>вена K ;!2023 ловиньтаӈкве
++Pass+Ind+Prs+ScSg1:%>вем VERB_K ;
++Pass+Ind+Prs+ScSg2:%>вен VERB_K ;
++Pass+Ind+Prs+ScSg3:%>ве VERB_K ;
++Pass+Ind+Prs+ScDu1:%>веме̄н VERB_K ;
++Pass+Ind+Prs+ScDu2:%>ве̄н VERB_K ;!2023 ловиньтаӈкве
++Pass+Ind+Prs+ScDu2:%>вен VERB_K ;
++Pass+Ind+Prs+ScDu3:%>ве̄г VERB_K ;
++Pass+Ind+Prs+ScPl1:%>ве̄в VERB_K ;
++Pass+Ind+Prs+ScPl2:%>ве̄н VERB_K ;!2023 ловиньтаӈкве
++Pass+Ind+Prs+ScPl2:%>вен VERB_K ;
++Pass+Ind+Prs+ScPl3:%>вет VERB_K ;
++Err/Orth+Pass+Ind+Prs+ScDu1:%>вемена VERB_K ;!2023 ловиньтаӈкве
++Err/Orth+Pass+Ind+Prs+ScDu2:%>вена VERB_K ;!2023 ловиньтаӈкве
++Err/Orth+Pass+Ind+Prs+ScDu3:%>вега VERB_K ;!2023 ловиньтаӈкве
++Err/Orth+Pass+Ind+Prs+ScPl1:%>вева VERB_K ;!2023 ловиньтаӈкве
++Err/Orth+Pass+Ind+Prs+ScPl2:%>вена VERB_K ;!2023 ловиньтаӈкве
 
 
 LEXICON PASS_PRS_VU
 !! 	* **LEXICON @LEXNAME@**  
-+Pass+Ind+Prs+ScSg1:%>вем K ;
-+Pass+Ind+Prs+ScSg2:%>вен K ;
-+Pass+Ind+Prs+ScSg3:%>ве K ;
-+Pass+Ind+Prs+ScDu1:%>веме̄н K ;
-+Pass+Ind+Prs+ScDu2:%>вен K ;
-+Pass+Ind+Prs+ScDu2:%>ве̄н K ;
-+Pass+Ind+Prs+ScDu3:%>ве̄г K ;
-+Pass+Ind+Prs+ScPl1:%>ве̄в K ;
-+Pass+Ind+Prs+ScPl2:%>вен K ;
-+Pass+Ind+Prs+ScPl2:%>ве̄н K ;
-+Pass+Ind+Prs+ScPl3:%>вет K ;
++Pass+Ind+Prs+ScSg1:%>вем VERB_K ;
++Pass+Ind+Prs+ScSg2:%>вен VERB_K ;
++Pass+Ind+Prs+ScSg3:%>ве VERB_K ;
++Pass+Ind+Prs+ScDu1:%>веме̄н VERB_K ;
++Pass+Ind+Prs+ScDu2:%>вен VERB_K ;
++Pass+Ind+Prs+ScDu2:%>ве̄н VERB_K ;
++Pass+Ind+Prs+ScDu3:%>ве̄г VERB_K ;
++Pass+Ind+Prs+ScPl1:%>ве̄в VERB_K ;
++Pass+Ind+Prs+ScPl2:%>вен VERB_K ;
++Pass+Ind+Prs+ScPl2:%>ве̄н VERB_K ;
++Pass+Ind+Prs+ScPl3:%>вет VERB_K ;
 
 
 !
 LEXICON PASS_PRT
-+Pass+Ind+Prt+ScSg1:%>ве̄сум K ;
-+Pass+Ind+Prt+ScSg2:%>ве̄сын K ;
-+Pass+Ind+Prt+ScSg3:%>вес K ;
-+Pass+Ind+Prt+ScSg3:%>ве̄с K ;
-+Pass+Ind+Prt+ScDu1:%>весаме̄н K ;!CHECKME
-+Pass+Ind+Prt+ScDu2:%>весы̄н K ;
-+Pass+Ind+Prt+ScDu2:%>весын K ;
-+Pass+Ind+Prt+ScDu3:%>весы̄г K ;
-+Pass+Ind+Prt+ScPl1:%>весув K ;
-+Pass+Ind+Prt+ScPl1:%>весӯв K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
-+Pass+Ind+Prt+ScPl2:%>весы̄н K ;
-+Pass+Ind+Prt+ScPl2:%>весын K ;
-+Pass+Ind+Prt+ScPl3:%>ве̄сыт K ;!Luima seripos
-+Pass+Ind+Prt+ScPl3+Err/Orth:%>весыт K ;!Only in Oppikirja 
++Pass+Ind+Prt+ScSg1:%>ве̄сум VERB_K ;
++Pass+Ind+Prt+ScSg2:%>ве̄сын VERB_K ;
++Pass+Ind+Prt+ScSg3:%>вес VERB_K ;
++Pass+Ind+Prt+ScSg3:%>ве̄с VERB_K ;
++Pass+Ind+Prt+ScDu1:%>весаме̄н VERB_K ;!CHECKME
++Pass+Ind+Prt+ScDu2:%>весы̄н VERB_K ;
++Pass+Ind+Prt+ScDu2:%>весын VERB_K ;
++Pass+Ind+Prt+ScDu3:%>весы̄г VERB_K ;
++Pass+Ind+Prt+ScPl1:%>весув VERB_K ;
++Pass+Ind+Prt+ScPl1:%>весӯв VERB_K ;!янытлавесӯв Jaska 20230901, AGAINST V-6-lingkwe, tengkwe, wingkwe, mingkwe ;FOR V-6-jingkwe
++Pass+Ind+Prt+ScPl2:%>весы̄н VERB_K ;
++Pass+Ind+Prt+ScPl2:%>весын VERB_K ;
++Pass+Ind+Prt+ScPl3:%>ве̄сыт VERB_K ;!Luima seripos
++Pass+Ind+Prt+ScPl3+Err/Orth:%>весыт VERB_K ;!Only in Oppikirja 
 
 LEXICON PASS_COND
-+Pass+Cond+ScSg1:%>нувем K ;
-+Pass+Cond+ScSg1:%>нӯвем K ;
-+Pass+Cond+ScSg2:%>нӯвен K ;
-+Pass+Cond+ScSg2:%>нувен K ;
-+Pass+Cond+ScSg3:%>нуве K ;
-+Pass+Cond+ScSg3:%>нӯве K ;
-+Pass+Cond+ScDu1:%>нувеме̄н K ;
-+Pass+Cond+ScDu2:%>нуве̄н K ;
-+Pass+Cond+ScDu2:%>нувен K ;
-+Pass+Cond+ScDu3:%>нувег K ;
-+Pass+Cond+ScDu3:%>нуве̄г K ;
-+Pass+Cond+ScPl1:%>нуве̄в K ;
-+Pass+Cond+ScPl2:%>нуве̄н K ;
-+Pass+Cond+ScPl2:%>нувен K ;
-+Pass+Cond+ScPl3:%>нувет K ;
-+Pass+Cond+ScPl3:%>нӯвет K ;
++Pass+Cond+ScSg1:%>нувем VERB_K ;
++Pass+Cond+ScSg1:%>нӯвем VERB_K ;
++Pass+Cond+ScSg2:%>нӯвен VERB_K ;
++Pass+Cond+ScSg2:%>нувен VERB_K ;
++Pass+Cond+ScSg3:%>нуве VERB_K ;
++Pass+Cond+ScSg3:%>нӯве VERB_K ;
++Pass+Cond+ScDu1:%>нувеме̄н VERB_K ;
++Pass+Cond+ScDu2:%>нуве̄н VERB_K ;
++Pass+Cond+ScDu2:%>нувен VERB_K ;
++Pass+Cond+ScDu3:%>нувег VERB_K ;
++Pass+Cond+ScDu3:%>нуве̄г VERB_K ;
++Pass+Cond+ScPl1:%>нуве̄в VERB_K ;
++Pass+Cond+ScPl2:%>нуве̄н VERB_K ;
++Pass+Cond+ScPl2:%>нувен VERB_K ;
++Pass+Cond+ScPl3:%>нувет VERB_K ;
++Pass+Cond+ScPl3:%>нӯвет VERB_K ;
 
 LEXICON PASS_IMPRT
-+Pass+Imprt+ScSg2:%>вен K ;
-+Pass+Imprt+ScSg2:%>ен K ;
-+Pass+Imprt+ScDu2:%>вен K ;
-+Pass+Imprt+ScDu2:%>ве̄н K ;
-+Pass+Imprt+ScDu2:%>ен K ;
-+Pass+Imprt+ScDu2:%>е̄н K ;
-+Pass+Imprt+ScPl2:%>вен K ;
-+Pass+Imprt+ScPl2:%>ве̄н K ;
-+Pass+Imprt+ScPl2:%>ен K ;
-+Pass+Imprt+ScPl2:%>е̄н K ;
++Pass+Imprt+ScSg2:%>вен VERB_K ;
++Pass+Imprt+ScSg2:%>ен VERB_K ;
++Pass+Imprt+ScDu2:%>вен VERB_K ;
++Pass+Imprt+ScDu2:%>ве̄н VERB_K ;
++Pass+Imprt+ScDu2:%>ен VERB_K ;
++Pass+Imprt+ScDu2:%>е̄н VERB_K ;
++Pass+Imprt+ScPl2:%>вен VERB_K ;
++Pass+Imprt+ScPl2:%>ве̄н VERB_K ;
++Pass+Imprt+ScPl2:%>ен VERB_K ;
++Pass+Imprt+ScPl2:%>е̄н VERB_K ;
 
 LEXICON PASS_IMPRT_teegveen
-+Pass+Imprt+ScSg2:%>вен K ;
-+Pass+Imprt+ScDu2:%>вен K ;
-+Pass+Imprt+ScDu2:%>ве̄н K ;
-+Pass+Imprt+ScPl2:%>вен K ;
-+Pass+Imprt+ScPl2:%>ве̄н K ;
++Pass+Imprt+ScSg2:%>вен VERB_K ;
++Pass+Imprt+ScDu2:%>вен VERB_K ;
++Pass+Imprt+ScDu2:%>ве̄н VERB_K ;
++Pass+Imprt+ScPl2:%>вен VERB_K ;
++Pass+Imprt+ScPl2:%>ве̄н VERB_K ;
 
 LEXICON PRSPRC
-+PrsPrc:%>нэ K ; !Does this exist ?20230504
-+PrsPrc+PxSg1:%>нэ̄нум K ;
-+PrsPrc+PxSg2:%>нэ̄н K ;
-+PrsPrc+PxSg3:%>нэ̄нэ K ;
-+PrsPrc+PxDu1:%>нэнаме̄н K ;
-+PrsPrc+PxDu1:%>нэнанме̄н K ;
-+PrsPrc+PxDu2:%>нэнаны̄н K ;
-+PrsPrc+PxDu2:%>нэныны̄н K ;
-+PrsPrc+PxDu2:%>нэнаны̄н K ;
-+PrsPrc+PxDu2:%>нэны̄н K ;
-+PrsPrc+PxDu3:%>нэнэ̄н K ;
-+PrsPrc+PxDu3:%>нэнанэ̄н K ;!
-+PrsPrc+PxPl1:%>нэнув K ;
-+PrsPrc+PxPl1:%>нэнанув K ;
-+PrsPrc+PxPl1:%>нэнанӯв K ;
-+PrsPrc+PxPl1:%>нэнӯв K ;
-+PrsPrc+PxPl2:%>нэнаны̄н K ;
-+PrsPrc+PxPl2:%>нэны̄н K ;!
-+PrsPrc+PxPl3:%>нэ̄наныл K ;
-+PrsPrc+PxPl3:%>нэ̄нл K ;!
++PrsPrc:%>нэ VERB_K ; !Does this exist ?20230504
++PrsPrc+PxSg1:%>нэ̄нум VERB_K ;
++PrsPrc+PxSg2:%>нэ̄н VERB_K ;
++PrsPrc+PxSg3:%>нэ̄нэ VERB_K ;
++PrsPrc+PxDu1:%>нэнаме̄н VERB_K ;
++PrsPrc+PxDu1:%>нэнанме̄н VERB_K ;
++PrsPrc+PxDu2:%>нэнаны̄н VERB_K ;
++PrsPrc+PxDu2:%>нэныны̄н VERB_K ;
++PrsPrc+PxDu2:%>нэнаны̄н VERB_K ;
++PrsPrc+PxDu2:%>нэны̄н VERB_K ;
++PrsPrc+PxDu3:%>нэнэ̄н VERB_K ;
++PrsPrc+PxDu3:%>нэнанэ̄н VERB_K ;!
++PrsPrc+PxPl1:%>нэнув VERB_K ;
++PrsPrc+PxPl1:%>нэнанув VERB_K ;
++PrsPrc+PxPl1:%>нэнанӯв VERB_K ;
++PrsPrc+PxPl1:%>нэнӯв VERB_K ;
++PrsPrc+PxPl2:%>нэнаны̄н VERB_K ;
++PrsPrc+PxPl2:%>нэны̄н VERB_K ;!
++PrsPrc+PxPl3:%>нэ̄наныл VERB_K ;
++PrsPrc+PxPl3:%>нэ̄нл VERB_K ;!
 
 LEXICON PRSPRC_jingkve
-+PrsPrc:%>нэ K ; !Does this exist ?20230504
-+PrsPrc+PxSg1:%>нэм K ;
-+PrsPrc+PxSg2:%>нэн K ;
-+PrsPrc+PxSg3:%>нэ̄тэ K ;
-+PrsPrc+PxDu1:%>нэме̄н K ;
-+PrsPrc+PxDu2:%>нэнэ̄н K ;
-+PrsPrc+PxDu3:%>нэ̄г K ;
-+PrsPrc+PxDu3:%>нэг K ;!
-+PrsPrc+PxPl1:%>нэ̄в K ;
-+PrsPrc+PxPl2:%>нэн K ;
-+PrsPrc+PxPl2:%>нэ̄н K ;!
-+PrsPrc+PxPl3:%>нэ̄ныл K ;
-+PrsPrc+PxPl3:%>нэныл K ;!
++PrsPrc:%>нэ VERB_K ; !Does this exist ?20230504
++PrsPrc+PxSg1:%>нэм VERB_K ;
++PrsPrc+PxSg2:%>нэн VERB_K ;
++PrsPrc+PxSg3:%>нэ̄тэ VERB_K ;
++PrsPrc+PxDu1:%>нэме̄н VERB_K ;
++PrsPrc+PxDu2:%>нэнэ̄н VERB_K ;
++PrsPrc+PxDu3:%>нэ̄г VERB_K ;
++PrsPrc+PxDu3:%>нэг VERB_K ;!
++PrsPrc+PxPl1:%>нэ̄в VERB_K ;
++PrsPrc+PxPl2:%>нэн VERB_K ;
++PrsPrc+PxPl2:%>нэ̄н VERB_K ;!
++PrsPrc+PxPl3:%>нэ̄ныл VERB_K ;
++PrsPrc+PxPl3:%>нэныл VERB_K ;!
 
 LEXICON PRFPRC
-+PrfPrc:%>м K ;
++PrfPrc:%>м VERB_K ;
 !! the forms below here need studying. They are probably not what I labled them as20230521
-+PrfPrc+PxSg1:%>мум K ;!о̄лмум, а̄стумум, Ханищтахтамум
-+PrfPrc+PxSg2:%>мын K ;!ханищтахтамын
-+PrfPrc+PxSg3:%>ме K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
-+PrfPrc+PxDu1:%>мме̄н K ;!йимме̄н
-!+PrfPrc+PxDu1:%>муме̄н K ;!?о̄лмуме̄н
-+PrfPrc+PxDu2:%>мын K ;!?
-+PrfPrc+PxDu2:%>мы̄н K ;!?
-+PrfPrc+PxDu3:%>мег K ;!?
-+PrfPrc+PxDu3:%>ме̄г K ;!?
-+PrfPrc+PxPl1:%>мув K ;!о̄лмувт, о̄лмув, ханищтахтамув
-+PrfPrc+PxPl1:%>мӯв K ;!
-+PrfPrc+PxPl2:%>мын K ;!?
-+PrfPrc+PxPl2:%>мы̄н K ;!?
-+PrfPrc+PxPl3:%>мыт K ;!
++PrfPrc+PxSg1:%>мум VERB_K ;!о̄лмум, а̄стумум, Ханищтахтамум
++PrfPrc+PxSg2:%>мын VERB_K ;!ханищтахтамын
++PrfPrc+PxSg3:%>ме VERB_K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
++PrfPrc+PxDu1:%>мме̄н VERB_K ;!йимме̄н
+!+PrfPrc+PxDu1:%>муме̄н VERB_K ;!?о̄лмуме̄н
++PrfPrc+PxDu2:%>мын VERB_K ;!?
++PrfPrc+PxDu2:%>мы̄н VERB_K ;!?
++PrfPrc+PxDu3:%>мег VERB_K ;!?
++PrfPrc+PxDu3:%>ме̄г VERB_K ;!?
++PrfPrc+PxPl1:%>мув VERB_K ;!о̄лмувт, о̄лмув, ханищтахтамув
++PrfPrc+PxPl1:%>мӯв VERB_K ;!
++PrfPrc+PxPl2:%>мын VERB_K ;!?
++PrfPrc+PxPl2:%>мы̄н VERB_K ;!?
++PrfPrc+PxPl3:%>мыт VERB_K ;!
 
 LEXICON PRFPRC_teemanum
-+PrfPrc:%>м K ;
++PrfPrc:%>м VERB_K ;
 !! the forms below here need studying. They are probably not what I labled them as20230521
-+PrfPrc+PxSg1:%>манум K ;!
-+PrfPrc+PxSg1:%>мананум K ;!
-+PrfPrc+PxSg2:%>ман K ;!
-+PrfPrc+PxSg2:%>ма̄нын K ;!
-+PrfPrc+PxSg3:%>ма̄нэ K ;!
-+PrfPrc+PxSg3:%>мана̄нэ K ;!
-+PrfPrc+PxDu1:%>манаме̄н K ;
-+PrfPrc+PxDu1:%>мананме̄н K ;
-+PrfPrc+PxDu2:%>манн K ;!?
-+PrfPrc+PxDu2:%>маны̄н K ;!?
-+PrfPrc+PxDu2:%>мананы̄н K ;!?
-+PrfPrc+PxDu3:%>мананэ̄н K ;!?
-+PrfPrc+PxDu3:%>манэ̄н K ;!?
-+PrfPrc+PxPl1:%>мананув K ;!
-+PrfPrc+PxPl1:%>манӯв K ;!
-+PrfPrc+PxPl1:%>манув K ;!
-+PrfPrc+PxPl1:%>мананӯв K ;!
-+PrfPrc+PxPl2:%>маны̄н K ;!?
-+PrfPrc+PxPl2:%>мананы̄н K ;!?
-+PrfPrc+PxPl3:%>мана̄ныл K ;!
-+PrfPrc+PxPl3:%>ма̄ныл K ;!
++PrfPrc+PxSg1:%>манум VERB_K ;!
++PrfPrc+PxSg1:%>мананум VERB_K ;!
++PrfPrc+PxSg2:%>ман VERB_K ;!
++PrfPrc+PxSg2:%>ма̄нын VERB_K ;!
++PrfPrc+PxSg3:%>ма̄нэ VERB_K ;!
++PrfPrc+PxSg3:%>мана̄нэ VERB_K ;!
++PrfPrc+PxDu1:%>манаме̄н VERB_K ;
++PrfPrc+PxDu1:%>мананме̄н VERB_K ;
++PrfPrc+PxDu2:%>манн VERB_K ;!?
++PrfPrc+PxDu2:%>маны̄н VERB_K ;!?
++PrfPrc+PxDu2:%>мананы̄н VERB_K ;!?
++PrfPrc+PxDu3:%>мананэ̄н VERB_K ;!?
++PrfPrc+PxDu3:%>манэ̄н VERB_K ;!?
++PrfPrc+PxPl1:%>мананув VERB_K ;!
++PrfPrc+PxPl1:%>манӯв VERB_K ;!
++PrfPrc+PxPl1:%>манув VERB_K ;!
++PrfPrc+PxPl1:%>мананӯв VERB_K ;!
++PrfPrc+PxPl2:%>маны̄н VERB_K ;!?
++PrfPrc+PxPl2:%>мананы̄н VERB_K ;!?
++PrfPrc+PxPl3:%>мана̄ныл VERB_K ;!
++PrfPrc+PxPl3:%>ма̄ныл VERB_K ;!
 
 LEXICON GER
-+Ger:%>м K ;
-+Ger+PxSg1:%>мам K ;
-+Ger+PxSg2:%>ман K ;
-+Ger+PxSg3:%>ма K ;
-+Ger+PxSg3:%>матэ K ;!Jaska 20230901 V-6-jingkwe, but not in V-6-lingkwe, V-6-wingkwe, yet.
-+Ger+PxDu1:%>маме̄н K ;
-+Ger+PxDu2:%>ман K ;
-+Ger+PxDu3:%>маг K ;
-+Ger+PxPl1:%>мав K ;
-+Ger+PxPl2:%>ман K ;
-+Ger+PxPl3:%>мат K ;
++Ger:%>м VERB_K ;
++Ger+PxSg1:%>мам VERB_K ;
++Ger+PxSg2:%>ман VERB_K ;
++Ger+PxSg3:%>ма VERB_K ;
++Ger+PxSg3:%>матэ VERB_K ;!Jaska 20230901 V-6-jingkwe, but not in V-6-lingkwe, V-6-wingkwe, yet.
++Ger+PxDu1:%>маме̄н VERB_K ;
++Ger+PxDu2:%>ман VERB_K ;
++Ger+PxDu3:%>маг VERB_K ;
++Ger+PxPl1:%>мав VERB_K ;
++Ger+PxPl2:%>ман VERB_K ;
++Ger+PxPl3:%>мат VERB_K ;
 
 !#Privative
 LEXICON VABESS
-+VAbess:%>тал K ;
++VAbess:%>тал VERB_K ;
 
 !! Active Indicative Presence
 
 LEXICON ACT_IND_PRS_SCPL3_yt
-+Act+Ind+Prs+ScPl3:%>ыт K ;
++Act+Ind+Prs+ScPl3:%>ыт VERB_K ;
 LEXICON ACT_IND_PRS_SCPL3_eegyt
-+Act+Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт K ;
++Act+Ind+Prs+ScPl3:%>%{ЭЕLong%}гыт VERB_K ;
 
 
 !! Active Indicative Preterite
 LEXICON ACT_IND_PRT_SCSG1_sum
-+Act+Ind+Prt+ScSg1:%>сум K ;
++Act+Ind+Prt+ScSg1:%>сум VERB_K ;
 
 LEXICON	ACT_IND_PRT_SCSG2_syn
-+Act+Ind+Prt+ScSg2:%>сын K ;
++Act+Ind+Prt+ScSg2:%>сын VERB_K ;
 LEXICON	ACT_IND_PRT_SCSG2_sn
-+Act+Ind+Prt+ScSg2:%>сн K ;
++Act+Ind+Prt+ScSg2:%>сн VERB_K ;
 LEXICON	ACT_IND_PRT_SCSG2_snyn
-+Act+Ind+Prt+ScSg2:%>снын K ;
++Act+Ind+Prt+ScSg2:%>снын VERB_K ;
 
 LEXICON ACT_IND_PRT_SCSG3_ys
-+Act+Ind+Prt+ScSg3:%>ыс K ;
++Act+Ind+Prt+ScSg3:%>ыс VERB_K ;
 
 LEXICON	ACT_IND_PRT_SCDU1_sumeen
-+Act+Ind+Prt+ScDu1:%>суме̄н K ;!Distinction
++Act+Ind+Prt+ScDu1:%>суме̄н VERB_K ;!Distinction
 LEXICON	ACT_IND_PRT_SCDU1_ysmeen
-+Act+Ind+Prt+ScDu1:%>ысме̄н K ;!Distinction
++Act+Ind+Prt+ScDu1:%>ысме̄н VERB_K ;!Distinction
 
 LEXICON	ACT_IND_PRT_SCDU2_syn
-+Act+Ind+Prt+ScDu2:%>сын K ;
++Act+Ind+Prt+ScDu2:%>сын VERB_K ;
 LEXICON	ACT_IND_PRT_SCDU2_syyn
-+Act+Ind+Prt+ScDu2:%>сы̄н K ;
++Act+Ind+Prt+ScDu2:%>сы̄н VERB_K ;
 
 LEXICON	ACT_IND_PRT_SCDU3_syg
-+Act+Ind+Prt+ScDu3:%>сыг K ;
++Act+Ind+Prt+ScDu3:%>сыг VERB_K ;
 LEXICON	ACT_IND_PRT_SCDU3_syyg
-+Act+Ind+Prt+ScDu3:%>сы̄г K ;!патсы̄г
++Act+Ind+Prt+ScDu3:%>сы̄г VERB_K ;!патсы̄г
 
 LEXICON	ACT_IND_PRT_SCPL1_suv
-+Act+Ind+Prt+ScPl1:%>сув K ;
++Act+Ind+Prt+ScPl1:%>сув VERB_K ;
 LEXICON	ACT_IND_PRT_SCPL1_suuv
-+Act+Ind+Prt+ScPl1:%>сӯв K ;!хассӯв
++Act+Ind+Prt+ScPl1:%>сӯв VERB_K ;!хассӯв
 
 LEXICON	ACT_IND_PRT_SCPL2_syn
-+Act+Ind+Prt+ScPl2:%>сын K ;
++Act+Ind+Prt+ScPl2:%>сын VERB_K ;
 LEXICON	ACT_IND_PRT_SCPL2_syyn
-+Act+Ind+Prt+ScPl2:%>сы̄н K ;
++Act+Ind+Prt+ScPl2:%>сы̄н VERB_K ;
 
 LEXICON	ACT_IND_PRT_SCPL3_syt
-+Act+Ind+Prt+ScPl3:%>сыт K ;
++Act+Ind+Prt+ScPl3:%>сыт VERB_K ;
 
 !! 
 
+LEXICON VERB_K
+@U.VPref.ZERO@ K ;
+@R.VPref.akwan@+Pref/akwan:@R.VPref.akwan@ VPrefixes_END ;
+@R.VPref.jol@+Pref/jol:@R.VPref.jol@ VPrefixes_END ;
+@R.VPref.jot@+Pref/jot:@R.VPref.jot@ VPrefixes_END ;
+@R.VPref.kon@+Pref/kon:@R.VPref.kon@ VPrefixes_END ;
+@R.VPref.konalj@+Pref/konalj:@R.VPref.konalj@ VPrefixes_END ;
+@R.VPref.laakkwa@+Pref/laakkwa:@R.VPref.laakkwa@ VPrefixes_END ;
+@R.VPref.lap@+Pref/lap:@R.VPref.lap@ VPrefixes_END ;
+@R.VPref.ljaaljt@+Pref/ljaaljt:@R.VPref.ljaaljt@ VPrefixes_END ;
+@R.VPref.naaluw@+Pref/naaluw:@R.VPref.naaluw@ VPrefixes_END ;
+@R.VPref.noox@+Pref/noox:@R.VPref.noox@ VPrefixes_END ;
+@R.VPref.paag@+Pref/paag:@R.VPref.paag@ VPrefixes_END ;
+@R.VPref.paalyg@+Pref/paalyg:@R.VPref.paalyg@ VPrefixes_END ;
+@R.VPref.pooxan@+Pref/pooxan:@R.VPref.pooxan@ VPrefixes_END ;
+@R.VPref.pulig@+Pref/pulig:@R.VPref.pulig@ VPrefixes_END ;
+@R.VPref.raawyg@+Pref/raawyg:@R.VPref.raawyg@ VPrefixes_END ;
+@R.VPref.supyg@+Pref/supyg:@R.VPref.supyg@ VPrefixes_END ;
+@R.VPref.taara@+Pref/taara:@R.VPref.taara@ VPrefixes_END ;
+@R.VPref.tuw@+Pref/tuw:@R.VPref.tuw@ VPrefixes_END ;
+@R.VPref.xomi@+Pref/xomi:@R.VPref.xomi@ VPrefixes_END ;
+@R.VPref.xot@+Pref/xot:@R.VPref.xot@ VPrefixes_END ;
+@R.VPref.xoot@+Pref/xoot:@R.VPref.xoot@ VPrefixes_END ;
+@R.VPref.eel@+Pref/eel:@R.VPref.eel@ VPrefixes_END ;
+@R.VPref.eelalj@+Pref/eelalj:@R.VPref.eelalj@ VPrefixes_END ;
+@R.VPref.juw@+Pref/juw:@R.VPref.juw@ VPrefixes_END ;
+@R.VPref.juwle@+Pref/juwle:@R.VPref.juwle@ VPrefixes_END ;
+@R.VPref.juil@+Pref/juil:@R.VPref.juil@ VPrefixes_END ;
 
+LEXICON VPrefixes_END
+@R.VPref1.at@@U.VPref2.ZERO@+Neg:@R.VPref1.at@@U.VPref2.ZERO@ K ;
+@R.VPref1.ul@@U.VPref2.ZERO@+Neg:@R.VPref1.ul@@U.VPref2.ZERO@ K ;
+@U.VPref1.ZERO@@U.VPref2.ZERO@ K ;
+@U.VPref1.ZERO@ K ;
 
+@R.VPref1.at@+Neg:@R.VPref1.at@ VPrefixes_END_1 ;
+@R.VPref1.ul@+Neg:@R.VPref1.ul@ VPrefixes_END_1 ;
 
+@U.VPref1.ZERO@@R.VPref2.ta@+Disc/ta:@U.VPref1.ZERO@@R.VPref2.ta@ K ;
+@U.VPref1.ZERO@@R.VPref2.ty@+Disc/ty:@U.VPref1.ZERO@@R.VPref2.ty@ K ;
+@U.VPref1.ZERO@@R.VPref2.ZERO@:@U.VPref1.ZERO@@R.VPref2.ZERO@ K ;
 
+LEXICON VPrefixes_END_1
+@R.VPref2.te@+Disc/te:@R.VPref2.te@ K ;
+@R.VPref2.ke@+Disc/ke:@R.VPref2.ke@ K ;
+@R.VPref2.ta@+Disc/ta:@R.VPref2.ta@ K ;
+@R.VPref2.ty@+Disc/ty:@R.VPref2.ty@ K ;
 

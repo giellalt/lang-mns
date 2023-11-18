@@ -89,6 +89,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! ### The Usage extents are marked using following tags:
  +Err/Orth  	    !!≈ * **@CODE@**  do not accept, but recognize
+ +Err/Orth-no-hyphen  !!≈ * **@CODE@**  do not accept, preverb merged without hyphen
  +Err/Orth-long-v  	    !!≈ * **@CODE@**  do not accept, but recognize vowel is long
  +Use/NG 	    !!≈ * **@CODE@** do not generate, but accept
  +Use/-Spell 	    !!≈ * **@CODE@** do not use in speller 
@@ -127,6 +128,33 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +OcSg3 +OcDu3 +OcPl3  !!≈ * **@CODE@** Verb object conjugation
  +Ind +Prs +Prt +Pot +Cond +Imprt +Evid !!≈ * **@CODE@** Verb moods 
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass +Act  !!≈ * **@CODE@** infinite verbforms
+ +Adv/Disc
+ +Pref/akwan
+ +Pref/jol
+ +Pref/jot
+ +Pref/kon
+ +Pref/konalj
+ +Pref/laakkwa
+ +Pref/lap
+ +Pref/ljaaljt
+ +Pref/naaluw
+ +Pref/noox
+ +Pref/paag
+ +Pref/paalyg
+ +Pref/pooxan
+ +Pref/pulig
+ +Pref/raawyg
+ +Pref/supyg
+ +Pref/taara
+ +Pref/tuw
+ +Pref/xomi
+ +Pref/xot
+ +Pref/xoot
+ +Pref/eel
+ +Pref/eelalj
+ +Pref/juw
+ +Pref/juwle
+ +Pref/juil
  +TV +IV  !!≈ * **@CODE@** for transitive, intransitive
  +Trans !!≈ * **@CODE@** hmm, Trans and TV?
 
@@ -190,6 +218,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Sem/Plant   !!≈ * __@CODE@__ 
  +Sem/Group   !!≈ * __@CODE@__ 
  +Sem/Time    !!≈ * __@CODE@__ 
+ +Sem/Time-clock    !!≈ * __@CODE@__ 
  +Sem/Txt     !!≈ * __@CODE@__ 
  +Sem/Route   !!≈ * __@CODE@__ 
  +Sem/Measr   !!≈ * __@CODE@__ 
@@ -523,6 +552,85 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  @D.NUM.PL@ !!≈ * @CODE@ 
  @C.NUM@ !!≈ * @CODE@ 
 
+!! # FLAGS USED WITH VERB PREFIXES
+@U.VPref.akwan@ !!≈ * @CODE@
+@U.VPref.jol@ !!≈ * @CODE@
+@U.VPref.jot@ !!≈ * @CODE@
+@U.VPref.kon@ !!≈ * @CODE@
+@U.VPref.konalj@ !!≈ * @CODE@
+@U.VPref.laakkwa@ !!≈ * @CODE@
+@U.VPref.lap@ !!≈ * @CODE@
+@U.VPref.ljaaljt@ !!≈ * @CODE@
+@U.VPref.naaluw@ !!≈ * @CODE@
+@U.VPref.noox@ !!≈ * @CODE@
+@U.VPref.paag@ !!≈ * @CODE@
+@U.VPref.paalyg@ !!≈ * @CODE@
+@U.VPref.pooxan@ !!≈ * @CODE@
+@U.VPref.pulig@ !!≈ * @CODE@
+@U.VPref.raawyg@ !!≈ * @CODE@
+@U.VPref.supyg@ !!≈ * @CODE@
+@U.VPref.taara@ !!≈ * @CODE@
+@U.VPref.tuw@ !!≈ * @CODE@
+@U.VPref.xomi@ !!≈ * @CODE@
+@U.VPref.xot@ !!≈ * @CODE@
+@U.VPref.xoot@ !!≈ * @CODE@
+@U.VPref.eel@ !!≈ * @CODE@
+@U.VPref.eelalj@ !!≈ * @CODE@
+@U.VPref.juw@ !!≈ * @CODE@
+@U.VPref.juwle@ !!≈ * @CODE@
+@U.VPref.juil@ !!≈ * @CODE@
+
+@R.VPref.akwan@ !!≈ * @CODE@
+@R.VPref.jol@ !!≈ * @CODE@
+@R.VPref.jot@ !!≈ * @CODE@
+@R.VPref.kon@ !!≈ * @CODE@
+@R.VPref.konalj@ !!≈ * @CODE@
+@R.VPref.laakkwa@ !!≈ * @CODE@
+@R.VPref.lap@ !!≈ * @CODE@
+@R.VPref.ljaaljt@ !!≈ * @CODE@
+@R.VPref.naaluw@ !!≈ * @CODE@
+@R.VPref.noox@ !!≈ * @CODE@
+@R.VPref.paag@ !!≈ * @CODE@
+@R.VPref.paalyg@ !!≈ * @CODE@
+@R.VPref.pooxan@ !!≈ * @CODE@
+@R.VPref.pulig@ !!≈ * @CODE@
+@R.VPref.raawyg@ !!≈ * @CODE@
+@R.VPref.supyg@ !!≈ * @CODE@
+@R.VPref.taara@ !!≈ * @CODE@
+@R.VPref.tuw@ !!≈ * @CODE@
+@R.VPref.xomi@ !!≈ * @CODE@
+@R.VPref.xot@ !!≈ * @CODE@
+@R.VPref.xoot@ !!≈ * @CODE@
+@R.VPref.eel@ !!≈ * @CODE@
+@R.VPref.eelalj@ !!≈ * @CODE@
+@R.VPref.juw@ !!≈ * @CODE@
+@R.VPref.juwle@ !!≈ * @CODE@
+@R.VPref.juil@ !!≈ * @CODE@
+@U.VPref.ZERO@ !!≈ * @CODE@
+@D.VPref.ZERO@ !!≈ * @CODE@
+@R.VPref.ZERO@ !!≈ * @CODE@
+
+@U.VPref1.at@ !!≈ * @CODE@
+@U.VPref1.ul@ !!≈ * @CODE@
+@U.VPref1.ZERO@ !!≈ * @CODE@
+
+@U.VPref2.ZERO@ !!≈ * @CODE@
+@U.VPref2.vos@ !!≈ * @CODE@
+@U.VPref2.te@ !!≈ * @CODE@
+@U.VPref2.ke@ !!≈ * @CODE@
+@U.VPref2.ta@ !!≈ * @CODE@
+@U.VPref2.ty@ !!≈ * @CODE@
+
+@D.VPref1.ZERO@ !!≈ * @CODE@
+@D.VPref1.at@ !!≈ * @CODE@
+@D.VPref1.ul@ !!≈ * @CODE@
+@D.VPref2.vos@ !!≈ * @CODE@
+@D.VPref2.te@ !!≈ * @CODE@
+@D.VPref2.ke@ !!≈ * @CODE@
+@D.VPref2.ta@ !!≈ * @CODE@
+@D.VPref2.ty@ !!≈ * @CODE@
+
+
 !! # FLAGS USED WITH COLLECTIVE NOUNS
 !! ## number
  @U.DECL-NX.SG@ !!≈ * @CODE@
@@ -531,13 +639,17 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  @R.DECL-NX.SG@ !!≈ * @CODE@
  @R.DECL-NX.DU@ !!≈ * @CODE@
  @R.DECL-NX.PL@ !!≈ * @CODE@
-
+ @R.Pref1.at@ !!≈ * @CODE@
+ @R.Pref2.ta@ !!≈ * @CODE@
+ @R.Pref2.ty@ !!≈ * @CODE@
 
 !! Removal
  @C.DECL-NX@ !!≈ * @CODE@ 
  @C.DECL-DX@ !!≈ * @CODE@ 
  @C.CX@ !!≈ * @CODE@ 
-
+ @C.VPref@ !!≈ * @CODE@ юил/хот...
+ @C.VPref1@ !!≈ * @CODE@ ат
+ @C.VPref2@ !!≈ * @CODE@ та/ты
 
  
 !! ## The basic lexica
@@ -547,7 +659,8 @@ LEXICON Root
 !! The word forms in the MANSI language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    Nouns   ;               !!≈ **@CODE@** 
-   Verbs   ;               !!≈ **@CODE@** 
+   Verbs   ;               !!≈ **@CODE@**
+   VPrefixes ;		   !!≈ **@CODE@**
    Adjectives  ;           !!≈ **@CODE@** 
    Adverbs  ;              !!≈ **@CODE@** 
    Pronouns    ;           !!≈ **@CODE@** 
