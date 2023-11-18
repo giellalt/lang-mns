@@ -352,6 +352,34 @@ LEXICON V_U
 +Еrr/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VU%} PASS_COND ;
 
+LEXICON V_U2C !This has two consonants before -уӈкве
+!! **LEXICON @LEXNAME@** 
+:%{VU%}%>%{уюØ%} INF ;
+:%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
+!:%{VU%} V11_MUTUAL ;
+:%{VU%}%>%{уюØ%} PRFPRC ;
++Ger:%{VU%}%>%{ыиØ%}м # ;!+Ger?+Actio
++Actio:%{VU%}%>%{ыиØ%}н # ;
++Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
+!:%{VU%} ACT_IND_VU ;  2023-11-18
+:%{VU%} ACT_IND_PRS_VU ;!2023-11-18
+
+
+:%{VU%}ы ACT_IND_PRT_OCDU/PL_VU ;!2023-11-18
+ 
+:%{VU%} ACT_IMPRT_VU ;!all
+:%{VU%} ACT_COND_VU ;!all
+:%{VU%}ы ACT_IND_PRT_SC_VU ;!2023-11-18
+
+:%{VU%} ACT_IND_PRT_OCSG3_slameen ;
++Act+Ind+Prt+ScPl3+OcSg3:%{VU%}%>ысаныл VERB_K ;!2023-11-18 NEEDWORK
+
+:%{VU%}у PASS_PRT ;!2023-11-18 
+:%{VU%}%>%{аяØ%} PASS_PRS_VU ;!CHECKME
++Еrr/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
++Еrr/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
+:%{VU%} PASS_COND ;
+
 LEXICON INF
 +Inf:ӈкве VERB_K ;
 +Inf+Err/Orth:ӈкв VERB_K ;
