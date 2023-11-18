@@ -355,7 +355,7 @@ LEXICON V_U
 LEXICON V_U2C !This has two consonants before -уӈкве
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
-:%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
+:%{VU%}ы PRSPRC ; ! 2023-11-17
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
 +Ger:%{VU%}%>%{ыиØ%}м # ;!+Ger?+Actio
