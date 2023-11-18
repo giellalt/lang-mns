@@ -128,7 +128,11 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +OcSg3 +OcDu3 +OcPl3  !!≈ * **@CODE@** Verb object conjugation
  +Ind +Prs +Prt +Pot +Cond +Imprt +Evid !!≈ * **@CODE@** Verb moods 
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass +Act  !!≈ * **@CODE@** infinite verbforms
- +Adv/Disc
+ +Aux/vos
+ +Disc/ke
+ +Disc/te
+ +Disc/ty
+ +Disc/ta
  +Pref/akwan
  +Pref/jol
  +Pref/jot
@@ -630,6 +634,10 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @D.VPref2.ta@ !!≈ * @CODE@
 @D.VPref2.ty@ !!≈ * @CODE@
 
+!! # FLAGS USED WITH ERRORS, ORTHOGRAPHIC or others
+ @U.ERRORTH.nohyphen@ !!≈ * @CODE@ +Err/Orth-no-hyphen
+ @R.ERRORTH.nohyphen@ !!≈ * @CODE@
+ @D.ERRORTH.nohyphen@ !!≈ * @CODE@
 
 !! # FLAGS USED WITH COLLECTIVE NOUNS
 !! ## number
@@ -650,6 +658,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  @C.VPref@ !!≈ * @CODE@ юил/хот...
  @C.VPref1@ !!≈ * @CODE@ ат
  @C.VPref2@ !!≈ * @CODE@ та/ты
+ @C.ERRORTH@ !!≈ * @CODE@
 
  
 !! ## The basic lexica
@@ -674,6 +683,8 @@ LEXICON Root
    Punctuation ;           !!≈ **@CODE@** 
    Symbols     ;           !!≈ **@CODE@** 
    Abbreviation     ;           !!≈ **@CODE@** 
+
+ат+Pcle+Neg:ат ENDLEX ;
 
 LEXICON COLLECTIVES
 @U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- Nouns ; 

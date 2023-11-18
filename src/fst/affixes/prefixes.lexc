@@ -36,20 +36,21 @@ LEXICON VPrefixes_HYPHEN_OR_NOT
 !This is where we need та/ты/ат
 !Ordering: Preverb + Neg + Discourse + Verb
 @D.VPref.ZERO@:@D.VPref.ZERO@%- Prefixing_verbs ;
-@D.VPref.ZERO@+Err/Orth-no-hyphen:@D.VPref.ZERO@ Prefixing_verbs ;
+@D.VPref.ZERO@@U.ERRORTH.nohyphen@:@D.VPref.ZERO@@U.ERRORTH.nohyphen@ Prefixing_verbs ;
 
-@U.Pref1.at@% ат% :@U.Pref1.at@% ат%  Prefixing_verbs ;
-@U.Pref1.ul@% ул% :@U.Pref1.ul@% ул%  Prefixing_verbs ;
-@U.Pref1.ul@@U.Pref2.vos@% ул% вос% :@U.Pref1.ul@@U.Pref2.vos@% ул% вос%  Prefixing_verbs ;
+@U.VPref1.at@:@U.VPref1.at@% ат%  Prefixing_verbs ;
+@U.VPref1.ul@:@U.VPref1.ul@% ул%  Prefixing_verbs ;
+@U.VPref1.ul@@U.VPref2.vos@:@U.VPref1.ul@@U.VPref2.vos@% ул% вос%  Prefixing_verbs ;
 
-@U.Pref2.vos@% вос% :@U.Pref2.vos@% вос%  Prefixing_verbs ;
-@U.Pref2.te@% те% :@U.Pref2.te@% те%  Prefixing_verbs ;
-@U.Pref2.ke@% ке% :@U.Pref2.ke@% ке%  Prefixing_verbs ;
-@U.Pref2.ta@% та% :@U.Pref2.ta@% та%  Prefixing_verbs ;
-@U.Pref2.ty@% ты% :@U.Pref2.ty@% ты%  Prefixing_verbs ;
+@U.VPref2.vos@:@U.VPref2.vos@% вос%  Prefixing_verbs ;
+@U.VPref2.te@:@U.VPref2.te@% те%  Prefixing_verbs ;
+@U.VPref2.ke@:@U.VPref2.ke@% ке%  Prefixing_verbs ;
+@U.VPref2.ta@:@U.VPref2.ta@% та%  Prefixing_verbs ;
+@U.VPref2.ty@:@U.VPref2.ty@% ты%  Prefixing_verbs ;
 
-@U.Pref1.at@@U.Pref2.te@% ат% те% :@U.Pref1.at@@U.Pref2.te@% ат% те%  Prefixing_verbs ;
-@U.Pref1.at@@U.Pref2.ke@% ат% ке% :@U.Pref1.at@@U.Pref2.ke@% ат% ке%  Prefixing_verbs ;
-@U.Pref1.at@@U.Pref2.ta@% ат% та% :@U.Pref1.at@@U.Pref2.ta@% ат% та%  Prefixing_verbs ;
-@U.Pref1.at@@U.Pref2.ty@% ат% ты% :@U.Pref1.at@@U.Pref2.ty@% ат% ты%  Prefixing_verbs ;
+@U.VPref1.at@@U.VPref2.te@:@U.VPref1.at@@U.VPref2.te@% ат% те%  Prefixing_verbs ;
+@U.VPref1.at@@U.VPref2.ke@:@U.VPref1.at@@U.VPref2.ke@% ат% ке%  Prefixing_verbs ;
+@U.VPref1.at@@U.VPref2.ta@:@U.VPref1.at@@U.VPref2.ta@% ат% та%  Prefixing_verbs ;
+@U.VPref1.at@@U.VPref2.ty@:@U.VPref1.at@@U.VPref2.ty@% ат% ты%  Prefixing_verbs ;
 
+!LEXICON VPrefixes_NEG_OR_NOT

@@ -1000,7 +1000,11 @@ LEXICON	ACT_IND_PRT_SCPL3_syt
 !! 
 
 LEXICON VERB_K
-@U.VPref.ZERO@ K ;
+@U.VPref.ZERO@@D.ERRORTH.nohyphen@:@U.VPref.ZERO@@D.ERRORTH.nohyphen@ K ;
+@R.ERRORTH.nohyphen@+Err/Orth-no-hyphen:@R.ERRORTH.nohyphen@	VERBS_WITH_PREFIX ;
+@D.ERRORTH.nohyphen@:@D.ERRORTH.nohyphen@	VERBS_WITH_PREFIX ;
+	
+LEXICON VERBS_WITH_PREFIX
 @R.VPref.akwan@+Pref/akwan:@R.VPref.akwan@ VPrefixes_END ;
 @R.VPref.jol@+Pref/jol:@R.VPref.jol@ VPrefixes_END ;
 @R.VPref.jot@+Pref/jot:@R.VPref.jot@ VPrefixes_END ;
@@ -1032,11 +1036,14 @@ LEXICON VPrefixes_END
 @R.VPref1.at@@U.VPref2.ZERO@+Neg:@R.VPref1.at@@U.VPref2.ZERO@ K ;
 @R.VPref1.ul@@U.VPref2.ZERO@+Neg:@R.VPref1.ul@@U.VPref2.ZERO@ K ;
 @U.VPref1.ZERO@@U.VPref2.ZERO@ K ;
-@U.VPref1.ZERO@ K ;
+!@U.VPref1.ZERO@ K ;
 
 @R.VPref1.at@+Neg:@R.VPref1.at@ VPrefixes_END_1 ;
 @R.VPref1.ul@+Neg:@R.VPref1.ul@ VPrefixes_END_1 ;
 
+@U.VPref1.ZERO@@R.VPref2.vos@+Aux/vos:@U.VPref1.ZERO@@R.VPref2.vos@ K ;
+@U.VPref1.ZERO@@R.VPref2.ke@+Disc/ke:@U.VPref1.ZERO@@R.VPref2.ke@ K ;
+@U.VPref1.ZERO@@R.VPref2.te@+Disc/te:@U.VPref1.ZERO@@R.VPref2.te@ K ;
 @U.VPref1.ZERO@@R.VPref2.ta@+Disc/ta:@U.VPref1.ZERO@@R.VPref2.ta@ K ;
 @U.VPref1.ZERO@@R.VPref2.ty@+Disc/ty:@U.VPref1.ZERO@@R.VPref2.ty@ K ;
 @U.VPref1.ZERO@@R.VPref2.ZERO@:@U.VPref1.ZERO@@R.VPref2.ZERO@ K ;
@@ -1046,4 +1053,5 @@ LEXICON VPrefixes_END_1
 @R.VPref2.ke@+Disc/ke:@R.VPref2.ke@ K ;
 @R.VPref2.ta@+Disc/ta:@R.VPref2.ta@ K ;
 @R.VPref2.ty@+Disc/ty:@R.VPref2.ty@ K ;
+@R.VPref2.vos@+Aux/vos:@R.VPref2.vos@ K ;
 
