@@ -509,6 +509,11 @@ problematic
 * @D.VPref2.ta@
 * @D.VPref2.ty@
 
+# FLAGS USED WITH ERRORS, ORTHOGRAPHIC or others
+* @U.ERRORTH.nohyphen@ +Err/Orth-no-hyphen
+* @R.ERRORTH.nohyphen@
+* @D.ERRORTH.nohyphen@
+
 # FLAGS USED WITH COLLECTIVE NOUNS
 ## number
 * @U.DECL-NX.SG@
@@ -528,6 +533,7 @@ Removal
 * @C.VPref@ юил/хот...
 * @C.VPref1@ ат
 * @C.VPref2@ та/ты
+* @C.ERRORTH@
 
 ## The basic lexica
 
