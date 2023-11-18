@@ -49,13 +49,18 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 Number of words (standing in `lang-mns`):
 
 ```
-cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat test/data/Luima_Seripos_2013-2017.txt |\ 
+hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words:
 
 ```
-cat test/data/Luima_Seripos_2013-2017.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
+cat test/data/Luima_Seripos_2013-2017.txt |\
+ hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+ preprocess --corr=test/data/typos.txt|\
+ hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+ grep " ?"|cut -d'"' -f2|wc -l
 ```
 
 
@@ -76,6 +81,7 @@ Coverage:
 - 231006: 1-(66046/709355) = 0.907
 - 231012: 1-(62881/709355) = 0.911
 - 231116: 1-(55607/709017) = 0.922
+- 231118: 1-(54215/709017) = 0.923
 
 
 
@@ -85,13 +91,18 @@ Coverage:
 Number of words (standing in `lang-mns`):
 
 ```
-cat test/data/Readings_20230901.txt | hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+cat test/data/Readings_20230901.txt |\
+ hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words:
 
 ```
-cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |grep " ?"|cut -d'"' -f2|wc -l
+cat test/data/Readings_20230901.txt |\
+ hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+ preprocess --corr=test/data/typos.txt|\
+ hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+ grep " ?"|cut -d'"' -f2|wc -l
 ```
 
 
@@ -101,7 +112,8 @@ Coverage:
 
 - 231006: 1-(503/7594) = 0.934
 - 231012: 1-(471/7594) = 0.938
-- 231012: 1-(348/7584) = 0.954
+- 231116: 1-(348/7584) = 0.954
+- 231118: 1-(255/7584) = 0.966
 
 ### Lexical coverage of Textbook 1. version
 
