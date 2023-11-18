@@ -9,6 +9,7 @@
             * [nouns.lexc](src-fst-affixes-nouns.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/nouns.lexc))
             * [numerals.lexc](src-fst-affixes-numerals.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/numerals.lexc))
             * [postpositions.lexc](src-fst-affixes-postpositions.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/postpositions.lexc))
+            * [prefixes.lexc](src-fst-affixes-prefixes.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/prefixes.lexc))
             * [pronouns.lexc](src-fst-affixes-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/pronouns.lexc))
             * [propernouns.lexc](src-fst-affixes-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/propernouns.lexc))
             * [symbols.lexc](src-fst-affixes-symbols.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/symbols.lexc))

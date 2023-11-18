@@ -636,6 +636,14 @@ No much work on numerals yet.
 
 ---
 
+# Prefixes for Northern Mansi verbs
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/affixes/prefixes.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/affixes/prefixes.lexc)</small>
+
+---
+
 # Pronouns for Northern Mansi
 
 This file is (still) not needed, as the personal pronoun forms are listed in the stem file.
@@ -1128,6 +1136,7 @@ language are presented in this system in terms of the following symbols.
 
 ### The Usage extents are marked using following tags:
 * **+Err/Orth**  do not accept, but recognize
+* **+Err/Orth-no-hyphen**  do not accept, preverb merged without hyphen
 * **+Err/Orth-long-v**  do not accept, but recognize vowel is long
 * **+Use/NG** do not generate, but accept
 * **+Use/-Spell** do not use in speller 
@@ -1219,6 +1228,7 @@ Semantics are classified with
 * __+Sem/Plant__ 
 * __+Sem/Group__ 
 * __+Sem/Time__ 
+* __+Sem/Time-clock__ 
 * __+Sem/Txt__ 
 * __+Sem/Route__ 
 * __+Sem/Measr__ 
@@ -1503,6 +1513,84 @@ problematic
 * @D.NUM.PL@ 
 * @C.NUM@ 
 
+# FLAGS USED WITH VERB PREFIXES
+* @U.VPref.akwan@
+* @U.VPref.jol@
+* @U.VPref.jot@
+* @U.VPref.kon@
+* @U.VPref.konalj@
+* @U.VPref.laakkwa@
+* @U.VPref.lap@
+* @U.VPref.ljaaljt@
+* @U.VPref.naaluw@
+* @U.VPref.noox@
+* @U.VPref.paag@
+* @U.VPref.paalyg@
+* @U.VPref.pooxan@
+* @U.VPref.pulig@
+* @U.VPref.raawyg@
+* @U.VPref.supyg@
+* @U.VPref.taara@
+* @U.VPref.tuw@
+* @U.VPref.xomi@
+* @U.VPref.xot@
+* @U.VPref.xoot@
+* @U.VPref.eel@
+* @U.VPref.eelalj@
+* @U.VPref.juw@
+* @U.VPref.juwle@
+* @U.VPref.juil@
+
+* @R.VPref.akwan@
+* @R.VPref.jol@
+* @R.VPref.jot@
+* @R.VPref.kon@
+* @R.VPref.konalj@
+* @R.VPref.laakkwa@
+* @R.VPref.lap@
+* @R.VPref.ljaaljt@
+* @R.VPref.naaluw@
+* @R.VPref.noox@
+* @R.VPref.paag@
+* @R.VPref.paalyg@
+* @R.VPref.pooxan@
+* @R.VPref.pulig@
+* @R.VPref.raawyg@
+* @R.VPref.supyg@
+* @R.VPref.taara@
+* @R.VPref.tuw@
+* @R.VPref.xomi@
+* @R.VPref.xot@
+* @R.VPref.xoot@
+* @R.VPref.eel@
+* @R.VPref.eelalj@
+* @R.VPref.juw@
+* @R.VPref.juwle@
+* @R.VPref.juil@
+* @U.VPref.ZERO@
+* @D.VPref.ZERO@
+* @R.VPref.ZERO@
+
+* @U.VPref1.at@
+* @U.VPref1.ul@
+* @U.VPref1.ZERO@
+
+* @U.VPref2.ZERO@
+* @U.VPref2.vos@
+* @U.VPref2.te@
+* @U.VPref2.ke@
+* @U.VPref2.ta@
+* @U.VPref2.ty@
+
+* @D.VPref1.ZERO@
+* @D.VPref1.at@
+* @D.VPref1.ul@
+* @D.VPref2.vos@
+* @D.VPref2.te@
+* @D.VPref2.ke@
+* @D.VPref2.ta@
+* @D.VPref2.ty@
+
 # FLAGS USED WITH COLLECTIVE NOUNS
 ## number
 * @U.DECL-NX.SG@
@@ -1511,11 +1599,17 @@ problematic
 * @R.DECL-NX.SG@
 * @R.DECL-NX.DU@
 * @R.DECL-NX.PL@
+* @R.Pref1.at@
+* @R.Pref2.ta@
+* @R.Pref2.ty@
 
 Removal
 * @C.DECL-NX@ 
 * @C.DECL-DX@ 
 * @C.CX@ 
+* @C.VPref@ юил/хот...
+* @C.VPref1@ ат
+* @C.VPref2@ та/ты
 
 ## The basic lexica
 
@@ -1523,7 +1617,8 @@ Removal
 The word forms in the MANSI language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 **Nouns ;** 
-**Verbs ;** 
+**Verbs ;**
+**VPrefixes ;**
 **Adjectives ;** 
 **Adverbs ;** 
 **Pronouns ;** 
