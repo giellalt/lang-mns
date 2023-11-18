@@ -326,10 +326,10 @@ LEXICON IND_PRS_TEENGKVE
 
 !! ## Stems ending in C
 LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
- V_U ;
+ V_U2C ;!2023-11-18
 
 LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
- V_U ;
+ V_U2C ;!2023-11-18
 
 LEXICON V_U
 !! **LEXICON @LEXNAME@** 

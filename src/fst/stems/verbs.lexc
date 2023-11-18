@@ -5015,6 +5015,7 @@ LEXICON Prefixing_verbs
 @U.VPref.akwan@акван-ӯнттала̄лыглаӈкве+V:@U.VPref.akwan@ӯнттала̄лыгл V_A "23_even_составлять" ;
 @U.VPref.akwan@акван-ӯнтталаӈкве+V:@U.VPref.akwan@ӯнттал V_A "13_even_составить /в определённом порядке///постоять " ;
 @U.VPref.akwan@акван-ӯнттуӈкве+V:@U.VPref.akwan@ӯнтт V_U2C "GLOSSME" ;
+@U.VPref.akwan@акван-хансуӈкве+V:@U.VPref.akwan@ханс V_NSHU "GLOSSME" ;
 @U.VPref.kon@кон-а̄нквата̄лыглаӈкве+V:@U.VPref.kon@а̄нквата̄лыгл V_A "23_even_выглядывать " ;
 @U.VPref.kon@кон-а̄ӈкватаӈкве+V:@U.VPref.kon@а̄ӈкват V_A "13_even_выглянуть" ;
 @U.VPref.kon@кон-ва̄ӈкантаӈкве+V:@U.VPref.kon@ва̄ӈкант V_A "23_even_выползать" ;
@@ -6106,6 +6107,7 @@ LEXICON Prefixing_verbs
 @U.VPref.jol@ёл-ӯнттала̄луӈкве+V:@U.VPref.jol@ӯнттала̄л V_U "13_odd_усаживать" ;
 @U.VPref.jol@ёл-ӯнттуӈкве+V:@U.VPref.jol@ӯнтт V_U2C "33_odd_усадить" ;
 @U.VPref.jol@ёл-ӯнттыгла̄луӈкве+V:@U.VPref.jol@ӯнттыгла̄л V_U "13_odd_ставить /много раз/" ;
+@U.VPref.jol@ёл-хансуӈкве+V:@U.VPref.jol@ханс V_NSHU "GLOSSME" ;
 @U.VPref.jot@ёт-а̄лмаяӈкве+V:@U.VPref.jot@а̄лмай V_A "12_even_захватить" ;
 @U.VPref.jot@ёт-ва̄нттуӈкве+V:@U.VPref.jot@ва̄нтт V_U2C "33_odd_увести" ;
 @U.VPref.jot@ёт-ва̄нттыгла̄луӈкве+V:@U.VPref.jot@ва̄нттыгла̄л V_U "13_odd_уводить" ;
