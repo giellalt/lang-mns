@@ -1243,6 +1243,8 @@ Semantics are classified with
 
 Clitic
 * **+Qst** Question particle -а
+* **+Clt/Ki** With Pron+Prs+Nom
+* **+Clt/Ti** With Pron+Prs+Nom
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
@@ -1850,9 +1852,9 @@ The file lists personal pronouns and their lemma + tags.
 * LEXICON indefinites
 
 **LEXICON personal** contains the forms
-* ам+Pron+Pers+Sg1+Nom:ам # ; 
-* наӈ+Pron+Pers+Sg2+Nom:наӈ # ; 
-* тав+Pron+Pers+Sg3+Nom:тав # ; 
+* ам+Pron+Pers+Sg1+Nom:ам PERS_PRON_KI_OR_ZERO ; 
+* наӈ+Pron+Pers+Sg2+Nom:наӈ PERS_PRON_KI_OR_ZERO ; 
+* тав+Pron+Pers+Sg3+Nom:тав PERS_PRON_KI_OR_ZERO ; 
 ...
 
 * * *

@@ -159,6 +159,8 @@ Semantics are classified with
 
 Clitic
 * **+Qst** Question particle -а
+* **+Clt/Ki** With Pron+Prs+Nom
+* **+Clt/Ti** With Pron+Prs+Nom
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
