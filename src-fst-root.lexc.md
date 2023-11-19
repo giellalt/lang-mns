@@ -492,6 +492,9 @@ problematic
 * @U.VPref1.at@
 * @U.VPref1.ul@
 * @U.VPref1.ZERO@
+* @R.VPref1.at@
+* @R.VPref1.ul@
+* @R.VPref1.ZERO@
 
 * @U.VPref2.ZERO@
 * @U.VPref2.vos@
@@ -499,6 +502,13 @@ problematic
 * @U.VPref2.ke@
 * @U.VPref2.ta@
 * @U.VPref2.ty@
+
+* @R.VPref2.ZERO@
+* @R.VPref2.vos@
+* @R.VPref2.te@
+* @R.VPref2.ke@
+* @R.VPref2.ta@
+* @R.VPref2.ty@
 
 * @D.VPref1.ZERO@
 * @D.VPref1.at@
