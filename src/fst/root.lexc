@@ -235,6 +235,8 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 !! Clitic
 +Qst      !!≈ * **@CODE@** Question particle -а
++Clt/Ki	  !!≈ * **@CODE@** With Pron+Prs+Nom
++Clt/Ti	  !!≈ * **@CODE@** With Pron+Prs+Nom
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
