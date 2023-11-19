@@ -293,7 +293,7 @@ LEXICON JOXTUNGKVE
 :%{VU%} PRSPRC ; 
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
-+Ger:%{VU%}%>%{ыиØ%}м # ;!+Actio
+:%{VU%}%>%{ыиØ%} GER ;!+Actio
 +Actio:%{VU%}%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_PRS_VU ;
@@ -337,7 +337,7 @@ LEXICON V_U
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
-+Ger:%{VU%}%>%{ыиØ%}м # ;!+Ger?+Actio
+:%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 +Actio:%{VU%}%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_VU ;
@@ -358,7 +358,7 @@ LEXICON V_U2C !This has two consonants before -уӈкве
 :%{VU%}ы PRSPRC ; ! 2023-11-17
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
-+Ger:%{VU%}%>%{ыиØ%}м # ;!+Ger?+Actio
+:%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 +Actio:%{VU%}%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 !:%{VU%} ACT_IND_VU ;  2023-11-18
@@ -402,7 +402,7 @@ LEXICON V_A
 LEXICON V11_MUTUAL 
 !! * **LEXICON @LEXNAME@** 
 :%>%{аяØ%} PRFPRC ;
-+Ger:%>%{ыиØ%}м # ;!ым +Ger?+Actio
+:%>%{ыиØ%} GER ;!ым +Ger?+Actio
 +Actio:%>%{ыиØ%}н # ;
 +Der+Der/Ap+N:%>ап N_VCH ;
  ACT_IND_PRS_VA ;
@@ -962,7 +962,7 @@ LEXICON GER
 +Ger:%>м VERB_K ;
 +Ger+PxSg1:%>мам VERB_K ;
 +Ger+PxSg2:%>ман VERB_K ;
-+Ger+PxSg3:%>ма VERB_K ;
++Ger+PxSg3:%>ма VERB_K ;! is this actually PxSg3? how does it match with the simple Ger?
 +Ger+PxSg3:%>матэ VERB_K ;!Jaska 20230901 V-6-jingkwe, but not in V-6-lingkwe, V-6-wingkwe, yet.
 +Ger+PxDu1:%>маме̄н VERB_K ;
 +Ger+PxDu2:%>ман VERB_K ;
@@ -1063,11 +1063,12 @@ LEXICON VERBS_WITH_PREFIX
 LEXICON VPrefixes_END
 @R.VPref1.at@@U.VPref2.ZERO@+Neg:@R.VPref1.at@@U.VPref2.ZERO@ K ;
 @R.VPref1.ul@@U.VPref2.ZERO@+Neg:@R.VPref1.ul@@U.VPref2.ZERO@ K ;
-@U.VPref1.ZERO@@U.VPref2.ZERO@ K ;
+@U.VPref1.ZERO@@U.VPref2.ZERO@:@U.VPref1.ZERO@@U.VPref2.ZERO@ K ;
 !@U.VPref1.ZERO@ K ;
 
 @R.VPref1.at@+Neg:@R.VPref1.at@ VPrefixes_END_1 ;
 @R.VPref1.ul@+Neg:@R.VPref1.ul@ VPrefixes_END_1 ;
+@U.VPref1.ZERO@ VPrefixes_END_1 ;!CHECKME 2023-11-19
 
 @U.VPref1.ZERO@@R.VPref2.vos@+Aux/vos:@U.VPref1.ZERO@@R.VPref2.vos@ K ;
 @U.VPref1.ZERO@@R.VPref2.ke@+Disc/ke:@U.VPref1.ZERO@@R.VPref2.ke@ K ;

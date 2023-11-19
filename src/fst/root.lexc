@@ -617,6 +617,9 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @U.VPref1.at@ !!≈ * @CODE@
 @U.VPref1.ul@ !!≈ * @CODE@
 @U.VPref1.ZERO@ !!≈ * @CODE@
+@R.VPref1.at@ !!≈ * @CODE@
+@R.VPref1.ul@ !!≈ * @CODE@
+@R.VPref1.ZERO@ !!≈ * @CODE@
 
 @U.VPref2.ZERO@ !!≈ * @CODE@
 @U.VPref2.vos@ !!≈ * @CODE@
@@ -624,6 +627,13 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @U.VPref2.ke@ !!≈ * @CODE@
 @U.VPref2.ta@ !!≈ * @CODE@
 @U.VPref2.ty@ !!≈ * @CODE@
+
+@R.VPref2.ZERO@ !!≈ * @CODE@
+@R.VPref2.vos@ !!≈ * @CODE@
+@R.VPref2.te@ !!≈ * @CODE@
+@R.VPref2.ke@ !!≈ * @CODE@
+@R.VPref2.ta@ !!≈ * @CODE@
+@R.VPref2.ty@ !!≈ * @CODE@
 
 @D.VPref1.ZERO@ !!≈ * @CODE@
 @D.VPref1.at@ !!≈ * @CODE@
