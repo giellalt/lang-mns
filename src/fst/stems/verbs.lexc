@@ -5847,7 +5847,8 @@ LEXICON Prefixing_verbs
 @U.VPref.eel@э̄л-майлыгла̄луӈкве+V:@U.VPref.eel@майлыгла̄л V_U "13_odd_отдавать" ;
 @U.VPref.eel@э̄л-нэ̄глантаӈкве+V:@U.VPref.eel@нэ̄глант V_A "23_even_перегонять /обгонять в беге/" ;
 @U.VPref.eel@э̄л-нэ̄глуӈкве+V:@U.VPref.eel@нэ̄гл V_U "23_odd_перегнать /обогнать/" ;
-@U.VPref.eel@э̄л-нэ̄глыгла̄луӈкве+V:@U.VPref.eel@нэ̄глыгла̄л V_U "13_odd_опережать" ;
+@U.VPref.eel@э̄л-нэ̄глыгла̄луӈкве+v1+V:@U.VPref.eel@нэ̄глыгла̄л V_U "13_odd_опережать" ;
+@U.VPref.eel@э̄л-нэ̄глыгла̄луӈкве+v2+V:@U.VPref.eel@нэглыгла̄л V_U "13_odd_опережать" ;
 @U.VPref.eel@э̄л-ня̄влыгла̄луӈкве+V:@U.VPref.eel@ня̄влыгла̄л V_U "13_odd_отгонять" ;
 @U.VPref.eel@э̄л-нявлуӈкве+V:@U.VPref.eel@нявл V_U "23_odd_прогнать" ;
 @U.VPref.eel@э̄л-оймыгтаӈкве+V:@U.VPref.eel@оймыгт V_A "23_even_начать убегать" ;
