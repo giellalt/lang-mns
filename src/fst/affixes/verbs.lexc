@@ -294,7 +294,7 @@ LEXICON JOXTUNGKVE
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
 :%{VU%}%>%{ыиØ%} GER ;!+Actio
-+Actio:%{VU%}%>%{ыиØ%}н # ;
+:%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_PRS_VU ;
 :%{VU%} ACT_IND_PRT_OCDU/PL_VU ;
@@ -338,7 +338,7 @@ LEXICON V_U
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
-+Actio:%{VU%}%>%{ыиØ%}н # ;
+:%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_VU ;
 :%{VU%} ACT_IMPRT_VU ;!all
@@ -359,7 +359,7 @@ LEXICON V_U2C !This has two consonants before -уӈкве
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
-+Actio:%{VU%}%>%{ыиØ%}н # ;
+:%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 !:%{VU%} ACT_IND_VU ;  2023-11-18
 :%{VU%} ACT_IND_PRS_VU ;!2023-11-18
@@ -403,7 +403,7 @@ LEXICON V11_MUTUAL
 !! * **LEXICON @LEXNAME@** 
 :%>%{аяØ%} PRFPRC ;
 :%>%{ыиØ%} GER ;!ым +Ger?+Actio
-+Actio:%>%{ыиØ%}н # ;
+:%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%>ап N_VCH ;
  ACT_IND_PRS_VA ;
  ACT_IMPRT ;
@@ -957,6 +957,9 @@ LEXICON PRFPRC_teemanum
 +PrfPrc+PxPl2:%>мананы̄н VERB_K ;!?
 +PrfPrc+PxPl3:%>мана̄ныл VERB_K ;!
 +PrfPrc+PxPl3:%>ма̄ныл VERB_K ;!
+
+LEXICON ACTIO
++Actio:н A_VCH ; !CHECKME 2023-11-20 for Prefixes
 
 LEXICON GER
 +Ger:%>м VERB_K ;
