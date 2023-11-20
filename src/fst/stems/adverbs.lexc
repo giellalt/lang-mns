@@ -7,8 +7,10 @@
 LEXICON Adverbs
 !! **LEXICON @LEXNAME@** 
 
+
 а̄ти+Adv:а̄ти    ADV_ "negative Degree adverb";
 а̄тим+Adv:а̄тим    ADV_ "Locative negation";
+а̄тим+Adv+Neg+Tra:а̄тимыг ADV_ "absence with translative";
 а̄гмыӈыщ+Adv:а̄гмыӈыщ ADV_ "" ;
 аквал-аквал+Adv:аквал-аквал ADV_ "" ;
 аквмаенакт+Adv:аквмаенакт ADV_ "" ;

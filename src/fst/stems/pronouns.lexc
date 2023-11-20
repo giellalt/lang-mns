@@ -136,11 +136,6 @@ LEXICON personal
 !наӈ+Pron+Pers+Refl+Pl2+Nom:на̄нки # ;
 !тав+Pron+Pers+Refl+Pl3+Nom:та̄нки # ;
 
-LEXICON PERS_PRON_KI_OR_ZERO
- # ;
-+Clt/Ki:%>ки # ; 
-+Clt/Ti:%>ти # ; 
-
 ! vim: set ft=xfst-lexc:
 
 хо̄ӈха+Pron+Interr:хо̄ӈха N_VO ;
@@ -161,14 +156,16 @@ LEXICON PERS_PRON_KI_OR_ZERO
 татем+Pron:татем N_VCH "такой"; 
 таилтем+Pron:таилтем N_VCH "";
 хо̄т-а̄ти+Pron:хо̄т-а̄ти N_VI "где-либо"; 
-матыр-а̄ти+Pron:хо̄т-а̄ти N_VI "что-либо";
+матыр-а̄ти+Pron:матыр-а̄ти N_VI "что-либо";
 хоталь-а̄ти+Pron:хоталь-а̄ти N_VI ""; 
 хоты+Pron:хоты N_VI "который"; 
 хотты+Pron:хотты N_VI "некоторый"; 
 хотты+Pron:хотты N_VI "кто-нибудь, что-нибудь";
 нэ̄мхоты+Pron:нэ̄мхоты N_VI "";
 нэ̄мхотты+Pron:нэ̄мхотты N_VI "";
-хотьют+Pron:хотьют N_VCH "кто";
+хотьют+Pron:хотьют N_VCH ;
+
+!хотьют+Pron:хотьют N_VCH "кто";
 хотъют+Pron:хотъют N_VCH "который";
 нэ̄мхотьют+Pron:нэ̄мхотьют N_VCH "никто";
 хуньт+Pron:хуньт N_VCH "когда";
@@ -192,4 +189,10 @@ LEXICON PERS_PRON_KI_OR_ZERO
 манхурип+Pron:манхурип N_VCH "какой";  
 матхурип+Pron:матхурип N_VCH "какой-то"; 
 манъяныт+Pron:манъяныт N_VCH "какой величины"; 
-манах+Pron:манах N_VCH "сколько"; 
+манах+Pron:манах N_VCH "сколько";
+
+LEXICON PERS_PRON_KI_OR_ZERO
+ # ;
++Clt/Ki:%>ки # ; 
++Clt/Ti:%>ти # ; 
+
