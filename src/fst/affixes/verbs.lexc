@@ -267,8 +267,9 @@ LEXICON VINGKVE
 LEXICON MINUNGKVE
 :у INF ; !!≈ @CODE@
  PRSPRC ;
+:%{VU%}%>%{ыиØ%} ACTIO ;
 :%>%{аяØ%} PRFPRC ;
-+Ger:%{VU%}%>ым VERB_K ;
+:%{VU%}%>%{ыиØ%} GER ;
 :%{VU%} ACT_IND_PRS_VU ;
 
 +Act+Ind+Prt+ScSg1:асум VERB_K ;
