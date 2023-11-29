@@ -2,26 +2,106 @@
 
 LEXICON Postpositions
 !! **LEXICON @LEXNAME@** is the lexicon, containing 3 Po so far.
-кастыл+Po:кастыл PO_ZERO_OR_PX ;
 
-ма̄гыс+Po:ма̄гыс PO_ ;
-нупыл+Po:нупыл PO_ ;
-
-ма̄гсыл+Po:ма̄гсыл PO_ZERO_OR_PX ;
-ёт+Po:ёт PO_ZERO_OR_PX ;
 
 мус+Po:мус PO_ ;
-тармыл+Po:тармыл PO_ ;
+сыс+Po:сыс PO_ ;
+ма̄гыс+Po:ма̄гыс PO_ ;
+ма̄гсыл+Po:ма̄гсыл PO_ZERO_OR_PX ;
+кастыл+Po:кастыл PO_ZERO_OR_PX ;
+та̄ра+Po:та̄ра PO_ ;
+ёт+Po:ёт PO_ZERO_OR_PX ;
+мус+Po:мус PO_ ;
+хосыт+Po:хосыт PO_ ;
 ултта+Po:ултта PO_ ;
 урыл+Po:урыл PO_ ;
+ля̄льт+Po:ля̄льт PO_ ;
+торыг+Po:торыг PO_ ;
+мувлахи+Po:мувлахи PO_ ;
 
 !! Relator nouns
 щирыл+Po:щирыл PO_ "Relator noun щир" ;
 
+тармылн+PO:тармылн PO_LAT "в середину" ;
+тармыл+PO:тармыл PO_LOC "в середине" ;
+тармылныл+PO:тармылныл PO_ABL "из середины" ;
+
+халн+PO:халн PO_LAT "между" ;
+халт+PO:халт PO_LOC "между" ;
+халныл+PO:халныл PO_ABL "между" ;
+
+по̄хан+PO:по̄хан PO_LAT "в сторону" ;
+по̄хат+PO:по̄хат PO_LOC "подле" ;
+по̄ханыл+PO:по̄ханыл PO_ABL "сбоку" ;
+
+са̄йн+PO:са̄йн PO_LAT "за" ;
+са̄йт+PO:са̄йт PO_LOC "за" ;
+са̄йныл+PO:са̄йныл PO_ABL "из-за" ;
+
+нумн+PO:нумн PO_LAT "вверх, наверх" ;
+нупыл+Po:нупыл PO_ ;
+нумныл+PO:нумныл PO_ABL "сверху" ;
+
+котильн+PO:котильн PO_LAT "на верхности" ;
+котильт+PO:котильт PO_LOC "на верхности" ;
+котильныл+PO:котильныл PO_ABL "с верхности" ;
+
+кӣвырн+PO:кӣвырн PO_LAT "" ;
+кӣвырт+PO:кӣвырт PO_LOC "внутри" ;
+кӣвырныл+PO:кӣвырныл PO_ABL "извнутри" ;
+
 ёлы-па̄лныл+Po:ёлы PO_ABL_paalnyl ;
 ёлы-па̄лт+Po:ёлы PO_LOC_paalt ;
-ёлы-па̄лын+Po:ёлы PO_LAT_paalyn ;
+ёлы-па̄лн+Po:ёлы PO_LAT_paaln ;
 
 коны-па̄лныл+Po:коны PO_ABL_paalnyl ;
 коны-па̄лт+Po:коны PO_LOC_paalt ;
-коны-па̄лын+Po:коны PO_LAT_paalyn ;
+коны-па̄лн+Po:коны PO_LAT_paaln ;
+
+ёмаспа̄лн+PO:ёмас#па̄лн PO_LAT "oikealle puolelle" ;
+ёлы-па̄лн+v1+PO:ёлы-#па̄лн PO_LAT "alapuolelle" ;
+ёлы-па̄лн+v2+PO:ёлы#па̄лн PO_LAT "alapuolelle" ;
+коны-па̄лн+v1+PO:коны-#па̄лн PO_LAT "ulkopuolelle" ;
+коны-па̄лн+v2+PO:коны#па̄лн PO_LAT "ulkopuolelle" ;
+нум-па̄лн+v1+PO:нум-#па̄лн PO_LAT "наверх" ;
+нум-па̄лн+v2+PO:нум#па̄лн PO_LAT "наверх" ;
+нуми-па̄лн+v1+PO:нуми-#па̄лн PO_LAT "наверх" ;
+нуми-па̄лн+v2+PO:нуми#па̄лн PO_LAT "наверх" ;
+сыс-па̄лн+v1+PO:сыс-#па̄лн PO_LAT "taakse" ;
+сыс-па̄лн+v2+PO:сыс#па̄лн PO_LAT "taakse" ;
+э̄лы-па̄лн+v1+PO:э̄лы-#па̄лн PO_LAT "eteen" ;
+э̄лы-па̄лн+v2+PO:э̄лы#па̄лн PO_LAT "eteen" ;
+юи-па̄лн+v1+PO:юи-#па̄лн PO_LAT "?peräkkäin/вслед" ;
+юи-па̄лн+v2+PO:юи#па̄лн PO_LAT "?peräkkäin/вслед" ;
+
+ёмаспа̄лт+PO:ёмас#па̄лт PO_LOC "oikealla puolella" ;
+ёлы-па̄лт+v1+PO:ёлы-#па̄лт PO_LOC "alapuolella" ;
+ёлы-па̄лт+v2+PO:ёлы#па̄лт PO_LOC "alapuolella" ;
+коны-па̄лт+v1+PO:коны-#па̄лт PO_LOC "ulkopuolella" ;
+коны-па̄лт+v2+PO:коны#па̄лт PO_LOC "ulkopuolella" ;
+нум-па̄лт+v1+PO:нум-#па̄лт PO_LOC "вверху, наверху" ;
+нум-па̄лт+v2+PO:нум#па̄лт PO_LOC "вверху, наверху" ;
+нуми-па̄лт+v1+PO:нуми-#па̄лт PO_LOC "вверху, наверху" ;
+нуми-па̄лт+v2+PO:нуми#па̄лт PO_LOC "вверху, наверху" ;
+сыс-па̄лт+v1+PO:сыс-#па̄лт PO_LOC "takana" ;
+сыс-па̄лт+v2+PO:сыс#па̄лт PO_LOC "takana" ;
+э̄лы-па̄лт+v1+PO:э̄лы-#па̄лт PO_LOC "edessä" ;
+э̄лы-па̄лт+v2+PO:э̄лы#па̄лт PO_LOC "edessä" ;
+юи-па̄лт+v1+PO:юи-#па̄лт PO_LOC "?peräkkäin/вслед" ;
+юи-па̄лт+v2+PO:юи#па̄лт PO_LOC "?peräkkäin/вслед" ;
+
+ёмаспа̄лныл+PO:ёмас#па̄лныл PO_LOC "oikealta puolelta" ;
+ёлы-па̄лныл+v1+PO:ёлы-#па̄лныл PO_LOC "alapuolelta" ;
+ёлы-па̄лныл+v2+PO:ёлы#па̄лныл PO_LOC "alapuolelta" ;
+коны-па̄лныл+v1+PO:коны-#па̄лныл PO_LOC "ulkopuolelta" ;
+коны-па̄лныл+v2+PO:коны#па̄лныл PO_LOC "ulkopuolelta" ;
+нум-па̄лныл+v1+PO:нум-#па̄лныл PO_LOC "сверху" ;
+нум-па̄лныл+v2+PO:нум#па̄лныл PO_LOC "сверху" ;
+нуми-па̄лныл+v1+PO:нуми-#па̄лныл PO_LOC "сверху" ;
+нуми-па̄лныл+v2+PO:нуми#па̄лныл PO_LOC "сверху" ;
+сыс-па̄лныл+v1+PO:сыс-#па̄лныл PO_LOC "takapuolelta" ;
+сыс-па̄лныл+v2+PO:сыс#па̄лныл PO_LOC "takapuolelta" ;
+э̄лы-па̄лныл+v1+PO:э̄лы-#па̄лныл PO_LOC "" ;
+э̄лы-па̄лныл+v2+PO:э̄лы#па̄лныл PO_LOC "" ;
+юи-па̄лныл+v1+PO:юи-#па̄лныл PO_LOC "" ;
+юи-па̄лныл+v2+PO:юи#па̄лныл PO_LOC "" ;
