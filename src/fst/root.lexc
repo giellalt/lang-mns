@@ -93,7 +93,8 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Err/Orth-long-v  	    !!≈ * **@CODE@**  do not accept, but recognize vowel is long
  +Use/NG 	    !!≈ * **@CODE@** do not generate, but accept
  +Use/-Spell 	    !!≈ * **@CODE@** do not use in speller 
-
+ +Use/SpellNoSugg  !!≈ * **@CODE@** recognized but not suggested in speller
+ 
 !! ### The nominals are inflected in the following Case and Number
  +Sg +Du +Pl !!≈ * **@CODE@** 
  +Nom  !!≈ * **@CODE@** 
