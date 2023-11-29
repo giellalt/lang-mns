@@ -349,8 +349,8 @@ LEXICON V_U
 :%{VU%} ACT_IND_PRT_OCSG3_slameen ;
 :%{VU%} PASS_PRT ;
 :%{VU%}%>%{аяØ%} PASS_PRS_VU ;
-+Еrr/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
-+Еrr/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
++Err/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
++Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VU%} PASS_COND ;
 
 LEXICON V_U2C !This has two consonants before -уӈкве
@@ -377,8 +377,8 @@ LEXICON V_U2C !This has two consonants before -уӈкве
 
 :%{VU%}у PASS_PRT ;!2023-11-18 
 :%{VU%}%>%{аяØ%} PASS_PRS_VU ;!CHECKME
-+Еrr/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
-+Еrr/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
++Err/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
++Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VU%} PASS_COND ;
 
 LEXICON INF
