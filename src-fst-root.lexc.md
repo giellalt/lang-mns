@@ -58,6 +58,7 @@ language are presented in this system in terms of the following symbols.
 * **+Err/Orth-long-v**  do not accept, but recognize vowel is long
 * **+Use/NG** do not generate, but accept
 * **+Use/-Spell** do not use in speller 
+* **+Use/SpellNoSugg** recognized but not suggested in speller
 
 ### The nominals are inflected in the following Case and Number
 * **+Sg +Du +Pl** 
