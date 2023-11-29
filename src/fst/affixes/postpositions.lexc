@@ -23,11 +23,11 @@ LEXICON PO_ABL_paalnyl
 +Err/Orth+Abl:палныл K ;
 +Err/Orth+Abl:%-палныл K ;
 
-!LEXICON PO_LAT_paalyn
-!+Lat:%-па̄лын K ;
-!+Err/Orth+Lat:па̄лын K ;
-!+Err/Orth+Lat:палын K ;
-!+Err/Orth+Lat:%-палын K ;
+LEXICON PO_LAT_paaln
++Lat:%-па̄лн K ;
++Err/Orth+Lat:па̄лын K ;
++Err/Orth+Lat:палн K ;
++Err/Orth+Lat:%-палын K ;
 
 LEXICON PO_LOC_paalt
 +Loc:%-па̄лт K ;
@@ -38,7 +38,7 @@ LEXICON PO_LOC_paalt
 
 
 ! Debug:
-LEXICON PO_ABL # ;
-LEXICON PO_LAT_paaln # ;
+LEXICON PO_ABL
++Abl: K ;
 LEXICON PO_LOC # ;
 LEXICON PO_LAT # ;
