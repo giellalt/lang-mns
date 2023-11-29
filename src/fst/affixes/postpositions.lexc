@@ -32,3 +32,11 @@ LEXICON PO_LOC_paalt
 +Err/Orth+Loc:па̄лт K ;
 +Err/Orth+Loc:палт K ;
 +Err/Orth+Loc:%-палт K ;
+
+
+
+! Debug:
+LEXICON PO_ABL # ;
+LEXICON PO_LAT_paaln # ;
+LEXICON PO_LOC # ;
+LEXICON PO_LAT # ;
