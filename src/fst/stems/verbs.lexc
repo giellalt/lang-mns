@@ -1531,6 +1531,7 @@ LEXICON Verbs
 со̄сантахтуӈкве+V:со̄сантахт V_U2C "23_odd_" ;
 со̄сантахтыгла̄луӈкве+V:со̄сантахтыгла̄л V_U "13_odd_" ;
 со̄сантаӈкве+V:со̄сант V_A "23_even_поливать" ;
+со̄сапаӈкве+V:со̄сап V_A "23_even_налить" ;
 со̄ссамаӈкве+V:со̄ссам V_A "11_even_выскочить из огня /об угольке/" ;
 со̄суӈкве+V:со̄с V_U "15_odd_сыпать" ;
 со̄схатуӈкве+V:со̄схат V_U "13_even_налиться" ;
@@ -2734,10 +2735,11 @@ LEXICON Prefixing_verbs
 @U.VPref.akwan@акван-нэ̄гыгла̄луӈкве+V:@U.VPref.akwan@нэ̄гыгла̄л V_U "13_odd_связывать//увязывать" ;
 @U.VPref.akwan@акван-нё̄тхатуӈкве+V:@U.VPref.akwan@нё̄тхат V_U "GLOSSME" ;
 @U.VPref.akwan@акван-о̄лтуӈкве+V:@U.VPref.akwan@о̄лт V_U2C "23_odd_соединить//скрепить" ;
+@U.VPref.akwan@акван-патуӈкве+V:@U.VPref.akwan@пат V_U2C "23_odd_слиться" ;
 @U.VPref.akwan@акван-пинтла̄луӈкве+V:@U.VPref.akwan@пинтла̄л V_U "13_even_складывать" ;
 @U.VPref.akwan@акван-пинуӈкве+V:@U.VPref.akwan@пин V_U "13_odd_сложить" ;
-@U.VPref.akwan@акван-потыртахтаӈкве+V:@U.VPref.akwan@потыртахт V_A "GLOSSME" ;
-потыртахтаӈкве+V:потыртахт V_A "GLOSSME" ;
+@U.VPref.akwan@акван-потыртахтуӈкве+V:@U.VPref.akwan@потыртахт V_U "13_even_сговориться" ;
+потыртахтуӈкве+V:потыртахт V_U "13_even_договориться" ;
 @U.VPref.akwan@акван-ро̄влахтуӈкве+V:@U.VPref.akwan@ро̄влахт V_U2C "23_even_согласоваться" ;
 @U.VPref.akwan@акван-ро̄влаӈкве+V:@U.VPref.akwan@ро̄вл V_A "23_even_согласовать" ;
 @U.VPref.akwan@акван-сагуӈкве+V:@U.VPref.akwan@саг V_U "11_odd_переплести /свить//сплести/" ;
