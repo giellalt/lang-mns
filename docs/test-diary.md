@@ -41,6 +41,11 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 8406 / FAILS: 1668 / TOTAL: 10074
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
+231129
+gt-norm fst(s): PASSES: 8416 / FAILS: 1665 / TOTAL: 10081
+gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
+
+
 ```
 
 
@@ -136,7 +141,7 @@ cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokenis
 
 ### Lemma not in Mansi - Hungarian dictionary:
 
-321012: 1193
-321116: 1178
+231012: 1193
+231116: 1178
 
 
