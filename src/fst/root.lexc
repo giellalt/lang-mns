@@ -564,11 +564,13 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @U.VPref.jot@ !!≈ * @CODE@
 @U.VPref.kon@ !!≈ * @CODE@
 @U.VPref.konalj@ !!≈ * @CODE@
+@U.VPref.konyl@ !!≈ * @CODE@
 @U.VPref.laakkwa@ !!≈ * @CODE@
 @U.VPref.lap@ !!≈ * @CODE@
 @U.VPref.ljaaljt@ !!≈ * @CODE@
 @U.VPref.naaluw@ !!≈ * @CODE@
 @U.VPref.noox@ !!≈ * @CODE@
+@U.VPref.nox@ !!≈ * @CODE@
 @U.VPref.paag@ !!≈ * @CODE@
 @U.VPref.paalyg@ !!≈ * @CODE@
 @U.VPref.pooxan@ !!≈ * @CODE@
@@ -577,6 +579,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @U.VPref.supyg@ !!≈ * @CODE@
 @U.VPref.taara@ !!≈ * @CODE@
 @U.VPref.tuw@ !!≈ * @CODE@
+@U.VPref.tyg@ !!≈ * @CODE@
 @U.VPref.xomi@ !!≈ * @CODE@
 @U.VPref.xot@ !!≈ * @CODE@
 @U.VPref.xoot@ !!≈ * @CODE@
@@ -591,11 +594,13 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @R.VPref.jot@ !!≈ * @CODE@
 @R.VPref.kon@ !!≈ * @CODE@
 @R.VPref.konalj@ !!≈ * @CODE@
+@R.VPref.konyl@ !!≈ * @CODE@
 @R.VPref.laakkwa@ !!≈ * @CODE@
 @R.VPref.lap@ !!≈ * @CODE@
 @R.VPref.ljaaljt@ !!≈ * @CODE@
 @R.VPref.naaluw@ !!≈ * @CODE@
 @R.VPref.noox@ !!≈ * @CODE@
+@R.VPref.nox@ !!≈ * @CODE@
 @R.VPref.paag@ !!≈ * @CODE@
 @R.VPref.paalyg@ !!≈ * @CODE@
 @R.VPref.pooxan@ !!≈ * @CODE@
@@ -604,6 +609,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 @R.VPref.supyg@ !!≈ * @CODE@
 @R.VPref.taara@ !!≈ * @CODE@
 @R.VPref.tuw@ !!≈ * @CODE@
+@R.VPref.tyg@ !!≈ * @CODE@
 @R.VPref.xomi@ !!≈ * @CODE@
 @R.VPref.xot@ !!≈ * @CODE@
 @R.VPref.xoot@ !!≈ * @CODE@
