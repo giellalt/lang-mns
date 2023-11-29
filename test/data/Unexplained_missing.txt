@@ -1,11 +1,11 @@
-1. те, ке ~ ти, ки alternation
+1. ки–>ти ке–>те alternation
 
 2. Diminutive suffix on nouns
 
 Diminutive suffix forms: кве, ке, те
 It comes right after the stem, it can be followed by personal suffixes, than case endings
 
-ма̄тем: ма̄+diminutive suffix+PxSg1
+ма̄тем: ма̄+N+Der+Der/Dimin+N+Sg+Nom+PxSg1
 ма̄те̄в: ма̄+diminutive suffix+PxPl1
 нё̄ртем: нё̄р+diminutive suffix+PxSg1
 во̄ртем: во̄р+diminutive suffix+PxSg1
@@ -26,17 +26,17 @@ It comes right after the stem, it can be followed by personal suffixes, than cas
 ща̄наге-а̄щаге
 Ане̄квагын-а̄що̄йкагын
 о̄лэ̄гыт-хӯлэ̄гыт
-о̄лнэ-хӯлнэ
-тэ̄нэ-айнэ
-тэ̄н-айнут
 войканыг-сэ̄млыг
 Хулахыг-саквалякыг
+тэ̄н-айнут
+о̄лнэ-хӯлнэ
+тэ̄нэ-айнэ
 тыналахтан-ва̄талахтан
 
 4. Comparison
 ре̄гыӈнувыг: comparative+trsl form of ре̄гыӈ
+ре̄гыӈ+A+Der+Der/Comp+A+Sg+Tra
 хосанувыг: comparative+trsl form of хоса
-хосанувыг
 ащирмаӈнуве̄г
 хорамыӈнувег
 мо̄тсырнуве̄г
@@ -46,11 +46,8 @@ It comes right after the stem, it can be followed by personal suffixes, than cas
 хумна: this can be a dialectal form of хумн. I'd like to have it accepted, but not generated.
 пуӈкумна: пуӈк+PxSg1+lat 
 Ханты-Мансийскат: apparently the city name can have a similar variant as well
-сэ̄млыг: translative form of сэ̄мыл "black", it's a syncopating stem
-пумщыг
 то̄рмув
 о̄тырен, о̄тыре: it is not a syncopating stem
-атпаг: that is the translative form of the adjective атуп, which is derived from the noun ат 'hair'
 областьт: locative of область, appears almost as often as областит 
 тӯрытын: can be тӯрытын as well as тӯрытн
 суссылтапытын
@@ -59,8 +56,12 @@ It comes right after the stem, it can be followed by personal suffixes, than cas
 фруктыт
 конференциятын
 павлытн
+сэ̄млыг: translative form of сэ̄мыл "black", it's a syncopating stem
+пумщыг
+атпаг: that is the translative form of the adjective атуп, which is derived from the noun ат 'hair'
 писалил 
-питьмийыг: doesn't look good, but I found a similar example in the corpus
+питьмийыг: doesn't look correct, but I found a similar example in the corpus
+! музей музейт:музей-Sg-Loc, музеит:музей-Pl-Nom
 
 6. Exceptional adjectives
 нё̄тнэ̄г: the э in adjectives ending in нэ can become э̄ before transitive г
@@ -69,7 +70,8 @@ It comes right after the stem, it can be followed by personal suffixes, than cas
 
 
 7. Ordinals
-ловит
+лов+ит
+лов+Num+Der+Der/Ord+A+Sg+Nom
 хотыт
 
 8. Correct forms, still not working
@@ -84,8 +86,9 @@ It comes right after the stem, it can be followed by personal suffixes, than cas
 
 10. а̄тимыг е̄мтуӈкве
 
+11 та̄л
 
-11. I don't know what to do with these
+12. I don't know what to do with these
 
 DVD
 кг
