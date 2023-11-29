@@ -323,7 +323,7 @@ LEXICON PROP_MANSINAMES
 Федя+N+Prop:Федя N_VO ; 
 Мерова+N+Prop:Мерова N_VO ;
 Кущма+N+Prop:Кущма N_VO ;
-Алгадьева+N+Prop/Plc:Алгадьева N_VO ;
+Алгадьева+N+Sem/Plc:Алгадьева N_VO ;
 Аграфена+N+Prop:Аграфена N_VO ;
 Сопочина+N+Prop:Сопочина N_VO ; 
 Адыгея+N+Prop:Адыгея N_VO ;
