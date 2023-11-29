@@ -22,11 +22,13 @@ LEXICON PO_ABL_paalnyl
 +Err/Orth+Abl:па̄лныл K ;
 +Err/Orth+Abl:палныл K ;
 +Err/Orth+Abl:%-палныл K ;
-LEXICON PO_LAT_paalyn
-+Lat:%-па̄лын K ;
-+Err/Orth+Lat:па̄лын K ;
-+Err/Orth+Lat:палын K ;
-+Err/Orth+Lat:%-палын K ;
+
+!LEXICON PO_LAT_paalyn
+!+Lat:%-па̄лын K ;
+!+Err/Orth+Lat:па̄лын K ;
+!+Err/Orth+Lat:палын K ;
+!+Err/Orth+Lat:%-палын K ;
+
 LEXICON PO_LOC_paalt
 +Loc:%-па̄лт K ;
 +Err/Orth+Loc:па̄лт K ;

@@ -8,17 +8,17 @@ LEXICON ADV_
 :        #   ;
 +Der+Der/Comp:%>нув        #   ;
 
-LEXICON ADV_ABL
-+Abl: K ;
+!LEXICON ADV_ABL
+!+Abl: K ;
 
 LEXICON ADV_DEG
 +Deg: K ;
 
-LEXICON ADV_LAT
-+Lat: K ;
+!LEXICON ADV_LAT
+!+Lat: K ;
 
-LEXICON ADV_LOC
-+Loc: K ;
+!LEXICON ADV_LOC
+!+Loc: K ;
 
 LEXICON ADV_AUX
 !! **LEXICON @LEXNAME@** gets +Aux tag
