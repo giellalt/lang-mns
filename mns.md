@@ -1523,11 +1523,13 @@ problematic
 * @U.VPref.jot@
 * @U.VPref.kon@
 * @U.VPref.konalj@
+* @U.VPref.konyl@
 * @U.VPref.laakkwa@
 * @U.VPref.lap@
 * @U.VPref.ljaaljt@
 * @U.VPref.naaluw@
 * @U.VPref.noox@
+* @U.VPref.nox@
 * @U.VPref.paag@
 * @U.VPref.paalyg@
 * @U.VPref.pooxan@
@@ -1536,6 +1538,7 @@ problematic
 * @U.VPref.supyg@
 * @U.VPref.taara@
 * @U.VPref.tuw@
+* @U.VPref.tyg@
 * @U.VPref.xomi@
 * @U.VPref.xot@
 * @U.VPref.xoot@
@@ -1550,11 +1553,13 @@ problematic
 * @R.VPref.jot@
 * @R.VPref.kon@
 * @R.VPref.konalj@
+* @R.VPref.konyl@
 * @R.VPref.laakkwa@
 * @R.VPref.lap@
 * @R.VPref.ljaaljt@
 * @R.VPref.naaluw@
 * @R.VPref.noox@
+* @R.VPref.nox@
 * @R.VPref.paag@
 * @R.VPref.paalyg@
 * @R.VPref.pooxan@
@@ -1563,6 +1568,7 @@ problematic
 * @R.VPref.supyg@
 * @R.VPref.taara@
 * @R.VPref.tuw@
+* @R.VPref.tyg@
 * @R.VPref.xomi@
 * @R.VPref.xot@
 * @R.VPref.xoot@
