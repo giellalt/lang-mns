@@ -1,2 +1,2 @@
-#htse:hts	1
+#error:correct<tab>value
 на:н	1
