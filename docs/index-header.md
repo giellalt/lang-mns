@@ -50,6 +50,7 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
  ◊  [12.10.](meetings/231012.md)
  ◊  [17.11.](meetings/231117.md)
  ◊  [29.11.](meetings/231129.md)
+ ◊  [12.12.](meetings/231212.md)
 
 # In-source documentation
 
