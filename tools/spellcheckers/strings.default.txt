@@ -1,4 +1,7 @@
 # Add your error:correct string pairs here (not complete words, they have
 # a separate file), followed by TAB and the weight for the edit operation:
-#øø:öö	0.2
-#ää:ææ	0.2
+сь:щ	1
+ти:ки	2
+тӣ:кӣ	2
+те:ке	2
+те̄:ке̄	2
