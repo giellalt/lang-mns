@@ -367,3 +367,5 @@ LEXICON PROP_MANSINAMES
 Швейцария+N:Швейцария N_VO ;
 Танил+N+Prop:Танил N_VCH ;
 Ка̄тя+N+Prop:Ка̄тя N_VO ; 
+Змановский+N+Prop:Змановский N_VCS ;
+Сомбатхей+N+Prop:Сомбатхей N_VCS ;
