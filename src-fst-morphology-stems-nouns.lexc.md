@@ -53,7 +53,7 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 

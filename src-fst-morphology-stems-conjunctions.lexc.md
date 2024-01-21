@@ -14,7 +14,7 @@ so far only 3 of them. Is is important that we distinguish CC from CS
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/conjunctions.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/stems/conjunctions.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/conjunctions.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/conjunctions.lexc)</small>
 
 ---
 
