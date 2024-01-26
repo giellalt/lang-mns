@@ -20,5 +20,11 @@ LEXICON Interjections
 атхунь+Interj:атхунь INTERJ_ "конечно" ;
 ущ+Interj:ущ INTERJ_ "уже" ;
 щаль+Interj:щаль INTERJ_ "жаль" ;
-пӯмащипа+Interj:та INTERJ_ ;
-я-ты+Interj:та INTERJ_ ;
+пӯмащипа+Interj:пӯмащипа INTERJ_ ;
+я-ты+Interj:я-ты INTERJ_ ;
+
+насаки+Interj:насаки INTERJ_ ;
+мо̄тынтыг+Interj:мо̄тынтыг INTERJ_  "next time" ; 
+аквтупмат+Interj:аквтупмат INTERJ_  "apparently" ; 
+аквтуп+Interj:аквтуп INTERJ_  "будто, словно" ;
+аквтоп+Interj:аквтоп INTERJ_  "будто, словно" ;
