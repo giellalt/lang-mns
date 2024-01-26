@@ -191,6 +191,11 @@ LEXICON personal
 манъяныт+Pron:манъяныт N_VCH "какой величины"; 
 манах+Pron:манах N_VCH "сколько";
 
+маткем+Pron:маткем N_VCH "";
+хумле+Pron:хумле N_VCH "как";
+матах+Pron:матах N_VCH "несколько";
+хумыс+Pron:хумыс N_VCH "как";
+
 
 LEXICON PERS_PRON_KI_OR_ZERO
  # ;
