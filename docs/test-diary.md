@@ -54,7 +54,7 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 Number of words (standing in `lang-mns`):
 
 ```
-cat test/data/Luima_Seripos_2013-2017.txt |\ 
+cat test/data/Luima_Seripos_2013-2017.txt |\
 hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
@@ -88,6 +88,7 @@ Coverage:
 - 231116: 1-(55607/709017) = 0.922
 - 231118: 1-(54215/709017) = 0.923
 - 231129: 1-(51190/708201) = 0.927
+- 240130: 1-(37942/708153) = 0.946
 
 
 
