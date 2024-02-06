@@ -386,7 +386,7 @@ Rules
 
 "%{уюØ%}:у"
 !! __@RULENAME@__
- %{уюØ%}:у <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: | [CnsSoft | CnsAlv| CnsNonAlv | р] %{VU%}: ]  %> _  ;
+ %{уюØ%}:у <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: | [CnsSoft | CnsAlv| CnsNonAlv | р] %{VU%}: ]  %> _  \[%^RmVow:] ;
     [ы:0|ы] щ %{SYNCS%}: %> _  Cns ; 
 ! Cns %> _  ;
 !! ща̄рыщ+N+Sg+Nom+PxSg1: __sea/meri__
@@ -395,7 +395,7 @@ Rules
 
 "%{уюØ%}:ю"
 !! __@RULENAME@__
-  %{уюØ%}:ю <=> [ %{VCCS%}:|%{VCS%}:|%{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  ;
+  %{уюØ%}:ю <=> [ %{VCCS%}:|%{VCS%}:|%{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  \[%^RmVow:] ;
                                    %{VI%}:  %> _  в ;
                        CnsAlv ь: %{SYNCS%}: %> _ Cns ; 
   ! [ и | ы | ь: ] %> _  ;
