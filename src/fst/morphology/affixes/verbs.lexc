@@ -338,6 +338,7 @@ LEXICON V_U
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
++PrfPrc:%{VU%}%>%{ЫИ%}%>м # ;!CheckMe diff tag
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 :%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
@@ -919,20 +920,20 @@ LEXICON PRSPRC_jingkve
 LEXICON PRFPRC
 +PrfPrc:%>м VERB_K ;
 !! the forms below here need studying. They are probably not what I labled them as20230521
-+PrfPrc+PxSg1:%>мум VERB_K ;!о̄лмум, а̄стумум, Ханищтахтамум
-+PrfPrc+PxSg2:%>мын VERB_K ;!ханищтахтамын
-+PrfPrc+PxSg3:%>ме VERB_K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
-+PrfPrc+PxDu1:%>мме̄н VERB_K ;!йимме̄н
-!+PrfPrc+PxDu1:%>муме̄н VERB_K ;!?о̄лмуме̄н
-+PrfPrc+PxDu2:%>мын VERB_K ;!?
-+PrfPrc+PxDu2:%>мы̄н VERB_K ;!?
-+PrfPrc+PxDu3:%>мег VERB_K ;!?
-+PrfPrc+PxDu3:%>ме̄г VERB_K ;!?
-+PrfPrc+PxPl1:%>мув VERB_K ;!о̄лмувт, о̄лмув, ханищтахтамув
-+PrfPrc+PxPl1:%>мӯв VERB_K ;!
-+PrfPrc+PxPl2:%>мын VERB_K ;!?
-+PrfPrc+PxPl2:%>мы̄н VERB_K ;!?
-+PrfPrc+PxPl3:%>мыт VERB_K ;!
++PrfPrc+PxSg1:%^RmVow%>мум VERB_K ;!о̄лмум, а̄стумум, Ханищтахтамум
++PrfPrc+PxSg2:%^RmVow%>мын VERB_K ;!ханищтахтамын
++PrfPrc+PxSg3:%^RmVow%>ме VERB_K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
++PrfPrc+PxDu1:%>мме̄н VERB_K ;!йимме̄н ?not applying vowel loss here 2024-02-06
+!+PrfPrc+PxDu1:%^RmVow%>муме̄н VERB_K ;!?о̄лмуме̄н
++PrfPrc+PxDu2:%^RmVow%>мын VERB_K ;!?
++PrfPrc+PxDu2:%^RmVow%>мы̄н VERB_K ;!?
++PrfPrc+PxDu3:%^RmVow%>мег VERB_K ;!?
++PrfPrc+PxDu3:%^RmVow%>ме̄г VERB_K ;!?
++PrfPrc+PxPl1:%^RmVow%>мув VERB_K ;!о̄лмувт, о̄лмув, ханищтахтамув
++PrfPrc+PxPl1:%^RmVow%>мӯв VERB_K ;!
++PrfPrc+PxPl2:%^RmVow%>мын VERB_K ;!?
++PrfPrc+PxPl2:%^RmVow%>мы̄н VERB_K ;!?
++PrfPrc+PxPl3:%^RmVow%>мыт VERB_K ;!
 
 LEXICON PRFPRC_teemanum
 +PrfPrc:%>м VERB_K ;
