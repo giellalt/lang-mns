@@ -3047,10 +3047,9 @@ LEXICON Verbs
 а̄лмтахтуӈкве+V:а̄лмтахт V_U2C "носить" ;
 нэ̄гылттахтуӈкве+V:нэ̄гылттахт V_U2C "показываться" ;
 
-! These should be prefixing verbs as well, but I didn't dare to adapt the system, I was afraid to make mistakes.
-ёт-о̄ньщуӈкве+V:ёт-о̄ньщ V_U2C "to have something with self" ;
-хот-патхатуӈкве+V:хот-патхат V_U "??" ; 
-но̄х-ёхтуӈкве+V:но̄х-ёхт V_U2C "??" ;
+@U.VPref.jot@ёт-о̄ньщуӈкве+V:@U.VPref.jot@о̄ньщ V_U2C "to have something with self" ;
+@U.VPref.xot@хот-патхатуӈкве+V:@U.VPref.патхат@пат V_U "отпасть//отняться" ;
+@U.VPref.noox@но̄х-ёхтуӈкве+V:@U.VPref.noox@ёхт V_U2C "" ;
 
 
 LEXICON Prefixing_verbs
