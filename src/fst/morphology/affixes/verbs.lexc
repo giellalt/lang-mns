@@ -267,8 +267,11 @@ LEXICON VINGKVE
 LEXICON MINUNGKVE
 :у INF ; !!≈ @CODE@
  PRSPRC ;
++PrsPrc:%{VU%}%>%{ыиØ%}%>н VERB_K ; !ханищтахтын
++PrsPrc:%>%{аяØ%}%>н VERB_K ; !ханищтахтан
 :%{VU%}%>%{ыиØ%} ACTIO ;
 :%>%{аяØ%} PRFPRC ;
+
 :%{VU%}%>%{ыиØ%} GER ;
 :%{VU%} ACT_IND_PRS_VU ;
 
