@@ -45,6 +45,9 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 8416 / FAILS: 1665 / TOTAL: 10081
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
+240208
+gt-norm fst(s): PASSES: 8394 / FAILS: 2078 / TOTAL: 10472
+gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
 ```
 
@@ -88,7 +91,8 @@ Coverage:
 - 231116: 1-(55607/709017) = 0.922
 - 231118: 1-(54215/709017) = 0.923
 - 231129: 1-(51190/708201) = 0.927
-- 240130: 1-(37942/708153) = 0.946
+- 240130: 1-(37942/708153) = 0.94642
+- 240208: 1-(37613/707757) = 0.94685
 
 
 
