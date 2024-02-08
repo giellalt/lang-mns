@@ -309,13 +309,13 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 %{VCCS%}	!!≈ __@CODE@__ Stem ending in soft consonant cluster
 %{VA%}	!!≈ __@CODE@__ -аӈкве verb
 %{VU%}	!!≈ __@CODE@__ -уӈкве verb
+%^RmVow	!!≈ __@CODE@__ Word-final vowel removal
 
 
 
 !%^PxDu2	!!≈ __@CODE@__
 !%^PxDu3	!!≈ __@CODE@__
 !%^PxPl2	!!≈ __@CODE@__
-!%^RmVow	!!≈ __@CODE@__ Word-final vowel removal
 !%^Syncope	!!≈ __@CODE@__ triggers syncope, no reason for special letters in the stem.
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
