@@ -845,6 +845,8 @@ LEXICON PASS_PRT
 +Pass+Ind+Prt+ScPl2:%>весын VERB_K ;
 +Pass+Ind+Prt+ScPl3:%>ве̄сыт VERB_K ;!Luima seripos
 +Pass+Ind+Prt+ScPl3+Err/Orth:%>весыт VERB_K ;!Only in Oppikirja 
++Pass+Ind+Prs+ScPl3+Err/Orth:%>вет VERB_K ;!This also exists 2024-02-08
+
 
 LEXICON PASS_COND
 +Pass+Cond+ScSg1:%>нувем VERB_K ;
