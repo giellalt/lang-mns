@@ -53,108 +53,108 @@ Tests:
     тотуӈкве+V+Imprt+ScSg2: тотэн
 
 
-    тотуӈкве+V+Ind+Prs+ScSg1+OcSg3: тотылум
-    тотуӈкве+V+Ind+Prs+ScSg2+OcSg3: тотылын
-    тотуӈкве+V+Ind+Prs+ScSg3+OcSg3: тотытэ
-#    тотуӈкве+V+Ind+Prs+ScDu1+OcSg3: x
-    тотуӈкве+V+Ind+Prs+ScDu2+OcSg3: тотылын
-    тотуӈкве+V+Ind+Prs+ScDu3+OcSg3: тотытэн
-    тотуӈкве+V+Ind+Prs+ScPl1+OcSg3: тотылӯв
-    тотуӈкве+V+Ind+Prs+ScPl2+OcSg3: тотылын
-    тотуӈкве+V+Ind+Prs+ScPl3+OcSg3: тотыяныл
+    тотуӈкве+V+Ind+Prs+ScSg1+OcSg: тотылум
+    тотуӈкве+V+Ind+Prs+ScSg2+OcSg: тотылын
+    тотуӈкве+V+Ind+Prs+ScSg3+OcSg: тотытэ
+#    тотуӈкве+V+Ind+Prs+ScDu1+OcSg: x
+    тотуӈкве+V+Ind+Prs+ScDu2+OcSg: тотылын
+    тотуӈкве+V+Ind+Prs+ScDu3+OcSg: тотытэн
+    тотуӈкве+V+Ind+Prs+ScPl1+OcSg: тотылӯв
+    тотуӈкве+V+Ind+Prs+ScPl2+OcSg: тотылын
+    тотуӈкве+V+Ind+Prs+ScPl3+OcSg: тотыяныл
 
-    тотуӈкве+V+Ind+Prs+ScSg1+OcDu3: тотыягум
-    тотуӈкве+V+Ind+Prs+ScSg2+OcDu3: тотыягын
-    тотуӈкве+V+Ind+Prs+ScSg3+OcDu3: тотыяге
-    тотуӈкве+V+Ind+Prs+ScDu1+OcDu3: тотыягмен
-    тотуӈкве+V+Ind+Prs+ScDu2+OcDu3: тотыягын
-    тотуӈкве+V+Ind+Prs+ScDu3+OcDu3: тотыяген
-    тотуӈкве+V+Ind+Prs+ScPl1+OcDu3: тотыягӯв
-    тотуӈкве+V+Ind+Prs+ScPl2+OcDu3: тотыягын
-    тотуӈкве+V+Ind+Prs+ScPl3+OcDu3: тотыяганыл
+    тотуӈкве+V+Ind+Prs+ScSg1+OcDu: тотыягум
+    тотуӈкве+V+Ind+Prs+ScSg2+OcDu: тотыягын
+    тотуӈкве+V+Ind+Prs+ScSg3+OcDu: тотыяге
+    тотуӈкве+V+Ind+Prs+ScDu1+OcDu: тотыягмен
+    тотуӈкве+V+Ind+Prs+ScDu2+OcDu: тотыягын
+    тотуӈкве+V+Ind+Prs+ScDu3+OcDu: тотыяген
+    тотуӈкве+V+Ind+Prs+ScPl1+OcDu: тотыягӯв
+    тотуӈкве+V+Ind+Prs+ScPl2+OcDu: тотыягын
+    тотуӈкве+V+Ind+Prs+ScPl3+OcDu: тотыяганыл
 
-    тотуӈкве+V+Ind+Prs+ScSg1+OcPl3: тотыянум
-    тотуӈкве+V+Ind+Prs+ScSg2+OcPl3: тотыян
-    тотуӈкве+V+Ind+Prs+ScSg3+OcPl3: тотыянэ
-#    тотуӈкве+V+Ind+Prs+ScDu1+OcPl3: xxx
-#    тотуӈкве+V+Ind+Prs+ScDu2+OcPl3: xxx
-    тотуӈкве+V+Ind+Prs+ScDu3+OcPl3: тотыянэн
-    тотуӈкве+V+Ind+Prs+ScPl1+OcPl3: тотыянӯв
-#    тотуӈкве+V+Ind+Prs+ScPl2+OcPl3: x
-    тотуӈкве+V+Ind+Prs+ScPl3+OcPl3: тотыяныл
+    тотуӈкве+V+Ind+Prs+ScSg1+OcPl: тотыянум
+    тотуӈкве+V+Ind+Prs+ScSg2+OcPl: тотыян
+    тотуӈкве+V+Ind+Prs+ScSg3+OcPl: тотыянэ
+#    тотуӈкве+V+Ind+Prs+ScDu1+OcPl: xxx
+#    тотуӈкве+V+Ind+Prs+ScDu2+OcPl: xxx
+    тотуӈкве+V+Ind+Prs+ScDu3+OcPl: тотыянэн
+    тотуӈкве+V+Ind+Prs+ScPl1+OcPl: тотыянӯв
+#    тотуӈкве+V+Ind+Prs+ScPl2+OcPl: x
+    тотуӈкве+V+Ind+Prs+ScPl3+OcPl: тотыяныл
 
-    тотуӈкве+V+Ind+Prt+ScSg1+OcSg3: тотыслум
-    тотуӈкве+V+Ind+Prt+ScSg2+OcSg3: тотыслын
-    тотуӈкве+V+Ind+Prt+ScSg3+OcSg3: тотыстэ
-    тотуӈкве+V+Ind+Prt+ScDu1+OcSg3: тотысламен
-    тотуӈкве+V+Ind+Prt+ScDu2+OcSg3: тотыслын
-    тотуӈкве+V+Ind+Prt+ScDu3+OcSg3: тотыстэн
-    тотуӈкве+V+Ind+Prt+ScPl1+OcSg3: тотыслув
-    тотуӈкве+V+Ind+Prt+ScPl2+OcSg3: тотыслын
-    тотуӈкве+V+Ind+Prt+ScPl3+OcSg3: тотсаныл
+    тотуӈкве+V+Ind+Prt+ScSg1+OcSg: тотыслум
+    тотуӈкве+V+Ind+Prt+ScSg2+OcSg: тотыслын
+    тотуӈкве+V+Ind+Prt+ScSg3+OcSg: тотыстэ
+    тотуӈкве+V+Ind+Prt+ScDu1+OcSg: тотысламен
+    тотуӈкве+V+Ind+Prt+ScDu2+OcSg: тотыслын
+    тотуӈкве+V+Ind+Prt+ScDu3+OcSg: тотыстэн
+    тотуӈкве+V+Ind+Prt+ScPl1+OcSg: тотыслув
+    тотуӈкве+V+Ind+Prt+ScPl2+OcSg: тотыслын
+    тотуӈкве+V+Ind+Prt+ScPl3+OcSg: тотсаныл
 
 
-    тотуӈкве+V+Ind+Prt+ScSg1+OcDu3: тотсагум
-    тотуӈкве+V+Ind+Prt+ScSg2+OcDu3: тотсагын
-    тотуӈкве+V+Ind+Prt+ScSg3+OcDu3: тотсаге
-    тотуӈкве+V+Ind+Prt+ScDu1+OcDu3: тотсагмен
-    тотуӈкве+V+Ind+Prt+ScDu2+OcDu3: тотсагын
-    тотуӈкве+V+Ind+Prt+ScDu3+OcDu3: тотсаген
-    тотуӈкве+V+Ind+Prt+ScPl1+OcDu3: тотсагув
-    тотуӈкве+V+Ind+Prt+ScPl2+OcDu3: тотсагын
-    тотуӈкве+V+Ind+Prt+ScPl3+OcDu3: [тотсаныл, тотсаганыл]
+    тотуӈкве+V+Ind+Prt+ScSg1+OcDu: тотсагум
+    тотуӈкве+V+Ind+Prt+ScSg2+OcDu: тотсагын
+    тотуӈкве+V+Ind+Prt+ScSg3+OcDu: тотсаге
+    тотуӈкве+V+Ind+Prt+ScDu1+OcDu: тотсагмен
+    тотуӈкве+V+Ind+Prt+ScDu2+OcDu: тотсагын
+    тотуӈкве+V+Ind+Prt+ScDu3+OcDu: тотсаген
+    тотуӈкве+V+Ind+Prt+ScPl1+OcDu: тотсагув
+    тотуӈкве+V+Ind+Prt+ScPl2+OcDu: тотсагын
+    тотуӈкве+V+Ind+Prt+ScPl3+OcDu: [тотсаныл, тотсаганыл]
 
-    тотуӈкве+V+Ind+Prt+ScSg1+OcPl3: тотсанум
-    тотуӈкве+V+Ind+Prt+ScSg2+OcPl3: тотсан
-    тотуӈкве+V+Ind+Prt+ScSg3+OcPl3: тотсанэ
-#    тотуӈкве+V+Ind+Prt+ScDu1+OcPl3: x
-#    тотуӈкве+V+Ind+Prt+ScDu2+OcPl3: x
-    тотуӈкве+V+Ind+Prt+ScDu3+OcPl3: тотсанэн
-    тотуӈкве+V+Ind+Prt+ScPl1+OcPl3: тотсанув
-#    тотуӈкве+V+Ind+Prt+ScPl2+OcPl3: x
-    тотуӈкве+V+Ind+Prt+ScPl3+OcPl3: тотсаныл
+    тотуӈкве+V+Ind+Prt+ScSg1+OcPl: тотсанум
+    тотуӈкве+V+Ind+Prt+ScSg2+OcPl: тотсан
+    тотуӈкве+V+Ind+Prt+ScSg3+OcPl: тотсанэ
+#    тотуӈкве+V+Ind+Prt+ScDu1+OcPl: x
+#    тотуӈкве+V+Ind+Prt+ScDu2+OcPl: x
+    тотуӈкве+V+Ind+Prt+ScDu3+OcPl: тотсанэн
+    тотуӈкве+V+Ind+Prt+ScPl1+OcPl: тотсанув
+#    тотуӈкве+V+Ind+Prt+ScPl2+OcPl: x
+    тотуӈкве+V+Ind+Prt+ScPl3+OcPl: тотсаныл
 
-    тотуӈкве+V+Cond+Prs+ScSg1+OcSg3: тотнувлум
-    тотуӈкве+V+Cond+Prs+ScSg2+OcSg3: тотнувлын
-    тотуӈкве+V+Cond+Prs+ScSg3+OcSg3: тотнувтэ
-    тотуӈкве+V+Cond+Prs+ScDu1+OcSg3: тотнувламен
-    тотуӈкве+V+Cond+Prs+ScDu2+OcSg3: тотнувлын
-#    тотуӈкве+V+Cond+Prs+ScDu3+OcSg3: x
-    тотуӈкве+V+Cond+Prs+ScPl1+OcSg3: тотнувлув
-    тотуӈкве+V+Cond+Prs+ScPl2+OcSg3: тотнувлын
-    тотуӈкве+V+Cond+Prs+ScPl3+OcSg3: тотнуваныл
+    тотуӈкве+V+Cond+Prs+ScSg1+OcSg: тотнувлум
+    тотуӈкве+V+Cond+Prs+ScSg2+OcSg: тотнувлын
+    тотуӈкве+V+Cond+Prs+ScSg3+OcSg: тотнувтэ
+    тотуӈкве+V+Cond+Prs+ScDu1+OcSg: тотнувламен
+    тотуӈкве+V+Cond+Prs+ScDu2+OcSg: тотнувлын
+#    тотуӈкве+V+Cond+Prs+ScDu3+OcSg: x
+    тотуӈкве+V+Cond+Prs+ScPl1+OcSg: тотнувлув
+    тотуӈкве+V+Cond+Prs+ScPl2+OcSg: тотнувлын
+    тотуӈкве+V+Cond+Prs+ScPl3+OcSg: тотнуваныл
 
-    тотуӈкве+V+Cond+Prs+ScSg1+OcDu3: тотнувагум
-    тотуӈкве+V+Cond+Prs+ScSg2+OcDu3: тотнувагын
-    тотуӈкве+V+Cond+Prs+ScSg3+OcDu3: тотнуваге
-    тотуӈкве+V+Cond+Prs+ScDu1+OcDu3: тотнувагмен
-    тотуӈкве+V+Cond+Prs+ScDu2+OcDu3: тотнувагын
-    тотуӈкве+V+Cond+Prs+ScDu3+OcDu3: тотнуваген
-#    тотуӈкве+V+Cond+Prs+ScPl1+OcDu3: x
-    тотуӈкве+V+Cond+Prs+ScPl2+OcDu3: тотнувагын
-#    тотуӈкве+V+Cond+Prs+ScPl3+OcDu3: x
+    тотуӈкве+V+Cond+Prs+ScSg1+OcDu: тотнувагум
+    тотуӈкве+V+Cond+Prs+ScSg2+OcDu: тотнувагын
+    тотуӈкве+V+Cond+Prs+ScSg3+OcDu: тотнуваге
+    тотуӈкве+V+Cond+Prs+ScDu1+OcDu: тотнувагмен
+    тотуӈкве+V+Cond+Prs+ScDu2+OcDu: тотнувагын
+    тотуӈкве+V+Cond+Prs+ScDu3+OcDu: тотнуваген
+#    тотуӈкве+V+Cond+Prs+ScPl1+OcDu: x
+    тотуӈкве+V+Cond+Prs+ScPl2+OcDu: тотнувагын
+#    тотуӈкве+V+Cond+Prs+ScPl3+OcDu: x
 
-    тотуӈкве+V+Cond+Prs+ScSg1+OcPl3: тотнуванум
-    тотуӈкве+V+Cond+Prs+ScSg2+OcPl3: тотнуванын
-    тотуӈкве+V+Cond+Prs+ScSg3+OcPl3: тотнуванэ
-    тотуӈкве+V+Cond+Prs+ScDu1+OcPl3: тотнуванмен
-    тотуӈкве+V+Cond+Prs+ScDu2+OcPl3: тотнуванын
-    тотуӈкве+V+Cond+Prs+ScDu3+OcPl3: тотнуванэн
-    тотуӈкве+V+Cond+Prs+ScPl1+OcPl3: тотнуванув
-    тотуӈкве+V+Cond+Prs+ScPl2+OcPl3: тотнуванын
-    тотуӈкве+V+Cond+Prs+ScPl3+OcPl3: тотнуваныл
+    тотуӈкве+V+Cond+Prs+ScSg1+OcPl: тотнуванум
+    тотуӈкве+V+Cond+Prs+ScSg2+OcPl: тотнуванын
+    тотуӈкве+V+Cond+Prs+ScSg3+OcPl: тотнуванэ
+    тотуӈкве+V+Cond+Prs+ScDu1+OcPl: тотнуванмен
+    тотуӈкве+V+Cond+Prs+ScDu2+OcPl: тотнуванын
+    тотуӈкве+V+Cond+Prs+ScDu3+OcPl: тотнуванэн
+    тотуӈкве+V+Cond+Prs+ScPl1+OcPl: тотнуванув
+    тотуӈкве+V+Cond+Prs+ScPl2+OcPl: тотнуванын
+    тотуӈкве+V+Cond+Prs+ScPl3+OcPl: тотнуваныл
 
-    тотуӈкве+V+Imprt+ScSg2+OcSg3: тотэлн
-    тотуӈкве+V+Imprt+ScDu2+OcSg3: тотэлн
-    тотуӈкве+V+Imprt+ScPl2+OcSg3: тотэлн
+    тотуӈкве+V+Imprt+ScSg2+OcSg: тотэлн
+    тотуӈкве+V+Imprt+ScDu2+OcSg: тотэлн
+    тотуӈкве+V+Imprt+ScPl2+OcSg: тотэлн
 
-    тотуӈкве+V+Imprt+ScSg2+OcDu3: тотэгын
-    тотуӈкве+V+Imprt+ScDu2+OcDu3: тотэгын
-    тотуӈкве+V+Imprt+ScPl2+OcDu3: тотэгын
+    тотуӈкве+V+Imprt+ScSg2+OcDu: тотэгын
+    тотуӈкве+V+Imprt+ScDu2+OcDu: тотэгын
+    тотуӈкве+V+Imprt+ScPl2+OcDu: тотэгын
 
-    тотуӈкве+V+Imprt+ScSg2+OcPl3: тотэн
-    тотуӈкве+V+Imprt+ScDu2+OcPl3: тотэн
-    тотуӈкве+V+Imprt+ScPl2+OcPl3: тотэн
+    тотуӈкве+V+Imprt+ScSg2+OcPl: тотэн
+    тотуӈкве+V+Imprt+ScDu2+OcPl: тотэн
+    тотуӈкве+V+Imprt+ScPl2+OcPl: тотэн
 
     тотуӈкве+V+Pass+Prs+ScSg1: тотавем
     тотуӈкве+V+Pass+Prs+ScSg2: тотавен

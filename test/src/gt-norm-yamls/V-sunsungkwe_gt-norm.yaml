@@ -35,37 +35,37 @@ Tests:
     сунсуӈкве+V+Act+Ind+Prs+ScPl3: сунсэ̄гыт
 
 #Active, present tense, indicative, objective conjugation, single object
-    сунсуӈкве+V+Act+Ind+Prs+ScSg1+OcSg3: сунсылум
-    сунсуӈкве+V+Act+Ind+Prs+ScSg2+OcSg3: сунсылын
-    сунсуӈкве+V+Act+Ind+Prs+ScSg3+OcSg3: сунсытэ
-    сунсуӈкве+V+Act+Ind+Prs+ScDu1+OcSg3: сунсылуме̄н
-    сунсуӈкве+V+Act+Ind+Prs+ScDu2+OcSg3: [сунсылын, сунсылы̄н]
-    сунсуӈкве+V+Act+Ind+Prs+ScDu3+OcSg3: сунсытэ̄н
-    сунсуӈкве+V+Act+Ind+Prs+ScPl1+OcSg3: [сунсылув, сунсылӯв]
-    сунсуӈкве+V+Act+Ind+Prs+ScPl2+OcSg3: [сунсылын, сунсылы̄н]
-    сунсуӈкве+V+Act+Ind+Prs+ScPl3+OcSg3: сунсыяныл
+    сунсуӈкве+V+Act+Ind+Prs+ScSg1+OcSg: сунсылум
+    сунсуӈкве+V+Act+Ind+Prs+ScSg2+OcSg: сунсылын
+    сунсуӈкве+V+Act+Ind+Prs+ScSg3+OcSg: сунсытэ
+    сунсуӈкве+V+Act+Ind+Prs+ScDu1+OcSg: сунсылуме̄н
+    сунсуӈкве+V+Act+Ind+Prs+ScDu2+OcSg: [сунсылын, сунсылы̄н]
+    сунсуӈкве+V+Act+Ind+Prs+ScDu3+OcSg: сунсытэ̄н
+    сунсуӈкве+V+Act+Ind+Prs+ScPl1+OcSg: [сунсылув, сунсылӯв]
+    сунсуӈкве+V+Act+Ind+Prs+ScPl2+OcSg: [сунсылын, сунсылы̄н]
+    сунсуӈкве+V+Act+Ind+Prs+ScPl3+OcSg: сунсыяныл
 
 #Active, present tense, indicative, objective conjugation, dual object
-    сунсуӈкве+V+Act+Ind+Prs+ScSg1+OcDu3: сунсыягум
-    сунсуӈкве+V+Act+Ind+Prs+ScSg2+OcDu3: сунсыягын
-    сунсуӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: сунсыяге
-    сунсуӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: сунсыягме̄н
-    сунсуӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [сунсыягын, сунсыягы̄н]
-    сунсуӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: сунсыяге̄н
-    сунсуӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: [сунсыягув, сунсыягӯв]
-    сунсуӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [сунсыягын, сунсыягы̄н]
-    сунсуӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: сунсыяганыл
+    сунсуӈкве+V+Act+Ind+Prs+ScSg1+OcDu: сунсыягум
+    сунсуӈкве+V+Act+Ind+Prs+ScSg2+OcDu: сунсыягын
+    сунсуӈкве+V+Act+Ind+Prs+ScSg3+OcDu: сунсыяге
+    сунсуӈкве+V+Act+Ind+Prs+ScDu1+OcDu: сунсыягме̄н
+    сунсуӈкве+V+Act+Ind+Prs+ScDu2+OcDu: [сунсыягын, сунсыягы̄н]
+    сунсуӈкве+V+Act+Ind+Prs+ScDu3+OcDu: сунсыяге̄н
+    сунсуӈкве+V+Act+Ind+Prs+ScPl1+OcDu: [сунсыягув, сунсыягӯв]
+    сунсуӈкве+V+Act+Ind+Prs+ScPl2+OcDu: [сунсыягын, сунсыягы̄н]
+    сунсуӈкве+V+Act+Ind+Prs+ScPl3+OcDu: сунсыяганыл
 
 #Active, present tense, indicative, objective conjugation, plural object
-    сунсуӈкве+V+Act+Ind+Prs+ScSg1+OcPl3: сунсыянум
-    сунсуӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [сунсыянын, сунсыян]
-    сунсуӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: сунсыянэ
-    сунсуӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: сунсыянаме̄н
-    сунсуӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [сунсыянын, сунсыяны̄н, сунсыян]
-    сунсуӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: сунсыянэ̄н
-    сунсуӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: [сунсыянув, сунсыянӯв]
-    сунсуӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [сунсыянын, сунсыяны̄н, сунсыян]
-    сунсуӈкве+V+Act+Ind+Prs+ScPl3+OcPl3: сунсыяныл
+    сунсуӈкве+V+Act+Ind+Prs+ScSg1+OcPl: сунсыянум
+    сунсуӈкве+V+Act+Ind+Prs+ScSg2+OcPl: [сунсыянын, сунсыян]
+    сунсуӈкве+V+Act+Ind+Prs+ScSg3+OcPl: сунсыянэ
+    сунсуӈкве+V+Act+Ind+Prs+ScDu1+OcPl: сунсыянаме̄н
+    сунсуӈкве+V+Act+Ind+Prs+ScDu2+OcPl: [сунсыянын, сунсыяны̄н, сунсыян]
+    сунсуӈкве+V+Act+Ind+Prs+ScDu3+OcPl: сунсыянэ̄н
+    сунсуӈкве+V+Act+Ind+Prs+ScPl1+OcPl: [сунсыянув, сунсыянӯв]
+    сунсуӈкве+V+Act+Ind+Prs+ScPl2+OcPl: [сунсыянын, сунсыяны̄н, сунсыян]
+    сунсуӈкве+V+Act+Ind+Prs+ScPl3+OcPl: сунсыяныл
 
 #Active, past tense, indicative, subjective conjugation
     сунсуӈкве+V+Act+Ind+Prt+ScSg1: суссум
@@ -79,37 +79,37 @@ Tests:
     сунсуӈкве+V+Act+Ind+Prt+ScPl3: суссыт
 
 #Active, past tense, indicative, objective conjugation, single object
-    сунсуӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: сунсыслум
-    сунсуӈкве+V+Act+Ind+Prt+ScSg2+OcSg3: сунсыслын
-    сунсуӈкве+V+Act+Ind+Prt+ScSg3+OcSg3: сунсыстэ
-    сунсуӈкве+V+Act+Ind+Prt+ScDu1+OcSg3: сунсысламе̄н
-    сунсуӈкве+V+Act+Ind+Prt+ScDu2+OcSg3: [сунсыслын, сунсыслы̄н]
-    сунсуӈкве+V+Act+Ind+Prt+ScDu3+OcSg3: сунсыстэ̄н
-    сунсуӈкве+V+Act+Ind+Prt+ScPl1+OcSg3: [сунсыслув, сунсыслӯв]
-    сунсуӈкве+V+Act+Ind+Prt+ScPl2+OcSg3: [сунсыслын, сунсыслы̄н]
-    сунсуӈкве+V+Act+Ind+Prt+ScPl3+OcSg3: суссаныл
+    сунсуӈкве+V+Act+Ind+Prt+ScSg1+OcSg: сунсыслум
+    сунсуӈкве+V+Act+Ind+Prt+ScSg2+OcSg: сунсыслын
+    сунсуӈкве+V+Act+Ind+Prt+ScSg3+OcSg: сунсыстэ
+    сунсуӈкве+V+Act+Ind+Prt+ScDu1+OcSg: сунсысламе̄н
+    сунсуӈкве+V+Act+Ind+Prt+ScDu2+OcSg: [сунсыслын, сунсыслы̄н]
+    сунсуӈкве+V+Act+Ind+Prt+ScDu3+OcSg: сунсыстэ̄н
+    сунсуӈкве+V+Act+Ind+Prt+ScPl1+OcSg: [сунсыслув, сунсыслӯв]
+    сунсуӈкве+V+Act+Ind+Prt+ScPl2+OcSg: [сунсыслын, сунсыслы̄н]
+    сунсуӈкве+V+Act+Ind+Prt+ScPl3+OcSg: суссаныл
 
 #Active, past tense, indicative, objective conjugation, dual object
-    сунсуӈкве+V+Act+Ind+Prt+ScSg1+OcDu3: суссагум
-    сунсуӈкве+V+Act+Ind+Prt+ScSg2+OcDu3: суссагын
-    сунсуӈкве+V+Act+Ind+Prt+ScSg3+OcDu3: суссаге
-    сунсуӈкве+V+Act+Ind+Prt+ScDu1+OcDu3: суссагме̄н
-    сунсуӈкве+V+Act+Ind+Prt+ScDu2+OcDu3: [суссагын, суссагы̄н]
-    сунсуӈкве+V+Act+Ind+Prt+ScDu3+OcDu3: суссаге̄н
-    сунсуӈкве+V+Act+Ind+Prt+ScPl1+OcDu3: [суссагув, суссагӯв]
-    сунсуӈкве+V+Act+Ind+Prt+ScPl2+OcDu3: [суссагын, суссагы̄н]
-    сунсуӈкве+V+Act+Ind+Prt+ScPl3+OcDu3: суссаганыл
+    сунсуӈкве+V+Act+Ind+Prt+ScSg1+OcDu: суссагум
+    сунсуӈкве+V+Act+Ind+Prt+ScSg2+OcDu: суссагын
+    сунсуӈкве+V+Act+Ind+Prt+ScSg3+OcDu: суссаге
+    сунсуӈкве+V+Act+Ind+Prt+ScDu1+OcDu: суссагме̄н
+    сунсуӈкве+V+Act+Ind+Prt+ScDu2+OcDu: [суссагын, суссагы̄н]
+    сунсуӈкве+V+Act+Ind+Prt+ScDu3+OcDu: суссаге̄н
+    сунсуӈкве+V+Act+Ind+Prt+ScPl1+OcDu: [суссагув, суссагӯв]
+    сунсуӈкве+V+Act+Ind+Prt+ScPl2+OcDu: [суссагын, суссагы̄н]
+    сунсуӈкве+V+Act+Ind+Prt+ScPl3+OcDu: суссаганыл
 
 #Active, past tense, indicative, objective conjugation, plural object
-    сунсуӈкве+V+Act+Ind+Prt+ScSg1+OcPl3: суссанум
-    сунсуӈкве+V+Act+Ind+Prt+ScSg2+OcPl3: [суссанын, суссан]
-    сунсуӈкве+V+Act+Ind+Prt+ScSg3+OcPl3: суссанэ
-    сунсуӈкве+V+Act+Ind+Prt+ScDu1+OcPl3: [суссанаме̄н, суссанаме̄н, суссанме̄н]
-    сунсуӈкве+V+Act+Ind+Prt+ScDu2+OcPl3: [суссанын, суссаны̄н, суссан]
-    сунсуӈкве+V+Act+Ind+Prt+ScDu3+OcPl3: суссанэ̄н
-    сунсуӈкве+V+Act+Ind+Prt+ScPl1+OcPl3: [суссанув, суссанӯв]
-    сунсуӈкве+V+Act+Ind+Prt+ScPl2+OcPl3: [суссанын, суссаны̄н, суссан]
-    сунсуӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: сунссаныл
+    сунсуӈкве+V+Act+Ind+Prt+ScSg1+OcPl: суссанум
+    сунсуӈкве+V+Act+Ind+Prt+ScSg2+OcPl: [суссанын, суссан]
+    сунсуӈкве+V+Act+Ind+Prt+ScSg3+OcPl: суссанэ
+    сунсуӈкве+V+Act+Ind+Prt+ScDu1+OcPl: [суссанаме̄н, суссанаме̄н, суссанме̄н]
+    сунсуӈкве+V+Act+Ind+Prt+ScDu2+OcPl: [суссанын, суссаны̄н, суссан]
+    сунсуӈкве+V+Act+Ind+Prt+ScDu3+OcPl: суссанэ̄н
+    сунсуӈкве+V+Act+Ind+Prt+ScPl1+OcPl: [суссанув, суссанӯв]
+    сунсуӈкве+V+Act+Ind+Prt+ScPl2+OcPl: [суссанын, суссаны̄н, суссан]
+    сунсуӈкве+V+Act+Ind+Prt+ScPl3+OcPl: сунссаныл
 
 #Active, conditional, subjective conjugation
     сунсуӈкве+V+Act+Cond+ScSg1: [суснувум, суснӯвум]
@@ -123,37 +123,37 @@ Tests:
     сунсуӈкве+V+Act+Cond+ScPl3: [суснувыт, суснӯвыт]
 
 #Active, conditional, objective conjugation, single object
-    сунсуӈкве+V+Act+Cond+ScSg1+OcSg3: [суснувлум, суснӯвлум]
-    сунсуӈкве+V+Act+Cond+ScSg2+OcSg3: [суснувлын, суснӯвлын]
-    сунсуӈкве+V+Act+Cond+ScSg3+OcSg3: [суснувтэ, суснӯвтэ]
-    сунсуӈкве+V+Act+Cond+ScDu1+OcSg3: суснувламе̄н
-    сунсуӈкве+V+Act+Cond+ScDu2+OcSg3: [суснувлын, суснувлы̄н]
-    сунсуӈкве+V+Act+Cond+ScDu3+OcSg3: суснувтэ̄н
-    сунсуӈкве+V+Act+Cond+ScPl1+OcSg3: суснувлув
-    сунсуӈкве+V+Act+Cond+ScPl2+OcSg3: [суснувлын, суснувлы̄н]
-    сунсуӈкве+V+Act+Cond+ScPl3+OcSg3: [суснуваныл, суснува̄ныл]
+    сунсуӈкве+V+Act+Cond+ScSg1+OcSg: [суснувлум, суснӯвлум]
+    сунсуӈкве+V+Act+Cond+ScSg2+OcSg: [суснувлын, суснӯвлын]
+    сунсуӈкве+V+Act+Cond+ScSg3+OcSg: [суснувтэ, суснӯвтэ]
+    сунсуӈкве+V+Act+Cond+ScDu1+OcSg: суснувламе̄н
+    сунсуӈкве+V+Act+Cond+ScDu2+OcSg: [суснувлын, суснувлы̄н]
+    сунсуӈкве+V+Act+Cond+ScDu3+OcSg: суснувтэ̄н
+    сунсуӈкве+V+Act+Cond+ScPl1+OcSg: суснувлув
+    сунсуӈкве+V+Act+Cond+ScPl2+OcSg: [суснувлын, суснувлы̄н]
+    сунсуӈкве+V+Act+Cond+ScPl3+OcSg: [суснуваныл, суснува̄ныл]
 
 #Active, conditional, objective conjugation, dual object
-    сунсуӈкве+V+Act+Cond+ScSg1+OcDu3: [суснувагум, суснува̄гум]
-    сунсуӈкве+V+Act+Cond+ScSg2+OcDu3: [суснувагын, суснува̄гын]
-    сунсуӈкве+V+Act+Cond+ScSg3+OcDu3: [суснуваге, суснува̄ге]
-    сунсуӈкве+V+Act+Cond+ScDu1+OcDu3: суснувагме̄н
-    сунсуӈкве+V+Act+Cond+ScDu2+OcDu3: [суснувагын, суснувагы̄н]
-    сунсуӈкве+V+Act+Cond+ScDu3+OcDu3: суснуваге̄н
-    сунсуӈкве+V+Act+Cond+ScPl1+OcDu3: суснувагув
-    сунсуӈкве+V+Act+Cond+ScPl2+OcDu3: [суснувагын, суснувагы̄н]
-    сунсуӈкве+V+Act+Cond+ScPl3+OcDu3: [суснуваганыл, суснувага̄ныл]
+    сунсуӈкве+V+Act+Cond+ScSg1+OcDu: [суснувагум, суснува̄гум]
+    сунсуӈкве+V+Act+Cond+ScSg2+OcDu: [суснувагын, суснува̄гын]
+    сунсуӈкве+V+Act+Cond+ScSg3+OcDu: [суснуваге, суснува̄ге]
+    сунсуӈкве+V+Act+Cond+ScDu1+OcDu: суснувагме̄н
+    сунсуӈкве+V+Act+Cond+ScDu2+OcDu: [суснувагын, суснувагы̄н]
+    сунсуӈкве+V+Act+Cond+ScDu3+OcDu: суснуваге̄н
+    сунсуӈкве+V+Act+Cond+ScPl1+OcDu: суснувагув
+    сунсуӈкве+V+Act+Cond+ScPl2+OcDu: [суснувагын, суснувагы̄н]
+    сунсуӈкве+V+Act+Cond+ScPl3+OcDu: [суснуваганыл, суснувага̄ныл]
 
 #Active, conditional, objective conjugation, plural object
-    сунсуӈкве+V+Act+Cond+ScSg1+OcPl3: [суснуванум, суснува̄нум]
-    сунсуӈкве+V+Act+Cond+ScSg2+OcPl3: [суснуванын, суснува̄нын]
-    сунсуӈкве+V+Act+Cond+ScSg3+OcPl3: [суснуванэ, суснува̄нэ]
-    сунсуӈкве+V+Act+Cond+ScDu1+OcPl3: суснуванме̄н
-    сунсуӈкве+V+Act+Cond+ScDu2+OcPl3: [суснуванын, суснуваны̄н]
-    сунсуӈкве+V+Act+Cond+ScDu3+OcPl3: суснуванэ̄н
-    сунсуӈкве+V+Act+Cond+ScPl1+OcPl3: [суснуванув, суснуванӯв]
-    сунсуӈкве+V+Act+Cond+ScPl2+OcPl3: [суснуванын, суснуваны̄н]
-    сунсуӈкве+V+Act+Cond+ScPl3+OcPl3: [суснуваныл, снснува̄ныл]
+    сунсуӈкве+V+Act+Cond+ScSg1+OcPl: [суснуванум, суснува̄нум]
+    сунсуӈкве+V+Act+Cond+ScSg2+OcPl: [суснуванын, суснува̄нын]
+    сунсуӈкве+V+Act+Cond+ScSg3+OcPl: [суснуванэ, суснува̄нэ]
+    сунсуӈкве+V+Act+Cond+ScDu1+OcPl: суснуванме̄н
+    сунсуӈкве+V+Act+Cond+ScDu2+OcPl: [суснуванын, суснуваны̄н]
+    сунсуӈкве+V+Act+Cond+ScDu3+OcPl: суснуванэ̄н
+    сунсуӈкве+V+Act+Cond+ScPl1+OcPl: [суснуванув, суснуванӯв]
+    сунсуӈкве+V+Act+Cond+ScPl2+OcPl: [суснуванын, суснуваны̄н]
+    сунсуӈкве+V+Act+Cond+ScPl3+OcPl: [суснуваныл, снснува̄ныл]
 
 #Active, imperative, subjective conjugation
     сунсуӈкве+V+Act+Imprt+ScSg2: сунсэн
@@ -161,19 +161,19 @@ Tests:
     сунсуӈкве+V+Act+Imprt+ScPl2: [сунсэн, сунсэ̄н]
 
 #Active, imperative,  objective conjugation, single object
-    сунсуӈкве+V+Act+Imprt+ScSg2+OcSg3: [сунсэлн, сунсэ̄лн]
-    сунсуӈкве+V+Act+Imprt+ScDu2+OcSg3: [сунсэлн, сунсэлы̄н]
-    сунсуӈкве+V+Act+Imprt+ScPl2+OcSg3: [сунсэлн, сунсэлы̄н]
+    сунсуӈкве+V+Act+Imprt+ScSg2+OcSg: [сунсэлн, сунсэ̄лн]
+    сунсуӈкве+V+Act+Imprt+ScDu2+OcSg: [сунсэлн, сунсэлы̄н]
+    сунсуӈкве+V+Act+Imprt+ScPl2+OcSg: [сунсэлн, сунсэлы̄н]
 
 #Active, imperative,  objective conjugation, dual object
-    сунсуӈкве+V+Act+Imprt+ScSg2+OcDu3: [сунсэгын, сунсэ̄гн]
-    сунсуӈкве+V+Act+Imprt+ScDu2+OcDu3: [сунсэгын, сунсэгы̄н]
-    сунсуӈкве+V+Act+Imprt+ScPl2+OcDu3: [сунсэгын, сунсэгы̄н]
+    сунсуӈкве+V+Act+Imprt+ScSg2+OcDu: [сунсэгын, сунсэ̄гн]
+    сунсуӈкве+V+Act+Imprt+ScDu2+OcDu: [сунсэгын, сунсэгы̄н]
+    сунсуӈкве+V+Act+Imprt+ScPl2+OcDu: [сунсэгын, сунсэгы̄н]
 
 #Active, imperative,  objective conjugation, plural object
-    сунсуӈкве+V+Act+Imprt+ScSg2+OcPl3: [сунсэн, сунсэ̄н]
-    сунсуӈкве+V+Act+Imprt+ScDu2+OcPl3: [сунсэн, сунсэ̄н]
-    сунсуӈкве+V+Act+Imprt+ScPl2+OcPl3: [сунсэн, сунсэ̄н]
+    сунсуӈкве+V+Act+Imprt+ScSg2+OcPl: [сунсэн, сунсэ̄н]
+    сунсуӈкве+V+Act+Imprt+ScDu2+OcPl: [сунсэн, сунсэ̄н]
+    сунсуӈкве+V+Act+Imprt+ScPl2+OcPl: [сунсэн, сунсэ̄н]
 
 #Passive, present tense, indicative
     сунсуӈкве+V+Pass+Ind+Prs+ScSg1: сунсавем

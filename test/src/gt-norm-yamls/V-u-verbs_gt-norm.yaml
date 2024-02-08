@@ -28,37 +28,37 @@ Tests:
     тотуӈкве+V+Act+Ind+Prs+ScPl3: тотэ̄гыт
 
 #Active, present tense, indicative, objective conjugation, single object
-    тотуӈкве+V+Act+Ind+Prs+ScSg1+OcSg3: тотылум
-    тотуӈкве+V+Act+Ind+Prs+ScSg2+OcSg3: тотылын
-    тотуӈкве+V+Act+Ind+Prs+ScSg3+OcSg3: тотытэ
-    тотуӈкве+V+Act+Ind+Prs+ScDu1+OcSg3: тотылуме̄н
-    тотуӈкве+V+Act+Ind+Prs+ScDu2+OcSg3: [тотылын, тотылы̄н]
-    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcSg3: тотытэ̄н
-    тотуӈкве+V+Act+Ind+Prs+ScPl1+OcSg3: тотылув
-    тотуӈкве+V+Act+Ind+Prs+ScPl2+OcSg3: [тотылын, тотылы̄н]
-    тотуӈкве+V+Act+Ind+Prs+ScPl3+OcSg3: тотыяныл
+    тотуӈкве+V+Act+Ind+Prs+ScSg1+OcSg: тотылум
+    тотуӈкве+V+Act+Ind+Prs+ScSg2+OcSg: тотылын
+    тотуӈкве+V+Act+Ind+Prs+ScSg3+OcSg: тотытэ
+    тотуӈкве+V+Act+Ind+Prs+ScDu1+OcSg: тотылуме̄н
+    тотуӈкве+V+Act+Ind+Prs+ScDu2+OcSg: [тотылын, тотылы̄н]
+    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcSg: тотытэ̄н
+    тотуӈкве+V+Act+Ind+Prs+ScPl1+OcSg: тотылув
+    тотуӈкве+V+Act+Ind+Prs+ScPl2+OcSg: [тотылын, тотылы̄н]
+    тотуӈкве+V+Act+Ind+Prs+ScPl3+OcSg: тотыяныл
 
 #Active, present tense, indicative, objective conjugation, dual object
-    тотуӈкве+V+Act+Ind+Prs+ScSg1+OcDu3: тотыягум
-    тотуӈкве+V+Act+Ind+Prs+ScSg2+OcDu3: тотыягын
-    тотуӈкве+V+Act+Ind+Prs+ScSg3+OcDu3: тотыяге
-    тотуӈкве+V+Act+Ind+Prs+ScDu1+OcDu3: тотыягме̄н
-    тотуӈкве+V+Act+Ind+Prs+ScDu2+OcDu3: [тотыягын, тотыягы̄н]
-    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcDu3: тотыяге̄н
-    тотуӈкве+V+Act+Ind+Prs+ScPl1+OcDu3: тотыягув
-    тотуӈкве+V+Act+Ind+Prs+ScPl2+OcDu3: [тотыягын, тотыягы̄н]
-    тотуӈкве+V+Act+Ind+Prs+ScPl3+OcDu3: тотыяганыл
+    тотуӈкве+V+Act+Ind+Prs+ScSg1+OcDu: тотыягум
+    тотуӈкве+V+Act+Ind+Prs+ScSg2+OcDu: тотыягын
+    тотуӈкве+V+Act+Ind+Prs+ScSg3+OcDu: тотыяге
+    тотуӈкве+V+Act+Ind+Prs+ScDu1+OcDu: тотыягме̄н
+    тотуӈкве+V+Act+Ind+Prs+ScDu2+OcDu: [тотыягын, тотыягы̄н]
+    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcDu: тотыяге̄н
+    тотуӈкве+V+Act+Ind+Prs+ScPl1+OcDu: тотыягув
+    тотуӈкве+V+Act+Ind+Prs+ScPl2+OcDu: [тотыягын, тотыягы̄н]
+    тотуӈкве+V+Act+Ind+Prs+ScPl3+OcDu: тотыяганыл
 
 #Active, present tense, indicative, objective conjugation, plural object
-    тотуӈкве+V+Act+Ind+Prs+ScSg1+OcPl3: тотыянум
-    тотуӈкве+V+Act+Ind+Prs+ScSg2+OcPl3: [тотыянын, тотыян]
-    тотуӈкве+V+Act+Ind+Prs+ScSg3+OcPl3: тотыянэ
-    тотуӈкве+V+Act+Ind+Prs+ScDu1+OcPl3: тотыянаме̄н
-    тотуӈкве+V+Act+Ind+Prs+ScDu2+OcPl3: [тотыянын, тотыяны̄н, тотыян]
-    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcPl3: тотыянэ̄н
-    тотуӈкве+V+Act+Ind+Prs+ScPl1+OcPl3: тотыянув
-    тотуӈкве+V+Act+Ind+Prs+ScPl2+OcPl3: [тотыянын, тотыяны̄н, тотыян]
-    тотуӈкве+V+Act+Ind+Prs+ScPl3+OcPl3: тотыяныл
+    тотуӈкве+V+Act+Ind+Prs+ScSg1+OcPl: тотыянум
+    тотуӈкве+V+Act+Ind+Prs+ScSg2+OcPl: [тотыянын, тотыян]
+    тотуӈкве+V+Act+Ind+Prs+ScSg3+OcPl: тотыянэ
+    тотуӈкве+V+Act+Ind+Prs+ScDu1+OcPl: тотыянаме̄н
+    тотуӈкве+V+Act+Ind+Prs+ScDu2+OcPl: [тотыянын, тотыяны̄н, тотыян]
+    тотуӈкве+V+Act+Ind+Prs+ScDu3+OcPl: тотыянэ̄н
+    тотуӈкве+V+Act+Ind+Prs+ScPl1+OcPl: тотыянув
+    тотуӈкве+V+Act+Ind+Prs+ScPl2+OcPl: [тотыянын, тотыяны̄н, тотыян]
+    тотуӈкве+V+Act+Ind+Prs+ScPl3+OcPl: тотыяныл
 
 #Active, past tense, indicative, subjective conjugation
     тотуӈкве+V+Act+Ind+Prt+ScSg1: тотсум
@@ -72,37 +72,37 @@ Tests:
     тотуӈкве+V+Act+Ind+Prt+ScPl3: тотсыт
 
 #Active, past tense, indicative, objective conjugation, single object
-    тотуӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: тотыслум
-    тотуӈкве+V+Act+Ind+Prt+ScSg2+OcSg3: тотыслын
-    тотуӈкве+V+Act+Ind+Prt+ScSg3+OcSg3: тотыстэ
-    тотуӈкве+V+Act+Ind+Prt+ScDu1+OcSg3: тотысламе̄н
-    тотуӈкве+V+Act+Ind+Prt+ScDu2+OcSg3: [тотыслын, тотыслы̄н]
-    тотуӈкве+V+Act+Ind+Prt+ScDu3+OcSg3: тотыстэ̄н
-    тотуӈкве+V+Act+Ind+Prt+ScPl1+OcSg3: тотыслув
-    тотуӈкве+V+Act+Ind+Prt+ScPl2+OcSg3: [тотыслын, тотыслы̄н]
-    тотуӈкве+V+Act+Ind+Prt+ScPl3+OcSg3: тотсаныл
+    тотуӈкве+V+Act+Ind+Prt+ScSg1+OcSg: тотыслум
+    тотуӈкве+V+Act+Ind+Prt+ScSg2+OcSg: тотыслын
+    тотуӈкве+V+Act+Ind+Prt+ScSg3+OcSg: тотыстэ
+    тотуӈкве+V+Act+Ind+Prt+ScDu1+OcSg: тотысламе̄н
+    тотуӈкве+V+Act+Ind+Prt+ScDu2+OcSg: [тотыслын, тотыслы̄н]
+    тотуӈкве+V+Act+Ind+Prt+ScDu3+OcSg: тотыстэ̄н
+    тотуӈкве+V+Act+Ind+Prt+ScPl1+OcSg: тотыслув
+    тотуӈкве+V+Act+Ind+Prt+ScPl2+OcSg: [тотыслын, тотыслы̄н]
+    тотуӈкве+V+Act+Ind+Prt+ScPl3+OcSg: тотсаныл
 
 #Active, past tense, indicative, objective conjugation, dual object
-    тотуӈкве+V+Act+Ind+Prt+ScSg1+OcDu3: тотсагум
-    тотуӈкве+V+Act+Ind+Prt+ScSg2+OcDu3: тотсагын
-    тотуӈкве+V+Act+Ind+Prt+ScSg3+OcDu3: тотсаге
-    тотуӈкве+V+Act+Ind+Prt+ScDu1+OcDu3: тотсагме̄н
-    тотуӈкве+V+Act+Ind+Prt+ScDu2+OcDu3: [тотсагын, тотсагы̄н]
-    тотуӈкве+V+Act+Ind+Prt+ScDu3+OcDu3: тотсаге̄н
-    тотуӈкве+V+Act+Ind+Prt+ScPl1+OcDu3: тотсагув
-    тотуӈкве+V+Act+Ind+Prt+ScPl2+OcDu3: [тотсагын, тотсагы̄н]
-    тотуӈкве+V+Act+Ind+Prt+ScPl3+OcDu3: тотсаганыл
+    тотуӈкве+V+Act+Ind+Prt+ScSg1+OcDu: тотсагум
+    тотуӈкве+V+Act+Ind+Prt+ScSg2+OcDu: тотсагын
+    тотуӈкве+V+Act+Ind+Prt+ScSg3+OcDu: тотсаге
+    тотуӈкве+V+Act+Ind+Prt+ScDu1+OcDu: тотсагме̄н
+    тотуӈкве+V+Act+Ind+Prt+ScDu2+OcDu: [тотсагын, тотсагы̄н]
+    тотуӈкве+V+Act+Ind+Prt+ScDu3+OcDu: тотсаге̄н
+    тотуӈкве+V+Act+Ind+Prt+ScPl1+OcDu: тотсагув
+    тотуӈкве+V+Act+Ind+Prt+ScPl2+OcDu: [тотсагын, тотсагы̄н]
+    тотуӈкве+V+Act+Ind+Prt+ScPl3+OcDu: тотсаганыл
 
 #Active, past tense, indicative, objective conjugation, plural object
-    тотуӈкве+V+Act+Ind+Prt+ScSg1+OcPl3: тотсанум
-    тотуӈкве+V+Act+Ind+Prt+ScSg2+OcPl3: [тотса̄нын, тотсан]
-    тотуӈкве+V+Act+Ind+Prt+ScSg3+OcPl3: тотсанэ
-    тотуӈкве+V+Act+Ind+Prt+ScDu1+OcPl3: [тотсанаме̄н, тотсанаме̄н, тотсанме̄н]
-    тотуӈкве+V+Act+Ind+Prt+ScDu2+OcPl3: [тотсанын, тотсаны̄н, тотсан]
-    тотуӈкве+V+Act+Ind+Prt+ScDu3+OcPl3: тотсанэ̄н
-    тотуӈкве+V+Act+Ind+Prt+ScPl1+OcPl3: тотсанув
-    тотуӈкве+V+Act+Ind+Prt+ScPl2+OcPl3: [тотсанын, тотсаны̄н, тотсан]
-    тотуӈкве+V+Act+Ind+Prt+ScPl3+OcPl3: тотсаныл
+    тотуӈкве+V+Act+Ind+Prt+ScSg1+OcPl: тотсанум
+    тотуӈкве+V+Act+Ind+Prt+ScSg2+OcPl: [тотса̄нын, тотсан]
+    тотуӈкве+V+Act+Ind+Prt+ScSg3+OcPl: тотсанэ
+    тотуӈкве+V+Act+Ind+Prt+ScDu1+OcPl: [тотсанаме̄н, тотсанаме̄н, тотсанме̄н]
+    тотуӈкве+V+Act+Ind+Prt+ScDu2+OcPl: [тотсанын, тотсаны̄н, тотсан]
+    тотуӈкве+V+Act+Ind+Prt+ScDu3+OcPl: тотсанэ̄н
+    тотуӈкве+V+Act+Ind+Prt+ScPl1+OcPl: тотсанув
+    тотуӈкве+V+Act+Ind+Prt+ScPl2+OcPl: [тотсанын, тотсаны̄н, тотсан]
+    тотуӈкве+V+Act+Ind+Prt+ScPl3+OcPl: тотсаныл
 
 #Active, conditional, subjective conjugation
     тотуӈкве+V+Act+Cond+ScSg1: [тотнувум, тотнӯвум]
@@ -116,37 +116,37 @@ Tests:
     тотуӈкве+V+Act+Cond+ScPl3: [тотнувыт, тотнувы̄т]
 
 #Active, conditional, objective conjugation, single object
-    тотуӈкве+V+Act+Cond+ScSg1+OcSg3: [тотнувлум, тотнӯвлум]
-    тотуӈкве+V+Act+Cond+ScSg2+OcSg3: [тотнувлын, тотнӯвлын]
-    тотуӈкве+V+Act+Cond+ScSg3+OcSg3: [тотнувтэ, тотнӯвтэ]
-    тотуӈкве+V+Act+Cond+ScDu1+OcSg3: тотнувламе̄н
-    тотуӈкве+V+Act+Cond+ScDu2+OcSg3: [тотнувлын, тотнувлы̄н]
-    тотуӈкве+V+Act+Cond+ScDu3+OcSg3: тотнувтэ̄н
-    тотуӈкве+V+Act+Cond+ScPl1+OcSg3: тотнувлув
-    тотуӈкве+V+Act+Cond+ScPl2+OcSg3: [тотнувлын, тотнувлы̄н]
-    тотуӈкве+V+Act+Cond+ScPl3+OcSg3: [тотнуваныл, тотнува̄ныл]
+    тотуӈкве+V+Act+Cond+ScSg1+OcSg: [тотнувлум, тотнӯвлум]
+    тотуӈкве+V+Act+Cond+ScSg2+OcSg: [тотнувлын, тотнӯвлын]
+    тотуӈкве+V+Act+Cond+ScSg3+OcSg: [тотнувтэ, тотнӯвтэ]
+    тотуӈкве+V+Act+Cond+ScDu1+OcSg: тотнувламе̄н
+    тотуӈкве+V+Act+Cond+ScDu2+OcSg: [тотнувлын, тотнувлы̄н]
+    тотуӈкве+V+Act+Cond+ScDu3+OcSg: тотнувтэ̄н
+    тотуӈкве+V+Act+Cond+ScPl1+OcSg: тотнувлув
+    тотуӈкве+V+Act+Cond+ScPl2+OcSg: [тотнувлын, тотнувлы̄н]
+    тотуӈкве+V+Act+Cond+ScPl3+OcSg: [тотнуваныл, тотнува̄ныл]
 
 #Active, conditional, objective conjugation, dual object
-    тотуӈкве+V+Act+Cond+ScSg1+OcDu3: [тотнувагум, тотнува̄гум]
-    тотуӈкве+V+Act+Cond+ScSg2+OcDu3: [тотнувагын, тотнува̄гын]
-    тотуӈкве+V+Act+Cond+ScSg3+OcDu3: [тотнуваге, тотнува̄ге]
-    тотуӈкве+V+Act+Cond+ScDu1+OcDu3: тотнувагме̄н
-    тотуӈкве+V+Act+Cond+ScDu2+OcDu3: [тотнувагын, тотнувагы̄н]
-    тотуӈкве+V+Act+Cond+ScDu3+OcDu3: тотнуваге̄н
-    тотуӈкве+V+Act+Cond+ScPl1+OcDu3: тотнувагув
-    тотуӈкве+V+Act+Cond+ScPl2+OcDu3: [тотнувагын, тотнувагы̄н]
-    тотуӈкве+V+Act+Cond+ScPl3+OcDu3: [тотнуваганыл, тотнувага̄ныл]
+    тотуӈкве+V+Act+Cond+ScSg1+OcDu: [тотнувагум, тотнува̄гум]
+    тотуӈкве+V+Act+Cond+ScSg2+OcDu: [тотнувагын, тотнува̄гын]
+    тотуӈкве+V+Act+Cond+ScSg3+OcDu: [тотнуваге, тотнува̄ге]
+    тотуӈкве+V+Act+Cond+ScDu1+OcDu: тотнувагме̄н
+    тотуӈкве+V+Act+Cond+ScDu2+OcDu: [тотнувагын, тотнувагы̄н]
+    тотуӈкве+V+Act+Cond+ScDu3+OcDu: тотнуваге̄н
+    тотуӈкве+V+Act+Cond+ScPl1+OcDu: тотнувагув
+    тотуӈкве+V+Act+Cond+ScPl2+OcDu: [тотнувагын, тотнувагы̄н]
+    тотуӈкве+V+Act+Cond+ScPl3+OcDu: [тотнуваганыл, тотнувага̄ныл]
 
 #Active, conditional, objective conjugation, plural object
-    тотуӈкве+V+Act+Cond+ScSg1+OcPl3: [тотнуванум, тотнува̄нум]
-    тотуӈкве+V+Act+Cond+ScSg2+OcPl3: [тотнуванын, тотнува̄нын]
-    тотуӈкве+V+Act+Cond+ScSg3+OcPl3: [тотнуванэ, тотнува̄нэ]
-    тотуӈкве+V+Act+Cond+ScDu1+OcPl3: тотнуванме̄н
-    тотуӈкве+V+Act+Cond+ScDu2+OcPl3: [тотнуванын, тотнуваны̄н]
-    тотуӈкве+V+Act+Cond+ScDu3+OcPl3: тотнуванэ̄н
-    тотуӈкве+V+Act+Cond+ScPl1+OcPl3: тотнуванув
-    тотуӈкве+V+Act+Cond+ScPl2+OcPl3: [тотнуванын, тотнуваны̄н]
-    тотуӈкве+V+Act+Cond+ScPl3+OcPl3: [тотнуваныл, тотнува̄ныл]
+    тотуӈкве+V+Act+Cond+ScSg1+OcPl: [тотнуванум, тотнува̄нум]
+    тотуӈкве+V+Act+Cond+ScSg2+OcPl: [тотнуванын, тотнува̄нын]
+    тотуӈкве+V+Act+Cond+ScSg3+OcPl: [тотнуванэ, тотнува̄нэ]
+    тотуӈкве+V+Act+Cond+ScDu1+OcPl: тотнуванме̄н
+    тотуӈкве+V+Act+Cond+ScDu2+OcPl: [тотнуванын, тотнуваны̄н]
+    тотуӈкве+V+Act+Cond+ScDu3+OcPl: тотнуванэ̄н
+    тотуӈкве+V+Act+Cond+ScPl1+OcPl: тотнуванув
+    тотуӈкве+V+Act+Cond+ScPl2+OcPl: [тотнуванын, тотнуваны̄н]
+    тотуӈкве+V+Act+Cond+ScPl3+OcPl: [тотнуваныл, тотнува̄ныл]
 
 #Active, imperative, subjective conjugation
     тотуӈкве+V+Act+Imprt+ScSg2: тотэн
@@ -154,19 +154,19 @@ Tests:
     тотуӈкве+V+Act+Imprt+ScPl2: [тотэн, тотэ̄н]
 
 #Active, imperative,  objective conjugation, single object
-    тотуӈкве+V+Act+Imprt+ScSg2+OcSg3: [тотэлн, тотэ̄лн]
-    тотуӈкве+V+Act+Imprt+ScDu2+OcSg3: [тотэлн, тотэлы̄н]
-    тотуӈкве+V+Act+Imprt+ScPl2+OcSg3: [тотэлн, тотэлы̄н]
+    тотуӈкве+V+Act+Imprt+ScSg2+OcSg: [тотэлн, тотэ̄лн]
+    тотуӈкве+V+Act+Imprt+ScDu2+OcSg: [тотэлн, тотэлы̄н]
+    тотуӈкве+V+Act+Imprt+ScPl2+OcSg: [тотэлн, тотэлы̄н]
 
 #Active, imperative,  objective conjugation, dual object
-    тотуӈкве+V+Act+Imprt+ScSg2+OcDu3: [тотэгын, тотэ̄гн]
-    тотуӈкве+V+Act+Imprt+ScDu2+OcDu3: [тотэгын, тотэгы̄н]
-    тотуӈкве+V+Act+Imprt+ScPl2+OcDu3: [тотэгын, тотэгы̄н]
+    тотуӈкве+V+Act+Imprt+ScSg2+OcDu: [тотэгын, тотэ̄гн]
+    тотуӈкве+V+Act+Imprt+ScDu2+OcDu: [тотэгын, тотэгы̄н]
+    тотуӈкве+V+Act+Imprt+ScPl2+OcDu: [тотэгын, тотэгы̄н]
 
 #Active, imperative,  objective conjugation, plural object
-    тотуӈкве+V+Act+Imprt+ScSg2+OcPl3: [тотэн, тотэ̄н]
-    тотуӈкве+V+Act+Imprt+ScDu2+OcPl3: [тотэн, тотэ̄н]
-    тотуӈкве+V+Act+Imprt+ScPl2+OcPl3: [тотэн, тотэ̄н]
+    тотуӈкве+V+Act+Imprt+ScSg2+OcPl: [тотэн, тотэ̄н]
+    тотуӈкве+V+Act+Imprt+ScDu2+OcPl: [тотэн, тотэ̄н]
+    тотуӈкве+V+Act+Imprt+ScPl2+OcPl: [тотэн, тотэ̄н]
 
 #Passive, present tense, indicative
     тотуӈкве+V+Pass+Ind+Prs+ScSg1: тотавем
