@@ -33,7 +33,7 @@ Alphabet
 %{уюØ%}:0	!!≈ * **@CODE@** suffix onset vowel
 %{ЫИ%}:и	!!≈ * **@CODE@**
 %{ЫИ%}:ы	!!≈ * **@CODE@**
-%{аяLong%}:а̄	!!≈ * **@CODE@** ScPl3+OcSg3 %{аяLong%}ныл
+%{аяLong%}:а̄	!!≈ * **@CODE@** ScPl3+OcSg %{аяLong%}ныл
 %{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 %{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
 !%{ЭЕLong%}:е	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
@@ -145,7 +145,7 @@ Rules
 
 !ё х т ы {VU}:0 > ы:0 с
 
-!! тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: __eat/syödä__
+!! тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg: __eat/syödä__
 !!€ тэ̄>ыслум
 !!€ тэ̄>0слум
 !!€ ловиньт{VA}>{аяØ}>ыс
@@ -285,7 +285,7 @@ Rules
   [%{SYNCS%}:] %> _ [т|н|г] ;
 
 !! #### Tests:
-!ве̄рмуӈкве+Ind+Prs+OcPl3+ScSg3:
+!ве̄рмуӈкве+Ind+Prs+ScSg3+OcPl:
 !!€ ве̄рмы%>%{ЫИ%}янэ
 !!€ ве̄рм0%>иянэ
 
@@ -412,7 +412,7 @@ Rules
 "%{аяLong%}:я̄"
 !! __@RULENAME@__
 %{аяLong%}:я̄ <=>   %{ЫИ%}: %> _ ;
-!+Act+Ind+Prs+ScPl3+OcSg3+Err/Orth
+!+Act+Ind+Prs+ScPl3+OcSg+Err/Orth
 
 "%{аяLong%}:0"
 !! __@RULENAME@__
@@ -479,10 +479,10 @@ Rules
 "%{ЫИ%}:ы"
 !! __@RULENAME@__
 %{ЫИ%}:ы <=> [ CnsAlv - р | Vow ] [%{VU%}:|%{VA%}:] %> _ ;
-!! тотуӈкве+V+Ind+Prs+ScDu1+OcDu3:
+!! тотуӈкве+V+Ind+Prs+ScDu1+OcDu:
 !!€ тот{VU}>{ЫИ}ягмен
 !!€ тот0>ыягмен
-!! tотуӈкве+V+Ind+Prs+ScPl1+OcSg3:
+!! tотуӈкве+V+Ind+Prs+ScPl1+OcSg:
 !!€ тот{VU}>{ЫИ}лӯв
 !!€ тот0>ылӯв
 !lang-mns jackrueter$ echo 'т о т {VU}:0 > {ЫИ}:ы л ӯ в'| hfst-pair-test src/fst/phonology.compose.hfst
