@@ -59,6 +59,8 @@
 !! The stem vowel alternation is taken care of in the twolc file.
 
 !! ## The lexicon
+LEXICON N_VI_rus100
++Use/SpellNoSugg: N_VI ;
 LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_SG ;
 :%{VI%} N1_DU ;
@@ -102,6 +104,8 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} SG_NOM_PXDU1_ujumen ; !  2023_04_29 са̄лымен
 !@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@
 
+LEXICON N_VO_rus100 !!≈ * @CODE@
++Use/SpellNoSugg: N_VO ;
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 ! Test data:
 !!€gt-norm: ма̄ #
@@ -324,6 +328,8 @@ LEXICON N_NOSYNCH !!≈ * @CODE@ Stems without syncopy, hard
 LEXICON N_NOSYNCS !!≈ * @CODE@ Stems without syncopy, soft
 : N_VCS ;
 
+LEXICON N_VCH_rus100 !!≈ * @CODE@
++Use/SpellNoSugg: N_VCH ;
 LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%}%>ныл SG_ABL_K ;
 :%{VCH%}%>ыл SG_INS_K ; !
@@ -373,6 +379,8 @@ LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%} DU_X_PXDU1_ajagameen ;
 :%{VCH%} DU_X_PXDU1_ajagamen ;
 
+LEXICON N_VCCH_rus100
++Use/SpellNoSugg: N_VCCH ;
 LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
 :%{VCCH%}%>ныл SG_ABL_K ;
 :%{VCCH%}%>ыл SG_INS_K ; !
@@ -424,6 +432,8 @@ LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгу
 :%{VCCH%} DU_X_PXDU1_ajagameen ;
 :%{VCCH%} DU_X_PXDU1_ajagamen ;
 
+LEXICON N_VCS_rus100
++Use/SpellNoSugg: N_VCS ;
 LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%}%>ныл SG_ABL_K ;
 :%{VCS%}%>ыл SG_INS_K ; !
@@ -523,6 +533,8 @@ LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%} DU_X_PXDU1_ajagameen ;
 :%{VCS%} DU_X_PXDU1_ajagamen ;
 
+LEXICON N_VCCS_rus100 !!≈ * @CODE@
++Use/SpellNoSugg: N_VCCS ;
 LEXICON N_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
 :%{VCCS%}%>ныл SG_ABL_K ;
 :%{VCCS%}%>ыл SG_INS_K ; !
