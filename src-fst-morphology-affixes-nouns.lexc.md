@@ -8,6 +8,7 @@ The stem vowel alternation is taken care of in the twolc file.
 ## The lexicon
 * LEXICON N_VI Stems ending in и ы: а̄ви
 
+* LEXICON N_VO_rus100
 * LEXICON N_VO Stems ending in other vowels ӯра
 
 * ма̄ # examples:*
@@ -21,12 +22,14 @@ The stem vowel alternation is taken care of in the twolc file.
 
 * LEXICON N_NOSYNCS Stems without syncopy, soft
 
+* LEXICON N_VCH_rus100
 * LEXICON N_VCH Stems ending in single hard consonant
 
 * LEXICON N_VCCH Stems ending in hard consonant cluster: а̄вгуст
 
 * LEXICON N_VCS Stems ending in single soft consonant
 
+* LEXICON N_VCCS_rus100
 * LEXICON N_VCCS Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:

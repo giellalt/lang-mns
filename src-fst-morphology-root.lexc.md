@@ -86,7 +86,7 @@ language are presented in this system in terms of the following symbols.
 * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**  Personal pronouns are marked as
 * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3** for possessive suffixes
 * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3** Verb subject conjugation
-* **+OcSg3 +OcDu3 +OcPl3** Verb object conjugation
+* **+OcSg +OcDu +OcPl** Verb object conjugation
 * **+Ind +Prs +Prt +Pot +Cond +Imprt +Evid** Verb moods 
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass +Act** infinite verbforms
 * **+TV +IV** for transitive, intransitive
@@ -193,13 +193,13 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
-__%{аяLong%}__ ScPl3+OcSg3 %{аяLong%}ныл
+__%{аяLong%}__ ScPl3+OcSg %{аяLong%}ныл
 __%{ыиØ%}__ Loc and Ins
 * **%{уюØ%}** suffix onset vowel
 
 __%{тØ%}__ Ins, PxSg3,
 
-**%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
+**%{ЫИ%}** +V+Ind+Prs+OcSg+ScSg1
 **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
 **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
 **%{йØ%}** ыг
@@ -221,6 +221,7 @@ __%{VCS%}__ Stem ending in single soft consonant
 __%{VCCS%}__ Stem ending in soft consonant cluster
 __%{VA%}__ -аӈкве verb
 __%{VU%}__ -уӈкве verb
+__%^RmVow__ Word-final vowel removal
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following

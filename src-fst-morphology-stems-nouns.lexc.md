@@ -21,6 +21,8 @@ This gives us the following stem types:
 - N_VCS     = а̄кань
 - N_VI      = а̄ви
 - N_VO      = а̄ква
+- If the words are homographs of the Russian Nominative Singular, the additional
+_rus100 segment is added, e.g., буква+N:буква N_VO_rus100
 
 ## The lexicon entries
 

@@ -497,6 +497,7 @@ The stem vowel alternation is taken care of in the twolc file.
 ## The lexicon
 * LEXICON N_VI Stems ending in и ы: а̄ви
 
+* LEXICON N_VO_rus100
 * LEXICON N_VO Stems ending in other vowels ӯра
 
 * ма̄ # examples:*
@@ -510,12 +511,14 @@ The stem vowel alternation is taken care of in the twolc file.
 
 * LEXICON N_NOSYNCS Stems without syncopy, soft
 
+* LEXICON N_VCH_rus100
 * LEXICON N_VCH Stems ending in single hard consonant
 
 * LEXICON N_VCCH Stems ending in hard consonant cluster: а̄вгуст
 
 * LEXICON N_VCS Stems ending in single soft consonant
 
+* LEXICON N_VCCS_rus100
 * LEXICON N_VCCS Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
@@ -782,7 +785,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{уюØ%}:0** suffix onset vowel
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
-* **%{аяLong%}:а̄** ScPl3+OcSg3 %{аяLong%}ныл
+* **%{аяLong%}:а̄** ScPl3+OcSg %{аяLong%}ныл
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕ%}:е** PxSg3
@@ -870,7 +873,7 @@ End of alphabet definitions
 
 **RULE: Syncope for ы**  
 
-тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: __eat/syödä__
+тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg: __eat/syödä__
 * *тэ̄>ыслум*
 * *тэ̄>0слум*
 * *ловиньт{VA}>{аяØ}>ыс*
@@ -1037,10 +1040,10 @@ __{ЭЕ}:е__
 * *пот0р0%>0е*
 
 __%{ЫИ%}:ы__
-тотуӈкве+V+Ind+Prs+ScDu1+OcDu3:
+тотуӈкве+V+Ind+Prs+ScDu1+OcDu:
 * *тот{VU}>{ЫИ}ягмен*
 * *тот0>ыягмен*
-tотуӈкве+V+Ind+Prs+ScPl1+OcSg3:
+tотуӈкве+V+Ind+Prs+ScPl1+OcSg:
 * *тот{VU}>{ЫИ}лӯв*
 * *тот0>ылӯв*
 
@@ -1170,7 +1173,7 @@ language are presented in this system in terms of the following symbols.
 * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**  Personal pronouns are marked as
 * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3** for possessive suffixes
 * **+ScSg1 +ScSg2 +ScSg3 +ScDu1 +ScDu2 +ScDu3 +ScPl1 +ScPl2 +ScPl3** Verb subject conjugation
-* **+OcSg3 +OcDu3 +OcPl3** Verb object conjugation
+* **+OcSg +OcDu +OcPl** Verb object conjugation
 * **+Ind +Prs +Prt +Pot +Cond +Imprt +Evid** Verb moods 
 * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess +Pass +Act** infinite verbforms
 * **+TV +IV** for transitive, intransitive
@@ -1277,13 +1280,13 @@ source and target part-of-speech.
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
-__%{аяLong%}__ ScPl3+OcSg3 %{аяLong%}ныл
+__%{аяLong%}__ ScPl3+OcSg %{аяLong%}ныл
 __%{ыиØ%}__ Loc and Ins
 * **%{уюØ%}** suffix onset vowel
 
 __%{тØ%}__ Ins, PxSg3,
 
-**%{ЫИ%}** +V+Ind+Prs+OcSg3+ScSg1
+**%{ЫИ%}** +V+Ind+Prs+OcSg+ScSg1
 **%{ЭЕLong%}** +V+Ind+Prs+ScSg1, PxDu3
 **%{ЭЕ%}** +V+Ind+Prs+ScDu2, PxSg3
 **%{йØ%}** ыг
@@ -1305,6 +1308,7 @@ __%{VCS%}__ Stem ending in single soft consonant
 __%{VCCS%}__ Stem ending in soft consonant cluster
 __%{VA%}__ -аӈкве verb
 __%{VU%}__ -уӈкве verb
+__%^RmVow__ Word-final vowel removal
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
@@ -1772,6 +1776,8 @@ This gives us the following stem types:
 - N_VCS     = а̄кань
 - N_VI      = а̄ви
 - N_VO      = а̄ква
+- If the words are homographs of the Russian Nominative Singular, the additional
+_rus100 segment is added, e.g., буква+N:буква N_VO_rus100
 
 ## The lexicon entries
 

@@ -27,7 +27,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{уюØ%}:0** suffix onset vowel
 * **%{ЫИ%}:и**
 * **%{ЫИ%}:ы**
-* **%{аяLong%}:а̄** ScPl3+OcSg3 %{аяLong%}ныл
+* **%{аяLong%}:а̄** ScPl3+OcSg %{аяLong%}ныл
 * **%{ЭЕLong%}:е̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕLong%}:э̄** +V+Ind+Prs+ScSg1
 * **%{ЭЕ%}:е** PxSg3
@@ -115,7 +115,7 @@ End of alphabet definitions
 
 **RULE: Syncope for ы**  
 
-тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg3: __eat/syödä__
+тэ̄ӈкве+V+Act+Ind+Prt+ScSg1+OcSg: __eat/syödä__
 * *тэ̄>ыслум*
 * *тэ̄>0слум*
 * *ловиньт{VA}>{аяØ}>ыс*
@@ -282,10 +282,10 @@ __{ЭЕ}:е__
 * *пот0р0%>0е*
 
 __%{ЫИ%}:ы__
-тотуӈкве+V+Ind+Prs+ScDu1+OcDu3:
+тотуӈкве+V+Ind+Prs+ScDu1+OcDu:
 * *тот{VU}>{ЫИ}ягмен*
 * *тот0>ыягмен*
-tотуӈкве+V+Ind+Prs+ScPl1+OcSg3:
+tотуӈкве+V+Ind+Prs+ScPl1+OcSg:
 * *тот{VU}>{ЫИ}лӯв*
 * *тот0>ылӯв*
 
