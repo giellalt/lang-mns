@@ -135,32 +135,37 @@ I'll work on solving these ones:
 - V+Act+Ind+Prs+ScSg1:
 ха̄сэгум
 
+- V+Act+Ind+Prs+ScSg3:
+но̄х-сайкалы
+
 - V+Act+Ind+Prs+ScPl3:
 хайтэ̄гыт
+нох-выгыт
 
-- V+Act+Ind+Prs+ScSg3+OcPl3:
+- V+Act+Ind+Prs+ScSg1+OcPl:
+номыянум
+
+- V+Act+Ind+Prs+ScSg3+OcPl:
 ханищтыянэ
 тэ̄лыгтыянэ
 потыртыянэ
 
-- V+Act+Ind+Prs+ScPl1+OcSg3:
+- V+Act+Ind+Prs+ScDu1+OcSg
+ла̄виламе̄н
+
+- V+Act+Ind+Prs+ScPl1+OcSg:
 !сыстамлылӯв: because of ӯ
 !акван-тэ̄лыглылӯв: because of ӯ
 !янытлылӯв: because of ӯ
 
-- V+Act+Ind+Prs+ScPl3:
-нох-выгыт
-
-ханищтыянэ
-
-- V+Act+Ind+Prs+ScPl1+OcPl3:
+- V+Act+Ind+Prs+ScPl1+OcPl:
 !сыстамтыянӯв: because of ӯ
 !сунсыглыянӯв: because of ӯ
 !пиныянӯв: because of ӯ
 !ловтыянӯв: because of ӯ
 янытлыянӯв
 
-- V+Act+Ind+Prs+ScPl3+OcPl3
+- V+Act+Ind+Prs+ScPl3+OcPl
 та̄ратыяныл
 та̄рата̄лыяныл
 тыналыяныл
@@ -172,6 +177,7 @@ I'll work on solving these ones:
 во̄вияныл
 ханищтыяныл
 о̄ньщияныл
+ханищтыяныл
 
 - V+Act+Ind+Prt+ScSg3:
 суссыс
@@ -184,69 +190,93 @@ I'll work on solving these ones:
 пувлысӯв
 патсэ̄в
 исылтахтасӯв
+потыртахтасӯв
 
-мӯйлуптсаныл
-
-
+- V+Act+Ind+Prt+ScPl3
 акван-атхатыгласыт
 а̄стысыт
-сунсаве̄гыт
-висанэ
-хонтсаныл
-
-массэгыт
 па̄хвтысыт
 поргысыт
 
+- V+Act+Ind+Prt+ScSg3+OcSg
+ня̄влыгтастэ
+
+- V+Act+Ind+Prt+ScSg3+OcPl
+висанэ
+
+- V+Act+Ind+Prt+ScPl3+OcPl
+мӯйлуптсаныл
+хонтсаныл
+
+- V+Act+Imprt+ScSg2:
+вӯен
+
+- V+Act+Imprt+ScSg2+OcSg:
+лап-ма̄нигтэлын
+равтэ̄лын
+
+- V+Act+Imprt+ScPl2+OcSg
+ловиньтэлы̄н
+
+- V+Pass+Ind+Prs+ScSg3
+по̄лясаве
+во̄виньта̄лаве
+
+- V+Pass+Ind+Prs+ScPl3
+щё̄пита̄лавет
+
+
+- V+Pass+Ind+Prt+ScSg2
+ла̄ввесын
+
+- V+Pass+Ind+Prt+ScSg3
+ӯнттувес
+ве̄рмувес
+
+- V+Pass+Ind+Prt+ScPl3
+но̄х-во̄вве̄сыт
+
+- V+PrsPrc:
+ханищтахтан
+но̄х-ха̄хнэ
+лю̄льнэ
+
+- V+PrsPrc+PxSg1:
+а̄стланэм
+
+- V+PrsPrc+PxSg3: 
+па̄йтнэ̄тэ
+ла̄внэ̄тэ
+
+-V+PrfPrc
+ханищтахтам
+хо̄нтлам
+
+-V+PrfPrc+PxSg1
+патмум
+ялмум
+
+-V+PrfPrc+PxSg3
+ла̄вме
+о̄лме
+
+- V+PrfPrc+PxPl1
+минамувт
+
+- V+Ger
 но̄х-вуим
 ва̄рим
 намаим
 во̄раим
 ӯрим
-ханищтахтам
-хо̄нтлам
-
-ялмум
-
-ла̄вме
-о̄лме
-
-ханищтахтан
-
-ла̄внэ̄тэ
-
-щё̄пита̄лавет
-суссылтапытын
-сунсаве̄гыт
-равтэ̄лын
-по̄лясаве
-патмум
-па̄йтнэ̄тэ
-ня̄влыгтастэ
-номыянум
-но̄х-ха̄хнэ
-но̄х-сайкалы
-но̄х-во̄вве̄сыт
-минамувт
-лю̄льнэ
-луйгинэ̄ныл
-лап-ма̄нигтэлын
-ла̄виламе̄н
-ла̄ве
-вӯен
-во̄виньта̄лаве
-ве̄рмувес
-а̄стланэм
-ла̄ввесын
-ловиньтэлы̄н
-ӯнттувес
 
 
 +3 diminutive suffixes in other parts of speech
 атса̄ткем
 таилтем
 
-
+а̄тим а̄тимыт
+са̄виткем+Po:са̄виткем PO_ "more than" ;
 
 
 
