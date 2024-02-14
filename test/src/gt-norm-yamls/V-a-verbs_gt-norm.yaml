@@ -12,7 +12,7 @@ Tests:
 # todo:
 # Proofread the gold standard (below)
 # Then: run analyser, then correct.
-# (20230502: Csilla)
+# (20240214: Csilla)
 
   Verb - рӯпитаӈкве: # Verb 'to work' - full paradigm
     рӯпитаӈкве+V+Inf: рӯпитаӈкве
@@ -66,8 +66,8 @@ Tests:
     рӯпитаӈкве+V+Act+Ind+Prt+ScSg3: рӯпитас
     рӯпитаӈкве+V+Act+Ind+Prt+ScDu1: рӯпитасме̄н
     рӯпитаӈкве+V+Act+Ind+Prt+ScDu2: [рӯпитасын, рӯпитасы̄н]
-    рӯпитаӈкве+V+Act+Ind+Prt+ScDu3: [рӯпитасыг, рӯпитасы̄г]
-    рӯпитаӈкве+V+Act+Ind+Prt+ScPl1: [рӯпитасув, рӯпитасӯв]
+    рӯпитаӈкве+V+Act+Ind+Prt+ScDu3: рӯпитасыг
+    рӯпитаӈкве+V+Act+Ind+Prt+ScPl1: рӯпитасув
     рӯпитаӈкве+V+Act+Ind+Prt+ScPl2: [рӯпитасын, рӯпитасы̄н]
     рӯпитаӈкве+V+Act+Ind+Prt+ScPl3: рӯпитасыт
 
@@ -97,7 +97,7 @@ Tests:
     рӯпитаӈкве+V+Act+Ind+Prt+ScSg1+OcPl: рӯпитасанум
     рӯпитаӈкве+V+Act+Ind+Prt+ScSg2+OcPl: [рӯпитаса̄нын, рӯпитасан]
     рӯпитаӈкве+V+Act+Ind+Prt+ScSg3+OcPl: рӯпитасанэ
-    рӯпитаӈкве+V+Act+Ind+Prt+ScDu1+OcPl: [рӯпитасанаме̄н, рӯпитасанаме̄н, рӯпитасанме̄н]
+    рӯпитаӈкве+V+Act+Ind+Prt+ScDu1+OcPl: [рӯпитасанаме̄н, рӯпитасанме̄н]
     рӯпитаӈкве+V+Act+Ind+Prt+ScDu2+OcPl: [рӯпитасанын, рӯпитасаны̄н, рӯпитасан]
     рӯпитаӈкве+V+Act+Ind+Prt+ScDu3+OcPl: рӯпитасанэ̄н
     рӯпитаӈкве+V+Act+Ind+Prt+ScPl1+OcPl: рӯпитасанув
@@ -105,48 +105,48 @@ Tests:
     рӯпитаӈкве+V+Act+Ind+Prt+ScPl3+OcPl: рӯпитасаныл
 
 #Active, conditional, subjective conjugation
-    рӯпитаӈкве+V+Act+Cond+ScSg1: [рӯпитанувум, рӯпитанӯвум]
-    рӯпитаӈкве+V+Act+Cond+ScSg2: [рӯпитанувын, рӯпитанӯвын]
+    рӯпитаӈкве+V+Act+Cond+ScSg1: рӯпитанувум
+    рӯпитаӈкве+V+Act+Cond+ScSg2: рӯпитанувын
     рӯпитаӈкве+V+Act+Cond+ScSg3: рӯпитанув
     рӯпитаӈкве+V+Act+Cond+ScDu1: рӯпитануваме̄н
     рӯпитаӈкве+V+Act+Cond+ScDu2: [рӯпитанувын, рӯпитанувы̄н]
-    рӯпитаӈкве+V+Act+Cond+ScDu3: [рӯпитанувыг, рӯпитанувы̄г]
-    рӯпитаӈкве+V+Act+Cond+ScPl1: [рӯпитанувув, рӯпитанӯвув]
+    рӯпитаӈкве+V+Act+Cond+ScDu3: рӯпитанувыг
+    рӯпитаӈкве+V+Act+Cond+ScPl1: рӯпитанувув
     рӯпитаӈкве+V+Act+Cond+ScPl2: [рӯпитанувын, рӯпитанувы̄н]
-    рӯпитаӈкве+V+Act+Cond+ScPl3: [рӯпитанувыт, рӯпитанувы̄т]
+    рӯпитаӈкве+V+Act+Cond+ScPl3: рӯпитанувыт
 
 #Active, conditional, objective conjugation, single object
-    рӯпитаӈкве+V+Act+Cond+ScSg1+OcSg: [рӯпитанувлум, рӯпитанӯвлум]
-    рӯпитаӈкве+V+Act+Cond+ScSg2+OcSg: [рӯпитанувлын, рӯпитанӯвлын]
-    рӯпитаӈкве+V+Act+Cond+ScSg3+OcSg: [рӯпитанувтэ, рӯпитанӯвтэ]
+    рӯпитаӈкве+V+Act+Cond+ScSg1+OcSg: рӯпитанувлум
+    рӯпитаӈкве+V+Act+Cond+ScSg2+OcSg: рӯпитанувлын
+    рӯпитаӈкве+V+Act+Cond+ScSg3+OcSg: рӯпитанувтэ
     рӯпитаӈкве+V+Act+Cond+ScDu1+OcSg: рӯпитанувламе̄н
     рӯпитаӈкве+V+Act+Cond+ScDu2+OcSg: [рӯпитанувлын, рӯпитанувлы̄н]
     рӯпитаӈкве+V+Act+Cond+ScDu3+OcSg: рӯпитанувтэ̄н
     рӯпитаӈкве+V+Act+Cond+ScPl1+OcSg: рӯпитанувлув
     рӯпитаӈкве+V+Act+Cond+ScPl2+OcSg: [рӯпитанувлын, рӯпитанувлы̄н]
-    рӯпитаӈкве+V+Act+Cond+ScPl3+OcSg: [рӯпитануваныл, рӯпитанува̄ныл]
+    рӯпитаӈкве+V+Act+Cond+ScPl3+OcSg: рӯпитануваныл
 
 #Active, conditional, objective conjugation, dual object
-    рӯпитаӈкве+V+Act+Cond+ScSg1+OcDu: [рӯпитанувагум, рӯпитанува̄гум]
-    рӯпитаӈкве+V+Act+Cond+ScSg2+OcDu: [рӯпитанувагын, рӯпитанува̄гын]
-    рӯпитаӈкве+V+Act+Cond+ScSg3+OcDu: [рӯпитануваге, рӯпитанува̄ге]
+    рӯпитаӈкве+V+Act+Cond+ScSg1+OcDu: рӯпитанувагум
+    рӯпитаӈкве+V+Act+Cond+ScSg2+OcDu: рӯпитанувагын
+    рӯпитаӈкве+V+Act+Cond+ScSg3+OcDu: рӯпитануваге
     рӯпитаӈкве+V+Act+Cond+ScDu1+OcDu: рӯпитанувагме̄н
     рӯпитаӈкве+V+Act+Cond+ScDu2+OcDu: [рӯпитанувагын, рӯпитанувагы̄н]
     рӯпитаӈкве+V+Act+Cond+ScDu3+OcDu: рӯпитануваге̄н
     рӯпитаӈкве+V+Act+Cond+ScPl1+OcDu: рӯпитанувагув
     рӯпитаӈкве+V+Act+Cond+ScPl2+OcDu: [рӯпитанувагын, рӯпитанувагы̄н]
-    рӯпитаӈкве+V+Act+Cond+ScPl3+OcDu: [рӯпитануваганыл, рӯпитанувага̄ныл]
+    рӯпитаӈкве+V+Act+Cond+ScPl3+OcDu: рӯпитануваганыл
 
 #Active, conditional, objective conjugation, plural object
-    рӯпитаӈкве+V+Act+Cond+ScSg1+OcPl: [рӯпитануванум, рӯпитанува̄нум]
-    рӯпитаӈкве+V+Act+Cond+ScSg2+OcPl: [рӯпитануванын, рӯпитанува̄нын]
-    рӯпитаӈкве+V+Act+Cond+ScSg3+OcPl: [рӯпитануванэ, рӯпитанува̄нэ]
+    рӯпитаӈкве+V+Act+Cond+ScSg1+OcPl: рӯпитануванум
+    рӯпитаӈкве+V+Act+Cond+ScSg2+OcPl: рӯпитануванын
+    рӯпитаӈкве+V+Act+Cond+ScSg3+OcPl: рӯпитануванэ
     рӯпитаӈкве+V+Act+Cond+ScDu1+OcPl: рӯпитануванме̄н
     рӯпитаӈкве+V+Act+Cond+ScDu2+OcPl: [рӯпитануванын, рӯпитануваны̄н]
     рӯпитаӈкве+V+Act+Cond+ScDu3+OcPl: рӯпитануванэ̄н
     рӯпитаӈкве+V+Act+Cond+ScPl1+OcPl: рӯпитануванув
     рӯпитаӈкве+V+Act+Cond+ScPl2+OcPl: [рӯпитануванын, рӯпитануваны̄н]
-    рӯпитаӈкве+V+Act+Cond+ScPl3+OcPl: [рӯпитануваныл, рӯпитанува̄ныл]
+    рӯпитаӈкве+V+Act+Cond+ScPl3+OcPl: рӯпитануваныл
 
 #Active, imperative, subjective conjugation
     рӯпитаӈкве+V+Act+Imprt+ScSg2: рӯпитэн
@@ -164,9 +164,9 @@ Tests:
     рӯпитаӈкве+V+Act+Imprt+ScPl2+OcDu: [рӯпитэгын, рӯпитэгы̄н]
 
 #Active, imperative,  objective conjugation, plural object
-    рӯпитаӈкве+V+Act+Imprt+ScSg2+OcPl: [рӯпитэн, рӯпитэ̄н]
-    рӯпитаӈкве+V+Act+Imprt+ScDu2+OcPl: [рӯпитэн, рӯпитэ̄н]
-    рӯпитаӈкве+V+Act+Imprt+ScPl2+OcPl: [рӯпитэн, рӯпитэ̄н]
+    рӯпитаӈкве+V+Act+Imprt+ScSg2+OcPl: [рӯпитэн, рӯпитэ̄н, рӯпитэ̄нын]
+    рӯпитаӈкве+V+Act+Imprt+ScDu2+OcPl: [рӯпитэн, рӯпитэ̄н, рӯпитэ̄нын]
+    рӯпитаӈкве+V+Act+Imprt+ScPl2+OcPl: [рӯпитэн, рӯпитэ̄н, рӯпитэ̄нын]
 
 #Passive, present tense, indicative
     рӯпитаӈкве+V+Pass+Ind+Prs+ScSg1: рӯпитавем
@@ -191,15 +191,15 @@ Tests:
     рӯпитаӈкве+V+Pass+Ind+Prt+ScPl3: рӯпитаве̄сыт
 
 #Passive, conditional
-    рӯпитаӈкве+V+Pass+Cond+ScSg1: [рӯпитанувем, рӯпитанӯвем]
-    рӯпитаӈкве+V+Pass+Cond+ScSg2: [рӯпитанувен, рӯпитанӯвен]
-    рӯпитаӈкве+V+Pass+Cond+ScSg3: [рӯпитануве, рӯпитанӯве]
+    рӯпитаӈкве+V+Pass+Cond+ScSg1: рӯпитанувем
+    рӯпитаӈкве+V+Pass+Cond+ScSg2: рӯпитанувен
+    рӯпитаӈкве+V+Pass+Cond+ScSg3: рӯпитануве
     рӯпитаӈкве+V+Pass+Cond+ScDu1: рӯпитанувеме̄н
     рӯпитаӈкве+V+Pass+Cond+ScDu2: [рӯпитанувен, рӯпитануве̄н]
-    рӯпитаӈкве+V+Pass+Cond+ScDu3: [рӯпитанувег, рӯпитануве̄г]
+    рӯпитаӈкве+V+Pass+Cond+ScDu3: рӯпитануве̄г
     рӯпитаӈкве+V+Pass+Cond+ScPl1: рӯпитануве̄в
     рӯпитаӈкве+V+Pass+Cond+ScPl2: [рӯпитанувен, рӯпитануве̄н]
-    рӯпитаӈкве+V+Pass+Cond+ScPl3: [рӯпитанувет, рӯпитанӯвет]
+    рӯпитаӈкве+V+Pass+Cond+ScPl3: рӯпитанувет
 
 #Passive, imperative conjugation
     рӯпитаӈкве+V+Pass+Imprt+Sg2: рӯпитавен
@@ -208,71 +208,71 @@ Tests:
 
 #Present participle
     рӯпитаӈкве+V+PrsPrc: рӯпитанэ
-    рӯпитаӈкве+V+PrsPrc+PxSg1: [рӯпитанэм, рӯпитанэ̄м]
-    рӯпитаӈкве+V+PrsPrc+PxSg2: [рӯпитанэн, рӯпитанэ̄н]
+    рӯпитаӈкве+V+PrsPrc+PxSg1: рӯпитанэм
+    рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитанэн
     рӯпитаӈкве+V+PrsPrc+PxSg3: рӯпитанэ̄тэ
     рӯпитаӈкве+V+PrsPrc+PxDu1: рӯпитанэме̄н
-    рӯпитаӈкве+V+PrsPrc+PxDu2: рӯпитанэнэ̄н
-    рӯпитаӈкве+V+PrsPrc+PxDu3: [рӯпитанэг, рӯпитанӭг]
+    рӯпитаӈкве+V+PrsPrc+PxDu2: [рӯпитанэн, рӯпитанэ̄н]
+    рӯпитаӈкве+V+PrsPrc+PxDu3: рӯпитанэтэ̄н
     рӯпитаӈкве+V+PrsPrc+PxPl1: [рӯпитанэв, рӯпитанэ̄в]
-    рӯпитаӈкве+V+PrsPrc+PxPl2: [рӯпитанэнэ̄н, рӯпитанэнэ̄н]
-    рӯпитаӈкве+V+PrsPrc+PxPl3: [рӯпитанэт, рӯпитанэ̄т]
+    рӯпитаӈкве+V+PrsPrc+PxPl2: [рӯпитанэн, рӯпитанэ̄н]
+    рӯпитаӈкве+V+PrsPrc+PxPl3: рӯпитанэныл
 
 #Present participle, single object
     рӯпитаӈкве+V+PrsPrc+PxSg1: рӯпитанэ̄лум
-    рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитанэ̄лн
+    рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитанэ̄лын
     рӯпитаӈкве+V+PrsPrc+PxSg3: рӯпитанэ̄тэ
     рӯпитаӈкве+V+PrsPrc+PxDu1: рӯпитанэламе̄н
-    рӯпитаӈкве+V+PrsPrc+PxDu2: рӯпитанэлы̄н
+    рӯпитаӈкве+V+PrsPrc+PxDu2: [рӯпитанэ̄лын, рӯпитанэлы̄н]
     рӯпитаӈкве+V+PrsPrc+PxDu3: рӯпитанэтэ̄н
-    рӯпитаӈкве+V+PrsPrc+PxPl1: [рӯпитанэлув, рӯпитанэлӯв]
-    рӯпитаӈкве+V+PrsPrc+PxPl2: рӯпитанэлы̄н
-    рӯпитаӈкве+V+PrsPrc+PxPl3: [рӯпитанэ̄нл, рӯпитанэ̄ныл]
+    рӯпитаӈкве+V+PrsPrc+PxPl1: рӯпитанэлув
+    рӯпитаӈкве+V+PrsPrc+PxPl2: [рӯпитанэ̄лын, рӯпитанэлы̄н]
+    рӯпитаӈкве+V+PrsPrc+PxPl3: рӯпитанэ̄ныл
 
 #Present participle, dual object
     рӯпитаӈкве+V+PrsPrc+PxSg1: рӯпитанэ̄гум
-    рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитанэ̄гн
+    рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитанэ̄гын
     рӯпитаӈкве+V+PrsPrc+PxSg3: рӯпитанэ̄гэ
     рӯпитаӈкве+V+PrsPrc+PxDu1: рӯпитанэгаме̄н
-    рӯпитаӈкве+V+PrsPrc+PxDu2: рӯпитанэгы̄н
+    рӯпитаӈкве+V+PrsPrc+PxDu2: [рӯпитанэ̄гын, рӯпитанэгы̄н]
     рӯпитаӈкве+V+PrsPrc+PxDu3: рӯпитанэгэ̄н
-    рӯпитаӈкве+V+PrsPrc+PxPl1: [рӯпитанэгув, рӯпитанэгӯв]
-    рӯпитаӈкве+V+PrsPrc+PxPl2: рӯпитанэгагы̄н
-    рӯпитаӈкве+V+PrsPrc+PxPl3: рӯпитанэгаганыл
+    рӯпитаӈкве+V+PrsPrc+PxPl1: рӯпитанэгув
+    рӯпитаӈкве+V+PrsPrc+PxPl2: [рӯпитанэ̄гын, рӯпитанэгагы̄н]
+    рӯпитаӈкве+V+PrsPrc+PxPl3: рӯпитанэганыл
 
 #Present participle, plural object
     рӯпитаӈкве+V+PrsPrc+PxSg1: рӯпитанэ̄нум
-    рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитанэ̄н
+    рӯпитаӈкве+V+PrsPrc+PxSg2: [рӯпитанэ̄нын, рӯпитанэ̄н]
     рӯпитаӈкве+V+PrsPrc+PxSg3: рӯпитанэ̄нэ
     рӯпитаӈкве+V+PrsPrc+PxDu1: [рӯпитанэнаме̄н, рӯпитанэнанме̄н]
     рӯпитаӈкве+V+PrsPrc+PxDu2: [рӯпитанэны̄н, рӯпитанэныны̄н, рӯпитанэнаны̄н] 
     рӯпитаӈкве+V+PrsPrc+PxDu3: [рӯпитанэнэ̄н, рӯпитанэнанэ̄н]
-    рӯпитаӈкве+V+PrsPrc+PxPl1: [рӯпитанэнув, рӯпитанэнӯв, рӯпитанэнанув, рӯпитанэнанӯв]
+    рӯпитаӈкве+V+PrsPrc+PxPl1: [рӯпитанэнув, рӯпитанэнанув]
     рӯпитаӈкве+V+PrsPrc+PxPl2: [рӯпитанэны̄н, рӯпитанэнаны̄н]
-    рӯпитаӈкве+V+PrsPrc+PxPl3: [рӯпитанэ̄нл, рӯпитанэ̄наныл]
+    рӯпитаӈкве+V+PrsPrc+PxPl3: [рӯпитанэ̄ныл, рӯпитанэ̄наныл]
 
 #Past participle
     рӯпитаӈкве+V+PrfPrc: рӯпитам
     рӯпитаӈкве+V+PrfPrc+PxSg1: рӯпитамум
     рӯпитаӈкве+V+PrfPrc+PxSg2: рӯпитамын
-    рӯпитаӈкве+V+PrfPrc+PxSg3: рӯпитаме
+    рӯпитаӈкве+V+PrfPrc+PxSg3: рӯпитаме 
     рӯпитаӈкве+V+PrfPrc+PxDu1: рӯпитамаме̄н
     рӯпитаӈкве+V+PrfPrc+PxDu2: [рӯпитамын, рӯпитамы̄н]
     рӯпитаӈкве+V+PrfPrc+PxDu3: рӯпитамыг
-    рӯпитаӈкве+V+PrfPrc+PxPl1: [рӯпитамув, рӯпитамӯв]
+    рӯпитаӈкве+V+PrfPrc+PxPl1: рӯпитамув
     рӯпитаӈкве+V+PrfPrc+PxPl2: [рӯпитамын, рӯпитамы̄н]
     рӯпитаӈкве+V+PrfPrc+PxPl3: рӯпитамыт
 
 #Past participle, single object
-    рӯпитаӈкве+V+PrfPrc+PxSg1: рӯпитамылум
-    рӯпитаӈкве+V+PrfPrc+PxSg2: рӯпитамылын
-    рӯпитаӈкве+V+PrfPrc+PxSg3: рӯпитамытэ
-    рӯпитаӈкве+V+PrfPrc+PxDu1: рӯпитамыламе̄н
-    рӯпитаӈкве+V+PrfPrc+PxDu2: рӯпитамылы̄н
-    рӯпитаӈкве+V+PrfPrc+PxDu3: рӯпитамытэ̄н
-    рӯпитаӈкве+V+PrfPrc+PxPl1: [рӯпитамылув, рӯпитамылӯв]
-    рӯпитаӈкве+V+PrfPrc+PxPl2: рӯпитамылы̄н
-    рӯпитаӈкве+V+PrfPrc+PxPl3: рӯпитаманыл
+    рӯпитаӈкве+V+PrfPrc+PxSg1: рӯпитамлум
+    рӯпитаӈкве+V+PrfPrc+PxSg2: рӯпитамлын
+    рӯпитаӈкве+V+PrfPrc+PxSg3: рӯпитамтэ
+    рӯпитаӈкве+V+PrfPrc+PxDu1: рӯпитамламе̄н
+    рӯпитаӈкве+V+PrfPrc+PxDu2: рӯпитамлын рӯпитамлы̄н
+    рӯпитаӈкве+V+PrfPrc+PxDu3: рӯпитамтэ̄н
+    рӯпитаӈкве+V+PrfPrc+PxPl1: рӯпитамлув
+    рӯпитаӈкве+V+PrfPrc+PxPl2: рӯпитамлын рӯпитамлы̄н
+    рӯпитаӈкве+V+PrfPrc+PxPl3: рӯпитамныл
 
 #Past participle, dual object
     рӯпитаӈкве+V+PrfPrc+PxSg1: рӯпитамагум
@@ -280,7 +280,7 @@ Tests:
     рӯпитаӈкве+V+PrfPrc+PxSg3: рӯпитамаге
     рӯпитаӈкве+V+PrfPrc+PxDu1: [рӯпитамагаме̄н, рӯпитамагагме̄н]
     рӯпитаӈкве+V+PrfPrc+PxDu2: [рӯпитамагы̄н, рӯпитамагагы̄н]
-    рӯпитаӈкве+V+PrfPrc+PxDu3: [рӯпитамагы̄г, рӯпитамагагы̄г]
+    рӯпитаӈкве+V+PrfPrc+PxDu3: [рӯпитамагы̄н, рӯпитамагагы̄н]
     рӯпитаӈкве+V+PrfPrc+PxPl1: [рӯпитамагув, рӯпитамвгӯв]
     рӯпитаӈкве+V+PrfPrc+PxPl2: [рӯпитамагы̄н, рӯпитамагагы̄н]
     рӯпитаӈкве+V+PrfPrc+PxPl3: [рӯпитамагагыл, рӯпитамагаганыл]
@@ -292,7 +292,7 @@ Tests:
     рӯпитаӈкве+V+PrfPrc+PxDu1: [рӯпитаманаме̄н, рӯпитамананме̄н]
     рӯпитаӈкве+V+PrfPrc+PxDu2: [рӯпитаманн, рӯпитаманы̄н, рӯпитамананы̄н]
     рӯпитаӈкве+V+PrfPrc+PxDu3: [рӯпитаманэ̄н, рӯпитамананэ̄н]
-    рӯпитаӈкве+V+PrfPrc+PxPl1: [рӯпитаманув, рӯпитаманӯв, рӯпитамананув, рӯпитамананӯв]
+    рӯпитаӈкве+V+PrfPrc+PxPl1: [рӯпитаманув, рӯпитамананув]
     рӯпитаӈкве+V+PrfPrc+PxPl2: [рӯпитаманы̄н, рӯпитамананы̄н]
     рӯпитаӈкве+V+PrfPrc+PxPl3: [рӯпитама̄ныл, рӯпитамана̄ныл]
 
@@ -302,10 +302,10 @@ Tests:
     рӯпитаӈкве+V+PrsPrc+PxSg2: рӯпитыман
     рӯпитаӈкве+V+PrsPrc+PxSg3: рӯпитыма
     рӯпитаӈкве+V+PrsPrc+PxDu1: рӯпитымаме̄н
-    рӯпитаӈкве+V+PrsPrc+PxDu2: рӯпитыман
+    рӯпитаӈкве+V+PrsPrc+PxDu2: [рӯпитыман, рӯпитыман]
     рӯпитаӈкве+V+PrsPrc+PxDu3: рӯпитнсымаг
     рӯпитаӈкве+V+PrsPrc+PxPl1: рӯпитымав
-    рӯпитаӈкве+V+PrsPrc+PxPl2: рӯпитыман
+    рӯпитаӈкве+V+PrsPrc+PxPl2: [рӯпитыман, рӯпитыман]
     рӯпитаӈкве+V+PrsPrc+PxPl3: рӯпитымат
 
 #Privative
