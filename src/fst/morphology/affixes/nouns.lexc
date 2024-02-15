@@ -106,6 +106,8 @@ LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 
 LEXICON N_VO_rus100 !!≈ * @CODE@
 +Use/SpellNoSugg: N_VO ;
+LEXICON N_VO_rusmns !!≈ * @CODE@ slightly Mansi-like
++Use/SpellNoSugg: N_VO ;
 LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 ! Test data:
 !!€gt-norm: ма̄ #
