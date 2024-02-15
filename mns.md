@@ -498,6 +498,7 @@ The stem vowel alternation is taken care of in the twolc file.
 * LEXICON N_VI Stems ending in и ы: а̄ви
 
 * LEXICON N_VO_rus100
+* LEXICON N_VO_rusmns slightly Mansi-like
 * LEXICON N_VO Stems ending in other vowels ӯра
 
 * ма̄ # examples:*
