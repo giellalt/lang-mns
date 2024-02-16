@@ -49,6 +49,11 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 gt-norm fst(s): PASSES: 8394 / FAILS: 2078 / TOTAL: 10472
 gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 
+240216
+gt-norm fst(s): PASSES: 8352 / FAILS: 2148 / TOTAL: 10500
+gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
+
+
 ```
 
 
