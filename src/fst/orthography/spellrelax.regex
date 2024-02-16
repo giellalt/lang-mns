@@ -43,7 +43,7 @@
 Ӣ (->) {Ӣ}, # precomposed (->) Cyrillic И + U+0304 
 ӣ (->) {ӣ}, # precomposed (->) Cyrillic и + U+0304 
 Ӯ (->) {Ӯ}, # precomposed (->) Cyrillic у + U+0304 
-ӯ (->) {ӯ}, # precomposed (->) Cyrillic у + U+0304 
+ӯ (->) {ӯ}, # precomposed (->) Cyrillic у + U+0304
 
 
 # New vs. old orthography (move this to spellrelax-mobile?
