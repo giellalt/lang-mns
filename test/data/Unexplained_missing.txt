@@ -281,3 +281,17 @@ I'll work on solving these ones:
 
 
 
+Ща̄ньтем э̄ргум э̄рге ам та э̄ргалтамлум.
+Ща̄нь-те-м э̄рг-ум э̄рг-е ам та э̄ргалт-ам-лум.
+mother-dim-PxSg1 sing-PrfPrc song-PxSg3 Sg.1 thus sing-PrfPrc-PxSg1.OcSg
+Here, I was singing the song sung by my mom.
+
+Минаме̄н мус акв а̄гитэ колэ̄н масхатуӈкв ха̄йтталас, ма̄нь писале матрыг ёт а̄лмаямтэ.
+Мин-ам-е̄н мус акв а̄ги-тэ кол-э̄-н масхатуӈкв ха̄йттал-ас, ма̄нь писал-е матрыг ёт а̄лмая-м-тэ.
+go-PrfPrc-? until one girl-PxSg3(Det) house-PxSg3(Det)-Lat run-Prt.ScSg3 small gun-PxSg3(Det) for.some.reason with pick.up-PrfPrc-PxSg3.OcSg
+Before they left, one of the girls run into the house to grab the small gun with her, for some reason.
+
+Ты э̄лыпа̄лт нэ̄глум «Лӯима̄ сэ̄рипос» газетат (№22) Людмила Алгадьева хансум статьятэ̄т («Ма̄ньщи газетав янытлаӈкве са̄в хо̄тпа ёхталас») тав ам потрум атнув торгамтамтэ.
+Ты э̄лы-па̄л-т нэ̄гл-ум «Лӯима̄ сэ̄рипос» газета-т (№22) Людмила Алгадьева ханс-ум статья-тэ̄-т («Ма̄ньщи газета-в янытлаӈкве са̄в хо̄тпа ёхтал-ас») тав ам потр-ум ат-нув торгамт-ам-тэ.
+this befor.Loc precede-PrfPrc Luima Seripos newspaper-Loc L. A. write-PrfPrc article-PxSg3-Loc (Mansi newspaper-PxPl1 praise many person arrive-Prt.ScSg3 sg.3 sg.1 speech-PxSg1 no-? understand-PrfPrc-PxSg3.OcSg
+In her article (Many people came to celebrate the jubilee of our Mansi newspaper) in the previous number of Luima Seripos Lyudmila Algadeva didn't quite get what I was saying.
