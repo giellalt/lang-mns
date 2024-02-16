@@ -28,10 +28,10 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 А̄ Е̄ Ё̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ !!≈ * @CODE@ also composed И, У
 !
 !! Vowels with precomposed macron, in the code we use 
-ӣ        !!≈ * @CODE@  йӣквыт
-Ӣ        !!≈ * @CODE@  йӣквыт
-ӯ        !!≈ * @CODE@  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
-Ӯ        !!≈ * @CODE@  CYRILLIC CAPITAL LETTER U WITH MACRON
+!ӣ        !!≈ * @CODE@  йӣквыт
+!Ӣ        !!≈ * @CODE@  йӣквыт
+!ӯ        !!≈ * @CODE@  ӯ  = (1263 ӯ #\CYRILLIC_SMALL_LETTER_U_WITH_MACRON)
+!Ӯ        !!≈ * @CODE@  CYRILLIC CAPITAL LETTER U WITH MACRON
 %+ !!≈ * @CODE@ suffix border
 
 
