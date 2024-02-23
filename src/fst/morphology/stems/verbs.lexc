@@ -3050,6 +3050,9 @@ LEXICON Verbs
 но̄хво̄виньта̄луӈкве+V:но̄хво̄виньта̄л V_U "??" ;
 пе̄рия̄луӈкве+V:пе̄рия̄л V_U "??" ;
 
+кисуӈкве+V:кис V_U "15_odd_добыть" ;
+хасмаӈкве+V:хасм V_A ;
+
 LEXICON Prefixing_verbs
 ! This is where verbs go that can take prefixes
 ! These will need +v1, +v2 variation work
