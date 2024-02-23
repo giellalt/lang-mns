@@ -96,15 +96,8 @@
 @@
 ## error correct
 ## Transition pair specifications + weight:
-а	а̄	1
-е	е̄	1
-о	о̄	1
 и	ӣ	1
 у	ӯ	1
-я	я̄	1
-э	э̄	1
-ы	ы̄	1
-ю 	ю̄	1
 н	ӈ 	4
 
 ## Swaps. NB! Please note that these depend on the variable
