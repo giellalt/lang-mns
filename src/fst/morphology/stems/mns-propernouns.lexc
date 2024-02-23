@@ -375,11 +375,11 @@ LEXICON PROP_MANSINAMES
 Алы% Ня̄рихумит+N+Prop:Алы% Ня̄рихумит N_VCH ;
 Висумтит+N+Prop:Висумтит N_VCH ;
 Голошубин+N+Prop:Голошубин N_VCH ;
-ООН+N+Prop:ООН N_VCH ;
 Та̄нварпэ̄ква+N+Prop:Та̄нварпэ̄ква N_VO ;
 Киснёлпэ̄ква+N+Prop:Киснёлпэ̄ква N_VO ;
 Кирпнёлпэ̄ква+N+Prop:Кирпнёлпэ̄ква N_VO ;
 Ассамблея+N+Prop:Ассамблея N_VO ;
-ЮГУ+N+Prop:ЮГУ N_VO ;
-ЮНЕСКО+N+Prop:ЮНЕСКО N_VO ;
-ЕГЭ+N+Prop:ЕГЭ N_VO ;
+
+
+Ярославль+N+Prop+Sem/Plc:Ивдель N_VCS ;
+Буксина+N+Prop:Кондина N_VO ;
