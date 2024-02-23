@@ -381,5 +381,5 @@ LEXICON PROP_MANSINAMES
 Ассамблея+N+Prop:Ассамблея N_VO ;
 
 
-Ярославль+N+Prop+Sem/Plc:Ивдель N_VCS ;
-Буксина+N+Prop:Кондина N_VO ;
+Ярославль+N+Prop+Sem/Plc:Ярославль N_VCS ;
+Буксина+N+Prop:Буксина N_VO ;
