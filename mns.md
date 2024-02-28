@@ -1781,9 +1781,10 @@ _rus100 segment is added, e.g., буква+N:буква N_VO_rus100
 **LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
 new nouns from translative case attestation. Csilla check nouns below. 20230522
-* а̄вгуст+N:а̄вгуст N_VCCH "август" ;
+
+* а̄вгуст+N:а̄вгуст N_VCCH "август" ;!dublet?
 * а̄ви+N:а̄ви N_VI "вход /место/" ;
-* а̄врах+N:а̄врах N_VCH "обрыв" ;
+* а̄врах+N:а̄врах N_VCH "обрыв" ;!dublet?
 * а̄втор+N:а̄втор N_VCH "автор" ;
 * а̄ги+v1+N:а̄ги N_VI "дочь" ;
 * а̄ги+v2+N:аги N_VI "дочь" ;
@@ -1791,12 +1792,12 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 * а̄гм+N:а̄гм N_VCCH "боль" ; CHECKME
 * а̄гум+N:а̄гум N_SYNCH "болезнь" ;
 * а̄кань+N:а̄кань N_VCS "кукла" ;
-* а̄кв+N:а̄кв N_VCCH "тётя" ; Compare consonant-final
-* а̄ква+N:а̄ква N_VO "тётя" ; Compare vowel-final
+* а̄кв+N:а̄кв N_VCCH "тётя" ; Compare consonant-final!dublet?
+* а̄ква+N:а̄ква N_VO "тётя" ; Compare vowel-final!dublet?
 * аквщос+N:аквщос N_VCH ; CHECKME
 * а̄мп+N:а̄мп N_VCCH "собака" ;
 * а̄ӈквпыг+N:а̄ӈкв#пыг N_NOSYNCH "брат /двоюродный//по материнской линии/" ; CHECKME
-* а̄па+N:а̄па N_VO "люлька" ;
+* а̄па+N:а̄па N_VO "люлька" ;!dublet?
 * а̄рталь+N:а̄рталь N_VCS "семья" ;
 * а̄ртмил+N:а̄ртмил N_VCH "удача" ;
 * вла̄сть+v1+N:вла̄сть N_VCCS "власть" ; CHECKME
