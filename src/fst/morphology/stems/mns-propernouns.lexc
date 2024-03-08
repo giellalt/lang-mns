@@ -383,3 +383,5 @@ LEXICON PROP_MANSINAMES
 Буксина+N+Prop:Буксина N_VO ;
 
 Росгвардия+N+Prop:Росгвардия N_VO ;
+
+Ханты% ясанг+N+Prop:Ханты% ясанг N_VCCH "" ;
