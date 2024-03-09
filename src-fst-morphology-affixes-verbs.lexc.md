@@ -21,6 +21,8 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 **LEXICON V_U2C** 
 
+**LEXICON V_Y/U** 
+
 **LEXICON V_A** 
 
 * **LEXICON V11_MUTUAL** 
