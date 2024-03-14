@@ -1,0 +1,55 @@
+Verb - ханищтахтуӈкве: # Verb 'to work' - full paradigm
+    ханищтахтуӈкве+V+Inf: [ханищтахтуӈкве, ханищтахтуӈкв]
+
+#Active, present tense, indicative, subjective conjugation
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScSg1: ханищтахтэ̄гум
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScSg3: ханищтахты
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScDu3: ханищтахтэ̄г
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScPl1: ханищтахтэ̄в
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScPl2: ханищтахтэгы̄н
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScPl3: ханищтахтэ̄гыт
+
+#Active, present tense, indicative, objective conjugation, plural object
+    ханищтахтуӈкве+V+Act+Ind+Prs+ScPl3+OcPl: ханищтахтыянӯв
+
+#Active, past tense, indicative, subjective conjugation
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScSg1: ханищтахтасум
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScSg2: ханищтахтасын
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScSg3: ханищтахтас
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScDu1: ханищтахтасме̄н
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScDu3: ханищтахтасы̄г
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScPl1: ханищтахтасӯв
+    ханищтахтуӈкве+V+Act+Ind+Prt+ScPl3: ханищтахтасыт
+
+#Active, conditional, subjective conjugation
+    ханищтахтуӈкве+V+Act+Cond+ScPl3: ханищтахтынувыт
+
+#Active, imperative, subjective conjugation
+    ханищтахтуӈкве+V+Act+Imprt+ScSg2: ханищтахтэн
+    ханищтахтуӈкве+V+Act+Imprt+ScPl2: ханищтахтэ̄н
+
+#Passive, present tense, indicative
+    ханищтахтуӈкве+V+Pass+Ind+Prs+ScPl3: ханищтахтавет
+
+#Present participle
+    ханищтахтуӈкве+V+PrsPrc: [ханищтахтын, ханищтахтан]
+    ханищтахтуӈкве+V+PrsPrc+PxSg1: ханищтахтынэм
+    ханищтахтуӈкве+V+PrsPrc+PxSg3: ханищтахтынэ̄тэ
+    ханищтахтуӈкве+V+PrsPrc+PxDu3: ханищтахтынэ̄тэ̄н
+    ханищтахтуӈкве+V+PrsPrc+PxPl3: ханищтахтынэ̄ныл
+
+#Past participle
+    ханищтахтуӈкве+V+PrfPrc: [ханищтахтам, ханищтахтум]
+    ханищтахтуӈкве+V+PrfPrc+PxSg1: ханищтахтамум
+    ханищтахтуӈкве+V+PrfPrc+PxSg1+Loc: ханищтахтамумт
+    ханищтахтуӈкве+V+PrfPrc+PxSg3: ханищтахтаме
+    ханищтахтуӈкве+V+PrfPrc+PxSg3+Loc: [ханищтахтме̄т, ханищтахтаме̄т]
+    ханищтахтуӈкве+V+PrfPrc+PxDu1: [ханищтахтаме̄н, ханищтахтамуме̄н] !This second one looks awkward too. I would have preferred ханищтахтуме̄н, but I found several амуме̄н in the corpus.
+    ханищтахтуӈкве+V+PrfPrc+PxDu3: ханищтахтамы̄г
+    ханищтахтуӈкве+V+PrfPrc+PxPl1: ханищтахтамув
+    ханищтахтуӈкве+V+PrfPrc+PxPl1+Loc: ханищтахтамувт
+    ханищтахтуӈкве+V+PrfPrc+PxPl2: ханищтахтамын
+    ханищтахтуӈкве+V+PrfPrc+PxPl3: ханищтахтамыт
+    
+#Past participle, plural object
+    ханищтахтуӈкве+V+PrfPrc+PxPl3: ханищтахтаманыл
