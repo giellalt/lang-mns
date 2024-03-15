@@ -44,7 +44,7 @@ Verb - ханищтахтуӈкве: # Verb 'to work' - full paradigm
     ханищтахтуӈкве+V+PrfPrc+PxSg1+Loc: ханищтахтамумт
     ханищтахтуӈкве+V+PrfPrc+PxSg3: ханищтахтаме
     ханищтахтуӈкве+V+PrfPrc+PxSg3+Loc: [ханищтахтме̄т, ханищтахтаме̄т]
-    ханищтахтуӈкве+V+PrfPrc+PxDu1: [ханищтахтаме̄н, ханищтахтамуме̄н] !This second one looks awkward too. I would have preferred ханищтахтуме̄н, but I found several амуме̄н in the corpus.
+    ханищтахтуӈкве+V+PrfPrc+PxDu1: [ханищтахтаме̄н, ханищтахтамуме̄н] !This second one looks awkward. I would have preferred ханищтахтуме̄н, but I found several амуме̄н in the corpus.
     ханищтахтуӈкве+V+PrfPrc+PxDu3: ханищтахтамы̄г
     ханищтахтуӈкве+V+PrfPrc+PxPl1: ханищтахтамув
     ханищтахтуӈкве+V+PrfPrc+PxPl1+Loc: ханищтахтамувт
