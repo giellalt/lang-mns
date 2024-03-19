@@ -301,13 +301,13 @@ LEXICON JOXTUNGKVE
 :%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
 :%{VU%} ACT_IND_PRS_VU ;
-:%{VU%} ACT_IND_PRT_OCDU/PL_VU ;!cf U2C with %{VU%}ы
+:ы%{VU%} ACT_IND_PRT_OCDU/PL_VU ;!cf U2C with %{VU%}
 :%{VU%} ACT_IMPRT_VU ;!all
 :%{VU%} ACT_COND_VU ;!all
 
-:ы%{VU%} ACT_IND_PRT_SC_VU ; ! ёхтысум!cf U2C %{VU%}ы
+:ы%{VU%} ACT_IND_PRT_SC_VU ; ! ёхтысум!cf U2C %{VU%}
 :ы%{VU%} ACT_IND_PRT_OCSG_slameen ; ! ёхтысаныл the plural is specialCHECKME !cf U2C %{VU%}
-:%{VU%} PASS_PRT ;!cf U2C %{VU%}у
+:%{VU%}у PASS_PRT ;!cf U2C %{VU%}
 :%{VU%}%>%{аяØ%} PASS_PRS_VU ;
 :%{VU%} PASS_COND ;
 
@@ -370,16 +370,16 @@ LEXICON V_U2C !This has two consonants before -уӈкве (voiced)
 :%{VU%} ACT_IND_PRS_VU ;!2023-11-18
 
 
-:%{VU%}ы ACT_IND_PRT_OCDU/PL_VU ;!2023-11-18
+:%{VU%} ACT_IND_PRT_OCDU/PL_VU ;!2023-11-18 JOXTUNGKVE ы%{VU%}
  
 :%{VU%} ACT_IMPRT_VU ;!all
 :%{VU%} ACT_COND_VU ;!all
-:%{VU%}ы ACT_IND_PRT_SC_VU ;!2023-11-18
+:%{VU%} ACT_IND_PRT_SC_VU ;!2023-11-18 JOXTUNGKVE ы%{VU%}
 
 :%{VU%} ACT_IND_PRT_OCSG_slameen ;
 +Act+Ind+Prt+ScPl3+OcSg:%{VU%}%>ысаныл VERB_K ;!2023-11-18 NEEDWORK
 
-:%{VU%}у PASS_PRT ;!2023-11-18 
+:%{VU%} PASS_PRT ;!2023-11-18 JOXTUNGKVE %{VU%}у
 :%{VU%}%>%{аяØ%} PASS_PRS_VU ;!CHECKME
 +Err/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
 +Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
