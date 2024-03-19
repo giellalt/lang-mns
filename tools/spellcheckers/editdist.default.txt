@@ -54,8 +54,19 @@
 ## Transition pair specifications + weight:
 и	ӣ	1
 у	ӯ	1
-н	ӈ 	2
+ӣ	и	1
+ӯ	у	1
+ӣ	ы	2
+
+н	ӈ 	4
+ӈ	н	4
 е	э	2
+э	е	2
+
+с	з	3
+з	с	3
+ы	и	3
+и	ы	3
 
 ## Swaps. NB! Please note that these depend on the variable
 ## USE_SWAPS in Makefile.am in this directory. Also note that
