@@ -1,3 +1,6 @@
 #error:correct<tab>value
 на:н	1
 аӈ:а	4
+н:ын	2
+л:ыл	2
+т:ыт	2
