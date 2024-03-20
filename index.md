@@ -35,6 +35,7 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 - [Work plan](workplan.md)
 - [Project plan](projectplan.md)
 - [Open issues concerning participles](participles.md)
+- [Verbal inflection](Verbal_inflection.md)
 
 ### Testing diaries
 
