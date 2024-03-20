@@ -1022,14 +1022,6 @@ LEXICON Verbs
 нортуӈкве+V:норт V_U2C "23_odd_разложить /шкуру//ковёр/" ;
 нортхатуӈкве+V:нортхат V_U "13_even_стелиться" ;
  !These should be segmented as но̄х-Verb
-!но̄ха̄лмыглаӈкве+V:но̄ха̄лмыгл V_A ;
-!но̄хаса̄нтуӈкве+V:но̄хаса̄нт V_U2C "23_odd_прихрамывать" ;
-!но̄хва̄руӈкве+V:но̄хва̄р V_U ;
-!но̄хво̄виньта̄луӈкве+V:но̄хво̄виньта̄л V_U "??" ;
-!но̄хё̄сыглаӈкве+V:но̄хё̄сыгл V_A ;
-!но̄хква̄лтапа̄луӈкве+V:но̄хква̄лтапа̄л V_U "??" ;
-!но̄хлаплуӈкве+V:но̄хлапл V_Y/U ;
-!но̄хлю̄льсаӈкве+V:но̄хлю̄льс V_A ;
 !но̄хнё̄туӈкве+V:но̄хнё̄т V_U ;
 !но̄хнё̄тыглаӈкве+V:но̄хнё̄тыгл V_A ;
 !но̄хпатыглаӈкве+V:но̄хпатыгл V_A ;
@@ -3305,17 +3297,23 @@ LEXICON Prefixing_verbs
 @U.VPref.naaluw@на̄лув-хулитахтуӈкве+V:@U.VPref.naaluw@хулитахт JOXTUNGKVE "23_odd_отчаливать /от берега/" ;
 @U.VPref.noox@но̄х-а̄лмаяӈкве+V:@U.VPref.noox@а̄лмай V_A "12_even_вскинуть " ;
 @U.VPref.noox@но̄х-а̄лмуӈкве+V:@U.VPref.noox@а̄лм V_U "21_odd_поднять" ;
+@U.VPref.noox@но̄х-а̄лыгмлаӈкве+V:@U.VPref.noox@а̄лыгмл V_A "13_odd_поднимать" ;
 @U.VPref.noox@но̄х-а̄лыгмла̄луӈкве+V:@U.VPref.noox@а̄лыгмла̄л V_U "13_odd_поднимать" ;
+@U.VPref.noox@но̄х-аса̄нтуӈкве+V::@U.VPref.noox@аса̄нт V_U2C "23_odd_прихрамывать" ;
 @U.VPref.noox@но̄х-атуӈкве+V:@U.VPref.noox@ат V_U "13_odd_подобрать /собрать снизу/" ;
 @U.VPref.noox@но̄х-ва̄ӈкантаӈкве+V:@U.VPref.noox@ва̄ӈкант V_A "23_even_выкарабкаться " ;
+@U.VPref.noox@но̄х-ва̄руӈкве+V:@U.VPref.noox@ва̄р V_U ;
 @U.VPref.noox@но̄х-виӈкве+V:@U.VPref.noox@ VINGKVE ;
+@U.VPref.noox@но̄х-во̄виньта̄луӈкве+V:@U.VPref.noox@во̄виньта̄л V_U "??" ;
 @U.VPref.noox@но̄х-во̄вуӈкве+V:@U.VPref.noox@во̄в V_U "11_odd_призвать" ;
 @U.VPref.noox@но̄х-воратаӈкве+V:@U.VPref.noox@ворат V_A "13_even_забраться /с трудом/" ;
 @U.VPref.noox@но̄х-во̄рмалтаӈкве+V:@U.VPref.noox@во̄рмалт V_A ;
 @U.VPref.noox@но̄х-во̄ртхатантаӈкве+V:@U.VPref.noox@во̄ртхатант V_A "23_even_подниматься /с места/" ;
 @U.VPref.noox@но̄х-во̄ртхатуӈкве+V:@U.VPref.noox@во̄ртхат V_U "13_even_подняться /с места/" ;
+@U.VPref.noox@но̄х-ё̄сыглаӈкве+V:@U.VPref.noox@ё̄сыгл V_A ;
 @U.VPref.noox@но̄х-ёхтуӈкве+V:@U.VPref.noox@ёхт JOXTUNGKVE "" ;
 @U.VPref.noox@но̄х-иратаӈкве+V:@U.VPref.noox@ират V_A "13_even_забраться /гурьбой/" ;
+@U.VPref.noox@но̄х-квалапа̄луӈкве+V:@U.VPref.noox@ква̄лтапа̄л V_U "??" ;
 @U.VPref.noox@но̄х-квалапа̄нтуӈкве+V:@U.VPref.noox@квалапа̄нт V_U2C "23_odd_вскакивать " ;
 @U.VPref.noox@но̄х-ква̄лапаӈкве+V:@U.VPref.noox@ква̄лап V_A "11_even_вскочить " ;
 @U.VPref.noox@но̄х-ква̄лттуӈкве+V:@U.VPref.noox@ква̄лтт JOXTUNGKVE "33_odd_поднять /после сна/" ;
@@ -3334,7 +3332,9 @@ LEXICON Prefixing_verbs
 @U.VPref.noox@но̄х-лапая̄лыглаӈкве+V:@U.VPref.noox@лапая̄лыгл V_A "23_even_взвиваться " ;
 @U.VPref.noox@но̄х-лаплантаӈкве+V:@U.VPref.noox@лаплант V_A "23_even_повышать /делать высоким/" ;
 @U.VPref.noox@но̄х-лаплаӈкве+V:@U.VPref.noox@лапл V_A "23_even_повысить /сделать высоким/" ;
+@U.VPref.noox@но̄х-лаплуӈкве+V:@U.VPref.noox@лапл V_Y/U ;
 @U.VPref.noox@но̄х-лаплахтуӈкве+V:@U.VPref.noox@лаплахт JOXTUNGKVE "23_even_привстать" ;
+@U.VPref.noox@но̄х-лю̄льсаӈкве+V:@U.VPref.noox@лю̄льс V_A ;
 @U.VPref.noox@но̄х-лапуӈкве+V:@U.VPref.noox@лап V_U "11_odd_взойти /о солнце/" ;
 @U.VPref.noox@но̄х-лапыгла̄луӈкве+V:@U.VPref.noox@лапыгла̄л V_U "13_odd_всходить /осолнце/" ;
 @U.VPref.noox@но̄х-лумщалта̄нтуӈкве+V:@U.VPref.noox@лумщалта̄нт V_U2C "23_odd_раздувать /огонь/" ;
