@@ -722,6 +722,7 @@ LEXICON V_NSHU йинуӈкве
 
 LEXICON V_NSSU о̄ньщуӈкве
 
+LEXICON V_U 
 **LEXICON V_U** 
 
 **LEXICON V_U2C** 
@@ -1008,6 +1009,8 @@ __%{аяØ%}:а__
 __%{аяØ%}:я__
 
 __%{уюØ%}:0__ deletes а/я after VO vowel stems
+* *ва̄р>{VU}>{уюØ}>^RmVow>ме*
+* *ва̄р>0>0>0>ме*
 
 __%{уюØ%}:у__
 ща̄рыщ+N+Sg+Nom+PxSg1: __sea/meri__
@@ -1307,7 +1310,7 @@ __%{VCS%}__ Stem ending in single soft consonant
 __%{VCCS%}__ Stem ending in soft consonant cluster
 __%{VA%}__ -аӈкве verb
 __%{VU%}__ -уӈкве verb
-__%^RmVow__ Word-final vowel removal
+__%^RmVow__ stem-final vowel removal
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following

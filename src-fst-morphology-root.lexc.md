@@ -217,7 +217,7 @@ __%{VCS%}__ Stem ending in single soft consonant
 __%{VCCS%}__ Stem ending in soft consonant cluster
 __%{VA%}__ -аӈкве verb
 __%{VU%}__ -уӈкве verb
-__%^RmVow__ Word-final vowel removal
+__%^RmVow__ stem-final vowel removal
 
 ## Flag diacritics
 We have manually optimised the structure of our lexicon using following
