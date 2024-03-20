@@ -309,7 +309,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 %{VCCS%}	!!≈ __@CODE@__ Stem ending in soft consonant cluster
 %{VA%}	!!≈ __@CODE@__ -аӈкве verb
 %{VU%}	!!≈ __@CODE@__ -уӈкве verb
-%^RmVow	!!≈ __@CODE@__ Word-final vowel removal
+%^RmVow	!!≈ __@CODE@__ stem-final vowel removal
 
 
 

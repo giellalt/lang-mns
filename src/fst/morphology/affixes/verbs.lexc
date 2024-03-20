@@ -335,7 +335,7 @@ LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
 LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
  V_U2C ;!2023-11-18
 
-LEXICON V_U
+LEXICON V_U !!≈ @CODE@ 
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
