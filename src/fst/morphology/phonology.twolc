@@ -382,8 +382,8 @@ Rules
 %{уюØ%}:0 <=> [%{VO%}:]  %> _  ;
             [%{VI%}:]  %> _ м ;
 !VowNoI  %> _  ;
-            Cns  %{VU%} %> _ %^RmVow: ;
-!            Vow Cns %{VU%} %> _ %^RmVow: м ;
+            Cns  %{VU%}: %> _ %^RmVow: ;
+!            Vow Cns %{VU%}: %> _ %^RmVow: м ;
 !!€ ва̄р>{VU}>{уюØ}>^RmVow>ме
 !!€ ва̄р>0>0>0>ме
 
