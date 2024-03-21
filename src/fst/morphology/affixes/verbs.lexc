@@ -255,7 +255,8 @@ LEXICON VINGKVE
 
 :ви V11_MUTUAL_PASS_PRS ;
 
-:вой PASS_PRT ;
+:вой PASS_PRT ;! 
++Use/NG:вуй PASS_PRT ;!
 :ви PASS_COND ;
 :выг PASS_IMPRT_teegveen ;
 :ви PRFPRC_teemanum ;!Will need more 20230622
