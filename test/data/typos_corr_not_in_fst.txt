@@ -1,0 +1,93 @@
+# Divvun & Giellatekno - open source grammars for Sámi and other languages
+# Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+# http://giellatekno.uit.no & http://divvun.no
+#
+# This program is free software; you can redistribute and/or modify
+# this file under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version. The GNU General Public License
+# is found at http://www.gnu.org/licenses/gpl.html. It is
+# also available in the file $GTHOME/LICENSE.txt.
+#
+# Other licensing options are available upon request, please contact
+# giellatekno@uit.no or feedback@divvun.no
+#
+# typos.txt
+# This file contains common typos and their corrections separated by
+# a <tab> character, optionally followed by a comment. That is, the
+# format is: three columns, separated by TAB:
+#
+# Column 1: error word/typo
+# Column 2: correction
+# Column 3: Comment, starting with # or !
+#
+# Example:
+#
+# leif	feil	# This is just an example
+#
+# Corrections that consist of two or more parts are not split
+# further in the preprocessor, because there is no way of knowing
+# whether the token is a multipart expression or not.
+# Beware of removing sentence delimiters (.!?) in correction, since
+# they may indicate sentence boundaries.
+#
+Воратэ̄гумворатэ̄гум	Воратэ̄гум-воратэ̄гум
+О̄лям	Ōлям
+Та̄вн	Та̄ве̄н
+Э̄лумхолас	Э̄лумхо̄лас
+Ята	Я-та
+а̄c-угорский	А̄c-угорский
+а̄тпаг	атпаг
+атхатыгла̄лсэгыт	атхатыгла̄лсэ̄гыт
+ва̄рнэ̄ныл	ва̄рнэныл
+вайке̄гум	ва̄йке̄гум
+вильття̄т	вильтъя̄т
+ке̄рткрыт	ке̄ркрыт
+кивырыт	кивырт
+киттыгтактэ̄гум	китыгтахтэ̄гум
+китхӯрум	кит-хӯрум
+конква̄лсэ̄гум	кон-ква̄лсэ̄гум
+конщерват	консерват
+ла̄тӈынувл	ла̄тӈанувыл
+лагаге	ла̄гаге
+лапантыке̄н	ла̄пантыке̄н
+ма̄нырщирыг	манырщирыг
+маснут	маснӯт
+миннэ̄ныл	миннэныл
+мо̄тмо̄т	мо̄т-мо̄т
+мо̄тсырнуве̄г	мо̄тсырнувег
+мывыт	мигыт
+но̄хёхтумум	но̄х-ёхтумум
+номылматавемхурахлэ̄гум	номылматавем-хурахлэ̄гум
+нёвитахтэ̄гумнёвитахтэ̄гум	нёвитахтэ̄гум-нёвитахтэ̄гум
+нётнэг	нё̄тнэ̄г
+о̄вылталыгласыт	о̄вылта̄лыгласыт
+о̄лнэхӯлнэ	о̄лнэ-хӯлнэ
+о̄лэ̄гытхӯлэ̄гыт	о̄лэ̄гыт-хӯлэ̄гыт
+олннё̄тмилыл	олн-нё̄тмилыл
+пиӈалаӈеве	пиӈалаӈкве
+пумщалахтасум	пӯмщалахтасум
+ра̄гата̄лсыт	рагата̄лсыт
+самвитыӈын	самвитыӈыг
+соймы	со̄ймы
+таӈхэ̄гумэ	таӈхе̄гумэ
+товлыӈуйит	товлыӈӯйит
+товтуӈкве	то̄втуӈквеё
+финноугор	финно-угор
+фруктыянув	фруктанув
+хотaм 	холам 
+холасыт	хо̄ласыт
+хонтхатсув	хо̄нтхасув
+хонтэ̄ныт	хо̄нтэ̄ныт
+хонтэ̄ныт	хонтэ̄гыт
+хотпатхатэ̄гум	хот-патхатэ̄гум
+хультуптэлын	хӯльтуптэлын
+хурыг	хуриг
+э̄лум-хо̄лас	э̄лумхо̄лас
+э̄лумхолас	э̄лумхо̄лас
+э̄ргым	э̄ргим
+э̄рмилы	э̄рмиглы
+юипа̄лэ̄т	юи-па̄лэ̄т
+ёлысуп та̄л	ёлысупта̄л
+ёхталыгла̄лэн	ёхталыгла̄лэн
+
