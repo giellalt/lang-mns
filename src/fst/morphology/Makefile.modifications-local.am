@@ -32,7 +32,7 @@ generated_files/urj-Cyrl-$(GTLANG)-propernouns.lexc: \
 	echo "" >> $@ && \
 	echo "! <--- Dump from URJ -->" >> $@ && \
 	echo "" >> $@ && \
-	$(top_srcdir)/src/scripts/urj-$(GTLANG)-conversion.pl $< >> $@
+	$(top_srcdir)/src/fst/scripts/urj-$(GTLANG)-conversion.pl $< >> $@
 else
 generated_files/urj-Cyrl-$(GTLANG)-%.lexc:
 	$(AM_V_at)$(MKDIR_P) generated_files
