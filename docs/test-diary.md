@@ -158,3 +158,14 @@ cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokenis
 231116: 1178
 
 
+# Speller suggestions
+The table shows the number of typos tested, as well as some data
+for suggestions.
+
+```
+             typos      Avrg pos        % missp        % missp
+             .txt       for corr        in 1st         in top-5     
+-----------------------------------------------------------------
+240405:       395        1.15          59.80          63.10                  
+-----------------------------------------------------------------
+```
