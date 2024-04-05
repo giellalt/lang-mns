@@ -129,6 +129,3 @@ pl x pxpl1 has no variation
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
-
----
-

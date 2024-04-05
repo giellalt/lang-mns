@@ -1,6 +1,10 @@
-# Mansi description 
+# Mansi language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-disambiguator.cg3.md 
 
 
 # N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
@@ -283,7 +287,14 @@ Still no rules written.
 Still no rules written. 
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/disambiguator.cg3](https://github.com/giellalt/lang-mns/blob/main/src/cg3/disambiguator.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 
 * Sets for POS sub-categories
 
@@ -451,13 +462,22 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-mns/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-mansi-lexicon.lexc.md 
+
+
 
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/mansi-lexicon.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/mansi-lexicon.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
 
 # Adjective inflection for Northern Mansi
 
@@ -473,6 +493,8 @@ Almost no work on adjectives yet.
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
 # Adverbs for Northern Mansi
 
 No work on adverbs yet.
@@ -486,6 +508,8 @@ No work on adverbs yet.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection for Mansi
 
@@ -621,6 +645,8 @@ pl x pxpl1 has no variation
 
 ---
 
+# src-fst-morphology-affixes-numerals.lexc.md 
+
 # Numerals for Northern Mansi
 
 No much work on numerals yet.
@@ -637,6 +663,8 @@ No much work on numerals yet.
 
 ---
 
+# src-fst-morphology-affixes-postpositions.lexc.md 
+
 
 # Postposition morphology
 
@@ -648,6 +676,8 @@ No much work on numerals yet.
 
 ---
 
+# src-fst-morphology-affixes-prefixes.lexc.md 
+
 # Prefixes for Northern Mansi verbs
 
 * * *
@@ -655,6 +685,8 @@ No much work on numerals yet.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-pronouns.lexc.md 
 
 # Pronouns for Northern Mansi
 
@@ -665,6 +697,8 @@ This file is (still) not needed, as the personal pronoun forms are listed in the
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 # Proper noun inflection for Northern Mansi
 
@@ -684,6 +718,8 @@ and Mansi-specific names.
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Mansi Symbol affixes
 
@@ -702,6 +738,8 @@ and Mansi-specific names.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Verb inflection for Mansi
 
@@ -759,6 +797,8 @@ Active Indicative Preterite
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-phonology.twolc.md 
 
 # The Mansi morphophonological/twolc rule file
 
@@ -1090,6 +1130,8 @@ __й:0__
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 # Mansi morphological analyser                      
@@ -1674,6 +1716,8 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Adjectives in Mansi
 
 **LEXICON Adjectives**
@@ -1685,6 +1729,8 @@ word classes, or optionally from prefixes:
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adverbs.lexc.md 
 
 # Adverbs
 
@@ -1699,6 +1745,8 @@ ADD ADVERBS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adverbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/adverbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-conjunctions.lexc.md 
 
 
 # Conjunctions in Northern Mansi
@@ -1720,6 +1768,8 @@ so far only 3 of them. Is is important that we distinguish CC from CS
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
 
 # Interjections in Northern Mansi
 
@@ -1733,6 +1783,8 @@ so far only a single one.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-mns-propernouns.lexc.md 
 
 # New propernouns
 
@@ -1754,6 +1806,8 @@ ADD PROPER NOUNS BELOW
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/mns-propernouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/mns-propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Mansi Noun stems
 
@@ -1816,6 +1870,8 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 # Numerals in Northern Mansi
 
 **LEXICON Numerals** to lexicon numera
@@ -1827,6 +1883,8 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-participles.lexc.md 
 
 # Participle stems
 
@@ -1841,6 +1899,8 @@ Just a dummy file.
 
 ---
 
+# src-fst-morphology-stems-postpositions.lexc.md 
+
 # Postpositions
 
 **LEXICON Postpositions** is the lexicon, containing 3 Po so far.
@@ -1852,6 +1912,8 @@ Relator nouns
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/postpositions.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/postpositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 # Pronouns in Northern Mansi
 
@@ -1878,6 +1940,8 @@ The file lists personal pronouns and their lemma + tags.
 
 ---
 
+# src-fst-morphology-stems-verbs.lexc.md 
+
 # Mansi verb stems
 
 ## The lexica themselves
@@ -1895,6 +1959,8 @@ The file lists personal pronouns and their lemma + tags.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2063,6 +2129,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 # Mansi abbreviations                               
@@ -2086,6 +2154,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-date-digit2text.lexc.md 
+
 
 # The Mansi dates 
 
@@ -2100,6 +2170,8 @@ Note!  This file contains Erzya, not Mansi, this should be changed to Mansi.
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-date-digit2text.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/transcriptions/transcriptor-date-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 N O R T H E R N   M A N S I  G R A M M A R   C H E C K E R
@@ -2398,7 +2470,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-mns/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for mns
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-mns/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for mns
 
 Usage:
 ```
@@ -2461,6 +2540,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-mns/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for mns
 
@@ -2525,6 +2606,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -2586,6 +2669,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-mns/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

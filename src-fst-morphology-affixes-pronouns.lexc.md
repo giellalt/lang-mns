@@ -5,6 +5,3 @@ This file is (still) not needed, as the personal pronoun forms are listed in the
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/pronouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/affixes/pronouns.lexc)</small>
-
----
-

@@ -16,6 +16,3 @@ ADD PROPER NOUNS BELOW
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/mns-propernouns.lexc](https://github.com/giellalt/lang-mns/blob/main/src/fst/morphology/stems/mns-propernouns.lexc)</small>
-
----
-
