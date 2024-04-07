@@ -398,19 +398,28 @@ LEXICON N_XUM !!≈ * @CODE@ Special stems
 :%{VCH%} N1_DU ;
 +Du+Nom+PxSg3:иягэ K ; !MORE Work 2024-04-07
 +Sg+Tra:ы̄г K ;
-:ы̄г DU_NOM_K ;
+:ииг DU_NOM_K ;
 +Sg+Nom+PxSg3:итэ K ;
 +Sg+Lat+PxSg3:ытэ̄н K ;
++Sg+Nom+PxDu3:ытэ̄н K ;
 +Du+Nom+PxSg3:ияге K ;
 :%{VCH%} N1_PL ;
 +Pl+Abl+PxSg3:иянэ̄ныл K ;
-:ияныл PL_INS_K ;
-:ия̄ныл PL_INS_K ;
++Pl+Ins+PxDu3:иянэ̄ныл K ;
++Pl+Ins+PxSg2:ияныл K ;
++Pl+Nom+PxPl3:ияныл K ;
++Pl+Ins+PxSg2:ия̄ныл K ;
++Pl+Nom+PxPl3:ия̄ныл K ;
 :ытын PL_LAT_K ;
-+Pl+Lat+PxSg3:ияне̄н K ;
++Pl+Lat+PxSg3+Err/Orth:ияне̄н K ;
 +Pl+Lat+PxSg3:иянэ̄н K ;
-:иянын PL_LAT_K ;
++Pl+Nom+PxDu3+Err/Orth:ияне̄н K ;
++Pl+Nom+PxDu3:иянэ̄н K ;
++Pl+Lat+PxSg2:иянын K ;
++Pl+Nom+PxDu2:иянын K ;
++Pl+Nom+PxPl2:иянын K ;
 +Pl+Lat+PxSg3:иянэн K ;
++Pl+Nom+PxDu3:иянэн K ;
 +Pl+Nom+PxSg1:иянум K ;
 +Pl+Nom+PxSg3:иянэ K ;
 
