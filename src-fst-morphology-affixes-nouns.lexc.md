@@ -26,6 +26,8 @@ The stem vowel alternation is taken care of in the twolc file.
 * LEXICON N_VCH_rus100
 * LEXICON N_VCH Stems ending in single hard consonant
 
+* LEXICON N_XUM Special stems
+
 * LEXICON N_VCCH Stems ending in hard consonant cluster: а̄вгуст
 
 * LEXICON N_VCS Stems ending in single soft consonant
