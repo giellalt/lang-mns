@@ -4,8 +4,8 @@
 
 Explaining the contlex naming convention:
 - V = Vowel, C = Consonant
-- VCH = short hard consonant, CS = soft consonant (ь, щ, ч, й)
-- VCCH = hard consonant cluster, CS = soft consonant cluster (all the rest)
+- VCH = short hard consonant, VCS = soft consonant (ь, щ, ч, й)
+- VCCH = hard consonant cluster, VCCS = soft consonant cluster (all the rest)
 - VI = high vowel и, ы; VO = low or round vowel (all the rest)
 - SYN = synchopy, NOSYN = no synchopy (even though it seemingly should have it)
 
