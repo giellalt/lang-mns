@@ -381,6 +381,71 @@ LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%} DU_X_PXDU1_ajagameen ;
 :%{VCH%} DU_X_PXDU1_ajagamen ;
 
+LEXICON N_XUM !!≈ * @CODE@ Special stems
+:%{VCH%}%>ныл SG_ABL_K ;
+:%{VCH%}%>ыл SG_INS_K ; !
+:%{VCH%}%>н SG_LAT_K ; !
+:%{VCH%}%>т SG_LOC_K ; !
+:%{VCH%} SG_NOM_K ;
+:%{VCH%}%>ыг SG_TRA_K ;!
+:%{VCH%} SG_X_PXSG1_ujum ;
+:%{VCH%} SG_X_PXSG2_yn ;
+:и SG_X_PXSG3_te ;
+:%{VCH%} SG_X_PXSG3_tee ;
+:%{VCH%} SG_X_PXPL1_ujuv ;
+:%{VCH%} SG_X_PXPL3_ajanyl ;
+:%{VCH%} N1_DU ;
++Du+Nom+PxSg3:иягэ K ; !MORE Work 2024-04-07
++Sg+Tra:ы̄г K ;
+:ы̄г DU_NOM_K ;
++Sg+Nom+PxSg3:итэ K ;
++Sg+Lat+PxSg3:ытэ̄н K ;
++Du+Nom+PxSg3:ияге K ;
+:%{VCH%} N1_PL ;
++Pl+Abl+PxSg3:иянэ̄ныл K ;
+:ияныл PL_INS_K ;
+:ия̄ныл PL_INS_K ;
+:ытын PL_LAT_K ;
++Pl+Lat+PxSg3:ияне̄н K ;
++Pl+Lat+PxSg3:иянэ̄н K ;
+:иянын PL_LAT_K ;
++Pl+Lat+PxSg3:иянэн K ;
++Pl+Nom+PxSg1:иянум K ;
++Pl+Nom+PxSg3:иянэ K ;
+
+:%{VCH%} SG_X_PXDU2_yyn ;
+:%{VCH%} SG_X_PXDU2_yn ;
+:%{VCH%} SG_X_PXDU3_een ;
+:%{VCH%} SG_X_PXDU3_en ;
+:%{VCH%} SG_X_PXPL2_yn ;
+:%{VCH%} SG_X_PXPL2_yyn ;
+
+:%{VCH%} DU_X_PXDU1_ajagmeen ;
+:%{VCH%} DU_X_PXDU2_ajagyyn ;
+:%{VCH%} DU_X_PXDU2_ajagyn ;
+:%{VCH%} DU_X_PXDU3_ajageen ;
+:%{VCH%} DU_X_PXDU3_ajagen ;
+:%{VCH%} DU_X_PXPL2_ajagyyn ;
+:%{VCH%} DU_X_PXPL2_ajagyn ;
+
+:%{VCH%} PL_X_PXDU1_ajanameen ;
+:%{VCH%} PL_X_PXDU1_ajanamen ;
+:%{VCH%} PL_X_PXDU2_ajanyyn ;
+:%{VCH%} PL_X_PXDU2_ajanyn ;
+:%{VCH%} PL_X_PXDU2_ajan ;
+:%{VCH%} PL_X_PXDU3_ajaneen ;
+:%{VCH%} PL_X_PXDU3_ajanen ;
+:%{VCH%} PL_X_PXPL2_ajan ;
+:%{VCH%} PL_X_PXPL2_ajanyn ;
+:%{VCH%} PL_X_PXPL2_ajanyyn ;
+:%{VCH%} SG_NOM_PXSG3_e ;
+:%{VCH%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_e ;
+:%{VCH%} SG_ABL/INS/LAT/LOC/TRA_PXSG3_ee ;
+:%{VCH%} SG_X_PXDU1_meen ;
+:%{VCH%} SG_X_PXDU1_men ;
+:%{VCH%} DU_X_PXDU1_ajagameen ;
+:%{VCH%} DU_X_PXDU1_ajagamen ;
+
 LEXICON N_VCCH_rus100
 +Use/SpellNoSugg: N_VCCH ;
 LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
