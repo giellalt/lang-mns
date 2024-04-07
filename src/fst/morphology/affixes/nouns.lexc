@@ -118,6 +118,7 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} N1_DU ;
 :%{VO%} N1_PL ;
 :%{VO%}%>ытыт PL_LOC_K ; ! я̄тыт
+:%{VO%}%>ытын PL_LAT_K ; ! хо̄тпатын
 :%{VO%} N1_SG_X_PXDU_SHORT ;
 :%{VO%} SG_ABL/INS/LAT/LOC_PXDU1_ujumeen ;
 :%{VO%} SG_X_PXDU2_yyn ;
