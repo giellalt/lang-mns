@@ -1,30 +1,47 @@
 # Verb inflection for Mansi
 
+put derivations here
+
+put derivations here
+
+put derivations here
 :йи INF ;
 
+put derivations here
 :лы INF ;
 
+put derivations here
 :ми INF ;
 
+put derivations here
 :ви INF ;
+
+put derivations here
 
 :у INF ;
 
-**LEXICON JOXTUNGKVE** 
+put derivations here
+**LEXICON V0_JOXTUNGKVE** 
 
 ## Stems ending in C
-LEXICON V_NSHU йинуӈкве
+LEXICON NSHU йинуӈкве
 
 LEXICON V_NSSU о̄ньщуӈкве
 
 LEXICON V_U 
-**LEXICON V_U** 
+put derivations here
+LEXICON V0_U 
+**LEXICON V0_U** 
 
-**LEXICON V_U2C** 
+put derivations here
 
-**LEXICON V_Y/U** 
+**LEXICON V0_U2C** 
 
-**LEXICON V_A** 
+put derivations here
+**LEXICON V0_Y/U** 
+
+put derivations here
+**LEXICON V0_A** 
 
 * **LEXICON V11_MUTUAL** 
 	* **LEXICON ACT_IND_PRS_VA**  
