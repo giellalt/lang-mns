@@ -60,7 +60,8 @@
 
 !! ## The lexicon
 LEXICON N_VI_rus100
-+Use/SpellNoSugg: N_VI ;
+!+Use/SpellNoSugg: N_VI ; !  xxx testing without SpellNoSugg (концертн ≥ концертын)
+N_VI ;
 LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 !! put derivations here
  N0_VI ;
