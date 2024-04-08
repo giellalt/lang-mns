@@ -1849,7 +1849,7 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 * а̄втор+N:а̄втор N_VCH "автор" ;
 * а̄ги+v1+N:а̄ги N_VI "дочь" ;
 * а̄ги+v2+N:аги N_VI "дочь" ;
-* а̄гирищ+v1+N:а̄гирищ N_NOSYNCS "девочка" ; CHECKME
+* а̄гирищ+N:а̄гирищ N_NOSYNCS "девочка" ; CHECKME
 * а̄гм+N:а̄гм N_VCCH "боль" ; CHECKME
 * а̄гум+N:а̄гум N_SYNCH "болезнь" ;
 * а̄кань+N:а̄кань N_VCS "кукла" ;
