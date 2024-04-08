@@ -520,33 +520,42 @@ The stem vowel alternation is taken care of in the twolc file.
 
 ## The lexicon
 * LEXICON N_VI Stems ending in и ы: а̄ви
+put derivations here
+* LEXICON N0_VI Stems ending in и ы: а̄ви
 
 * LEXICON N_VO_rus100
 * LEXICON N_VO_rusmns slightly Mansi-like
-* LEXICON N_VO Stems ending in other vowels ӯра
+put derivations here
+* LEXICON N0_VO Stems ending in other vowels ӯра
 
 * ма̄ # examples:*
 * *ма̄тем:* `ма̄+N+Der+Der/Dimin+Sg+Nom+PxSg1`
 
-* LEXICON N_SYNCH Stems with syncopy, hard
+put derivations here
+* LEXICON N0_SYNCH Stems with syncopy, hard
 
-* LEXICON N_SYNCS Stems with syncopy, soft
+put derivations here
+* LEXICON N0_SYNCS Stems with syncopy, soft
 
 * LEXICON N_NOSYNCH Stems without syncopy, hard
 
 * LEXICON N_NOSYNCS Stems without syncopy, soft
 
 * LEXICON N_VCH_rus100
-* LEXICON N_VCH Stems ending in single hard consonant
+put derivations here
+* LEXICON N0_VCH Stems ending in single hard consonant
 
 * LEXICON N_XUM Special stems
 
-* LEXICON N_VCCH Stems ending in hard consonant cluster: а̄вгуст
+put derivations here
+* LEXICON N0_VCCH Stems ending in hard consonant cluster: а̄вгуст
 
-* LEXICON N_VCS Stems ending in single soft consonant
+put derivations here
+* LEXICON N0_VCS Stems ending in single soft consonant
 
 * LEXICON N_VCCS_rus100
-* LEXICON N_VCCS Stems ending in soft consonant cluster
+put derivations here
+* LEXICON N0_VCCS Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
 ### 1. Non-possessive forms 
