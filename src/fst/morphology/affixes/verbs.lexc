@@ -364,6 +364,9 @@ LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
 
 LEXICON V_U !!≈ @CODE@ 
 !! put derivations here
++Der+Der/Vlt+V:%>алт V0_A ;
++Der+Der/Vnt+V:%>ант V0_A ;
++Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
  V0_U ;
 LEXICON V0_U !!≈ @CODE@ 
 !! **LEXICON @LEXNAME@** 
