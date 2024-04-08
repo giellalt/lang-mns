@@ -7,20 +7,20 @@ LEXICON Postpositions
 мус+Po:мус PO_ ;
 сыс+Po:сыс PO_ ;
 ма̄гыс+Po:ма̄гыс PO_ ;
-ма̄гсыл+Po:ма̄гсыл PO_ZERO_OR_PX ;
-кастыл+Po:кастыл PO_ZERO_OR_PX ;
+ма̄гсыл+Po:ма̄гсыл PO_INS_OR_INS_PX ;
+кастыл+Po:кастыл PO_INS_OR_INS_PX ;
 та̄ра+Po:та̄ра PO_ ;
 ёт+Po:ёт PO_ZERO_OR_PX ;
 мус+Po:мус PO_ ;
 хосыт+Po:хосыт PO_ ;
 ултта+Po:ултта PO_ ;
-урыл+Po:урыл PO_ ;
+урыл+Po:урыл PO_INS_OR_INS_PX ;
 ля̄льт+Po:ля̄льт PO_ ;
 торыг+Po:торыг PO_ ;
 мувлахи+Po:мувлахи PO_ ;
 
 !! Relator nouns
-щирыл+Po:щирыл PO_ "Relator noun щир" ;
+щирыл+Po:щирыл PO_INS_OR_INS_PX "Relator noun щир" ;
 
 тармылн+Po:тармылн PO_LAT "в середину" ;
 тармыл+v1+Po:тармыл PO_LOC "в середине" ;
@@ -44,7 +44,7 @@ LEXICON Postpositions
 палныл+Po:палныл PO_ABL "" ;
 
 нумн+Po:нумн PO_LAT "вверх, наверх" ;
-нупыл+Po:нупыл PO_ ;
+нупыл+Po:нупыл PO_INS_OR_INS_PX ;
 нумныл+Po:нумныл PO_ABL "сверху" ;
 
 котильн+Po:котильн PO_LAT "на верхности" ;
@@ -85,7 +85,7 @@ LEXICON Postpositions
 коны-па̄лт+v1+Po:коны-#па̄л PO_LOC_OR_PX_LOC_t "ulkopuolella" ;
 коны-па̄лт+v2+Po:коны#па̄л PO_LOC_OR_PX_LOC_t "ulkopuolella" ;
 нум-па̄лт+v1+Po:нум-#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
-нум-па̄лт+v2+Po:нум#па̄лт PO_LOC "вверху, наверху" ;
+нум-па̄лт+v2+Po:нум#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
 нуми-па̄лт+v1+Po:нуми-#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
 нуми-па̄лт+v2+Po:нуми#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
 сыс-па̄лт+v1+Po:сыс-#па̄л PO_LOC_OR_PX_LOC_t "takana" ;
@@ -93,7 +93,7 @@ LEXICON Postpositions
 э̄лы-па̄лт+v1+Po:э̄лы-#па̄л PO_LOC_OR_PX_LOC_t "edessä" ;
 э̄лы-па̄лт+v2+Po:э̄лы#па̄л PO_LOC_OR_PX_LOC_t "edessä" ;
 юи-па̄лт+v1+Po:юи-#па̄л PO_LOC_OR_PX_LOC_t "?peräkkäin/вслед" ;
-юи-па̄лт+v2+Po:юи#па̄лт PO_LOC_OR_PX_LOC_t "?peräkkäin/вслед" ;
+юи-па̄лт+v2+Po:юи#па̄л PO_LOC_OR_PX_LOC_t "?peräkkäin/вслед" ;
 
 ёмаспа̄лныл+Po:ёмас#па̄лныл PO_ABL "oikealta puolelta" ;
 ёлы-па̄лныл+v1+Po:ёлы-#па̄лныл PO_ABL "alapuolelta" ;
