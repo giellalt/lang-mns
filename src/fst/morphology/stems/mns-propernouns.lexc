@@ -385,3 +385,8 @@ LEXICON PROP_MANSINAMES
 Росгвардия+N+Prop:Росгвардия N_VO ;
 
 Ханты% ясанг+N+Prop:Ханты% ясанг N_VCCH "" ;
+
+Висумтыт+N+Prop:Висумтыт N_VCH ;
+Сакв+N+Prop:Сакв N_VCCH ;
+Евра+N+Prop:Евра N_VO ;
+Щисуп+N+Prop:Щисуп N_VCH ;
