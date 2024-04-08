@@ -1326,7 +1326,10 @@ Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 * **+V→N +V→V +V→A** 
 * **+Der/xxx** 
-* **+Der** 
+* **+Der**
+* **+Der/Vlt** V»V - паргуӈкве 'сыпаться' 'fall' -> паргалтаӈкве 'посеять' 'sprinkle'
+* **+Der/Vnt** V»V - о̄луӈкве 'жить' 'to be, to live, to reside' -> о̄лантаӈкве 'существовать' 'to live, to reside'
+* **+Der/Vasa** V»V - ялуӈкве 'сходить, съездить' 'to go, to travel' -> яласаӈкве 'ходить, ездить' 'to go, to travel (regularly)'
 * **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
 * **+Der/Comp** Comparitive -нув-
 * **+Der/Dimin** Diminutives in -кве (older)/-ке (~ Sosva)/-те (~ Ljapin)
