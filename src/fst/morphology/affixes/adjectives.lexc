@@ -50,9 +50,13 @@ LEXICON A0_VI
 
 LEXICON A_
  A_2_CMPR_ADV ;
+
+
 LEXICON A_2_CMPR_ADV
 !! **LEXICON @LEXNAME@** gets +Attr or goes to Comparisons or ADV_
 +Attr:   # ;
++Sg+Tra:%>ыг K ;
++Sg+Tra+Err/Orth:%>ы̄г K ;
 Comparisons ;
 +Der+Der/Yshch+Adv:%>ыщ ADV_ ;
 
