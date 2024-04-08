@@ -286,6 +286,9 @@ LEXICON V0_VINGKVE
 
 LEXICON MINUNGKVE
 !! put derivations here
++Der+Der/Vlt+V:%>алт V0_A ;
++Der+Der/Vnt+V:%>ант V0_A ;
++Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
  V0_MINUNGKVE ;
  
 LEXICON V0_MINUNGKVE
@@ -317,6 +320,9 @@ LEXICON V0_MINUNGKVE
 
 LEXICON JOXTUNGKVE
 !! put derivations here
++Der+Der/Vlt+V:%>алт V0_A ;
++Der+Der/Vnt+V:%>ант V0_A ;
++Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
  V0_JOXTUNGKVE ;
 LEXICON V0_JOXTUNGKVE
 !! **LEXICON @LEXNAME@** 
@@ -356,7 +362,7 @@ LEXICON IND_PRS_TEENGKVE
  ACT_IND_PRS_SCPL3_yt ;
 
 !! ## Stems ending in C
-LEXICON NSHU   !!≈ @CODE@ йинуӈкве
+LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
  V_U2C ;!2023-11-18
 
 LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
@@ -392,6 +398,9 @@ LEXICON V0_U !!≈ @CODE@
 
 LEXICON V_U2C !This has two consonants before -уӈкве (voiced)
 !! put derivations here
++Der+Der/Vlt+V:%>алт V0_A ;
++Der+Der/Vnt+V:%>ант V0_A ;
++Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
  V0_U2C ;
  
 LEXICON V0_U2C !This has two consonants before -уӈкве (voiced)
@@ -424,6 +433,9 @@ LEXICON V0_U2C !This has two consonants before -уӈкве (voiced)
 
 LEXICON V_Y/U
 !! put derivations here
++Der+Der/Vlt+V:%>алт V0_A ;
++Der+Der/Vnt+V:%>ант V0_A ;
++Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
  V0_Y/U ;
 LEXICON V0_Y/U !This has two consonants, one is onset before -уӈкве
 !(вл|гл|пл|сл|йл|щл|тл)уӈкве
