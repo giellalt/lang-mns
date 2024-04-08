@@ -345,6 +345,7 @@ LEXICON N_VCH_rus100 !!≈ * @CODE@
 +Use/SpellNoSugg: N_VCH ;
 LEXICON N_VCH 
 !! put derivations here
++Der+Der/Yng+A:%>ыӈ A0_VCH ;
  N0_VCH ;
 LEXICON N0_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%}%>ныл SG_ABL_K ;
@@ -473,6 +474,7 @@ LEXICON N_VCCH_rus100
 +Use/SpellNoSugg: N_VCCH ;
 LEXICON N_VCCH 
 !! put derivations here
++Der+Der/Yng+A:%>ыӈ A0_VCH ;
  N0_VCCH ;
 LEXICON N0_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
 :%{VCCH%}%>ныл SG_ABL_K ;
