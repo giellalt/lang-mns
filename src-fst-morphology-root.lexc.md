@@ -167,6 +167,8 @@ source and target part-of-speech.
 * **+Der/Vlt** V»V - паргуӈкве 'сыпаться' 'fall' -> паргалтаӈкве 'посеять' 'sprinkle'
 * **+Der/Vnt** V»V - о̄луӈкве 'жить' 'to be, to live, to reside' -> о̄лантаӈкве 'существовать' 'to live, to reside'
 * **+Der/Vasa** V»V - ялуӈкве 'сходить, съездить' 'to go, to travel' -> яласаӈкве 'ходить, ездить' 'to go, to travel (regularly)'
+* **+Der/Vyglal** V»V - ликмуӈкве 'попасть в ловушку' -> ликмыгла̄луӈкве попадать в ловушку
+* **+Der/Vyschl** V»V - алуӈкве 'убить, добить' 'to kill, to hunt down' -> алыщлаӈкве 'ловить, охотиться' 'to kill, to fish, to hunt'
 * **+Der/Ap** V» ап Deverbal noun, not regular semantic correlation
 * **+Der/Comp** Comparitive -нув-
 * **+Der/Dimin** Diminutives in -кве (older)/-ке (~ Sosva)/-те (~ Ljapin)
