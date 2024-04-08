@@ -19,6 +19,7 @@ LEXICON PO_ZERO_OR_PX
 
 LEXICON PO_LOC_OR_PX_LOC_t
 +Loc:%>т K ;
++Loc+Err/Orth:%>ыт K ;
 +Loc+PxSg1:%>%{уØ%}м%>т K ;
 !+Loc+PxSg2:%>%{ыØ%}н%>т K ;
 +Loc+PxSg3:%>э̄т K ;
