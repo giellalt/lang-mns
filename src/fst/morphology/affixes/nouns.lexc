@@ -62,6 +62,9 @@
 LEXICON N_VI_rus100
 +Use/SpellNoSugg: N_VI ;
 LEXICON N_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
+!! put derivations here
+ N0_VI ;
+LEXICON N0_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} N1_SG ;
 :%{VI%} N1_DU ;
 :%{VI%} N1_PL ;
@@ -108,7 +111,10 @@ LEXICON N_VO_rus100 !!≈ * @CODE@
 +Use/SpellNoSugg: N_VO ;
 LEXICON N_VO_rusmns !!≈ * @CODE@ slightly Mansi-like
 +Use/SpellNoSugg: N_VO ;
-LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
+LEXICON N_VO
+!! put derivations here
+ N0_VO ;
+LEXICON N0_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 ! Test data:
 !!€gt-norm: ма̄ #
 !!€ ма̄тем:       ма̄+N+Der+Der/Dimin+Sg+Nom+PxSg1
@@ -143,8 +149,10 @@ LEXICON N_VO !!≈ * @CODE@ Stems ending in other vowels ӯра
 :%{VO%} SG_NOM_PXDU1_ujumeen ; ! ? +N+Sg+Nom %{уØ%} м е̄ н 2023_04_29 са̄лыме̄н
 :%{VO%} SG_NOM_PXDU1_ujumen ; !  2023_04_29 са̄лымен
 
-
-LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
+LEXICON N_SYNCH
+!! put derivations here
+ N0_SYNCH ;
+LEXICON N0_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%}%>ныл SG_ABL_K ;
 :%{SYNCH%}%>ыл SG_INS_K ; !
 :%{SYNCH%}%>н SG_LAT_K ; !
@@ -234,8 +242,10 @@ LEXICON N_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%} PL_X_PXPL2_ajanyn ;
 :%{SYNCH%} PL_X_PXPL2_ajan ;
 
-
-LEXICON N_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
+LEXICON N_SYNCS
+!! put derivations here
+ N0_SYNCS ;
+LEXICON N0_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%}%>ныл SG_ABL_K ;
 :%{SYNCS%}%>ыл SG_INS_K ; !
 :%{SYNCS%}%>н SG_LAT_K ; !
@@ -333,7 +343,10 @@ LEXICON N_NOSYNCS !!≈ * @CODE@ Stems without syncopy, soft
 
 LEXICON N_VCH_rus100 !!≈ * @CODE@
 +Use/SpellNoSugg: N_VCH ;
-LEXICON N_VCH !!≈ * @CODE@ Stems ending in single hard consonant
+LEXICON N_VCH 
+!! put derivations here
+ N0_VCH ;
+LEXICON N0_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%}%>ныл SG_ABL_K ;
 :%{VCH%}%>ыл SG_INS_K ; !
 :%{VCH%}%>н SG_LAT_K ; !
@@ -458,7 +471,10 @@ LEXICON N_XUM !!≈ * @CODE@ Special stems
 
 LEXICON N_VCCH_rus100
 +Use/SpellNoSugg: N_VCCH ;
-LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
+LEXICON N_VCCH 
+!! put derivations here
+ N0_VCCH ;
+LEXICON N0_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгуст
 :%{VCCH%}%>ныл SG_ABL_K ;
 :%{VCCH%}%>ыл SG_INS_K ; !
 :%{VCCH%}%>ын SG_LAT_K ; !
@@ -511,7 +527,10 @@ LEXICON N_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вгу
 
 LEXICON N_VCS_rus100
 +Use/SpellNoSugg: N_VCS ;
-LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
+LEXICON N_VCS
+!! put derivations here
+ N0_VCS ;
+LEXICON N0_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%}%>ныл SG_ABL_K ;
 :%{VCS%}%>ыл SG_INS_K ; !
 :%{VCS%}%>н SG_LAT_K ; !
@@ -612,7 +631,10 @@ LEXICON N_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 
 LEXICON N_VCCS_rus100 !!≈ * @CODE@
 +Use/SpellNoSugg: N_VCCS ;
-LEXICON N_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
+LEXICON N_VCCS
+!! put derivations here
+ N0_VCCS ;
+LEXICON N0_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
 :%{VCCS%}%>ныл SG_ABL_K ;
 :%{VCCS%}%>ыл SG_INS_K ; !
 :%{VCCS%}%>ын SG_LAT_K ; !
