@@ -24,7 +24,7 @@ put derivations here
 **LEXICON V0_JOXTUNGKVE** 
 
 ## Stems ending in C
-LEXICON NSHU йинуӈкве
+LEXICON V_NSHU йинуӈкве
 
 LEXICON V_NSSU о̄ньщуӈкве
 
