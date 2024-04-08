@@ -289,6 +289,9 @@ LEXICON MINUNGKVE
 +Der+Der/Vlt+V:%>алт V0_A ;
 +Der+Der/Vnt+V:%>ант V0_A ;
 +Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
++Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
++Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
++Der+Der/Vyschl:%>ыщл V0_A ;
  V0_MINUNGKVE ;
  
 LEXICON V0_MINUNGKVE
@@ -323,11 +326,14 @@ LEXICON JOXTUNGKVE
 +Der+Der/Vlt+V:%>алт V0_A ;
 +Der+Der/Vnt+V:%>ант V0_A ;
 +Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
++Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
++Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
++Der+Der/Vyschl:%>ыщл V0_A ;
  V0_JOXTUNGKVE ;
 LEXICON V0_JOXTUNGKVE
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
-:%{VU%} PRSPRC ; !cf U2C %{VU%}ы
+:%{VU%}ы PRSPRC ; !cf U2C %{VU%} see V0_Y/U
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
 :%{VU%}%>%{ыиØ%} GER ;!+Actio
@@ -373,13 +379,17 @@ LEXICON V_U !!≈ @CODE@
 +Der+Der/Vlt+V:%>алт V0_A ;
 +Der+Der/Vnt+V:%>ант V0_A ;
 +Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
++Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
++Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
++Der+Der/Vyschl:%>ыщл V0_A ;
  V0_U ;
 LEXICON V0_U !!≈ @CODE@ 
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
-:%{VU%}%>%{уюØ%} PRFPRC ;
+:%{VU%}%>%{уюØ%} PRFPRC_PLAIN ;
+:%{VU%} PRFPRC_PERSON ;
 +PrfPrc:%{VU%}%>%{ЫИ%}%>м # ;!CheckMe diff tag
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 :%{VU%}%>%{ыиØ%} ACTIO ;
@@ -401,12 +411,15 @@ LEXICON V_U2C !This has two consonants before -уӈкве (voiced)
 +Der+Der/Vlt+V:%>алт V0_A ;
 +Der+Der/Vnt+V:%>ант V0_A ;
 +Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
++Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
++Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
++Der+Der/Vyschl:%>ыщл V0_A ;
  V0_U2C ;
  
 LEXICON V0_U2C !This has two consonants before -уӈкве (voiced)
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
-:%{VU%}ы PRSPRC ; ! 2023-11-17
+:%{VU%} PRSPRC ; ! 2024-04-08
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
@@ -436,6 +449,9 @@ LEXICON V_Y/U
 +Der+Der/Vlt+V:%>алт V0_A ;
 +Der+Der/Vnt+V:%>ант V0_A ;
 +Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
++Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
++Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
++Der+Der/Vyschl:%>ыщл V0_A ;
  V0_Y/U ;
 LEXICON V0_Y/U !This has two consonants, one is onset before -уӈкве
 !(вл|гл|пл|сл|йл|щл|тл)уӈкве
@@ -1018,22 +1034,27 @@ LEXICON PRSPRC_jingkve
 +PrsPrc+PxPl3:%>нэныл VERB_K ;!
 
 LEXICON PRFPRC
+ PRFPRC_PLAIN ;
+ PRFPRC_PERSON ;
+LEXICON PRFPRC_PLAIN
 +PrfPrc:%>м VERB_K ;
+
+LEXICON PRFPRC_PERSON
 !! the forms below here need studying. They are probably not what I labled them as20230521
-+PrfPrc+PxSg1:%^RmVow%>мум VERB_K ;!о̄лмум, а̄стумум, Ханищтахтамум
-+PrfPrc+PxSg2:%^RmVow%>мын VERB_K ;!ханищтахтамын
-+PrfPrc+PxSg3:%^RmVow%>ме VERB_K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
++PrfPrc+PxSg1:%>мум VERB_K ;!о̄лмум, а̄стумум, Ханищтахтамум
++PrfPrc+PxSg2:%>мын VERB_K ;!ханищтахтамын
++PrfPrc+PxSg3:%>ме VERB_K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
 +PrfPrc+PxDu1:%>мме̄н VERB_K ;!йимме̄н ?not applying vowel loss here 2024-02-06
-!+PrfPrc+PxDu1:%^RmVow%>муме̄н VERB_K ;!?о̄лмуме̄н
-+PrfPrc+PxDu2:%^RmVow%>мын VERB_K ;!?
-+PrfPrc+PxDu2:%^RmVow%>мы̄н VERB_K ;!?
-+PrfPrc+PxDu3:%^RmVow%>мег VERB_K ;!?
-+PrfPrc+PxDu3:%^RmVow%>ме̄г VERB_K ;!?
-+PrfPrc+PxPl1:%^RmVow%>мув VERB_K ;!о̄лмувт, о̄лмув, ханищтахтамув
-+PrfPrc+PxPl1:%^RmVow%>мӯв VERB_K ;!
-+PrfPrc+PxPl2:%^RmVow%>мын VERB_K ;!?
-+PrfPrc+PxPl2:%^RmVow%>мы̄н VERB_K ;!?
-+PrfPrc+PxPl3:%^RmVow%>мыт VERB_K ;!
+!+PrfPrc+PxDu1%>муме̄н VERB_K ;!?о̄лмуме̄н
++PrfPrc+PxDu2:%>мын VERB_K ;!?
++PrfPrc+PxDu2:%>мы̄н VERB_K ;!?
++PrfPrc+PxDu3:%>мег VERB_K ;!?
++PrfPrc+PxDu3:%>ме̄г VERB_K ;!?
++PrfPrc+PxPl1:%>мув VERB_K ;!о̄лмувт, о̄лмув, ханищтахтамув
++PrfPrc+PxPl1:%>мӯв VERB_K ;!
++PrfPrc+PxPl2:%>мын VERB_K ;!?
++PrfPrc+PxPl2:%>мы̄н VERB_K ;!?
++PrfPrc+PxPl3:%>мыт VERB_K ;!
 
 LEXICON PRFPRC_teemanum
 +PrfPrc:%>м VERB_K ;
