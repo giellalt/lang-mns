@@ -1038,23 +1038,27 @@ LEXICON PRFPRC
  PRFPRC_PERSON ;
 LEXICON PRFPRC_PLAIN
 +PrfPrc:%>м VERB_K ;
++PrfPrc+Loc:%>мт VERB_K ;
++PrfPrc+Lat:%>мн VERB_K ;
 
 LEXICON PRFPRC_PERSON
 !! the forms below here need studying. They are probably not what I labled them as20230521
-+PrfPrc+PxSg1:%>мум VERB_K ;!о̄лмум, а̄стумум, Ханищтахтамум
-+PrfPrc+PxSg2:%>мын VERB_K ;!ханищтахтамын
++PrfPrc+PxSg1:%>мум VERB_K_CASE ;!о̄лмум, а̄стумум, Ханищтахтамум
++PrfPrc+PxSg2:%>мын VERB_K_CASE ;!ханищтахтамын
 +PrfPrc+PxSg3:%>ме VERB_K ;!ва̄рме, а̄стуме, то̄влуме, Ханищтахтаме, Ханищтахтаме̄т, ханищтахтаме̄н
-+PrfPrc+PxDu1:%>мме̄н VERB_K ;!йимме̄н ?not applying vowel loss here 2024-02-06
-!+PrfPrc+PxDu1%>муме̄н VERB_K ;!?о̄лмуме̄н
-+PrfPrc+PxDu2:%>мын VERB_K ;!?
-+PrfPrc+PxDu2:%>мы̄н VERB_K ;!?
-+PrfPrc+PxDu3:%>мег VERB_K ;!?
-+PrfPrc+PxDu3:%>ме̄г VERB_K ;!?
-+PrfPrc+PxPl1:%>мув VERB_K ;!о̄лмувт, о̄лмув, ханищтахтамув
-+PrfPrc+PxPl1:%>мӯв VERB_K ;!
-+PrfPrc+PxPl2:%>мын VERB_K ;!?
-+PrfPrc+PxPl2:%>мы̄н VERB_K ;!?
-+PrfPrc+PxPl3:%>мыт VERB_K ;!
++PrfPrc+Loc+PxSg3:%>ме̄т VERB_K ;
++PrfPrc+Lat+PxSg3:%>ме̄н VERB_K ;
++PrfPrc+PxDu1:%>мме̄н VERB_K_CASE ;!йимме̄н ?not applying vowel loss here 2024-02-06
+!+PrfPrc+PxDu1%>муме̄н VERB_K_CASE ;!?о̄лмуме̄н
++PrfPrc+PxDu2:%>мын VERB_K_CASE ;!?
++PrfPrc+PxDu2:%>мы̄н VERB_K_CASE ;!?
++PrfPrc+PxDu3:%>мег VERB_K_CASE ;!?
++PrfPrc+PxDu3:%>ме̄г VERB_K_CASE ;!?
++PrfPrc+PxPl1:%>мув VERB_K_CASE ;!о̄лмувт, о̄лмув, ханищтахтамув
++PrfPrc+PxPl1:%>мӯв VERB_K_CASE ;!
++PrfPrc+PxPl2:%>мын VERB_K_CASE ;!?
++PrfPrc+PxPl2:%>мы̄н VERB_K_CASE ;!?
++PrfPrc+PxPl3:%>мыт VERB_K_CASE ;!
 
 LEXICON PRFPRC_teemanum
 +PrfPrc:%>м VERB_K ;
@@ -1152,6 +1156,11 @@ LEXICON	ACT_IND_PRT_SCPL3_syt
 +Act+Ind+Prt+ScPl3:%>сыт VERB_K ;
 
 !! 
+
+LEXICON VERB_K_CASE
+ VERB_K ;
++Loc:%>т VERB_K ;
++Lat:%>н VERB_K ;
 
 LEXICON VERB_K
 @U.VPref.ZERO@@D.ERRORTH.nohyphen@:@U.VPref.ZERO@@D.ERRORTH.nohyphen@ K ;
