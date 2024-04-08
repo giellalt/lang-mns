@@ -7,6 +7,10 @@
 
 
 LEXICON VAANGKVE
+!! put derivations here
+ V0_VAANGKVE ;
+ 
+LEXICON V0_VAANGKVE
 : INF ;
 :г IND_PRS_TEENGKVE ;
 : ACT_IND_PRT_SC_VA ;
@@ -31,6 +35,9 @@ LEXICON VAANGKVE
 
 
 LEXICON TEENGKVE !тэ̄ӈкве+V:т
+!! put derivations here
+ V0_TEENGKVE ;
+LEXICON V0_TEENGKVE !тэ̄ӈкве+V:т
 :э̄ INF ;
 :э̄г IND_PRS_TEENGKVE ;
 :э̄ ACT_IND_PRT_SC_VA ;
@@ -65,6 +72,9 @@ LEXICON TEENGKVE !тэ̄ӈкве+V:т
 
 
 LEXICON JINGKVE
+!! put derivations here
+ V0_JINGKVE ;
+LEXICON V0_JINGKVE
 :йи INF ; !!≈ @CODE@
 :йи PRSPRC_jingkve ;
 +Act+Ind+Prs+ScSg1:ювум VERB_K ; !мыгӯв?
@@ -107,6 +117,9 @@ LEXICON JINGKVE
 :йим VABESS ;
 
 LEXICON LYNGKVE
+!! put derivations here
+ V0_LYNGKVE ;
+LEXICON V0_LYNGKVE
 :лы INF ; !!≈ @CODE@
 :лы PRSPRC ;
 +Act+Ind+Prs+ScSg1:лыгум VERB_K ; !мыгӯв?
@@ -160,6 +173,9 @@ LEXICON LYNGKVE
 :лыг VABESS ;
 
 LEXICON MINGKVE
+!! put derivations here
+ V0_MINGKVE ;
+LEXICON V0_MINGKVE
 :ми INF ; !!≈ @CODE@
 :ми PRSPRC ;
 +Act+Ind+Prs+ScSg1:мыгум VERB_K ; !мыгӯв?
@@ -210,6 +226,9 @@ LEXICON MINGKVE
 
 
 LEXICON VINGKVE
+!! put derivations here
+ V0_VINGKVE ;
+LEXICON V0_VINGKVE
 :ви INF ; !!≈ @CODE@
 :ви PRSPRC ;
 +Act+Ind+Prs+ScSg1:выгум VERB_K ; !мыгӯв?
@@ -266,6 +285,10 @@ LEXICON VINGKVE
 
 
 LEXICON MINUNGKVE
+!! put derivations here
+ V0_MINUNGKVE ;
+ 
+LEXICON V0_MINUNGKVE
 :у INF ; !!≈ @CODE@
  PRSPRC ;
 +PrsPrc:%{VU%}%>%{ыиØ%}%>н VERB_K ; !ханищтахтын
@@ -293,6 +316,9 @@ LEXICON MINUNGKVE
 : V11_MUTUAL_PASS ;
 
 LEXICON JOXTUNGKVE
+!! put derivations here
+ V0_JOXTUNGKVE ;
+LEXICON V0_JOXTUNGKVE
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; !cf U2C %{VU%}ы
@@ -330,13 +356,16 @@ LEXICON IND_PRS_TEENGKVE
  ACT_IND_PRS_SCPL3_yt ;
 
 !! ## Stems ending in C
-LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
+LEXICON NSHU   !!≈ @CODE@ йинуӈкве
  V_U2C ;!2023-11-18
 
 LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
  V_U2C ;!2023-11-18
 
 LEXICON V_U !!≈ @CODE@ 
+!! put derivations here
+ V0_U ;
+LEXICON V0_U !!≈ @CODE@ 
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
@@ -359,6 +388,10 @@ LEXICON V_U !!≈ @CODE@
 :%{VU%} PASS_COND ;
 
 LEXICON V_U2C !This has two consonants before -уӈкве (voiced)
+!! put derivations here
+ V0_U2C ;
+ 
+LEXICON V0_U2C !This has two consonants before -уӈкве (voiced)
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
 :%{VU%}ы PRSPRC ; ! 2023-11-17
@@ -386,7 +419,10 @@ LEXICON V_U2C !This has two consonants before -уӈкве (voiced)
 +Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VU%} PASS_COND ;
 
-LEXICON V_Y/U !This has two consonants, one is onset before -уӈкве
+LEXICON V_Y/U
+!! put derivations here
+ V0_Y/U ;
+LEXICON V0_Y/U !This has two consonants, one is onset before -уӈкве
 !(вл|гл|пл|сл|йл|щл|тл)уӈкве
 !(рг|мг|нг|сг)уӈкве
 !(рс|мс|мщ|хщ|ньщ)уӈкве
@@ -426,6 +462,9 @@ LEXICON INF
 +Inf+Err/Orth:ӈкв VERB_K ;
 
 LEXICON V_A
+!! put derivations here
+ V0_A ;
+LEXICON V0_A
 !! **LEXICON @LEXNAME@** 
 :%{VA%}%>%{аяØ%} INF ;
 :%{VA%}%>%{аяØ%} PRSPRC ; !Does this exist ?20230504 
