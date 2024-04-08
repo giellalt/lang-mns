@@ -160,7 +160,7 @@ LEXICON N0_SYNCH !!≈ * @CODE@ Stems with syncopy, hard
 :%{SYNCH%}%>т SG_LOC_K ; !
 :%{SYNCH%}%>ыт SG_LOC_K ; !
 :%{SYNCH%} SG_NOM_K ;
-:%{SYNCH%}%>ыг SG_TRA_K ;!
+:%{SYNCH%} SG_TRA_K ;!
 :%{SYNCH%} SG_X_PXSG1_ujum ;
 :%{SYNCH%}  SG_X_PXSG2_yn ;
 :%{SYNCH%}  SG_X_PXSG3_te ;
@@ -253,7 +253,7 @@ LEXICON N0_SYNCS !!≈ * @CODE@ Stems with syncopy, soft
 :%{SYNCS%}%>т SG_LOC_K ; !
 :%{SYNCS%}%>ыт SG_LOC_K ; !
 :%{SYNCS%} SG_NOM_K ;
-:%{SYNCS%}%>ыг SG_TRA_K ;!
+:%{SYNCS%} SG_TRA_K ;!
 
 :%{SYNCS%} SG_X_PXSG1_ujum ;
 :%{SYNCS%}  SG_X_PXSG2_yn ;
@@ -353,7 +353,7 @@ LEXICON N0_VCH !!≈ * @CODE@ Stems ending in single hard consonant
 :%{VCH%}%>н SG_LAT_K ; !
 :%{VCH%}%>т SG_LOC_K ; !
 :%{VCH%} SG_NOM_K ;
-:%{VCH%}%>ыг SG_TRA_K ;!
+:%{VCH%} SG_TRA_K ;!
 :%{VCH%} SG_X_PXSG1_ujum ;
 :%{VCH%} SG_X_PXSG2_yn ;
 :%{VCH%} SG_X_PXSG3_te ;
@@ -402,7 +402,7 @@ LEXICON N_XUM !!≈ * @CODE@ Special stems
 :%{VCH%}%>н SG_LAT_K ; !
 :%{VCH%}%>т SG_LOC_K ; !
 :%{VCH%} SG_NOM_K ;
-:%{VCH%}%>ыг SG_TRA_K ;!
+:%{VCH%} SG_TRA_K ;!
 :%{VCH%} SG_X_PXSG1_ujum ;
 :%{VCH%} SG_X_PXSG2_yn ;
 :и SG_X_PXSG3_te ;
@@ -411,7 +411,7 @@ LEXICON N_XUM !!≈ * @CODE@ Special stems
 :%{VCH%} SG_X_PXPL3_ajanyl ;
 :%{VCH%} N1_DU ;
 +Du+Nom+PxSg3:иягэ K ; !MORE Work 2024-04-07
-+Sg+Tra:ы̄г K ;
+:%{VCH%} SG_TRA_K ;
 :ииг DU_NOM_K ;
 +Sg+Nom+PxSg3:итэ K ;
 +Sg+Lat+PxSg3:ытэ̄н K ;
@@ -482,7 +482,7 @@ LEXICON N0_VCCH !!≈ * @CODE@ Stems ending in hard consonant cluster: а̄вг�
 :%{VCCH%}%>ын SG_LAT_K ; !
 :%{VCCH%}%>ыт SG_LOC_K ; !
 :%{VCCH%} SG_NOM_K ;
-:%{VCCH%}%>ыг SG_TRA_K ;!
+:%{VCCH%} SG_TRA_K ;!
 
 :%{VCCH%} SG_X_PXSG1_ujum ;
 :%{VCCH%} SG_X_PXSG2_yn ;
@@ -538,7 +538,7 @@ LEXICON N0_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%}%>н SG_LAT_K ; !
 :%{VCS%}%>т SG_LOC_K ; !
 :%{VCS%} SG_NOM_K ;
-:%{VCS%}%>ыг SG_TRA_K ;!
+:%{VCS%} SG_TRA_K ;!
 
 :%{VCS%} SG_X_PXSG1_ujum ;
 :%{VCS%} SG_X_PXSG2_yn ;
@@ -587,7 +587,7 @@ LEXICON N0_VCS !!≈ * @CODE@ Stems ending in single soft consonant
 :%{VCS%}%>н SG_LAT_K ; !
 :%{VCS%}%>т SG_LOC_K ; !
 :%{VCS%} SG_NOM_K ;
-:%{VCS%}%>ыг SG_TRA_K ;!
+:%{VCS%} SG_TRA_K ;!
 :%{VCS%} SG_X_PXSG1_ujum ;
 :%{VCS%} SG_X_PXSG2_yn ;
 :%{VCS%} SG_X_PXSG3_te ;
@@ -642,7 +642,7 @@ LEXICON N0_VCCS !!≈ * @CODE@ Stems ending in soft consonant cluster
 :%{VCCS%}%>ын SG_LAT_K ; !
 :%{VCCS%}%>ыт SG_LOC_K ; !
 :%{VCCS%} SG_NOM_K ;
-:%{VCCS%}%>ыг SG_TRA_K ;!
+:%{VCCS%} SG_TRA_K ;!
 :%{VCCS%} SG_X_PXSG1_ujum ;
 :%{VCCS%} SG_X_PXSG2_yn ;
 :%{VCCS%} SG_X_PXSG3_te ;
@@ -708,7 +708,7 @@ LEXICON N1_SG
 :%>ын SG_LAT_K ; !
 :%>ыт SG_LOC_K ; !
 : SG_NOM_K ;
-:%>ыг SG_TRA_K ;!потрыг, са̄лыиг
+: SG_TRA_K ;!потрыг, са̄лыиг
 !+Sg+Loc:%>ыт K ; ! not like Pl Nom(only: потрыт)!! потырт/потрыт, са̄лыт, э̄кват, 
 !+Sg+Lat:%>ын K ; !Check to see that has the same pattern as Sg+Loc vs Pl+Nom потрын, са̄лын
 !+Sg+Ins:%>%{тØ%}ыл K ; ! 43 stems, no т.
@@ -1884,7 +1884,8 @@ LEXICON SG_LOC_K
 LEXICON SG_NOM_K
 @D.PossPx@@U.DECL-NX.SG@@U.CX.NOM@+Sg+Nom:@D.PossPx@@U.DECL-NX.SG@@U.CX.NOM@ K ;
 LEXICON SG_TRA_K
-@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra:@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@ K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra:@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@%>ыг K ;
+@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@+Sg+Tra+Err/Orth:@D.PossPx@@U.DECL-NX.SG@@U.CX.TRA@%>ы̄г K ;
 
 !! Du X 
 LEXICON DU_ABL_K
