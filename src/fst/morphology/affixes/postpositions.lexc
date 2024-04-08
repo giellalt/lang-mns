@@ -17,6 +17,19 @@ LEXICON PO_ZERO_OR_PX
 +PxPl2:%>%{ыØ%}н K ;
 +PxPl3:%>аныл K ;
 
+LEXICON PO_LOC_OR_PX_LOC_t
++Loc:%>т K ;
++Loc+PxSg1:%>%{уØ%}м%>т K ;
+!+Loc+PxSg2:%>%{ыØ%}н%>т K ;
++Loc+PxSg3:%>э̄т K ;
+!+Loc+PxDu1:%>ме̄н%>т K ;
+!+Loc+PxDu2:%>ы̄н%>т K ;
+!+Loc+PxDu3:%>э̄н%>т K ;
+!+Loc+PxPl1:%>%{уØ%}в%>т K ;
+!+Loc+PxPl2:%>%{ыØ%}н%>т K ;
++Loc+PxPl3:%>аныл%>т K ;
+
+
 LEXICON PO_ABL_paalnyl
 +Abl:%-па̄лныл K ;
 +Err/Orth+Abl:па̄лныл K ;
