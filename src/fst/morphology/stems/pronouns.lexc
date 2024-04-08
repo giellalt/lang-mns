@@ -198,6 +198,7 @@ LEXICON personal
 хумыс+Pron:хумыс N_VCH "как";
 манаса̄вит+Pron:хумыс N_VCH "сколько";
 таса̄вит+Po:таса̄вит PO_ "that much" ;
+тыса̄вит+Po:тыса̄вит PO_ "that much" ;
 
 LEXICON PERS_PRON_KI_OR_ZERO
  # ;
