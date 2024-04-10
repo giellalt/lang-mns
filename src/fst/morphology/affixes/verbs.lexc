@@ -269,6 +269,7 @@ LEXICON V0_VINGKVE
 !Cond
 :ви ACT_COND_VU ;
 :вой%{VU%} ACT_IMPRT_VU ;
+:вуй%{VU%} ACT_IMPRT_VU ;!Which one 2024-04-10
 +Act+Imprt+ScDu2+OcPl:вой%{VU%}%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 +Act+Imprt+ScPl2+OcPl:вой%{VU%}%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 
@@ -279,6 +280,7 @@ LEXICON V0_VINGKVE
 :ви PASS_COND ;
 :выг PASS_IMPRT_teegveen ;
 :ви PRFPRC_teemanum ;!Will need more 20230622
+:вуи PRFPRC ;!CHECKME 20240410
 :вои GER ;
 :выг VABESS ;
 
@@ -389,7 +391,8 @@ LEXICON V0_U !!≈ @CODE@
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC_PLAIN ;
-:%{VU%} PRFPRC_PERSON ;
+:%{VU%} PRFPRC_PERSON ; !both?
+:%{VU%} PRFPRC_PERSON_teemanum ;! both?
 +PrfPrc:%{VU%}%>%{ЫИ%}%>м # ;!CheckMe diff tag
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 :%{VU%}%>%{ыиØ%} ACTIO ;
@@ -1061,7 +1064,11 @@ LEXICON PRFPRC_PERSON
 +PrfPrc+PxPl3:%>мыт VERB_K_CASE ;!
 
 LEXICON PRFPRC_teemanum
+ PRFPRC_PLAIN_teemanum ;
+ PRFPRC_PERSON_teemanum ;
+LEXICON PRFPRC_PLAIN_teemanum
 +PrfPrc:%>м VERB_K ;
+LEXICON PRFPRC_PERSON_teemanum
 !! the forms below here need studying. They are probably not what I labled them as20230521
 +PrfPrc+PxSg1:%>манум VERB_K ;!
 +PrfPrc+PxSg1:%>мананум VERB_K ;!
