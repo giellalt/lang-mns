@@ -28,6 +28,7 @@ LEXICON Interjections
 аквтупмат+Interj:аквтупмат INTERJ_  "apparently" ; 
 аквтуп+Interj:аквтуп INTERJ_  "будто, словно" ;
 аквтоп+Interj:аквтоп INTERJ_  "будто, словно" ;
-э̄рттам+Interj:э̄рттам INTERJ_  "будто бы" ;
+э̄рттам+v1+Interj:э̄рттам INTERJ_  "будто бы" ;
+э̄рттам+v2+Interj:эрттам INTERJ_  "будто бы" ;
 яа+Interj:яа INTERJ_  "" ;
 мат+Interj:мат INTERJ_  "whether" ;
