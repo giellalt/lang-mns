@@ -225,6 +225,9 @@ vowel lengthening
 ансамбль+N+Sg+Loc: **band/yhtye**
 * *ансамбль{VCCS}>{ыиØ}т*
 * *ансамбл00>ит*
+куль+N+Sg+Ins:
+* *куль{VCS}>ыл*
+* *кул00>ил*
 XX+V+Inf: ****
 
 #### Tests:
