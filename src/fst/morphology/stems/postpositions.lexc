@@ -114,3 +114,10 @@ LEXICON Postpositions
 са̄виткем+Po:са̄виткем PO_ "more than" ;
 ляпатем+Po:ляпатем PO_ "approximately" ;
 ляльт+Po:ляльт PO_ "напротив" ;
+
+та-па̄лн+v1+Po:та-#па̄лн PO_LAT "" ;
+та-па̄лн+v2+Po:та#па̄лн PO_LAT "" ;
+та-па̄лт+v1+Po:та-#па̄л PO_LOC_OR_PX_LOC_t "" ;
+та-па̄лт+v2+Po:та#па̄л PO_LOC_OR_PX_LOC_t "" ;
+та-па̄лныл+v1+Po:та-#па̄лныл PO_ABL "" ;
+та-па̄лныл+v2+Po:та#па̄лныл PO_ABL "" ;
