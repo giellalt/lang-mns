@@ -6,7 +6,12 @@
 !LEXICON PRON_
 !+Pron:        #   ;
 
-
+LEXICON ADV_OR_PRON_PERSON
+! adverbs with person
+ # ;
++Sg1:%>%{уюØ%}м # ;
++Sg2:%>ын # ;
++Sg3:%>%{тØ%}%{ЭЕ%} # ;!Fixme
 
 ! vim: set ft=xfst-lexc:
 
