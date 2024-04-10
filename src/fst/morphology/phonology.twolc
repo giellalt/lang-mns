@@ -317,11 +317,14 @@ Rules
 "Soft sign deletion for и suffixes"
 !! **RULE: @RULENAME@**  2023.02
 ь:0 <=>
-    _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %>  %{ыиØ%}: [т|н|л]; !! ансамбль+N+Sg+Loc: **band/yhtye**
+    _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %>  [%{ыиØ%}: | ы:] [т|н|л]; !! ансамбль+N+Sg+Loc: **band/yhtye**
     _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %>  ы: [т|г|м]; !! ансамбль+N+Pl+Nom: **band/yhtye**
     _ [%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %> (%{йØ%}:0)  %{ыиØ%}: [г]; !! ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыиØ}т
 !!€ ансамбл00>ит
+!! куль+N+Sg+Ins:
+!!€ куль{VCS}>ыл
+!!€ кул00>ил
     _ [%{VU%}:|%{VA%}:|%{VCCS%}:|%{VCS%}:|%{SYNCS%}:] %> [%{уюØ%}:| %{аяØ%}: ]; !! XX+V+Inf: ****
 
  Vow н: _ щ %{VU%}: %> с ;
@@ -447,19 +450,6 @@ Rules
  !!€ хӯрыг{SYNCH}>{ЭЕLong}н
  !!€ хӯр0г0>е̄н
 
-!2023_02_10fixme!"%{ЭЕLong%}:э"
-!2023_02_10fixme!!! __@RULENAME@__
-!2023_02_10fixme! %{ЭЕLong%}:э <=> CnsAlv %{VU%}: %> _ ;
-!2023_02_10fixme! [[CnsAlv - р] %{VCH%}:| [CnsAlv - р] %{VCCH%}:| %{SYNCH%}:] %> (%{тØ%}:) _  ;
-!2023_02_10fixme! !!€ тот{VU}>{ЭЕLong}в
-!2023_02_10fixme! !!€ тот0>эв
-!2023_02_10fixme!
-!2023_02_10fixme! "%{ЭЕLong%}:е"
-!2023_02_10fixme! !! __@RULENAME@__
-!2023_02_10fixme!  %{ЭЕLong%}:е <=> [ CnsSoft | CnsNonAlv | ь: | й: ] %{VU%}: %> _ ;
-!2023_02_10fixme! [[р|CnsNonAlv] [%{VCH%}:|%{VCCH%}:| %{SYNCH%}:]|Pal] %> (%{тØ%}:) _  ;
-!2023_02_10fixme! !!€ ха̄ль%>%{тØ%}%{ЭLongЕ%н
-!2023_02_10fixme! !!€ ха̄л0%>0е̄н
 
 "{ЭЕ}:э"
 !! __@RULENAME@__
