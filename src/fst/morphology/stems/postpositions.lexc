@@ -17,7 +17,8 @@ LEXICON Postpositions
 урыл+Po:урыл PO_INS_OR_INS_PX ;
 ля̄льт+Po:ля̄льт PO_ ;
 торыг+Po:торыг PO_ ;
-мувлахи+Po:мувлахи PO_ ;
+мувлахи+v1+Po:мувлахи PO_ ;
+мувлахи+v2+Po:мӯвлахи PO_ ;
 
 !! Relator nouns
 щирыл+Po:щирыл PO_INS_OR_INS_PX "Relator noun щир" ;
