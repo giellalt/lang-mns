@@ -67,6 +67,9 @@ language are presented in this system in terms of the following symbols.
 * **+Loc** Ыт
 * **+Tra** Ыг
 
+* **+Dat** Dative
+* **+Ela** Elative
+
 ### The comparative forms are:
 * **+Pos** 
 * **!+Comp** 
