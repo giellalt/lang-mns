@@ -9,6 +9,12 @@ N_SYNCH ;
 LEXICON A0_SYNCH
 :%{SYNCH%} A_2_CMPR_ADV ;
 
+LEXICON A_SYNCS
+N_SYNCS ;
+ A0_SYNCS ;
+LEXICON A0_SYNCS
+:%{SYNCS%} A_2_CMPR_ADV ;
+
 LEXICON A_VCH
  N_VCH ;
  A0_VCH ;
@@ -55,7 +61,7 @@ LEXICON A_
 LEXICON A_2_CMPR_ADV
 !! **LEXICON @LEXNAME@** gets +Attr or goes to Comparisons or ADV_
 +Attr:   # ;
-+Sg+Tra:%>ыг K ;
++Sg+Tra:%>ыг K ;!CHECKMY number
 +Sg+Tra+Err/Orth:%>ы̄г K ;
 Comparisons ;
 +Der+Der/Yshch+Adv:%>ыщ ADV_ ;
