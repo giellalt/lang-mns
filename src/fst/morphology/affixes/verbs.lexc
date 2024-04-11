@@ -269,14 +269,14 @@ LEXICON V0_VINGKVE
 !Cond
 :ви ACT_COND_VU ;
 :вой%{VU%} ACT_IMPRT_VU ;
-:вуй%{VU%} ACT_IMPRT_VU ;!Which one 2024-04-10
++Use/SpellNoSugg:вуй%{VU%} ACT_IMPRT_VU ;!Which one 2024-04-10
 +Act+Imprt+ScDu2+OcPl:вой%{VU%}%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 +Act+Imprt+ScPl2+OcPl:вой%{VU%}%>%{ЭЕLong%}нын VERB_K ;!Jaska 20230901, AGAINST V-6-tengkwe ; FOR V-6-mingkwe, wingkwe, V-6-lingkwe
 
 :ви V11_MUTUAL_PASS_PRS ;
 
 :вой PASS_PRT ;! 
-+Use/NG:вуй PASS_PRT ;!
++Use/NG+Use/SpellNoSugg:вуй PASS_PRT ;!
 :ви PASS_COND ;
 :выг PASS_IMPRT_teegveen ;
 :ви PRFPRC_teemanum ;!Will need more 20230622
@@ -300,9 +300,9 @@ LEXICON V0_MINUNGKVE
 :у INF ; !!≈ @CODE@
  PRSPRC ;
 +PrsPrc:%{VU%}%>%{ыиØ%}%>н VERB_K ; !ханищтахтын
-+PrsPrc:%>%{аяØ%}%>н VERB_K ; !ханищтахтан
++PrsPrc:%{VU%}%>%{аяØ%}%>н VERB_K ; !ханищтахтан
 :%{VU%}%>%{ыиØ%} ACTIO ;
-:%>%{аяØ%} PRFPRC ;
+:%{VU%}%>%{аяØ%} PRFPRC ;
 
 :%{VU%}%>%{ыиØ%} GER ;
 :%{VU%} ACT_IND_PRS_VU ;
@@ -316,7 +316,7 @@ LEXICON V0_MINUNGKVE
 +Act+Ind+Prt+ScDu3:асы̄г VERB_K ;
 +Act+Ind+Prt+ScDu3:асыг VERB_K ;
 +Act+Ind+Prt+ScPl1:асув VERB_K ;
-+Act+Ind+Prt+ScPl1:асӯв VERB_K ;
++Act+Ind+Prt+ScPl1+Use/SpellNoSugg:асӯв VERB_K ;
 +Act+Ind+Prt+ScPl2:асы̄н VERB_K ;
 +Act+Ind+Prt+ScPl2:асын VERB_K ;
 +Act+Ind+Prt+ScPl3:асыт VERB_K ;
@@ -550,11 +550,12 @@ LEXICON ACT_IND_PRS_OCSG_lameen
 +Act+Ind+Prs+ScSg3+OcSg:тэ VERB_K ; ! XXX Long ? тотытэ vs. тоты̄тэ
 +Act+Ind+Prs+ScDu1+OcSg:ламе̄н VERB_K ;!distinction
 +Act+Ind+Prs+ScDu2+OcSg:лын VERB_K ;
-+Act+Ind+Prs+ScDu2+OcSg:лы̄н VERB_K ;
++Act+Ind+Prs+ScDu2+OcSg+Use/SpellNoSugg:лы̄н VERB_K ;
 +Act+Ind+Prs+ScDu3+OcSg:тэ̄н VERB_K ;
 +Act+Ind+Prs+ScPl1+OcSg:лув VERB_K ;
++Act+Ind+Prs+ScPl1+OcSg+Use/SpellNoSugg:лӯв VERB_K ;
 +Act+Ind+Prs+ScPl2+OcSg:лын VERB_K ;
-+Act+Ind+Prs+ScPl2+OcSg:лы̄н VERB_K ;
++Act+Ind+Prs+ScPl2+OcSg+Use/SpellNoSugg:лы̄н VERB_K ;
 +Act+Ind+Prs+ScPl3+OcSg:%>%{аяØ%}ныл VERB_K ;
 +Act+Ind+Prs+ScPl3+OcSg+Err/Orth:%>%{аяLong%}ныл VERB_K ;
 
@@ -564,13 +565,13 @@ LEXICON ACT_IND_PRS_OCSG_lumeen
 +Act+Ind+Prs+ScSg3+OcSg:тэ VERB_K ; ! XXX Long ? тотытэ vs. тоты̄тэ
 +Act+Ind+Prs+ScDu1+OcSg:луме̄н VERB_K ;!distinction
 +Act+Ind+Prs+ScDu2+OcSg:лын VERB_K ;
-+Act+Ind+Prs+ScDu2+OcSg:лы̄н VERB_K ;
++Act+Ind+Prs+ScDu2+OcSg+Use/SpellNoSugg:лы̄н VERB_K ;
 +Act+Ind+Prs+ScDu3+OcSg:тэ̄н VERB_K ;
 +Act+Ind+Prs+ScDu3+OcSg+Err/Orth:тэн VERB_K ;
 +Act+Ind+Prs+ScPl1+OcSg:лув VERB_K ;
-+Act+Ind+Prs+ScPl1+OcSg:лӯв VERB_K ;! JMR 20230503 and тотылӯв and лыглӯв 20230901
++Act+Ind+Prs+ScPl1+OcSg+Use/SpellNoSugg:лӯв VERB_K ;! JMR 20230503 and тотылӯв and лыглӯв 20230901
 +Act+Ind+Prs+ScPl2+OcSg:лын VERB_K ;
-+Act+Ind+Prs+ScPl2+OcSg:лы̄н VERB_K ;
++Act+Ind+Prs+ScPl2+OcSg+Use/SpellNoSugg:лы̄н VERB_K ;
 +Act+Ind+Prs+ScPl3+OcSg:%>%{аяØ%}ныл VERB_K ;
 +Act+Ind+Prs+ScPl3+OcSg+Err/Orth:%>%{аяLong%}ныл VERB_K ;
 
