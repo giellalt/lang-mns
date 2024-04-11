@@ -711,9 +711,13 @@ LEXICON Root
 ат+Pcle+Neg:ат ENDLEX ;
 
 LEXICON COLLECTIVES
-@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- Nouns ; 
-@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- PROP_MANSINAMES ; 
-@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- urj-Cyrl-ProperNouns ; 
+@U.POS.N@+Cmp/Coll+Use/Circ+Cmp#:@U.POS.N@%- COLLECTIVES_01 ;
+@U.POS.N@+Cmp/Coll+Err/Orth-no-hyphen+Use/Circ+Cmp#:@U.POS.N@ COLLECTIVES_01 ;!Trying 2024-04-11
+
+LEXICON COLLECTIVES_01
+ Nouns ; 
+ PROP_MANSINAMES ; 
+ urj-Cyrl-ProperNouns ; 
 
 
 LEXICON K 
