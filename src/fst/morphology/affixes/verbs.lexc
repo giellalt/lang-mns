@@ -389,6 +389,7 @@ LEXICON V0_U !!≈ @CODE@
 !! **LEXICON @LEXNAME@** 
 :%{VU%}%>%{уюØ%} INF ;
 :%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
++PrsPrc:%{VU%}%>%{аяØ%}н K ;
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC_PLAIN ;
 :%{VU%} PRFPRC_PERSON ; !both?
@@ -896,9 +897,32 @@ LEXICON ACT_IMPRT_VU
 +Act+Imprt+ScPl2+OcPl:%>%{ЭЕ%}н VERB_K ;
 
 LEXICON ACT_IMPRT_for_V_A
-+Act+Imprt+ScDu2:%>%{ЭЕLong%}н VERB_K ;
-+Act+Imprt+ScSg2+OcPl:%>%{ЭЕLong%}н VERB_K ;
-+Act+Imprt+ScDu2+OcPl:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScSg2:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2+Use/SpellNoSugg:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScSg2+OcSg:%>%{ЭЕ%}лн VERB_K ;
++Act+Imprt+ScSg2+OcSg+Use/SpellNoSugg:%>%{ЭЕLong%}лн VERB_K ;
++Act+Imprt+ScSg2+OcDu:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScSg2+OcDu+Use/SpellNoSugg:%>%{ЭЕLong%}гн VERB_K ;
++Act+Imprt+ScSg2+OcPl:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl+Use/SpellNoSugg:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScSg2+OcPl+Use/SpellNoSugg:%>%{ЭЕLong%}нын VERB_K ;
+
++Act+Imprt+ScDu2+OcSg:%>%{ЭЕ%}лн VERB_K ;
++Act+Imprt+ScDu2+OcSg+Use/SpellNoSugg:%>%{ЭЕ%}лы̄н VERB_K ;
++Act+Imprt+ScDu2+OcDu:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScDu2+OcDu+Use/SpellNoSugg:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Imprt+ScDu2+OcPl:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl+Use/SpellNoSugg:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScDu2+OcPl+Use/SpellNoSugg:%>%{ЭЕLong%}нын VERB_K ;
+
++Act+Imprt+ScPl2+OcSg:%>%{ЭЕ%}лн VERB_K ;
++Act+Imprt+ScPl2+OcSg+Use/SpellNoSugg:%>%{ЭЕ%}лы̄н VERB_K ;
++Act+Imprt+ScPl2+OcDu:%>%{ЭЕ%}гын VERB_K ;
++Act+Imprt+ScPl2+OcDu+Use/SpellNoSugg:%>%{ЭЕ%}гы̄н VERB_K ;
++Act+Imprt+ScPl2+OcPl:%>%{ЭЕ%}н VERB_K ;
++Act+Imprt+ScPl2+OcPl+Use/SpellNoSugg:%>%{ЭЕLong%}н VERB_K ;
++Act+Imprt+ScPl2+OcPl+Use/SpellNoSugg:%>%{ЭЕLong%}нын VERB_K ;
 !
 LEXICON V11_MUTUAL_PASS
  V11_MUTUAL_PASS_PRS ;
