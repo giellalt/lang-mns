@@ -39,15 +39,15 @@ LEXICON PO_ABL_paalnyl
 
 LEXICON PO_INS_OR_INS_PX
 +Ins: K ;
-+Ins+PxSg1:%>%{уØ%}м%>э K ;
-!+Ins+PxSg2:%>%{ыØ%}н%>э K ;
++Ins+PxSg1:%>%{уØ%}м K ;
++Ins+PxSg2:%>%{ыØ%}н K ;
 +Ins+PxSg3:%>э K ;
-!+Ins+PxDu1:%>ме̄н%>э K ;
-!+Ins+PxDu2:%>ы̄н%>э K ;
-!+Ins+PxDu3:%>э̄н%>э K ;
-!+Ins+PxPl1:%>%{уØ%}в%>э K ;
-!+Ins+PxPl2:%>%{ыØ%}н%>э K ;
-+Ins+PxPl3:%>аныл%>э K ;
++Ins+PxDu1:%>ме̄н K ;
++Ins+PxDu2:%>ы̄н K ;
++Ins+PxDu3:%>э̄н K ;
++Ins+PxPl1:%>%{уØ%}в K ;
++Ins+PxPl2:%>%{ыØ%}н K ;
++Ins+PxPl3:%>аныл K ;
 
 LEXICON PO_LAT_paaln
 +Lat:%-па̄лн K ;
