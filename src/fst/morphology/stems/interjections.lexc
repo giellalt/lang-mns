@@ -16,19 +16,20 @@ LEXICON Interjections
 паща+Interj:паща INTERJ_ "terve" ;
 я̄тилы+Interj:я̄тилы INTERJ_ "ole hyvä" ;
 а-а+Interj:а-а INTERJ_ "yes" ;
-остыгыл+Interj:остыгыл INTERJ_ "yes, of course" ;
-атхунь+Interj:атхунь INTERJ_ "конечно" ;
-ущ+Interj:ущ INTERJ_ "уже" ;
+остыгыл+Interj:остыгыл INTERJ_ "yes, of course" ; !CHECKMY POS ADV
+атхунь+Interj:атхунь INTERJ_ "конечно" ; !CHECKMY POS ADV
+ущ+Interj:ущ INTERJ_ "уже" ; !CHECKMY POS ADV
 щаль+Interj:щаль INTERJ_ "жаль" ;
 пӯмащипа+Interj:пӯмащипа INTERJ_ ;
 я-ты+Interj:я-ты INTERJ_ ;
 
-насаки+Interj:насаки INTERJ_ ;
-мо̄тынтыг+Interj:мо̄тынтыг INTERJ_  "next time" ; 
-аквтупмат+Interj:аквтупмат INTERJ_  "apparently" ; 
-аквтуп+Interj:аквтуп INTERJ_  "будто, словно" ;
-аквтоп+Interj:аквтоп INTERJ_  "будто, словно" ;
-э̄рттам+v1+Interj:э̄рттам INTERJ_  "будто бы" ;
-э̄рттам+v2+Interj:эрттам INTERJ_  "будто бы" ;
+насаки+v1+Interj:насаки INTERJ_ ;
+насаки+v2+Interj:насати INTERJ_ ;
+мо̄тынтыг+Interj:мо̄тынтыг INTERJ_  "next time" ; !CHECKMY POS ADV?
+аквтупмат+Interj:аквтупмат INTERJ_  "apparently" ; !CHECKME
+аквтуп+Interj:аквтуп INTERJ_  "будто, словно" ; !CHECKME
+аквтоп+Interj:аквтоп INTERJ_  "будто, словно" ; !CHECKME
+э̄рттам+v1+Interj:э̄рттам INTERJ_  "будто бы" ; !CHECKMY POS ADV
+э̄рттам+v2+Interj:эрттам INTERJ_  "будто бы" ; !CHECKMY POS ADV modal
 яа+Interj:яа INTERJ_  "" ;
-мат+Interj:мат INTERJ_  "whether" ;
+мат+Interj:мат INTERJ_  "whether" ; !CHECKMY POS CS?
