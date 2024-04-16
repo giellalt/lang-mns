@@ -797,8 +797,7 @@ LEXICON Verbs
 майла̄луӈкве+V:майла̄л V_U "13_even_сдавать" ;
 майлалыглаӈкве+V:майлалыгл V_A "23_even_вручать, давать" ;
 майлантаӈкве+V:майлант V_A "23_even_выдавать " ;
-!майлаӈкве+V:майл V_A ; !I don'n think there is such verb, I think the forms counted here are actually alternative forms of миӈкве. I'll have a look on them.
-!майлуӈкве+V:майл V_Y/U ; !Same here.
+майлуӈкве+V:майл V_U2C "23_odd_продать" ; 
 майлыгла̄луӈкве+V:майлыгла̄л V_U "13_odd_давать" ;
 ма̄лащлаӈкве+V:ма̄лащл V_A "23_even_щупать" ;
 ма̄лая̄лыглаӈкве+V:ма̄лая̄лыгл V_A "23_even_ощупывать" ;
