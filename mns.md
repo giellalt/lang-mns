@@ -1980,6 +1980,7 @@ The file lists personal pronouns and their lemma + tags.
 * ам+Pron+Pers+Sg1+Nom:ам PERS_PRON_KI_OR_ZERO ; 
 * наӈ+Pron+Pers+Sg2+Nom:наӈ PERS_PRON_KI_OR_ZERO ; 
 * тав+Pron+Pers+Sg3+Nom:тав PERS_PRON_KI_OR_ZERO ; 
+
 ...
 
 * * *
