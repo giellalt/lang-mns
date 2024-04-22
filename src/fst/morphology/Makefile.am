@@ -43,6 +43,7 @@ GT_LEXC_SRCS_L1_L2=\
 			stems/adjectives.lexc \
 			stems/adverbs.lexc \
 			stems/conjunctions.lexc \
+			stems/foreign_words.lexc \
 			stems/nouns.lexc \
 			stems/numerals.lexc \
 			stems/pronouns.lexc \
