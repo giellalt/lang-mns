@@ -1068,6 +1068,7 @@ LEXICON PRSPRC
 +PrsPrc:%>нэ VERB_K ; !Does this exist ?20230504
 +PrsPrc+PxSg1:%>нэ̄нум VERB_K ;
 +PrsPrc+PxSg1:%>нэ̄м VERB_K ;!this exists 2024-02-08
++PrsPrc+PxSg1:%>нэм VERB_K ;!this exists 2024-04-22
 +PrsPrc+PxSg2:%>нэ̄н VERB_K ;
 +PrsPrc+PxSg3:%>нэ̄нэ VERB_K ;
 +PrsPrc+PxSg3:%>нэ̄тэ VERB_K ;!this exists 2024-02-08
