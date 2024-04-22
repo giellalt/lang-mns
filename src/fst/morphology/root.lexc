@@ -265,6 +265,9 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 +Use/Circ   !!≈ * **@CODE@** = 
 
++OLang/KCA !!≈ * **@CODE@** = Khanty
++OLang/RUS !!≈ * **@CODE@** = Russian
++OLang/UND !!≈ * **@CODE@** = Undefined
 
         !! ## Symbols that need to be escaped on the lower side (towards twolc):
  »7     !!≈ * **@CODE@**:  Literal »
@@ -707,6 +710,7 @@ LEXICON Root
    Punctuation ;           !!≈ **@CODE@** 
    Symbols     ;           !!≈ **@CODE@** 
    Abbreviation     ;           !!≈ **@CODE@** 
+   foreign_words    ;		!!≈ **@CODE@**
 
 ат+Pcle+Neg:ат ENDLEX ;
 
