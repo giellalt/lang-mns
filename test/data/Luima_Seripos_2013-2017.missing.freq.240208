@@ -247,14 +247,14 @@
   16 та̄нкина̄нылн	та̄нкина̄ныл+Lat (reflexive pronoun) 
   16 потыртаманыл	потыртаӈкве+V+PrfPrc+PxPl3
   16 Ня̄врамытын	Ня̄врам+Pl+Lat
-  16 ӯргалыяныл	ӯргалаӈкве+V+Act+Ind+Prs+ScPl3+OcSg !To Be Solved, hereafter TBS
+  16 ӯргалыяныл	ӯргалаӈкве+V+Act+Ind+Prs+ScPl3+OcSg !To Be Solved, hereafter TBS>S
   16 хусапсовыт	noun S !Sorted, hereafter S
   16 творчество	Foreign S
-  16 таквина̄тэ	тав+Pron+Pers+Sg3+Acc TBS
+  16 таквина̄тэ	тав+Pron+Pers+Sg3+Acc TBS>S
   16 педучилище	Noun S
   16 олннё̄тмил	Typo S
   16 аквхурипат	аквхурип+Adj+Pl
-  16 рӯпитанэм	рӯпитаӈкве+V+PrsPrc+PxSg1 TBS
+  16 рӯпитанэм	рӯпитаӈкве+V+PrsPrc+PxSg1 TBS>S
   16 минасме̄н	минуӈкве+V+Act+Ind+Prt+ScDu1 TBS
   16 училищан	noun S
   16 лю̄льсыт	лю̄люӈкве+V+Act+Ind+Prt+ScPl3 TBS
@@ -267,7 +267,7 @@
   15 Правительстват	noun S
   15 Ке̄расколыӈъя̄	proper noun S
   15 таквина̄тэ̄н	тав+Pron+Pers+Sg3+Dat
-  15 тотыглыяныл	тотыглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+  15 тотыглыяныл	тотыглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
   15 премияолныл
   15 А̄гмыӈмосыӈ
   15 ма̄ло̄мтыл
@@ -294,7 +294,7 @@
   14 финноугорских
   14 Омагума̄тягум
   14 э̄руптыянум
-  14 уральтыянӯв	should be analysed as уральтаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS
+  14 уральтыянӯв	should be analysed as уральтаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS>S
   14 са̄лыӈколыӈ
   14 пыгрищакве
   14 номсыте̄мт
@@ -329,7 +329,7 @@
   14 пӯрщ
   14 кот
   14 www
-  13 щё̄питыянӯв	should be analysed as щё̄питаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS
+  13 щё̄питыянӯв	should be analysed as щё̄питаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS>S
   13 Ханищтахтан
   13 олимпиадат
   13 янытлыянэ
@@ -405,10 +405,10 @@
   11 Отечественной
   11 та̄нтина̄ныл
   11 кӯпнитнуве̄г
-  11 тотыглыянӯв	should be analysed as тотыглаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS
+  11 тотыглыянӯв	should be analysed as тотыглаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS>S
   11 телевидение
   11 кисхатуӈкве
-  11 ка̄салыяныл	ка̄салаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+  11 ка̄салыяныл	ка̄салаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
   11 ве̄рмынувыт
   11 автономного
   11 Омагеа̄тяге
@@ -472,9 +472,9 @@
   10 ма̄хумате̄нув
   10 пӯрлахтуӈкве
   10 ловиньтэ̄лын
-  10 ке̄тыглыяныл	ке̄тыглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+  10 ке̄тыглыяныл	ке̄тыглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
   10 а̄стланэ̄ныл
-  10 янмалтыяныл	янмалтаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+  10 янмалтыяныл	янмалтаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
   10 суссылтыянэ
   10 пупа̄пщикве
   10 пенсияолныл
@@ -541,7 +541,7 @@
    9 прокуратурат
    9 национальных
    9 са̄лтатанув
-   9 китыглыяныл	китыглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+   9 китыглыяныл	китыглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
    9 губернатора
    9 хозяйстват
    9 со̄тыратем
@@ -597,10 +597,10 @@
    8 предпринимателиг
    8 художественных
    8 акванатыглыянэ typo, S
-   8 хультуптыяныл	хультуптаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+   8 хультуптыяныл	хультуптаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
    8 пособияолныл
    8 государстват
-   8 во̄выглыяныл	во̄выглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+   8 во̄выглыяныл	во̄выглаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
    8 э̄лыпа̄лэ̄т
    8 просвещения
    8 пе̄рия̄лвес
@@ -749,7 +749,7 @@
    7 лӯсытан
    7 ля̄мйив
    7 ва̄нэ̄г
-   7 ва̄нэ̄в	ва̄ӈкве+V+PrsPrc+PxPl1 TBS
+   7 ва̄нэ̄в	ва̄ӈкве+V+PrsPrc+PxPl1 TBS>S
    7 биатлон
    7 Турва̄т
    7 Тове̄рт
@@ -831,12 +831,12 @@
    6 ма̄колыӈо̄йка
    6 ва̄нтлысаме̄н
    6 Селиверстовна
-   6 со̄сантыяныл	со̄сантаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+   6 со̄сантыяныл	со̄сантаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
    6 национальной
    6 государствав
    6 аспирантурат
    6 языкознание
-   6 э̄руптыянӯв	should be analysed as э̄руптаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS
+   6 э̄руптыянӯв	should be analysed as э̄руптаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS>S
    6 та̄нкке̄ныл
    6 прокуратура
    6 прививкатыл
@@ -868,7 +868,7 @@
    6 китса̄ткем
    6 ка̄стыглан
    6 акванпатнэ
-   6 а̄стлыяныл	а̄стлаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+   6 а̄стлыяныл	а̄стлаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
    6 Шешкинские
    6 Узбекистан
    6 Ленинграда
