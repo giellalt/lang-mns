@@ -182,6 +182,10 @@ source and target part-of-speech.
 
 * **+Use/Circ** = 
 
+* **+OLang/KCA** = Khanty
+* **+OLang/RUS** = Russian
+* **+OLang/UND** = Undefined
+
 ## Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
@@ -580,6 +584,7 @@ word classes, or optionally from prefixes:
 **Punctuation ;** 
 **Symbols ;** 
 **Abbreviation ;** 
+**foreign_words ;**
 
 * **LEXICON K** for evt. clitic (goes to #)
 
