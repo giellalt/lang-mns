@@ -323,35 +323,35 @@ LEXICON V0_MINUNGKVE
 
 : V11_MUTUAL_PASS ;
 
-LEXICON JOXTUNGKVE
-!! put derivations here
-+Der+Der/Vlt+V:%>алт V0_A ;
-+Der+Der/Vnt+V:%>ант V0_A ;
-+Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
-+Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
-+Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
-+Der+Der/Vyschl:%>ыщл V0_A ;
- V0_JOXTUNGKVE ;
-LEXICON V0_JOXTUNGKVE
-!! **LEXICON @LEXNAME@** 
-:%{VU%}%>%{уюØ%} INF ;
-:%{VU%}ы PRSPRC ; !cf U2C %{VU%} see V0_Y/U
-!:%{VU%} V11_MUTUAL ;
-:%{VU%}%>%{уюØ%} PRFPRC ;
-:%{VU%}%>%{ыиØ%} GER ;!+Actio
-:%{VU%}%>%{ыиØ%} ACTIO ;
-+Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
-:%{VU%} ACT_IND_PRS_VU ;
-:ы%{VU%} ACT_IND_PRT_OCDU/PL_VU ;!cf U2C with %{VU%}
-:%{VU%} ACT_IMPRT_VU ;!all
-:%{VU%} ACT_COND_VU ;!all
-
-:ы%{VU%} ACT_IND_PRT_SC_VU ; ! ёхтысум!cf U2C %{VU%}
-:ы%{VU%} ACT_IND_PRT_OCSG_slameen ; ! ёхтысаныл the plural is specialCHECKME !cf U2C %{VU%}
-:%{VU%}у PASS_PRT ;!cf U2C %{VU%}
-:%{VU%}%>%{аяØ%} PASS_PRS_VU ;
-:%{VU%} PASS_COND ;
-
+!20240422!LEXICON JOXTUNGKVE
+!20240422!!! put derivations here
+!20240422!+Der+Der/Vlt+V:%>алт V0_A ;
+!20240422!+Der+Der/Vnt+V:%>ант V0_A ;
+!20240422!+Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
+!20240422!+Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
+!20240422!+Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
+!20240422!+Der+Der/Vyschl:%>ыщл V0_A ;
+!20240422! V0_JOXTUNGKVE ;
+!20240422!LEXICON V0_JOXTUNGKVE
+!20240422!!! **LEXICON @LEXNAME@** 
+!20240422!:%{VU%}%>%{уюØ%} INF ;
+!20240422!:%{VU%}ы PRSPRC ; !cf U2C %{VU%} see V0_Y/U
+!20240422!!:%{VU%} V11_MUTUAL ;
+!20240422!:%{VU%}%>%{уюØ%} PRFPRC ;
+!20240422!:%{VU%}%>%{ыиØ%} GER ;!+Actio
+!20240422!:%{VU%}%>%{ыиØ%} ACTIO ;
+!20240422!+Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
+!20240422!:%{VU%} ACT_IND_PRS_VU ;
+!20240422!:ы%{VU%} ACT_IND_PRT_OCDU/PL_VU ;!cf U2C with %{VU%}
+!20240422!:%{VU%} ACT_IMPRT_VU ;!all
+!20240422!:%{VU%} ACT_COND_VU ;!all
+!20240422!
+!20240422!:ы%{VU%} ACT_IND_PRT_SC_VU ; ! ёхтысум!cf U2C %{VU%}
+!20240422!:ы%{VU%} ACT_IND_PRT_OCSG_slameen ; ! ёхтысаныл the plural is specialCHECKME !cf U2C %{VU%}
+!20240422!:%{VU%}у PASS_PRT ;!cf U2C %{VU%}
+!20240422!:%{VU%}%>%{аяØ%} PASS_PRS_VU ;
+!20240422!:%{VU%} PASS_COND ;
+!20240422!
 
 LEXICON IND_PRS_TEENGKVE
 +Act+Ind+Prs+ScSg1:%>ум VERB_K ;
@@ -376,6 +376,29 @@ LEXICON V_NSHU   !!≈ @CODE@ йинуӈкве
 LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
  V_U2C ;!2023-11-18
 
+LEXICON V_NSSUBA !!≈ @CODE@ 
+ V_Y/UBA ;
+
+LEXICON V_UBA !!≈ @CODE@ 
+ V_U ;
+!!BEGIN
+!:%{VA%}%>%{аяØ%} PRSPRC ; !Does this exist ?20230504 
++PrsPrc:%{VA%}%>%{аяØ%}н # ; ! This will need some variants with onset vowel.
+:%>%{аяØ%} PRFPRC ;
+:%>%{ыиØ%} GER ;!ым +Ger?+Actio
+:%>%{ыиØ%} ACTIO ;
++Der+Der/Ap+N:%>ап N_VCH ;
+:%{VU%} ACT_IND_PRS_VA ;
+:%{VU%} ACT_IMPRT ;
+:%{VA%}%>%{аяØ%} ACT_IND_PRT_SC_VA ;
+
+:%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
+:%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_OC3 ;
+:%{VA%}%>%{аяØ%} ACT_COND_VU ;
+:%{VA%}	ACT_IMPRT_for_V_A ;
+:%{VA%}%>%{аяØ%} PASS_COND ;!add vowel where there was none 2023_05_02
+
+!!END
 LEXICON V_U !!≈ @CODE@ 
 !! put derivations here
 +Der+Der/Vlt+V:%>алт V0_A ;
@@ -448,6 +471,27 @@ LEXICON V0_U2C !This has two consonants before -уӈкве (voiced)
 +Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VU%} PASS_COND ;
 
+LEXICON V_Y/UBA !!≈ @CODE@ 
+ V_Y/U ;
+!!BEGIN
+!20240422:%{VA%}%>%{аяØ%} PRSPRC ; !Does this exist ?20230504 
++PrsPrc:%{VA%}%>%{аяØ%}н # ; ! This will need some variants with onset vowel.
+:%>%{аяØ%} PRFPRC ;
+:%>%{ыиØ%} GER ;!ым +Ger?+Actio
+:%>%{ыиØ%} ACTIO ;
++Der+Der/Ap+N:%>ап N_VCH ;
+:%{VU%} ACT_IND_PRS_VA ;
+:%{VU%} ACT_IMPRT ;
+:%{VA%}%>%{аяØ%} ACT_IND_PRT_SC_VA ;
+
+:%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
+:%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_OC3 ;
+:%{VA%}%>%{аяØ%} ACT_COND_VU ;
+:%{VA%}	ACT_IMPRT_for_V_A ;
+:%{VA%}%>%{аяØ%} PASS_COND ;!add vowel where there was none 2023_05_02
+
+!!END
+
 LEXICON V_Y/U
 !! put derivations here
 +Der+Der/Vlt+V:%>алт V0_A ;
@@ -473,24 +517,25 @@ LEXICON V0_Y/U !This has two consonants, one is onset before -уӈкве
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 :%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
-!:%{VU%} ACT_IND_VU ;  2023-11-18
 :%{VU%} ACT_IND_PRS_VU ;!2023-11-18
-
-
 :%{VU%}ы ACT_IND_PRT_OCDU/PL_VU ;!2023-11-18
- 
 :%{VU%} ACT_IMPRT_VU ;!all
 :%{VU%} ACT_COND_VU ;!all
-:%{VU%}ы ACT_IND_PRT_SC_VU ;!2023-11-18
 
+:%{VU%}ы ACT_IND_PRT_SC_VU ;!2023-11-18
 :%{VU%} ACT_IND_PRT_OCSG_slameen ;
 +Act+Ind+Prt+ScPl3+OcSg:%{VU%}%>ысаныл VERB_K ;!2023-11-18 NEEDWORK
-
 :%{VU%}у PASS_PRT ;!2023-11-18 
 :%{VU%}%>%{аяØ%} PASS_PRS_VU ;!CHECKME
+:%{VU%} PASS_COND ;
+
+!:%{VU%} ACT_IND_VU ;  2023-11-18
+:%{VU%} ACT_IMPRT_VU ;!all
+:%{VU%} ACT_COND_VU ;!all
+
+
 +Err/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
 +Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
-:%{VU%} PASS_COND ;
 
 LEXICON INF
 +Inf:ӈкве VERB_K ;
