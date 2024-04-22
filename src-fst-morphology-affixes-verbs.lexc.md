@@ -20,13 +20,14 @@ put derivations here
 
 :у INF ;
 
-put derivations here
-**LEXICON V0_JOXTUNGKVE** 
-
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
 LEXICON V_NSSU о̄ньщуӈкве
+
+LEXICON V_NSSUBA 
+
+LEXICON V_UBA 
 
 LEXICON V_U 
 put derivations here
@@ -36,6 +37,8 @@ LEXICON V0_U
 put derivations here
 
 **LEXICON V0_U2C** 
+
+LEXICON V_Y/UBA 
 
 put derivations here
 **LEXICON V0_Y/U** 

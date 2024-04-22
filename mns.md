@@ -774,13 +774,14 @@ put derivations here
 
 :у INF ;
 
-put derivations here
-**LEXICON V0_JOXTUNGKVE** 
-
 ## Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
 LEXICON V_NSSU о̄ньщуӈкве
+
+LEXICON V_NSSUBA 
+
+LEXICON V_UBA 
 
 LEXICON V_U 
 put derivations here
@@ -790,6 +791,8 @@ LEXICON V0_U
 put derivations here
 
 **LEXICON V0_U2C** 
+
+LEXICON V_Y/UBA 
 
 put derivations here
 **LEXICON V0_Y/U** 
@@ -1991,7 +1994,7 @@ The file lists personal pronouns and their lemma + tags.
 **LEXICON Verbs** is the list of all verbstems
 
 * а̄гмалтаӈкве+V:а̄гмалт V_A "23_even_определить" ; 
-* а̄йтынтахтуӈкве+V:а̄йтынтахт JOXTUNGKVE "23_odd_тошнить" ;
+* а̄йтынтахтуӈкве+V:а̄йтынтахт V_Y/U "23_odd_тошнить" ;
 * а̄лмаяӈкве+V:а̄лмай V_A "12_even_поднять" ;
 * а̄лмта̄луӈкве+V:а̄лмта̄л V_U "13_even_носить /на руках/" ;
 ..., some 3500 verbs.
