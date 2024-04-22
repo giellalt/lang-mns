@@ -141,6 +141,16 @@ LEXICON personal
 !наӈ+Pron+Pers+Refl+Pl2+Nom:на̄нки # ;
 !тав+Pron+Pers+Refl+Pl3+Nom:та̄нки # ;
 
+амки+Pron+Refl+Sg1:амки PRON_REFL_SG1 ;
+амки+Pron+Refl+Du1:ме̄нки PRON_REFL_DU1 ;
+амки+Pron+Refl+Pl1:ма̄нки PRON_REFL_PL1 ;
+наӈки+Pron+Refl+Sg2:наӈки PRON_REFL_SG2 ;
+наӈки+Pron+Refl+Du2:нэ̄нки PRON_REFL_DU2 ;
+наӈки+Pron+Refl+Pl2:на̄нки PRON_REFL_PL2 ;
+такви+Pron+Refl+Sg3:такви PRON_REFL_SG3 ;
+такви+Pron+Refl+Du3:тэ̄нки PRON_REFL_DU3 ;
+такви+Pron+Refl+Pl3:та̄нки PRON_REFL_PL3 ;
+
 ! vim: set ft=xfst-lexc:
 
 хо̄ӈха+Pron+Interr:хо̄ӈха N_VO ;
