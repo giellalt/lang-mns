@@ -40,7 +40,7 @@ EDIT_DISTANCE=2
 # search space of the error model, and thus make it much, much slower. Make sure
 # you TEST the resulting error model properly and thoroughly, both for speed
 # and suggestion quality.
-INITIAL_EDITS=no
+INITIAL_EDITS=txt
 
 # Variable to define whether to enable edits of longer strings (as opposed to
 # single letters). Possible values are:
