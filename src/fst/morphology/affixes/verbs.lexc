@@ -311,6 +311,7 @@ LEXICON V0_MINUNGKVE
 +Act+Ind+Prt+ScSg2:асын VERB_K ;
 +Act+Ind+Prt+ScSg3:ас VERB_K ;
 +Act+Ind+Prt+ScDu1:асаме̄н VERB_K ;
++Act+Ind+Prt+ScDu1:асме̄н VERB_K ;!Which one is correct?
 +Act+Ind+Prt+ScDu2:асы̄н VERB_K ;
 +Act+Ind+Prt+ScDu2:асын VERB_K ;
 +Act+Ind+Prt+ScDu3:асы̄г VERB_K ;
@@ -1161,6 +1162,7 @@ LEXICON PRFPRC_PERSON_teemanum
 +PrfPrc+PxPl2:%>маны̄н VERB_K ;!?
 +PrfPrc+PxPl2:%>мананы̄н VERB_K ;!?
 +PrfPrc+PxPl3:%>мана̄ныл VERB_K ;!
++PrfPrc+PxPl3:%>маныл VERB_K ;!
 +PrfPrc+PxPl3:%>ма̄ныл VERB_K ;!
 
 LEXICON ACTIO
