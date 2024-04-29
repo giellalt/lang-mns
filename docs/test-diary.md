@@ -66,16 +66,18 @@ cat test/data/Luima_Seripos_2013-2017.txt |\
 hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
-Number of unknown words:
+Number of unknown words (the old command did not remove the Russian words):
+
 
 ```
 cat test/data/Luima_Seripos_2013-2017.txt |\
- hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
- preprocess --corr=test/data/typos.txt|\
- hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
- grep " ?"|cut -d'"' -f2|wc -l
+hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+preprocess --corr=test/data/typos.txt|\
+hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+grep " ?"|cut -d'"' -f2|\
+hfst-lookup -q ../lang-rus/src/fst/analyser-gt-desc.hfstol |\
+grep "+?"|cut -d'"' -f2|wc -l
 ```
-
 
 ### Lexical coverage of Luima Seripos
 
@@ -171,6 +173,7 @@ Coverage:
 - 231116: 1-(348/7584) = 0.954
 - 231118: 1-(255/7584) = 0.966
 - 231129: 1-(258/7574) = 0.966
+- No more testing on this version
 
 ### Lexical coverage of Textbook 1. version
 
@@ -183,7 +186,7 @@ Coverage:
 - No more testing on this version
 
 
-## Dictinoary coverage of the textbook
+## Dictionary coverage of the textbook
 
 ```
 cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |vislcg3 -g src/cg3/disambiguator.cg3 |grep -v '^[:]'|cut -d'"' -f2|uniq|grep -v '^<'|sort|uniq -c|sort -nr|cut -c6-|grep '[яшертыуиопюжасдфгчйкльъэщзхцвбнмм]'|mnshun|grep "+?"|cut -f1|wc -l
