@@ -1971,16 +1971,16 @@ LEXICON Verbs
 таххатуӈкве+V:таххат V_U "13_even_хотеться" ;
 тахыгла̄луӈкве+V:тахыгла̄л V_U "13_odd_пролетать /по воздуху/" ;
 та̄япаӈкве+V:та̄яп V_A "11_even_съесть /быстро/" ;
-те̄рыглаӈкве+V:те̄рыгл V_A ;
-те̄туӈкве+V:те̄т V_U ;
-те̄тыглаӈкве+V:те̄тыгл V_A ;
+!те̄рыглаӈкве+V:те̄рыгл V_A ; ке̄рыглаӈкве
+!те̄туӈкве+V:те̄т V_U ;	ке̄туӈкве
+!те̄тыглаӈкве+V:те̄тыгл V_A ; ке̄тыглаӈкве
 тинсуӈкве+V:тинс V_NSHU "27_odd_искать" ;
 типылтаӈкве+V:типылт V_A "23_even_" ;
 тисгуӈкве+V:тисг V_Y/U "21_odd_свистеть" ;
 тистуӈкве+V:тист V_Y/U "23_odd_вздыхать " ;
 тисувлаӈкве+V:тисувл V_A "23_even_свистнуть" ;
-титыглаӈкве+V:титыгл V_A ;
-титыглахтаӈкве+V:титыглахт V_A ;
+!титыглаӈкве+V:титыгл V_A ; китыглаӈкве
+!титыглахтаӈкве+V:титыглахт V_A ; китыглахтаӈкве
 то̄валтта̄лыглаӈкве+V:то̄валтта̄лыгл V_A "23_even_выполнять" ;
 то̄валтта̄нтуӈкве+V:то̄валтта̄нт V_U2C "23_odd_выполнять" ;
 то̄валттаӈкве+V:то̄валтт V_A "33_even_выполнить" ;
@@ -2684,6 +2684,12 @@ LEXICON Verbs
 во̄рмалтаӈкве+V:во̄рмалт V_A "23_even_ " ;
 ялтуптаӈкве+V:ялтупт V_A "23_even_" ;
 
+тарапаттуӈкве+v1+V:тарапатт V_A "23_even_усваивать" ;
+тара-паттуӈкве+v2+V:тара-патт V_A "23_even_усваивать" ;
+щаквщуӈкве+V:щаквщ V_U "26_odd_" ;
+то̄ргуӈкве+V:то̄рт V_U2C "23_odd_трепетать" ;
+щаруӈкве+V:щар V_U "26_odd_" ;
+
 
 !Added UBA (meaning "U in the infinitive, but A in the paradigm") tag to the meaning of verbs. I didn't dare to write it in the description, but ideally it would be V_UBA
 
@@ -2703,6 +2709,14 @@ LEXICON Verbs
 !@U.VPref.xot@хот-та̄тламтаӈкве+V:@U.VPref.xot@та̄тламт V_A "23_even_" ;
 !@U.VPref.xot@хот-тэ̄лгата̄луӈкве+V:@U.VPref.xot@тэ̄лгата̄л V_U "13_odd_" ;
 !@U.VPref.xot@хот-якытлаӈкве+V:@U.VPref.xot@якытл V_A "23_even_" ;
+!@U.VPref.akwan@акван-ка̄сащаӈкве+V:@U.VPref.akwan@ка̄сащ V_A "16_even_желать";
+!@U.VPref.akwan@акван-пувуӈкве+V:@U.VPref.akwan@пув V_U "11_odd_";
+!@U.VPref.akwan@акван-нэ̄гуӈкве+V:@U.VPref.akwan@нэ̄г V_U "11_odd_";
+!@U.VPref.jola@ёла-тохруӈкве+V:@U.VPref.jol@тохр V_U "21_odd_" ;
+!@U.VPref.noox@но̄х-ӯруӈкве+V:@U.VPref.noox@ур V_A "11_odd" ;
+!@U.VPref.eel@э̄л-нилюӈкве+V:@U.VPref.eel@ниль V_Y/U "14_odd_" ;
+!@U.VPref.juw@юв-ӯруӈкве+V:@U.VPref.juw@ӯр V_U "11_odd" ;
+
 
 LEXICON Prefixing_verbs
 ! This is where verbs go that can take prefixes
