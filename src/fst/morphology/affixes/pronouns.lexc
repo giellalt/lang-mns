@@ -113,6 +113,7 @@ LEXICON PRON_REFL_PL1
 LEXICON PRON_REFL_PL2
 +Nom:  # ;
 +Acc:%>нан # ;
++Acc:%>на̄н # ;
 +Acc:%>н # ;
 +Dat:%>на̄нынн  # ;
 +Dat:%>нн  # ;
