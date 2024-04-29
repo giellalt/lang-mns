@@ -151,6 +151,16 @@ LEXICON personal
 такви+Pron+Refl+Du3:тэ̄нки PRON_REFL_DU3 ;
 такви+Pron+Refl+Pl3:та̄нки PRON_REFL_PL3 ;
 
+амки+Pron+Emph+Sg1:амки # ;
+амки+Pron+Emph+Du1:ме̄нки # ;
+амки+Pron+Emph+Pl1:ма̄нки # ;
+наӈки+Pron+Emph+Sg2:наӈки # ;
+наӈки+Pron+Emph+Du2:нэ̄нки # ;
+наӈки+Pron+Emph+Pl2:на̄нки # ;
+такви+Pron+Emph+Sg3:такви # ;
+такви+Pron+Emph+Du3:тэ̄нки # ;
+такви+Pron+Emph+Pl3:та̄нки # ;
+
 ! vim: set ft=xfst-lexc:
 
 хо̄ӈха+Pron+Interr:хо̄ӈха N_VO ;

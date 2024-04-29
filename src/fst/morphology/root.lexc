@@ -79,6 +79,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Pers 	    !!≈ * **@CODE@** 
  +Deg		!!≈ * **@CODE@** degree мощща
  +Dem 	    !!≈ * **@CODE@** 
+ +Emph	    !!≈ * **@CODE@** This might overlap with Pron+Refl 
  +Interr    !!≈ * **@CODE@** 
  +Refl 	    !!≈ * **@CODE@** this is also used for +Nom intensfier
  +Recipr    !!≈ * **@CODE@** 
