@@ -1216,6 +1216,7 @@ language are presented in this system in terms of the following symbols.
 * **+Pers** 
 * **+Deg** degree мощща
 * **+Dem** 
+* **+Emph** This might overlap with Pron+Refl 
 * **+Interr** 
 * **+Refl** this is also used for +Nom intensfier
 * **+Recipr** 
