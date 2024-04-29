@@ -1251,6 +1251,7 @@ LEXICON VERB_K
 LEXICON VERBS_WITH_PREFIX
 @R.VPref.akwan@+Pref/akwan:@R.VPref.akwan@ VPrefixes_END ;
 @R.VPref.jol@+Pref/jol:@R.VPref.jol@ VPrefixes_END ;
+@R.VPref.jola@+Pref/jola:@R.VPref.jola@ VPrefixes_END ;
 @R.VPref.jot@+Pref/jot:@R.VPref.jot@ VPrefixes_END ;
 @R.VPref.kon@+Pref/kon:@R.VPref.kon@ VPrefixes_END ;
 @R.VPref.konalj@+Pref/konalj:@R.VPref.konalj@ VPrefixes_END ;

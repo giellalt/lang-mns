@@ -137,6 +137,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Disc/ta
  +Pref/akwan
  +Pref/jol
+ +Pref/jola
  +Pref/jot
  +Pref/kon
  +Pref/konalj
@@ -571,6 +572,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 !! # FLAGS USED WITH VERB PREFIXES
 @U.VPref.akwan@ !!≈ * @CODE@
 @U.VPref.jol@ !!≈ * @CODE@
+@U.VPref.jola@ !!≈ * @CODE@
 @U.VPref.jot@ !!≈ * @CODE@
 @U.VPref.kon@ !!≈ * @CODE@
 @U.VPref.konalj@ !!≈ * @CODE@
@@ -601,6 +603,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 
 @R.VPref.akwan@ !!≈ * @CODE@
 @R.VPref.jol@ !!≈ * @CODE@
+@R.VPref.jola@ !!≈ * @CODE@
 @R.VPref.jot@ !!≈ * @CODE@
 @R.VPref.kon@ !!≈ * @CODE@
 @R.VPref.konalj@ !!≈ * @CODE@
