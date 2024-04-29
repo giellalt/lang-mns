@@ -447,6 +447,7 @@ problematic
 # FLAGS USED WITH VERB PREFIXES
 * @U.VPref.akwan@
 * @U.VPref.jol@
+* @U.VPref.jola@
 * @U.VPref.jot@
 * @U.VPref.kon@
 * @U.VPref.konalj@
@@ -477,6 +478,7 @@ problematic
 
 * @R.VPref.akwan@
 * @R.VPref.jol@
+* @R.VPref.jola@
 * @R.VPref.jot@
 * @R.VPref.kon@
 * @R.VPref.konalj@
