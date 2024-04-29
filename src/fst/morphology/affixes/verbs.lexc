@@ -450,6 +450,7 @@ LEXICON V0_U2C !This has two consonants before -уӈкве (voiced)
 :%{VU%} PRSPRC ; ! 2024-04-08
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
+:%{VU%} PRFPRC_PERSON ;!jaska 20240429
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 :%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
