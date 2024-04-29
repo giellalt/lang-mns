@@ -54,6 +54,58 @@ Emphatic and refelxive personal pronouns
      тав+Pron+Pers+Sg3+Abl: [та̄нкина̄ны̄лныл, та̄нкина̄наны̄лныл, та̄нкмянылныл]
      тав+Pron+Pers+Sg3+Ins: [та̄нкина̄наны̄лтыл, та̄нкина̄ны̄лтыл, та̄нкина̄нылт, та̄нкиянылт]
 
+I.
+1. According to literature, nominative forms are emphatic. This is supported by the data as well.
+
+Амки о̄с ты па̄выл-т школа а̄стла-сум.
+Sg1Emph too this village+Loc school finish+V+Act+Ind+Prt+ScSg1
+I myself graduated from that school too.
+
+Амки ня̄врам ат о̄ньщигл-асум, о̄йка-м тав хӯрум пыганэ, хӯрум а̄ги-янэ янмалт-асанум.
+Sg1Emph child no own+V+Act+Ind+Prt+ScSg1 husband+PxSg1 he three boy+N+Pl+Nom+PxSg3 three girl+N+Pl+Nom+PxSg3 grow(tr)+V+Act+Ind+Prt+ScSg1+OcPl
+I didn't have children myself, I was raising my husband's three sons and three daughters.
+
+
+2. According to the data, nominative forms can be understood in reflexive-like meanings, especially when followed by postpoisitions. It doesn't seem to be a grammatical difference, but I still feel it to be different from the previous analysis.
+
+Ты ня̄врам-акве-г ам амки нупыл-ум хас-сагум, то̄нт нэ̄мхотьют а̄нум ат ла̄в-ыс, тыщир ва̄руӈкве ат кос э̄р-ыс.
+thus child+Dim+Du Sg1 Sg1Refl above+PxSg1 write+V+Act+Ind+Prt+ScSg1+OcDu then nobody no say+V+Act+Ind+Prt+ScSg3 this.way do+Inf no atlhough may+V+Act+Ind+Prt+ScSg3
+So I adopted the two children, I wasn't told that I would not have been doing so.
+
+Ты а̄ги-рищ-иг-пыг-рищ-иг янмалт-ым ам о̄с нила ня̄врам-акве амки пал-т-ум ви-санум. 
+this girl+Dim+Du-boy+Dim+Du grow(tr)+Ger Sg1 too four child+Dim Sg1Refl side-Loc-PxSg1 bring+V+Act+Ind+Prt+ScSg1+OcPl
+While I was raising this little girl and boy, I took in four other children as well.
+
+Ты ня̄врам-ыт нэ̄пак-аныл хунь ва̄р-санум, то̄нт ла̄в-ве̄сум, амки нупыл-ум воссыг ул вос хансы-янум. 
+this child+Pl book++Nom+PxPl3 when do-+V+Act+Ind+Prt+ScSg1+OcPl then say-+V+Act+Ind+Prt+ScSg1+OcPl Sg1Refl no.nore write+V+Act+Ind+Prt+ScSg1+OcPl
+When I was creating these children's documents, only then was I told not to adopt them. 
+
+3. In some situations, I'd translate the nominative form in the meaning of Russian "свой"
+
+Ам тав-е̄н амки та̄рвитыӈ ва̄рмал-юм урыл потыртасум.
+Sg1 Sg3 Sg1Refl difficult thing+PxSg1 about speak+V+Act+Ind+Prt+ScSg1
+I told him about my(own) difficult situation.
+
+Ам амки яныг-м-ам пора-м ёмащакв номи-лум, ма̄нь па̄выл-кве-ныл яныг ӯс-н интернат-ын о̄луӈкве ке̄т-вес-ӯв.
+Sg1 Sg1Refl grow+V+PrfPrc+PxSg1 time+PxSg1 well think+V+Act+Ind+Prs+ScSg1+OcSg small village+Dim+Abl big town+Lat boarding.school+Lat live-Inf send+V+Pass+Ind+Prt+ScPl1
+I well remember my own childhood, we were sent to the boarding school in the big town from our small village. 
+
+Ам амки о̄парищнам-ум Енизорова о̄л-ыс.
+Sg1 Sg1Refl surname+PxSg1 Yenizarova be+V+Act+Ind+Prt+ScSg3
+My maiden name (my own family name) was Yenizarova.
+
+II.
+1. According to literature, accusative, dative, ablative and instrumental forms are reflexive. It is supported by the data as well.
+
+Ольга Александровна Фомичёва, Силава па̄выл-т о̄л-нэ ма̄ньщи нэ̄, таквина̄тэ̄н ос а̄гитэ̄н тамле суп тот ёвт-ыс.
+O.A.F. Silava village-Loc live+V+PrsPrc Mansi woman Sg3.Refl+Dat and girl+PxSg3+Lat this.kind dress there buy+V+Act+Ind+Prt+ScSg3
+A Mansi woman from Silawa village, O.A.F. bought herself and her daughter costumes like that there.
+
+2. Some sentences do not fit to this understanding.
+Ма̄хум-акве-т, на̄н ос на̄нкина̄н ёмас ва̄р-е̄н, пӯльница-н ва̄тихал уральтахтуӈкве ял-э̄н.
+people+Dim+Pl Pl2 too Pl2Refl good do+V+Act+Imprt+ScPl2 hospital+Loc often guard(refl)+Inf go(freq)+V+Act+Imprt+ScPl2
+Dear people, do yourself a favour and go to the hospital often to have yourselves checked.
+
 Solitary personal pronouns
 
      ам+Pron+Pers+Sg1+Nom: [амкем, амккем, амке̄мт, амкке̄мт]
