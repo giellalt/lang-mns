@@ -478,7 +478,12 @@ LEXICON N_XUM !!≈ * @CODE@ Special stems
 :%{VCH%} DU_X_PXDU1_ajagamen ;
 
 LEXICON N_VCCH_rus100
-+Use/SpellNoSugg: N_VCCH ;
+! We should consider whether SpellNoSugg is the correct way of
+! dealing with these. One alternative would be doing
+! august -> elokuu in spellcheckers/words.default.txt
+!+Use/SpellNoSugg: N_VCCH ;
+N_VCCH ;
+
 LEXICON N_VCCH 
 !! put derivations here
 +Der+Der/Dimin+N:%>кве N0_VO ;
