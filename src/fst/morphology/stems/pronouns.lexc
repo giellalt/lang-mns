@@ -33,7 +33,7 @@ LEXICON personal
 тав+Pron+Pers+Sg3+Nom:тав PERS_PRON_KI_OR_ZERO ; !!≈ * @CODE@ 
 
 ам+v1+Pron+Pers+Du1+Nom:ме̄н PERS_PRON_KI_OR_ZERO ; !! ...
-ам+v2+Pron+Pers+Du1+Nom:ме̄йи PERS_PRON_KI_OR_ZERO ;
+ам+v2+Pron+Pers+Du1+Nom:ме̄йи PERS_PRON_KI_OR_ZERO ; !Where does this information come from?
 наӈ+Pron+Pers+Du2+Nom:нэ̄н PERS_PRON_KI_OR_ZERO ;
 тав+Pron+Pers+Du3+Nom:тэ̄н PERS_PRON_KI_OR_ZERO ;
 
@@ -227,8 +227,9 @@ LEXICON personal
 матах+Pron:матах N_VCH "несколько";
 хумыс+Pron:хумыс N_VCH "как";
 манаса̄вит+Pron:хумыс N_VCH "сколько";
-таса̄вит+Po:таса̄вит PO_ "that much" ;
-тыса̄вит+Po:тыса̄вит PO_ "that much" ;
+таса̄вит+Pron:таса̄вит PO_ "that much" ;
+тыса̄вит+Pron:тыса̄вит PO_ "this much" ;
+таяныт+Pron:тыса̄вит PO_ "that big" ;
 
 LEXICON PERS_PRON_KI_OR_ZERO
  # ;
