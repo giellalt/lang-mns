@@ -2331,7 +2331,7 @@ LEXICON Verbs
 хо̄нтхатахтыглаӈкве+V:хо̄нтхатахтыгл V_A ;
 хо̄нтхатуӈкве+V:хо̄нтхат V_U "13_even_встретиться " ;
 хо̄нтхатыгла̄луӈкве+V:хо̄нтхатыгла̄л V_U "13_even_встречаться " ;
-хо̄нтхатыглахтаӈкве+V:хо̄нтхатыглахт V_A ;
+хо̄нтхатыглахтуӈкве+V:хо̄нтхатыглахт V_U2C ;
 хо̄нтхатыглаӈкве+v1+V:хо̄нтхатыгл V_A ;
 хо̄нтхатыглаӈкве+v2+V:хо̄нтхатыгл V_Y/U "23_odd_встречать//повстречать" ;
 хо̄нтыгла̄луӈкве+V:хо̄нтыгла̄л V_U "13_odd_заставать, встречать" ;
@@ -2627,7 +2627,7 @@ LEXICON Verbs
 яхралтаӈкве+V:яхралт V_A "23_even_скрежетать" ;
 яхыртаӈкве+V:яхырт V_A "23_even_скрежетать" ;
 
-ла̄валаӈкве+V:ла̄вал V_A "13_even_" ;
+ла̄валаӈкве+V:ла̄вал V_A "23_even" ;
 пусастаӈкве+V:пусаст V_A "" ;
 уртыглаӈкве+V:урт V_A "" ;
 нэ̄гумтаӈкве+V:нэ̄гумт V_A "23_even_" ;
@@ -2657,13 +2657,26 @@ LEXICON Verbs
 щаквщуӈкве+V:щаквщ V_U "26_odd_" ;
 то̄ргуӈкве+V:то̄рт V_U2C "23_odd_трепетать" ;
 щаруӈкве+V:щар V_U "26_odd_" ;
+ю̄нтумтаӈкве+V:ю̄нтумт V_A "23_even_" ;
 
+ва̄щинта̄луӈкве+V:ва̄щинта̄л V_U "13_odd_" ;
+ве̄ритаптуӈкве+V:ве̄ритапт V_Y/U "23_odd_" ;
+ма̄щтырлахтуӈкве+V:а̄рталахт V_Y/U "23_odd__UBA_" ;
+атыньтахтуӈкве+V:атыньтахт V_Y/U "23_odd__UBA_" ;
+тӯйталахтуӈкве+V:тӯйталахт V_Y/UBA "23_odd_UBA_" ;
+ве̄рмхатаӈкве+V:ве̄рмхат V_A "23_even_" ;
+саӈалаӈкве+V:саӈал V_A "23_even_" ;
 
 !Added UBA (meaning "U in the infinitive, but A in the paradigm") tag to the meaning of verbs. I didn't dare to write it in the description, but ideally it would be V_UBA
 
 !If these are correct, they should be listed among prefixing verbs.
-
-
+!@U.VPref.noox@но̄х-тагталаӈкве+V:@U.VPref.noox@тагтал V_Y/U "23_even_" ;
+!@U.VPref.noox@но̄х-во̄раталуӈкве+V:@U.VPref.noox@во̄ратал V_Y/U "13_odd_ " ;
+!@U.VPref.xot@хот-халалтаӈкве+V:@U.VPref.xot@халалт V_A "23_even_" ;
+!@U.VPref.akwan@акван-хо̄нтыглахтуӈкве+V:@U.VPref.akwan@хо̄нтыглахт V_U "13_odd_" ;
+!@U.VPref.akwan@акван-хуйигпа̄луӈкве+V:@U.VPref.akwan@хуйигпа̄л V_U "13_odd_" ;
+!@U.VPref.akwan@акван-атыгла̄хтуӈкве+V:@U.VPref.akwan@атыгла̄хт V_U "13_odd_" ;
+!@U.VPref.akwan@акван-нё̄тхатуӈкве+V:@U.VPref.akwan@нё̄тхат V_U "13_even_" ;
 
 
 LEXICON Prefixing_verbs
