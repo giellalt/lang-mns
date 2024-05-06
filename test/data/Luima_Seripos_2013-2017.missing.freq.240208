@@ -1,20 +1,20 @@
  219 а̄гитпыгыт	typo а̄гит-пыгыт
  209 арыгтем	should be analysed as арыгкем
  160 ловиньтэлы̄н	should be analysed as ловиньтаӈке+V+Act+Imprt+ScPl2+OcSg
- 145 намаим	should be analysed as намаяӈкве+V+Ger TBS
+ 145 намаим	should be analysed as намаяӈкве+V+Ger TBS>S
  129 матыра̄ти	typo as матыр-а̄ти
  125 млн	added to abbreviations
  117 ханищтахтан	should be analysed as ханищтахтуӈкве+V+PrsPrc
  116 ла̄вме	should be analysed as ла̄вуӈкве+V+PrfPrc+PxSg3
  107 а̄стламе	а̄стлаӈкве+V+PrfPrc+PxSg3
  100 а̄гирищитпыгрищит	typo а̄гирищит-пыгрищит
-  93 о̄лме	should be analysed as о̄луӈкве+V+PrfPrc+PxSg3 TBS
+  93 о̄лме	should be analysed as о̄луӈкве+V+PrfPrc+PxSg3 TBS>S
   92 ханищтыяныл	should be analysed as ханищтаӈкве+V+Act+Ind+Prs+ScPl3+OcSg
   91 Ханты-Мансийскат	should be analysed as Ханты-Мансийск+N+Prop+Sg+Loc
   88 ла̄внэ̄тэ	should be analysed as ла̄вуӈкве+V+PrsPrc+PxSg3
   86 хо̄тпатын	should be analysed as хо̄тпа+N+Pl+Lat
   85 ханищтыянэ	should be analysed as ханищтаӈкве+V+Act+Ind+Prs+ScSg3+OcPl
-  83 во̄раим	should be analysed as во̄раяӈкве+V+Ger TBS
+  83 во̄раим	should be analysed as во̄раяӈкве+V+Ger TBS>S
   83 насати	should be analysed as насаки
   82 янытлылӯв	should be analysed as янытлылув
   79 а̄гмыӈмосыӈ	typo а̄гмыӈ-мосыӈ
@@ -33,10 +33,10 @@
   63 аквкит	typo акв-кит
   60 на	added to Foreign
   59 рӯпитанэ̄тэ	should be analysed as рӯпитаӈке+V+PrsPrc+PxSg3
-  59 ла̄внэ̄ныл	should be analysed as ла̄вуӈкве+V+PrsPrc+PxPl3 TBS
+  59 ла̄внэ̄ныл	should be analysed as ла̄вуӈкве+V+PrsPrc+PxPl3 TBS>S
   58 ща̄нягеа̄щаге	typo ща̄няге-а̄щаге
   58 манаса̄вит	added to adverbs 
-  57 о̄лнэ̄ныл	о̄луӈкве+V+PrsPrc+PxPl3 TBS
+  57 о̄лнэ̄ныл	о̄луӈкве+V+PrsPrc+PxPl3 TBS>S
   57 вуйвес	should be analysed as виӈкве+V+Pass+Ind+Prt+ScSg3: [войвес, войве̄с] literature prefers -о-, in the corpus we have -у-
   55 май	added to Foreign
   53 субсидияолныл	typo субсидия-олныл
@@ -84,7 +84,7 @@
   35 хумиюв	should be analysed as хум+Sg+PxPl1
   34 культуры	added to Foreign
   34 маим	should be analysed as миӈкве+V+Ger+PxSg3 ма̄им in the literature, маим in the corpus TBS
-  33 янытлыянум	should be analysed as янытлаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS
+  33 янытлыянум	should be analysed as янытлаӈкве+V+Act+Ind+Prs+ScPl3+OcSg TBS>S
   33 грантолныл	typo грант-олныл
   33 а̄тимыт	а̄тим Pl
   33 нупылэ	нупыл+Po+Sg3
@@ -93,10 +93,10 @@
   32 уральтыяныл	should be analysed as уральтаӈкве+V+Act+Ind+Prs+ScPl3+OcSg
   32 вуйве̄сыт	should be analysed as виӈкве+V+Pass+Ind+Prt+ScPl3 войве̄сыт literature prefers -о-, in the corpus we have -у- 
   32 развитие	added to Foreign
-  32 а̄стуме	should be analysed as а̄стуӈкве+V+PrfPrc+PxSg3 TBS
+  32 а̄стуме	should be analysed as а̄стуӈкве+V+PrfPrc+PxSg3 TBS>S
   32 Акватэ	 Аква+Num+PxSg3
   32 А̄щум	should be analysed as а̄щ+Sg+PxSg1
-  31 о̄лыгланэ̄ныл	should be analysed as о̄лыглаӈкве+V+PrsPrc+PxPl3 TBS
+  31 о̄лыгланэ̄ныл	should be analysed as о̄лыглаӈкве+V+PrsPrc+PxPl3 TBS>S
   31 субсидияолн	typo субсидия-олн
   31 о̄лнэхӯлнэ	typo о̄лнэ-хӯлнэ
   31 ляльт	added to postpositions
@@ -121,8 +121,8 @@
   28 Новости	added to Foreign
   27 ханищтахтаме	should be analysed as ханищтахтуӈквеV+PrfPrc+PxSg3
   27 ща̄нита̄щит	ща̄нит-а̄щит
-  27 ханищтыянум	should be analysed as ханищтаӈкве+V+Act+Ind+Prs+ScSg1+OcPl TBS
-  27 миннэ̄ныл	should be analysed as минуӈкве+V+PrsPrc+PxPl3 TBS
+  27 ханищтыянум	should be analysed as ханищтаӈкве+V+Act+Ind+Prs+ScSg1+OcPl TBS>S
+  27 миннэ̄ныл	should be analysed as минуӈкве+V+PrsPrc+PxPl3 TBS>S
   27 акватэ	should be analysed as аква+NUM+Sg+Px3
   26 сохранить	added to Foreign
   26 мо̄тмо̄т	мо̄т-мо̄т
@@ -136,7 +136,7 @@
   25 а̄гирищпыгрищ	а̄гирищ-пыгрищ
   25 суссылтыяныл	should be analysed as суссылтаӈкве+V+Act+Ind+Prs+ScPl3+OcSg
   25 ловиньтыяныл	should be analysed as ловиньтаӈкве+V+Act+Ind+Prs+ScPl3+OcSg
-  25 ва̄рнэ̄ныл	should be analysed as ва̄руӈкве+V+PrsPrc+PxPl3 TBS
+  25 ва̄рнэ̄ныл	should be analysed as ва̄руӈкве+V+PrsPrc+PxPl3 TBS>S
   25 щире̄т	should be analysed as щир+N+Sg+Loc+PxSg3
   25 о̄лмум	should be analysed as о̄луӈкве+V+PrfPrc+PxSg1
   25 нялк	added to Nouns
@@ -146,14 +146,14 @@
   23 ма̄хумаквет	should be analysed as ма̄хум+N+Dim+Pl
   23 штрафолныл	штраф-олныл
   23 А̄гитпыгыт	А̄гит-пыгыт
-  23 то̄влуме	should be analysed as то̄влуӈкве+V+PrfPrc+PxSg3 TBS
+  23 то̄влуме	should be analysed as то̄влуӈкве+V+PrfPrc+PxSg3 TBS>S
   23 семинар	added to Nouns
   23 манарыл	added to pronouns
   23 ясанг	added to Foreign
   23 ща̄рщ	added to Nouns
   23 манси	added to Foreign
   23 День	added to Foreign
-  22 рӯпитанэ̄ныл	рӯпитаӈкве+V+PrsPrc+PxPl3 TBS
+  22 рӯпитанэ̄ныл	рӯпитаӈкве+V+PrsPrc+PxPl3 TBS>S
   22 потыртаме	потыртаӈкве+V+PrfPrc+PxSg3
   22 пенсияолн	пенсия-олн
   22 ва̄рмалин	ва̄рмаль+N+Sg+Lat
@@ -273,7 +273,7 @@
   15 ма̄ло̄мтыл	typos S
   15 ипотекаолн	typo S
   15 ёмаснувег	 ёмас+Adj+Comp+Trs TBS
-  15 ще̄мьятын	ще̄мья+N+Pl+Lat TBS
+  15 ще̄мьятын	ще̄мья+N+Pl+Lat TBS>S
   15 промыслов	foreign S
   15 Финноугор	typo S
   15 нупланыл	нупыл+Postp+PxPl3 TBS
