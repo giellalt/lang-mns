@@ -62,8 +62,8 @@ gt-desc fst(s): PASSES: 6 / FAILS: 430 / TOTAL: 436
 Number of words (standing in `lang-mns`):
 
 ```
-cat test/data/Luima_Seripos_2013-2017.txt |\
-hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+	cat test/data/Luima_Seripos_2013-2017.txt |\
+	hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words (the old command did not remove the Russian words):
@@ -112,6 +112,8 @@ Coverage:
 240429: 1-(26573/707554) = 0.96244
 ----------------------------------
 240429: 1-(19709/707554) = 0.97214 From here on we remove Russian words
+240429: 1-(20137/707772) = 0.97155
+
 ```
 
 
