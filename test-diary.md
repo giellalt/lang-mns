@@ -121,18 +121,19 @@ Coverage:
 
 ## Speller suggestions
 
-The table shows the number of typos tested, as well as some data
-for suggestions.
+The table shows the number of typos tested, as well as some data for suggestions.
 
+To test: Clone [divvunspell](https://github.com/divvun/divvunspell/blob/main/README.md) and install **divvunspell** and **acceracy**. Then stand in `divvunspell` and do:
+
+```
+```
+
+Test results with divvunspell (older data, see below)
 ```
              typos      Avrg pos        % missp        % missp
              .txt       for corr        in 1st         in top-5     
 -----------------------------------------------------------------
-240405:       395        1.15          59.80          63.10          
-240410:       473        1.08          54.59          57.72        
-240411:       473        1.08          53.42          56.41        
-240422:       547        1.09          46.75          49.54        
-240422:       579        1.16          45.71          48.86        
+240507:       607                      71.99          78.75      
 -----------------------------------------------------------------
 ```
 
@@ -198,3 +199,24 @@ cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokenis
 
 231012: 1193
 231116: 1178
+
+
+## Speller suggestions: hfst-ospell test data
+
+(probably delete these)
+
+The table shows the number of typos tested, as well as some data, for hfst-ospell. The last results, and perhaps all, were due to technical errors with composed long vowels.
+
+```
+             typos      Avrg pos        % missp        % missp
+             .txt       for corr        in 1st         in top-5     
+-----------------------------------------------------------------
+hfst-ospell:
+240405:       395        1.15          59.80          63.10          
+240410:       473        1.08          54.59          57.72        
+240411:       473        1.08          53.42          56.41        
+240422:       547        1.09          46.75          49.54        
+240422:       579        1.16          45.71          48.86        
+-----------------------------------------------------------------
+
+
