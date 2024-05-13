@@ -1284,6 +1284,11 @@ language are presented in this system in terms of the following symbols.
 
 * **+Qst +Foc** Question and Focus particles
 
+These three tags are not added in lexc. The POS tag before derivation is converted into this tag when compiling FST for disambiguation.
+* **+Ex/N** 
+* **+Ex/A** 
+* **+Ex/V** 
+
 ### Tags distinguishing different versions of the same lemma (before POS)
 * **+v1**
 * **+v2**
