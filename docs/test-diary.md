@@ -126,14 +126,23 @@ The table shows the number of typos tested, as well as some data for suggestions
 To test: Clone [divvunspell](https://github.com/divvun/divvunspell/blob/main/README.md) and install **divvunspell** and **acceracy**. Then stand in `divvunspell` and do:
 
 ```
+accuracy -o support/accuracy-viewer/public/report.json ../../giellalt/lang-mns/test/data/ typos.txt ../../giellalt/lang-mns/tools/spellcheckers/mns.zhfst
+
+cd support/accuracy-viewer
+
+npm i && npm run dev
 ```
 
-Test results with divvunspell (older data, see below)
+At the end the report says (for example) `port: 35729`. Take the 5-digit number and open (the parallel to) http://localhost:35729  in your browser.
+
+Test results with divvunspell (for older data, see below):
 ```
-             typos      Avrg pos        % missp        % missp
-             .txt       for corr        in 1st         in top-5     
+             typos      Avrg pos       % missp        % missp
+             .txt       for corr       in 1st         in top-5     
 -----------------------------------------------------------------
-240507:       607                      71.99          78.75      
+240507:       607                      48.93          53.21      
+240507:       607                      71.99          78.75      hyphen, macron fixed
+240507:       607                      72.98          78.75      
 -----------------------------------------------------------------
 ```
 

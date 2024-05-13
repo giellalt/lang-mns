@@ -61,8 +61,8 @@
 
 н	ӈ	4
 ӈ	н	4
-е	э	2
-э	е	2
+е	э	1
+э	е	1
 
 с	з	3
 з	с	3
@@ -73,5 +73,4 @@
 ## USE_SWAPS in Makefile.am in this directory. Also note that
 ## enabling swaps is computationally expensive. See note in
 ## Makefile.am.
-## Change dh into hd with the weight 0.5:
-## d,h	h,d	0.5
+т,н	н,т	2
