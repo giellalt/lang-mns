@@ -361,3 +361,9 @@ LEXICON PROP_MANSINAMES
 Яныгпа̄выл+N+Prop+Sem/Plc:Яныгпа̄выл N_VCH ;
 
 Карым+N+Prop+Sem/Plc:Карым N_VCH ;
+
+Узбекистан+N+Prop:Узбекистан N_VCH ;
+Дагестан+N+Prop:Дагестан N_VCH ;
+Кыргызстан+N+Prop:Кыргызстан N_VCH ;
+Хатанева+N+Prop:Хатанева N_VO ;
+Молтан+N+Prop:Молтан N_VCH ;
