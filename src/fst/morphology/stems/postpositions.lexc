@@ -29,7 +29,7 @@ LEXICON Postpositions
 тармылныл+Po:тармылныл PO_ABL "из середины" ;
 
 халн+Po:халн PO_LAT "между" ;
-халт+Po:халт PO_LOC "между" ;
+халт+Po:хал PO_LOC_OR_PX_LOC_t "между" ;
 халныл+Po:халныл PO_ABL "между" ;
 
 по̄хан+Po:по̄хан PO_LAT "в сторону" ;
@@ -57,11 +57,11 @@ LEXICON Postpositions
 кӣвырныл+Po:кӣвырныл PO_ABL "извнутри" ;
 
 ёлы-па̄лныл+Po:ёлы PO_ABL_paalnyl ;
-ёлы-па̄лт+Po:ёлы PO_LOC_paalt ;
+ёлы-па̄лт+Po:ёлы PO_LOC_paalt "alapuolella" ;
 ёлы-па̄лн+Po:ёлы PO_LAT_paaln ;
 
 коны-па̄лныл+Po:коны PO_ABL_paalnyl ;
-коны-па̄лт+Po:коны PO_LOC_paalt ;
+коны-па̄лт+Po:коны PO_LOC_paalt "ulkopuolella" ;
 коны-па̄лн+Po:коны PO_LAT_paaln ;
 
 ёмаспа̄лн+Po:ёмас#па̄лн PO_LAT "oikealle puolelle" ;
@@ -80,21 +80,12 @@ LEXICON Postpositions
 юи-па̄лн+v1+Po:юи-#па̄лн PO_LAT "?peräkkäin/вслед" ;
 юи-па̄лн+v2+Po:юи#па̄лн PO_LAT "?peräkkäin/вслед" ;
 
-ёмаспа̄лт+Po:ёмас#па̄л PO_LOC_OR_PX_LOC_t "oikealla puolella" ;
-ёлы-па̄лт+v1+Po:ёлы-#па̄л PO_LOC_OR_PX_LOC_t "alapuolella" ;
-ёлы-па̄лт+v2+Po:ёлы#па̄л PO_LOC_OR_PX_LOC_t "alapuolella" ;
-коны-па̄лт+v1+Po:коны-#па̄л PO_LOC_OR_PX_LOC_t "ulkopuolella" ;
-коны-па̄лт+v2+Po:коны#па̄л PO_LOC_OR_PX_LOC_t "ulkopuolella" ;
-нум-па̄лт+v1+Po:нум-#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
-нум-па̄лт+v2+Po:нум#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
-нуми-па̄лт+v1+Po:нуми-#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
-нуми-па̄лт+v2+Po:нуми#па̄л PO_LOC_OR_PX_LOC_t "вверху, наверху" ;
-сыс-па̄лт+v1+Po:сыс-#па̄л PO_LOC_OR_PX_LOC_t "takana" ;
-сыс-па̄лт+v2+Po:сыс#па̄л PO_LOC_OR_PX_LOC_t "takana" ;
-э̄лы-па̄лт+v1+Po:э̄лы-#па̄л PO_LOC_OR_PX_LOC_t "edessä" ;
-э̄лы-па̄лт+v2+Po:э̄лы#па̄л PO_LOC_OR_PX_LOC_t "edessä" ;
-юи-па̄лт+v1+Po:юи-#па̄л PO_LOC_OR_PX_LOC_t "?peräkkäin/вслед" ;
-юи-па̄лт+v2+Po:юи#па̄л PO_LOC_OR_PX_LOC_t "?peräkkäin/вслед" ;
+ёмаспа̄лт+Po:ёмас#па̄л PO_LOC_OR_PX_LOC_t "oikealla puolella" ;! Written together????
+нум-па̄лт+Po:нум PO_LOC_paalt "вверху, наверху" ;
+нуми-па̄лт+Po:нуми PO_LOC_paalt "вверху, наверху" ;
+сыс-па̄лт+Po:сыс PO_LOC_paalt "takana" ;
+э̄лы-па̄лт+Po:э̄лы PO_LOC_paalt "edessä" ;
+юи-па̄лт+Po:юи PO_LOC_paalt "?peräkkäin/вслед" ;
 
 ёмаспа̄лныл+Po:ёмас#па̄лныл PO_ABL "oikealta puolelta" ;
 ёлы-па̄лныл+v1+Po:ёлы-#па̄лныл PO_ABL "alapuolelta" ;
