@@ -812,6 +812,7 @@ LEXICON ACT_COND_VU
 +Act+Cond+ScSg2:%>нувын VERB_K ;
 +Act+Cond+ScSg2:%>нӯвын VERB_K ;
 +Act+Cond+ScSg3:%>нув VERB_K ;
++Act+Cond+ScSg3+Err/Orth:%>нӯв VERB_K ;!Jaska 2024-05-22
 +Act+Cond+ScDu1:%>нуваме̄н VERB_K ;
 +Act+Cond+ScDu2:%>нувын VERB_K ;
 +Act+Cond+ScDu2:%>нувы̄н VERB_K ;
