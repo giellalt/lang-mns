@@ -137,13 +137,14 @@ At the end the report says (for example) `port: 35729`. Take the 5-digit number 
 
 Test results with divvunspell (for older data, see below):
 ```
-             typos      Avrg pos       % missp        % missp
-             .txt       for corr       in 1st         in top-5     
------------------------------------------------------------------
-240507:       607                      48.93          53.21      
-240507:       607                      71.99          78.75      hyphen, macron fixed
-240507:       607                      72.98          78.75      
------------------------------------------------------------------
+           typos  Avrg pos    % missp     % missp
+           .txt   for corr    in 1st      in top-5     
+-----------------------------------------------------
+240507:     607               48.93       53.21      
+240507:     607               71.99       78.75      hyphen, macron fixed
+240507:     607               72.98       78.75      
+240604:     610               76.56       82.79      capital letter fixed
+-----------------------------------------------------
 ```
 
 
