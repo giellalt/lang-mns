@@ -372,3 +372,5 @@ LEXICON PROP_MANSINAMES
 Леена+N+Prop:Леена N_VO ;
 Менделе+N+Prop:Менделе N_VO ;
 Вилле+N+Prop:Вилле N_VO ;
+
+Русскинской+N+Prop+Sem/Plc:Русскинской N_VCS ;
