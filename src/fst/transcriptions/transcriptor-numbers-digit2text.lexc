@@ -145,7 +145,7 @@ LEXICON LOHKAIT
 
 LEXICON TENST
  2%0:хус%               THOUSANDS ;
-   2:ва̄т% нупы% л      ONEST     ;
+   2:ва̄т% нупыл%       ONEST     ;
  3%0:ва̄т%              THOUSANDS ;
    3:налыман% нупыл%    ONEST     ;
  4%0:налыман%           THOUSANDS ;
@@ -224,13 +224,13 @@ LEXICON TEENS
   ORDINAL-TEENS  ;
 
 LEXICON TENS
- 2%0:хус                COMMA    ;
-   2:ва̄т% нупы% л      CARDINAL ;
+ 2%0:хус               COMMA    ;
+   2:ва̄т% нупыл%       CARDINAL ;
  3%0:ва̄т               COMMA    ;
-   3:налыман% нупыл%    CARDINAL ;
- 4%0:налыман            COMMA    ;
-   4:атпан% нупыл%      CARDINAL ;
- 5%0:атпан              COMMA    ;
+   3:налыман% нупыл%   CARDINAL ;
+ 4%0:налыман           COMMA    ;
+   4:атпан% нупыл%     CARDINAL ;
+ 5%0:атпан             COMMA    ;
    5:хо̄тпан% нупыл%    CARDINAL ;
  6%0:хо̄тпан            COMMA    ;
    6:са̄тлов% нупыл%    CARDINAL ;
@@ -249,8 +249,8 @@ LEXICON CARDINAL-TEENS
   13:хӯрумхуйплов   COMMA ;
   14:нилахуйплов    COMMA ;
   15:атхуйплов      COMMA ;
-  16:хо̄тхуйплов    COMMA ;
-  17:са̄тхуйплов    COMMA ;
+  16:хо̄тхуйплов     COMMA ;
+  17:са̄тхуйплов     COMMA ;
   18:нёлоловхуйплов COMMA ;
   19:онтоловхуйплов COMMA ;
 
@@ -277,8 +277,8 @@ LEXICON CARDINAL
  3:хӯрум   COMMA ;
  4:нила    COMMA ;
  5:ат      COMMA ;
- 6:хо̄т    COMMA ;
- 7:са̄т    COMMA ;
+ 6:хо̄т     COMMA ;
+ 7:са̄т     COMMA ;
  8:нёлолов COMMA ;
  9:онтолов COMMA ;
 
