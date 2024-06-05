@@ -90,6 +90,8 @@ LEXICON HUNDREDSM
 миллион+Num:миллион NUM_ "" ;
 миллиард+Num:миллиард NUM_ "" ;
 
+са̄тпан+Num:са̄тпан NUM_ "70" ;
+
 ! TODO!!
 
 LEXICON ARABICCASE
