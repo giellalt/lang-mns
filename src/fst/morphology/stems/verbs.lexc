@@ -2700,6 +2700,9 @@ LEXICON Verbs
 та̄сытлаӈкве+V:та̄сытл V_A "23_even_" ;
 састлуӈкве+V:састл V_Y/UBA "23_odd_UBA_" ;
 
+тармылпатуӈкве+V:тармылпат V_U "13_odd_" ;
+улылаӈкве+V:улыл V_A "13_even_" ;
+
 
 !Added UBA (meaning "U in the infinitive, but A in the paradigm") tag to the meaning of verbs. I didn't dare to write it in the description, but ideally it would be V_UBA
 
@@ -2718,6 +2721,10 @@ LEXICON Verbs
 !@U.VPref.paalyg@па̄лыг-покматаӈкве+V:@U.VPref.paalyg@покмат V_A ;
 !@U.VPref.paalyg@па̄лыг-пӯсуӈкве+V:@U.VPref.paalyg@пӯс V_U ;
 !@U.VPref.paalyg@па̄лыг-рагатаӈкве+V:@U.VPref.paalyg@рагат V_A ;
+
+!@U.VPref.noox@но̄х-ялтуптаӈкве+V:@U.VPref.noox@ялтупт V_A "23_even_" ;
+!@U.VPref.xot@хот-манумтаӈкве+V:@U.VPref.xot@манумт V_A "23_even_" ;
+
 
 
 LEXICON Prefixing_verbs
@@ -3538,7 +3545,7 @@ LEXICON Prefixing_verbs
 @U.VPref.xot@хот-хосувлаӈкве+V:@U.VPref.xot@хосувл V_A "23_even_смахнуть" ;
 @U.VPref.xot@хот-хуйтуӈкве+V:@U.VPref.xot@хуйт V_U "23_odd_отговаривать" ;
 @U.VPref.xot@хот-хулщалтаӈкве+V:@U.VPref.xot@хулщалт V_A "23_even_прополоскать" ;
-@U.VPref.xot@хультуптаӈкве+V:@U.VPref.xot@хультупт V_A ;
+@U.VPref.xot@хот-хультуптаӈкве+V:@U.VPref.xot@хультупт V_A ;
 @U.VPref.xot@хот-хӯлюӈкве+V:@U.VPref.xot@хӯль V_U "14_odd_забросить /перестать заниматься чем-л/" ;
 @U.VPref.xot@хот-хӯрата̄лыглаӈкве+V:@U.VPref.xot@хӯрата̄лыгл V_A "23_even_обстригать" ;
 @U.VPref.xot@хот-хӯратаӈкве+V:@U.VPref.xot@хӯрат V_A "13_even_сбрить" ;
