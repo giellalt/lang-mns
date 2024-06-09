@@ -109,6 +109,8 @@ LEXICON N0_VI !!≈ * @CODE@ Stems ending in и ы: а̄ви
 :%{VI%} SG_NOM_PXDU1_ujumen ; !  2023_04_29 са̄лымен
 !@U.DECL-NX.SG@@U.CX.NOM@@P.PossPx.Du1@
 
+LEXICON N_VO_SURFEM
+ N_VO ;
 LEXICON N_VO_rus100 !!≈ * @CODE@
 +Use/SpellNoSugg: N_VO ;
 LEXICON N_VO_rusmns !!≈ * @CODE@ slightly Mansi-like
@@ -484,6 +486,10 @@ LEXICON N_VCCH_rus100
 !+Use/SpellNoSugg: N_VCCH ;
 N_VCCH ;
 
+LEXICON N_VCCCCH 
+ N_VCCH ;
+LEXICON N_VCCCH 
+ N_VCCH ;
 LEXICON N_VCCH 
 !! put derivations here
 +Der+Der/Dimin+N:%>кве N0_VO ;
