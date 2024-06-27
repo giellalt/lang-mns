@@ -49,7 +49,7 @@ LEXICON Postpositions
 палныл+Po:палныл PO_ABL "" ;
 
 нумн+Po:нумн PO_LAT "вверх, наверх" ;
-нупыл+Po:нупыл PO_INS_OR_INS_PX ;
+нупыл+Po:нупыл PO_INS_OR_INS_PX_SYNCH ;
 нумныл+Po:нумныл PO_ABL "сверху" ;
 
 котильн+Po:котильн PO_LAT "на верхности" ;
@@ -90,6 +90,8 @@ LEXICON Postpositions
 сыс-па̄лт+Po:сыс PO_LOC_paalt "takana" ;
 э̄лы-па̄лт+Po:э̄лы PO_LOC_paalt "edessä" ;
 юи-па̄лт+Po:юи PO_LOC_paalt "?peräkkäin/вслед" ;
+юи-па̄лт+v1+Po:юи-#па̄л PO_LOC_OR_PX_LOC_t "" ;
+юи-па̄лт+v2+Po:юи#па̄л PO_LOC_OR_PX_LOC_t "" ;
 
 ёмаспа̄лныл+Po:ёмас#па̄лныл PO_ABL "oikealta puolelta" ;
 ёлы-па̄лныл+v1+Po:ёлы-#па̄лныл PO_ABL "alapuolelta" ;
