@@ -37,8 +37,14 @@ LEXICON PO_ABL_paalnyl
 +Err/Orth+Abl:палныл K ;
 +Err/Orth+Abl:%-палныл K ;
 
+LEXICON PO_INS_OR_INS_PX_SYNCH
++Ins: K ;
+:%{SYNCH%} PO_INS_PX ;
+
 LEXICON PO_INS_OR_INS_PX
 +Ins: K ;
+PO_INS_PX ;
+LEXICON PO_INS_PX
 +Ins+PxSg1:%>%{уØ%}м K ;
 +Ins+PxSg2:%>%{ыØ%}н K ;
 +Ins+PxSg3:%>э K ;
@@ -56,10 +62,10 @@ LEXICON PO_LAT_paaln
 +Err/Orth+Lat:%-палын K ;
 
 LEXICON PO_LOC_paalt
-+Loc:%-па̄л PO_LOC_OR_PX_LOC_t ;
-+Err/Orth+Loc:па̄л PO_LOC_OR_PX_LOC_t ;
-+Err/Orth+Loc:пал PO_LOC_OR_PX_LOC_t ;
-+Err/Orth+Loc:%-пал PO_LOC_OR_PX_LOC_t ;
+:-#па̄л PO_LOC_OR_PX_LOC_t ;
++Err/Orth:#па̄л PO_LOC_OR_PX_LOC_t ;
++Err/Orth:#пал PO_LOC_OR_PX_LOC_t ;
++Err/Orth:-#пал PO_LOC_OR_PX_LOC_t ;
 
 
 
