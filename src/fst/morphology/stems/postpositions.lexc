@@ -32,6 +32,10 @@ LEXICON Postpositions
 халт+Po:хал PO_LOC_OR_PX_LOC_t "между" ;
 халныл+Po:халныл PO_ABL "между" ;
 
+ляпан+Po:ляпан PO_LAT "" ;
+ляпат+Po:ляпат PO_LOC "" ;
+ляпаныл+Po:ляпаныл PO_ABL "" ;
+
 по̄хан+Po:по̄хан PO_LAT "в сторону" ;
 по̄хат+Po:по̄хат PO_LOC "подле" ;
 по̄ханыл+Po:по̄ханыл PO_ABL "сбоку" ;
