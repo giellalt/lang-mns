@@ -208,93 +208,93 @@ Tests:
 
 #Present participle
     лыӈкве+V+PrsPrc: лынэ
-    лыӈкве+V+PrsPrc+PxSg1: лынэм
-    лыӈкве+V+PrsPrc+PxSg2: лынэн
-    лыӈкве+V+PrsPrc+PxSg3: лынэ̄тэ
-    лыӈкве+V+PrsPrc+PxDu1: лынэме̄н
-    лыӈкве+V+PrsPrc+PxDu2: лынэнэ̄н
-    лыӈкве+V+PrsPrc+PxDu3: [лынэг, лынэ̄г]
-    лыӈкве+V+PrsPrc+PxPl1: лынэ̄в
-    лыӈкве+V+PrsPrc+PxPl2: [лынэн, лынэ̄н]
-    лыӈкве+V+PrsPrc+PxPl3: [лынэныл, лынэ̄ныл]
+    лыӈкве+V+PrsPrc+ScSg1: лынэм
+    лыӈкве+V+PrsPrc+ScSg2: лынэн
+    лыӈкве+V+PrsPrc+ScSg3: лынэ̄тэ
+    лыӈкве+V+PrsPrc+ScDu1: лынэме̄н
+    лыӈкве+V+PrsPrc+ScDu2: лынэнэ̄н
+    лыӈкве+V+PrsPrc+ScDu3: [лынэг, лынэ̄г]
+    лыӈкве+V+PrsPrc+ScPl1: лынэ̄в
+    лыӈкве+V+PrsPrc+ScPl2: [лынэн, лынэ̄н]
+    лыӈкве+V+PrsPrc+ScPl3: [лынэныл, лынэ̄ныл]
 
 #Present participle, single object
-    лыӈкве+V+PrsPrc+PxSg1: лынэ̄лум
-    лыӈкве+V+PrsPrc+PxSg2: [лынэ̄лн, лынэ̄лын]
-    лыӈкве+V+PrsPrc+PxSg3: лынэ̄тэ
-    лыӈкве+V+PrsPrc+PxDu1: лынэламе̄н
-    лыӈкве+V+PrsPrc+PxDu2: лынэлы̄н
-    лыӈкве+V+PrsPrc+PxDu3: лынэтэ̄н
-    лыӈкве+V+PrsPrc+PxPl1: [лынэлув, лынэлӯв]
-    лыӈкве+V+PrsPrc+PxPl2: лынэлы̄н
-    лыӈкве+V+PrsPrc+PxPl3: [лынэ̄нл, лынэ̄ныл]
+    лыӈкве+V+PrsPrc+ScSg1+OcSg: лынэ̄лум
+    лыӈкве+V+PrsPrc+ScSg2+OcSg: [лынэ̄лн, лынэ̄лын]
+    лыӈкве+V+PrsPrc+ScSg3+OcSg: лынэ̄тэ
+    лыӈкве+V+PrsPrc+ScDu1+OcSg: лынэламе̄н
+    лыӈкве+V+PrsPrc+ScDu2+OcSg: лынэлы̄н
+    лыӈкве+V+PrsPrc+ScDu3+OcSg: лынэтэ̄н
+    лыӈкве+V+PrsPrc+ScPl1+OcSg: [лынэлув, лынэлӯв]
+    лыӈкве+V+PrsPrc+ScPl2+OcSg: лынэлы̄н
+    лыӈкве+V+PrsPrc+ScPl3+OcSg: [лынэ̄нл, лынэ̄ныл]
 
 #Present participle, dual object
-    лыӈкве+V+PrsPrc+PxSg1: лынэ̄гум
-    лыӈкве+V+PrsPrc+PxSg2: [лынэ̄гн, лынэ̄гын]
-    лыӈкве+V+PrsPrc+PxSg3: лынэ̄гэ
-    лыӈкве+V+PrsPrc+PxDu1: лынэгаме̄н
-    лыӈкве+V+PrsPrc+PxDu2: лынэгы̄н
-    лыӈкве+V+PrsPrc+PxDu3: лынэгэ̄н
-    лыӈкве+V+PrsPrc+PxPl1: [лынэгув, лынэгӯв]
-    лыӈкве+V+PrsPrc+PxPl2: лынэгагы̄н
-    лыӈкве+V+PrsPrc+PxPl3: лынэгаганыл
+    лыӈкве+V+PrsPrc+ScSg1+OcDu: лынэ̄гум
+    лыӈкве+V+PrsPrc+ScSg2+OcDu: [лынэ̄гн, лынэ̄гын]
+    лыӈкве+V+PrsPrc+ScSg3+OcDu: лынэ̄гэ
+    лыӈкве+V+PrsPrc+ScDu1+OcDu: лынэгаме̄н
+    лыӈкве+V+PrsPrc+ScDu2+OcDu: лынэгы̄н
+    лыӈкве+V+PrsPrc+ScDu3+OcDu: лынэгэ̄н
+    лыӈкве+V+PrsPrc+ScPl1+OcDu: [лынэгув, лынэгӯв]
+    лыӈкве+V+PrsPrc+ScPl2+OcDu: лынэгагы̄н
+    лыӈкве+V+PrsPrc+ScPl3+OcDu: лынэгаганыл
 
 #Present participle, plural object
-    лыӈкве+V+PrsPrc+PxSg1: лынэ̄нум
-    лыӈкве+V+PrsPrc+PxSg2: лынэ̄н
-    лыӈкве+V+PrsPrc+PxSg3: лынэ̄нэ
-    лыӈкве+V+PrsPrc+PxDu1: [лынэнаме̄н, лынэнанме̄н]
-    лыӈкве+V+PrsPrc+PxDu2: [лынэны̄н, лынэныны̄н, лынэнаны̄н] 
-    лыӈкве+V+PrsPrc+PxDu3: [лынэнэ̄н, лынэнанэ̄н]
-    лыӈкве+V+PrsPrc+PxPl1: [лынэнув, лынэнӯв, лынэнанув, лынэнанӯв]
-    лыӈкве+V+PrsPrc+PxPl2: [лынэны̄н, лынэнаны̄н]
-    лыӈкве+V+PrsPrc+PxPl3: [лынэ̄нл, лынэ̄наныл]
+    лыӈкве+V+PrsPrc+ScSg1+OcPl: лынэ̄нум
+    лыӈкве+V+PrsPrc+ScSg2+OcPl: лынэ̄н
+    лыӈкве+V+PrsPrc+ScSg3+OcPl: лынэ̄нэ
+    лыӈкве+V+PrsPrc+ScDu1+OcPl: [лынэнаме̄н, лынэнанме̄н]
+    лыӈкве+V+PrsPrc+ScDu2+OcPl: [лынэны̄н, лынэныны̄н, лынэнаны̄н] 
+    лыӈкве+V+PrsPrc+ScDu3+OcPl: [лынэнэ̄н, лынэнанэ̄н]
+    лыӈкве+V+PrsPrc+ScPl1+OcPl: [лынэнув, лынэнӯв, лынэнанув, лынэнанӯв]
+    лыӈкве+V+PrsPrc+ScPl2+OcPl: [лынэны̄н, лынэнаны̄н]
+    лыӈкве+V+PrsPrc+ScPl3+OcPl: [лынэ̄нл, лынэ̄наныл]
 
 #Past participle
     лыӈкве+V+PrfPrc: лым
-    лыӈкве+V+PrfPrc+PxSg1: лымум
-    лыӈкве+V+PrfPrc+PxSg2: лымын
-    лыӈкве+V+PrfPrc+PxSg3: лыме
-    лыӈкве+V+PrfPrc+PxDu1: лымаме̄н
-    лыӈкве+V+PrfPrc+PxDu2: [лымын, лымы̄н]
-    лыӈкве+V+PrfPrc+PxDu3: лымыг
-    лыӈкве+V+PrfPrc+PxPl1: [лымув, лымӯв]
-    лыӈкве+V+PrfPrc+PxPl2: [лымын, лыммы̄н]
-    лыӈкве+V+PrfPrc+PxPl3: лымыт
+    лыӈкве+V+PrfPrc+ScSg1: лымум
+    лыӈкве+V+PrfPrc+ScSg2: лымын
+    лыӈкве+V+PrfPrc+ScSg3: лыме
+    лыӈкве+V+PrfPrc+ScDu1: лымаме̄н
+    лыӈкве+V+PrfPrc+ScDu2: [лымын, лымы̄н]
+    лыӈкве+V+PrfPrc+ScDu3: лымыг
+    лыӈкве+V+PrfPrc+ScPl1: [лымув, лымӯв]
+    лыӈкве+V+PrfPrc+ScPl2: [лымын, лыммы̄н]
+    лыӈкве+V+PrfPrc+ScPl3: лымыт
 
 #Past participle, single object
-    лыӈкве+V+PrfPrc+PxSg1: лымлум
-    лыӈкве+V+PrfPrc+PxSg2: лымлын
-    лыӈкве+V+PrfPrc+PxSg3: лымтэ
-    лыӈкве+V+PrfPrc+PxDu1: лымламе̄н
-    лыӈкве+V+PrfPrc+PxDu2: лымлы̄н
-    лыӈкве+V+PrfPrc+PxDu3: лымтэ̄н
-    лыӈкве+V+PrfPrc+PxPl1: [лымлув, лымлӯв]
-    лыӈкве+V+PrfPrc+PxPl2: лымлы̄н
-    лыӈкве+V+PrfPrc+PxPl3: лыманыл
+    лыӈкве+V+PrfPrc+ScSg1+OcSg: лымлум
+    лыӈкве+V+PrfPrc+ScSg2+OcSg: лымлын
+    лыӈкве+V+PrfPrc+ScSg3+OcSg: лымтэ
+    лыӈкве+V+PrfPrc+ScDu1+OcSg: лымламе̄н
+    лыӈкве+V+PrfPrc+ScDu2+OcSg: лымлы̄н
+    лыӈкве+V+PrfPrc+ScDu3+OcSg: лымтэ̄н
+    лыӈкве+V+PrfPrc+ScPl1+OcSg: [лымлув, лымлӯв]
+    лыӈкве+V+PrfPrc+ScPl2+OcSg: лымлы̄н
+    лыӈкве+V+PrfPrc+ScPl3+OcSg: лыманыл
 
 #Past participle, dual object
-    лыӈкве+V+PrfPrc+PxSg1: лымагум
-    лыӈкве+V+PrfPrc+PxSg2: лымагын
-    лыӈкве+V+PrfPrc+PxSg3: лымаге
-    лыӈкве+V+PrfPrc+PxDu1: [лымагаме̄н, лымагагме̄н]
-    лыӈкве+V+PrfPrc+PxDu2: [лымагы̄н, лымагагы̄н]
-    лыӈкве+V+PrfPrc+PxDu3: [лымагы̄г, лымагагы̄г]
-    лыӈкве+V+PrfPrc+PxPl1: [лымагув, лымагӯв]
-    лыӈкве+V+PrfPrc+PxPl2: [лымагы̄н, лымагагы̄н]
-    лыӈкве+V+PrfPrc+PxPl3: [лымагагыл, лымагаганыл]
+    лыӈкве+V+PrfPrc+ScSg1+OcDu: лымагум
+    лыӈкве+V+PrfPrc+ScSg2+OcDu: лымагын
+    лыӈкве+V+PrfPrc+ScSg3+OcDu: лымаге
+    лыӈкве+V+PrfPrc+ScDu1+OcDu: [лымагаме̄н, лымагагме̄н]
+    лыӈкве+V+PrfPrc+ScDu2+OcDu: [лымагы̄н, лымагагы̄н]
+    лыӈкве+V+PrfPrc+ScDu3+OcDu: [лымагы̄г, лымагагы̄г]
+    лыӈкве+V+PrfPrc+ScPl1+OcDu: [лымагув, лымагӯв]
+    лыӈкве+V+PrfPrc+ScPl2+OcDu: [лымагы̄н, лымагагы̄н]
+    лыӈкве+V+PrfPrc+ScPl3+OcDu: [лымагагыл, лымагаганыл]
 
 #Past participle, plural object
-    лыӈкве+V+PrfPrc+PxSg1: [лыманум, лымананум]
-    лыӈкве+V+PrfPrc+PxSg2: [лыман, лыма̄нын]
-    лыӈкве+V+PrfPrc+PxSg3: [лыма̄нэ, лымана̄нэ]
-    лыӈкве+V+PrfPrc+PxDu1: [лыманаме̄н, лымананме̄н]
-    лыӈкве+V+PrfPrc+PxDu2: [лыманн, лыманы̄н, лымананы̄н]
-    лыӈкве+V+PrfPrc+PxDu3: [лыманэ̄н, лымананэ̄н]
-    лыӈкве+V+PrfPrc+PxPl1: [лыманув, лыманӯв, лымананув, лымананӯв]
-    лыӈкве+V+PrfPrc+PxPl2: [лыманы̄н, лымананы̄н]
-    лыӈкве+V+PrfPrc+PxPl3: [лыма̄ныл, лымана̄ныл]
+    лыӈкве+V+PrfPrc+ScSg1+OcPl: [лыманум, лымананум]
+    лыӈкве+V+PrfPrc+ScSg2+OcPl: [лыман, лыма̄нын]
+    лыӈкве+V+PrfPrc+ScSg3+OcPl: [лыма̄нэ, лымана̄нэ]
+    лыӈкве+V+PrfPrc+ScDu1+OcPl: [лыманаме̄н, лымананме̄н]
+    лыӈкве+V+PrfPrc+ScDu2+OcPl: [лыманн, лыманы̄н, лымананы̄н]
+    лыӈкве+V+PrfPrc+ScDu3+OcPl: [лыманэ̄н, лымананэ̄н]
+    лыӈкве+V+PrfPrc+ScPl1+OcPl: [лыманув, лыманӯв, лымананув, лымананӯв]
+    лыӈкве+V+PrfPrc+ScPl2+OcPl: [лыманы̄н, лымананы̄н]
+    лыӈкве+V+PrfPrc+ScPl3+OcPl: [лыма̄ныл, лымана̄ныл]
 
 #Gerund
     лыӈкве+V+Ger: ла̄им

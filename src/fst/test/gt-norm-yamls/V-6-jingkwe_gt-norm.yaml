@@ -98,27 +98,27 @@ Tests:
 
 #Present participle
     йиӈкве+V+PrsPrc: йинэ
-    йиӈкве+V+PrsPrc+PxSg1: йинэм
-    йиӈкве+V+PrsPrc+PxSg2: йинэн
-    йиӈкве+V+PrsPrc+PxSg3: йинэ̄тэ
-    йиӈкве+V+PrsPrc+PxDu1: йинэме̄н
-    йиӈкве+V+PrsPrc+PxDu2: йинэнэ̄н
-    йиӈкве+V+PrsPrc+PxDu3: [йинэг, йинэ̄г]
-    йиӈкве+V+PrsPrc+PxPl1: йинэ̄в
-    йиӈкве+V+PrsPrc+PxPl2: [йинэн, йинэ̄н]
-    йиӈкве+V+PrsPrc+PxPl3: [йинэныл, йинэ̄ныл]
+    йиӈкве+V+PrsPrc+ScSg1: йинэм
+    йиӈкве+V+PrsPrc+ScSg2: йинэн
+    йиӈкве+V+PrsPrc+ScSg3: йинэ̄тэ
+    йиӈкве+V+PrsPrc+ScDu1: йинэме̄н
+    йиӈкве+V+PrsPrc+ScDu2: йинэнэ̄н
+    йиӈкве+V+PrsPrc+ScDu3: [йинэг, йинэ̄г]
+    йиӈкве+V+PrsPrc+ScPl1: йинэ̄в
+    йиӈкве+V+PrsPrc+ScPl2: [йинэн, йинэ̄н]
+    йиӈкве+V+PrsPrc+ScPl3: [йинэныл, йинэ̄ныл]
 
 #Past participle
     йиӈкве+V+PrfPrc: йим
-    йиӈкве+V+PrfPrc+PxSg1: йимум
-    йиӈкве+V+PrfPrc+PxSg2: йимын
-    йиӈкве+V+PrfPrc+PxSg3: йиме
-    йиӈкве+V+PrfPrc+PxDu1: йимме̄н
-    йиӈкве+V+PrfPrc+PxDu2: [йимын, йимы̄н]
-    йиӈкве+V+PrfPrc+PxDu3: [йимег, йиме̄г]
-    йиӈкве+V+PrfPrc+PxPl1: [йимув, йимӯв]
-    йиӈкве+V+PrfPrc+PxPl2: [йимын, йимы̄н]
-    йиӈкве+V+PrfPrc+PxPl3: йимыт
+    йиӈкве+V+PrfPrc+ScSg1: йимум
+    йиӈкве+V+PrfPrc+ScSg2: йимын
+    йиӈкве+V+PrfPrc+ScSg3: йиме
+    йиӈкве+V+PrfPrc+ScDu1: йимме̄н
+    йиӈкве+V+PrfPrc+ScDu2: [йимын, йимы̄н]
+    йиӈкве+V+PrfPrc+ScDu3: [йимег, йиме̄г]
+    йиӈкве+V+PrfPrc+ScPl1: [йимув, йимӯв]
+    йиӈкве+V+PrfPrc+ScPl2: [йимын, йимы̄н]
+    йиӈкве+V+PrfPrc+ScPl3: йимыт
 
 #Gerund
     йиӈкве+V+Ger: йийим

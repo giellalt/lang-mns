@@ -208,93 +208,93 @@ Tests:
 
 #Present participle
     виӈкве+V+PrsPrc: винэ
-    виӈкве+V+PrsPrc+PxSg1: винэм
-    виӈкве+V+PrsPrc+PxSg2: винэн
-    виӈкве+V+PrsPrc+PxSg3: винэ̄тэ
-    виӈкве+V+PrsPrc+PxDu1: винэме̄н
-    виӈкве+V+PrsPrc+PxDu2: винэнэ̄н
-    виӈкве+V+PrsPrc+PxDu3: [винэг, винэ̄г]
-    виӈкве+V+PrsPrc+PxPl1: винэ̄в
-    виӈкве+V+PrsPrc+PxPl2: [винэн, винэ̄н]
-    виӈкве+V+PrsPrc+PxPl3: [винэныл, винэ̄ныл]
+    виӈкве+V+PrsPrc+ScSg1: винэм
+    виӈкве+V+PrsPrc+ScSg2: винэн
+    виӈкве+V+PrsPrc+ScSg3: винэ̄тэ
+    виӈкве+V+PrsPrc+ScDu1: винэме̄н
+    виӈкве+V+PrsPrc+ScDu2: винэнэ̄н
+    виӈкве+V+PrsPrc+ScDu3: [винэг, винэ̄г]
+    виӈкве+V+PrsPrc+ScPl1: винэ̄в
+    виӈкве+V+PrsPrc+ScPl2: [винэн, винэ̄н]
+    виӈкве+V+PrsPrc+ScPl3: [винэныл, винэ̄ныл]
 
 #Present participle, single object
-    виӈкве+V+PrsPrc+PxSg1: винэ̄лум
-    виӈкве+V+PrsPrc+PxSg2: [винэ̄лн, винэ̄лын]
-    виӈкве+V+PrsPrc+PxSg3: винэ̄тэ
-    виӈкве+V+PrsPrc+PxDu1: винэламе̄н
-    виӈкве+V+PrsPrc+PxDu2: винэлы̄н
-    виӈкве+V+PrsPrc+PxDu3: винэтэ̄н
-    виӈкве+V+PrsPrc+PxPl1: [винэлув, винэлӯв]
-    виӈкве+V+PrsPrc+PxPl2: винэлы̄н
-    виӈкве+V+PrsPrc+PxPl3: [винӭнл, винэ̄ныл]
+    виӈкве+V+PrsPrc+ScSg1+OcSg: винэ̄лум
+    виӈкве+V+PrsPrc+ScSg2+OcSg: [винэ̄лн, винэ̄лын]
+    виӈкве+V+PrsPrc+ScSg3+OcSg: винэ̄тэ
+    виӈкве+V+PrsPrc+ScDu1+OcSg: винэламе̄н
+    виӈкве+V+PrsPrc+ScDu2+OcSg: винэлы̄н
+    виӈкве+V+PrsPrc+ScDu3+OcSg: винэтэ̄н
+    виӈкве+V+PrsPrc+ScPl1+OcSg: [винэлув, винэлӯв]
+    виӈкве+V+PrsPrc+ScPl2+OcSg: винэлы̄н
+    виӈкве+V+PrsPrc+ScPl3+OcSg: [винӭнл, винэ̄ныл]
 
 #Present participle, dual object
-    виӈкве+V+PrsPrc+PxSg1: винэ̄гум
-    виӈкве+V+PrsPrc+PxSg2: [винэ̄гн, винэ̄гын]
-    виӈкве+V+PrsPrc+PxSg3: винэ̄ге
-    виӈкве+V+PrsPrc+PxDu1: винэгаме̄н
-    виӈкве+V+PrsPrc+PxDu2: винэгы̄н
-    виӈкве+V+PrsPrc+PxDu3: винэге̄н
-    виӈкве+V+PrsPrc+PxPl1: [винэгув, винэгӯв]
-    виӈкве+V+PrsPrc+PxPl2: винэгагы̄н
-    виӈкве+V+PrsPrc+PxPl3: винэгаганыл
+    виӈкве+V+PrsPrc+ScSg1+OcDu: винэ̄гум
+    виӈкве+V+PrsPrc+ScSg2+OcDu: [винэ̄гн, винэ̄гын]
+    виӈкве+V+PrsPrc+ScSg3+OcDu: винэ̄ге
+    виӈкве+V+PrsPrc+ScDu1+OcDu: винэгаме̄н
+    виӈкве+V+PrsPrc+ScDu2+OcDu: винэгы̄н
+    виӈкве+V+PrsPrc+ScDu3+OcDu: винэге̄н
+    виӈкве+V+PrsPrc+ScPl1+OcDu: [винэгув, винэгӯв]
+    виӈкве+V+PrsPrc+ScPl2+OcDu: винэгагы̄н
+    виӈкве+V+PrsPrc+ScPl3+OcDu: винэгаганыл
 
 #Present participle, plural object
-    виӈкве+V+PrsPrc+PxSg1: винэ̄нум
-    виӈкве+V+PrsPrc+PxSg2: винэ̄н
-    виӈкве+V+PrsPrc+PxSg3: винэ̄нэ
-    виӈкве+V+PrsPrc+PxDu1: [винэнаме̄н, винэнанме̄н]
-    виӈкве+V+PrsPrc+PxDu2: [винэны̄н, винэныны̄н, винэнаны̄н] 
-    виӈкве+V+PrsPrc+PxDu3: [винэнэ̄н, винэнанэ̄н]
-    виӈкве+V+PrsPrc+PxPl1: [винэнув, винэнӯв, винэнанув, винэнанӯв]
-    виӈкве+V+PrsPrc+PxPl2: [винэны̄н, винэнаны̄н]
-    виӈкве+V+PrsPrc+PxPl3: [винэ̄нл, винэ̄наныл]
+    виӈкве+V+PrsPrc+ScSg1+OcPl: винэ̄нум
+    виӈкве+V+PrsPrc+ScSg2+OcPl: винэ̄н
+    виӈкве+V+PrsPrc+ScSg3+OcPl: винэ̄нэ
+    виӈкве+V+PrsPrc+ScDu1+OcPl: [винэнаме̄н, винэнанме̄н]
+    виӈкве+V+PrsPrc+ScDu2+OcPl: [винэны̄н, винэныны̄н, винэнаны̄н] 
+    виӈкве+V+PrsPrc+ScDu3+OcPl: [винэнэ̄н, винэнанэ̄н]
+    виӈкве+V+PrsPrc+ScPl1+OcPl: [винэнув, винэнӯв, винэнанув, винэнанӯв]
+    виӈкве+V+PrsPrc+ScPl2+OcPl: [винэны̄н, винэнаны̄н]
+    виӈкве+V+PrsPrc+ScPl3+OcPl: [винэ̄нл, винэ̄наныл]
 
 #Past participle
     виӈкве+V+PrfPrc: вим
-    виӈкве+V+PrfPrc+PxSg1: вимум
-    виӈкве+V+PrfPrc+PxSg2: вимын
-    виӈкве+V+PrfPrc+PxSg3: виме
-    виӈкве+V+PrfPrc+PxDu1: вимаме̄н
-    виӈкве+V+PrfPrc+PxDu2: [вимын, вимы̄н]
-    виӈкве+V+PrfPrc+PxDu3: вимыг
-    виӈкве+V+PrfPrc+PxPl1: [вимув, вимӯв]
-    виӈкве+V+PrfPrc+PxPl2: [вимын, виммы̄н]
-    виӈкве+V+PrfPrc+PxPl3: вимыт
+    виӈкве+V+PrfPrc+ScSg1: вимум
+    виӈкве+V+PrfPrc+ScSg2: вимын
+    виӈкве+V+PrfPrc+ScSg3: виме
+    виӈкве+V+PrfPrc+ScDu1: вимаме̄н
+    виӈкве+V+PrfPrc+ScDu2: [вимын, вимы̄н]
+    виӈкве+V+PrfPrc+ScDu3: вимыг
+    виӈкве+V+PrfPrc+ScPl1: [вимув, вимӯв]
+    виӈкве+V+PrfPrc+ScPl2: [вимын, виммы̄н]
+    виӈкве+V+PrfPrc+ScPl3: вимыт
 
 #Past participle, single object
-    виӈкве+V+PrfPrc+PxSg1: вимлум
-    виӈкве+V+PrfPrc+PxSg2: вимлын
-    виӈкве+V+PrfPrc+PxSg3: вимтэ
-    виӈкве+V+PrfPrc+PxDu1: вимламе̄н
-    виӈкве+V+PrfPrc+PxDu2: вимлы̄н
-    виӈкве+V+PrfPrc+PxDu3: вимтэ̄н
-    виӈкве+V+PrfPrc+PxPl1: [вимлув, вимлӯв]
-    виӈкве+V+PrfPrc+PxPl2: вимлы̄н
-    виӈкве+V+PrfPrc+PxPl3: виманыл
+    виӈкве+V+PrfPrc+ScSg1+OcSg: вимлум
+    виӈкве+V+PrfPrc+ScSg2+OcSg: вимлын
+    виӈкве+V+PrfPrc+ScSg3+OcSg: вимтэ
+    виӈкве+V+PrfPrc+ScDu1+OcSg: вимламе̄н
+    виӈкве+V+PrfPrc+ScDu2+OcSg: вимлы̄н
+    виӈкве+V+PrfPrc+ScDu3+OcSg: вимтэ̄н
+    виӈкве+V+PrfPrc+ScPl1+OcSg: [вимлув, вимлӯв]
+    виӈкве+V+PrfPrc+ScPl2+OcSg: вимлы̄н
+    виӈкве+V+PrfPrc+ScPl3+OcSg: виманыл
 
 #Past participle, dual object
-    виӈкве+V+PrfPrc+PxSg1: вимагум
-    виӈкве+V+PrfPrc+PxSg2: вимагын
-    виӈкве+V+PrfPrc+PxSg3: вимаге
-    виӈкве+V+PrfPrc+PxDu1: [вимагаме̄н, вимагагме̄н]
-    виӈкве+V+PrfPrc+PxDu2: [вимагы̄н, вимагагы̄н]
-    виӈкве+V+PrfPrc+PxDu3: [вимагы̄г, вимагагы̄г]
-    виӈкве+V+PrfPrc+PxPl1: [вимагув, вимагӯв]
-    виӈкве+V+PrfPrc+PxPl2: [вимагы̄н, вимагагы̄н]
-    виӈкве+V+PrfPrc+PxPl3: [вимагагыл, вимагаганыл]
+    виӈкве+V+PrfPrc+ScSg1+OcDu: вимагум
+    виӈкве+V+PrfPrc+ScSg2+OcDu: вимагын
+    виӈкве+V+PrfPrc+ScSg3+OcDu: вимаге
+    виӈкве+V+PrfPrc+ScDu1+OcDu: [вимагаме̄н, вимагагме̄н]
+    виӈкве+V+PrfPrc+ScDu2+OcDu: [вимагы̄н, вимагагы̄н]
+    виӈкве+V+PrfPrc+ScDu3+OcDu: [вимагы̄г, вимагагы̄г]
+    виӈкве+V+PrfPrc+ScPl1+OcDu: [вимагув, вимагӯв]
+    виӈкве+V+PrfPrc+ScPl2+OcDu: [вимагы̄н, вимагагы̄н]
+    виӈкве+V+PrfPrc+ScPl3+OcDu: [вимагагыл, вимагаганыл]
 
 #Past participle, plural object
-    виӈкве+V+PrfPrc+PxSg1: [виманум, вимананум]
-    виӈкве+V+PrfPrc+PxSg2: [виман, вима̄нын]
-    виӈкве+V+PrfPrc+PxSg3: [вима̄нэ, вимана̄нэ]
-    виӈкве+V+PrfPrc+PxDu1: [виманаме̄н, вимананме̄н]
-    виӈкве+V+PrfPrc+PxDu2: [виманн, виманы̄н, вимананы̄н]
-    виӈкве+V+PrfPrc+PxDu3: [виманэ̄н, вимананэ̄н]
-    виӈкве+V+PrfPrc+PxPl1: [виманув, виманӯв, вимананув, вимананӯв]
-    виӈкве+V+PrfPrc+PxPl2: [виманы̄н, вимананы̄н]
-    виӈкве+V+PrfPrc+PxPl3: [вима̄ныл, вимана̄ныл]
+    виӈкве+V+PrfPrc+ScSg1+OcPl: [виманум, вимананум]
+    виӈкве+V+PrfPrc+ScSg2+OcPl: [виман, вима̄нын]
+    виӈкве+V+PrfPrc+ScSg3+OcPl: [вима̄нэ, вимана̄нэ]
+    виӈкве+V+PrfPrc+ScDu1+OcPl: [виманаме̄н, вимананме̄н]
+    виӈкве+V+PrfPrc+ScDu2+OcPl: [виманн, виманы̄н, вимананы̄н]
+    виӈкве+V+PrfPrc+ScDu3+OcPl: [виманэ̄н, вимананэ̄н]
+    виӈкве+V+PrfPrc+ScPl1+OcPl: [виманув, виманӯв, вимананув, вимананӯв]
+    виӈкве+V+PrfPrc+ScPl2+OcPl: [виманы̄н, вимананы̄н]
+    виӈкве+V+PrfPrc+ScPl3+OcPl: [вима̄ныл, вимана̄ныл]
 
 #Gerund
     виӈкве+V+Ger: воим

@@ -208,105 +208,105 @@ Tests:
 
 #Present participle
     тотуӈкве+V+PrsPrc: тотнэ
-    тотуӈкве+V+PrsPrc+PxSg1: тотнэм
-    тотуӈкве+V+PrsPrc+PxSg2: тотнэн 
-    тотуӈкве+V+PrsPrc+PxSg3: тотнэ̄тэ
-    тотуӈкве+V+PrsPrc+PxDu1: тотнэме̄н
-    тотуӈкве+V+PrsPrc+PxDu2: [тотнэн, тотнэ̄н]
-    тотуӈкве+V+PrsPrc+PxDu3: тотнэтэ̄н
-    тотуӈкве+V+PrsPrc+PxPl1: [тотнэв, тотнэ̄в]
-    тотуӈкве+V+PrsPrc+PxPl2: [тотнэн, тотнэ̄н]
-    тотуӈкве+V+PrsPrc+PxPl3: тотнэныл
+    тотуӈкве+V+PrsPrc+ScSg1: тотнэм
+    тотуӈкве+V+PrsPrc+ScSg2: тотнэн 
+    тотуӈкве+V+PrsPrc+ScSg3: тотнэ̄тэ
+    тотуӈкве+V+PrsPrc+ScDu1: тотнэме̄н
+    тотуӈкве+V+PrsPrc+ScDu2: [тотнэн, тотнэ̄н]
+    тотуӈкве+V+PrsPrc+ScDu3: тотнэтэ̄н
+    тотуӈкве+V+PrsPrc+ScPl1: [тотнэв, тотнэ̄в]
+    тотуӈкве+V+PrsPrc+ScPl2: [тотнэн, тотнэ̄н]
+    тотуӈкве+V+PrsPrc+ScPl3: тотнэныл
 
 #Present participle, single object
-    тотуӈкве+V+PrsPrc+PxSg1: тотнэ̄лум
-    тотуӈкве+V+PrsPrc+PxSg2: тотнэ̄лын
-    тотуӈкве+V+PrsPrc+PxSg3: тотнэ̄тэ
-    тотуӈкве+V+PrsPrc+PxDu1: тотнэламе̄н
-    тотуӈкве+V+PrsPrc+PxDu2: [тотнэ̄лын, тотнэлы̄н]
-    тотуӈкве+V+PrsPrc+PxDu3: тотнэтэ̄н
-    тотуӈкве+V+PrsPrc+PxPl1: тотнэлув
-    тотуӈкве+V+PrsPrc+PxPl2: [тотнэ̄лын, тотнэлы̄н]
-    тотуӈкве+V+PrsPrc+PxPl3: тотнэ̄ныл
+    тотуӈкве+V+PrsPrc+ScSg1+OcSg: тотнэ̄лум
+    тотуӈкве+V+PrsPrc+ScSg2+OcSg: тотнэ̄лын
+    тотуӈкве+V+PrsPrc+ScSg3+OcSg: тотнэ̄тэ
+    тотуӈкве+V+PrsPrc+ScDu1+OcSg: тотнэламе̄н
+    тотуӈкве+V+PrsPrc+ScDu2+OcSg: [тотнэ̄лын, тотнэлы̄н]
+    тотуӈкве+V+PrsPrc+ScDu3+OcSg: тотнэтэ̄н
+    тотуӈкве+V+PrsPrc+ScPl1+OcSg: тотнэлув
+    тотуӈкве+V+PrsPrc+ScPl2+OcSg: [тотнэ̄лын, тотнэлы̄н]
+    тотуӈкве+V+PrsPrc+ScPl3+OcSg: тотнэ̄ныл
 
 #Present participle, dual object
-    тотуӈкве+V+PrsPrc+PxSg1: тотнэ̄гум
-    тотуӈкве+V+PrsPrc+PxSg2: тотнэ̄гын
-    тотуӈкве+V+PrsPrc+PxSg3: тотнэ̄гэ
-    тотуӈкве+V+PrsPrc+PxDu1: тотнэгаме̄н
-    тотуӈкве+V+PrsPrc+PxDu2: [тотнэ̄гын, тотнэгы̄н]
-    тотуӈкве+V+PrsPrc+PxDu3: тотнэгэ̄н
-    тотуӈкве+V+PrsPrc+PxPl1: тотнэгув
-    тотуӈкве+V+PrsPrc+PxPl2: [тотнэ̄гагын, тотнэгагы̄н]
-    тотуӈкве+V+PrsPrc+PxPl3: тотнэганыл
+    тотуӈкве+V+PrsPrc+ScSg1+OcDu: тотнэ̄гум
+    тотуӈкве+V+PrsPrc+ScSg2+OcDu: тотнэ̄гын
+    тотуӈкве+V+PrsPrc+ScSg3+OcDu: тотнэ̄гэ
+    тотуӈкве+V+PrsPrc+ScDu1+OcDu: тотнэгаме̄н
+    тотуӈкве+V+PrsPrc+ScDu2+OcDu: [тотнэ̄гын, тотнэгы̄н]
+    тотуӈкве+V+PrsPrc+ScDu3+OcDu: тотнэгэ̄н
+    тотуӈкве+V+PrsPrc+ScPl1+OcDu: тотнэгув
+    тотуӈкве+V+PrsPrc+ScPl2+OcDu: [тотнэ̄гагын, тотнэгагы̄н]
+    тотуӈкве+V+PrsPrc+ScPl3+OcDu: тотнэганыл
 
 #Present participle, plural object
-    тотуӈкве+V+PrsPrc+PxSg1: тотнэ̄нум
-    тотуӈкве+V+PrsPrc+PxSg2: [тотнэ̄нын, тотнэ̄н]
-    тотуӈкве+V+PrsPrc+PxSg3: тотнэ̄нэ
-    тотуӈкве+V+PrsPrc+PxDu1: [тотнэнаме̄н, тотнэнанме̄н]
-    тотуӈкве+V+PrsPrc+PxDu2: [тотнэны̄н, тотнэныны̄н, тотнэнаны̄н] 
-    тотуӈкве+V+PrsPrc+PxDu3: [тотнэнэ̄н, тотнэнанэ̄н]
-    тотуӈкве+V+PrsPrc+PxPl1: [тотнэнув, тотнэнанув]
-    тотуӈкве+V+PrsPrc+PxPl2: [тотнэны̄н, тотнэнаны̄н]
-    тотуӈкве+V+PrsPrc+PxPl3: [тотнэ̄ныл, тотнэ̄наныл]
+    тотуӈкве+V+PrsPrc+ScSg1+OcPl: тотнэ̄нум
+    тотуӈкве+V+PrsPrc+ScSg2+OcPl: [тотнэ̄нын, тотнэ̄н]
+    тотуӈкве+V+PrsPrc+ScSg3+OcPl: тотнэ̄нэ
+    тотуӈкве+V+PrsPrc+ScDu1+OcPl: [тотнэнаме̄н, тотнэнанме̄н]
+    тотуӈкве+V+PrsPrc+ScDu2+OcPl: [тотнэны̄н, тотнэныны̄н, тотнэнаны̄н] 
+    тотуӈкве+V+PrsPrc+ScDu3+OcPl: [тотнэнэ̄н, тотнэнанэ̄н]
+    тотуӈкве+V+PrsPrc+ScPl1+OcPl: [тотнэнув, тотнэнанув]
+    тотуӈкве+V+PrsPrc+ScPl2+OcPl: [тотнэны̄н, тотнэнаны̄н]
+    тотуӈкве+V+PrsPrc+ScPl3+OcPl: [тотнэ̄ныл, тотнэ̄наныл]
 
 #Past participle
     тотуӈкве+V+PrfPrc: тотум
-    тотуӈкве+V+PrfPrc+PxSg1: тотмум
-    тотуӈкве+V+PrfPrc+PxSg2: тотмын
-    тотуӈкве+V+PrfPrc+PxSg3: тотме
-    тотуӈкве+V+PrfPrc+PxDu1: тотмаме̄н
-    тотуӈкве+V+PrfPrc+PxDu2: [тотмын, тотмы̄н]
-    тотуӈкве+V+PrfPrc+PxDu3: тотмыг
-    тотуӈкве+V+PrfPrc+PxPl1: тотмув
-    тотуӈкве+V+PrfPrc+PxPl2: [тотмын, тотмы̄н]
-    тотуӈкве+V+PrfPrc+PxPl3: тотмыт
+    тотуӈкве+V+PrfPrc+ScSg1: тотмум
+    тотуӈкве+V+PrfPrc+ScSg2: тотмын
+    тотуӈкве+V+PrfPrc+ScSg3: тотме
+    тотуӈкве+V+PrfPrc+ScDu1: тотмаме̄н
+    тотуӈкве+V+PrfPrc+ScDu2: [тотмын, тотмы̄н]
+    тотуӈкве+V+PrfPrc+ScDu3: тотмыг
+    тотуӈкве+V+PrfPrc+ScPl1: тотмув
+    тотуӈкве+V+PrfPrc+ScPl2: [тотмын, тотмы̄н]
+    тотуӈкве+V+PrfPrc+ScPl3: тотмыт
 
 #Past participle, single object
-    тотуӈкве+V+PrfPrc+PxSg1: тотамлум
-    тотуӈкве+V+PrfPrc+PxSg2: тотамлын
-    тотуӈкве+V+PrfPrc+PxSg3: тотамтэ
-    тотуӈкве+V+PrfPrc+PxDu1: тотамламе̄н
-    тотуӈкве+V+PrfPrc+PxDu2: [тотамлын, тотмылы̄н]
-    тотуӈкве+V+PrfPrc+PxDu3: тотамтэ̄н
-    тотуӈкве+V+PrfPrc+PxPl1: тотамлув
-    тотуӈкве+V+PrfPrc+PxPl2: [тотамлын, тотмылы̄н]
-    тотуӈкве+V+PrfPrc+PxPl3: тотаманыл
+    тотуӈкве+V+PrfPrc+ScSg1+OcSg: тотамлум
+    тотуӈкве+V+PrfPrc+ScSg2+OcSg: тотамлын
+    тотуӈкве+V+PrfPrc+ScSg3+OcSg: тотамтэ
+    тотуӈкве+V+PrfPrc+ScDu1+OcSg: тотамламе̄н
+    тотуӈкве+V+PrfPrc+ScDu2+OcSg: [тотамлын, тотмылы̄н]
+    тотуӈкве+V+PrfPrc+ScDu3+OcSg: тотамтэ̄н
+    тотуӈкве+V+PrfPrc+ScPl1+OcSg: тотамлув
+    тотуӈкве+V+PrfPrc+ScPl2+OcSg: [тотамлын, тотмылы̄н]
+    тотуӈкве+V+PrfPrc+ScPl3+OcSg: тотаманыл
 
 #Past participle, dual object
-    тотуӈкве+V+PrfPrc+PxSg1: тотмагум
-    тотуӈкве+V+PrfPrc+PxSg2: тотмагын
-    тотуӈкве+V+PrfPrc+PxSg3: тотмаге
-    тотуӈкве+V+PrfPrc+PxDu1: [тотмагаме̄н, тотмагагме̄н]
-    тотуӈкве+V+PrfPrc+PxDu2: [тотмагы̄н, тотмагагы̄н]
-    тотуӈкве+V+PrfPrc+PxDu3: [тотмагы̄н, тотмагагы̄н]
-    тотуӈкве+V+PrfPrc+PxPl1: тотмагув
-    тотуӈкве+V+PrfPrc+PxPl2: [тотмагы̄н, тотмагагы̄н]
-    тотуӈкве+V+PrfPrc+PxPl3: [тотмаганыл, тотмагаганыл]
+    тотуӈкве+V+PrfPrc+ScSg1+OcDu: тотмагум
+    тотуӈкве+V+PrfPrc+ScSg2+OcDu: тотмагын
+    тотуӈкве+V+PrfPrc+ScSg3+OcDu: тотмаге
+    тотуӈкве+V+PrfPrc+ScDu1+OcDu: [тотмагаме̄н, тотмагагме̄н]
+    тотуӈкве+V+PrfPrc+ScDu2+OcDu: [тотмагы̄н, тотмагагы̄н]
+    тотуӈкве+V+PrfPrc+ScDu3+OcDu: [тотмагы̄н, тотмагагы̄н]
+    тотуӈкве+V+PrfPrc+ScPl1+OcDu: тотмагув
+    тотуӈкве+V+PrfPrc+ScPl2+OcDu: [тотмагы̄н, тотмагагы̄н]
+    тотуӈкве+V+PrfPrc+ScPl3+OcDu: [тотмаганыл, тотмагаганыл]
 
 #Past participle, plural object
-    тотуӈкве+V+PrfPrc+PxSg1: [тотманум, тотмананум]
-    тотуӈкве+V+PrfPrc+PxSg2: [тотман, тотма̄нын]
-    тотуӈкве+V+PrfPrc+PxSg3: [тотма̄нэ, тотмана̄нэ]
-    тотуӈкве+V+PrfPrc+PxDu1: [тотманаме̄н, тотмананме̄н]
-    тотуӈкве+V+PrfPrc+PxDu2: [тотманн, тотманы̄н, тотмананы̄н]
-    тотуӈкве+V+PrfPrc+PxDu3: [тотманэ̄н, тотмананэ̄н]
-    тотуӈкве+V+PrfPrc+PxPl1: [тотманув, тотмананув]
-    тотуӈкве+V+PrfPrc+PxPl2: [тотманы̄н, тотмананы̄н]
-    тотуӈкве+V+PrfPrc+PxPl3: [тотма̄ныл, тотмана̄ныл]
+    тотуӈкве+V+PrfPrc+ScSg1+OcPl: [тотманум, тотмананум]
+    тотуӈкве+V+PrfPrc+ScSg2+OcPl: [тотман, тотма̄нын]
+    тотуӈкве+V+PrfPrc+ScSg3+OcPl: [тотма̄нэ, тотмана̄нэ]
+    тотуӈкве+V+PrfPrc+ScDu1+OcPl: [тотманаме̄н, тотмананме̄н]
+    тотуӈкве+V+PrfPrc+ScDu2+OcPl: [тотманн, тотманы̄н, тотмананы̄н]
+    тотуӈкве+V+PrfPrc+ScDu3+OcPl: [тотманэ̄н, тотмананэ̄н]
+    тотуӈкве+V+PrfPrc+ScPl1+OcPl: [тотманув, тотмананув]
+    тотуӈкве+V+PrfPrc+ScPl2+OcPl: [тотманы̄н, тотмананы̄н]
+    тотуӈкве+V+PrfPrc+ScPl3+OcPl: [тотма̄ныл, тотмана̄ныл]
 
 #Gerund
     тотуӈкве+V+Ger: тотым
-    тотуӈкве+V+PrsPrc+PxSg1: тотымам
-    тотуӈкве+V+PrsPrc+PxSg2: тотыман
-    тотуӈкве+V+PrsPrc+PxSg3: тотыма
-    тотуӈкве+V+PrsPrc+PxDu1: тотымаме̄н
-    тотуӈкве+V+PrsPrc+PxDu2: [тотыман, тотыма̄н]
-    тотуӈкве+V+PrsPrc+PxDu3: тотнсыма̄г
-    тотуӈкве+V+PrsPrc+PxPl1: тотымав
-    тотуӈкве+V+PrsPrc+PxPl2: [тотыман, тотыма̄н]
-    тотуӈкве+V+PrsPrc+PxPl3: тотымат
+    тотуӈкве+V+Ger+PxSg1: тотымам
+    тотуӈкве+V+Ger+PxSg2: тотыман
+    тотуӈкве+V+Ger+PxSg3: тотыма
+    тотуӈкве+V+Ger+PxDu1: тотымаме̄н
+    тотуӈкве+V+Ger+PxDu2: [тотыман, тотыма̄н]
+    тотуӈкве+V+Ger+PxDu3: тотнсыма̄г
+    тотуӈкве+V+Ger+PxPl1: тотымав
+    тотуӈкве+V+Ger+PxPl2: [тотыман, тотыма̄н]
+    тотуӈкве+V+Ger+PxPl3: тотымат
 
 #Privative
     тотуӈкве+V+Ger: тоттал

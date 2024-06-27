@@ -209,93 +209,93 @@ Tests:
 
 #Present participle
     тэ̄ӈкве+V+PrsPrc: тэ̄нэ
-    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэм
-    тэ̄ӈкве+V+PrsPrc+PxSg2: тэ̄нэн
-    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄тэ
-    тэ̄ӈкве+V+PrsPrc+PxDu1: тэ̄нэме̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu2: тэ̄нэнэ̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu3: [тэ̄нэг, тэ̄нэ̄г]
-    тэ̄ӈкве+V+PrsPrc+PxPl1: тэ̄нэ̄в
-    тэ̄ӈкве+V+PrsPrc+PxPl2: [тэ̄нэн, тэ̄нэ̄н]
-    тэ̄ӈкве+V+PrsPrc+PxPl3: [тэ̄нэныл, тэ̄нэ̄ныл]
+    тэ̄ӈкве+V+PrsPrc+ScSg1: тэ̄нэм
+    тэ̄ӈкве+V+PrsPrc+ScSg2: тэ̄нэн
+    тэ̄ӈкве+V+PrsPrc+ScSg3: тэ̄нэ̄тэ
+    тэ̄ӈкве+V+PrsPrc+ScDu1: тэ̄нэме̄н
+    тэ̄ӈкве+V+PrsPrc+ScDu2: тэ̄нэнэ̄н
+    тэ̄ӈкве+V+PrsPrc+ScDu3: [тэ̄нэг, тэ̄нэ̄г]
+    тэ̄ӈкве+V+PrsPrc+ScPl1: тэ̄нэ̄в
+    тэ̄ӈкве+V+PrsPrc+ScPl2: [тэ̄нэн, тэ̄нэ̄н]
+    тэ̄ӈкве+V+PrsPrc+ScPl3: [тэ̄нэныл, тэ̄нэ̄ныл]
 
 #Present participle, single object
-    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэ̄лум
-    тэ̄ӈкве+V+PrsPrc+PxSg2: [тэ̄нэ̄лн, тэ̄нэ̄лын]
-    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄тэ
-    тэ̄ӈкве+V+PrsPrc+PxDu1: тэ̄нэламе̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu2: тэ̄нэлы̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu3: тэ̄нэтэ̄н
-    тэ̄ӈкве+V+PrsPrc+PxPl1: [тэ̄нэлув, тэ̄нэлӯв]
-    тэ̄ӈкве+V+PrsPrc+PxPl2: тэ̄нэлы̄н
-    тэ̄ӈкве+V+PrsPrc+PxPl3: [тэ̄нӭнл, тэ̄нэ̄ныл]
+    тэ̄ӈкве+V+PrsPrc+ScSg1+OcSg: тэ̄нэ̄лум
+    тэ̄ӈкве+V+PrsPrc+ScSg2+OcSg: [тэ̄нэ̄лн, тэ̄нэ̄лын]
+    тэ̄ӈкве+V+PrsPrc+ScSg3+OcSg: тэ̄нэ̄тэ
+    тэ̄ӈкве+V+PrsPrc+ScDu1+OcSg: тэ̄нэламе̄н
+    тэ̄ӈкве+V+PrsPrc+ScDu2+OcSg: тэ̄нэлы̄н
+    тэ̄ӈкве+V+PrsPrc+ScDu3+OcSg: тэ̄нэтэ̄н
+    тэ̄ӈкве+V+PrsPrc+ScPl1+OcSg: [тэ̄нэлув, тэ̄нэлӯв]
+    тэ̄ӈкве+V+PrsPrc+ScPl2+OcSg: тэ̄нэлы̄н
+    тэ̄ӈкве+V+PrsPrc+ScPl3+OcSg: [тэ̄нӭнл, тэ̄нэ̄ныл]
 
 #Present participle, dual object
-    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэ̄гум
-    тэ̄ӈкве+V+PrsPrc+PxSg2: [тэ̄нэ̄гн, тӭнэ̄гын]
-    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄гэ
-    тэ̄ӈкве+V+PrsPrc+PxDu1: тэ̄нэгаме̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu2: тэ̄нэгы̄н
-    тэ̄ӈкве+V+PrsPrc+PxDu3: тэ̄нэгэ̄н
-    тэ̄ӈкве+V+PrsPrc+PxPl1: [тэ̄нэгув, тэ̄нэгӯв]
-    тэ̄ӈкве+V+PrsPrc+PxPl2: тэ̄нэгагы̄н
-    тэ̄ӈкве+V+PrsPrc+PxPl3: тэ̄нэгаганыл
+    тэ̄ӈкве+V+PrsPrc+ScSg1+OcDu: тэ̄нэ̄гум
+    тэ̄ӈкве+V+PrsPrc+ScSg2+OcDu: [тэ̄нэ̄гн, тӭнэ̄гын]
+    тэ̄ӈкве+V+PrsPrc+ScSg3+OcDu: тэ̄нэ̄гэ
+    тэ̄ӈкве+V+PrsPrc+ScDu1+OcDu: тэ̄нэгаме̄н
+    тэ̄ӈкве+V+PrsPrc+ScDu2+OcDu: тэ̄нэгы̄н
+    тэ̄ӈкве+V+PrsPrc+ScDu3+OcDu: тэ̄нэгэ̄н
+    тэ̄ӈкве+V+PrsPrc+ScPl1+OcDu: [тэ̄нэгув, тэ̄нэгӯв]
+    тэ̄ӈкве+V+PrsPrc+ScPl2+OcDu: тэ̄нэгагы̄н
+    тэ̄ӈкве+V+PrsPrc+ScPl3+OcDu: тэ̄нэгаганыл
 
 #Present participle, plural object
-    тэ̄ӈкве+V+PrsPrc+PxSg1: тэ̄нэ̄нум
-    тэ̄ӈкве+V+PrsPrc+PxSg2: тэ̄нэ̄н
-    тэ̄ӈкве+V+PrsPrc+PxSg3: тэ̄нэ̄нэ
-    тэ̄ӈкве+V+PrsPrc+PxDu1: [тэ̄нэнаме̄н, тэ̄нэнанме̄н]
-    тэ̄ӈкве+V+PrsPrc+PxDu2: [тэ̄нэны̄н, тэ̄нэныны̄н, тэ̄нэнаны̄н] 
-    тэ̄ӈкве+V+PrsPrc+PxDu3: [тэ̄нэнэ̄н, тэ̄нэнанэ̄н]
-    тэ̄ӈкве+V+PrsPrc+PxPl1: [тэ̄нэнув, тэ̄нэнӯв, тэ̄нэнанув, тэ̄нэнанӯв]
-    тэ̄ӈкве+V+PrsPrc+PxPl2: [тэ̄нэны̄н, тэ̄нэнаны̄н]
-    тэ̄ӈкве+V+PrsPrc+PxPl3: [тэ̄нэ̄нл, тэ̄нэ̄наныл]
+    тэ̄ӈкве+V+PrsPrc+ScSg1+OcPl: тэ̄нэ̄нум
+    тэ̄ӈкве+V+PrsPrc+ScSg2+OcPl: тэ̄нэ̄н
+    тэ̄ӈкве+V+PrsPrc+ScSg3+OcPl: тэ̄нэ̄нэ
+    тэ̄ӈкве+V+PrsPrc+ScDu1+OcPl: [тэ̄нэнаме̄н, тэ̄нэнанме̄н]
+    тэ̄ӈкве+V+PrsPrc+ScDu2+OcPl: [тэ̄нэны̄н, тэ̄нэныны̄н, тэ̄нэнаны̄н] 
+    тэ̄ӈкве+V+PrsPrc+ScDu3+OcPl: [тэ̄нэнэ̄н, тэ̄нэнанэ̄н]
+    тэ̄ӈкве+V+PrsPrc+ScPl1+OcPl: [тэ̄нэнув, тэ̄нэнӯв, тэ̄нэнанув, тэ̄нэнанӯв]
+    тэ̄ӈкве+V+PrsPrc+ScPl2+OcPl: [тэ̄нэны̄н, тэ̄нэнаны̄н]
+    тэ̄ӈкве+V+PrsPrc+ScPl3+OcPl: [тэ̄нэ̄нл, тэ̄нэ̄наныл]
 
 #Past participle
     тэ̄ӈкве+V+PrfPrc: тэ̄м
-    тэ̄ӈкве+V+PrfPrc+PxSg1: тэ̄мум
-    тэ̄ӈкве+V+PrfPrc+PxSg2: тэ̄мын
-    тэ̄ӈкве+V+PrfPrc+PxSg3: тэ̄ме
-    тэ̄ӈкве+V+PrfPrc+PxDu1: тэ̄маме̄н
-    тэ̄ӈкве+V+PrfPrc+PxDu2: [тэ̄мын, тэ̄мы̄н]
-    тэ̄ӈкве+V+PrfPrc+PxDu3: тэ̄мыг
-    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄мув, тэ̄мӯв]
-    тэ̄ӈкве+V+PrfPrc+PxPl2: [тэ̄мын, тэ̄ммы̄н]
-    тэ̄ӈкве+V+PrfPrc+PxPl3: тэ̄мыт
+    тэ̄ӈкве+V+PrfPrc+ScSg1: тэ̄мум
+    тэ̄ӈкве+V+PrfPrc+ScSg2: тэ̄мын
+    тэ̄ӈкве+V+PrfPrc+ScSg3: тэ̄ме
+    тэ̄ӈкве+V+PrfPrc+ScDu1: тэ̄маме̄н
+    тэ̄ӈкве+V+PrfPrc+ScDu2: [тэ̄мын, тэ̄мы̄н]
+    тэ̄ӈкве+V+PrfPrc+ScDu3: тэ̄мыг
+    тэ̄ӈкве+V+PrfPrc+ScPl1: [тэ̄мув, тэ̄мӯв]
+    тэ̄ӈкве+V+PrfPrc+ScPl2: [тэ̄мын, тэ̄ммы̄н]
+    тэ̄ӈкве+V+PrfPrc+ScPl3: тэ̄мыт
 
 #Past participle, single object
-    тэ̄ӈкве+V+PrfPrc+PxSg1: тэ̄млум
-    тэ̄ӈкве+V+PrfPrc+PxSg2: тэ̄млын
-    тэ̄ӈкве+V+PrfPrc+PxSg3: тэ̄мтэ
-    тэ̄ӈкве+V+PrfPrc+PxDu1: тэ̄мламе̄н
-    тэ̄ӈкве+V+PrfPrc+PxDu2: тэ̄млы̄н
-    тэ̄ӈкве+V+PrfPrc+PxDu3: тэ̄мтэ̄н
-    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄млув, тэ̄млӯв]
-    тэ̄ӈкве+V+PrfPrc+PxPl2: тэ̄млы̄н
-    тэ̄ӈкве+V+PrfPrc+PxPl3: тэ̄маныл
+    тэ̄ӈкве+V+PrfPrc+ScSg1+OcSg: тэ̄млум
+    тэ̄ӈкве+V+PrfPrc+ScSg2+OcSg: тэ̄млын
+    тэ̄ӈкве+V+PrfPrc+ScSg3+OcSg: тэ̄мтэ
+    тэ̄ӈкве+V+PrfPrc+ScDu1+OcSg: тэ̄мламе̄н
+    тэ̄ӈкве+V+PrfPrc+ScDu2+OcSg: тэ̄млы̄н
+    тэ̄ӈкве+V+PrfPrc+ScDu3+OcSg: тэ̄мтэ̄н
+    тэ̄ӈкве+V+PrfPrc+ScPl1+OcSg: [тэ̄млув, тэ̄млӯв]
+    тэ̄ӈкве+V+PrfPrc+ScPl2+OcSg: тэ̄млы̄н
+    тэ̄ӈкве+V+PrfPrc+ScPl3+OcSg: тэ̄маныл
 
 #Past participle, dual object
-    тэ̄ӈкве+V+PrfPrc+PxSg1: тэ̄магум
-    тэ̄ӈкве+V+PrfPrc+PxSg2: тэ̄магын
-    тэ̄ӈкве+V+PrfPrc+PxSg3: тэ̄маге
-    тэ̄ӈкве+V+PrfPrc+PxDu1: [тэ̄магаме̄н, тэ̄магагме̄н]
-    тэ̄ӈкве+V+PrfPrc+PxDu2: [тэ̄магы̄н, тэ̄магагы̄н]
-    тэ̄ӈкве+V+PrfPrc+PxDu3: [тэ̄магы̄г, тэ̄магагы̄г]
-    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄магув, тэ̄магӯв]
-    тэ̄ӈкве+V+PrfPrc+PxPl2: [тэ̄магы̄н, тэ̄магагы̄н]
-    тэ̄ӈкве+V+PrfPrc+PxPl3: [тэ̄магагыл, тэ̄магаганыл]
+    тэ̄ӈкве+V+PrfPrc+ScSg1+OcDu: тэ̄магум
+    тэ̄ӈкве+V+PrfPrc+ScSg2+OcDu: тэ̄магын
+    тэ̄ӈкве+V+PrfPrc+ScSg3+OcDu: тэ̄маге
+    тэ̄ӈкве+V+PrfPrc+ScDu1+OcDu: [тэ̄магаме̄н, тэ̄магагме̄н]
+    тэ̄ӈкве+V+PrfPrc+ScDu2+OcDu: [тэ̄магы̄н, тэ̄магагы̄н]
+    тэ̄ӈкве+V+PrfPrc+ScDu3+OcDu: [тэ̄магы̄г, тэ̄магагы̄г]
+    тэ̄ӈкве+V+PrfPrc+ScPl1+OcDu: [тэ̄магув, тэ̄магӯв]
+    тэ̄ӈкве+V+PrfPrc+ScPl2+OcDu: [тэ̄магы̄н, тэ̄магагы̄н]
+    тэ̄ӈкве+V+PrfPrc+ScPl3+OcDu: [тэ̄магагыл, тэ̄магаганыл]
 
 #Past participle, plural object
-    тэ̄ӈкве+V+PrfPrc+PxSg1: [тэ̄манум, тэ̄мананум]
-    тэ̄ӈкве+V+PrfPrc+PxSg2: [тэ̄ман, тэ̄ма̄нын]
-    тэ̄ӈкве+V+PrfPrc+PxSg3: [тэ̄ма̄нэ, тэ̄мана̄нэ]
-    тэ̄ӈкве+V+PrfPrc+PxDu1: [тэ̄манаме̄н, тэ̄мананме̄н]
-    тэ̄ӈкве+V+PrfPrc+PxDu2: [тэ̄манн, тэ̄маны̄н, тэ̄мананы̄н]
-    тэ̄ӈкве+V+PrfPrc+PxDu3: [тэ̄манэ̄н, тэ̄мананэ̄н]
-    тэ̄ӈкве+V+PrfPrc+PxPl1: [тэ̄манув, тэ̄манӯв, тэ̄мананув, тэ̄мананӯв]
-    тэ̄ӈкве+V+PrfPrc+PxPl2: [тэ̄маны̄н, тэ̄мананы̄н]
-    тэ̄ӈкве+V+PrfPrc+PxPl3: [тэ̄ма̄ныл, тэ̄мана̄ныл]
+    тэ̄ӈкве+V+PrfPrc+ScSg1+OcPl: [тэ̄манум, тэ̄мананум]
+    тэ̄ӈкве+V+PrfPrc+ScSg2+OcPl: [тэ̄ман, тэ̄ма̄нын]
+    тэ̄ӈкве+V+PrfPrc+ScSg3+OcPl: [тэ̄ма̄нэ, тэ̄мана̄нэ]
+    тэ̄ӈкве+V+PrfPrc+ScDu1+OcPl: [тэ̄манаме̄н, тэ̄мананме̄н]
+    тэ̄ӈкве+V+PrfPrc+ScDu2+OcPl: [тэ̄манн, тэ̄маны̄н, тэ̄мананы̄н]
+    тэ̄ӈкве+V+PrfPrc+ScDu3+OcPl: [тэ̄манэ̄н, тэ̄мананэ̄н]
+    тэ̄ӈкве+V+PrfPrc+ScPl1+OcPl: [тэ̄манув, тэ̄манӯв, тэ̄мананув, тэ̄мананӯв]
+    тэ̄ӈкве+V+PrfPrc+ScPl2+OcPl: [тэ̄маны̄н, тэ̄мананы̄н]
+    тэ̄ӈкве+V+PrfPrc+ScPl3+OcPl: [тэ̄ма̄ныл, тэ̄мана̄ныл]
 
 #Gerund
     тэ̄ӈкве+V+Ger: та̄им

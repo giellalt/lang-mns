@@ -208,96 +208,96 @@ Tests:
 
 #Present participle
     ва̄ӈкве+V+PrsPrc: ва̄нэ
-    ва̄ӈкве+V+PrsPrc+PxSg1: ва̄нэм
-    ва̄ӈкве+V+PrsPrc+PxSg2: ва̄нэн
-    ва̄ӈкве+V+PrsPrc+PxSg3: ва̄нэ̄тэ
-    ва̄ӈкве+V+PrsPrc+PxDu1: ва̄нэме̄н
-    ва̄ӈкве+V+PrsPrc+PxDu2: ва̄нэнэ̄н
-    ва̄ӈкве+V+PrsPrc+PxDu3: [ва̄нэг, ва̄нэ̄г]
-    ва̄ӈкве+V+PrsPrc+PxPl1: ва̄нэ̄в
-    ва̄ӈкве+V+PrsPrc+PxPl2: [ва̄нэн, ва̄нэ̄н]
-    ва̄ӈкве+V+PrsPrc+PxPl3: [ва̄нэныл, ва̄нэ̄ныл]
+    ва̄ӈкве+V+PrsPrc+ScSg1: ва̄нэм
+    ва̄ӈкве+V+PrsPrc+ScSg2: ва̄нэн
+    ва̄ӈкве+V+PrsPrc+ScSg3: ва̄нэ̄тэ
+    ва̄ӈкве+V+PrsPrc+ScDu1: ва̄нэме̄н
+    ва̄ӈкве+V+PrsPrc+ScDu2: ва̄нэнэ̄н
+    ва̄ӈкве+V+PrsPrc+ScDu3: [ва̄нэг, ва̄нэ̄г]
+    ва̄ӈкве+V+PrsPrc+ScPl1: ва̄нэ̄в
+    ва̄ӈкве+V+PrsPrc+ScPl2: [ва̄нэн, ва̄нэ̄н]
+    ва̄ӈкве+V+PrsPrc+ScPl3: [ва̄нэныл, ва̄нэ̄ныл]
 
 #Present participle, single object
-    ва̄ӈкве+V+PrsPrc+PxSg1: ва̄нэ̄лум
-    ва̄ӈкве+V+PrsPrc+PxSg2: [ва̄нэ̄лн, ва̄нэ̄лын]
-    ва̄ӈкве+V+PrsPrc+PxSg3: ва̄нэ̄тэ
-    ва̄ӈкве+V+PrsPrc+PxDu1: ва̄нэламе̄н
-    ва̄ӈкве+V+PrsPrc+PxDu2: ва̄нэлы̄н
-    ва̄ӈкве+V+PrsPrc+PxDu3: ва̄нэтэ̄н
-    ва̄ӈкве+V+PrsPrc+PxPl1: [ва̄нэлув, ва̄нэлӯв]
-    ва̄ӈкве+V+PrsPrc+PxPl2: ва̄нэлы̄н
-    ва̄ӈкве+V+PrsPrc+PxPl3: [ва̄нэ̄нл, ва̄нэ̄ныл]
+    ва̄ӈкве+V+PrsPrc+ScSg1+OcSg: ва̄нэ̄лум
+    ва̄ӈкве+V+PrsPrc+ScSg2+OcSg: [ва̄нэ̄лн, ва̄нэ̄лын]
+    ва̄ӈкве+V+PrsPrc+ScSg3+OcSg: ва̄нэ̄тэ
+    ва̄ӈкве+V+PrsPrc+ScDu1+OcSg: ва̄нэламе̄н
+    ва̄ӈкве+V+PrsPrc+ScDu2+OcSg: ва̄нэлы̄н
+    ва̄ӈкве+V+PrsPrc+ScDu3+OcSg: ва̄нэтэ̄н
+    ва̄ӈкве+V+PrsPrc+ScPl1+OcSg: [ва̄нэлув, ва̄нэлӯв]
+    ва̄ӈкве+V+PrsPrc+ScPl2+OcSg: ва̄нэлы̄н
+    ва̄ӈкве+V+PrsPrc+ScPl3+OcSg: [ва̄нэ̄нл, ва̄нэ̄ныл]
 
 #Present participle, dual object
-    ва̄ӈкве+V+PrsPrc+PxSg1: ва̄нэ̄гум
-    ва̄ӈкве+V+PrsPrc+PxSg2: [ва̄нэ̄гн, ва̄нэ̄гын]
-    ва̄ӈкве+V+PrsPrc+PxSg3: ва̄нэ̄гэ
-    ва̄ӈкве+V+PrsPrc+PxDu1: ва̄нэгаме̄н
-    ва̄ӈкве+V+PrsPrc+PxDu2: ва̄нэгы̄н
-    ва̄ӈкве+V+PrsPrc+PxDu3: ва̄нэгэ̄н
-    ва̄ӈкве+V+PrsPrc+PxPl1: [ва̄нэгув, ва̄нэгӯв]
-    ва̄ӈкве+V+PrsPrc+PxPl2: ва̄нэгагы̄н
-    ва̄ӈкве+V+PrsPrc+PxPl3: ва̄нэгаганыл
+    ва̄ӈкве+V+PrsPrc+ScSg1+OcDu: ва̄нэ̄гум
+    ва̄ӈкве+V+PrsPrc+ScSg2+OcDu: [ва̄нэ̄гн, ва̄нэ̄гын]
+    ва̄ӈкве+V+PrsPrc+ScSg3+OcDu: ва̄нэ̄гэ
+    ва̄ӈкве+V+PrsPrc+ScDu1+OcDu: ва̄нэгаме̄н
+    ва̄ӈкве+V+PrsPrc+ScDu2+OcDu: ва̄нэгы̄н
+    ва̄ӈкве+V+PrsPrc+ScDu3+OcDu: ва̄нэгэ̄н
+    ва̄ӈкве+V+PrsPrc+ScPl1+OcDu: [ва̄нэгув, ва̄нэгӯв]
+    ва̄ӈкве+V+PrsPrc+ScPl2+OcDu: ва̄нэгагы̄н
+    ва̄ӈкве+V+PrsPrc+ScPl3+OcDu: ва̄нэгаганыл
 
 #Present participle, plural object
-    ва̄ӈкве+V+PrsPrc+PxSg1: ва̄нэ̄нум
-    ва̄ӈкве+V+PrsPrc+PxSg2: ва̄нэ̄н
-    ва̄ӈкве+V+PrsPrc+PxSg3: ва̄нэ̄нэ
-    ва̄ӈкве+V+PrsPrc+PxDu1: [ва̄нэнаме̄н, ва̄нэнанме̄н]
-    ва̄ӈкве+V+PrsPrc+PxDu2: [ва̄нэны̄н, ва̄нэныны̄н, ва̄нэнаны̄н] 
-    ва̄ӈкве+V+PrsPrc+PxDu3: [ва̄нэнэ̄н, ва̄нэнанэ̄н]
-    ва̄ӈкве+V+PrsPrc+PxPl1: [ва̄нэнув, ва̄нэнӯв, ва̄нэнанув, ва̄нэнанӯв]
-    ва̄ӈкве+V+PrsPrc+PxPl2: [ва̄нэны̄н, ва̄нэнаны̄н]
-    ва̄ӈкве+V+PrsPrc+PxPl3: [ва̄нэ̄нл, ва̄нэ̄наныл]
+    ва̄ӈкве+V+PrsPrc+ScSg1+OcPl: ва̄нэ̄нум
+    ва̄ӈкве+V+PrsPrc+ScSg2+OcPl: ва̄нэ̄н
+    ва̄ӈкве+V+PrsPrc+ScSg3+OcPl: ва̄нэ̄нэ
+    ва̄ӈкве+V+PrsPrc+ScDu1+OcPl: [ва̄нэнаме̄н, ва̄нэнанме̄н]
+    ва̄ӈкве+V+PrsPrc+ScDu2+OcPl: [ва̄нэны̄н, ва̄нэныны̄н, ва̄нэнаны̄н] 
+    ва̄ӈкве+V+PrsPrc+ScDu3+OcPl: [ва̄нэнэ̄н, ва̄нэнанэ̄н]
+    ва̄ӈкве+V+PrsPrc+ScPl1+OcPl: [ва̄нэнув, ва̄нэнӯв, ва̄нэнанув, ва̄нэнанӯв]
+    ва̄ӈкве+V+PrsPrc+ScPl2+OcPl: [ва̄нэны̄н, ва̄нэнаны̄н]
+    ва̄ӈкве+V+PrsPrc+ScPl3+OcPl: [ва̄нэ̄нл, ва̄нэ̄наныл]
 
 #Past participle
     ва̄ӈкве+V+PrfPrc: ва̄м
-    ва̄ӈкве+V+PrfPrc+PxSg1: ва̄мум
-    ва̄ӈкве+V+PrfPrc+PxSg2: ва̄мын
-    ва̄ӈкве+V+PrfPrc+PxSg3: ва̄ме
-    ва̄ӈкве+V+PrfPrc+PxDu1: ва̄маме̄н
-    ва̄ӈкве+V+PrfPrc+PxDu2: [ва̄мын, ва̄мы̄н]
-    ва̄ӈкве+V+PrfPrc+PxDu3: ва̄мыг
-    ва̄ӈкве+V+PrfPrc+PxPl1: [ва̄мув, ва̄мӯв]
-    ва̄ӈкве+V+PrfPrc+PxPl2: [ва̄мын, ва̄ммы̄н]
-    ва̄ӈкве+V+PrfPrc+PxPl3: ва̄мыт
+    ва̄ӈкве+V+PrfPrc+ScSg1: ва̄мум
+    ва̄ӈкве+V+PrfPrc+ScSg2: ва̄мын
+    ва̄ӈкве+V+PrfPrc+ScSg3: ва̄ме
+    ва̄ӈкве+V+PrfPrc+ScDu1: ва̄маме̄н
+    ва̄ӈкве+V+PrfPrc+ScDu2: [ва̄мын, ва̄мы̄н]
+    ва̄ӈкве+V+PrfPrc+ScDu3: ва̄мыг
+    ва̄ӈкве+V+PrfPrc+ScPl1: [ва̄мув, ва̄мӯв]
+    ва̄ӈкве+V+PrfPrc+ScPl2: [ва̄мын, ва̄ммы̄н]
+    ва̄ӈкве+V+PrfPrc+ScPl3: ва̄мыт
 
 #Past participle, single object
-    ва̄ӈкве+V+PrfPrc+PxSg1: ва̄млум
-    ва̄ӈкве+V+PrfPrc+PxSg2: ва̄млын
-    ва̄ӈкве+V+PrfPrc+PxSg3: ва̄мтэ
-    ва̄ӈкве+V+PrfPrc+PxDu1: ва̄мламе̄н
-    ва̄ӈкве+V+PrfPrc+PxDu2: ва̄млы̄н
-    ва̄ӈкве+V+PrfPrc+PxDu3: ва̄мтэ̄н
-    ва̄ӈкве+V+PrfPrc+PxPl1: [ва̄млув, ва̄млӯв]
-    ва̄ӈкве+V+PrfPrc+PxPl2: вамлы̄н
-    ва̄ӈкве+V+PrfPrc+PxPl3: ва̄маныл
+    ва̄ӈкве+V+PrfPrc+ScSg1+OcSg: ва̄млум
+    ва̄ӈкве+V+PrfPrc+ScSg2+OcSg: ва̄млын
+    ва̄ӈкве+V+PrfPrc+ScSg3+OcSg: ва̄мтэ
+    ва̄ӈкве+V+PrfPrc+ScDu1+OcSg: ва̄мламе̄н
+    ва̄ӈкве+V+PrfPrc+ScDu2+OcSg: ва̄млы̄н
+    ва̄ӈкве+V+PrfPrc+ScDu3+OcSg: ва̄мтэ̄н
+    ва̄ӈкве+V+PrfPrc+ScPl1+OcSg: [ва̄млув, ва̄млӯв]
+    ва̄ӈкве+V+PrfPrc+ScPl2+OcSg: вамлы̄н
+    ва̄ӈкве+V+PrfPrc+ScPl3+OcSg: ва̄маныл
 
 #Past participle, dual object
-    ва̄ӈкве+V+PrfPrc+PxSg1: ва̄магум
-    ва̄ӈкве+V+PrfPrc+PxSg2: ва̄магын
-    ва̄ӈкве+V+PrfPrc+PxSg3: ва̄маге
-    ва̄ӈкве+V+PrfPrc+PxDu1: [ва̄магаме̄н, ва̄магагме̄н]
-    ва̄ӈкве+V+PrfPrc+PxDu2: [ва̄магы̄н, ва̄магагы̄н]
-    ва̄ӈкве+V+PrfPrc+PxDu3: [ва̄магы̄г, ва̄магагы̄г]
-    ва̄ӈкве+V+PrfPrc+PxPl1: [ва̄магув, ва̄мвгӯв]
-    ва̄ӈкве+V+PrfPrc+PxPl2: [ва̄магы̄н, ва̄магагы̄н]
-    ва̄ӈкве+V+PrfPrc+PxPl3: [ва̄магагыл, ва̄магаганыл]
+    ва̄ӈкве+V+PrfPrc+ScSg1+OcDu: ва̄магум
+    ва̄ӈкве+V+PrfPrc+ScSg2+OcDu: ва̄магын
+    ва̄ӈкве+V+PrfPrc+ScSg3+OcDu: ва̄маге
+    ва̄ӈкве+V+PrfPrc+ScDu1+OcDu: [ва̄магаме̄н, ва̄магагме̄н]
+    ва̄ӈкве+V+PrfPrc+ScDu2+OcDu: [ва̄магы̄н, ва̄магагы̄н]
+    ва̄ӈкве+V+PrfPrc+ScDu3+OcDu: [ва̄магы̄г, ва̄магагы̄г]
+    ва̄ӈкве+V+PrfPrc+ScPl1+OcDu: [ва̄магув, ва̄мвгӯв]
+    ва̄ӈкве+V+PrfPrc+ScPl2+OcDu: [ва̄магы̄н, ва̄магагы̄н]
+    ва̄ӈкве+V+PrfPrc+ScPl3+OcDu: [ва̄магагыл, ва̄магаганыл]
 
 #Past participle, plural object
-    ва̄ӈкве+V+PrfPrc+PxSg1: [ва̄манум, ва̄мананум]
-    ва̄ӈкве+V+PrfPrc+PxSg2: [ва̄ман, ва̄ма̄нын]
-    ва̄ӈкве+V+PrfPrc+PxSg3: [ва̄ма̄нэ, ва̄мана̄нэ]
-    ва̄ӈкве+V+PrfPrc+PxDu1: [ва̄манаме̄н, ва̄мананме̄н]
-    ва̄ӈкве+V+PrfPrc+PxDu2: [ва̄манн, ва̄маны̄н, ва̄мананы̄н]
-    ва̄ӈкве+V+PrfPrc+PxDu3: [ва̄манэ̄н, ва̄мананэ̄н]
-    ва̄ӈкве+V+PrfPrc+PxPl1: [ва̄манув, ва̄манӯв, ва̄мананув, ва̄мананӯв]
-    ва̄ӈкве+V+PrfPrc+PxPl2: [ва̄маны̄н, ва̄мананы̄н]
-    ва̄ӈкве+V+PrfPrc+PxPl3: [ва̄ма̄ныл, ва̄мана̄ныл]
+    ва̄ӈкве+V+PrfPrc+ScSg1+OcPl: [ва̄манум, ва̄мананум]
+    ва̄ӈкве+V+PrfPrc+ScSg2+OcPl: [ва̄ман, ва̄ма̄нын]
+    ва̄ӈкве+V+PrfPrc+ScSg3+OcPl: [ва̄ма̄нэ, ва̄мана̄нэ]
+    ва̄ӈкве+V+PrfPrc+ScDu1+OcPl: [ва̄манаме̄н, ва̄мананме̄н]
+    ва̄ӈкве+V+PrfPrc+ScDu2+OcPl: [ва̄манн, ва̄маны̄н, ва̄мананы̄н]
+    ва̄ӈкве+V+PrfPrc+ScDu3+OcPl: [ва̄манэ̄н, ва̄мананэ̄н]
+    ва̄ӈкве+V+PrfPrc+ScPl1+OcPl: [ва̄манув, ва̄манӯв, ва̄мананув, ва̄мананӯв]
+    ва̄ӈкве+V+PrfPrc+ScPl2+OcPl: [ва̄маны̄н, ва̄мананы̄н]
+    ва̄ӈкве+V+PrfPrc+ScPl3+OcPl: [ва̄ма̄ныл, ва̄мана̄ныл]
 
 #Gerund
-    ва̄ӈкве+V+Ger: ва̄им
+    ва̄ӈкве+V+Ger+OcPl: ва̄им
     ва̄ӈкве+V+Ger+PxSg1: ва̄имам
     ва̄ӈкве+V+Ger+PxSg2: ва̄иман
     ва̄ӈкве+V+Ger+PxSg3: [ва̄има, ва̄иматэ]
