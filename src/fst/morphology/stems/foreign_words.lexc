@@ -1,7 +1,27 @@
 
 LEXICON foreign_words
+unknown+A+OLang/ENG+Sg+Nom:unknown # ;
+день+N+OLang/RUS+Sg+Nom:день # ;
+жизнь+N+OLang/RUS+Sg+Gen:жизни # ;
+за+Pr:за # ;
+коренный+A+OLang/RUS+Pl+Gen:коренных # ;
+культура+N+OLang/RUS+Sg+Gen:культуры # ;
+культура+N+OLang/RUS+Pl+Nom:культуры # ;
+май+N+OLang/RUS+Sg+Nom:май # ;
+малочисленный+A+OLang/RUS+Pl+Gen:малочисленных # ;
 межэтнический+A+OLang/RUS+Pl+Gen:межэтнических # ;
+на+Pr:на # ;
+народ+N+OLang/RUS+Pl+Gen:народов # ;
 некоммерческий+A+OLang/RUS+Pl+Gen:некоммерческих # ;
+новость+N+OLang/RUS+Pl+Nom:новости # ;
 обский+A+OLang/RUS+Pl+Gen:обских # ;
 обско-угорский+A+OLang/RUS+Pl+Gen:обско-угорских # ;
+по+Pr:по # ;
+развитие+N+OLang/RUS+Sg+Nom:развитие # ;
+Россия+N+Prop+OLang/RUS+Sg+Gen:России # ;
+север+N+OLang/RUS+Sg+Gen:севера # ;
+сохранить+V+Inf:сохранить # ;
+спасти+V+Inf:спасти # ;
+труд+N+OLang/RUS+Sg+Gen:труда # ;
 финно-угорский+A+OLang/RUS+Pl+Gen:финно-угорских # ;
+человек+N+OLang/RUS+Sg+Gen:человека # ;
