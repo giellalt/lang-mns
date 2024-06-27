@@ -1,0 +1,194 @@
+List of postpositions based on Kálmán 1976, Riese 2001 and Ромбандеева 2017.
+Paradigms of postposition+Px constructions based on corpus data.
+The -па̄л paradigm stands for all the compund forms ending in па̄л, written with or without a hyphen.
+There may be further postpositions taking Pxs that were not to be found in the corpus.
+
+хал
+
+хал+Po+PxDu1+Lat: халме̄нн
+хал+Po+PxDu1+Loc: халме̄нт
+хал+Po+PxDu1+Abl: халме̄нныл
+
+хал+Po+PxDu2+Lat: халынн
+хал+Po+PxDu2+Loc: халынт
+хал+Po+PxDu2+Abl: халынныл
+
+хал+Po+PxDu2+Lat: халэ̄нн
+хал+Po+PxDu2+Loc: халэ̄нт
+хал+Po+PxDu2+Abl: халэ̄нныл
+
+хал+Po+PxPl1+Lat: халувн
+хал+Po+PxPl1+Loc: халувт
+хал+Po+PxPl1+Abl: халувныл
+
+хал+Po+PxPl2+Lat: халынн
+хал+Po+PxPl2+Loc: халынт
+хал+Po+PxPl2+Abl: халынныл
+
+хал+Po+PxPl3+Lat: халанылн
+хал+Po+PxPl3+Loc: халанылт
+хал+Po+PxPl3+Abl: халанылныл
+
+ляпа
+
+ляпа+Po+PxSg1+Lat: ляпамн
+ляпа+Po+PxSg1+Loc: ляпамт
+ляпа+Po+PxSg1+Abl: ляпамныл
+
+ляпа+Po+PxSg2+Lat: ляпан
+ляпа+Po+PxSg2+Loc: ляпа
+ляпа+Po+PxSg2+Abl: ляпа
+
+ляпа+Po+PxSg3+Lat: ляпатэ̄н
+ляпа+Po+PxSg3+Loc: ляпатэ̄т
+ляпа+Po+PxSg3+Abl: ляпатэ̄нныл
+
+ляпа+Po+PxDu1+Lat: ляпаме̄нн
+ляпа+Po+PxDu1+Loc: ляпаме̄нт
+ляпа+Po+PxDu1+Abl: ляпаме̄нныл
+
+ляпа+Po+PxDu2+Lat: ляпа
+ляпа+Po+PxDu2+Loc: ляпа
+ляпа+Po+PxDu2+Abl: ляпа
+
+ляпа+Po+PxDu3+Lat: ляпатэ̄нн
+ляпа+Po+PxDu3+Loc: ляпатэ̄нт
+ляпа+Po+PxDu3+Abl: ляпатэ̄нныл
+
+ляпа+Po+PxPl1+Lat: ляпавн
+ляпа+Po+PxPl1+Loc: ляпавт
+ляпа+Po+PxPl1+Abl: ляпавныл
+
+ляпа+Po+PxPl2+Lat: ляпа
+ляпа+Po+PxPl2+Loc: ляпа
+ляпа+Po+PxPl2+Abl: ляпа
+
+ляпа+Po+PxPl3+Lat: ляпанылн
+ляпа+Po+PxPl3+Loc: ляпанылт
+ляпа+Po+PxPl3+Abl: ляпанылныл
+
+по̄х
+
+по̄х+Po+PxSg1+Lat: [по̄хумн, по̄хамн]
+по̄х+Po+PxSg1+Loc: [по̄хумт, по̄хами]
+по̄х+Po+PxSg1+Abl: [по̄хумныл, по̄хамныл]
+
+по̄х+Po+PxSg2+Lat: по̄х
+по̄х+Po+PxSg2+Loc: по̄х
+по̄х+Po+PxSg2+Abl: по̄х
+
+по̄х+Po+PxSg3+Lat: по̄хе̄н
+по̄х+Po+PxSg3+Loc: по̄хе̄т
+по̄х+Po+PxSg3+Abl: по̄хе̄ныл
+
+по̄х+Po+PxDu1+Lat: по̄хме̄нн
+по̄х+Po+PxDu1+Loc: по̄хме̄нт
+по̄х+Po+PxDu1+Abl: по̄хме̄нныл
+
+по̄х+Po+PxDu2+Lat: по̄х
+по̄х+Po+PxDu2+Loc: по̄х
+по̄х+Po+PxDu2+Abl: по̄х
+
+по̄х+Po+PxDu3+Lat: по̄хе̄нн
+по̄х+Po+PxDu3+Loc: по̄хе̄нт
+по̄х+Po+PxDu3+Abl: по̄хе̄нныл
+
+по̄х+Po+PxPl1+Lat: [по̄хувн, по̄хавн]
+по̄х+Po+PxPl1+Loc: [по̄хувт, по̄хавт]
+по̄х+Po+PxPl1+Abl: [по̄хув, по̄хавныл]
+
+по̄х+Po+PxPl2+Lat: по̄х
+по̄х+Po+PxPl2+Loc: по̄х
+по̄х+Po+PxPl2+Abl: по̄х
+
+по̄х+Po+PxPl3+Lat: по̄ханылн
+по̄х+Po+PxPl3+Loc: по̄ханылт
+по̄х+Po+PxPl3+Abl: по̄ханылныл
+
+
+-па̄л
+
+юи-па̄л+Po+PxSg1+Lat: юи-#па̄лум
+юи-па̄л+Po+PxSg1+Loc: юи-#па̄лумт
+юи-па̄л+Po+PxSg1+Abl: юи-#па̄лумныл
+
+юи-па̄л+Po+PxSg2+Lat: юи-#па̄лынн
+юи-па̄л+Po+PxSg2+Loc: юи-#па̄лынт
+юи-па̄л+Po+PxSg2+Abl: юи-#па̄лынныл
+
+юи-па̄л+Po+PxSg3+Lat: юи-#па̄лэ̄н
+юи-па̄л+Po+PxSg3+Loc: юи-#па̄лэ̄т
+юи-па̄л+Po+PxSg3+Abl: юи-#па̄лэ̄ныл
+
+юи-па̄л+Po+PxDu1+Lat: юи-#па̄лме̄нн
+юи-па̄л+Po+PxDu1+Loc: юи-#па̄лме̄нт
+юи-па̄л+Po+PxDu1+Abl: юи-#па̄лме̄нныл
+
+юи-па̄л+Po+PxDu2+Lat: юи-#па̄лынн
+юи-па̄л+Po+PxDu2+Loc: юи-#па̄лынт
+юи-па̄л+Po+PxDu2+Abl: юи-#па̄лныл
+
+юи-па̄л+Po+PxDu3+Lat: юи-#па̄лэ̄нн
+юи-па̄л+Po+PxDu3+Loc: юи-#па̄лэ̄нт
+юи-па̄л+Po+PxDu3+Abl: юи-#па̄лэ̄нныл
+
+юи-па̄л+Po+PxPl1+Lat: юи-#па̄лувн
+юи-па̄л+Po+PxPl1+Loc: юи-#па̄лувт
+юи-па̄л+Po+PxPl1+Abl: юи-#па̄лувныл
+
+юи-па̄л+Po+PxPl2+Lat: юи-#па̄лынн
+юи-па̄л+Po+PxPl2+Loc: юи-#па̄лынт
+юи-па̄л+Po+PxPl2+Abl: юи-#па̄лынныл
+
+юи-па̄л+Po+PxPl3+Lat: юи-#па̄ланылн
+юи-па̄л+Po+PxPl3+Loc: юи-#па̄ланылт
+юи-па̄л+Po+PxPl3+Abl: юи-#па̄ланылныл
+
+ёт
+
+ёт+Po+PxSg1: ётум
+ёт+Po+PxSg2: ётын
+ёт+Po+PxSg3: ётэ
+ёт+Po+PxDu1: ётуме̄н
+ёт+Po+PxDu2: ётын
+ёт+Po+PxDu3: ётэ̄н
+ёт+Po+PxPl1: ётув
+ёт+Po+PxPl2: ётын
+ёт+Po+PxPl3: ётаныл
+
+палт
+
+палт+Po+PxSg1: палтум
+палт+Po+PxSg2: палтын
+палт+Po+PxSg3: палттэ
+палт+Po+PxDu1: палтме̄н
+палт+Po+PxDu2: палтын
+палт+Po+PxDu3: палттэ̄н
+палт+Po+PxPl1: палтув
+палт+Po+PxPl2: палтын
+палт+Po+PxPl3: палтаныл
+
+
+нупыл
+
+нупыл+Po+PxSg1: [нуплум, нупылум]
+нупыл+Po+PxSg2: [нуплын, нупылын]
+нупыл+Po+PxSg3: [нуплэ, нупылэ]
+нупыл+Po+PxDu1: [нуплуме̄н, нупыламе̄н]
+нупыл+Po+PxDu2: [нуплын, нупылын]
+нупыл+Po+PxDu3: [нупылэ̄н, нупыланэ̄н]
+нупыл+Po+PxPl1: [нуплув, нупылув]
+нупыл+Po+PxPl2: [нуплын, нупылын]
+нупыл+Po+PxPl3: [нупланыл, нупыланыл]
+
+ляльт
+
+ляльт+Po+PxSg1: ляльтум
+ляльт+Po+PxSg2: ляльтын
+ляльт+Po+PxSg3: ляльтэ
+ляльт+Po+PxDu1: ляльтме̄н
+ляльт+Po+PxDu2: ляльтын
+ляльт+Po+PxDu3: ляльтэ̄н
+ляльт+Po+PxPl1: ляльтув
+ляльт+Po+PxPl2: ляльтын
+ляльт+Po+PxPl3: ляльтаныл
