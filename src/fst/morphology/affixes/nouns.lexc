@@ -892,7 +892,8 @@ LEXICON SG_X_PXSG3_tee
 LEXICON SG_ABL_PXSG3_tee
 :%>%{тØ%}%{ЭЕLong%}ныл SG_ABL_PXSG3_K ;
 LEXICON SG_INS_PXSG3_tee
-:%>%{тØ%}%{ЭЕLong%}нтыл SG_INS_PXSG3_K ;
+:%>%{тØ%}%{ЭЕLong%}нтыл SG_INS_PXSG3_K ;! was 2024-06-27 ...нтыл
+:%>%{тØ%}%{ЭЕLong%}тыл SG_INS_PXSG3_K ;! introduce 2024-06-27 ...нтыл vs ...тыл mainly plural?
 LEXICON SG_LAT_PXSG3_tee
 :%>%{тØ%}%{ЭЕLong%}н SG_LAT_PXSG3_K ;
 LEXICON SG_LOC_PXSG3_tee
