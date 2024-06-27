@@ -256,7 +256,9 @@ __%{уюØ%}:0__ deletes а/я after VO vowel stems
 __%{уюØ%}:у__
 ща̄рыщ+N+Sg+Nom+PxSg1: __sea/meri__
 * *ща̄рыщ{SYNCS}>{уюØ}м*
-* *ща̄р0щ0>юм*
+* *ща̄р0щ0>ум*
+* ★*ща̄рыщ{SYNCS}>{уюØ}м* (is not standard language)
+* ★*ща̄р0щ0>юм* (is not standard language)
 а̄щ+N+Sg+Nom+PxSg1: __father/isä__
 * *а̄щ{VCS}>{уюØ}м*
 * *а̄щ0>ум*
