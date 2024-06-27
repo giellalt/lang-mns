@@ -4,7 +4,7 @@
  145 намаим	should be analysed as намаяӈкве+V+Ger TBS>S
  129 матыра̄ти	typo as матыр-а̄ти 
  125 млн	added to abbreviations S
- 117 ханищтахтан	should be analysed as ханищтахтуӈкве+V+PrsPrc TBS
+ 117 ханищтахтан	should be analysed as ханищтахтуӈкве+V+PrsPrc TBS>S
  116 ла̄вме	should be analysed as ла̄вуӈкве+V+PrfPrc+PxSg3 S
  107 а̄стламе	а̄стлаӈкве+V+PrfPrc+PxSg3 S
  100 а̄гирищитпыгрищит	typo а̄гирищит-пыгрищит
@@ -213,7 +213,7 @@
   19 Югре	added to foreign
   19 Сакв	added to proper nouns
   18 суссылтыянӯв	should be analysed as суссылтаӈкве+V+Act+Ind+Prs+ScPl1+OcPl
-  18 хӯрмиттыг	хӯрмит+Adj+Trs !ordinal number + ыг, but for some reason the т becomes doubled
+  18 хӯрмиттыг	хӯрмит+Adj+Tra !ordinal number + ыг, but for some reason the т becomes doubled
   18 На̄янэ̄н-О̄тыранэ̄н	На̄й+N+Pl+Lat+PxSg3-О̄тыр+N+Pl+Lat+PxSg3
   18 нё̄влил	нё̄выль+N+Ins
   18 Победы	added to foreign
@@ -272,28 +272,28 @@
   15 А̄гмыӈмосыӈ	typo S
   15 ма̄ло̄мтыл	typos S
   15 ипотекаолн	typo S
-  15 ёмаснувег	 ёмас+Adj+Comp+Trs TBS
+  15 ёмаснувег	 ёмас+Adj+Comp+Tra TBS>S
   15 ще̄мьятын	ще̄мья+N+Pl+Lat TBS>S
   15 промыслов	foreign S
   15 Финноугор	typo S
-  15 нупланыл	нупыл+Postp+PxPl3 TBS
+  15 нупланыл	нупыл+Po+PxPl3 TBS>S
   15 ло̄ӈхаль	postposition S
   15 кӯстырыг	adv S
-  15 грамотал	грамота+N+Sg+Ins TBS
+  15 грамотал	грамота+N+Sg+Ins TBS>S
   15 хосытыл	хосыт+N+Sg+Ins S
-  15 ёхтуме	ёхтуӈкве+V+PrfPrc+PxSg3 TBS
-  15 э̄ргим	э̄ргуӈкве+V+Ger TBS
+  15 ёхтуме	ёхтуӈкве+V+PrfPrc+PxSg3 TBS>S
+  15 э̄ргим	э̄ргуӈкве+V+Ger TBS>S
   15 таяныт	Pron S 
   15 ня̄ра	Noun S
-  15 нуплэ	нупыл+Postp+PxSg3 TBS
+  15 нуплэ	нупыл+Po+Ins+PxSg3 TBS>S
   15 квота	Noun S
-  15 Ща̄не	Ща̄нь+N+PxSg3 TBS
+  15 Ща̄не	ща̄нь+N+Sg+Nom+PxSg3 TBS>S
   15 день	Russian
   14 научнопрактический	typo S
   14 предпринимателит	Noun S
   14 финноугорских	typo S
   14 Омагума̄тягум	Омагума̄тягум
-  14 э̄руптыянум	э̄руптаӈкве+V+Act+Ind+Prs+ScSg1+OcPl TBS
+  14 э̄руптыянум	э̄руптаӈкве+V+Act+Ind+Prs+ScSg1+OcPl TBS>S
   14 уральтыянӯв	should be analysed as уральтаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS>S
   14 са̄лыӈколыӈ	A S
   14 пыгрищакве	пыгрищ+N+Dim TBS (technically it's пыг+N+Dim+Dim)
@@ -303,7 +303,7 @@
   14 та̄рвитаӈ	A S
   14 страховой	A S
   14 передачат	N S
-  14 о̄щнэ̄ныл	о̄ньщуӈкве+V+PrsPrc+PxPl3 TBS
+  14 о̄щнэ̄ныл	о̄ньщуӈкве+V+PrsPrc+PxPl3 TBS>S
   14 нэ̄тхумит	typo S
   14 о̄лманыл	о̄луӈкве+V+PrfPrc+PxPl3 TBS>S
   14 народных	Russian
@@ -311,13 +311,13 @@
   14 Развитие	Russian
   14 участок	N S
   14 клубкол	typo
-  14 архивыт	архив+N+Pl TBS
+  14 архивыт	архив+N+Pl+Nom TBS>S
   14 уколыл	укол+N+Ins
   14 ойттур	typo
   14 обских	Russian
   14 Единая	Russian
   14 Ӯскве	Ӯс+N+Dim
-  14 ёнгим	ёнгуӈкве+V+Ger TBS
+  14 ёнгим	ёнгуӈкве+V+Ger TBS>S
   14 сампа	A S
   14 немец	N S
   14 мӯтра	N S
@@ -325,44 +325,44 @@
   14 Ускве typo
   14 Кубок	Russian
   14 Карым	Proper noun S
-  14 ялме	ялуӈкве+V+PrfPrc+PxSg3 TBS
+  14 ялме	ялуӈкве+V+PrfPrc+PxSg3 TBS>S
   14 пӯрщ	N S
   14 кот	N S
   14 www	TBS
   13 щё̄питыянӯв	should be analysed as щё̄питаӈкве+V+Act+Ind+Prs+ScPl1+OcPl TBS>S
-  13 Ханищтахтан ханищтахтуӈкве+V+PrsPrc TBS
+  13 Ханищтахтан ханищтахтуӈкве+V+PrsPrc TBS>S
   13 олимпиадат N S
-  13 янытлыянэ янытлаӈкве+V+Act+Ind+Prs+ScSg3+OcPl TBS
-  13 семинарыт	семинар+N+Pl TBS
+  13 янытлыянэ янытлаӈкве+V+Act+Ind+Prs+ScSg3+OcPl TBS>S
+  13 семинарыт	семинар+N+Pl TBS>S
   13 потырохса	typo S
   13 квартираӈ	A S
   13 ва̄тахтем	ва̄тахкем
   13 Нярихумит	proper noun S
   13 Кимкьясуй	typo or Russian
   13 сусте̄мт	to be cleared
-  13 ва̄рмале	ва̄рмаль+N+Sg+Nom+PxSg3 TBS
-  13 палытыг	палыт+N+Tr TBS
+  13 ва̄рмале	ва̄рмаль+N+Sg+Nom+PxSg3 TBS>S
+  13 палытыг	палыт+N+Sg+Tra TBS>S
   13 ёлыпал	typo S
   13 юипалт	typo S
   13 спорта	Russian
-  13 ня̄рат	ня̄р+N+Loc TBS
-  13 О̄лме	О̄луӈкве+V+PrfPrc+PxSg3 TBS
+  13 ня̄рат	ня̄р+N+Sg+Loc TBS>S
+  13 О̄лме	О̄луӈкве+V+PrfPrc+PxSg3 TBS>S
   13 тыла	Russian
   13 годы	Russian
   12 Ща̄нягума̄щагум	typo
   12 намхо̄талэ̄тыл	намхо̄тал+N+Sg+Ins+PxSg3 TBS
   12 этностойбищат	N S
-  12 ёхталанэ̄ныл	ёхталаӈкве+V+PrsPrc+PxPl3 TBS
+  12 ёхталанэ̄ныл	ёхталаӈкве+V+PrsPrc+PxPl3 TBS>S
   12 та̄нкина̄ныл	тав+Pron+Pers+Sg3+Acc TBS reflexive pronouns in Other personal pronouns file
   12 а̄гитнпыгытн	typo S
-  12 юипа̄ланылт	typo S па̄л+Px paradigm TBS, I'll make the paradigm
+  12 юипа̄ланылт	typo S па̄л+Px paradigm TBS, I'll make the paradigm 
   12 намыӈсуиӈыг	typo S
   12 Русскинской	proper noun S
-  12 Ма̄хумаквет	Ма̄хум+Dim+Pl
+  12 Ма̄хумаквет	Ма̄хум+N+Dim+Pl
   12 этнография	N S
   12 э̄руптылӯв	э̄руптаӈкве+V+Act+Ind+Prs+ScPl1+OcSg
   12 щаквщуӈкве	V S
-  12 манхурипаг	манхурип+Pron+Tr
+  12 манхурипаг	манхурип+Pron+Sg+Tra
   12 агентстват	N S
   12 хотвуйвес	хот-виӈкве+V+Pass+Ind+Prt+ScSg3 вуйвес in corpus войвес is grammars
   12 ловманкем	to be discovered
