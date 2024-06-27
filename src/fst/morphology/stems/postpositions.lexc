@@ -50,6 +50,7 @@ LEXICON Postpositions
 
 нумн+Po:нумн PO_LAT "вверх, наверх" ;
 нупыл+Po:нупыл PO_INS_OR_INS_PX_SYNCH ;
+нупыл+Po:нупыл PO_INS_OR_INS_PX ;
 нумныл+Po:нумныл PO_ABL "сверху" ;
 
 котильн+Po:котильн PO_LAT "на верхности" ;
