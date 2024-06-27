@@ -370,7 +370,7 @@
   12 ва̄рмалил	ва̄рмаль+N+Instr
   12 а̄гипыгыт	N S
   12 ёхтуме̄т	ёхтуӈкве+V+PrfPrc+PxSg3+Loc
-  12 щулкиныт	щулкин+N+Pl TBS
+  12 щулкиныт	щулкин+N+Pl+Nom TBS>S
   12 фашистыт	N S
   12 трудовой	A S
   12 передача	N S
@@ -384,11 +384,11 @@
   12 са̄тпан	Num S
   12 ойтта̄л	A S
   12 о̄лмувт	о̄луӈкве+V+PrfPrc+PxPl1+Loc
-  12 лю̄льнэ	лю̄люӈкве+V+PrsPrc TBS
+  12 лю̄льнэ	лю̄люӈкве+V+PrsPrc TBS>S
   12 района	Russian
   12 округа	Russian
   12 ка̄нащ	N S
-  12 ва̄рме	ва̄руӈкве+V+PrfPrc+PxSg3	TBS
+  12 ва̄рме	ва̄руӈкве+V+PrfPrc+PxSg3	TBS>S
   12 ва̄псэ	N S
   12 атыпыл	to be discovered
   12 Альянс	Russian
