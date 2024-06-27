@@ -135,7 +135,7 @@ Rules
 
 "Syncope for ы"
 !! **RULE: @RULENAME@**  
- ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы: [т|н|г|л|ӈ]|ы̄:|а|%{аяØ%}:|%{уюØ%}:|(%{тØ%}:) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
+ ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы: [т|н|г|л|ӈ]|ы̄:|а|э|%{аяØ%}:|%{уюØ%}:|(%{тØ%}:) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
   %{VA%}: %> %{аяØ%}: %> _ ;
   [%{VI%}:]  %> _ [т|л] ; !Plural
   ы [%{VI%}:]  %> _ [н] ; ! PxSg2
@@ -244,7 +244,8 @@ Rules
      [%{SYNCH%}:] %> _ [т|л|я] ;
      [%{NOSYNCH%}:] %> _ [л|я] ;
      [%{VCH%}:|%{VCCH%}:] %> _ [т|н|л|я] ;
-     [CnsAlv: | CnsNonAlv] [%{VU%}:|%{VA%}:] %> _ (%>) [м|н] ;
+     [CnsAlv: | CnsNonAlv] [%{VU%}:|%{VA%}:] %> _ (%>) н ;
+     [CnsAlv: | CnsNonAlv - [г|к|ж|ч|ш|б|ф|х]] [%{VU%}:|%{VA%}:] %> _ (%>) м ;
 !     [CnsAlv: ] [%{VU%}:|%{VA%}:] %> _ (%>) [м|н] ;
 !! павыл+N+Sg+Loc:
 !!€ павыл{SYNCH}>{ыиØ}т
@@ -258,7 +259,8 @@ Rules
 %{ыиØ%}:и <=>
      [%{SYNCS%}:|%{NOSYNCS%}:] %> _ [л|я] ;
      [%{VCCS%}:|%{VCS%}:] %> _ [т|н|л|я] ;
-     [CnsSoft  | р | Р | й: | Й:] [%{VU%}:|%{VA%}:] %> _ %> [м|н] ;
+     [CnsSoft  | р | Р | й: | Й:] [%{VU%}:|%{VA%}:] %> _ %> н ;
+     [CnsSoft | г |к|ж|ч|ш|б|ф|х| р | Р | й: | Й:] [%{VU%}:|%{VA%}:] %> _ %> м ;
 !     [CnsSoft | CnsNonAlv | р | Р | й: | Й:] %{VU%}: %> _ [м|н] ;
 !!ансамбль+N+Sg+Loc: **band/yhtye**
 !!€ ансамбль{VCCS}>{ыиØ}т
@@ -393,20 +395,22 @@ Rules
 
 "%{уюØ%}:у"
 !! __@RULENAME@__
- %{уюØ%}:у <=> [%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: | [CnsSoft | CnsAlv| CnsNonAlv | р] %{VU%}: ]  %> _  \[%^RmVow:] ;
+ %{уюØ%}:у <=> [CnsSoft %{SYNCS%}:|%{SYNCH%}: | %{NOSYNCH%}: | %{VCH%}: | %{VCCH%}: | [CnsSoft | CnsAlv| CnsNonAlv | р] %{VU%}: ]  %> _  \[%^RmVow:] ;
     CnsSoft [%{VCS%}:] %> _ \[%^RmVow:] ;
     [ы:0|ы] щ %{SYNCS%}: %> _  Cns ; 
 ! Cns %> _  ;
 !! ща̄рыщ+N+Sg+Nom+PxSg1: __sea/meri__
 !!€ ща̄рыщ{SYNCS}>{уюØ}м
-!!€ ща̄р0щ0>юм
+!!€ ща̄р0щ0>ум
+!!$ ща̄рыщ{SYNCS}>{уюØ}м
+!!$ ща̄р0щ0>юм
 !! а̄щ+N+Sg+Nom+PxSg1: __father/isä__
 !!€ а̄щ{VCS}>{уюØ}м
 !!€ а̄щ0>ум
 
 "%{уюØ%}:ю"
 !! __@RULENAME@__
-  %{уюØ%}:ю <=> [ %{VCCS%}:|%{VCS%}:|%{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  \[%^RmVow:] ;
+  %{уюØ%}:ю <=> [CnsAlv %{VCCS%}:|CnsAlv %{VCS%}:|CnsAlv %{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  \[%^RmVow:] ;
                                    %{VI%}:  %> _  в ;
                        CnsAlv ь: %{SYNCS%}: %> _ Cns ; 
   ! [ и | ы | ь: ] %> _  ;
