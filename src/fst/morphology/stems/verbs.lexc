@@ -2707,23 +2707,13 @@ LEXICON Verbs
 !Added UBA (meaning "U in the infinitive, but A in the paradigm") tag to the meaning of verbs. I didn't dare to write it in the description, but ideally it would be V_UBA
 
 !If these are correct, they should be listed among prefixing verbs.
-!@U.VPref.noox@но̄х-тагталаӈкве+V:@U.VPref.noox@тагтал V_Y/U "23_even_" ;
-!@U.VPref.noox@но̄х-во̄раталуӈкве+V:@U.VPref.noox@во̄ратал V_Y/U "13_odd_ " ;
-!@U.VPref.xot@хот-халалтаӈкве+V:@U.VPref.xot@халалт V_A "23_even_" ;
-!@U.VPref.xot@хот-ойматаӈкве+V:@U.VPref.xot@оймат V_A "23_even_" ;
-!@U.VPref.akwan@акван-хо̄нтыглахтуӈкве+V:@U.VPref.akwan@хо̄нтыглахт V_U "13_odd_" ;
-!@U.VPref.akwan@акван-хуйигпа̄луӈкве+V:@U.VPref.akwan@хуйигпа̄л V_U "13_odd_" ;
-!@U.VPref.akwan@акван-атыгла̄хтуӈкве+V:@U.VPref.akwan@атыгла̄хт V_U "13_odd_" ;
-!@U.VPref.akwan@акван-нё̄тхатуӈкве+V:@U.VPref.akwan@нё̄тхат V_U "13_even_" ;
-!@U.VPref.akwan@акван-хоилтаӈкве+V:@U.VPref.akwan@хоилт V_U "13_even_" ;
 
-!@U.VPref.paalyg@па̄лыг-вуйлуӈкве+V:@U.VPref.paalyg@вуйл V_U ; this would be a new prefix
-!@U.VPref.paalyg@па̄лыг-покматаӈкве+V:@U.VPref.paalyg@покмат V_A ;
-!@U.VPref.paalyg@па̄лыг-пӯсуӈкве+V:@U.VPref.paalyg@пӯс V_U ;
-!@U.VPref.paalyg@па̄лыг-рагатаӈкве+V:@U.VPref.paalyg@рагат V_A ;
+!@U.VPref.akwan@акван-нё̄тхатуӈкве+V:@U.VPref.akwan@нё̄тхат V_U "13_even_" ; THIS one has an existing V_UBA version
+!
 
-!@U.VPref.noox@но̄х-ялтуптаӈкве+V:@U.VPref.noox@ялтупт V_A "23_even_" ;
-!@U.VPref.xot@хот-манумтаӈкве+V:@U.VPref.xot@манумт V_A "23_even_" ;
+
+
+
 
 
 
@@ -2741,7 +2731,8 @@ LEXICON Prefixing_verbs
 @U.VPref.akwan@акван-атхатыглаӈкве+V:@U.VPref.akwan@атхатыгл V_A "собраться" ;
 @U.VPref.akwan@акван-атхыглаӈкве+V:@U.VPref.akwan@атхыгл V_A ;
 @U.VPref.akwan@акван-атыгла̄луӈкве+V:@U.VPref.akwan@атыгла̄л V_U "13_odd_собирать" ;
-@U.VPref.akwan@акван-атыглаӈкве+V:@U.VPref.akwan@атыгла V_A "GLOSSME" ;
+@U.VPref.akwan@акван-атыглаӈкве+V:@U.VPref.akwan@атыгл V_A "GLOSSME" ;
+@U.VPref.akwan@акван-атыгла̄хтуӈкве+V:@U.VPref.akwan@атыгла̄хт V_U "13_odd_" ;
 @U.VPref.akwan@акван-ва̄нтлуптаӈкве+V:@U.VPref.akwan@ва̄нтлупт V_A ;
 @U.VPref.akwan@акван-во̄выглаӈкве+V:@U.VPref.akwan@во̄выгл V_A ;
 @U.VPref.akwan@акван-ёхталаӈкве+V:@U.VPref.akwan@ёхтал V_A ;
@@ -2794,9 +2785,12 @@ LEXICON Prefixing_verbs
 @U.VPref.akwan@акван-ханлаӈкве+V:@U.VPref.akwan@ханл V_A "23_even_склеить" ;
 @U.VPref.akwan@акван-хансуӈкве+V:@U.VPref.akwan@ханс V_NSHU "GLOSSME" ;
 @U.VPref.akwan@акван-хасхатаӈкве+V:@U.VPref.akwan@хасхат V_A ;
+@U.VPref.akwan@акван-хоилтаӈкве+V:@U.VPref.akwan@хоилт V_U "13_even_" ;
 @U.VPref.akwan@акван-хо̄нтхатуӈкве+V:@U.VPref.akwan@хо̄нтхат V_UBA "13_even_UBA_встретиться" ;
 @U.VPref.akwan@акван-хо̄нтхатыглаӈкве+V:@U.VPref.akwan@хо̄нтхатыгл V_A ;
 @U.VPref.akwan@акван-хо̄нтхатыгла̄луӈкве+V:@U.VPref.akwan@хо̄нтхатыгла̄л V_U "13_even_встречаться" ;
+@U.VPref.akwan@акван-хо̄нтыглахтуӈкве+V:@U.VPref.akwan@хо̄нтыглахт V_U "13_odd_" ;
+@U.VPref.akwan@акван-хуйигпа̄луӈкве+V:@U.VPref.akwan@хуйигпа̄л V_U "13_odd_" ;
 @U.VPref.akwan@акван-юрщигла̄луӈкве+V:@U.VPref.akwan@юрщигла̄л V_U "13_odd_объединять" ;
 @U.VPref.akwan@акван-юрщуӈкве+V:@U.VPref.akwan@юрщ V_U "26_odd_объединить" ;
 @U.VPref.akwan@акван-юрыщхатантаӈкве+V:@U.VPref.akwan@юрыщхатант V_A "23_even_объединяться" ;
@@ -3383,6 +3377,7 @@ LEXICON Prefixing_verbs
 @U.VPref.noox@но̄х-во̄виньта̄луӈкве+V:@U.VPref.noox@во̄виньта̄л V_U "??" ;
 @U.VPref.noox@но̄х-во̄вуӈкве+V:@U.VPref.noox@во̄в V_U "11_odd_призвать" ;
 @U.VPref.noox@но̄х-воратаӈкве+V:@U.VPref.noox@ворат V_A "13_even_забраться /с трудом/" ;
+@U.VPref.noox@но̄х-во̄раталуӈкве+V:@U.VPref.noox@во̄ратал V_Y/U "13_odd_ " ;
 @U.VPref.noox@но̄х-во̄рмалтаӈкве+V:@U.VPref.noox@во̄рмалт V_A ;
 @U.VPref.noox@но̄х-во̄ртхатантаӈкве+V:@U.VPref.noox@во̄ртхатант V_A "23_even_подниматься /с места/" ;
 @U.VPref.noox@но̄х-во̄ртхатуӈкве+V:@U.VPref.noox@во̄ртхат V_U "13_even_подняться /с места/" ;
@@ -3462,12 +3457,13 @@ LEXICON Prefixing_verbs
 @U.VPref.noox@но̄х-тагатаӈкве+V:@U.VPref.noox@тагат V_A "13_even_повесить" ;
 @U.VPref.noox@но̄х-тагматуӈкве+V:@U.VPref.noox@тагмат V_U "13_even_подвесить" ;
 @U.VPref.noox@но̄х-тагтала̄луӈкве+V:@U.VPref.noox@тагтала̄л V_U ;
+@U.VPref.noox@но̄х-тагталаӈкве+V:@U.VPref.noox@тагтал V_A "V_Y/U 23_even_" ;
 @U.VPref.noox@но̄х-тактапаӈкве+V:@U.VPref.noox@тактап V_A "11_even_показать /снизу/" ;
 @U.VPref.noox@но̄х-та̄лантаӈкве+V:@U.VPref.noox@та̄лант V_A "23_even_прорастать" ;
 @U.VPref.noox@но̄х-та̄ратаӈкве+V:@U.VPref.noox@та̄рат V_A ;
 @U.VPref.noox@но̄х-тосантаӈкве+V:@U.VPref.noox@тосант V_A "23_even_увядать" ;
 @U.VPref.noox@но̄х-то̄суӈкве+V:@U.VPref.noox@то̄с V_U "15_odd_вянуть" ;
-@U.VPref.noox@но̄х-то̄сыгла̄луӈкве:@U.VPref.noox@то̄сыгла̄л V_U " вянуть /иногда/" ; !NAUGHTY
+@U.VPref.noox@но̄х-то̄сыгла̄луӈкве:@U.VPref.noox@то̄сыгла̄л V_U " вянуть /иногда/" ;
 @U.VPref.noox@но̄х-тӯщталаӈкве+V:@U.VPref.noox@тӯщтал V_A "13_even_" ;
 @U.VPref.noox@но̄х-тӯщтуӈкве+V:@U.VPref.noox@тӯщт V_Y/U "23_odd_поднять /поставить//побудить к действию/" ;
 @U.VPref.noox@но̄х-тыламла̄лыглаӈкве+V:@U.VPref.noox@тыламла̄лыгл V_A "23_even_взлетать " ;
@@ -3495,8 +3491,22 @@ LEXICON Prefixing_verbs
 @U.VPref.noox@но̄х-хулыгла̄лыглаӈкве+V:@U.VPref.noox@хулыгла̄лыгл V_A "23_even_всплывать " ;
 @U.VPref.noox@но̄х-хулыглаӈкве+V:@U.VPref.noox@хулыгл V_A "23_even_всплыть " ;
 @U.VPref.noox@но̄х-хулиглаӈкве+V:@U.VPref.noox@хулигл V_A ;!doublet?
+@U.VPref.noox@но̄х-ялтуптаӈкве+V:@U.VPref.noox@ялтупт V_A "23_even_" ;
+@U.VPref.paalyg@па̄лыг-вуйлуӈкве+V:@U.VPref.paalyg@вуйл V_U ; !this would be a new prefix
+@U.VPref.paalyg@па̄лыг-покматаӈкве+V:@U.VPref.paalyg@покмат V_A ;
+@U.VPref.paalyg@па̄лыг-пӯсуӈкве+V:@U.VPref.paalyg@пӯс V_U ;
+@U.VPref.paalyg@па̄лыг-рагатаӈкве+V:@U.VPref.paalyg@рагат V_A ;
+@U.VPref.xot@хот-виӈкве+V:@U.VPref.xot@ VINGKVE ;
+@U.VPref.xot@хот-ёрувлаӈкве+V:@U.VPref.xot@ёрувл V_A "23_even_забыть" ;
 @U.VPref.xot@хот-кантмаяӈкве+V:@U.VPref.xot@кантмай V_A "12_even_рассердиться" ;
-@U.VPref.xot@хот-со̄схатыгла̄луӈкве:@U.VPref.xot@со̄схатыгла̄л V_U " отливаться" ; !NAUGHTY
+@U.VPref.xot@хот-ло̄сталаӈкве+V:@U.VPref.xot@ло̄стал V_A "13_even_разобрать /на части/" ;
+@U.VPref.xot@хот-манумтаӈкве+V:@U.VPref.xot@манумт V_A "23_even_" ;
+@U.VPref.xot@хот-маныгтаӈкве+V:@U.VPref.xot@маныгт V_A "23_even_разодрать" ;
+@U.VPref.xot@хот-ня̄влуӈкве+V:@U.VPref.xot@ня̄вл V_Y/U "23_odd_разогнать" ;
+@U.VPref.xot@хот-ойматаӈкве+V:@U.VPref.xot@оймат V_A "23_even_" ;
+@U.VPref.xot@хот-са̄груӈкве+V:@U.VPref.xot@са̄гр V_Y/U "21_odd_срубить" ;
+@U.VPref.xot@хот-со̄схатыгла̄луӈкве:@U.VPref.xot@со̄схатыгла̄л V_U " отливаться" ;
+@U.VPref.xot@хот-сыстамтаӈкве+V:@U.VPref.xot@сыстамт V_A "23_even_чистить /помещение/" ;
 @U.VPref.xot@хот-типылтаӈкве+V:@U.VPref.xot@типылт V_A "23_even_затерять" ;
 @U.VPref.xot@хот-то̄вмуӈкве+V:@U.VPref.xot@то̄вм V_Y/U "21_odd_откусить" ;
 @U.VPref.xot@хот-то̄вмыгла̄луӈкве+V:@U.VPref.xot@то̄вмыгла̄л V_U "13_odd_откусывать" ;
@@ -3526,6 +3536,7 @@ LEXICON Prefixing_verbs
 @U.VPref.xot@хот-тэ̄лыгтаӈкве+V:@U.VPref.xot@тэ̄лыгт V_A "23_even_запутать, перепутать, путать//перепутать" ;
 @U.VPref.xot@хот-уруӈкве+V:@U.VPref.xot@ур V_U "11_odd_похудеть" ;
 @U.VPref.xot@хот-ӯстуӈкве+V:@U.VPref.xot@ӯст V_Y/U ;
+@U.VPref.xot@хот-халалтаӈкве+V:@U.VPref.xot@халалт V_A "23_even_" ;
 @U.VPref.xot@хот-харӈайтаӈкве+V:@U.VPref.xot@харӈайт V_A ;
 @U.VPref.xot@хот-хартуӈкве+V:@U.VPref.xot@харт V_U2C "23_odd_оттащить" ;
 @U.VPref.xot@хот-харыглаӈкве+V:@U.VPref.xot@харыгл V_A "23_even_погаснуть" ;
