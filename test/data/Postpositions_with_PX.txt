@@ -160,7 +160,7 @@ There may be further postpositions taking Pxs that were not to be found in the c
 
 палт+Po+PxSg1: палтум
 палт+Po+PxSg2: палтын
-палт+Po+PxSg3: палттэ
+палт+Po+PxSg3: палтэ
 палт+Po+PxDu1: палтме̄н
 палт+Po+PxDu2: палтын
 палт+Po+PxDu3: палттэ̄н
