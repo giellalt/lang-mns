@@ -322,6 +322,9 @@ LEXICON PROP_MANSINAMES
 Танья+N+Prop:Танья N_VO ;
 Та̄ръяим-Ко̄ръяим+N+Prop:Та̄ръяим-Ко̄ръяим N_VCH ;
 Торум% Маа+N+Prop:Торум% Маа N_VO ;
+Торум% Маа+N+Prop+Use/NG:То̄рум% Маа N_VO ;
+Найотыр% Маа+N+Prop:Найотыр% Маа N_VO ;
+Найо̄тыр% Маа+N+Prop+Use/NG:На̄йо̄тыр% Маа N_VO ;
 Тӯрва̄т+v1+N+Prop+Sem/Plc:Тӯрва̄т N_VCH ;
 Тӯрва̄т+v2+N+Prop+Sem/Plc:Тӯрват N_VCH ;
 Тэвлина+N+Prop:Тэвлина N_VO ;
