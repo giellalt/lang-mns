@@ -231,6 +231,8 @@ LEXICON personal
 тыса̄вит+Pron:тыса̄вит PO_ "this much" ;
 таяныт+Pron:тыса̄вит PO_ "that big" ;
 
+хотум+Pron:хотум PO_ "some way, any way" ;
+
 LEXICON PERS_PRON_KI_OR_ZERO
  # ;
 +Clt/Ki:%>ки # ; 
