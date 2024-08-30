@@ -410,13 +410,16 @@ Rules
 
 "%{уюØ%}:ю"
 !! __@RULENAME@__
-  %{уюØ%}:ю <=> [CnsAlv %{VCCS%}:|CnsAlv %{VCS%}:|CnsAlv %{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  \[%^RmVow:] ;
+  %{уюØ%}:ю <=> [CnsAlv %{VCCS%}:|[CnsAlv|й:] %{VCS%}:|CnsAlv %{NOSYNCS%}: | [й:| ь: ] %{VU%}:]  %> _  \[%^RmVow:] ;
                                    %{VI%}:  %> _  в ;
                        CnsAlv ь: %{SYNCS%}: %> _ Cns ; 
   ! [ и | ы | ь: ] %> _  ;
 !! коюӈкве+V+Inf: **track/jäljittää, vuottaa**
 !!€ кой{VU}>{уюØ}ӈкве
 !!€ ко00>юӈкве
+!! кӯщай+N+Sg+Nom+PxPl1:
+!!€ кӯщай{VCS}>{уюØ}в
+!!€ кӯща00>юв
 
 "%{аяLong%}:а̄"
 !! __@RULENAME@__
