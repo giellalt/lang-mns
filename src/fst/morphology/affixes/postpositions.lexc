@@ -4,6 +4,9 @@
 LEXICON PO_
 : K ;
 
+LEXICON PO_LOC_ZERO_OR_PX
++Loc: PO_ZERO_OR_PX ; !e.g., палт
+
 LEXICON PO_ZERO_OR_PX
 !! **LEXICON @LEXNAME@** going to K (check, perhaps bad idea) and to Px forms.
 : K ;

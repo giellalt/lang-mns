@@ -45,7 +45,7 @@ LEXICON Postpositions
 са̄йныл+Po:са̄йныл PO_ABL "из-за" ;
 
 палн+Po:палн PO_LAT "" ;
-палт+Po:палт PO_LOC "" ;
+палт+Po:палт PO_LOC_ZERO_OR_PX "" ;
 палныл+Po:палныл PO_ABL "" ;
 
 нумн+Po:нумн PO_LAT "вверх, наверх" ;
