@@ -20,10 +20,12 @@ while(<>) {
 	s/(ь|й) PROP_KAL_FEM/$1 N_VCS/g ;
 	s/(ы|и) CYRL-VOW_SUR/$1 N_VI/g ;#ordering 1
 	s/(ь|й) PROP-PLC_KAL/$1 N_VCS/g ;
+	s/(ч) PROP_OSH_PATRMAL/$1 N_VCH/g ;
 	s/ PROP_KIT_FEM/ N_VCH/g ;
 	s/ PROP_LAK_MAL/ N_VCH/g ;
 	s/ PropNameMaleDer-Y-0Evich/ N_VCS/g ;
 	s/ PROP_OSH_SUR/ N_VCH/g ;
+	s/ PROP_RUS_JA/ N_VO/g ;
 	s/ Deriv-RUS-AN_SURMAL/ N_VCH/g ;
 	s/ CYRL-L_SUR/ N_VCH/g ;
 	s/ Deriv-RUS-IJ_SURMAL/ий N_VCS/g ;
