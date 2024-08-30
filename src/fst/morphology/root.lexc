@@ -95,7 +95,12 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Use/NG 	    !!≈ * **@CODE@** do not generate, but accept
  +Use/-Spell 	    !!≈ * **@CODE@** do not use in speller 
  +Use/SpellNoSugg  !!≈ * **@CODE@** recognized but not suggested in speller
- 
+
+!! ## Dialect tags:
+! There will be 4 dialects
+ +Dial/-SOSV  !!≈ * **@CODE@** forms not in use in SOSV (Sosva)
+
+
 !! ### The nominals are inflected in the following Case and Number
  +Sg +Du +Pl !!≈ * **@CODE@** 
  +Nom  !!≈ * **@CODE@** 
