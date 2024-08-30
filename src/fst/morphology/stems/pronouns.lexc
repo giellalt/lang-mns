@@ -194,9 +194,9 @@ LEXICON personal
 
 
 хотъют+Pron:хотъют N_VCH "который, чей";
-хотъют+Pron+Err/Orth:хотьют N_VCH "кто";
-нэ̄мхотъют+Pron:нэ̄мхотъют N_VCH "никто";
-нэ̄мхотъют+Pron+Err/Orth:нэ̄мхотьют N_VCH "никто";
+хотьют+Pron:хотьют N_VCH "кто";
+нэ̄мхотъют+Pron:нэ̄мхотъют N_VCH "";
+нэ̄мхотьют+Pron:нэ̄мхотьют N_VCH "никто";
 хуньт+Pron:хуньт N_VCH "когда";
 нэ̄мхуньт+Pron:нэ̄мхуньт N_VCH "никогда";
 матахмат+Pron:матахмат N_VCH "несколько";
@@ -227,11 +227,16 @@ LEXICON personal
 матах+Pron:матах N_VCH "несколько";
 хумыс+Pron:хумыс N_VCH "как";
 манаса̄вит+Pron:хумыс N_VCH "сколько";
-таса̄вит+Pron:таса̄вит PO_ "that much" ;
-тыса̄вит+Pron:тыса̄вит PO_ "this much" ;
-таяныт+Pron:тыса̄вит PO_ "that big" ;
+таса̄вит+Pron:таса̄вит N_VCH "that much" ;
+тыса̄вит+Pron:тыса̄вит N_VCH "this much" ;
+таяныт+Pron:тыса̄вит N_VCH "that big" ;
 
-хотум+Pron:хотум PO_ "some way, any way" ;
+хотум+Pron:хотум N_VCH "some way, any way" ;
+
+матарн+Pron+Err/Orth:матыр N_VCH "никто";
+нэ̄матар+Pron+Err/Orth:нэ̄матыр N_VCH "никто";
+манхурипаг+Pron:манхурипаг N_VCH "что-то"; 
+тыима̄гыс+Pron:тыима̄гыс N_VCH "куда"; 
 
 LEXICON PERS_PRON_KI_OR_ZERO
  # ;
