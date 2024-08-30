@@ -57,6 +57,9 @@ language are presented in this system in terms of the following symbols.
 * **+Use/-Spell** do not use in speller 
 * **+Use/SpellNoSugg** recognized but not suggested in speller
 
+## Dialect tags:
+* **+Dial/-SOSV** forms not in use in SOSV (Sosva)
+
 ### The nominals are inflected in the following Case and Number
 * **+Sg +Du +Pl** 
 * **+Nom** 
