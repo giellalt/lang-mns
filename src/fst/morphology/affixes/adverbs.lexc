@@ -8,6 +8,9 @@ LEXICON ADV_
 :        #   ;
 +Comp:%>нув        #   ;
 
+LEXICON ADV_NG
++Use/NG: ADV_ ;
+
 !LEXICON ADV_ABL
 !+Abl: K ;
 
