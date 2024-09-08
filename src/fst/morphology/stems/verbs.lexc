@@ -2739,6 +2739,7 @@ LEXICON Verbs
 кисхатуӈкве+V:кисхат V_U "13_even_" ;
 та̄рапатуӈкве+V:та̄рапат V_U "13_odd_" ;
 та̄ртуӈкве+V:та̄рт V_U2C "23_odd_" ;
+ёхтала̄луӈкве+V:ёхтала̄л V_U "13_odd_" ;
 
 
 !Added UBA (meaning "U in the infinitive, but A in the paradigm") tag to the meaning of verbs. I didn't dare to write it in the description, but ideally it would be V_UBA
