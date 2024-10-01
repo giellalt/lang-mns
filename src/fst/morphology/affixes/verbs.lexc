@@ -520,6 +520,7 @@ LEXICON V0_Y/U !This has two consonants, one is onset before -уӈкве
 :%{VU%}ы PRSPRC ; ! 2023-11-17
 !:%{VU%} V11_MUTUAL ;
 :%{VU%}%>%{уюØ%} PRFPRC ;
++Use/NG:%{VA%}%>%{аяØ%} PRFPRC ;!secondary? о̄вылтахтам  TBS о̄вылтахтуӈкве+V+PrfPrc
 :%{VU%}%>%{ыиØ%} GER ;!+Ger?+Actio
 :%{VU%}%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%{VU%}%>ап N_VCH ;
