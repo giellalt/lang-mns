@@ -49,7 +49,7 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 * а̄ртмил+N:а̄ртмил N_VCH "удача" ;
 * вла̄сть+v1+N:вла̄сть N_VCCS "власть" ; CHECKME
 * голубь+N:голубь N_VCS "голубь" ; CHECKME
-* ласка+N:ласка N_VO "ласка /животное/" ;
+* ласка+N:ласка N_VO "ласка" ;
 * ласточка+N:ласточка N_VO "ласточка" ;
 * тушь+N:тушь N_VCS "тушь" ; CHECKME
 
