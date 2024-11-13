@@ -217,6 +217,19 @@ cat test/data/Readings_20230901.txt | hfst-tokenise -cg tools/tokenisers/tokenis
 231116: 1178
 
 
+## Speller suggestions: divvunspell
+
+
+  
+             typos     % missp        % missp
+             .txt      in 1st         in top-5     
+------------------------------------------------
+divvunspell:
+241113:       763     44.43          49.93        
+------------------------------------------------
+
+
+
 ## Speller suggestions: hfst-ospell test data
 
 (probably delete these)
@@ -232,7 +245,8 @@ hfst-ospell:
 240410:       473        1.08          54.59          57.72        
 240411:       473        1.08          53.42          56.41        
 240422:       547        1.09          46.75          49.54        
-240422:       579        1.16          45.71          48.86        
+240422:       579        1.16          45.71          48.86      
 -----------------------------------------------------------------
+```
 
 
