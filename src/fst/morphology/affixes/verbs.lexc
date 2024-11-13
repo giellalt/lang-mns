@@ -385,26 +385,46 @@ LEXICON V_NSSU  !!≈ @CODE@ о̄ньщуӈкве
 LEXICON V_NSSUBA !!≈ @CODE@ 
  V_Y/UBA ;
 
-LEXICON V_UBA !!≈ @CODE@ 
- V_U ;
+LEXICON V_UBA !!≈ @CODE@
+!!
 !!BEGIN
-!:%{VA%}%>%{аяØ%} PRSPRC ; !Does this exist ?20230504 
-+PrsPrc:%{VA%}%>%{аяØ%}н # ; ! This will need some variants with onset vowel.
-:%>%{аяØ%} PRFPRC ;
++Der+Der/Vlt+V:%>алт V0_A ;
++Der+Der/Vnt+V:%>ант V0_A ;
++Der+Der/Vasa+V:%>ас V0_A ;!2024-04-08
++Der+Der/Vyglal+V:%>ыгла̄л V0_U ;
++Der+Der/Vyglal+Err/Orth+V:%>ыглал V0_U ;
++Der+Der/Vyschl:%>ыщл V0_A ;
+:%{VU%}%>%{уюØ%} INF ;
+
+:%{VU%} PASS_PRT ;
+:%{VU%}%>%{аяØ%} PASS_PRS_VU ;
++PrsPrc:%{VA%}%>%{аяØ%}н K ; ! This will need some variants with onset vowel.
+:%{VU%} PRSPRC ; ! This will need some variants with onset vowel.
+:%{VA%}%>%{аяØ%} PRFPRC ;
 :%>%{ыиØ%} GER ;!ым +Ger?+Actio
 :%>%{ыиØ%} ACTIO ;
 +Der+Der/Ap+N:%>ап N_VCH ;
+:%{VU%} ACT_IND_VU ;
 :%{VU%} ACT_IND_PRS_VA ;
-:%{VU%} ACT_IMPRT ;
+:%{VU%} ACT_IND_PRT_SC_VU ;
+:%{VU%} ACT_IND_PRT_OCSG_slameen ;
 :%{VA%}%>%{аяØ%} ACT_IND_PRT_SC_VA ;
 
 :%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_OC3 ;
++Err/Orth:%{VU%}%>а̄ V11_MUTUAL_PASS_PRS ;
++Err/Orth:%{VU%}%>я̄ V11_MUTUAL_PASS_PRS ;
 :%{VA%}%>%{аяØ%} ACT_COND_VU ;
-:%{VA%}	ACT_IMPRT_for_V_A ;
-:%{VA%}%>%{аяØ%} PASS_COND ;!add vowel where there was none 2023_05_02
+:%{VU%} ACT_COND_VU ;!all
 
+:%{VA%}	ACT_IMPRT_for_V_A ;
+:%{VU%} ACT_IMPRT_VU ;!all
+:%{VU%} ACT_IMPRT ;
+
+:%{VA%}%>%{аяØ%} PASS_COND ;!add vowel where there was none 2023_05_02
+:%{VU%} PASS_COND ;
 !!END
+
 LEXICON V_U !!≈ @CODE@ 
 !! put derivations here
 +Der+Der/Vlt+V:%>алт V0_A ;
