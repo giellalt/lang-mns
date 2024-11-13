@@ -2,7 +2,7 @@
  115 Маа    TBS 3 times in Найотыр Маа, 3 times in На̄йо̄тыр Маа, 45 times in То̄рум Маа, all other cases in Торум Маа, never alone 
  101 палтэ  TBS палт+Po+PxSg3 as in Postpositions_with_PX file  >S
   94 кӯщаюв    TBS кӯщай+N+Sg+Nom+PxPl1 >S
-  75 о̄вылтахтам  TBS о̄вылтахтуӈкве+V+PrfPrc  
+  75 о̄вылтахтам  TBS о̄вылтахтуӈкве+V+PrfPrc  >S
   75 акван-атыглаве̄сыт    TBS акван-атыглаӈкве+V+Pass+Ind+Prt+ScPl3 >S
   73 финноугор    typo S
   68 хо̄нтлам    TBS хо̄нтлуӈкве+V+PrfPrc >S
@@ -15,12 +15,12 @@
   43 областьт    TBS область+N+Sg+Lat
   43 намыӈсуиӈ    typo намыӈ-суиӈ
   41 та̄рапатыс  typo S  
-  41 о̄вылтахтаме   TBS о̄вылтахтуӈкве+V+PrfPrc+ScSg3 ! I've corrected a typo in the yaml file (both a verbs and u verbs)
+  41 о̄вылтахтаме   TBS о̄вылтахтуӈкве+V+PrfPrc+ScSg3 ! I've corrected a typo in the yaml file (both a verbs and u verbs) >S
   41 акван-атыгласанэ   TBS акван-атыглаӈкве+V+Act+Ind+Prt+ScSg3+OcPl >S
   40 ёмщакве̄г    TBS ёмщакв+Adv+Tra
   39 Ма̄ньполь    TBS always with э̄тпос, never alone
-  37 та̄рапаттын    TBS та̄рапаттуӈкве+V+PrsPrc
-  36 хо̄нтлан    TBS хо̄нтлаӈкве+V+PrsPrc >
+  37 та̄рапаттын    TBS та̄рапаттуӈкве+V+PrsPrc >S
+  36 хо̄нтлан    TBS хо̄нтлаӈкве+V+PrsPrc > S
   36 пӯсвес    TBS пӯнсуӈкве+V+Pass+Ind+Prt+ScSg3 ! But this is something new. Nasal-drop is known to happen in active past, but I've never heard passive past mentioned.
   36 ла̄щалла̄щал	typo S    
   35 хумиюв    TBS хум+N+Sg+Nom+PxPl1
@@ -34,15 +34,15 @@
   31 о̄лнэхӯлнэ    typo S
   31 Эл    TBS always with Мари, never alone
   30 о̄льпыл    TBS о̄люп+N+Sg+Ins
-  30 Тыима̄гыс    TBS meaning "because of this". I'm not sure where I should put it.
+  30 Тыима̄гыс    TBS meaning "because of this". I'm not sure where I should put it. >S
   29 щалтсасум   TBS щалтсаӈкве+V+Act+Ind+Prt+ScSg1 >S
   29 потруме̄н    TBS потыр+N+Sg+Nom+PxDu1
   29 Ята	typo S    
   28 тахольт    TBS meaning "this way, таким способом". I'm not sure where I should put it.
   28 олннё̄тмилыл    typo S
-  28 малочисленных TBS Russian   
-  26 та̄рапаттым    new verb
-  26 та̄рапаттуӈкве new verb    
+  28 малочисленных TBS Russian   >S
+  26 та̄рапаттым    new verb >S
+  26 та̄рапаттуӈкве new verb    >S
   26 мо̄тмо̄т    typo S
   26 лап    ла̄кква  verbal prefix
   26 китхӯрум	typo S    
@@ -51,33 +51,33 @@
   25 маа    TBS same as line 2
   25 Ща̄нюм    TBS Ща̄нь+N+Sg+Nom+PxSg1
   24 ӯнлысыт    TBS ӯнлуӈкве+V+Act+Ind+Prt+ScPl3
-  24 хотум    new pronoun
-  24 хо̄нтлаӈкве    new verb
+  24 хотум    new pronoun >S
+  24 хо̄нтлаӈкве    new verb >S
   24 пащалахтас    TBS пащалахтуӈкве+V+Act+Ind+Prt+ScSg3
   23 ясанг TBS always with Ханты, never alone    
-  23 та̄ртве̄сыт    TBS та̄ртаӈкве+V+Pass+Ind+Prt+ScPl3
-  23 порслувес    TBS порслаӈкве+V+Pass+Ind+Prt+ScSg3
+  23 та̄ртве̄сыт    TBS та̄ртаӈкве+V+Pass+Ind+Prt+ScPl3 >S
+  23 порслувес    TBS порслаӈкве+V+Pass+Ind+Prt+ScSg3 
   23 нэ̄матарыл    S
   23 манси    TBS Russian
   23 ма̄хумаквет	TBS ма̄хумакве ма̄хум+кве, I don't know how to solve this   
-  23 О̄йттур	TBS always with э̄тпос, never alone
+  23 О̄йттур	TBS always with э̄тпос, never alone >S
   22 хусахтем    
   22 товлыӈха̄пыт    S
-  22 та̄ртвес	та̄ртаӈкве+V+Pass+Ind+Prt+ScSg3    
-  22 та̄рапаттысаныл    new verb
+  22 та̄ртвес	та̄ртаӈкве+V+Pass+Ind+Prt+ScSg3    >S
+  22 та̄рапаттысаныл    new verb >S
   22 ремёсел    TBS Russian
   21 хасхатасыт	TBS хасхатуӈкве+V+Act+Ind+Prt+ScPl3    
-  21 та̄рапаттысыт    new verb
+  21 та̄рапаттысыт    new verb >S
   21 соглашениенэ̄пак	S typo    
   21 акванюрщхатым	S typo    
   21 акванатхатам	S typo    
   20 э̄ргын-йӣквнэ TBS э̄ргуӈкве+V+PrsPrc-йӣквуӈкве+V+PrsPrc they appear separately as well   
   20 холасыт    TBS холуӈкве+V+Act+Ind+Prt+ScPl3
-  20 та̄рапаттыяныл    new verb
+  20 та̄рапаттыяныл    new verb >S
   20 дипломнэ̄пакыл	S typo    
   20 воспитателиг	TBS воспитатель+N+Du+Nom    
-  20 ва̄нтлас    TBS ва̄нтлуӈкве+V+Act+Ind+Prt+ScSg3
-  19 щалтсас    TBS щалтсаӈкве+V+Act+Ind+Prt+ScSg3
+  20 ва̄нтлас    TBS ва̄нтлуӈкве+V+Act+Ind+Prt+ScSg3 >S
+  19 щалтсас    TBS щалтсаӈкве+V+Act+Ind+Prt+ScSg3 >S
   19 ща̄нюм	TBS ща̄нь+N+Sg+Nom+PxSg1    
   19 ханищтахтэ̄н	 TBS ханищтахтуӈкве+V+Act+Imprt+ScPl2 (or ScDu2)   
   19 тыил	тыи+Pron+Dem+Sg+Ins    
@@ -85,77 +85,77 @@
   19 союм    S proper noun
   19 номсахтасум	TBS номсахтуӈкве+V+Act+Ind+Prt+ScSg1    
   19 года	TBS Russian    
-  19 ва̄нтласыт	TBS ва̄нтлуӈкве+V+Act+Ind+Prt+ScPl3    
+  19 ва̄нтласыт	TBS ва̄нтлуӈкве+V+Act+Ind+Prt+ScPl3   >S 
   19 амттем	TBS the same as амккем    
   19 Югре	TBS Russian    
   18 ясаӈ	    S
   18 хӯрмиттыг	хӯрмит+Num+Tra it's an ordinal    
-  18 хотвиӈкве	S typo    
-  18 хо̄яс	TBS хо̄юӈкве+V+Act+Ind+Prt+ScSg3    
+  18 хотвиӈкве	S typo    >S
+  18 хо̄яс	TBS хо̄юӈкве+V+Act+Ind+Prt+ScSg3    >S
   18 нё̄влил	TBS нё̄выль+N+Sg+Ins   
-  18 акван-атыглавет	TBS акван-атыглаӈкве+V+Pass+Ind+Prs+ScPl3    
-  18 Хо̄нтлам    TBS рӯпитаӈкве+V+PrfPrc
+  18 акван-атыглавет	TBS акван-атыглаӈкве+V+Pass+Ind+Prs+ScPl3    >S
+  18 Хо̄нтлам    TBS рӯпитаӈкве+V+PrfPrc >S
   18 Победы	TBS Russian    
   18 На̄янэ̄н-О̄тыранэ̄н	TBS На̄й+N+Pl+Nom+PxDu3-О̄тыр+N+Pl+Nom+PxDu3   
   17 ыт	TBS looks like the suffix of ordinals, when it's written after numbert    
-  17 щуньпаща	S new noun    
+  17 щуньпаща	S new noun    >S
   17 правам	TBS Russian    
   17 пе̄рщисыт	TBS пе̄рщуӈкве+V+Act+Ind+Prt+ScPl3
   17 марийцыт	TBS мариец+N+Pl+Nom
-  17 лю̄лим	TBS лю̄люӈкве+V+Ger
+  17 лю̄лим	TBS лю̄люӈкве+V+Ger >S
   17 ловмантем    
   17 искусств	TBS Russian  
   17 дума	TBS Russian    
   17 амккем	TBS same as амкем. At Rombandeeva it's амкем, in the corpus it's амккем.    
   16 ёх	TBS Khanty    
-  16 щалтсэ̄гыт    TBS щалтсаӈкве+V+Act+Ind+Prs+ScPl3
-  16 хо̄нтлас	TBS хо̄нтуӈкве+V+Act+Ind+Prt+ScSg3    
+  16 щалтсэ̄гыт    TBS щалтсаӈкве+V+Act+Ind+Prs+ScPl3 >S
+  16 хо̄нтлас	TBS хо̄нтуӈкве+V+Act+Ind+Prt+ScSg3     >S
   16 хасхатам	TBS хасхатуӈкве+V+PrfPrc    
   16 творчество TBS Russian   
   16 ремёсла    TBS Russian
-  16 по̄слахтасыт	TBS по̄слахтуӈкве+V+Act+Ind+Prt+ScPl3    
+  16 по̄слахтасыт	TBS по̄слахтуӈкве+V+Act+Ind+Prt+ScPl3    >S
   16 мира    TBS Russian
-  16 лю̄лис	TBS лю̄люӈкве+V+Act+Ind+Prt+ScSg3    
+  16 лю̄лис	TBS лю̄люӈкве+V+Act+Ind+Prt+ScSg3    >S
   16 лю̄ле̄гыт	TBS лю̄люӈкве+V+Act+Ind+Prs+ScPl3    
-  16 Акванпотыртахтам    typo S TBS акван-потыртахтуӈкве+V+PrfPrc
+  16 Акванпотыртахтам    typo S TBS акван-потыртахтуӈкве+V+PrfPrc >S
   15 таяныт	S    
   15 та̄рапаттуве̄сыт    new verb
   15 промыслов	TBS Russian    
   15 премия-олныл	S    
-  15 ма̄ло̄мтыл	S    
+  15 ма̄ло̄мтыл	    
   15 Финно-угор	S    
   14 хотёрувлаӈкве	S typo    
-  14 та̄рапаттаве    new verb
+  14 та̄рапаттаве    new verb >S
   14 нэ̄т-хумит	TBS нэ̄+N+Pl+Nom-хум+N+Pl+Nom    
   14 номсахтас	TBS номсахтуӈкве+V+Act+Ind+Prt+ScSg3    
   14 народных    TBS Russian
   14 наме̄тыл	TBS нам+N+Sg+Ins+PxSg3 I know it doesn't fit the yaml file, I have to do some research    
-  14 акван-атыгласаныл	акван-атыглаӈкве+V+Act+Ind+Prt+ScPl3+OcSg  
+  14 акван-атыгласаныл	акван-атыглаӈкве+V+Act+Ind+Prt+ScPl3+OcSg  >S
   14 Единая    TBS Russian
   14 www	TBS    
-  13 щалтсасыт    TBS щалтсаӈкве+V+Act+Ind+Prt+ScPl3
-  13 хотрохтыс	S typo    
+  13 щалтсасыт    TBS щалтсаӈкве+V+Act+Ind+Prt+ScPl3 >S
+  13 хотрохтыс	S typo    >S
   13 тыла    TBS Russian
-  13 та̄рапаттавет    new verb
+  13 та̄рапаттавет    new verb >S
   13 сусте̄мт    
   13 спорта    TBS Russian
   13 потырта̄лсыт	потырта̄луӈкве+V+Act+Ind+Prt+ScPl3
   13 годы    TBS Russian
-  13 вуйхатас	S    
+  13 вуйхатас	S    >S
   13 ва̄рмалюв	S ва̄рмаль+N+Sg+Nom+PxPl1    
   13 Нярихумит	S    
   13 Кимкьясуй	S    
   12 ӯлыглан	S    
   12 щё̄питахтасыт	щё̄питахтуӈкве+V+Act+Ind+Prt+ScPl3    
-  12 хот-вуйвес	хот-виӈкве+V+Pass+Ind+Prt+ScSg3    
+  12 хот-вуйвес	хот-виӈкве+V+Pass+Ind+Prt+ScSg3    >S
   12 угров    TBS Russian
   12 трудовой	S    
-  12 та̄рапаты	S    
+  12 та̄рапаты	S    >S
   12 района    TBS Russian
-  12 палтэ̄н	TBS палт+Po+PxSg3+Lat    
+  12 палтэ̄н	TBS палт+Po+PxSg3+Lat    >S
   12 округа    TBS Russian
   12 народного    TBS Russian
-  12 манхурипаг	S   
+  12 манхурипаг	S   >S
   12 ловманкем    
   12 лет    TBS Russian
   12 из    TBS Russian
@@ -166,30 +166,30 @@
   12 Тылащ    TBS Khanty
   12 Ма̄хумаквет	TBS Ма̄хум+кве    
   12 Альянс    TBS Russian
-  11 ӣти	TBS dialectal form, it is not wrong, but nor standard either   
+  11 ӣти	TBS dialectal form, it is not wrong, but nor standard either   >S
   11 ёмаснуве̄г	TBS perhaps it would be easier not to add them one by one:   ёмас+A+Comp+Tra 
   11 яныгнуве̄г	same as line 170    
   11 хотальа̄ти	S typo    
-  11 телевидение	S    
+  11 телевидение	S    >S
   11 те̄пыл	S    
   11 тавагт	couldn't find it in the corpus    
-  11 та̄ртвесӯв    typo S TBS та̄ртаӈквеӈкве+V+Pass+Ind+Prt+ScPl1
+  11 та̄ртвесӯв    typo S TBS та̄ртаӈквеӈкве+V+Pass+Ind+Prt+ScPl1 >S
   11 степени    TBS Russian
   11 семьи    TBS Russian
-  11 саквалан	TBS саквалаӈкве+V+PrsPrc    
+  11 саквалан	TBS саквалаӈкве+V+PrsPrc    >S
   11 са̄ттем    
   11 са̄грын	TBS са̄груӈкве  +V+PrsPrc   
-  11 са̄внакпа	S    
+  11 са̄внакпа	S    >S
   11 развития    TBS Russian
-  11 пе̄рма	S    
+  11 пе̄рма	S    >S
   11 о̄лыманыл    
   11 о̄йк	S 
   11 нё̄вляныл	TBS нё̄выль+N+Sg+Nom+PxPl3    
   11 нё̄влиг	TBS нё̄выль++N+Du+Nom    
-  11 ма̄-ло̄мтыл	S    
+  11 ма̄-ло̄мтыл	S    >S
   11 ла̄пкаӈ	S    
   11 кӯпнитнуве̄г	кӯпнит+A+Comp+Tra    
-  11 кисхатуӈкве	S    
+  11 кисхатуӈкве	S    >S
   11 диплом	S    
   11 вуньщалыг	have to check this    
   11 века    TBS Russian
