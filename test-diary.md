@@ -67,7 +67,7 @@ Number of words (standing in `lang-mns`):
 
 ```
 	cat test/data/Luima_Seripos_2013-2017.txt |\
-	hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
+	hfst-tokenise -m tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |wc -l
 ```
 
 Number of unknown words (the old command did not remove the Russian words):
@@ -75,9 +75,9 @@ Number of unknown words (the old command did not remove the Russian words):
 
 ```
 cat test/data/Luima_Seripos_2013-2017.txt |\
-hfst-tokenise tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+hfst-tokenise -m tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
 preprocess --corr=test/data/typos.txt|\
-hfst-tokenise -cg tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
+hfst-tokenise -gm tools/tokenisers/tokeniser-disamb-gt-desc.pmhfst |\
 grep " ?"|cut -d'"' -f2|\
 hfst-lookup -q ../lang-rus/src/fst/analyser-gt-desc.hfstol |\
 grep "+?"|cut -d'"' -f2|wc -l
@@ -121,6 +121,7 @@ Coverage:
 240814: 1-(18747/707762) = 0.97351
 240916: 1-(16279/707659) = 0.97700
 241112: 1-(16013/706540) = 0.97734
+241113: 1-(5420/476677)  = 0.98863 hfst-tokenise with flag -m
 
 ```
 

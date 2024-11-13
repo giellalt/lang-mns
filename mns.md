@@ -1941,7 +1941,7 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 * а̄кв+v1+N:а̄кв N_VCCH "тётя" ; Compare consonant-final
 * а̄ква+v1+N:а̄ква N_VO "тётя /при обращении/" ; 
 * а̄мп+N:а̄мп N_VCCH "собака" ;
-* а̄ӈквпыг+N:а̄ӈкв#пыг N_N_VCH "двоюродный брат по материнской линии" ; CHECKME
+* а̄ӈквпыг+N:а̄ӈкв#пыг N_VCH "двоюродный брат по материнской линии" ; CHECKME
 * а̄па+N:а̄па N_VO "люлька" ;
 * а̄рталь+N:а̄рталь N_VCS "семья" ;
 * а̄ртмил+N:а̄ртмил N_VCH "удача" ;
