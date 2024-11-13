@@ -717,9 +717,9 @@ So far no work on Northern Mansi proper nouns.
 It will contain two parts: A general Russian name base
 and Mansi-specific names.
 
-**LEXICON `OUTSIDE_LEXICONS`** 
+**LEXICON PROP_OSH_PATRMAL** 
 
-**LEXICON `OUTSIDE_LEXICONS`**  The only lexicon is `PROP`, it goes to K via singular cases.
+**LEXICON PROP_OSH_PATRMAL**  The only lexicon is `PROP`, it goes to K via singular cases.
 
 **LEXICON PROP-PATR-MAL_END-IN-CH/DZ** = the content is just there to make the fst compile.
 
@@ -1941,7 +1941,7 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 * а̄кв+v1+N:а̄кв N_VCCH "тётя" ; Compare consonant-final
 * а̄ква+v1+N:а̄ква N_VO "тётя /при обращении/" ; 
 * а̄мп+N:а̄мп N_VCCH "собака" ;
-* а̄ӈквпыг+N:а̄ӈкв#пыг N_N_VCH "двоюродный брат по материнской линии" ; CHECKME
+* а̄ӈквпыг+N:а̄ӈкв#пыг N_VCH "двоюродный брат по материнской линии" ; CHECKME
 * а̄па+N:а̄па N_VO "люлька" ;
 * а̄рталь+N:а̄рталь N_VCS "семья" ;
 * а̄ртмил+N:а̄ртмил N_VCH "удача" ;
