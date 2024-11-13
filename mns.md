@@ -781,7 +781,7 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 LEXICON V_NSSUBA 
 
-LEXICON V_UBA 
+LEXICON V_UBA
 
 LEXICON V_U 
 put derivations here
@@ -1759,6 +1759,18 @@ Removal
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+
+| @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+| @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
 ## The basic lexica
 

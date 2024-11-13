@@ -27,7 +27,7 @@ LEXICON V_NSSU о̄ньщуӈкве
 
 LEXICON V_NSSUBA 
 
-LEXICON V_UBA 
+LEXICON V_UBA
 
 LEXICON V_U 
 put derivations here
