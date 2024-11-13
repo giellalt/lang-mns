@@ -134,7 +134,7 @@ The table shows the number of typos tested, as well as some data for suggestions
 To test: Clone [divvunspell](https://github.com/divvun/divvunspell/blob/main/README.md) and install **divvunspell** and **acceracy**. Then stand in `divvunspell` and do:
 
 ```
-accuracy -o support/accuracy-viewer/public/report.json ../../giellalt/lang-mns/test/data/ typos.txt ../../giellalt/lang-mns/tools/spellcheckers/mns.zhfst
+accuracy -o support/accuracy-viewer/public/report.json ../../giellalt/lang-mns/test/data/typos.txt ../../giellalt/lang-mns/tools/spellcheckers/mns.zhfst
 
 cd support/accuracy-viewer
 
@@ -144,6 +144,7 @@ npm i && npm run dev
 At the end the report says (for example) `port: 35729`. Take the 5-digit number and open (the parallel to) http://localhost:35729  in your browser.
 
 Test results with divvunspell (for older data, see below):
+
 ```
            typos  Avrg pos    % missp     % missp
            .txt   for corr    in 1st      in top-5     
@@ -153,7 +154,8 @@ Test results with divvunspell (for older data, see below):
 240507:     607               72.98       78.75      
 240604:     610               76.56       82.79      capital letter fixed
 240814:     744               67.34       75.00
-241113:     763               44.43          49.93        
+241113:     763               44.43       49.93      divvunspell 241112
+241113:     763               45.61       50.07      divvunspell 241113
 -----------------------------------------------------
 ```
 
