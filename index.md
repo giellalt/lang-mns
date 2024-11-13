@@ -40,6 +40,7 @@ contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 ### Testing diaries
 
 - [Lexical and morphological coverage](test-diary.md)
+- [Older test results: Lexical and morphological coverage](old-test-diary.md)
 
 ### Meeting memos
 
