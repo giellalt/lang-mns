@@ -8,6 +8,9 @@
 !LEXICON PROP-PLC_KUDO
 !N_VO ;
 
+LEXICON PROP_OSH_PATRMAL !filter not working for this particular contlex 2024-11-13
+N_VCH ;
+
 !LEXICON PROP_VO_SURFEM
 !LEXICON PROP_KUDO_SURFEM
 !! **LEXICON @LEXNAME@** 

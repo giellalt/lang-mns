@@ -53,6 +53,10 @@ while(<>) {
 	s/ PropNameMaleDer-IJ-I0Evich/ий N_VCS/g ;
 	s/ PropNameMaleDer-I-YEvich/и N_VI/g ;
 	s/ PROP_KAL_MAL/ N_VCH/g ;
+	s/ PROP_LAV_MAL/ N_VCH/g ;
+	s/ PROP_TEV_MAL/ N_VCH/g ;
+	s/ PROP_TYL_MAL/ N_VCH/g ;
+	s/ PROP_KEL1_MAL/ N_VCS/g ;
 	s/ PROP_KAL_FEM/ N_VCH/g ;
 	s/ PROP_OSH_FEM/ N_VCH/g ;
 	s/ PROP_KUDO_FEM/ N_VO/g ;
