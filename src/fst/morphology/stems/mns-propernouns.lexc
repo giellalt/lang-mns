@@ -383,3 +383,7 @@ LEXICON PROP_MANSINAMES
 Лянге+N+Prop:Лянге N_VO ;
 Толя+N+Prop:Толя N_VO ;
 Чепель+N+Prop:Чепель N_VCS ;
+
+Канада+N:Канада N_VO ;
+Аляска+N+Prop:Аляска N_VO ;
+Кунсткамера+N:Кунсткамера N_VO ;
