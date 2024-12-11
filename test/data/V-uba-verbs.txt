@@ -1,0 +1,312 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+# (20241125: Csilla)
+
+  Verb - китыглахтуӈкве: # Verb 'to work' - full paradigm
+    китыглахтуӈкве+V+Inf: китыглахтуӈкве
+#Active, present tense, indicative, subjective conjugation
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg1: китыглахтэ̄гум
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg2: китыглахтэ̄гын
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg3: китыглахты
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu1: китыглахтыме̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu2: [китыглахтэ̄гын, китыглахтэгы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu3: китыглахтэ̄г
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl1: китыглахтэ̄в
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl2: [китыглахтэ̄гын, китыглахтэгы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl3: китыглахтэ̄гыт
+
+#Active, present tense, indicative, objective conjugation, single object
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg1+OcSg: китыглахтылум
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg2+OcSg: китыглахтылын
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg3+OcSg: китыглахтытэ
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu1+OcSg: китыглахтыламе̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu2+OcSg: [китыглахтылын, китыглахтылы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu3+OcSg: китыглахтытэ̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl1+OcSg: китыглахтылув
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl2+OcSg: [китыглахтылын, китыглахтылы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl3+OcSg: китыглахтыяныл
+
+#Active, present tense, indicative, objective conjugation, dual object
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg1+OcDu: китыглахтыягум
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg2+OcDu: китыглахтыягын
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg3+OcDu: китыглахтыяге
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu1+OcDu: китыглахтыягме̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu2+OcDu: [китыглахтыягын, китыглахтыягы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu3+OcDu: китыглахтыяге̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl1+OcDu: китыглахтыягув
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl2+OcDu: [китыглахтыягын, китыглахтыягы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl3+OcDu: китыглахтыяганыл
+
+#Active, present tense, indicative, objective conjugation, plural object
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg1+OcPl: китыглахтыянум
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg2+OcPl: [китыглахтыянын, китыглахтыян]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScSg3+OcPl: китыглахтыянэ
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu1+OcPl: китыглахтыянаме̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu2+OcPl: [китыглахтыянын, китыглахтыяны̄н, китыглахтыян]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScDu3+OcPl: китыглахтыянэ̄н
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl1+OcPl: китыглахтыянув
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl2+OcPl: [китыглахтыянын, китыглахтыяны̄н, китыглахтыян]
+    китыглахтуӈкве+V+Act+Ind+Prs+ScPl3+OcPl: китыглахтыяныл
+
+#Active, past tense, indicative, subjective conjugation
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg1: китыглахтасум
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg2: китыглахтасын
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg3: китыглахтас
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu1: китыглахтасме̄н
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu2: [китыглахтасын, китыглахтасы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu3: китыглахтасыг
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl1: китыглахтасув
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl2: [китыглахтасын, китыглахтасы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl3: китыглахтасыт
+
+#Active, past tense, indicative, objective conjugation, single object
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg1+OcSg: китыглахтаслум
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg2+OcSg: китыглахтаслын
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg3+OcSg: китыглахтастэ
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu1+OcSg: китыглахтасламе̄н
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu2+OcSg: [китыглахтаслын, китыглахтаслы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu3+OcSg: китыглахтастэ̄н
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl1+OcSg: китыглахтаслув
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl2+OcSg: [китыглахтаслын, китыглахтаслы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl3+OcSg: китыглахтасаныл
+
+#Active, past tense, indicative, objective conjugation, dual object
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg1+OcDu: китыглахтасагум
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg2+OcDu: китыглахтасагын
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg3+OcDu: китыглахтасаге
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu1+OcDu: китыглахтасагме̄н
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu2+OcDu: [китыглахтасагын, китыглахтасагы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu3+OcDu: китыглахтасаге̄н
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl1+OcDu: китыглахтасагув
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl2+OcDu: [китыглахтасагын, китыглахтасагы̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl3+OcDu: китыглахтасаганыл
+
+#Active, past tense, indicative, objective conjugation, plural object
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg1+OcPl: китыглахтасанум
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg2+OcPl: [китыглахтаса̄нын, китыглахтасан]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScSg3+OcPl: китыглахтасанэ
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu1+OcPl: [китыглахтасанаме̄н, китыглахтасанме̄н]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu2+OcPl: [китыглахтасанын, китыглахтасаны̄н, китыглахтасан]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScDu3+OcPl: китыглахтасанэ̄н
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl1+OcPl: китыглахтасанув
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl2+OcPl: [китыглахтасанын, китыглахтасаны̄н, китыглахтасан]
+    китыглахтуӈкве+V+Act+Ind+Prt+ScPl3+OcPl: китыглахтасаныл
+
+#Active, conditional, subjective conjugation
+    китыглахтуӈкве+V+Act+Cond+ScSg1: китыглахтанувум
+    китыглахтуӈкве+V+Act+Cond+ScSg2: китыглахтанувын
+    китыглахтуӈкве+V+Act+Cond+ScSg3: китыглахтанув
+    китыглахтуӈкве+V+Act+Cond+ScDu1: китыглахтануваме̄н
+    китыглахтуӈкве+V+Act+Cond+ScDu2: [китыглахтанувын, китыглахтанувы̄н]
+    китыглахтуӈкве+V+Act+Cond+ScDu3: китыглахтанувыг
+    китыглахтуӈкве+V+Act+Cond+ScPl1: китыглахтанувув
+    китыглахтуӈкве+V+Act+Cond+ScPl2: [китыглахтанувын, китыглахтанувы̄н]
+    китыглахтуӈкве+V+Act+Cond+ScPl3: китыглахтанувыт
+
+#Active, conditional, objective conjugation, single object
+    китыглахтуӈкве+V+Act+Cond+ScSg1+OcSg: китыглахтанувлум
+    китыглахтуӈкве+V+Act+Cond+ScSg2+OcSg: китыглахтанувлын
+    китыглахтуӈкве+V+Act+Cond+ScSg3+OcSg: китыглахтанувтэ
+    китыглахтуӈкве+V+Act+Cond+ScDu1+OcSg: китыглахтанувламе̄н
+    китыглахтуӈкве+V+Act+Cond+ScDu2+OcSg: [китыглахтанувлын, китыглахтанувлы̄н]
+    китыглахтуӈкве+V+Act+Cond+ScDu3+OcSg: китыглахтанувтэ̄н
+    китыглахтуӈкве+V+Act+Cond+ScPl1+OcSg: китыглахтанувлув
+    китыглахтуӈкве+V+Act+Cond+ScPl2+OcSg: [китыглахтанувлын, китыглахтанувлы̄н]
+    китыглахтуӈкве+V+Act+Cond+ScPl3+OcSg: китыглахтануваныл
+
+#Active, conditional, objective conjugation, dual object
+    китыглахтуӈкве+V+Act+Cond+ScSg1+OcDu: китыглахтанувагум
+    китыглахтуӈкве+V+Act+Cond+ScSg2+OcDu: китыглахтанувагын
+    китыглахтуӈкве+V+Act+Cond+ScSg3+OcDu: китыглахтануваге
+    китыглахтуӈкве+V+Act+Cond+ScDu1+OcDu: китыглахтанувагме̄н
+    китыглахтуӈкве+V+Act+Cond+ScDu2+OcDu: [китыглахтанувагын, китыглахтанувагы̄н]
+    китыглахтуӈкве+V+Act+Cond+ScDu3+OcDu: китыглахтануваге̄н
+    китыглахтуӈкве+V+Act+Cond+ScPl1+OcDu: китыглахтанувагув
+    китыглахтуӈкве+V+Act+Cond+ScPl2+OcDu: [китыглахтанувагын, китыглахтанувагы̄н]
+    китыглахтуӈкве+V+Act+Cond+ScPl3+OcDu: китыглахтануваганыл
+
+#Active, conditional, objective conjugation, plural object
+    китыглахтуӈкве+V+Act+Cond+ScSg1+OcPl: китыглахтануванум
+    китыглахтуӈкве+V+Act+Cond+ScSg2+OcPl: китыглахтануванын
+    китыглахтуӈкве+V+Act+Cond+ScSg3+OcPl: китыглахтануванэ
+    китыглахтуӈкве+V+Act+Cond+ScDu1+OcPl: китыглахтануванме̄н
+    китыглахтуӈкве+V+Act+Cond+ScDu2+OcPl: [китыглахтануванын, китыглахтануваны̄н]
+    китыглахтуӈкве+V+Act+Cond+ScDu3+OcPl: китыглахтануванэ̄н
+    китыглахтуӈкве+V+Act+Cond+ScPl1+OcPl: китыглахтануванув
+    китыглахтуӈкве+V+Act+Cond+ScPl2+OcPl: [китыглахтануванын, китыглахтануваны̄н]
+    китыглахтуӈкве+V+Act+Cond+ScPl3+OcPl: китыглахтануваныл
+
+#Active, imperative, subjective conjugation
+    китыглахтуӈкве+V+Act+Imprt+ScSg2: китыглахтэн
+    китыглахтуӈкве+V+Act+Imprt+ScDu2: [китыглахтэн, китыглахтэ̄н]
+    китыглахтуӈкве+V+Act+Imprt+ScPl2: [китыглахтэн, китыглахтэ̄н]
+
+#Active, imperative,  objective conjugation, single object
+    китыглахтуӈкве+V+Act+Imprt+ScSg2+OcSg: [китыглахтэлн, китыглахтэ̄лн]
+    китыглахтуӈкве+V+Act+Imprt+ScDu2+OcSg: [китыглахтэлн, китыглахтэлы̄н]
+    китыглахтуӈкве+V+Act+Imprt+ScPl2+OcSg: [китыглахтэлн, китыглахтэлы̄н]
+
+#Active, imperative,  objective conjugation, dual object
+    китыглахтуӈкве+V+Act+Imprt+ScSg2+OcDu: [китыглахтэгын, китыглахтэ̄гн]
+    китыглахтуӈкве+V+Act+Imprt+ScDu2+OcDu: [китыглахтэгын, китыглахтэгы̄н]
+    китыглахтуӈкве+V+Act+Imprt+ScPl2+OcDu: [китыглахтэгын, китыглахтэгы̄н]
+
+#Active, imperative,  objective conjugation, plural object
+    китыглахтуӈкве+V+Act+Imprt+ScSg2+OcPl: [китыглахтэн, китыглахтэ̄н, китыглахтэ̄нын]
+    китыглахтуӈкве+V+Act+Imprt+ScDu2+OcPl: [китыглахтэн, китыглахтэ̄н, китыглахтэ̄нын]
+    китыглахтуӈкве+V+Act+Imprt+ScPl2+OcPl: [китыглахтэн, китыглахтэ̄н, китыглахтэ̄нын]
+
+#Passive, present tense, indicative
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScSg1: китыглахтавем
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScSg2: китыглахтавен
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScSg3: китыглахтаве
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScDu1: китыглахтавеме̄н
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScDu2: [китыглахтавен, китыглахтаве̄н]
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScDu3: китыглахтаве̄г
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScPl1: китыглахтаве̄в
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScPl2: [китыглахтавен, китыглахтаве̄н]
+    китыглахтуӈкве+V+Pass+Ind+Prs+ScPl3: китыглахтавет
+
+#Passive, past tense, indicative
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScSg1: китыглахтаве̄сум
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScSg2: китыглахтаве̄сын
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScSg3: [китыглахтавес, китыглахтаве̄с]
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScDu1: китыглахтавесаме̄н
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScDu2: [китыглахтавесын, китыглахтавесы̄н]
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScDu3: китыглахтавесы̄г
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScPl1: китыглахтавесув
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScPl2: [китыглахтавесын, китыглахтавесы̄н]
+    китыглахтуӈкве+V+Pass+Ind+Prt+ScPl3: китыглахтаве̄сыт
+
+#Passive, conditional
+    китыглахтуӈкве+V+Pass+Cond+ScSg1: китыглахтанувем
+    китыглахтуӈкве+V+Pass+Cond+ScSg2: китыглахтанувен
+    китыглахтуӈкве+V+Pass+Cond+ScSg3: китыглахтануве
+    китыглахтуӈкве+V+Pass+Cond+ScDu1: китыглахтанувеме̄н
+    китыглахтуӈкве+V+Pass+Cond+ScDu2: [китыглахтанувен, китыглахтануве̄н]
+    китыглахтуӈкве+V+Pass+Cond+ScDu3: китыглахтануве̄г
+    китыглахтуӈкве+V+Pass+Cond+ScPl1: китыглахтануве̄в
+    китыглахтуӈкве+V+Pass+Cond+ScPl2: [китыглахтанувен, китыглахтануве̄н]
+    китыглахтуӈкве+V+Pass+Cond+ScPl3: китыглахтанувет
+
+#Passive, imperative conjugation
+    китыглахтуӈкве+V+Pass+Imprt+Sg2: китыглахтавен
+    китыглахтуӈкве+V+Pass+Imprt+Du2: [китыглахтавен, китыглахтаве̄н]
+    китыглахтуӈкве+V+Pass+Imprt+Pl2: [китыглахтавен, китыглахтаве̄н]
+
+#Present participle
+    китыглахтуӈкве+V+PrsPrc: китыглахтанэ
+    китыглахтуӈкве+V+PrsPrc+ScSg1: китыглахтанэм
+    китыглахтуӈкве+V+PrsPrc+ScSg2: китыглахтанэн
+    китыглахтуӈкве+V+PrsPrc+ScSg3: китыглахтанэ̄тэ
+    китыглахтуӈкве+V+PrsPrc+ScDu1: китыглахтанэме̄н
+    китыглахтуӈкве+V+PrsPrc+ScDu2: [китыглахтанэн, китыглахтанэ̄н]
+    китыглахтуӈкве+V+PrsPrc+ScDu3: китыглахтанэтэ̄н
+    китыглахтуӈкве+V+PrsPrc+ScPl1: [китыглахтанэв, китыглахтанэ̄в]
+    китыглахтуӈкве+V+PrsPrc+ScPl2: [китыглахтанэн, китыглахтанэ̄н]
+    китыглахтуӈкве+V+PrsPrc+ScPl3: китыглахтанэныл
+
+#Present participle, single object
+    китыглахтуӈкве+V+PrsPrc+ScSg1+OcSg: китыглахтанэ̄лум
+    китыглахтуӈкве+V+PrsPrc+ScSg2+OcSg: китыглахтанэ̄лын
+    китыглахтуӈкве+V+PrsPrc+ScSg3+OcSg: китыглахтанэ̄тэ
+    китыглахтуӈкве+V+PrsPrc+ScDu1+OcSg: китыглахтанэламе̄н
+    китыглахтуӈкве+V+PrsPrc+ScDu2+OcSg: [китыглахтанэ̄лын, китыглахтанэлы̄н]
+    китыглахтуӈкве+V+PrsPrc+ScDu3+OcSg: китыглахтанэтэ̄н
+    китыглахтуӈкве+V+PrsPrc+ScPl1+OcSg: китыглахтанэлув
+    китыглахтуӈкве+V+PrsPrc+ScPl2+OcSg: [китыглахтанэ̄лын, китыглахтанэлы̄н]
+    китыглахтуӈкве+V+PrsPrc+ScPl3+OcSg: китыглахтанэ̄ныл
+
+#Present participle, dual object
+    китыглахтуӈкве+V+PrsPrc+ScSg1+OcDu: китыглахтанэ̄гум
+    китыглахтуӈкве+V+PrsPrc+ScSg2+OcDu: китыглахтанэ̄гын
+    китыглахтуӈкве+V+PrsPrc+ScSg3+OcDu: китыглахтанэ̄ге
+    китыглахтуӈкве+V+PrsPrc+ScDu1+OcDu: китыглахтанэгаме̄н
+    китыглахтуӈкве+V+PrsPrc+ScDu2+OcDu: [китыглахтанэ̄гын, китыглахтанэгы̄н]
+    китыглахтуӈкве+V+PrsPrc+ScDu3+OcDu: китыглахтанэге̄н
+    китыглахтуӈкве+V+PrsPrc+ScPl1+OcDu: китыглахтанэгув
+    китыглахтуӈкве+V+PrsPrc+ScPl2+OcDu: [китыглахтанэ̄гын, китыглахтанэгагы̄н]
+    китыглахтуӈкве+V+PrsPrc+ScPl3+OcDu: китыглахтанэганыл
+
+#Present participle, plural object
+    китыглахтуӈкве+V+PrsPrc+ScSg1+OcPl: китыглахтанэ̄нум
+    китыглахтуӈкве+V+PrsPrc+ScSg2+OcPl: [китыглахтанэ̄нын, китыглахтанэ̄н]
+    китыглахтуӈкве+V+PrsPrc+ScSg3+OcPl: китыглахтанэ̄нэ
+    китыглахтуӈкве+V+PrsPrc+ScDu1+OcPl: [китыглахтанэнаме̄н, китыглахтанэнанме̄н]
+    китыглахтуӈкве+V+PrsPrc+ScDu2+OcPl: [китыглахтанэны̄н, китыглахтанэныны̄н, китыглахтанэнаны̄н] 
+    китыглахтуӈкве+V+PrsPrc+ScDu3+OcPl: [китыглахтанэнэ̄н, китыглахтанэнанэ̄н]
+    китыглахтуӈкве+V+PrsPrc+ScPl1+OcPl: [китыглахтанэнув, китыглахтанэнанув]
+    китыглахтуӈкве+V+PrsPrc+ScPl2+OcPl: [китыглахтанэны̄н, китыглахтанэнаны̄н]
+    китыглахтуӈкве+V+PrsPrc+ScPl3+OcPl: [китыглахтанэ̄ныл, китыглахтанэ̄наныл]
+
+#Past participle
+    китыглахтуӈкве+V+PrfPrc: китыглахтам
+    китыглахтуӈкве+V+PrfPrc+ScSg1: китыглахтамум
+    китыглахтуӈкве+V+PrfPrc+ScSg2: китыглахтамын
+    китыглахтуӈкве+V+PrfPrc+ScSg3: китыглахтаме 
+    китыглахтуӈкве+V+PrfPrc+ScDu1: китыглахтамуме̄н
+    китыглахтуӈкве+V+PrfPrc+ScDu2: [китыглахтамын, китыглахтамы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScDu3: китыглахтамыг
+    китыглахтуӈкве+V+PrfPrc+ScPl1: китыглахтамув
+    китыглахтуӈкве+V+PrfPrc+ScPl2: [китыглахтамын, китыглахтамы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScPl3: китыглахтамыт
+
+#Past participle, single object
+    китыглахтуӈкве+V+PrfPrc+ScSg1+OcSg: китыглахтамлум
+    китыглахтуӈкве+V+PrfPrc+ScSg2+OcSg: китыглахтамлын
+    китыглахтуӈкве+V+PrfPrc+ScSg3+OcSg: китыглахтамтэ
+    китыглахтуӈкве+V+PrfPrc+ScDu1+OcSg: китыглахтамламе̄н
+    китыглахтуӈкве+V+PrfPrc+ScDu2+OcSg: [китыглахтамлын, китыглахтамлы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScDu3+OcSg: китыглахтамтэ̄н
+    китыглахтуӈкве+V+PrfPrc+ScPl1+OcSg: китыглахтамлув
+    китыглахтуӈкве+V+PrfPrc+ScPl2+OcSg: [китыглахтамлын, китыглахтамлы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScPl3+OcSg: китыглахтаманыл
+
+#Past participle, dual object
+    китыглахтуӈкве+V+PrfPrc+ScSg1+OcDu: китыглахтамагум
+    китыглахтуӈкве+V+PrfPrc+ScSg2+OcDu: китыглахтамагын
+    китыглахтуӈкве+V+PrfPrc+ScSg3+OcDu: китыглахтамаге
+    китыглахтуӈкве+V+PrfPrc+ScDu1+OcDu: [китыглахтамагаме̄н, китыглахтамагагме̄н]
+    китыглахтуӈкве+V+PrfPrc+ScDu2+OcDu: [китыглахтамагы̄н, китыглахтамагагы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScDu3+OcDu: [китыглахтамагы̄н, китыглахтамагагы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScPl1+OcDu: [китыглахтамагув, китыглахтамвгӯв]
+    китыглахтуӈкве+V+PrfPrc+ScPl2+OcDu: [китыглахтамагы̄н, китыглахтамагагы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScPl3+OcDu: [китыглахтамагагыл, китыглахтамагаганыл]
+
+#Past participle, plural object
+    китыглахтуӈкве+V+PrfPrc+ScSg1+OcPl: [китыглахтаманум, китыглахтамананум]
+    китыглахтуӈкве+V+PrfPrc+ScSg2+OcPl: [китыглахтаман, китыглахтама̄нын]
+    китыглахтуӈкве+V+PrfPrc+ScSg3+OcPl: [китыглахтама̄нэ, китыглахтамана̄нэ]
+    китыглахтуӈкве+V+PrfPrc+ScDu1+OcPl: [китыглахтаманаме̄н, китыглахтамананме̄н]
+    китыглахтуӈкве+V+PrfPrc+ScDu2+OcPl: [китыглахтаманн, китыглахтаманы̄н, китыглахтамананы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScDu3+OcPl: [китыглахтаманэ̄н, китыглахтамананэ̄н]
+    китыглахтуӈкве+V+PrfPrc+ScPl1+OcPl: [китыглахтаманув, китыглахтамананув]
+    китыглахтуӈкве+V+PrfPrc+ScPl2+OcPl: [китыглахтаманы̄н, китыглахтамананы̄н]
+    китыглахтуӈкве+V+PrfPrc+ScPl3+OcPl: [китыглахтама̄ныл, китыглахтамана̄ныл]
+
+#Gerund
+    китыглахтуӈкве+V+Ger: китыглахтым
+    китыглахтуӈкве+V+PrsPrc+PxSg1: китыглахтымам
+    китыглахтуӈкве+V+PrsPrc+PxSg2: китыглахтыман
+    китыглахтуӈкве+V+PrsPrc+PxSg3: китыглахтыма
+    китыглахтуӈкве+V+PrsPrc+PxDu1: китыглахтымаме̄н
+    китыглахтуӈкве+V+PrsPrc+PxDu2: [китыглахтыман, китыглахтыман]
+    китыглахтуӈкве+V+PrsPrc+PxDu3: китыглахтнсымаг
+    китыглахтуӈкве+V+PrsPrc+PxPl1: китыглахтымав
+    китыглахтуӈкве+V+PrsPrc+PxPl2: [китыглахтыман, китыглахтыман]
+    китыглахтуӈкве+V+PrsPrc+PxPl3: китыглахтымат
+
+#Privative
+    китыглахтуӈкве+V+Ger: рӯпаттал
