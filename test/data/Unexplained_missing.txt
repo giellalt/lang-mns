@@ -337,6 +337,7 @@ In her article (Many people came to celebrate the jubilee of our Mansi newspaper
 щире̄тыл
 ка̄сыӈъе̄мт
 наме̄тыл	TBS нам+N+Sg+Ins+PxSg3 I know it doesn't fit the yaml file, I have to do some research
+те̄ранак
 
 
 ня̄рмис% во̄й+N:ня̄рмис% во̄й N_VCH "сметана" ;
@@ -443,4 +444,6 @@ In her article (Many people came to celebrate the jubilee of our Mansi newspaper
 а̄кар овчарка
 
 хахыт моль
+
+
 
