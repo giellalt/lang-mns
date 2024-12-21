@@ -12,10 +12,10 @@
 !! ### Alphabet
 Alphabet
 !! Basic letters:
-а б в г д е ё ж з и й к л м н о п р с т  !!≈ * **@CODE@** 
-у ф х ц ч ш щ ъ ы ь э ю я ӈ			     !!≈ * **@CODE@** 
-А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т  !!≈ * **@CODE@** 
-У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ			     !!≈ * **@CODE@** 
+а б в г д е ё ж з и й к л м н о п р с т    !!≈ * **@CODE@** 
+у ф х ц ч ш щ ъ ы ь э ю я ӈ                !!≈ * **@CODE@** 
+А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т    !!≈ * **@CODE@** 
+У Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я Ӈ                !!≈ * **@CODE@** 
 
 !! Letters with diacritical marks:
 !! Precomposed letters are used when available, otherwise non-composed ones.
@@ -28,48 +28,48 @@ Alphabet
 
 !! #### Archiphones
 
-%{аяØ%}:0	!!≈ * **@CODE@** PxPl3 %{аяØ%}ныл
-%{ыиØ%}:0	!!≈ * **@CODE@** Loc and Ins and ...
-%{уюØ%}:0	!!≈ * **@CODE@** suffix onset vowel
-%{ЫИ%}:и	!!≈ * **@CODE@**
-%{ЫИ%}:ы	!!≈ * **@CODE@**
-%{аяLong%}:а̄	!!≈ * **@CODE@** ScPl3+OcSg %{аяLong%}ныл
-%{ЭЕLong%}:е̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
-%{ЭЕLong%}:э̄	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1
-!%{ЭЕLong%}:е	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
-!%{ЭЕLong%}:э	!!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
-%{ЭЕ%}:е	!!≈ * **@CODE@** PxSg3
-%{ЭЕ%}:э	!!≈ * **@CODE@** PxSg3
-%{УЮØ%}:0	!!≈ * **@CODE@**
-%{йØ%}:0	!!≈ * **@CODE@** ыг
-%{Øы%}:0	!!≈ * **@CODE@** Loc
-%{ыØ%}:ы	!!≈ * **@CODE@** specific floating vowel 
-%{иØ%}:и	!!≈ * **@CODE@** specific floating vowel 
-%{уØ%}:у	!!≈ * **@CODE@** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
-%{тØ%}:0	!!≈ * **@CODE@** PxSg3, Ins
+%{аяØ%}:0     !!≈ * **@CODE@** PxPl3 %{аяØ%}ныл
+%{ыиØ%}:0     !!≈ * **@CODE@** Loc and Ins and ...
+%{уюØ%}:0     !!≈ * **@CODE@** suffix onset vowel
+%{ЫИ%}:и      !!≈ * **@CODE@**
+%{ЫИ%}:ы      !!≈ * **@CODE@**
+%{аяLong%}:а̄  !!≈ * **@CODE@** ScPl3+OcSg %{аяLong%}ныл
+%{ЭЕLong%}:е̄  !!≈ * **@CODE@** +V+Ind+Prs+ScSg1
+%{ЭЕLong%}:э̄  !!≈ * **@CODE@** +V+Ind+Prs+ScSg1
+!%{ЭЕLong%}:е !!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
+!%{ЭЕLong%}:э !!≈ * **@CODE@** +V+Ind+Prs+ScSg1 VU
+%{ЭЕ%}:е      !!≈ * **@CODE@** PxSg3
+%{ЭЕ%}:э      !!≈ * **@CODE@** PxSg3
+%{УЮØ%}:0     !!≈ * **@CODE@**
+%{йØ%}:0      !!≈ * **@CODE@** ыг
+%{Øы%}:0    !!≈ * **@CODE@** Loc
+%{ыØ%}:ы    !!≈ * **@CODE@** specific floating vowel 
+%{иØ%}:и    !!≈ * **@CODE@** specific floating vowel 
+%{уØ%}:у    !!≈ * **@CODE@** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
+%{тØ%}:0    !!≈ * **@CODE@** PxSg3, Ins
 
 
 
 !! #### Triggers
-%{VO%}:0	!!≈ __@CODE@__ Stem ending in vowel other than и ы
-%{VI%}:0	!!≈ __@CODE@__ Stem ending in vowel и or ы
-%{SYNCH%}:0	!!≈ __@CODE@__ Stem with syncope with и, ы, у hard
-%{SYNCS%}:0	!!≈ __@CODE@__ Stem with syncope with и, ы, у soft
-%{NOSYNCH%}:0	!!≈ __@CODE@__ Stem without syncope with и, ы, у hard
-%{NOSYNCS%}:0	!!≈ __@CODE@__ Stem without syncope with и, ы, у soft
-%{VCH%}:0	!!≈ __@CODE@__ Stem ending in single hard consonant
-%{VCCH%}:0	!!≈ __@CODE@__ Stem ending in hard consonant cluster
-%{VCS%}:0	!!≈ __@CODE@__ Stem ending in single soft consonant
-%{VCCS%}:0	!!≈ __@CODE@__ Stem ending in soft consonant cluster
+%{VO%}:0    !!≈ __@CODE@__ Stem ending in vowel other than и ы
+%{VI%}:0    !!≈ __@CODE@__ Stem ending in vowel и or ы
+%{SYNCH%}:0    !!≈ __@CODE@__ Stem with syncope with и, ы, у hard
+%{SYNCS%}:0    !!≈ __@CODE@__ Stem with syncope with и, ы, у soft
+%{NOSYNCH%}:0    !!≈ __@CODE@__ Stem without syncope with и, ы, у hard
+%{NOSYNCS%}:0    !!≈ __@CODE@__ Stem without syncope with и, ы, у soft
+%{VCH%}:0    !!≈ __@CODE@__ Stem ending in single hard consonant
+%{VCCH%}:0    !!≈ __@CODE@__ Stem ending in hard consonant cluster
+%{VCS%}:0    !!≈ __@CODE@__ Stem ending in single soft consonant
+%{VCCS%}:0    !!≈ __@CODE@__ Stem ending in soft consonant cluster
 
-%{VA%}:0	!!≈ __@CODE@__ -аӈкве verb
-%{VU%}:0	!!≈ __@CODE@__ -уӈкве verb
+%{VA%}:0    !!≈ __@CODE@__ -аӈкве verb
+%{VU%}:0    !!≈ __@CODE@__ -уӈкве verb
 
-%^PxDu2:0	!!≈ * **@CODE@**
-%^PxDu3:0	!!≈ * **@CODE@**
-%^PxPl2:0	!!≈ * **@CODE@**
-%^RmVow:0	!!≈ * **@CODE@** Word-final vowel removal
-%^Syncope:0	!!≈ * **@CODE@** This triggers syncope with no reason to place special letters in the stem.
+%^PxDu2:0    !!≈ * **@CODE@**
+%^PxDu3:0    !!≈ * **@CODE@**
+%^PxPl2:0    !!≈ * **@CODE@**
+%^RmVow:0    !!≈ * **@CODE@** Word-final vowel removal
+%^Syncope:0    !!≈ * **@CODE@** This triggers syncope with no reason to place special letters in the stem.
 
 !! #### Literal quotes and angles
 !! These must be escaped (cf morpheme boundaries below):
@@ -99,13 +99,13 @@ Alphabet
 !! ### Sets
 Sets
 
- Vow = а е и о у ы э ю я			   !!≈ * **@CODE@**
-       А Е И О У Ы Э Ю Я			   !!≈  **@CODE@**
-       а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄	   !!≈  **@CODE@**
+ Vow = а е и о у ы э ю я               !!≈ * **@CODE@**
+       А Е И О У Ы Э Ю Я               !!≈  **@CODE@**
+       а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄       !!≈  **@CODE@**
        А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;  !!≈  **@CODE@**
- VowNoI = а е   о у э ю я				   !!≈ * **@CODE@**
-          А Е   О У Э Ю Я				   !!≈  **@CODE@**
-          а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄	   !!≈  **@CODE@**
+ VowNoI = а е   о у э ю я                   !!≈ * **@CODE@**
+          А Е   О У Э Ю Я                   !!≈  **@CODE@**
+          а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄       !!≈  **@CODE@**
           А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;   !!≈  **@CODE@**
   PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ;  !!≈ * **@CODE@**
 SVow = а е ё и о у ы э ю я ; !!≈ * **@CODE@**
@@ -133,15 +133,18 @@ PostSyncStem  =  :Cns   ;  !!≈ * **@CODE@**
 !! ## Rules
 Rules
 
+
+!! ### Syncope rules
+
 "Syncope for ы"
 !! **RULE: @RULENAME@**  
- ы:0 <=> Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы: [т|н|г|л|ӈ]|ы̄:|а|э|%{аяØ%}:|%{уюØ%}:|(%{тØ%}:) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
-  %{VA%}: %> %{аяØ%}: %> _ ;
-  [%{VI%}:]  %> _ [т|л] ; !Plural
-  ы [%{VI%}:]  %> _ [н] ; ! PxSg2
-  [%{VO%}:]  %> _ [г|т|л|н|м] ; !Pl, Tra, Du,PxPl2
- Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %>  %{ыиØ%}: т ; !Loc
-  [э̄|а̄|ы|и] (%{VU%}:) %> _ ;
+ ы:0 <=>           Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %> [ы: [т|н|г|л|ӈ]|ы̄:|а|э|%{аяØ%}:|%{уюØ%}:|(%{тØ%}:) [%{ЭЕ%}:|%{ЭЕLong%}:]] ;
+%{VA%}: %> %{аяØ%}: %> _ ;
+         [%{VI%}:]  %> _ [т|л] ; !Plural
+       ы [%{VI%}:]  %> _ [н] ; ! PxSg2
+         [%{VO%}:]  %> _ [г|т|л|н|м] ; !Pl, Tra, Du,PxPl2
+                   Cns _ (Cns) [Cns - й] [%{SYNCH%}:|%{SYNCS%}:] %>  %{ыиØ%}: т ; !Loc
+[э̄|а̄|ы|и] (%{VU%}:) %> _ ;
 
 !ё х т ы {VU}:0 > ы:0 с
 
@@ -184,7 +187,9 @@ Rules
 !!€ яныг{SYNCH}>{ыиØ}т
 !!€ ян0г0>ыт
 
-!! vowel lengthening
+
+!! ### Vowel lengthening rules
+
 "a becomes long"
 !! **RULE: @RULENAME@**
  а:а̄ <=> _ %{VO%}: %> ы̄: ; 
@@ -231,6 +236,9 @@ Rules
 !! аки+N+Sg+Tra: __as an uncle__
 !!€ аки{VI}>{йØ}{ыиØ}г
 !!€ аки0>0иг
+
+
+!! ### Rules for ы/и/ь in different contexts
 
 !%{ыиØ%}:0
 "Vow ы in loc appears"
@@ -362,6 +370,7 @@ Rules
 !!€ пав0л0>ыт
 
 
+!! ### Stem vowel rules
 
 "%{аяØ%}:0"
 !! __@RULENAME@__ deletes а/я after VO vowel stems
@@ -422,6 +431,8 @@ Rules
 !!€ кӯщай{VCS}>{уюØ}в
 !!€ кӯща00>юв
 
+!! ### Suffix vowel lengthening
+
 "%{аяLong%}:а̄"
 !! __@RULENAME@__
 %{аяLong%}:а̄ <=>  [ Cns (%{SYNCH%}:|%{NOSYNCH%}:|%{VCH%}:|%{VCCH%}:)| г] %> _ ;
@@ -476,7 +487,7 @@ Rules
 !! __@RULENAME@__
  %{ЭЕ%}:е <=> [ CnsSoft | р | CnsNonAlv | ь: | й:] [%{VU%}:|%{VA%}:] %>  _  ;
  [ [р| CnsNonAlv] [%{VCH%}:|%{VCCH%}:|%{SYNCH%}:] |Pal| %{SYNCS%}:] %> (%{тØ%}:) _  ;
-             	     а̄ %>  _ ;
+                      а̄ %>  _ ;
 !!€ ха̄ль%>%{тØ%}%{ЭЕ%}
 !!€ ха̄л0%>0е
 !!€ потыр%^Syncope%>%{тØ%}%{ЭЕ%}
@@ -497,7 +508,8 @@ Rules
 !! __@RULENAME@__
  %{ЫИ%}:и <=> [ CnsSoft | р | CnsNonAlv | ь: | й: ] [%{VU%}:|%{VA%}:] %>  _  ;
 
-!! ### CONSONANTS
+!! ### Consonant rules
+
 "й:0"
 !! __@RULENAME@__
  й:0 <=> _ [%{VCS%}:| %{VU%}: | %{VA%}: ] %> [%{ЫИ%}:|%{ыиØ%}:|%{ЭЕ%}:|%{ЭЕLong%}:| ы: |%{уюØ%}:|%{аяØ%}:] ; 
