@@ -7,21 +7,21 @@
   73 финноугор    typo S
   68 хо̄нтлам    TBS хо̄нтлуӈкве+V+PrfPrc >S
   64 палтум    TBS палт+Po+PxSg1 as in Postpositions_with_PX file >S
-  61 ма̄ньполь    TBS always with э̄тпос, never alone
-  53 о̄ньщис    TBS о̄ньщуӈкве+V+Act+Ind+Prt+ScSg3
+  61 ма̄ньполь    TBS always with э̄тпос, never alone >S
+  53 о̄ньщис    TBS о̄ньщуӈкве+V+Act+Ind+Prt+ScSg3 >S
   52 о̄йттур    S
-  48 потырта̄лыс   TBS потырта̄луӈкве+V+Act+Ind+Prt+ScSg3
-  46 номылматас    TBS номылматуӈкве+V+Act+Ind+Prt+ScSg3
+  48 потырта̄лыс   TBS потырта̄луӈкве+V+Act+Ind+Prt+ScSg3 >S
+  46 номылматас    TBS номылматуӈкве+V+Act+Ind+Prt+ScSg3 >S
   43 областьт    TBS область+N+Sg+Lat
   43 намыӈсуиӈ    typo намыӈ-суиӈ
   41 та̄рапатыс  typo S  
   41 о̄вылтахтаме   TBS о̄вылтахтуӈкве+V+PrfPrc+ScSg3 ! I've corrected a typo in the yaml file (both a verbs and u verbs) >S
   41 акван-атыгласанэ   TBS акван-атыглаӈкве+V+Act+Ind+Prt+ScSg3+OcPl >S
   40 ёмщакве̄г    TBS ёмщакв+Adv+Tra
-  39 Ма̄ньполь    TBS always with э̄тпос, never alone
+  39 Ма̄ньполь    TBS always with э̄тпос, never alone >S
   37 та̄рапаттын    TBS та̄рапаттуӈкве+V+PrsPrc >S
   36 хо̄нтлан    TBS хо̄нтлаӈкве+V+PrsPrc > S
-  36 пӯсвес    TBS пӯнсуӈкве+V+Pass+Ind+Prt+ScSg3 ! But this is something new. Nasal-drop is known to happen in active past, but I've never heard passive past mentioned.
+  36 пӯсвес    TBS пӯнсуӈкве+V+Pass+Ind+Prt+ScSg3 ! But this is something new. Nasal-drop is known to happen in active past, but I've never heard passive past mentioned. 
   36 ла̄щалла̄щал	typo S    
   35 хумиюв    TBS хум+N+Sg+Nom+PxPl1
   35 А̄сугорский  typo S  
