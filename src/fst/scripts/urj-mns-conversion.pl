@@ -63,6 +63,7 @@ while(<>) {
 	s/ PROP_KIT_PLC/ N_VCH/g ;
 	s/ PROP_KAL_PLC/ N_VCH/g ;
 	s/ PROP_KUDO_PLC/ N_VO/g ;
+	s/([0-9]|[a-zA-Z])\ PROP_KAL\ /$1\ ARABICCASES\ /g; #!proper names ending in Arabic numerals or Latin letters 2024-12-21 Pokémon
 	s/ PROP_KIT_SUR/ N_VCH/g ;
         s/(о|а|я|ё|у|ю|и|ы|е|э|О|А|Я|Ё|У|Ю|И|Ы|Е|Э)(б|в|г|д|ж|з|к|л|м|н|п|р|с|т|ф|х|ц|ч|ш) (PROP_OSH_PLC)/$1$2 N_VCH/g ;
 	s/(о|а|я|ё|у|ю|и|ы|е|э|О|А|Я|Ё|У|Ю|И|Ы|Е|Э)(щ) (PROP-PLC_OSH)/$1$2 N_VCS/g ;
