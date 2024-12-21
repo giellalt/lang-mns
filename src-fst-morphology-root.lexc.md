@@ -63,13 +63,15 @@ language are presented in this system in terms of the following symbols.
 ### The nominals are inflected in the following Case and Number
 * **+Sg +Du +Pl** 
 * **+Nom** 
-* **+Acc** 
+* **+Acc**
+* **+Comp** нув in "арге̄н" Adv+Comp аргеннув
 * **+Abl** ныл
 * **+Ins** тыл
 * **+Instr** 
 * **+Lat** Ын (2007: Дательный падеж)
 * **+Loc** Ыт
 * **+Tra** Ыг
+* **+Gen**
 
 * **+Dat** Dative
 * **+Ela** Elative
