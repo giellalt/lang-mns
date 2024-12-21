@@ -508,7 +508,8 @@ LEXICON V_Y/UBA !!≈ @CODE@
 +Der+Der/Ap+N:%>ап N_VCH ;
 :%{VU%} ACT_IND_PRS_VA ;
 :%{VU%} ACT_IMPRT ;
-:%{VA%}%>%{аяØ%} ACT_IND_PRT_SC_VA ;
+!:%{VA%}%>%{аяØ%} ACT_IND_PRT_SC_VA ; 2024-12-21
+:%{VA%} ACT_IND_PRT_SC_VA ; !2024-12-21
 
 :%{VA%}%>%{аяØ%} V11_MUTUAL_PASS ;
 :%{VA%}%>%{аяØ%} V11_MUTUAL_IND_PRT_OC3 ;
