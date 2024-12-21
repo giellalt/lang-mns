@@ -104,14 +104,16 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
 !! ### The nominals are inflected in the following Case and Number
  +Sg +Du +Pl !!≈ * **@CODE@** 
  +Nom  !!≈ * **@CODE@** 
- +Acc !!≈ * **@CODE@** 
+ +Acc !!≈ * **@CODE@**
+ +Comp !!≈ * **@CODE@** нув in "арге̄н" Adv+Comp аргеннув
  +Abl !!≈ * **@CODE@** ныл
  +Ins   !!≈ * **@CODE@** тыл
  +Instr !!≈ * **@CODE@** 
  +Lat !!≈ * **@CODE@** Ын (2007: Дательный падеж)
  +Loc !!≈ * **@CODE@** Ыт
  +Tra !!≈ * **@CODE@** Ыг
-
+!  this is for dealing with Russian cases
+ +Gen !!≈ * **@CODE@**
 
 +Dat !!≈ * **@CODE@** Dative
 +Ela !!≈ * **@CODE@** Elative
