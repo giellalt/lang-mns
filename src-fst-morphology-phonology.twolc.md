@@ -89,15 +89,15 @@ End of alphabet definitions
 
 * **Vow = а е и о у ы э ю я**
  **А Е И О У Ы Э Ю Я**
- **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
- **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
+ **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
+ **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
 * **VowNoI = а е о у э ю я**
  **А Е О У Э Ю Я**
- **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
- **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
+ **а̄ е̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ё̄**
+ **А̄ Е̄ Ӣ О̄ Ӯ Ы̄ Э̄ Ю̄ Я̄ Ё̄ ;**
 * **PalVow = е ё и ю я е̄ ӣ ю̄ я̄ ё̄ ;**
 * **SVow = а е ё и о у ы э ю я ;**
-* **LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ;**
+* **LVow = а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ ;**
 * **CnsSoft = щ Щ ;**
 * **CnsNonAlv = б в г ж к м п ф х ц ч ш ӈ**
  **Б В Г Ж К М П Ф Х Ц Ч Ш Ӈ ;**
@@ -112,6 +112,8 @@ End of alphabet definitions
 * **PostSyncStem = :Cns ;** 
 
 ## Rules
+
+### Syncope rules
 
 **RULE: Syncope for ы**  
 
@@ -148,7 +150,8 @@ End of alphabet definitions
 * *яныг{SYNCH}>{ыиØ}т*
 * *ян0г0>ыт*
 
-vowel lengthening
+### Vowel lengthening rules
+
 **RULE: a becomes long**
 
 **RULE: ja becomes long**
@@ -178,6 +181,8 @@ vowel lengthening
 аки+N+Sg+Tra: __as an uncle__
 * *аки{VI}>{йØ}{ыиØ}г*
 * *аки0>0иг*
+
+### Rules for ы/и/ь in different contexts
 
 павыл+N+Sg+Loc:
 * *павыл{SYNCH}>{ыиØ}т*
@@ -243,6 +248,8 @@ XX+V+Inf: ****
 * *павыл{SYNCH}>ыт*
 * *пав0л0>ыт*
 
+### Stem vowel rules
+
 __%{аяØ%}:0__ deletes а/я after VO vowel stems
 
 __%{аяØ%}:а__
@@ -270,6 +277,8 @@ __%{уюØ%}:ю__
 кӯщай+N+Sg+Nom+PxPl1:
 * *кӯщай{VCS}>{уюØ}в*
 * *кӯща00>юв*
+
+### Suffix vowel lengthening
 
 __%{аяLong%}:а̄__
 
@@ -304,7 +313,8 @@ tотуӈкве+V+Ind+Prs+ScPl1+OcSg:
 
 __%{ЫИ%}:и__
 
-### CONSONANTS
+### Consonant rules
+
 __й:0__
 коюӈкве+V+Inf: ****
 * *кой{VU}>{уюØ}ӈкве*
@@ -332,6 +342,9 @@ __й:0__
 хансуӈкве+V+PrsPrc: __write/kirjoittaa__
 * *ханс{VU}>нэ*
 * *ха0с0>нэ*
+пӯнсуӈкве+V+Pass+Ind+Prt+ScSg3: __/__
+* *пӯнс{VU}>вес*
+* *пӯ0с0>вес*
 
 таӈхуӈкве+V+Act+Ind+Prt+ScSg1: ____
 * *таӈх{VU}>сум*
