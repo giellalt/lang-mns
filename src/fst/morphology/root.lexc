@@ -95,6 +95,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Use/NG 	    !!≈ * **@CODE@** do not generate, but accept
  +Use/-Spell 	    !!≈ * **@CODE@** do not use in speller 
  +Use/SpellNoSugg  !!≈ * **@CODE@** recognized but not suggested in speller
+ +Use/GC           !!≈ * **@CODE@** – **only** retained in the HFST Grammar Checker disambiguation analyser
 
 !! ## Dialect tags:
 ! There will be 4 dialects
