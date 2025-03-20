@@ -56,6 +56,7 @@ language are presented in this system in terms of the following symbols.
 * **+Use/NG** do not generate, but accept
 * **+Use/-Spell** do not use in speller 
 * **+Use/SpellNoSugg** recognized but not suggested in speller
+* **+Use/GC** – **only** retained in the HFST Grammar Checker disambiguation analyser
 
 ## Dialect tags:
 * **+Dial/-SOSV** forms not in use in SOSV (Sosva)
