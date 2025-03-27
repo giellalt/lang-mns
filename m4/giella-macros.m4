@@ -982,16 +982,16 @@ gt_USE_SHARED([$1])
 THIS_TOP_SRC_DIR=$BUILD_DIR_PATH/$MYSRCDIR
 _gt_shared_$1_min_version=$4
 _gt_pkg_name=m4_default([$3], [$2])
-AC_MSG_CHECKING([whether shared-$1 is at least $_gt_shared_$1_min_version])
 AS_IF([test -d "$THIS_TOP_SRC_DIR"/../$2],
-      [AS_IF([pkg-config --atleast-version=$_gt_shared_$1_min_version --with-path="$THIS_TOP_SRC_DIR/"../$2 $_gt_pkg_name],
-             [AC_MSG_RESULT([yes])],
-             [AC_MSG_RESULT([no])
-              AC_MSG_ERROR([$2 needs to be updated, cd ../$1 and git pull and build])])],
-      [AS_IF([pkg-config --atleast-version=$_gt_shared_$1_min_version $_gt_pkg_name],
-             [AC_MSG_RESULT([yes])],
-             [AC_MSG_RESULT([no])
-              AC_MSG_ERROR([$3 needs to be updated and installed])])])
+      [flub=$PKG_CONFIG_PATH
+       export PKG_CONFIG_PATH=$THIS_TOP_SRC_DIR/../$2:$PKG_CONFIG_PATH
+       PKG_CHECK_MODULES([SHARED_STUFF], [$_gt_pkg_name >= $_gt_shared_$1_min_version],
+             [AC_MSG_NOTICE([NB using $2 in $THIS_TOP_SRC_DIR/../$2])],
+             [AC_MSG_ERROR([$2 needs to be updated, cd ../$2 and git pull and build])])
+       export PKG_CONFIG_PATH=$flub],
+      [PKG_CHECK_MODULES([SHARED_STUFF], [$_gt_pkg_name >= $_gt_shared_$1_min_version],
+             [AC_MSG_RESULT([NB using system $2])],
+             [AC_MSG_ERROR([$3 needs to be updated and installed])])])
 ]) # gt_NEED_SHARED
 
 ################################################################################
@@ -1103,18 +1103,27 @@ cd $gt_SHARED_FAILS
 ./autogen.sh && ./configure && make])])
 AS_IF([test "x$gt_need_gnu_make" = xyes],
       [tput setaf 1
-       AC_MSG_WARN([GNU make 4+ will be required to build giellalt from now on (Feb 2025):
+       AC_MSG_ERROR([GNU make 4+ is required to build giellalt:
 
-if you are using a MacOS do:
+if you are using a MacOS and homebrew do:
     brew install make
 and setup following the instructions given or at https://formulae.brew.sh/formula/make:
     PATH="\$HOMEBREW_PREFIX/opt/make/libexec/gnubin:\$PATH"
 into your .zshrc or .bashrc.
+
+if you are using a MacOS and macports do:
+    sudo port install gmake
+and setup following instructions given:
+    PATH="/opt/local/libexec/gnubin:\$PATH"
 See https://github.com/giellalt/giella-core/issues/79 for background and further instructions
 
-If you see this message it means that we have detected old GNU make or apple’s
-make on your system and you will need to fix this or the make will likely fail.
-also this message will be turned into fatal error soon...
+If you updated gnu make but still get this error–the PATH setting has probably not worked;
+    make --version
+should print something like:
+    GNU Make 4.4.1
+if it shows you:
+    GNU Make 3.81
+it means that it uses Apple's make version. (sometimes restart after changing zshrc or bashrc can help)
 ])
        tput sgr0])
 ]) # gt_PRINT_FOOTER
