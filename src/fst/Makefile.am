@@ -83,6 +83,7 @@ endif # CAN_FOMA
 		 $(AM_V_HPRUNE)$(HFST_PRUNE_ALPHABET) -i $@.tmp -o $@
 		 $(AM_V_at)rm -f $@.tmp
 
+# Foma version:
 .generated/analyser-raw-gt-desc.%: .generated/analyser-raw-gt-desc.tmp.% \
 					orthography/split-composed-chars.compose.%
 	$(AM_V_XFST_TOOL)$(PRINTF) "read regex            \
