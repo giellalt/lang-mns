@@ -1298,7 +1298,7 @@ language are presented in this system in terms of the following symbols.
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 
 ### Special symbols are classified with:
-* **+CLB +PUNCT +LEFT +RIGHT**
+* **+CLB +PUNCT +LEFT +RIGHT +MIDDLE**
 * **+CLBfinal** Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
 * **+Multi** multiword units
