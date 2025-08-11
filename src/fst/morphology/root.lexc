@@ -182,7 +182,7 @@ Multichar_Symbols  !!≈ # **@CODE@**definitions
  +Symbol !!≈ * **@CODE@** = independent symbols in the text stream, like £, €, ©
 
 !! ### Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT  !!≈ * **@CODE@**
++CLB +PUNCT +LEFT +RIGHT +MIDDLE  !!≈ * **@CODE@**
  +CLBfinal !!≈ * **@CODE@** Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
 +Multi  !!≈ * **@CODE@** multiword units
