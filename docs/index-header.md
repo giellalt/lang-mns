@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-mns)](https://github.com/giellalt/lang-mns/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-mns?label=CI)](https://builds.giellalt.org/pipelines/lang-mns/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 These pages document the work on the [Mansi language model](https://github.com/giellalt/lang-mns).
 
