@@ -4,20 +4,20 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-disambiguator.cg3.md 
+## src-cg3-disambiguator.cg3.md 
 
 
-# N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
+## N O R T H E R N   M A N S I   D I S A M B I G U A T O R          
 
 **Nore!** Some tag declarations or sets may be left from copying this file from sma.
 
-## Delimiters , tags and sets
+### Delimiters , tags and sets
 
 @CODE
 
-## Tags and sets 
+### Tags and sets 
 
-### Tags declared as single-membered LISTs 
+#### Tags declared as single-membered LISTs 
 
 * LIST N = N ;
 * LIST Sg = Sg ;
@@ -108,7 +108,7 @@ All doc-comment documentation in one large file.
 * LIST Der2 = Der2 ;
 * LIST Der3 = Der3 ;
 
-### Semantic tags
+#### Semantic tags
 
 * LIST Sem/Ani = Sem/Ani ; 
 * LIST Sem/Fem = Sem/Fem ; 
@@ -128,7 +128,7 @@ All doc-comment documentation in one large file.
 * LIST Sem/Food = Sem/Food ; 
 * SET FIRSTNAME = (Prop Sem/Fem) OR (Prop Sem/Mal) ; 
 
-### Syntactic tags
+#### Syntactic tags
 
 * LIST @CNP = @CNP ; 
 * LIST @CVP = @CVP ; 
@@ -192,9 +192,9 @@ All doc-comment documentation in one large file.
 * LIST @VOC = @VOC ; 
 * LIST @X = @X ; 
 
-### Sets
+#### Sets
 
-#### Grammatical sets
+##### Grammatical sets
 
 * LIST CASES = Nom Acc Gen Par Loc Abl Lat Tra ; 
 * LIST ADVLCASE = Loc Abl Lat Tra ; 
@@ -203,7 +203,7 @@ All doc-comment documentation in one large file.
 * SET REALWORD = WORD - Num - Ord ; 
 * SET REALWORD-NOTABBR = WORD - Num - Ord - ABBR ; 
 
-#### Sets for NP identification
+##### Sets for NP identification
 
 * LIST NOT-ADV-INT-PCLE = N A Num Pron A V CC CS ; 
 * SET NOT-ADV = WORD - Adv ; 
@@ -214,11 +214,11 @@ All doc-comment documentation in one large file.
 * SET NPNHA = WORD - PRE-NP-HEAD OR (ABBR) OR Adv ; 
 * SET NPNHAI = WORD - PRE-NP-HEAD - Adv - Indef ; 
 
-#### Noun sets
+##### Noun sets
 
 * SET PX = PxSg1 OR PxSg2 OR PxSg3 OR PxDu1 OR PxDu2 OR PxDu3 OR PxPl1 OR PxPl2 OR PxPl3 ; 
 
-#### Verb sets
+##### Verb sets
 
 The set REALCOPULAS is smaller than COPULAS, made for verbs with PrfPrc complements: Seammás REALCOPULAS son dovdan iežas...
 * LIST REALCOPULAS = "lea" ; 
@@ -240,50 +240,50 @@ but they are nevertheless mapped to (@+FAUXV).
 * SET NOT-NP = VFIN-NOT-NEG OR ConNeg OR Inf OR Pcle OR Interj OR CS ; 
 The set NP-BOUNDARY is bigger. 
 
-#### Boundary sets
+##### Boundary sets
 
 Empty for now.
 
-## Disambiguation rules
+### Disambiguation rules
 
-### BEFORE-SECTIONS
+#### BEFORE-SECTIONS
 
 **Rule: Date1** for adding Sem/Date as a tag to readings which looks like dates.
 **Rule: Date2** for adding Sem/Date as a tag to readings which looks like dates.
 **Rule: Date3** for adding Sem/Date as a tag to readings which looks like dates.
 **Rule: Date4** for adding Sem/Date as a tag to readings which looks like dates.
 
-### SECTION
+#### SECTION
 
-### Cycle 0: No context around the target word
+#### Cycle 0: No context around the target word
 
 Still no rules written. 
 
-### Cycle 1: Local context around the target word
+#### Cycle 1: Local context around the target word
 
 **Rule: Attr** removes Pos and keeps Attr for A in front of A or N.
 
 **Rule: Pos** removes Attr and keeps Pos for A if no .
 
-### Cycle 2: Slightly less local context
+#### Cycle 2: Slightly less local context
 
 Still no rules written. 
 
-## Number rules
+### Number rules
 
-### Dual
+#### Dual
 
-## NP rules
+### NP rules
 
-### Attributive
+#### Attributive
 
 Determiner
 
-### Cycle 3: Global disambiguation 
+#### Cycle 3: Global disambiguation 
 Still no rules written. 
-### Cycle 4: Syntactic disambiguation 
+#### Cycle 4: Syntactic disambiguation 
 Still no rules written. 
-### Cycle 5: Post-syntactic morphological disambiguation
+#### Cycle 5: Post-syntactic morphological disambiguation
 Still no rules written. 
 
 * * *
@@ -292,7 +292,7 @@ Still no rules written.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -331,7 +331,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -450,16 +450,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -467,7 +467,7 @@ These were the set types.
 
 ---
 
-# src-fst-mansi-lexicon.lexc.md 
+## src-fst-mansi-lexicon.lexc.md 
 
 
 
@@ -477,9 +477,9 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
-# Adjective inflection for Northern Mansi
+## Adjective inflection for Northern Mansi
 
 Almost no work on adjectives yet.
 
@@ -493,9 +493,9 @@ Almost no work on adjectives yet.
 
 ---
 
-# src-fst-morphology-affixes-adverbs.lexc.md 
+## src-fst-morphology-affixes-adverbs.lexc.md 
 
-# Adverbs for Northern Mansi
+## Adverbs for Northern Mansi
 
 No work on adverbs yet.
 
@@ -509,16 +509,16 @@ No work on adverbs yet.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Noun inflection for Mansi
+## Noun inflection for Mansi
 
 This file contains the noun inflection. 
 
 All Mansi nouns have the same suffixe, thus only one continuation lexica.
 The stem vowel alternation is taken care of in the twolc file.
 
-## The lexicon
+### The lexicon
 * LEXICON N_VI Stems ending in и ы: а̄ви
 put derivations here
 * LEXICON N0_VI Stems ending in и ы: а̄ви
@@ -558,19 +558,19 @@ put derivations here
 * LEXICON N0_VCCS Stems ending in soft consonant cluster
 
 **LEXICON N1_** There are three Mansi noun lexicons, divided according to number Sg, Du, Pl, such that Propernouns are singular. They has entries of two types:
-### 1. Non-possessive forms 
+#### 1. Non-possessive forms 
 affixes for Nom, Loc, Lat, Abl, Ins, Tra.
 
-### 2. Possessive forms
+#### 2. Possessive forms
 Affixes for pissessive suffixes + case forms.
 
-### 2. Possessive forms
+#### 2. Possessive forms
 Affixes for pissessive suffixes + case forms.
 
-### 2. Possessive forms
+#### 2. Possessive forms
 Affixes for pissessive suffixes + case forms.
 
-### 3. Derivation forms
+#### 3. Derivation forms
 This points all nouns to **A_** via the *-ыӈ* syffix and to **Adv** via the *-ыщ* derivational suffix.
 
 sg x pxsg1
@@ -656,9 +656,9 @@ pl x pxpl1 has no variation
 
 ---
 
-# src-fst-morphology-affixes-numerals.lexc.md 
+## src-fst-morphology-affixes-numerals.lexc.md 
 
-# Numerals for Northern Mansi
+## Numerals for Northern Mansi
 
 No much work on numerals yet.
 
@@ -674,10 +674,10 @@ No much work on numerals yet.
 
 ---
 
-# src-fst-morphology-affixes-postpositions.lexc.md 
+## src-fst-morphology-affixes-postpositions.lexc.md 
 
 
-# Postposition morphology
+## Postposition morphology
 
 **LEXICON PO_ZERO_OR_PX** going to K (check, perhaps bad idea) and to Px forms.
 
@@ -687,9 +687,9 @@ No much work on numerals yet.
 
 ---
 
-# src-fst-morphology-affixes-prefixes.lexc.md 
+## src-fst-morphology-affixes-prefixes.lexc.md 
 
-# Prefixes for Northern Mansi verbs
+## Prefixes for Northern Mansi verbs
 
 * * *
 
@@ -697,9 +697,9 @@ No much work on numerals yet.
 
 ---
 
-# src-fst-morphology-affixes-pronouns.lexc.md 
+## src-fst-morphology-affixes-pronouns.lexc.md 
 
-# Pronouns for Northern Mansi
+## Pronouns for Northern Mansi
 
 This file is (still) not needed, as the personal pronoun forms are listed in the stem file.
 
@@ -709,9 +709,9 @@ This file is (still) not needed, as the personal pronoun forms are listed in the
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
-# Proper noun inflection for Northern Mansi
+## Proper noun inflection for Northern Mansi
 
 So far no work on Northern Mansi proper nouns.
 It will contain two parts: A general Russian name base
@@ -729,10 +729,10 @@ and Mansi-specific names.
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Mansi Symbol affixes
+## Mansi Symbol affixes
 
 **LEXICON Noun_symbols_possibly_inflected** 
 
@@ -750,9 +750,9 @@ and Mansi-specific names.
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Verb inflection for Mansi
+## Verb inflection for Mansi
 
 put derivations here
 
@@ -774,7 +774,7 @@ put derivations here
 
 :у INF ;
 
-## Stems ending in C
+### Stems ending in C
 LEXICON V_NSHU йинуӈкве
 
 LEXICON V_NSSU о̄ньщуӈкве
@@ -827,17 +827,17 @@ Active Indicative Preterite
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# The Mansi morphophonological/twolc rule file
+## The Mansi morphophonological/twolc rule file
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-mns/blob/main/src/fst/phonology.twolc) 
 
 Скрибник Е.К. & К.В. Афанасьева 2007:
 Практически курс манийского языка, Часть 1. Ханты-Мансийск. Полиграфист.
 
-## Alphabet, sets and definitions
-### Alphabet
+### Alphabet, sets and definitions
+#### Alphabet
 Basic letters:
 * **а б в г д е ё ж з и й к л м н о п р с т** 
 * **у ф х ц ч ш щ ъ ы ь э ю я ӈ** 
@@ -851,7 +851,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **Ӣ Ӯ** precomposed long vowels
 * **а̄ е̄ о̄ ы̄ э̄ ю̄ я̄ ё̄ А̄ Е̄ О̄ Ы̄ Э̄ Ю̄ Я̄** non-precomposed long vowels
 
-#### Archiphones
+##### Archiphones
 
 * **%{аяØ%}:0** PxPl3 %{аяØ%}ныл
 * **%{ыиØ%}:0** Loc and Ins and ...
@@ -871,7 +871,7 @@ Precomposed letters are used when available, otherwise non-composed ones.
 * **%{уØ%}:у** specific floating vowel +N+Sg+PxDu1+Nom %{уØ%} м е̄ н
 * **%{тØ%}:0** PxSg3, Ins
 
-#### Triggers
+##### Triggers
 __%{VO%}:0__ Stem ending in vowel other than и ы
 __%{VI%}:0__ Stem ending in vowel и or ы
 __%{SYNCH%}:0__ Stem with syncope with и, ы, у hard
@@ -892,7 +892,7 @@ __%{VU%}:0__ -уӈкве verb
 * **%^RmVow:0** Word-final vowel removal
 * **%^Syncope:0** This triggers syncope with no reason to place special letters in the stem.
 
-#### Literal quotes and angles
+##### Literal quotes and angles
 These must be escaped (cf morpheme boundaries below):
 
 * »7
@@ -900,11 +900,11 @@ These must be escaped (cf morpheme boundaries below):
 * >
 * <
 
-### Boundaries
+#### Boundaries
 
  **%> #** for suffix and word end
 
-#### Morpheme boundaries:
+##### Morpheme boundaries:
 * **«** = Derivational prefix
 * **»** = Derivational suffix
 * **%<** = Inflectional prefix
@@ -916,7 +916,7 @@ These must be escaped (cf morpheme boundaries below):
 
 End of alphabet definitions
 
-### Sets
+#### Sets
 
 * **Vow = а е и о у ы э ю я**
  **А Е И О У Ы Э Ю Я**
@@ -938,13 +938,13 @@ End of alphabet definitions
  **Д З Л Н С Т ;**
 * **Cns = CnsSoft CnsNonAlv CnsAlv р Р й Й ;**
 
-### Definitions
+#### Definitions
 
 * **PostSyncStem = :Cns ;** 
 
-## Rules
+### Rules
 
-### Syncope rules
+#### Syncope rules
 
 **RULE: Syncope for ы**  
 
@@ -981,7 +981,7 @@ End of alphabet definitions
 * *яныг{SYNCH}>{ыиØ}т*
 * *ян0г0>ыт*
 
-### Vowel lengthening rules
+#### Vowel lengthening rules
 
 **RULE: a becomes long**
 
@@ -991,7 +991,7 @@ End of alphabet definitions
 
 **RULE: long y disappears**
 
-#### Tests:
+##### Tests:
 
 * *ха̄п>{йØ}ыт*
 * *ха̄п>0ыт*
@@ -1000,12 +1000,12 @@ End of alphabet definitions
 * *паль{VCS}>ныл*
 * *паль0>ныл*
 
-#### Tests:
+##### Tests:
 
 * *паль{VCS}>{йØ}{ыиØ}т*
 * *пал00>0ит*
 
-#### Tests:
+##### Tests:
 
 * *а̄ны{VI}>{йØ}{ыиØ}г*
 * *а̄ны0>0иг*
@@ -1013,7 +1013,7 @@ End of alphabet definitions
 * *аки{VI}>{йØ}{ыиØ}г*
 * *аки0>0иг*
 
-### Rules for ы/и/ь in different contexts
+#### Rules for ы/и/ь in different contexts
 
 павыл+N+Sg+Loc:
 * *павыл{SYNCH}>{ыиØ}т*
@@ -1032,23 +1032,23 @@ End of alphabet definitions
 * *паль{VCS}>ыт*
 * *пал00>ит*
 
-#### Tests:
+##### Tests:
 * *ве̄рмы%>%{ЫИ%}янэ*
 * *ве̄рм0%>иянэ*
 
-#### Tests:
+##### Tests:
 
 * *вармаль{VCS}>{ыиØ}т*
 * *вармал00>ит*
 * ★*та̄л{VCS}>{ыиØ}г* (is not standard language)
 * ★*та̄л0>иг* (is not standard language)
 
-#### Tests:
+##### Tests:
 
 * *са̄лы{VI}>{аяØ}гын*
 * *са̄лы0>ягын*
 
-#### Tests:
+##### Tests:
 
 * *са̄лы{VI}>{уюØ}м*
 * *са̄лы0>0м*
@@ -1066,7 +1066,7 @@ End of alphabet definitions
 * *кул00>ил*
 XX+V+Inf: ****
 
-#### Tests:
+##### Tests:
 
 ха̄ль+N+Sg+Nom+PxSg3
 * *ха̄ль{VCS}>{тØ}{ЭЕ}*
@@ -1079,7 +1079,7 @@ XX+V+Inf: ****
 * *павыл{SYNCH}>ыт*
 * *пав0л0>ыт*
 
-### Stem vowel rules
+#### Stem vowel rules
 
 __%{аяØ%}:0__ deletes а/я after VO vowel stems
 
@@ -1109,7 +1109,7 @@ __%{уюØ%}:ю__
 * *кӯщай{VCS}>{уюØ}в*
 * *кӯща00>юв*
 
-### Suffix vowel lengthening
+#### Suffix vowel lengthening
 
 __%{аяLong%}:а̄__
 
@@ -1144,7 +1144,7 @@ tотуӈкве+V+Ind+Prs+ScPl1+OcSg:
 
 __%{ЫИ%}:и__
 
-### Consonant rules
+#### Consonant rules
 
 __й:0__
 коюӈкве+V+Inf: ****
@@ -1187,16 +1187,16 @@ __й:0__
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-# Mansi morphological analyser                      
+## Mansi morphological analyser                      
 This file declares the multicharacter symbols used to analyse Mansi, as well as gives the
 basic **Root** lexicon.
 
-# **Multichar_Symbols**definitions
+## **Multichar_Symbols**definitions
 
-## Multicharacter letters in the alphabet
+### Multicharacter letters in the alphabet
 Vowels with a macron
 
 * а̄ е̄ ё̄ ӣ о̄ ӯ ы̄ э̄ ю̄ я̄ also composed и, у
@@ -1204,12 +1204,12 @@ Vowels with a macron
 Vowels with precomposed macron, in the code we use 
 * %+ suffix border
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for the Mansi
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
-### The parts-of-speech are:
+#### The parts-of-speech are:
 * **+N**  
 * **+A**  
 * **+Adv**  
@@ -1226,7 +1226,7 @@ language are presented in this system in terms of the following symbols.
 * **+Prc**  
 * **+Det**  
 
-### The parts of speech are further split up into:
+#### The parts of speech are further split up into:
 
 * **+Prop** 
 * **+Pers** 
@@ -1240,7 +1240,7 @@ language are presented in this system in terms of the following symbols.
 * **+Indef** 
 * **+Aux** Auxiliary
 
-### The Usage extents are marked using following tags:
+#### The Usage extents are marked using following tags:
 * **+Err/Orth**  do not accept, but recognize
 * **+Err/Orth-no-hyphen**  do not accept, preverb merged without hyphen
 * **+Err/Orth-long-v**  do not accept, but recognize vowel is long
@@ -1249,10 +1249,10 @@ language are presented in this system in terms of the following symbols.
 * **+Use/SpellNoSugg** recognized but not suggested in speller
 * **+Use/GC** – **only** retained in the HFST Grammar Checker disambiguation analyser
 
-## Dialect tags:
+### Dialect tags:
 * **+Dial/-SOSV** forms not in use in SOSV (Sosva)
 
-### The nominals are inflected in the following Case and Number
+#### The nominals are inflected in the following Case and Number
 * **+Sg +Du +Pl** 
 * **+Nom** 
 * **+Acc**
@@ -1268,7 +1268,7 @@ language are presented in this system in terms of the following symbols.
 * **+Dat** Dative
 * **+Ela** Elative
 
-### The comparative forms are:
+#### The comparative forms are:
 * **+Pos** 
 * **!+Comp** 
 * **+Superl** 
@@ -1277,7 +1277,7 @@ language are presented in this system in terms of the following symbols.
 * **+Arab** - Arabic numeral 
 * **+Rom** - Roman numeral
 
-### Number, person and mod
+#### Number, person and mod
 
 * **+Card +Ord**  Numerals are classified under:
 * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**  Personal pronouns are marked as
@@ -1289,15 +1289,15 @@ language are presented in this system in terms of the following symbols.
 * **+TV +IV** for transitive, intransitive
 * **+Trans** hmm, Trans and TV?
 
-### Compounded words
+#### Compounded words
 * **+Cmp/Coll** collective noun with inflection in two stems а̄гирищит-пы̄грищит
 * **+Cmp** compounding
 
-### Abbreviated words are classified with:
+#### Abbreviated words are classified with:
 * **+ABBR +ACR** 
 * **+Symbol** = independent symbols in the text stream, like £, €, ©
 
-### Special symbols are classified with:
+#### Special symbols are classified with:
 * **+CLB +PUNCT +LEFT +RIGHT +MIDDLE**
 * **+CLBfinal** Sentence final abbreviated expression ending in full stop, so that the full stop is ambiguous
 
@@ -1306,7 +1306,7 @@ language are presented in this system in terms of the following symbols.
 
 * **+Qst +Foc** Question and Focus particles
 
-### Tags distinguishing different versions of the same lemma (before POS)
+#### Tags distinguishing different versions of the same lemma (before POS)
 * **+v1**
 * **+v2**
 * **+v3**
@@ -1384,7 +1384,7 @@ source and target part-of-speech.
 * **+OLang/RUS** = Russian
 * **+OLang/UND** = Undefined
 
-## Symbols that need to be escaped on the lower side (towards twolc):
+### Symbols that need to be escaped on the lower side (towards twolc):
 * **»7**:  Literal »
 * **«7**:  Literal «
 **%[%>%]**- Literal >
@@ -1395,7 +1395,7 @@ source and target part-of-speech.
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
 
-## Morphophonology
+### Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols (archiphones) in the lexicon files:
 __%{аяØ%}__ PxPl3 %{аяØ%}ныл
@@ -1429,7 +1429,7 @@ __%{VA%}__ -аӈкве verb
 __%{VU%}__ -уӈкве verb
 __%^RmVow__ stem-final vowel removal
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -1641,7 +1641,7 @@ problematic
 * @D.NUM.PL@ 
 * @C.NUM@ 
 
-# FLAGS USED WITH VERB PREFIXES
+## FLAGS USED WITH VERB PREFIXES
 * @U.VPref.akwan@
 * @U.VPref.jol@
 * @U.VPref.jola@
@@ -1737,13 +1737,13 @@ problematic
 * @D.VPref2.ta@
 * @D.VPref2.ty@
 
-# FLAGS USED WITH ERRORS, ORTHOGRAPHIC or others
+## FLAGS USED WITH ERRORS, ORTHOGRAPHIC or others
 * @U.ERRORTH.nohyphen@ +Err/Orth-no-hyphen
 * @R.ERRORTH.nohyphen@
 * @D.ERRORTH.nohyphen@
 
-# FLAGS USED WITH COLLECTIVE NOUNS
-## number
+## FLAGS USED WITH COLLECTIVE NOUNS
+### number
 * @U.DECL-NX.SG@
 * @U.DECL-NX.DU@
 * @U.DECL-NX.PL@
@@ -1788,7 +1788,7 @@ Removal
 | @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 | @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
-## The basic lexica
+### The basic lexica
 
 **LEXICON Root** 
 The word forms in the MANSI language start from the lexeme roots of basic
@@ -1819,9 +1819,9 @@ word classes, or optionally from prefixes:
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
-# Adjectives in Mansi
+## Adjectives in Mansi
 
 **LEXICON Adjectives**
 
@@ -1833,9 +1833,9 @@ word classes, or optionally from prefixes:
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
-# Adverbs
+## Adverbs
 
 Adverbs in the Northern Mansi
 
@@ -1849,10 +1849,10 @@ ADD ADVERBS BELOW
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
 
-# Conjunctions in Northern Mansi
+## Conjunctions in Northern Mansi
 
 The tag is +CC
 
@@ -1871,10 +1871,10 @@ so far only 3 of them. Is is important that we distinguish CC from CS
 
 ---
 
-# src-fst-morphology-stems-interjections.lexc.md 
+## src-fst-morphology-stems-interjections.lexc.md 
 
 
-# Interjections in Northern Mansi
+## Interjections in Northern Mansi
 
 The tag is +Interj
 
@@ -1887,9 +1887,9 @@ so far only a single one.
 
 ---
 
-# src-fst-morphology-stems-mns-propernouns.lexc.md 
+## src-fst-morphology-stems-mns-propernouns.lexc.md 
 
-# New propernouns
+## New propernouns
 
 This is where new words are added as lexc entries before they are 
 added to the xml source files.
@@ -1910,11 +1910,11 @@ ADD PROPER NOUNS BELOW
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
-# Mansi Noun stems
+## Mansi Noun stems
 
-## The continuation lexica
+### The continuation lexica
 
 Explaining the contlex naming convention:
 - V = Vowel, C = Consonant
@@ -1938,7 +1938,7 @@ This gives us the following stem types:
 - If the words are homographs of the Russian Nominative Singular, the additional
 _rus100 segment is added, e.g., буква+N:буква N_VO_rus100
 
-## The lexicon entries
+### The lexicon entries
 
 **LEXICON Nouns** gives all the nouns, contlex **N1_**, regardless of stem form (V-, C- final, palatal or not, syllable number). Here some random example entries:
 
@@ -1973,9 +1973,9 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
-# Numerals in Northern Mansi
+## Numerals in Northern Mansi
 
 **LEXICON Numerals** to lexicon numera
 
@@ -1987,9 +1987,9 @@ new nouns from translative case attestation. Csilla check nouns below. 20230522
 
 ---
 
-# src-fst-morphology-stems-participles.lexc.md 
+## src-fst-morphology-stems-participles.lexc.md 
 
-# Participle stems
+## Participle stems
 
 Just a dummy file.
 **LEXICON PRC_** 
@@ -2002,9 +2002,9 @@ Just a dummy file.
 
 ---
 
-# src-fst-morphology-stems-postpositions.lexc.md 
+## src-fst-morphology-stems-postpositions.lexc.md 
 
-# Postpositions
+## Postpositions
 
 **LEXICON Postpositions** is the lexicon, containing 3 Po so far.
 
@@ -2016,9 +2016,9 @@ Relator nouns
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
-# Pronouns in Northern Mansi
+## Pronouns in Northern Mansi
 
 The file lists personal pronouns and their lemma + tags.
 
@@ -2044,11 +2044,11 @@ The file lists personal pronouns and their lemma + tags.
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Mansi verb stems
+## Mansi verb stems
 
-## The lexica themselves
+### The lexica themselves
 
 **LEXICON Verbs** is the list of all verbstems
 
@@ -2064,7 +2064,7 @@ The file lists personal pronouns and their lemma + tags.
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -2233,11 +2233,11 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
-# Mansi abbreviations                               
+## Mansi abbreviations                               
 
 We describe here how abbreviations are in Mansi are read out, e.g.
 for text-to-speech systems.
@@ -2258,10 +2258,10 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-date-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-date-digit2text.lexc.md 
 
 
-# The Mansi dates 
+## The Mansi dates 
 
 Note!  This file contains Erzya, not Mansi, this should be changed to Mansi.
 
@@ -2275,26 +2275,26 @@ Note!  This file contains Erzya, not Mansi, this should be changed to Mansi.
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 N O R T H E R N   M A N S I  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -2321,7 +2321,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -2337,7 +2337,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -2400,7 +2400,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -2433,7 +2433,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -2503,22 +2503,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -2529,11 +2529,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -2541,7 +2541,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -2553,25 +2553,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -2579,9 +2579,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for mns
+## Tokeniser for mns
 
 Usage:
 ```
@@ -2626,7 +2626,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -2645,9 +2645,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for mns
+## Grammar checker tokenisation for mns
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -2710,9 +2710,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
