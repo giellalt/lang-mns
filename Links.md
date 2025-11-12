@@ -35,6 +35,7 @@
         * `transcriptions/`
             * [transcriptor-abbrevs2text.lexc](src-fst-transcriptions-transcriptor-abbrevs2text.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc))
             * [transcriptor-date-digit2text.lexc](src-fst-transcriptions-transcriptor-date-digit2text.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/transcriptions/transcriptor-date-digit2text.lexc))
+            * [transcriptor-symbols2text.lexc](src-fst-transcriptions-transcriptor-symbols2text.lexc.html) ([src](https://github.com/giellalt/lang-mns/blob/main/src/fst/transcriptions/transcriptor-symbols2text.lexc))
 * `tools/`
     * `grammarcheckers/`
         * [grammarchecker.cg3](tools-grammarcheckers-grammarchecker.cg3.html) ([src](https://github.com/giellalt/lang-mns/blob/main/tools/grammarcheckers/grammarchecker.cg3))
