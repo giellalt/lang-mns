@@ -1,4 +1,4 @@
-## Inclusions: this is the real alphabet definition:
+ ## Inclusions: this is the real alphabet definition:
 а
 б
 в
@@ -102,6 +102,8 @@
 ӣ	и	1
 ӯ	у	1
 ӣ	ы	2
+с	щ	0
+С	Щ	0
 
 н	ӈ	5
 ӈ	н	5
