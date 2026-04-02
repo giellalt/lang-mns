@@ -18,6 +18,7 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 </div>
 
+
 These pages document the work on the [Mansi language model](https://github.com/giellalt/lang-mns).
 
 The Mansi analyser contains appr 6000 stems, and is in an early stage. It
