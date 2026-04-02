@@ -27,7 +27,6 @@ running text and is in use in a Mansi e-dictionary.  For questions,
 contact Csilla Horvath, Jack Rueter or Trond Trosterud.
 
 
-
 ## Documentation and resources
 
 ### HOWTO for developers
