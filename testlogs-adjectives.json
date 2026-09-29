@@ -1,0 +1,1 @@
+{"id":"adjectives","kind":"lemma","failures":[{"lemma":"трудовой","no_generation":[],"wrong_generation":[{"expected":"трудовой+A+Sg+Nom","got":"трудово"},{"expected":"трудовой+A+Sg+Nom","got":"трудово"}],"analyses":[]}]}
